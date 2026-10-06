@@ -165,11 +165,47 @@ def check_public_math(text):
         assert not re.search(r"(?<!\\)[<>]", tex), "Use HTML-safe TeX relation macros"
         assert not re.search(r"\\nolimits[A-Za-z]", tex), "Missing TeX token separator"
         if match.group(1) is not None:
+            assert not match.group().startswith((" ", "\t")), "GitHub leaves nested math fences as code blocks"
             expression = re.sub(r"\\tag\*?\s*\{[^}]*\}\s*$", "", tex).strip()
             assert is_display_container(expression), "Display needs a complete outer row container"
     return {"formula_count": len(formulas),
             "display_count": sum(m.group(1) is not None for m in formulas),
             "unsafe_operator_macros": 0, "ungrouped_displays": 0}
+
+
+def standalone_math_lists(text):
+    """Present list definitions containing displays as independent paragraphs.
+
+    GitHub currently leaves math fences nested in list items as literal code.
+    Removing the list markers and continuation indentation preserves the words
+    and mathematical tokens and permits the regular display-math renderer.
+    """
+    lines = text.splitlines(keepends=True)
+    output, index = [], 0
+    marker = re.compile(r"^[-*+] ")
+    while index < len(lines):
+        if not marker.match(lines[index]):
+            output.append(lines[index])
+            index += 1
+            continue
+        end = index + 1
+        while end < len(lines) and (not lines[end].strip()
+                                    or lines[end].startswith((" ", "\t"))
+                                    or marker.match(lines[end])):
+            end += 1
+        group = lines[index:end]
+        if any(re.match(r"^[ \t]+```math", line) for line in group):
+            for line in group:
+                if marker.match(line):
+                    if output and output[-1].strip():
+                        output.append("\n")
+                    output.append(line[2:])
+                else:
+                    output.append(line[2:] if line.startswith("  ") else line)
+        else:
+            output.extend(group)
+        index = end
+    return "".join(output)
 
 
 def build_readme(text):
@@ -251,7 +287,7 @@ def build(source):
     protected_source.append(source[cursor:])
     protected_target.append(source[cursor:])
     assert protected_source == protected_target
-    result = "".join(output)
+    result = standalone_math_lists("".join(output))
     check_public_math(result)
     assert re.findall(r"\\tag\*?\s*\{([^}]*)\}", source) == re.findall(r"\\tag\*?\s*\{([^}]*)\}", result)
     # No unsupported source delimiter remains outside the emitted math fences.
@@ -297,15 +333,18 @@ def self_test():
     assert build_readme(readme)[0] == readme
     indented, _ = build("- A list item:\n\n  \\[a=b\\]" + "\n")
     assert check_public_math(indented)["display_count"] == 1
-    assert "\n  \\end{gathered}\n  ```" in indented
-    for bad in ["```math\n" + matrix + "\n```", "$`" + r"\operatorname{Re}z" + "`$"]:
+    assert "\n\\end{gathered}\n```" in indented
+    assert indented.startswith("A list item:")
+    assert standalone_math_lists(indented) == indented
+    for bad in ["```math\n" + matrix + "\n```", "$`" + r"\operatorname{Re}z" + "`$",
+                "  ```math\n  " + r"\begin{gathered}a=b\end{gathered}" + "\n  ```"]:
         try:
             check_public_math(bad)
         except AssertionError:
             pass
         else:
             raise AssertionError("Regression check accepted a known GitHub rendering bug")
-    return {"status": "PASS", "checks": ["all source delimiters", "tag preservation", "HTML-safe comparisons", "table-safe single and double bars", "annotated implication", "multiline inline TeX whitespace", "leading matrix products and coefficient row", "whole-environment recognition", "untagged piecewise expressions", "README safe macros", "idempotent containers", "known rendering-bug rejection"]}
+    return {"status": "PASS", "checks": ["all source delimiters", "tag preservation", "HTML-safe comparisons", "table-safe single and double bars", "annotated implication", "multiline inline TeX whitespace", "leading matrix products and coefficient row", "whole-environment recognition", "untagged piecewise expressions", "README safe macros", "list displays as standalone paragraphs", "idempotent containers", "known rendering-bug rejection"]}
 
 
 def main():
@@ -347,6 +386,7 @@ def main():
             "equation_tag_count": sum(len(r["equation_tags"]) for r in records),
             "formula_order_preserved": True,
             "prose_unchanged": True,
+            "list_displays_as_standalone_definition_paragraphs": True,
             "all_changes_registered": True,
             "native_github_math_delimiters": True,
             "table_pipes_protected": True,

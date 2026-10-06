@@ -8,6 +8,8 @@ The canonical editable sources are `report-source.md` and `rough-heston-source.m
 
 `scripts/build_github_manuscripts.py` also checks and normalizes the README's mathematical displays. It replaces unsupported operator macros with equivalent base TeX and groups each complete display in a row environment, keeping matrix products and their equation numbers together. Equation (2.11) presents the matrix system and coefficient identities on two rows. The manuscript check rejects unsupported operator macros and incomplete display containers; its regression cases include matrices, piecewise expressions, and displays inside lists.
 
+Definitions containing displays are presented as independent paragraphs in the GitHub edition, because GitHub leaves mathematical fences nested inside list items as literal code blocks. Their wording, mathematical content, and equation numbers are retained.
+
 `scripts/build_pdf.py` protects every formula before interpreting prose, sends TeX expressions to MathJax 3.2.2, and draws their SVG outlines as native PDF forms. It records the source and output hashes, formula count, equation tags, and display placements. Rebuilding requires the dependencies listed in `scripts/requirements.txt` and `package.json`.
 
 ```sh

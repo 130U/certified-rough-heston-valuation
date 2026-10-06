@@ -779,27 +779,30 @@ Errors in $`Z`$ and $`H`$ use the same state scale; recovery of $`h`$ requires d
 
 The object class $`\mathcal X`$ consists of equation parameters, a precisely specified approximate trajectory, and its time interval. Common admissibility requirements are $`AC[0,X]`$, local Lipschitz continuity at positive times, zero initial value, and the classical Caputo residual. Define:
 
-- **Real-valued condition $`A_{\mathrm{real}}`$:** $`\rho u=0`$; the trajectory is real-valued, $`\widehat H(0)=0`$, and $`\widehat H\le0`$, with an independent residual envelope. Real-order comparison applies to this class. Shape preservation at the central frequency supplies this condition directly.
-- **Trajectory condition $`H_{\mathrm{diss}}`$:** $`\widehat H\in AC[0,X]`$, local Lipschitz continuity at positive times, and zero initial value; an independently certified constant $`\varepsilon_R\ge0`$ satisfies $`\mathop{\mathrm{Re}}\nolimits \widehat H\le\varepsilon_R\le2s_0`$, and there is a continuous nonnegative envelope $`\eta\ge|D_x^\alpha\widehat H-F(\widehat H)|`$. Set $`\sigma=s_0-\varepsilon_R/2\ge0`$.
-- **Intermediate property $`M_{\mathrm{diss}}`$:** the complex error satisfies the positive-kernel comparison
-  ```math
-  \begin{gathered}
-  |H(x)-\widehat H(x)|\le\int_0^x k_\sigma(x-t)\eta(t)\,dt,
-    \quad k_\sigma(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\sigma t^\alpha)\ge0.
-  \end{gathered}
-  \tag{R4}
-  ```
-- **State conclusion $`B_{\mathrm{state}}`$:** when $`\eta\le\delta`$, the computable error bound is
-  ```math
-  \begin{gathered}
-  |H-\widehat H|\le
-    \begin{cases}
-    \delta\{1-E_\alpha(-\sigma x^\alpha)\}/\sigma\le\delta/\sigma,&\sigma\gt 0,\\
-    \delta x^\alpha/\Gamma(1+\alpha),&\sigma=0.
-    \end{cases}
-  \end{gathered}
-  \tag{R5}
-  ```
+**Real-valued condition $`A_{\mathrm{real}}`$:** $`\rho u=0`$; the trajectory is real-valued, $`\widehat H(0)=0`$, and $`\widehat H\le0`$, with an independent residual envelope. Real-order comparison applies to this class. Shape preservation at the central frequency supplies this condition directly.
+
+**Trajectory condition $`H_{\mathrm{diss}}`$:** $`\widehat H\in AC[0,X]`$, local Lipschitz continuity at positive times, and zero initial value; an independently certified constant $`\varepsilon_R\ge0`$ satisfies $`\mathop{\mathrm{Re}}\nolimits \widehat H\le\varepsilon_R\le2s_0`$, and there is a continuous nonnegative envelope $`\eta\ge|D_x^\alpha\widehat H-F(\widehat H)|`$. Set $`\sigma=s_0-\varepsilon_R/2\ge0`$.
+
+**Intermediate property $`M_{\mathrm{diss}}`$:** the complex error satisfies the positive-kernel comparison
+```math
+\begin{gathered}
+|H(x)-\widehat H(x)|\le\int_0^x k_\sigma(x-t)\eta(t)\,dt,
+  \quad k_\sigma(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\sigma t^\alpha)\ge0.
+\end{gathered}
+\tag{R4}
+```
+
+**State conclusion $`B_{\mathrm{state}}`$:** when $`\eta\le\delta`$, the computable error bound is
+```math
+\begin{gathered}
+|H-\widehat H|\le
+  \begin{cases}
+  \delta\{1-E_\alpha(-\sigma x^\alpha)\}/\sigma\le\delta/\sigma,&\sigma\gt 0,\\
+  \delta x^\alpha/\Gamma(1+\alpha),&\sigma=0.
+  \end{cases}
+\end{gathered}
+\tag{R5}
+```
 
 These conditions are verified from the known parameters, stored trajectory, and independent residual. The left-half-plane property of the exact solution is proved from the equation and is not supplied as numerical input.
 

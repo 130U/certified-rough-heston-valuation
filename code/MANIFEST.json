@@ -1,0 +1,392 @@
+{
+  "status": "PORTABLE_CODE_AND_FROZEN_INPUT_MANIFEST",
+  "hash": "sha256",
+  "artifacts": [
+    {
+      "path": "code/classical/field-cell-integrals.json",
+      "bytes": 2511574,
+      "sha256": "5d63cb0378ef28bdc5733bcc1fdb2aac8e5fcbb35cf854f4dea70b3668aefc63"
+    },
+    {
+      "path": "code/classical/field-independent-readback.json",
+      "bytes": 1696,
+      "sha256": "2939feff1dcb96ae3ec74d902ab6cf54374e5495aa6bb23e8a695327361ad239"
+    },
+    {
+      "path": "code/classical/field-result.json",
+      "bytes": 6009,
+      "sha256": "fd0c21fb97816db23f7b20348ceca8490bbc5b095fabc3ef275dbd42a22cd67d"
+    },
+    {
+      "path": "code/classical/field-validation.json",
+      "bytes": 1404,
+      "sha256": "99045fc96068b89d1adbcab9a12873013657d051d7a90d6ee1d943faa4de3365"
+    },
+    {
+      "path": "code/classical/input-validation.json",
+      "bytes": 679,
+      "sha256": "507ca17238a32eea385eb46256f7058e7a3a7a709ef898f305062ac6bff883ef"
+    },
+    {
+      "path": "code/classical/model_bounds.py",
+      "bytes": 4814,
+      "sha256": "9b17bf2070fb8727f91baa8409080b11866d04fea99e29f402fc99b439e2d9cd"
+    },
+    {
+      "path": "code/classical/provenance.json",
+      "bytes": 3262,
+      "sha256": "0123edfa0689d8ccb62bd4436225577757e27eeb7547715e75bcb5c983f91fef"
+    },
+    {
+      "path": "code/classical/terminal-validation.json",
+      "bytes": 9583,
+      "sha256": "f5236004447952516468b1c907b53426cb1cab8d899dc305d66a3bcc67163b71"
+    },
+    {
+      "path": "code/classical/terminal767-historical-review.json",
+      "bytes": 9936,
+      "sha256": "118cfa1cd3515ba6f2def7490990d1094a16334dff855430f7623e6bfdacaa51"
+    },
+    {
+      "path": "code/classical/terminal767-input.json",
+      "bytes": 317595,
+      "sha256": "5ad2c18e9336db16e3957b9b1f6669f0f9065a13991ebed8a0498df9b942524c"
+    },
+    {
+      "path": "code/classical/terminal767-result.json",
+      "bytes": 35737,
+      "sha256": "6534227ec14ac51dc20d2ca78aa96529c15cab4daf60df230ed00186d073b39e"
+    },
+    {
+      "path": "code/classical/verify_field_receipt.py",
+      "bytes": 4602,
+      "sha256": "aaf2659302fabebb67efa2a7b10d3069d800693b035ef850bee9eb17e3cb5749"
+    },
+    {
+      "path": "code/classical/verify_input_bounds.py",
+      "bytes": 1987,
+      "sha256": "bd598adbd7ef32ccb29130afca9a3b0d657b21922bbdfa4e9b988c8c901dcef9"
+    },
+    {
+      "path": "code/classical/verify_package.py",
+      "bytes": 1343,
+      "sha256": "29f47011664694e4afc4e8ca5a2e5b0974d301510bf93eea9f5c586732f08935"
+    },
+    {
+      "path": "code/classical/verify_terminal.py",
+      "bytes": 10002,
+      "sha256": "783362d3f1be7389cc553dfa7f7a8595babc23e824ce77b9e1fc248b21ba1874"
+    },
+    {
+      "path": "code/DATA.md",
+      "bytes": 2842,
+      "sha256": "a3db573486ba4f58373fe89c861295300bb73bb8fc24adaef86a965306f32ce2"
+    },
+    {
+      "path": "code/frozen/calibration-contract-finite-T05.json",
+      "bytes": 4553,
+      "sha256": "02a6f131c6dcef988bb6d8846672bd864190c38fe9334a1e86e763d2da0a8637"
+    },
+    {
+      "path": "code/frozen/compact-rough-layer-certificate.json.gz",
+      "bytes": 36365071,
+      "sha256": "409283b98f59051eacadeba2e3be87c3fee6cbd9b8ef794959c501ea581476b8"
+    },
+    {
+      "path": "code/frozen/compact-rough-layer-independent-check.json",
+      "bytes": 1520,
+      "sha256": "d059d15ccf084eba3a9942ba4ac7d0d4409716a1d27a5661eb9bf8407bf410ac"
+    },
+    {
+      "path": "code/frozen/direct-tail-certificate.json",
+      "bytes": 734805,
+      "sha256": "cd13a61d9049469420faa36a39987e16e5a0e5fc7b2a15bd53c05e855e07108b"
+    },
+    {
+      "path": "code/frozen/f8-price-betap9-u64-v3.json",
+      "bytes": 570941,
+      "sha256": "430c0e85da75086a31d18ac2252095a1ef92d13e85f69067f7ef08624ca9876f"
+    },
+    {
+      "path": "code/frozen/f8-price-point052-v3-u64.json",
+      "bytes": 573282,
+      "sha256": "fa82b70939b66f517e0c0bbb8ab8ec30ba5325ae1b32d33b284471a0f86ddb10"
+    },
+    {
+      "path": "code/frozen/f8-price-point06-v3-u64.json",
+      "bytes": 572660,
+      "sha256": "47b14d9fa17bd995372151ab1127e0de2435f83dfd13db5714597c3dbe6b3393"
+    },
+    {
+      "path": "code/frozen/field-input-guards-betap9-u80.json",
+      "bytes": 390,
+      "sha256": "2e4a540e3f30d214869ee12802af7462d17a0aa27d3b303cc7f88cff80798697"
+    },
+    {
+      "path": "code/frozen/field-residual-betap9-u64-v3.json",
+      "bytes": 125480,
+      "sha256": "57101cbaf094ef9aadf0a33bd7da8ac5f94b2322de46dbb1b48364b0fa9c2a23"
+    },
+    {
+      "path": "code/frozen/field-residual-certificate-point052-v3-u64.json",
+      "bytes": 124215,
+      "sha256": "af0c200e4f6415dc43de342240d9610dd26a2d8bafbe80a1ae153e37c2c41f89"
+    },
+    {
+      "path": "code/frozen/field-residual-certificate-point06-v3-u64.json",
+      "bytes": 124739,
+      "sha256": "94733dc9e5c51edaeaca798ffc69c151cb5badbe62e23acca404c6dbe9fc40f1"
+    },
+    {
+      "path": "code/frozen/finance-usecase-calculations.json",
+      "bytes": 11439,
+      "sha256": "ae71c0b95ccf8d085c0e0240eb0682d788e7341fa2185cfb4509731f6047a85b"
+    },
+    {
+      "path": "code/frozen/finite-candidate-calibration-result.json",
+      "bytes": 18274,
+      "sha256": "90dba2d20368a7825b9b263643aebcaf103b3e77d0a0a0268275944f4b3b41c9"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap52-u128-exponent-certificate.json",
+      "bytes": 953907,
+      "sha256": "962c63c86d579bc1cfe194e996dbcc074d4ee2c3b5e151109bc46413284abb68"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap52-u128-forward-weights.json",
+      "bytes": 305808,
+      "sha256": "74dbe1f266cbfa85cb2f1d413330f2f88970953590e1bc15ff62f3237be822c7"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap52-u128.json",
+      "bytes": 1424,
+      "sha256": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap52-u128.npz",
+      "bytes": 32146571,
+      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
+      "bytes": 953384,
+      "sha256": "9ec5908d7b0bc3e7c0805417ce616450b0e560c42bdf2ed04517fa3ac46596fc"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap6-u128-forward-weights.json",
+      "bytes": 306100,
+      "sha256": "ea1cdd5fb0bcc72a57f5a2755f8cd7554c457089ae8d6bab34ac44cf01d07a34"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap6-u128.json",
+      "bytes": 1422,
+      "sha256": "4f177fcb7bd192dab21f8faa83dd917be820e9c449af41b4d905c1f03bcaa969"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap6-u128.npz",
+      "bytes": 32139003,
+      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u128.json",
+      "bytes": 1422,
+      "sha256": "15a529bb7be240b2861bb49ae2baac639fe6d18d07de194ba7bbde4415b042b9"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u128.npz",
+      "bytes": 32105032,
+      "sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
+      "bytes": 597479,
+      "sha256": "710e46d6c2d0ac3659687b54b7b1e6230edb03783b977b1e3194a8c6c516a7cc"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u80-forward-weights.json",
+      "bytes": 154131,
+      "sha256": "9bb5e94600daffa67b5b9e32d2dc9379fc3ff30304daf980b3c83182865712ff"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u80.json",
+      "bytes": 1416,
+      "sha256": "a06128bd7bf6658ccf23223a2d48792477441a65cc0490eb16049da4d0fbb1dc"
+    },
+    {
+      "path": "code/frozen/fixed-field-betap9-u80.npz",
+      "bytes": 10050564,
+      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8"
+    },
+    {
+      "path": "code/frozen/frozen-field-input-validation.json",
+      "bytes": 618,
+      "sha256": "43f43a810ff4959b0662b06c2dbe186a7e9549e79fd5576a942622bcd538ac77"
+    },
+    {
+      "path": "code/frozen/frozen-pade-numeric-output.json",
+      "bytes": 8401,
+      "sha256": "4a04778284923a55c28f6507e46f57bb67c696a87ef118ace0e8962be79c110e"
+    },
+    {
+      "path": "code/frozen/normalized-quote-bands.json",
+      "bytes": 25374,
+      "sha256": "167a484d6e6dfe537f111df0b93512898d31d96995cffe25a212f2a5f83c3b10"
+    },
+    {
+      "path": "code/frozen/residual-node-certificate-betap9-u64-v3.json",
+      "bytes": 133170,
+      "sha256": "77779e7b99324bbac962d3ea171d907c4033466f0047f269b571a4fa96d1451e"
+    },
+    {
+      "path": "code/frozen/residual-node-certificate-point052-v3-u64.json",
+      "bytes": 132380,
+      "sha256": "84005e144927320df23970658d57d0c774870182f497c55f5890b77862d8be20"
+    },
+    {
+      "path": "code/frozen/residual-node-certificate-point06-v3-u64.json",
+      "bytes": 132636,
+      "sha256": "d28b46c6ac78336eb4486182e78fedbc65dcf7260f9fb1cd05c5287d4a5b5a74"
+    },
+    {
+      "path": "code/make-manifest.py",
+      "bytes": 1205,
+      "sha256": "4b7df56a932beeb8d781c4608aabe33c2265c985787b328fd52b9326687a86d0"
+    },
+    {
+      "path": "code/NOTICE.md",
+      "bytes": 1099,
+      "sha256": "dc05bb9874722f7c11db83799b800f7f4b48984cd0bb7e964359aacee00e783e"
+    },
+    {
+      "path": "code/PROVENANCE.json",
+      "bytes": 29670,
+      "sha256": "883f51b74ddf65048b8e4edfd5426155dc9741d0c0568c4913eeabbfeb0b7643"
+    },
+    {
+      "path": "code/QA-summary.json",
+      "bytes": 3216,
+      "sha256": "fa612a8478cd8fc91ed0b93def292c5ed9f6b067ae780feb5d59cc4b31ead765"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 5456,
+      "sha256": "d9ab8820fd137bb3d5de1055999c456d1edffe617cc8999b86b133b2919b3126"
+    },
+    {
+      "path": "code/replay-semantic-check.py",
+      "bytes": 3022,
+      "sha256": "ed66cce2576d79f8724104cda8c5817420303ad24fa0f9ec2f009736762e3254"
+    },
+    {
+      "path": "code/requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "path": "code/run.py",
+      "bytes": 18234,
+      "sha256": "548e0ee97f80e6c701531c619682e0f6dcfaccf7b9c22dce7c5cd7704a2abd52"
+    },
+    {
+      "path": "code/SCOPE.md",
+      "bytes": 2223,
+      "sha256": "f16e173a431edcd66d4b74e393cead150839be1de2b9759554195f67a5682165"
+    },
+    {
+      "path": "code/src/calibration-field-input-check.py",
+      "bytes": 1311,
+      "sha256": "bb3c514081033899e8dc583a16bc09f3d44df5f858c65253ab9e2772602950a6"
+    },
+    {
+      "path": "code/src/calibration-interval-aggregate.py",
+      "bytes": 8079,
+      "sha256": "317425b386b5ec8d1c6558a5b7a4bc59c7f515213f688b6c7518899a8749f88e"
+    },
+    {
+      "path": "code/src/certify-field-residual-v3.py",
+      "bytes": 20923,
+      "sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e"
+    },
+    {
+      "path": "code/src/combined-field-derivative.py",
+      "bytes": 3325,
+      "sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf"
+    },
+    {
+      "path": "code/src/compact-halfplane-certificate-v2-partial.py",
+      "bytes": 7407,
+      "sha256": "14296e1d25ed2841de3ee3bbc3f89410c6aade9c5cb621be1dd8504d1046959f"
+    },
+    {
+      "path": "code/src/compute-finance-usecase.py",
+      "bytes": 6948,
+      "sha256": "979592646eea909677d539e6f5ad00cbd17b25a284bfdff6a84ba0f1d625b977"
+    },
+    {
+      "path": "code/src/direct-tail-certificate.py",
+      "bytes": 3679,
+      "sha256": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e"
+    },
+    {
+      "path": "code/src/exact-forward-moments.py",
+      "bytes": 4966,
+      "sha256": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7"
+    },
+    {
+      "path": "code/src/exponent-field-certificate.py",
+      "bytes": 4616,
+      "sha256": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65"
+    },
+    {
+      "path": "code/src/f8-node-price-aggregate.py",
+      "bytes": 21192,
+      "sha256": "c3234845989a4cb9c9cdc8f1b820a09248e5721ef3bee3ae1769d42238d68b01"
+    },
+    {
+      "path": "code/src/field-residual-diagnostic.py",
+      "bytes": 4791,
+      "sha256": "788c4e65553942b623624fa23358475abff9c12fa935928f29fcf0ffdb42b8e3"
+    },
+    {
+      "path": "code/src/finite-candidate-objective-aggregate.py",
+      "bytes": 13590,
+      "sha256": "3e30cc0a44f8f16e09110865457e8a87c61abd0b8fddf4bf3b85fbd087026d2b"
+    },
+    {
+      "path": "code/src/freeze-pade-output.py",
+      "bytes": 3309,
+      "sha256": "06544d0266cea50d6b6806a2a12614c0d0655c2e567f120ad542b765a0c13f45"
+    },
+    {
+      "path": "code/src/interval-pade-certificate.py",
+      "bytes": 8944,
+      "sha256": "f2f371eefed6b550ceb308f4ac1075f68dba9850725029316212adaba41d494e"
+    },
+    {
+      "path": "code/src/price-profile-diagnostic.py",
+      "bytes": 6645,
+      "sha256": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19"
+    },
+    {
+      "path": "code/src/residual-certificate-adapter.py",
+      "bytes": 6496,
+      "sha256": "22d66d0f425cfe77c4952ef4f97584e58ba92f4d2d3b557e22f522b33a037ae8"
+    },
+    {
+      "path": "code/src/save-fixed-field.py",
+      "bytes": 3125,
+      "sha256": "50034ec247bab54410d8bbc7e5dbf6430adfa72b8145c3de3fae1eac1a5057db"
+    },
+    {
+      "path": "code/src/solver-diagnostic.py",
+      "bytes": 6573,
+      "sha256": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d"
+    },
+    {
+      "path": "docs/proof-map.md",
+      "bytes": 6376,
+      "sha256": "5bb66a6a0176723488fb1fcd7f459f3c03702d0e870ec8f808ee97cc53fc5b2a"
+    }
+  ],
+  "scope": "Own-code and frozen release bytes plus the proof map; manuscript/PDF identity is recorded by the top-level release process."
+}

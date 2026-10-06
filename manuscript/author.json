@@ -1,0 +1,19 @@
+{
+  "author": "Theodore Ouyang",
+  "school": "Duke University",
+  "address": "2080 Duke University Road, Durham, NC 27708, USA",
+  "emails": [
+    "10@alumni.duke.edu",
+    "theodore.oy2025@gmail.com"
+  ],
+  "date": "",
+  "metadata_basis": "Author details reproduced from the user-supplied PDF template.",
+  "titles": {
+    "report": "Structural Analysis of Heston Pricing Error and Its Financial Implications",
+    "rough-heston": "Structural Properties, Pricing Error, and Candidate-Selection Stability of a Third-Order Rough Heston Approximation"
+  },
+  "subtitles": {
+    "report": "Common-State Constraints, Residual Bounds, and Financial Decisions",
+    "rough-heston": "A Fixed Two-Point Rational Construction and a Certified SPX Example"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_FROZEN_FIELD_INPUT_GUARDS_PASS",
+  "source_sha256": "bb3c514081033899e8dc583a16bc09f3d44df5f858c65253ab9e2772602950a6",
+  "records": [
+    {
+      "file": "fixed-field-betap9-u80.npz",
+      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "guards": "PASS",
+      "time_nodes": 1025,
+      "frequencies": 641
+    }
+  ]
+}

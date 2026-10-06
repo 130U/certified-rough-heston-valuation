@@ -1,0 +1,103 @@
+{
+  "status": "PASS_BOUNDED_RELEASE_CHECKS",
+  "documents": [
+    {
+      "document": "report",
+      "pdf": "paper/Theodore-Ouyang-Heston-Error-Structure.pdf",
+      "pdf_sha256": "1d34c5c964666cb788ee3cff02728128d6cb9753da673d391a1a68eedf361651",
+      "pages": 34,
+      "formula_occurrences": 615,
+      "equation_tags": 70,
+      "all_pages_rendered": true,
+      "all_equation_tags_present": true,
+      "author_metadata_checked": true,
+      "body_geometry_checked": true,
+      "visual_contact_sheets_reviewed": true,
+      "source_sha256": "17073d8547bd13f2d77473cd7ae339cc0a0a0d8f5fce5280e92b6239c61f7b18",
+      "github_manuscript_sha256": "59b461f5c29bc66d013eea8f65677637845dd62c94403616fa428d63c1bfc300"
+    },
+    {
+      "document": "rough-heston",
+      "pdf": "paper/Theodore-Ouyang-Certified-Rough-Heston-Valuation.pdf",
+      "pdf_sha256": "4e73de79a77605586d05642bce4d679650cf5ce9e2c5f0ac25d5c741047cfee7",
+      "pages": 32,
+      "formula_occurrences": 510,
+      "equation_tags": 86,
+      "all_pages_rendered": true,
+      "all_equation_tags_present": true,
+      "author_metadata_checked": true,
+      "body_geometry_checked": true,
+      "visual_contact_sheets_reviewed": true,
+      "source_sha256": "adc40e73996cc53ea71fe7d67dde6d5a514845b7078397a9f0ce5660b0f5e994",
+      "github_manuscript_sha256": "0cd1061f7765341f32bd72db4cecd4c2713594c853d4940dd42498bf4e395658"
+    }
+  ],
+  "github_mathematics": {
+    "formulas": 1125,
+    "renderer": "MathJax 3.2.2",
+    "packages": [
+      "base",
+      "ams",
+      "newcommand"
+    ],
+    "TeX_errors": 0,
+    "merror_nodes": 0
+  },
+  "rough_heston_checks": {
+    "structure": {
+      "closed_leaf_cells": 211241,
+      "exact_area": "2/25",
+      "reconstruction_nodes": 422481,
+      "maximum_depth": 19,
+      "raw_determinant_norm_squared_lower": "88110801209184778874628745/1267650600228229401496703205376",
+      "interval_signs_recomputed": 16,
+      "record_checks": "all saved signs, exact uniform minima, and disjoint complete midpoint-tree geometry"
+    },
+    "fields_and_residuals": {
+      "fields_checked": 4,
+      "continuous_residual_record_candidates": 3,
+      "frequency_nodes_per_residual": 513,
+      "checks": "field bytes/shapes/guards, source identity, exact adapter values, complete time-cell counts, saved half-plane bounds"
+    },
+    "financial_decisions": {
+      "true_finite_winner_alpha": "13/25",
+      "winner_H": "1/50",
+      "actual_Pade_choice_matches": true,
+      "true_objective_gap_exact": "868406092010757506491925813459521460640448866765833657/3213876088517980551083924184682325205044405987565585670602752",
+      "spread_error_upper_exact": "804672648292268312339387519/1267650600228229401496703205376",
+      "spread_error_below_declared_0_0007_budget": true,
+      "quote_rows_4400_4500_separated": true,
+      "prices_reaggregated": 36,
+      "exact_arithmetic": "fractions.Fraction"
+    }
+  },
+  "aggregation_replay": {
+    "status": "PASS_REPLAY_NUMERICAL_VALUES_IDENTICAL",
+    "price_certificates_compared": 3,
+    "price_rows": 36,
+    "compared_price_fields": [
+      "rows",
+      "node_error_cover",
+      "aggregation_price_vector",
+      "D_type_exponent_error_mass_upper_enclosure",
+      "true_tail_whole_curve_coefficient_lower"
+    ],
+    "finite_objective_fields": [
+      "global_finite_minimum_objective_enclosure",
+      "strict_unique_finite_minimizer",
+      "strict_winner_objective_gap_lower",
+      "objective_uniform_perturbation_strict_robustness_radius"
+    ],
+    "actual_Pade_candidate_objective_and_error_vectors_identical": true,
+    "application_winner_alpha": "13/25",
+    "spread_error_upper_exact": "804672648292268312339387519/1267650600228229401496703205376",
+    "scope": "Saved residual/exponent/tail inputs replayed through price and objective aggregation; metadata identities differ under documented public relocation."
+  },
+  "classical_checks": {
+    "terminal_checks": 407,
+    "probability_rows_regenerated": 22,
+    "profile_entries_regenerated": 918,
+    "saved_integral_cells_aggregated": 3080
+  },
+  "scope": "Release presentation, file identities, saved exact-cover geometry and signs, sixteen regenerated interval leaves, thirty-six price rows and aggregation replay. The complete continuous residual generator and the archived classical field generator were not rerun during this release. Mathematical arguments and arithmetic assumptions are stated in the manuscripts and proof map."
+}

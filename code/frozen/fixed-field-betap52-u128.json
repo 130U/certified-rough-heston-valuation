@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_BINARY64_DYADIC_FIELD_DATA_NOT_RESIDUAL_CERTIFICATE",
+  "beta_exact_decimal": ".52",
+  "T": "1/2",
+  "frequency_step": "1/8",
+  "frequency_upper": 128,
+  "nu_exact": "2897/10000",
+  "rho_exact": "-1489/2000",
+  "kappa_exact": "0",
+  "c_exact": "-(u^2+1/4)/2",
+  "field_definition": "Gbar(t)=nu*c+A1*t^beta+A2*t^(2*beta)+linear_interpolant(t_nodes,LG_nodes)",
+  "candidate_curve_definition": "Hhat_alpha(t)=I_t^alpha Gbar(t); D_C^alpha Hhat_alpha=Gbar",
+  "coefficient_interpretation": "every NPZ binary64 component is the exact dyadic rational float.as_integer_ratio(); t^beta retains the exact rational beta, not binary64 beta",
+  "construction_diagnostic": "implicit quadratic PI with first two singular field terms removed before physical-time linear interpolation",
+  "arrays": {
+    "t": [
+      2049
+    ],
+    "u": [
+      1025
+    ],
+    "A1": [
+      1025
+    ],
+    "A2": [
+      1025
+    ],
+    "LG": [
+      2049,
+      1025
+    ]
+  },
+  "initial_LG_exact_zero": true,
+  "t_last_exact_half": true,
+  "t_first_exact_zero": true,
+  "file": "fixed-field-betap52-u128.npz",
+  "bytes": 32146571,
+  "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "generator_sha256": "a42bb54ea8b871697542d0e89713885be6354512e6bef5e08361f78f1d16c043",
+  "solver_sha256": "788c4e65553942b623624fa23358475abff9c12fa935928f29fcf0ffdb42b8e3"
+}

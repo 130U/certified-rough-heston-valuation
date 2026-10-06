@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript and version when using this research or its computational evidence."
+type: software
+title: "Certified Rough Heston Valuation"
+authors:
+  - family-names: "Ouyang"
+    given-names: "Theodore"
+    email: "10@alumni.duke.edu"
+repository-code: "https://github.com/130U/certified-rough-heston-valuation"
+version: "1.0.0"
+keywords:
+  - mathematical finance
+  - rough Heston
+  - fractional Riccati
+  - rational approximation
+  - pricing error

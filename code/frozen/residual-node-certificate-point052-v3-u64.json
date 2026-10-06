@@ -1,0 +1,3118 @@
+{
+  "status": "EXACT_CONTINUOUS_RESIDUAL_CERTIFICATE",
+  "scope": "all physical t in [0,1/2], one point alpha, fixed dyadic Fourier nodes only",
+  "field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "T": "1/2",
+  "nu": "2897/10000",
+  "rho": "-1489/2000",
+  "kappa": "0",
+  "alpha_lower": "13/25",
+  "alpha_upper": "13/25",
+  "frequency_step": "1/8",
+  "residual_definition": "D_C_t_alpha_Hhat_minus_nu_F",
+  "cover": [
+    {
+      "u": "0",
+      "delta_physical_upper": "6622931140787195/2475880078570760549798248448",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "1/8",
+      "delta_physical_upper": "1368980976726363/309485009821345068724781056",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "1/4",
+      "delta_physical_upper": "3098138876938531/309485009821345068724781056",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "3/8",
+      "delta_physical_upper": "6767314799554461/309485009821345068724781056",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "1/2",
+      "delta_physical_upper": "4237981615377007/77371252455336267181195264",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "5/8",
+      "delta_physical_upper": "79566188191935/604462909807314587353088",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "3/4",
+      "delta_physical_upper": "5596453980359769/19342813113834066795298816",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "7/8",
+      "delta_physical_upper": "5677616635989861/9671406556917033397649408",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "1",
+      "delta_physical_upper": "336346821223519/302231454903657293676544",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "9/8",
+      "delta_physical_upper": "4815888337480865/2417851639229258349412352",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "5/4",
+      "delta_physical_upper": "4103670250230753/1208925819614629174706176",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "11/8",
+      "delta_physical_upper": "6705143322833765/1208925819614629174706176",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "3/2",
+      "delta_physical_upper": "2640639343962253/302231454903657293676544",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "13/8",
+      "delta_physical_upper": "8057509675925265/604462909807314587353088",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "7/4",
+      "delta_physical_upper": "5975385479572583/302231454903657293676544",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "15/8",
+      "delta_physical_upper": "8642875198240545/302231454903657293676544",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "2",
+      "delta_physical_upper": "6111795852390657/151115727451828646838272",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "17/8",
+      "delta_physical_upper": "8272530544613/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "9/4",
+      "delta_physical_upper": "5764338147861973/75557863725914323419136",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "19/8",
+      "delta_physical_upper": "7715998572926377/75557863725914323419136",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "5/2",
+      "delta_physical_upper": "5086784329438893/37778931862957161709568",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "21/8",
+      "delta_physical_upper": "6614886831568143/37778931862957161709568",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "11/4",
+      "delta_physical_upper": "8496129677090043/37778931862957161709568",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "23/8",
+      "delta_physical_upper": "673118353288419/2361183241434822606848",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "3",
+      "delta_physical_upper": "211116437280949/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "25/8",
+      "delta_physical_upper": "8396413687710699/18889465931478580854784",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "13/4",
+      "delta_physical_upper": "5172453420352587/9444732965739290427392",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "27/8",
+      "delta_physical_upper": "6321117169380449/9444732965739290427392",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "7/2",
+      "delta_physical_upper": "1916576787634947/2361183241434822606848",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "29/8",
+      "delta_physical_upper": "144246143379233/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "15/4",
+      "delta_physical_upper": "5521415033252299/4722366482869645213696",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "31/8",
+      "delta_physical_upper": "6563290305294707/4722366482869645213696",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "4",
+      "delta_physical_upper": "3877934595946325/2361183241434822606848",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "33/8",
+      "delta_physical_upper": "1139296860966175/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "17/4",
+      "delta_physical_upper": "5327449107581137/2361183241434822606848",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "35/8",
+      "delta_physical_upper": "6197204688040969/2361183241434822606848",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "9/2",
+      "delta_physical_upper": "1793846169244747/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "37/8",
+      "delta_physical_upper": "1033921408015783/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "19/4",
+      "delta_physical_upper": "2373751185021345/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "39/8",
+      "delta_physical_upper": "2714147664164019/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "5",
+      "delta_physical_upper": "3091726434668961/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "41/8",
+      "delta_physical_upper": "7018602788872411/1180591620717411303424",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "21/4",
+      "delta_physical_upper": "7939617206885527/1180591620717411303424",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "43/8",
+      "delta_physical_upper": "8952614250513385/1180591620717411303424",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "11/2",
+      "delta_physical_upper": "628997779921027/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "45/8",
+      "delta_physical_upper": "2820073402941555/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "23/4",
+      "delta_physical_upper": "6304243885029371/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "47/8",
+      "delta_physical_upper": "3513924198425375/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "6",
+      "delta_physical_upper": "7814670112118077/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "49/8",
+      "delta_physical_upper": "8668555107396963/590295810358705651712",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "25/4",
+      "delta_physical_upper": "4796745086366019/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "51/8",
+      "delta_physical_upper": "1324200194124851/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "13/2",
+      "delta_physical_upper": "1459145159648731/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "53/8",
+      "delta_physical_upper": "6418293475576675/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "27/4",
+      "delta_physical_upper": "7044228940717825/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "55/8",
+      "delta_physical_upper": "3858371378763959/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "7",
+      "delta_physical_upper": "8438271292436167/295147905179352825856",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "57/8",
+      "delta_physical_upper": "2302832370763803/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "29/4",
+      "delta_physical_upper": "5019256186718351/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "59/8",
+      "delta_physical_upper": "2730624076141639/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "15/2",
+      "delta_physical_upper": "5933020556902597/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "61/8",
+      "delta_physical_upper": "1608999545621127/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "31/4",
+      "delta_physical_upper": "6971641018560119/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "63/8",
+      "delta_physical_upper": "7541456881938301/147573952589676412928",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "8",
+      "delta_physical_upper": "1018374499695089/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "65/8",
+      "delta_physical_upper": "2197463481408629/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "33/4",
+      "delta_physical_upper": "2367918089821607/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "67/8",
+      "delta_physical_upper": "5097068681095823/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "17/2",
+      "delta_physical_upper": "684936377162955/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "69/8",
+      "delta_physical_upper": "5883994705582161/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "35/4",
+      "delta_physical_upper": "3155746537730489/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "71/8",
+      "delta_physical_upper": "3381462702019469/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "9",
+      "delta_physical_upper": "7239254853576139/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "73/8",
+      "delta_physical_upper": "7741471383171825/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "37/4",
+      "delta_physical_upper": "8270587738325311/73786976294838206464",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "75/8",
+      "delta_physical_upper": "551727782506761/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "19/2",
+      "delta_physical_upper": "1176713437889319/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "77/8",
+      "delta_physical_upper": "5014934510264035/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "39/4",
+      "delta_physical_upper": "5338624580259715/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "79/8",
+      "delta_physical_upper": "2839248639447057/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "10",
+      "delta_physical_upper": "3017569625917633/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "81/8",
+      "delta_physical_upper": "6409153840153787/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "41/4",
+      "delta_physical_upper": "6801161224663413/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "83/8",
+      "delta_physical_upper": "7211783421562259/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "21/2",
+      "delta_physical_upper": "7641666002139407/36893488147419103232",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "85/8",
+      "delta_physical_upper": "4045733743672641/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "43/4",
+      "delta_physical_upper": "4280930385418207/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "87/8",
+      "delta_physical_upper": "141461490804011/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "11",
+      "delta_physical_upper": "4783597678903965/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "89/8",
+      "delta_physical_upper": "5051778781371599/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "45/4",
+      "delta_physical_upper": "2665840231275345/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "91/8",
+      "delta_physical_upper": "2811838282167685/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "23/2",
+      "delta_physical_upper": "2964075313026091/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "93/8",
+      "delta_physical_upper": "6245494235104215/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "47/4",
+      "delta_physical_upper": "6576106836402553/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "95/8",
+      "delta_physical_upper": "6920395734769887/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "12",
+      "delta_physical_upper": "7278778283379507/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "97/8",
+      "delta_physical_upper": "7651678184988353/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "49/4",
+      "delta_physical_upper": "2009882179259447/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "99/8",
+      "delta_physical_upper": "8442770373263371/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "25/2",
+      "delta_physical_upper": "8861856440282773/18446744073709551616",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "101/8",
+      "delta_physical_upper": "2324311053295073/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "51/4",
+      "delta_physical_upper": "1218675220819327/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "103/8",
+      "delta_physical_upper": "5109403082108707/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "13",
+      "delta_physical_upper": "5352971591136637/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "105/8",
+      "delta_physical_upper": "2802827912242235/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "53/4",
+      "delta_physical_upper": "5867706229963657/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "107/8",
+      "delta_physical_upper": "6139379252215807/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "27/2",
+      "delta_physical_upper": "6420939615942665/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "109/8",
+      "delta_physical_upper": "3356325167763717/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "55/4",
+      "delta_physical_upper": "7014785068338771/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "111/8",
+      "delta_physical_upper": "1831904925589463/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "14",
+      "delta_physical_upper": "1912858570683893/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "113/8",
+      "delta_physical_upper": "3993257640141611/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "57/4",
+      "delta_physical_upper": "8333154089139553/9223372036854775808",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "115/8",
+      "delta_physical_upper": "4345823473688241/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "29/2",
+      "delta_physical_upper": "2265573769729177/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "117/8",
+      "delta_physical_upper": "295168893374847/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "59/4",
+      "delta_physical_upper": "4920643253596107/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "119/8",
+      "delta_physical_upper": "2562564201779437/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "15",
+      "delta_physical_upper": "5336321077632309/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "121/8",
+      "delta_physical_upper": "5554382666580843/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "61/4",
+      "delta_physical_upper": "1444869913320143/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "123/8",
+      "delta_physical_upper": "751472880492541/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "31/2",
+      "delta_physical_upper": "3125731132996973/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "125/8",
+      "delta_physical_upper": "6498693611147611/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "63/4",
+      "delta_physical_upper": "3376827257408791/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "127/8",
+      "delta_physical_upper": "7016523310070907/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "16",
+      "delta_physical_upper": "7287484406361863/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "129/8",
+      "delta_physical_upper": "472920330738251/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "65/4",
+      "delta_physical_upper": "7854432480618481/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "131/8",
+      "delta_physical_upper": "8150797936880213/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "33/2",
+      "delta_physical_upper": "8456016442773133/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "133/8",
+      "delta_physical_upper": "8770285640376309/4611686018427387904",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "67/4",
+      "delta_physical_upper": "2273451521474451/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "135/8",
+      "delta_physical_upper": "4713390603449999/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "17",
+      "delta_physical_upper": "2442354320271531/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "137/8",
+      "delta_physical_upper": "5060961749183283/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "69/4",
+      "delta_physical_upper": "5242256417479491/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "139/8",
+      "delta_physical_upper": "5428702320225851/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "35/2",
+      "delta_physical_upper": "702550820506403/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "141/8",
+      "delta_physical_upper": "2908739784721505/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "71/4",
+      "delta_physical_upper": "6020036364445811/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "143/8",
+      "delta_physical_upper": "6228190112217023/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "18",
+      "delta_physical_upper": "6442053973241141/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "145/8",
+      "delta_physical_upper": "6661751417805099/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "73/4",
+      "delta_physical_upper": "860924248013981/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "147/8",
+      "delta_physical_upper": "1779777456901371/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "37/2",
+      "delta_physical_upper": "7357013457817321/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "149/8",
+      "delta_physical_upper": "7601236969446225/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "75/4",
+      "delta_physical_upper": "1962974827039235/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "151/8",
+      "delta_physical_upper": "4054565038068665/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "19",
+      "delta_physical_upper": "8373061090599027/2305843009213693952",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "153/8",
+      "delta_physical_upper": "4321909200915801/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "77/4",
+      "delta_physical_upper": "4460767399817459/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "155/8",
+      "delta_physical_upper": "4603175432700099/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "39/2",
+      "delta_physical_upper": "1187299595440351/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "157/8",
+      "delta_physical_upper": "4898905135183043/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "79/4",
+      "delta_physical_upper": "315772852649021/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "159/8",
+      "delta_physical_upper": "1302412648376877/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "20",
+      "delta_physical_upper": "5370831882462473/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "161/8",
+      "delta_physical_upper": "2767991477765511/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "81/4",
+      "delta_physical_upper": "5705175791594309/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "163/8",
+      "delta_physical_upper": "2939242340317923/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "41/2",
+      "delta_physical_upper": "756998103563247/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "165/8",
+      "delta_physical_upper": "6237752273221389/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "83/4",
+      "delta_physical_upper": "6423864039966019/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "167/8",
+      "delta_physical_upper": "6614397962409877/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "21",
+      "delta_physical_upper": "6809433715455325/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "169/8",
+      "delta_physical_upper": "7009051832537037/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "85/4",
+      "delta_physical_upper": "7213331847370827/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "171/8",
+      "delta_physical_upper": "7422355373741931/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "43/2",
+      "delta_physical_upper": "7636204916403145/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "173/8",
+      "delta_physical_upper": "3927481849989619/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "87/4",
+      "delta_physical_upper": "8078716350347765/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "175/8",
+      "delta_physical_upper": "8307554146879997/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "22",
+      "delta_physical_upper": "8541557925252085/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "177/8",
+      "delta_physical_upper": "8780814540268155/1152921504606846976",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "89/4",
+      "delta_physical_upper": "4512706990987273/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "179/8",
+      "delta_physical_upper": "1159431459338583/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "45/2",
+      "delta_physical_upper": "4765505092394265/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "181/8",
+      "delta_physical_upper": "1224022729719147/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "91/4",
+      "delta_physical_upper": "2514767210846375/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "183/8",
+      "delta_physical_upper": "5165876551399545/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "23",
+      "delta_physical_upper": "5305167770877429/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "185/8",
+      "delta_physical_upper": "680932087802701/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "93/4",
+      "delta_physical_upper": "2796393734189327/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "187/8",
+      "delta_physical_upper": "717652113298561/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "47/2",
+      "delta_physical_upper": "368299078516329/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "189/8",
+      "delta_physical_upper": "6047551720475227/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "95/4",
+      "delta_physical_upper": "6205558034255185/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "191/8",
+      "delta_physical_upper": "3183431975960089/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "24",
+      "delta_physical_upper": "408219511328551/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "193/8",
+      "delta_physical_upper": "3349782536433283/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "97/4",
+      "delta_physical_upper": "6871064583791555/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "195/8",
+      "delta_physical_upper": "3523037505681893/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "49/2",
+      "delta_physical_upper": "3612320496929731/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "197/8",
+      "delta_physical_upper": "3703410931587887/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "99/4",
+      "delta_physical_upper": "7592672936973195/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "199/8",
+      "delta_physical_upper": "7782243771021725/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "25",
+      "delta_physical_upper": "996950208406239/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "201/8",
+      "delta_physical_upper": "8172793935552509/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "101/4",
+      "delta_physical_upper": "8373876880467335/576460752303423488",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "203/8",
+      "delta_physical_upper": "4289460187030073/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "51/2",
+      "delta_physical_upper": "4393985597081901/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "205/8",
+      "delta_physical_upper": "4500544224396863/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "103/4",
+      "delta_physical_upper": "2304585247744185/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "207/8",
+      "delta_physical_upper": "147496610261245/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "26",
+      "delta_physical_upper": "2416368214267939/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "209/8",
+      "delta_physical_upper": "2473868036958243/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "105/4",
+      "delta_physical_upper": "2532463536747111/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "211/8",
+      "delta_physical_upper": "2592167661502617/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "53/2",
+      "delta_physical_upper": "5305992450140499/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "213/8",
+      "delta_physical_upper": "339370657751779/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "107/4",
+      "delta_physical_upper": "5556183887989105/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "215/8",
+      "delta_physical_upper": "5684786192861247/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "27",
+      "delta_physical_upper": "2907883648584003/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "217/8",
+      "delta_physical_upper": "5949160543124807/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "109/4",
+      "delta_physical_upper": "6084999345110403/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "219/8",
+      "delta_physical_upper": "777914704552365/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "55/2",
+      "delta_physical_upper": "6364149935495901/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "221/8",
+      "delta_physical_upper": "3253767095791383/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "111/4",
+      "delta_physical_upper": "3326750684961353/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "223/8",
+      "delta_physical_upper": "1700521659674393/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "28",
+      "delta_physical_upper": "3476662705877311/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "225/8",
+      "delta_physical_upper": "222101672282307/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "113/4",
+      "delta_physical_upper": "3631953578672821/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "227/8",
+      "delta_physical_upper": "7423322637551017/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "57/2",
+      "delta_physical_upper": "3792768368897679/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "229/8",
+      "delta_physical_upper": "7750586571273399/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "115/4",
+      "delta_physical_upper": "7918509607731531/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "231/8",
+      "delta_physical_upper": "4044671739437267/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "29",
+      "delta_physical_upper": "8263126420750609/288230376151711744",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "233/8",
+      "delta_physical_upper": "2109974185244433/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "117/4",
+      "delta_physical_upper": "4309846543292685/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "235/8",
+      "delta_physical_upper": "2200638659984721/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "59/2",
+      "delta_physical_upper": "2247130227879741/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "237/8",
+      "delta_physical_upper": "4588815661251433/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "119/4",
+      "delta_physical_upper": "4684963084477651/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "239/8",
+      "delta_physical_upper": "74730046408157/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "30",
+      "delta_physical_upper": "2441057737771867/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "241/8",
+      "delta_physical_upper": "2491580750092429/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "121/4",
+      "delta_physical_upper": "5085881539334865/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "243/8",
+      "delta_physical_upper": "2595148145275999/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "61/2",
+      "delta_physical_upper": "2648213547137711/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "245/8",
+      "delta_physical_upper": "42221053945061/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "123/4",
+      "delta_physical_upper": "1378480303887005/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "247/8",
+      "delta_physical_upper": "5625327611019597/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "31",
+      "delta_physical_upper": "5738535807122841/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "249/8",
+      "delta_physical_upper": "2926785559708323/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "125/4",
+      "delta_physical_upper": "5970453288539473/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "251/8",
+      "delta_physical_upper": "1522300956061975/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "63/2",
+      "delta_physical_upper": "776230668525291/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "253/8",
+      "delta_physical_upper": "6332400208762409/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "127/4",
+      "delta_physical_upper": "6456891196890957/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "255/8",
+      "delta_physical_upper": "6583341301480587/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "32",
+      "delta_physical_upper": "3355888769258311/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "257/8",
+      "delta_physical_upper": "3421111428625085/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "129/4",
+      "delta_physical_upper": "3487348927127773/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "259/8",
+      "delta_physical_upper": "3554613027968901/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "65/2",
+      "delta_physical_upper": "7245831262786633/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "261/8",
+      "delta_physical_upper": "7384537369464289/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "131/4",
+      "delta_physical_upper": "1881344469834601/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "263/8",
+      "delta_physical_upper": "7668369227050229/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "33",
+      "delta_physical_upper": "7813535342456147/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "265/8",
+      "delta_physical_upper": "7960900890138343/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "133/4",
+      "delta_physical_upper": "8110492727022327/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "267/8",
+      "delta_physical_upper": "8262344754429801/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "67/2",
+      "delta_physical_upper": "8416472151263377/144115188075855872",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "269/8",
+      "delta_physical_upper": "535806267465205/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "135/4",
+      "delta_physical_upper": "1091456867751595/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "271/8",
+      "delta_physical_upper": "4446387957047727/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "34",
+      "delta_physical_upper": "4528138552426927/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "273/8",
+      "delta_physical_upper": "2305545917244801/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "137/4",
+      "delta_physical_upper": "4695261009829439/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "275/8",
+      "delta_physical_upper": "4780668115670325/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "69/2",
+      "delta_physical_upper": "608414776265813/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "277/8",
+      "delta_physical_upper": "2477612142330417/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "139/4",
+      "delta_physical_upper": "157637652496001/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "279/8",
+      "delta_physical_upper": "1283718777073877/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "35",
+      "delta_physical_upper": "5226642942489981/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "281/8",
+      "delta_physical_upper": "1329930708750031/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "141/4",
+      "delta_physical_upper": "5414139783139423/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "283/8",
+      "delta_physical_upper": "5509896523843685/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "71/2",
+      "delta_physical_upper": "5607007081220907/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "285/8",
+      "delta_physical_upper": "356593587578357/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "143/4",
+      "delta_physical_upper": "5805373102644223/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "287/8",
+      "delta_physical_upper": "2953322928065837/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "36",
+      "delta_physical_upper": "751167782461651/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "289/8",
+      "delta_physical_upper": "764183621276143/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "145/4",
+      "delta_physical_upper": "6219037289174411/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "291/8",
+      "delta_physical_upper": "3163038100471549/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "73/2",
+      "delta_physical_upper": "6434589673455057/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "293/8",
+      "delta_physical_upper": "3272294835759583/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "147/4",
+      "delta_physical_upper": "6656110408513531/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "295/8",
+      "delta_physical_upper": "6769148899193579/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "37",
+      "delta_physical_upper": "860465635190605/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "297/8",
+      "delta_physical_upper": "6999865237782185/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "149/4",
+      "delta_physical_upper": "1779392335805641/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "299/8",
+      "delta_physical_upper": "3618433312422543/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "75/2",
+      "delta_physical_upper": "7357768691060325/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "301/8",
+      "delta_physical_upper": "3740141366217611/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "151/4",
+      "delta_physical_upper": "7604448631297321/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "303/8",
+      "delta_physical_upper": "7730258361258979/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "38",
+      "delta_physical_upper": "7857741487429621/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "305/8",
+      "delta_physical_upper": "3993457185931169/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "153/4",
+      "delta_physical_upper": "507361352171019/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "307/8",
+      "delta_physical_upper": "8250386041204721/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "77/2",
+      "delta_physical_upper": "4192358460760113/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "309/8",
+      "delta_physical_upper": "8520809984343719/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "155/4",
+      "delta_physical_upper": "8658674778084195/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "311/8",
+      "delta_physical_upper": "8798325277903195/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "39",
+      "delta_physical_upper": "8939794433994195/72057594037927936",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "313/8",
+      "delta_physical_upper": "4541537315235017/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "157/4",
+      "delta_physical_upper": "2307054446588633/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "315/8",
+      "delta_physical_upper": "4687603994795827/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "79/2",
+      "delta_physical_upper": "4762044431240077/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "317/8",
+      "delta_physical_upper": "1209357770687763/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "159/4",
+      "delta_physical_upper": "1228444179148197/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "319/8",
+      "delta_physical_upper": "1247772902933835/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "40",
+      "delta_physical_upper": "1267344909172131/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "321/8",
+      "delta_physical_upper": "5148659914902599/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "161/4",
+      "delta_physical_upper": "5228928174328327/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "323/8",
+      "delta_physical_upper": "41486028079849/281474976710656",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "81/2",
+      "delta_physical_upper": "1348124658123269/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "325/8",
+      "delta_physical_upper": "1368955704278939/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "163/4",
+      "delta_physical_upper": "5560169642334777/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "327/8",
+      "delta_physical_upper": "2822785641211295/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "41",
+      "delta_physical_upper": "1433004202780747/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "329/8",
+      "delta_physical_upper": "5819535086398941/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "165/4",
+      "delta_physical_upper": "2954059217614653/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "331/8",
+      "delta_physical_upper": "5997793999523101/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "83/2",
+      "delta_physical_upper": "3044277426918663/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "333/8",
+      "delta_physical_upper": "6180428025509497/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "167/4",
+      "delta_physical_upper": "3136703576063993/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "335/8",
+      "delta_physical_upper": "6367519153914571/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "42",
+      "delta_physical_upper": "3231378274295285/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "337/8",
+      "delta_physical_upper": "6559149372343715/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "169/4",
+      "delta_physical_upper": "3328343431972471/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "339/8",
+      "delta_physical_upper": "3377701565222545/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "85/2",
+      "delta_physical_upper": "6855282198621169/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "341/8",
+      "delta_physical_upper": "6956364334092371/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "171/4",
+      "delta_physical_upper": "1764657007289427/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "343/8",
+      "delta_physical_upper": "7162117719454581/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "43",
+      "delta_physical_upper": "7266812878507141/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "345/8",
+      "delta_physical_upper": "3686375795769921/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "173/4",
+      "delta_physical_upper": "3739960775722639/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "347/8",
+      "delta_physical_upper": "1897088198238565/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "87/2",
+      "delta_physical_upper": "7698042702374019/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "349/8",
+      "delta_physical_upper": "7809009566396951/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "175/4",
+      "delta_physical_upper": "1980316437359193/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "351/8",
+      "delta_physical_upper": "8034813215757301/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "44",
+      "delta_physical_upper": "8149681086241393/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "353/8",
+      "delta_physical_upper": "8265853806247037/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "177/4",
+      "delta_physical_upper": "2095845011886979/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "355/8",
+      "delta_physical_upper": "4251116306457427/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "89/2",
+      "delta_physical_upper": "2155613931842097/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "357/8",
+      "delta_physical_upper": "8744037445347803/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "179/4",
+      "delta_physical_upper": "8867001049833285/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "359/8",
+      "delta_physical_upper": "8991360128596457/36028797018963968",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "45",
+      "delta_physical_upper": "4558555665758603/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "361/8",
+      "delta_physical_upper": "577768546775973/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "181/4",
+      "delta_physical_upper": "585805702400965/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "363/8",
+      "delta_physical_upper": "4751471554550593/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "91/2",
+      "delta_physical_upper": "2408609428916625/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "365/8",
+      "delta_physical_upper": "4883698904402941/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "183/4",
+      "delta_physical_upper": "309432578225151/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "367/8",
+      "delta_physical_upper": "1254719732493113/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "46",
+      "delta_physical_upper": "1271900474776963/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "369/8",
+      "delta_physical_upper": "2578536420143577/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "185/4",
+      "delta_physical_upper": "5227311894138003/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "371/8",
+      "delta_physical_upper": "662290211146697/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "93/2",
+      "delta_physical_upper": "2685050322520333/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "373/8",
+      "delta_physical_upper": "2721338213240013/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "187/4",
+      "delta_physical_upper": "1379007902673007/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "375/8",
+      "delta_physical_upper": "5590188087110325/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "47",
+      "delta_physical_upper": "708143591907171/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "377/8",
+      "delta_physical_upper": "2870454832148091/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "189/4",
+      "delta_physical_upper": "2908751431660379/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "379/8",
+      "delta_physical_upper": "5894908151494217/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "95/2",
+      "delta_physical_upper": "373321628931837/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "381/8",
+      "delta_physical_upper": "3026112715298261/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "191/4",
+      "delta_physical_upper": "3066068647178583/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "383/8",
+      "delta_physical_upper": "776614113592889/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "48",
+      "delta_physical_upper": "3147270202795105/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "385/8",
+      "delta_physical_upper": "6377026565290895/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "193/4",
+      "delta_physical_upper": "3230198823365591/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "387/8",
+      "delta_physical_upper": "1636158899890485/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "97/2",
+      "delta_physical_upper": "6629764073178847/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "389/8",
+      "delta_physical_upper": "6715788987455953/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "195/4",
+      "delta_physical_upper": "6802702545764107/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "391/8",
+      "delta_physical_upper": "3445268355673651/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "49",
+      "delta_physical_upper": "3489640286274869/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "393/8",
+      "delta_physical_upper": "3534467561576735/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "197/4",
+      "delta_physical_upper": "894942493208809/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "395/8",
+      "delta_physical_upper": "7251069077236999/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "99/2",
+      "delta_physical_upper": "3671769022499205/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "397/8",
+      "delta_physical_upper": "7436972872733159/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "199/4",
+      "delta_physical_upper": "470709670082261/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "399/8",
+      "delta_physical_upper": "7626703660956579/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "50",
+      "delta_physical_upper": "7723036689890247/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "401/8",
+      "delta_physical_upper": "3910170132674355/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "201/4",
+      "delta_physical_upper": "3959318549831911/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "403/8",
+      "delta_physical_upper": "4008969736112649/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "101/2",
+      "delta_physical_upper": "8118232466204411/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "405/8",
+      "delta_physical_upper": "8219547450670777/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "203/4",
+      "delta_physical_upper": "4160943336057265/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "407/8",
+      "delta_physical_upper": "2106310485032937/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "51",
+      "delta_physical_upper": "8529642875393221/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "409/8",
+      "delta_physical_upper": "1079386417962195/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "205/4",
+      "delta_physical_upper": "4268349820891/8796093022208",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "411/8",
+      "delta_physical_upper": "2212285004733121/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "103/2",
+      "delta_physical_upper": "8957772483153635/18014398509481984",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "413/8",
+      "delta_physical_upper": "566716737179797/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "207/4",
+      "delta_physical_upper": "4589128204688741/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "415/8",
+      "delta_physical_upper": "4645072727796169/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "52",
+      "delta_physical_upper": "2350780813187915/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "417/8",
+      "delta_physical_upper": "594826024911847/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "209/4",
+      "delta_physical_upper": "602027326267417/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "419/8",
+      "delta_physical_upper": "4874386252350219/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "105/2",
+      "delta_physical_upper": "4933121151766695/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "421/8",
+      "delta_physical_upper": "4992436646241831/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "211/4",
+      "delta_physical_upper": "5052321572935589/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "423/8",
+      "delta_physical_upper": "2556391069106179/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "53",
+      "delta_physical_upper": "5173841673371733/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "425/8",
+      "delta_physical_upper": "5235483354972897/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "213/4",
+      "delta_physical_upper": "5297711411565665/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "427/8",
+      "delta_physical_upper": "335034440717251/562949953421312",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "107/2",
+      "delta_physical_upper": "2711994814604789/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "429/8",
+      "delta_physical_upper": "5488027197301975/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "215/4",
+      "delta_physical_upper": "86760683804501/140737488355328",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "431/8",
+      "delta_physical_upper": "702244984339315/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "54",
+      "delta_physical_upper": "5683848296104595/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "433/8",
+      "delta_physical_upper": "2875180323467881/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "217/4",
+      "delta_physical_upper": "2908757356389899/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "435/8",
+      "delta_physical_upper": "735661969944293/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "109/2",
+      "delta_physical_upper": "2976854090876467/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "437/8",
+      "delta_physical_upper": "3011389073590405/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "219/4",
+      "delta_physical_upper": "6092494554306063/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "439/8",
+      "delta_physical_upper": "6162855262457129/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "55",
+      "delta_physical_upper": "6233876691825055/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "441/8",
+      "delta_physical_upper": "6305569686247959/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "221/4",
+      "delta_physical_upper": "3188960987373557/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "443/8",
+      "delta_physical_upper": "6450938335824109/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "111/2",
+      "delta_physical_upper": "6524649365747375/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "445/8",
+      "delta_physical_upper": "3299518617374693/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "223/4",
+      "delta_physical_upper": "6674103999642249/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "447/8",
+      "delta_physical_upper": "421866446103997/562949953421312",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "56",
+      "delta_physical_upper": "3413165494719559/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "449/8",
+      "delta_physical_upper": "1725873160492947/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "225/4",
+      "delta_physical_upper": "6981352055122047/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "451/8",
+      "delta_physical_upper": "7059936794495473/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "113/2",
+      "delta_physical_upper": "3569619259477823/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "453/8",
+      "delta_physical_upper": "7219253375879285/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "227/4",
+      "delta_physical_upper": "7299988182324597/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "455/8",
+      "delta_physical_upper": "7381476764824007/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "57",
+      "delta_physical_upper": "932961634671069/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "457/8",
+      "delta_physical_upper": "7546643962189283/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "229/4",
+      "delta_physical_upper": "3815171714253287/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "459/8",
+      "delta_physical_upper": "7714809409752561/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "115/2",
+      "delta_physical_upper": "7800025810010269/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "461/8",
+      "delta_physical_upper": "3942997367228737/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "231/4",
+      "delta_physical_upper": "996592806035351/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "463/8",
+      "delta_physical_upper": "4030135928597023/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "58",
+      "delta_physical_upper": "8148571329886813/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "465/8",
+      "delta_physical_upper": "1029705606476393/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "233/4",
+      "delta_physical_upper": "8327525401776933/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "467/8",
+      "delta_physical_upper": "8418202715137387/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "117/2",
+      "delta_physical_upper": "4254836103547643/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "469/8",
+      "delta_physical_upper": "537621210877611/562949953421312",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "235/4",
+      "delta_physical_upper": "4347518545152455/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "471/8",
+      "delta_physical_upper": "4394476437345883/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "59",
+      "delta_physical_upper": "8883681550957009/9007199254740992",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "473/8",
+      "delta_physical_upper": "4489614687936027/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "237/4",
+      "delta_physical_upper": "4537816468803557/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "475/8",
+      "delta_physical_upper": "4586437321972907/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "119/2",
+      "delta_physical_upper": "4635477071523079/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "477/8",
+      "delta_physical_upper": "2342468511130361/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "239/4",
+      "delta_physical_upper": "4734836443927329/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "479/8",
+      "delta_physical_upper": "4785168353565927/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "60",
+      "delta_physical_upper": "4835928717680069/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "481/8",
+      "delta_physical_upper": "4887121435442921/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "241/4",
+      "delta_physical_upper": "4938762462282355/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "483/8",
+      "delta_physical_upper": "2495425581939705/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "121/2",
+      "delta_physical_upper": "5043379144349997/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "485/8",
+      "delta_physical_upper": "2548176242696079/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "243/4",
+      "delta_physical_upper": "1287445506104759/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "487/8",
+      "delta_physical_upper": "325229658384405/281474976710656",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "61",
+      "delta_physical_upper": "5258020398537453/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "489/8",
+      "delta_physical_upper": "1328205492701455/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "245/4",
+      "delta_physical_upper": "83876338794847/70368744177664",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "491/8",
+      "delta_physical_upper": "5423832142272075/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "123/2",
+      "delta_physical_upper": "5480043792789895/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "493/8",
+      "delta_physical_upper": "1384180901590669/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "247/4",
+      "delta_physical_upper": "1398468924143813/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "495/8",
+      "delta_physical_upper": "5651521871270093/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "62",
+      "delta_physical_upper": "713706115031565/562949953421312",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "497/8",
+      "delta_physical_upper": "5768256984571875/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "249/4",
+      "delta_physical_upper": "2913675137929129/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "499/8",
+      "delta_physical_upper": "5886939952006549/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "125/2",
+      "delta_physical_upper": "2973517312762145/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "501/8",
+      "delta_physical_upper": "6007624294836993/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "251/4",
+      "delta_physical_upper": "6068709350621493/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "503/8",
+      "delta_physical_upper": "6130295115620065/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "63",
+      "delta_physical_upper": "6192407879700363/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "505/8",
+      "delta_physical_upper": "1563757518535569/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "253/4",
+      "delta_physical_upper": "6318161464729063/4503599627370496",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "507/8",
+      "delta_physical_upper": "1595451488334653/1125899906842624",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "127/2",
+      "delta_physical_upper": "3222988220051711/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "509/8",
+      "delta_physical_upper": "3255342338691579/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "255/4",
+      "delta_physical_upper": "821989483858729/562949953421312",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "511/8",
+      "delta_physical_upper": "3320837244217999/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    },
+    {
+      "u": "64",
+      "delta_physical_upper": "3353981643390951/2251799813685248",
+      "approx_halfplane_upper": "0",
+      "halfplane_source": "first-cell normalized bracket<=0 and later all-cell exact upper; include Hhat(0)=0"
+    }
+  ],
+  "proof_evidence": [
+    {
+      "path": "field-residual-proof.md",
+      "sha256": "f2df3b9736998aec611cfc843878c5f09932223f96a8f98b0c9462cf03de716a"
+    },
+    {
+      "path": "research\\pade-calibration-20261006\\certify-field-residual-executed-point052-v3-u64.py",
+      "sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e"
+    },
+    {
+      "path": "research\\pade-calibration-20261006\\field-residual-certificate-point052-v3-u64.json",
+      "sha256": "af0c200e4f6415dc43de342240d9610dd26a2d8bafbe80a1ae153e37c2c41f89"
+    },
+    {
+      "path": "frozen-field-input-validation.json",
+      "sha256": "43f43a810ff4959b0662b06c2dbe186a7e9549e79fd5576a942622bcd538ac77"
+    },
+    {
+      "path": "combined-field-derivative.py",
+      "sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf"
+    }
+  ],
+  "source_sha256": "22d66d0f425cfe77c4952ef4f97584e58ba92f4d2d3b557e22f522b33a037ae8",
+  "adapter_changes_only_schema_not_bounds": true,
+  "uses_scan_or_convenience_float": false
+}

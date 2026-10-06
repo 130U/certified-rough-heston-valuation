@@ -1,0 +1,25 @@
+{
+  "status": "PASS_ENGLISH_MANUSCRIPT_PRESENTATION",
+  "documents": [
+    {
+      "document": "report",
+      "math_occurrences": 615,
+      "unique_equation_tags": 70,
+      "local_links_checked": 8,
+      "table_rows_checked": 28,
+      "source_sha256": "17073d8547bd13f2d77473cd7ae339cc0a0a0d8f5fce5280e92b6239c61f7b18",
+      "public_sha256": "59b461f5c29bc66d013eea8f65677637845dd62c94403616fa428d63c1bfc300"
+    },
+    {
+      "document": "rough-heston",
+      "math_occurrences": 510,
+      "unique_equation_tags": 86,
+      "local_links_checked": 3,
+      "table_rows_checked": 72,
+      "source_sha256": "adc40e73996cc53ea71fe7d67dde6d5a514845b7078397a9f0ce5660b0f5e994",
+      "public_sha256": "0cd1061f7765341f32bd72db4cecd4c2713594c853d4940dd42498bf4e395658"
+    }
+  ],
+  "maximum_bibliographic_year": 2023,
+  "scope": "Source identity, presentation, numerical-table transcription and local links; mathematical proofs are contained in the manuscripts."
+}

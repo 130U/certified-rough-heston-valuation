@@ -1,0 +1,693 @@
+{
+  "status": "PORTABLE_SELECTION_WITH_EXPLICIT_RELOCATION_AND_ORIGINAL_DIGESTS",
+  "records": [
+    {
+      "original_filename": "compact-halfplane-certificate-v2-partial.py",
+      "public_path": "code/src/compact-halfplane-certificate-v2-partial.py",
+      "original_sha256": "14296e1d25ed2841de3ee3bbc3f89410c6aade9c5cb621be1dd8504d1046959f",
+      "public_sha256": "14296e1d25ed2841de3ee3bbc3f89410c6aade9c5cb621be1dd8504d1046959f",
+      "original_bytes": 7407,
+      "public_bytes": 7407,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "interval-pade-certificate.py",
+      "public_path": "code/src/interval-pade-certificate.py",
+      "original_sha256": "f2f371eefed6b550ceb308f4ac1075f68dba9850725029316212adaba41d494e",
+      "public_sha256": "f2f371eefed6b550ceb308f4ac1075f68dba9850725029316212adaba41d494e",
+      "original_bytes": 8944,
+      "public_bytes": 8944,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "certify-field-residual-v3.py",
+      "public_path": "code/src/certify-field-residual-v3.py",
+      "original_sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e",
+      "public_sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e",
+      "original_bytes": 20923,
+      "public_bytes": 20923,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "combined-field-derivative.py",
+      "public_path": "code/src/combined-field-derivative.py",
+      "original_sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf",
+      "public_sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf",
+      "original_bytes": 3325,
+      "public_bytes": 3325,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "exponent-field-certificate.py",
+      "public_path": "code/src/exponent-field-certificate.py",
+      "original_sha256": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+      "public_sha256": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+      "original_bytes": 4616,
+      "public_bytes": 4616,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "exact-forward-moments.py",
+      "public_path": "code/src/exact-forward-moments.py",
+      "original_sha256": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+      "public_sha256": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+      "original_bytes": 4966,
+      "public_bytes": 4966,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "direct-tail-certificate.py",
+      "public_path": "code/src/direct-tail-certificate.py",
+      "original_sha256": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+      "public_sha256": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+      "original_bytes": 3679,
+      "public_bytes": 3679,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "residual-certificate-adapter.py",
+      "public_path": "code/src/residual-certificate-adapter.py",
+      "original_sha256": "22d66d0f425cfe77c4952ef4f97584e58ba92f4d2d3b557e22f522b33a037ae8",
+      "public_sha256": "22d66d0f425cfe77c4952ef4f97584e58ba92f4d2d3b557e22f522b33a037ae8",
+      "original_bytes": 6496,
+      "public_bytes": 6496,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "calibration-field-input-check.py",
+      "public_path": "code/src/calibration-field-input-check.py",
+      "original_sha256": "bb3c514081033899e8dc583a16bc09f3d44df5f858c65253ab9e2772602950a6",
+      "public_sha256": "bb3c514081033899e8dc583a16bc09f3d44df5f858c65253ab9e2772602950a6",
+      "original_bytes": 1311,
+      "public_bytes": 1311,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "f8-node-price-aggregate.py",
+      "public_path": "code/src/f8-node-price-aggregate.py",
+      "original_sha256": "c3234845989a4cb9c9cdc8f1b820a09248e5721ef3bee3ae1769d42238d68b01",
+      "public_sha256": "c3234845989a4cb9c9cdc8f1b820a09248e5721ef3bee3ae1769d42238d68b01",
+      "original_bytes": 21192,
+      "public_bytes": 21192,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "finite-candidate-objective-aggregate.py",
+      "public_path": "code/src/finite-candidate-objective-aggregate.py",
+      "original_sha256": "3e30cc0a44f8f16e09110865457e8a87c61abd0b8fddf4bf3b85fbd087026d2b",
+      "public_sha256": "3e30cc0a44f8f16e09110865457e8a87c61abd0b8fddf4bf3b85fbd087026d2b",
+      "original_bytes": 13590,
+      "public_bytes": 13590,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "calibration-interval-aggregate.py",
+      "public_path": "code/src/calibration-interval-aggregate.py",
+      "original_sha256": "317425b386b5ec8d1c6558a5b7a4bc59c7f515213f688b6c7518899a8749f88e",
+      "public_sha256": "317425b386b5ec8d1c6558a5b7a4bc59c7f515213f688b6c7518899a8749f88e",
+      "original_bytes": 8079,
+      "public_bytes": 8079,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "freeze-pade-output.py",
+      "public_path": "code/src/freeze-pade-output.py",
+      "original_sha256": "06544d0266cea50d6b6806a2a12614c0d0655c2e567f120ad542b765a0c13f45",
+      "public_sha256": "06544d0266cea50d6b6806a2a12614c0d0655c2e567f120ad542b765a0c13f45",
+      "original_bytes": 3309,
+      "public_bytes": 3309,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "price-profile-diagnostic.py",
+      "public_path": "code/src/price-profile-diagnostic.py",
+      "original_sha256": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+      "public_sha256": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+      "original_bytes": 6645,
+      "public_bytes": 6645,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "solver-diagnostic.py",
+      "public_path": "code/src/solver-diagnostic.py",
+      "original_sha256": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d",
+      "public_sha256": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d",
+      "original_bytes": 6573,
+      "public_bytes": 6573,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "save-fixed-field.py",
+      "public_path": "code/src/save-fixed-field.py",
+      "original_sha256": "50034ec247bab54410d8bbc7e5dbf6430adfa72b8145c3de3fae1eac1a5057db",
+      "public_sha256": "50034ec247bab54410d8bbc7e5dbf6430adfa72b8145c3de3fae1eac1a5057db",
+      "original_bytes": 3125,
+      "public_bytes": 3125,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "field-residual-diagnostic.py",
+      "public_path": "code/src/field-residual-diagnostic.py",
+      "original_sha256": "788c4e65553942b623624fa23358475abff9c12fa935928f29fcf0ffdb42b8e3",
+      "public_sha256": "788c4e65553942b623624fa23358475abff9c12fa935928f29fcf0ffdb42b8e3",
+      "original_bytes": 4791,
+      "public_bytes": 4791,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "calibration-contract-finite-T05.json",
+      "public_path": "code/frozen/calibration-contract-finite-T05.json",
+      "original_sha256": "3b699721ccc449db08bbe172258a557c5607bbc45079347fad8c50ff3d534c0d",
+      "public_sha256": "02a6f131c6dcef988bb6d8846672bd864190c38fe9334a1e86e763d2da0a8637",
+      "original_bytes": 4340,
+      "public_bytes": 4553,
+      "changes": [
+        {
+          "pointer": "/language_label",
+          "change": "English translation; numerical definition unchanged"
+        },
+        {
+          "pointer": "/research_foundation_cutoff",
+          "change": "internal literature-audit metadata omitted"
+        },
+        {
+          "pointer": "/data_files",
+          "change": "omitted raw-file local paths replaced by pinned public source links"
+        }
+      ]
+    },
+    {
+      "original_filename": "normalized-quote-bands.json",
+      "public_path": "code/frozen/normalized-quote-bands.json",
+      "original_sha256": "fe9975e53e392be874084f31f47d2f56bd1bc56d171cdfc3ef3b464d912be479",
+      "public_sha256": "167a484d6e6dfe537f111df0b93512898d31d96995cffe25a212f2a5f83c3b10",
+      "original_bytes": 118760,
+      "public_bytes": 25374,
+      "changes": [
+        {
+          "pointer": "/rows",
+          "change": "selected the twelve rows used by the declared T=1/2 contract; row values unchanged"
+        },
+        {
+          "pointer": "/rows/*/author_model_diagnostics",
+          "change": "unused author-model diagnostic columns omitted; all market quote enclosures unchanged"
+        }
+      ]
+    },
+    {
+      "original_filename": "frozen-pade-numeric-output.json",
+      "public_path": "code/frozen/frozen-pade-numeric-output.json",
+      "original_sha256": "4a04778284923a55c28f6507e46f57bb67c696a87ef118ace0e8962be79c110e",
+      "public_sha256": "4a04778284923a55c28f6507e46f57bb67c696a87ef118ace0e8962be79c110e",
+      "original_bytes": 8401,
+      "public_bytes": 8401,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "finite-candidate-calibration-result.json",
+      "public_path": "code/frozen/finite-candidate-calibration-result.json",
+      "original_sha256": "90dba2d20368a7825b9b263643aebcaf103b3e77d0a0a0268275944f4b3b41c9",
+      "public_sha256": "90dba2d20368a7825b9b263643aebcaf103b3e77d0a0a0268275944f4b3b41c9",
+      "original_bytes": 18274,
+      "public_bytes": 18274,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "f8-price-point052-v3-u64.json",
+      "public_path": "code/frozen/f8-price-point052-v3-u64.json",
+      "original_sha256": "bd87f20d0e7e773cb4b9899504f3a916ef85367da0cdbac03deca6701df6365d",
+      "public_sha256": "fa82b70939b66f517e0c0bbb8ab8ec30ba5325ae1b32d33b284471a0f86ddb10",
+      "original_bytes": 573573,
+      "public_bytes": 573282,
+      "changes": [
+        {
+          "pointer": "/input_residual_proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/input_residual_proof_evidence/3/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "frozen-field-input-validation.json"
+        },
+        {
+          "pointer": "/input_residual_proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "f8-price-point06-v3-u64.json",
+      "public_path": "code/frozen/f8-price-point06-v3-u64.json",
+      "original_sha256": "58373a5668699b2375ec8a667f37e4448fa4294c387dd39458c40ec7500438c4",
+      "public_sha256": "47b14d9fa17bd995372151ab1127e0de2435f83dfd13db5714597c3dbe6b3393",
+      "original_bytes": 572951,
+      "public_bytes": 572660,
+      "changes": [
+        {
+          "pointer": "/input_residual_proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/input_residual_proof_evidence/3/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "frozen-field-input-validation.json"
+        },
+        {
+          "pointer": "/input_residual_proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "f8-price-betap9-u64-v3.json",
+      "public_path": "code/frozen/f8-price-betap9-u64-v3.json",
+      "original_sha256": "c129195ac34bdf6f9d2c23b33d61a73ccdb3fa2bb85ca605ad868da5529db8d6",
+      "public_sha256": "430c0e85da75086a31d18ac2252095a1ef92d13e85f69067f7ef08624ca9876f",
+      "original_bytes": 571135,
+      "public_bytes": 570941,
+      "changes": [
+        {
+          "pointer": "/input_residual_proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/input_residual_proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128-exponent-certificate.json",
+      "original_sha256": "962c63c86d579bc1cfe194e996dbcc074d4ee2c3b5e151109bc46413284abb68",
+      "public_sha256": "962c63c86d579bc1cfe194e996dbcc074d4ee2c3b5e151109bc46413284abb68",
+      "original_bytes": 953907,
+      "public_bytes": 953907,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
+      "original_sha256": "9ec5908d7b0bc3e7c0805417ce616450b0e560c42bdf2ed04517fa3ac46596fc",
+      "public_sha256": "9ec5908d7b0bc3e7c0805417ce616450b0e560c42bdf2ed04517fa3ac46596fc",
+      "original_bytes": 953384,
+      "public_bytes": 953384,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
+      "original_sha256": "710e46d6c2d0ac3659687b54b7b1e6230edb03783b977b1e3194a8c6c516a7cc",
+      "public_sha256": "710e46d6c2d0ac3659687b54b7b1e6230edb03783b977b1e3194a8c6c516a7cc",
+      "original_bytes": 597479,
+      "public_bytes": 597479,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128-forward-weights.json",
+      "original_sha256": "74dbe1f266cbfa85cb2f1d413330f2f88970953590e1bc15ff62f3237be822c7",
+      "public_sha256": "74dbe1f266cbfa85cb2f1d413330f2f88970953590e1bc15ff62f3237be822c7",
+      "original_bytes": 305808,
+      "public_bytes": 305808,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128-forward-weights.json",
+      "original_sha256": "ea1cdd5fb0bcc72a57f5a2755f8cd7554c457089ae8d6bab34ac44cf01d07a34",
+      "public_sha256": "ea1cdd5fb0bcc72a57f5a2755f8cd7554c457089ae8d6bab34ac44cf01d07a34",
+      "original_bytes": 306100,
+      "public_bytes": 306100,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80-forward-weights.json",
+      "original_sha256": "9bb5e94600daffa67b5b9e32d2dc9379fc3ff30304daf980b3c83182865712ff",
+      "public_sha256": "9bb5e94600daffa67b5b9e32d2dc9379fc3ff30304daf980b3c83182865712ff",
+      "original_bytes": 154131,
+      "public_bytes": 154131,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "field-residual-certificate-point052-v3-u64.json",
+      "public_path": "code/frozen/field-residual-certificate-point052-v3-u64.json",
+      "original_sha256": "af0c200e4f6415dc43de342240d9610dd26a2d8bafbe80a1ae153e37c2c41f89",
+      "public_sha256": "af0c200e4f6415dc43de342240d9610dd26a2d8bafbe80a1ae153e37c2c41f89",
+      "original_bytes": 124215,
+      "public_bytes": 124215,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "field-residual-certificate-point06-v3-u64.json",
+      "public_path": "code/frozen/field-residual-certificate-point06-v3-u64.json",
+      "original_sha256": "94733dc9e5c51edaeaca798ffc69c151cb5badbe62e23acca404c6dbe9fc40f1",
+      "public_sha256": "94733dc9e5c51edaeaca798ffc69c151cb5badbe62e23acca404c6dbe9fc40f1",
+      "original_bytes": 124739,
+      "public_bytes": 124739,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "field-residual-betap9-u64-v3.json",
+      "public_path": "code/frozen/field-residual-betap9-u64-v3.json",
+      "original_sha256": "57101cbaf094ef9aadf0a33bd7da8ac5f94b2322de46dbb1b48364b0fa9c2a23",
+      "public_sha256": "57101cbaf094ef9aadf0a33bd7da8ac5f94b2322de46dbb1b48364b0fa9c2a23",
+      "original_bytes": 125480,
+      "public_bytes": 125480,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-point052-v3-u64.json",
+      "public_path": "code/frozen/residual-node-certificate-point052-v3-u64.json",
+      "original_sha256": "487d1f145421d273f225130b677b8ee0933ca20d7a0ae488ad0df7d1c7e77547",
+      "public_sha256": "84005e144927320df23970658d57d0c774870182f497c55f5890b77862d8be20",
+      "original_bytes": 132671,
+      "public_bytes": 132380,
+      "changes": [
+        {
+          "pointer": "/proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/proof_evidence/3/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "frozen-field-input-validation.json"
+        },
+        {
+          "pointer": "/proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-point06-v3-u64.json",
+      "public_path": "code/frozen/residual-node-certificate-point06-v3-u64.json",
+      "original_sha256": "96c28dee005cc6568af4fbb4c416180b2ec5cf4eec95c18afe1d80e7843a5e37",
+      "public_sha256": "d28b46c6ac78336eb4486182e78fedbc65dcf7260f9fb1cd05c5287d4a5b5a74",
+      "original_bytes": 132927,
+      "public_bytes": 132636,
+      "changes": [
+        {
+          "pointer": "/proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/proof_evidence/3/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "frozen-field-input-validation.json"
+        },
+        {
+          "pointer": "/proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-betap9-u64-v3.json",
+      "public_path": "code/frozen/residual-node-certificate-betap9-u64-v3.json",
+      "original_sha256": "32f89284c6664393e80a848540ca23dee53e968d78155801b5c067a7d8dff338",
+      "public_sha256": "77779e7b99324bbac962d3ea171d907c4033466f0047f269b571a4fa96d1451e",
+      "original_bytes": 133364,
+      "public_bytes": 133170,
+      "changes": [
+        {
+          "pointer": "/proof_evidence/0/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "field-residual-proof.md"
+        },
+        {
+          "pointer": "/proof_evidence/4/path",
+          "change": "private absolute evidence path replaced by filename",
+          "public_value": "combined-field-derivative.py"
+        }
+      ]
+    },
+    {
+      "original_filename": "direct-tail-certificate.json",
+      "public_path": "code/frozen/direct-tail-certificate.json",
+      "original_sha256": "cd13a61d9049469420faa36a39987e16e5a0e5fc7b2a15bd53c05e855e07108b",
+      "public_sha256": "cd13a61d9049469420faa36a39987e16e5a0e5fc7b2a15bd53c05e855e07108b",
+      "original_bytes": 734805,
+      "public_bytes": 734805,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "frozen-field-input-validation.json",
+      "public_path": "code/frozen/frozen-field-input-validation.json",
+      "original_sha256": "43f43a810ff4959b0662b06c2dbe186a7e9549e79fd5576a942622bcd538ac77",
+      "public_sha256": "43f43a810ff4959b0662b06c2dbe186a7e9549e79fd5576a942622bcd538ac77",
+      "original_bytes": 618,
+      "public_bytes": 618,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "field-input-guards-betap9-u80.json",
+      "public_path": "code/frozen/field-input-guards-betap9-u80.json",
+      "original_sha256": "2e4a540e3f30d214869ee12802af7462d17a0aa27d3b303cc7f88cff80798697",
+      "public_sha256": "2e4a540e3f30d214869ee12802af7462d17a0aa27d3b303cc7f88cff80798697",
+      "original_bytes": 390,
+      "public_bytes": 390,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "compact-rough-layer-independent-check.json",
+      "public_path": "code/frozen/compact-rough-layer-independent-check.json",
+      "original_sha256": "d059d15ccf084eba3a9942ba4ac7d0d4409716a1d27a5661eb9bf8407bf410ac",
+      "public_sha256": "d059d15ccf084eba3a9942ba4ac7d0d4409716a1d27a5661eb9bf8407bf410ac",
+      "original_bytes": 1520,
+      "public_bytes": 1520,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128.json",
+      "original_sha256": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579",
+      "public_sha256": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579",
+      "original_bytes": 1424,
+      "public_bytes": 1424,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap52-u128.npz",
+      "original_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "public_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "original_bytes": 32146571,
+      "public_bytes": 32146571,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128.json",
+      "original_sha256": "4f177fcb7bd192dab21f8faa83dd917be820e9c449af41b4d905c1f03bcaa969",
+      "public_sha256": "4f177fcb7bd192dab21f8faa83dd917be820e9c449af41b4d905c1f03bcaa969",
+      "original_bytes": 1422,
+      "public_bytes": 1422,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap6-u128.npz",
+      "original_sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "public_sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "original_bytes": 32139003,
+      "public_bytes": 32139003,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u128.json",
+      "public_path": "code/frozen/fixed-field-betap9-u128.json",
+      "original_sha256": "15a529bb7be240b2861bb49ae2baac639fe6d18d07de194ba7bbde4415b042b9",
+      "public_sha256": "15a529bb7be240b2861bb49ae2baac639fe6d18d07de194ba7bbde4415b042b9",
+      "original_bytes": 1422,
+      "public_bytes": 1422,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap9-u128.npz",
+      "original_sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02",
+      "public_sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02",
+      "original_bytes": 32105032,
+      "public_bytes": 32105032,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80.json",
+      "original_sha256": "a06128bd7bf6658ccf23223a2d48792477441a65cc0490eb16049da4d0fbb1dc",
+      "public_sha256": "a06128bd7bf6658ccf23223a2d48792477441a65cc0490eb16049da4d0fbb1dc",
+      "original_bytes": 1416,
+      "public_bytes": 1416,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80.npz",
+      "public_path": "code/frozen/fixed-field-betap9-u80.npz",
+      "original_sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "public_sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "original_bytes": 10050564,
+      "public_bytes": 10050564,
+      "changes": [
+        "byte-identical copy"
+      ]
+    },
+    {
+      "original_filename": "compact-rough-layer-certificate.json",
+      "public_path": "code/frozen/compact-rough-layer-certificate.json.gz",
+      "original_sha256": "d26f3e80921d6a6a506886e3c8e954d83676755039d132ff126822bad130bb77",
+      "public_sha256": "409283b98f59051eacadeba2e3be87c3fee6cbd9b8ef794959c501ea581476b8",
+      "original_bytes": 219263494,
+      "public_bytes": 36365071,
+      "changes": [
+        "lossless deterministic gzip; decompressed bytes identical"
+      ]
+    },
+    {
+      "original_filename": "compute-finance-usecase.py",
+      "public_path": "code/src/compute-finance-usecase.py",
+      "original_sha256": "a8aef1097d4ace1d2ab8a289ee700d61d146d415cc1eb9ed64436cf5299ae999",
+      "public_sha256": "979592646eea909677d539e6f5ad00cbd17b25a284bfdff6a84ba0f1d625b977",
+      "original_bytes": 6863,
+      "public_bytes": 6948,
+      "changes": [
+        "working-directory relocation only; exact arithmetic and assertions unchanged"
+      ]
+    },
+    {
+      "original_filename": "finance-usecase-calculations.json",
+      "public_path": "code/frozen/finance-usecase-calculations.json",
+      "original_sha256": "8e6d2ae0790b8adcea16969ca737d629373a4a5d7c15ab0b5d0c219666c3acb1",
+      "public_sha256": "ae71c0b95ccf8d085c0e0240eb0682d788e7341fa2185cfb4509731f6047a85b",
+      "original_bytes": 11180,
+      "public_bytes": 11439,
+      "changes": [
+        "exact application reaggregation from public frozen bytes; mathematical objective/quote/spread values equal to the original record; source digest map now identifies public frozen inputs"
+      ]
+    }
+  ],
+  "historical_evidence_identifiers": {
+    "compact-halfplane-certificate-v2-partial.json": {
+      "sha256": "886388ec868261babf8b4623387eb4a8329820d0c42eb23d807d74c95783a105",
+      "bytes": 259748291,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    },
+    "fractional-exponent-linearization.md": {
+      "sha256": "b91cc32033cbf8d282c3649aeb1eb08a12aa302a76aec161d151402c1245d7bf",
+      "bytes": 9823,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    },
+    "model-admissibility.md": {
+      "sha256": "9a6703e958d04e5d73bf4273002a85cf6ba9fb1888adc041fe5e2d10ae1c8cf3",
+      "bytes": 6971,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    },
+    "direct-real-tail.md": {
+      "sha256": "62704485c0907afcb6050713b6da78358d64bedca6d38241f4ed390883a63a63",
+      "bytes": 9026,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    },
+    "complex-dissipativity.md": {
+      "sha256": "a89d8345679206d0780e12907dd8f1226e6df20079621b09ebe7406b52b71be3",
+      "bytes": 13890,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    },
+    "field-residual-proof.md": {
+      "sha256": "f2df3b9736998aec611cfc843878c5f09932223f96a8f98b0c9462cf03de716a",
+      "bytes": 9245,
+      "role": "original evidence identifier retained; this historical file is not redistributed"
+    }
+  },
+  "hash_semantics": "source_sha256 fields inside saved certificates identify the original execution bytes. Public-byte identity is separately stated here and in code/MANIFEST.json.",
+  "field_semantics": "NPZ components retain their exact binary dyadic values; no field regeneration during packaging.",
+  "raw_third_party_files": "No paper PDF, author code, raw CSV, external MATLAB, or private transcript is redistributed."
+}

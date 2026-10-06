@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+.cache/
+out/
+__pycache__/
+*.pyc
+qa/
+template-cover.png
+prepare-pdf-assets.py
+publication-*.json
+manuscript/report-tail.md
+manuscript/*-qa.json
+manuscript/*-translation-*.json
+manuscript/*-draft*
+manuscript/*protected*
+manuscript/*translation*

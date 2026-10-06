@@ -1,0 +1,7 @@
+* text=auto eol=lf
+code/** -text whitespace=cr-at-eol
+manuscript/*.md whitespace=-blank-at-eol
+manuscript/*.tex whitespace=-blank-at-eol
+*.pdf binary
+*.npz binary
+*.gz binary

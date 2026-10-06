@@ -1,0 +1,8 @@
+{
+  "name": "certified-rough-heston-valuation-typesetting",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "mathjax-full": "3.2.2"
+  }
+}

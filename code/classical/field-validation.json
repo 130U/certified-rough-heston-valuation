@@ -1,0 +1,22 @@
+{
+  "status": "PASS_EXACT_FIELD_RECEIPT_AND_MODE_BOX_AGGREGATION",
+  "scope": "Exact saved integral arithmetic. The archived 384-bit direct integration is not rerun; the coefficient bank is not shipped.",
+  "inputs": {
+    "field-result.json": "fd0c21fb97816db23f7b20348ceca8490bbc5b095fabc3ef275dbd42a22cd67d",
+    "field-cell-integrals.json": "5d63cb0378ef28bdc5733bcc1fdb2aac8e5fcbb35cf854f4dea70b3668aefc63",
+    "field-independent-readback.json": "2939feff1dcb96ae3ec74d902ab6cf54374e5495aa6bb23e8a695327361ad239"
+  },
+  "mode_cells": 3080,
+  "original_time_pieces": 64,
+  "whole_lower_exact": "211825137980176416264545048578203013986227105463569147286361401899350072719096586865/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "independent_mode_box_whole_lower_exact": "211825137980176416264545048578203013986227105463569147286361401899350072720207629181/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "verified_display_lower": "0.003407444052031154",
+  "selected_PDE_allocation_rejected": true,
+  "complete_balance_rejected_by_this_lower_bound": false,
+  "actual_bias_lower_bound": null,
+  "field_candidate_calls": 0,
+  "expm_calls": 0,
+  "price_calls": 0,
+  "checker_sha256": "aaf2659302fabebb67efa2a7b10d3069d800693b035ef850bee9eb17e3cb5749",
+  "elapsed_seconds": 0.08159539999905974
+}

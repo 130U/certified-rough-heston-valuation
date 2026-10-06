@@ -1,0 +1,33 @@
+name: Verify certificates and manuscripts
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  certificates:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r code/requirements.txt
+      - run: python code/run.py verify --sample-signs 16
+      - run: python code/classical/verify_package.py
+      - run: python code/classical/verify_input_bounds.py
+      - run: python code/classical/verify_terminal.py
+      - run: python code/classical/verify_field_receipt.py
+  manuscripts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/build_github_manuscripts.py
+      - run: python scripts/check_manuscripts.py
+      - run: git diff --exit-code -- manuscript

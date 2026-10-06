@@ -1,0 +1,20 @@
+{
+  "status": "EXACT_FROZEN_FIELD_INPUT_GUARDS_PASS",
+  "source_sha256": "1e76d2620c44c0852ce8186b1930a45fc45ff9399cd25ff985ef03ca51e33634",
+  "records": [
+    {
+      "file": "fixed-field-betap52-u128.npz",
+      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "guards": "PASS",
+      "time_nodes": 2049,
+      "frequencies": 1025
+    },
+    {
+      "file": "fixed-field-betap6-u128.npz",
+      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "guards": "PASS",
+      "time_nodes": 2049,
+      "frequencies": 1025
+    }
+  ]
+}

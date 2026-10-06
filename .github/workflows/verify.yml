@@ -30,4 +30,9 @@ jobs:
           python-version: '3.12'
       - run: python scripts/build_github_manuscripts.py
       - run: python scripts/check_manuscripts.py
-      - run: git diff --exit-code -- manuscript
+      - run: git diff --exit-code -- README.md manuscript
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --ignore-scripts --no-package-lock
+      - run: node scripts/verify_github_math.cjs

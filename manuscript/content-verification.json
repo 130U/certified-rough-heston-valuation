@@ -5,21 +5,39 @@
       "document": "report",
       "math_occurrences": 615,
       "unique_equation_tags": 70,
+      "github_presentation": {
+        "formula_count": 615,
+        "display_count": 133,
+        "unsafe_operator_macros": 0,
+        "ungrouped_displays": 0
+      },
       "local_links_checked": 8,
       "table_rows_checked": 28,
       "source_sha256": "17073d8547bd13f2d77473cd7ae339cc0a0a0d8f5fce5280e92b6239c61f7b18",
-      "public_sha256": "59b461f5c29bc66d013eea8f65677637845dd62c94403616fa428d63c1bfc300"
+      "public_sha256": "1772f3ec9daf9660dc38e4358333c66832dca140f8c1c31081a71f12897fcdd2"
     },
     {
       "document": "rough-heston",
       "math_occurrences": 510,
       "unique_equation_tags": 86,
+      "github_presentation": {
+        "formula_count": 510,
+        "display_count": 110,
+        "unsafe_operator_macros": 0,
+        "ungrouped_displays": 0
+      },
       "local_links_checked": 3,
       "table_rows_checked": 72,
       "source_sha256": "adc40e73996cc53ea71fe7d67dde6d5a514845b7078397a9f0ce5660b0f5e994",
-      "public_sha256": "0cd1061f7765341f32bd72db4cecd4c2713594c853d4940dd42498bf4e395658"
+      "public_sha256": "9ea6200ae8977c234cadc5eb849869df5e476a8d33260853dc564e187b9f8885"
     }
   ],
+  "readme_github_presentation": {
+    "formula_count": 4,
+    "display_count": 4,
+    "unsafe_operator_macros": 0,
+    "ungrouped_displays": 0
+  },
   "maximum_bibliographic_year": 2023,
-  "scope": "Source identity, presentation, numerical-table transcription and local links; mathematical proofs are contained in the manuscripts."
+  "scope": "Source identity, GitHub-safe macros and complete display containers, numerical-table transcription and local links; mathematical proofs are contained in the manuscripts."
 }

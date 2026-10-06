@@ -64,8 +64,10 @@ H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad
 \tag{2.3}
 ```
 ```math
+\begin{gathered}
 b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad
 F(z)=-b+dz+z^2/2.
+\end{gathered}
 ```
 Then $`D_{C,x}^\alpha H=F(H)`$ and $`D_{C,t}^\alpha Z=\nu F(Z)`$. Dividing the normalised state error by $`\nu`$ gives the physical $`h`$ error. Likewise, dividing the physical residual $`r_t=D_t^\alpha\widehat Z-\nu F(\widehat Z)`$ by $`\nu`$ gives the residual bound for the normalised equation.
 
@@ -129,8 +131,10 @@ g_2=-\frac R{A^2\Gamma(1-2\alpha)}
 ```
 For $`1/2\lt \alpha\lt 1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fixed two-endpoint construction of Gatheral and Radoičić [GR2019] requires
 ```math
+\begin{gathered}
 \widehat H(y)=P(y)/Q(y),\quad
 Q=1+q_1y+q_2y^2+q_3y^3,
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -141,21 +145,26 @@ Q=1+q_1y+q_2y^2+q_3y^3,
 ```
 These six conditions give the linear system
 ```math
+\begin{gathered}
 \begin{pmatrix}g_0&g_1&g_2\\b_1&-g_0&-g_1\\
 b_2&b_1&-g_0\end{pmatrix}
 \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix}
 =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix},
-\quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3.
+\\
+p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3.
+\end{gathered}
 \tag{2.11}
 ```
 Equations (2.8)–(2.11) are the established construction. We next prove invertibility, a nonvanishing denominator, the trajectory half-plane property, and exact-solution error bounds for an independent reference trajectory.
 
 To avoid division by the matching determinant before proving its nonvanishing, define
 ```math
+\begin{gathered}
 f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha},
 \quad v=-\cos\pi\alpha,\quad
 m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad
 \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -207,8 +216,10 @@ Moreover, for $`y\gt 0`$, $`\mathop{\mathrm{Re}}\nolimits \widehat H(y)\lt 0`$. 
 
 **Proof.** First take $`u\ge0`$. Set
 ```math
+\begin{gathered}
 \omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad
 j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -219,14 +230,18 @@ j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,
 ```
 Since $`j^2\ge1/5`$, these functions are defined on the closed interval $`\eta\in[0,1]`$. We have $`|\bar S|=|\rho|`$ and
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits \bar A^2
 =1-\rho^2+2(\mathop{\mathrm{Re}}\nolimits \bar S)^2\ge1-\rho^2\gt 0.
+\end{gathered}
 ```
 The principal square root is continuous and lies in the first quadrant; $`\mathop{\mathrm{Re}}\nolimits \bar A,|\bar A|\gt 3/5`$. The real part of the Hermitian product of two first-quadrant numbers is nonnegative. Hence
 ```math
+\begin{gathered}
 |\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2
 \ge|\bar A^2-\bar S^2|=1,\quad
 |\bar R|\le1,\quad\mathop{\mathrm{Re}}\nolimits \bar R\gt 0.
+\end{gathered}
 ```
 Equation (3.3) expresses $`\bar A-\bar S`$ in reciprocal form, with a denominator determined directly by the current parameters.
 
@@ -339,9 +354,11 @@ If $`X`$ first reaches a small positive level $`\varepsilon\lt 1/2`$, the deriva
 
 Let $`\psi_\epsilon(z)=\sqrt{|z|^2+\epsilon^2}-\epsilon`$. Equation (4.3), together with
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits (\overline H F(H))
 =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad
 \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),
+\end{gathered}
 ```
 gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the zero-initial-value linear scalar equation and let $`\epsilon\downarrow0`$ to obtain (4.4). The scalar solution is verified directly by the Mittag–Leffler series. If finite-time blow-up occurred, (4.4) would bound the trajectory, $`F(H)`$, and a uniform Hölder constant. The history integral would have a finite limit at that endpoint, and local contraction would extend the solution, a contradiction. Successive Volterra contractions give uniqueness. ∎
 
@@ -349,8 +366,10 @@ gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the 
 
 **Theorem 4.2 (dissipative residual bound).** Suppose $`s_0\gt 0`$, $`\widehat H(0)=0`$, and $`\widehat H\in AC`$, with local Lipschitz regularity at positive times. Assume, for every $`x\in(0,X]`$, that
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits \widehat H\le\epsilon_R\lt 2s_0,\qquad
 |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,
+\end{gathered}
 ```
 Set $`\sigma=s_0-\epsilon_R/2\gt 0`$. Then
 ```math
@@ -365,8 +384,10 @@ In particular, for a trajectory in the left half-plane, one may take $`\epsilon_
 
 **Proof.** The error $`e=H-\widehat H`$ satisfies
 ```math
+\begin{gathered}
 D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad
 \mathop{\mathrm{Re}}\nolimits \left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.
+\end{gathered}
 ```
 Apply (4.3) to $`\psi_\epsilon(e)`$ to obtain
 $`D_C^\alpha\psi_\epsilon(e)+\sigma\psi_\epsilon(e)\le|r|\le\delta`$.
@@ -426,8 +447,10 @@ where $`E_{a,b}(z)=\sum_{n=0}^\infty z^n/\Gamma(an+b)`$.
 
 **Theorem 5.1.** For a zero-initial-value AC trajectory $`Z,\widehat Z`$, use the derivative-based exponent
 ```math
+\begin{gathered}
 L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad
 \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,
+\end{gathered}
 ```
 Then
 ```math
@@ -492,9 +515,11 @@ $`g(z)=e^{-ikz}\phi_T(z-i/2)/(z^2+1/4)`$. Replacing the integral in (2.7) by the
 $`|\phi_T(z-i/2)|\le\mathbb E M_T^{1/2-\mathop{\mathrm{Im}}\nolimits z}\le1`$.
 On compact substrips, $`x^q|\log x|^j\le C(1+x)`$, so the transform is analytic. The boundaries $`z=r\pm ia_*`$ satisfy
 ```math
+\begin{gathered}
 |z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad
 \int_{\mathbb R}|g(r\pm ia_*)|\,dr
 \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.
+\end{gathered}
 ```
 Shift the real-axis Fourier integration contour to the upper and lower boundaries. The vertical integrals vanish by quadratic decay, giving
 $`|\widetilde g(\omega)|\le M_*e^{-a_*|\omega|}`$.
@@ -517,9 +542,11 @@ D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad
 ```
 Let $`w`$ be the scalar zero-initial-value solution satisfying equality. Comparison gives
 ```math
+\begin{gathered}
 X\ge w,\quad 0\le w\le R_u,\quad
 R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad
 \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.
+\end{gathered}
 ```
 Because the right-hand side satisfies $`(R_u-w)(s_0+(R_u+w)/2)\ge\ell_u(R_u-w)`$, linear comparison and the bound of Simon [Simon2014],
 $`E_\alpha(-z)\le(1+z/\Gamma(1+\alpha))^{-1}`$, give
@@ -534,14 +561,18 @@ The comparison argument uses a positive maximum over the full history.
 
 Take $`V\gt s_0/\sqrt{1-\rho^2}`$ and define
 ```math
+\begin{gathered}
 a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V\gt 0,\quad
 f_\alpha(z)=z/(\Gamma(1+\alpha)+z).
+\end{gathered}
 ```
 For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition of $`J\ge2`$, denoted $`0=t_0\lt \cdots\lt t_J=T`$, the positive kernel in (5.4) and the monotonicity of $`f_\alpha`$ give
 ```math
+\begin{gathered}
 c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1}
  f_\alpha(a_\rho\nu Vt_j^\alpha/2)
  [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]\gt 0,
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -612,8 +643,10 @@ Equation (7.1) defines an entire absolutely continuous reference trajectory. Its
 
 Write
 ```math
+\begin{gathered}
 \widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad
 H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -629,8 +662,10 @@ The initial interval is $`J=L_1t^{\alpha+1}/[t_1\Gamma(2+\alpha)]`$. Substitute 
 
 On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral weights for the linear hat functions are
 ```math
+\begin{gathered}
 I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad
 I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -662,11 +697,15 @@ Subdivide each subsequent original interval twice into four closed subintervals 
 ```
 The ordinary residual derivative may be discontinuous at original nodes. The derivative bounds below hold almost everywhere; absolute continuity of the residual and the fundamental theorem of calculus still imply (7.6). Each of the following three identities provides a derivative bound, and we take their minimum:
 ```math
+\begin{gathered}
 r_t'=\bar G'-\nu(d+\widehat Z)\widehat Z',
+\end{gathered}
 ```
 ```math
+\begin{gathered}
 P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad
 r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -795,10 +834,12 @@ M_i\in[m_i^-,m_i^+].
 ```
 Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 ```math
+\begin{gathered}
 \ell(x,y)=
 \begin{cases}0,&x\le0\le y,\\
 \min(x^2,y^2),&\text{otherwise},\end{cases}
 \quad v(x,y)=\max(x^2,y^2).
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -1010,7 +1051,9 @@ $`B_i=\mathop{\mathrm{BS}}\nolimits (\sigma_i^{\rm bid})/(DF)`$ and $`A_i=\matho
 Fix the correlation, volatility coefficient, and Riccati mean-reversion parameter at
 
 ```math
+\begin{gathered}
 \rho=-.7445,\qquad \nu=.2897,\qquad \lambda_R=0,
+\end{gathered}
 ```
 
 and fix the forward variance curve
@@ -1071,10 +1114,12 @@ Thus $`\alpha=.52`$ and $`H=.02`$ form the unique optimal candidate for model pr
 The gap also provides an error tolerance for other numerical implementations. Suppose an implementation returns $`\widetilde J`$ with
 
 ```math
+\begin{gathered}
 \sup_{\alpha\in\{.52,.60,.90\}}
 |\widetilde J(\alpha)-J(\alpha)|\le\delta_J,
 \qquad
 \widetilde J(\widehat\alpha)\le\min\widetilde J+\varepsilon_{\rm alg},
+\end{gathered}
 ```
 
 where $`\varepsilon_{\rm alg}\ge0`$ is the optimisation objective tolerance. Then
@@ -1090,10 +1135,12 @@ J(\widehat\alpha)-\min J
 **Proof.** The objective-error bound and near-optimality condition give successively
 
 ```math
+\begin{gathered}
 J(\widehat\alpha)
 \le\widetilde J(\widehat\alpha)+\delta_J
 \le\min\widetilde J+\varepsilon_{\rm alg}+\delta_J
 \le\min J+2\delta_J+\varepsilon_{\rm alg}.
+\end{gathered}
 ```
 
 If $`2\delta_J+\varepsilon_{\rm alg}\lt g`$, selection of another candidate contradicts (U5), so $`\widehat\alpha=.52`$. In particular, when the implementation minimises $`\widetilde J`$ exactly, the following uniform objective-error bound suffices to preserve the selection:
@@ -1173,7 +1220,9 @@ v^P=.008709300813304\ldots,
 **Proof.** For $`c_1\in[\ell_1,r_1]`$ and $`c_2\in[\ell_2,r_2]`$,
 
 ```math
+\begin{gathered}
 c_1-c_2\in[\ell_1-r_2,r_1-\ell_2].
+\end{gathered}
 ```
 
 Substitution of the two model-price intervals gives (U10). Take the larger of the distances from $`v^P`$ to the two exact interval endpoints and round outward to obtain (U11). If each single-price error is first symmetrised and the triangle inequality then applied, the upper bound is $`.000851064392510`$. Retaining the signed endpoints of the individual intervals gives the tighter portfolio bound in (U11). This calculation uses linear operations on marginal price intervals; the improvement comes from their asymmetric endpoint information.
@@ -1265,8 +1314,10 @@ The certificate domain is $`\mathcal B=[13/25,3/5]\times[0,1]`$. Every interval 
 
 The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 ```math
+\begin{gathered}
 p'\lt 0,\quad v'\gt 0,\quad
 (\log m_\alpha)'=2[\psi(1+2\alpha)-\psi(1+\alpha)]\gt 0,
+\end{gathered}
 ```
 ```math
 \begin{gathered}

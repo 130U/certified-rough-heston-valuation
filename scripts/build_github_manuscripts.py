@@ -20,7 +20,7 @@ TOKEN = re.compile(
     r"|(?P<double>\$\$[\s\S]*?\$\$)"
     r"|(?P<single>(?<![\\$])\$(?!\$)(?:\\.|[^$])*?(?<!\\)\$(?!\$))"
 )
-PUBLIC_MATH = re.compile(r"```math\n([\s\S]*?)\n```|\$`([^`\n]*)`\$")
+PUBLIC_MATH = re.compile(r"^[ \t]*```math\n([\s\S]*?)\n[ \t]*```|\$`([^`\n]*)`\$", re.M)
 
 
 def sha(text):
@@ -114,14 +114,81 @@ def github_tex(tex, table=False):
     return tex, changes
 
 
+def is_display_container(expression):
+    """Recognize a row environment enclosing the *whole* expression.
+
+    A leading matrix is an operand, not a container for the matrix product and
+    identities that follow it. GitHub's native MathML styles require a single
+    outer row environment to keep such operands on the same displayed row.
+    """
+    expression = expression.strip()
+    first = re.match(r"\\begin\{(gathered|aligned|alignedat)\}", expression)
+    if first is None:
+        return False
+    stack = []
+    for match in re.finditer(r"\\(begin|end)\{([^}]+)\}", expression):
+        if match.group(1) == "begin":
+            stack.append(match.group(2))
+        else:
+            if not stack or stack.pop() != match.group(2):
+                return False
+            if not stack:
+                return not expression[match.end():].strip()
+    return False
+
+
 def display_container(tex):
-    # Keep standalone tagged expressions horizontal in GitHub's native MathML.
+    # Group tagged and untagged expressions, including leading matrix operands.
     stripped = tex.strip()
     tag = re.search(r"\\tag\*?\s*\{[^}]*\}\s*$", stripped)
-    if tag and not stripped.startswith(r"\begin{"):
-        expression = stripped[:tag.start()].rstrip()
-        return r"\begin{gathered}" + "\n" + expression + "\n" + r"\end{gathered}" + "\n" + tag.group().strip(), True
-    return tex, False
+    expression = stripped[:tag.start()].rstrip() if tag else stripped
+    if is_display_container(expression):
+        return tex, False
+    # Put the coefficient identities below the matrix equation, within the same
+    # numbered display. This is a line break only; all mathematical tokens stay.
+    if (tag and tag.group() == r"\tag{2.11}"
+            and expression.startswith(r"\begin{pmatrix}")
+            and r"\quad p_1=" in expression):
+        expression = expression.replace(r"\quad p_1=", "\\\\\n" + "p_1=", 1)
+    grouped = r"\begin{gathered}" + "\n" + expression + "\n" + r"\end{gathered}"
+    if tag:
+        grouped += "\n" + tag.group().strip()
+    return grouped, True
+
+
+def check_public_math(text):
+    """Check the GitHub restrictions and grouping missed by local TeX parsers."""
+    formulas = list(PUBLIC_MATH.finditer(text))
+    for match in formulas:
+        tex = match.group(1) if match.group(1) is not None else match.group(2)
+        assert not re.search(r"(?<!\\)\\operatorname\b", tex), "GitHub disallows operatorname"
+        assert not re.search(r"(?<!\\)[<>]", tex), "Use HTML-safe TeX relation macros"
+        assert not re.search(r"\\nolimits[A-Za-z]", tex), "Missing TeX token separator"
+        if match.group(1) is not None:
+            expression = re.sub(r"\\tag\*?\s*\{[^}]*\}\s*$", "", tex).strip()
+            assert is_display_container(expression), "Display needs a complete outer row container"
+    return {"formula_count": len(formulas),
+            "display_count": sum(m.group(1) is not None for m in formulas),
+            "unsafe_operator_macros": 0, "ungrouped_displays": 0}
+
+
+def build_readme(text):
+    """Apply the same presentation rules to README math fences, idempotently."""
+    records = []
+    def convert(match):
+        tex = match.group(1)
+        safe, changes = github_tex(tex)
+        safe, grouped = display_container(safe)
+        if grouped:
+            changes.append({"rule": "display-only alignment container", "environment": "gathered"})
+        records.append({"index": len(records) + 1, "kind": "display",
+                        "source_line": text.count("\n", 0, match.start()) + 1,
+                        "github_tex": safe, "changes": changes,
+                        "equation_tags": re.findall(r"\\tag\*?\s*\{([^}]*)\}", tex)})
+        return "```math\n" + safe.strip() + "\n```"
+    result = re.sub(r"```math\n([\s\S]*?)\n```", convert, text)
+    check_public_math(result)
+    return result, records
 
 
 def build(source):
@@ -151,7 +218,7 @@ def build(source):
         if display:
             safe, container = display_container(safe)
             if container:
-                changes.append({"rule": "display-only alignment container", "environment": "gathered", "effect": "unchanged expression and equation tag"})
+                changes.append({"rule": "display-only alignment container", "environment": "gathered", "effect": "equivalent expression, presentation line breaks, unchanged equation tag"})
             indentation = before if not before.strip() else ""
             safe_lines = safe.strip("\n").splitlines()
             converted = "```math\n" + "\n".join(indentation + line for line in safe_lines) + "\n" + indentation + "```"
@@ -185,6 +252,7 @@ def build(source):
     protected_target.append(source[cursor:])
     assert protected_source == protected_target
     result = "".join(output)
+    check_public_math(result)
     assert re.findall(r"\\tag\*?\s*\{([^}]*)\}", source) == re.findall(r"\\tag\*?\s*\{([^}]*)\}", result)
     # No unsupported source delimiter remains outside the emitted math fences.
     nonmath = re.sub(r"```math\n[\s\S]*?\n[ \t]*```|\$`[^`\n]*`\$", "", result)
@@ -210,7 +278,34 @@ def self_test():
     wrapped, wrapped_records = build("Inline \\(a\n\\le b\\).")
     assert "$`a \\le b`$" in wrapped
     assert wrapped_records[0]["changes"][-1]["rule"] == "inline TeX line-break whitespace"
-    return {"status": "PASS", "checks": ["all source delimiters", "tag preservation", "HTML-safe comparisons", "table-safe single and double bars", "annotated implication", "multiline inline TeX whitespace"]}
+    matrix = (r"\begin{pmatrix}a&b\\c&d\end{pmatrix}"
+              r"\begin{pmatrix}x\\y\end{pmatrix}=\begin{pmatrix}v\\w\end{pmatrix}"
+              r",\quad p_1=b_1,\quad p_2=b_2+b_1q_1.\tag{2.11}")
+    fixed, changed = display_container(matrix)
+    assert changed and fixed.startswith(r"\begin{gathered}")
+    assert "\\\\\np_1=" in fixed and fixed.endswith(r"\tag{2.11}")
+    assert display_container(fixed) == (fixed, False)
+    assert display_container(matrix.replace(r"\tag{2.11}", ""))[1]
+    for environment in ["gathered", "aligned"]:
+        whole = r"\begin{" + environment + r"}a=b\end{" + environment + "}"
+        assert display_container(whole) == (whole, False)
+        assert display_container(whole + "+c")[1]
+    untagged, changed = display_container(r"f(x)=\begin{cases}0&x=0\\1&x>0\end{cases},\quad g(x)=x")
+    assert changed and untagged.startswith(r"\begin{gathered}")
+    readme, records = build_readme("```math\n" + r"\operatorname{Re}q_j>0" + "\n```\n")
+    assert r"\operatorname" not in readme and r"\gt " in readme
+    assert build_readme(readme)[0] == readme
+    indented, _ = build("- A list item:\n\n  \\[a=b\\]" + "\n")
+    assert check_public_math(indented)["display_count"] == 1
+    assert "\n  \\end{gathered}\n  ```" in indented
+    for bad in ["```math\n" + matrix + "\n```", "$`" + r"\operatorname{Re}z" + "`$"]:
+        try:
+            check_public_math(bad)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError("Regression check accepted a known GitHub rendering bug")
+    return {"status": "PASS", "checks": ["all source delimiters", "tag preservation", "HTML-safe comparisons", "table-safe single and double bars", "annotated implication", "multiline inline TeX whitespace", "leading matrix products and coefficient row", "whole-environment recognition", "untagged piecewise expressions", "README safe macros", "idempotent containers", "known rendering-bug rejection"]}
 
 
 def main():
@@ -257,6 +352,17 @@ def main():
             "table_pipes_protected": True,
             "formulas": records,
         })
+    readme_path = ROOT / "README.md"
+    readme = readme_path.read_text(encoding="utf-8")
+    target_text, records = build_readme(readme)
+    target_path = args.preview_dir / "README.md" if args.preview_dir else readme_path
+    target_path.write_text(target_text, encoding="utf-8", newline="\n")
+    result["documents"].append({
+        "source": "README.md", "target": "README.md",
+        "source_sha256": sha(readme), "target_sha256": sha(target_text),
+        "formula_count": len(records), "equation_tag_count": 0,
+        "display_count": len(records), "inline_count": 0, "formulas": records,
+    })
     qa = ROOT / "qa/GitHub-build.json"
     qa.parent.mkdir(parents=True, exist_ok=True)
     qa.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")

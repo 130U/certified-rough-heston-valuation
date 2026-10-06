@@ -13,15 +13,19 @@ The project connects the structure of a fixed third-order rational approximation
 For the Gatheral–Radoičić six-condition two-point third-order construction, the structural theorem holds on
 
 ```math
+\begin{gathered}
 \alpha\in[0.52,0.60],\qquad \rho=-0.7445,\qquad \lambda_R=0,
 \qquad u\in\mathbb R,\quad t\ge0.
+\end{gathered}
 ```
 
 The original matching system is nonsingular. The three normalized denominator coefficients satisfy
 
 ```math
-\operatorname{Re}q_j>0\quad(j=1,2,3),\qquad
-\operatorname{Re}Q(y)\ge1,
+\begin{gathered}
+\mathop{\mathrm{Re}}\nolimits q_j\gt 0\quad(j=1,2,3),\qquad
+\mathop{\mathrm{Re}}\nolimits Q(y)\ge1,
+\end{gathered}
 ```
 
 and the approximation remains in the left half-plane for positive time. The proof works with the raw matching determinant and Cramer numerators before normalization.
@@ -29,7 +33,9 @@ and the approximation remains in the left half-plane for positive time. The proo
 For the specified half-year SPX normalized-price example, twelve strikes and the finite candidate set
 
 ```math
+\begin{gathered}
 \alpha\in\{0.52,0.60,0.90\}
+\end{gathered}
 ```
 
 give a strict model-objective gap greater than **2.70205218 × 10⁻⁷**. Both the continuous-time model and the frozen third-order pricing procedure uniquely select **α = 0.52**, corresponding to **H = 0.02**. This is a fixed-profile comparison: the forward variance curve and the other parameters are held constant across candidates.
@@ -37,7 +43,9 @@ give a strict model-objective gap greater than **2.70205218 × 10⁻⁷**. Both 
 The 4400–4500 call spread has the model-price enclosure
 
 ```math
+\begin{gathered}
 c_{4400}-c_{4500}\in[0.008074526019566,\;0.009265076200129].
+\end{gathered}
 ```
 
 Its frozen rational output differs from the model spread by less than **0.000634774793739** in normalized units (C/(DF)). The experiment sets (D=1), (F=4221.86), and (T=1/2). Definitions, proofs, arithmetic assumptions, and component budgets appear in the full paper.

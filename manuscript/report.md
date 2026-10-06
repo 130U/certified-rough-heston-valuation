@@ -52,19 +52,25 @@ We distinguish established tools from the results proved here. The rational form
 
 For classical Heston, we first establish a shared-probability constraint for one-step residuals. At time level $`j`$ and pricing mode $`i`$, the residual satisfies
 ```math
+\begin{gathered}
 |r_{ji}|^2\le a_{ji}\cdot\pi_j,
+\end{gathered}
 ```
 Here $`\pi_j`$ is the state-occupation probability of the original discrete chain at that time level. Every mode uses the same $`\pi_j`$, and the probabilities at all time levels belong jointly to a compact convex set containing the actual occupation vector. Shared probabilities are essential: extreme residuals for different modes must be compatible with the same state distribution.
 
 A finite telescoping decomposition converts these local constraints into mode-error inclusions. The complete pricing map then gives a price-error set $`\mathcal E`$. Let $`\widehat p`$ denote the numerical price vector, $`p`$ the model price vector, and suppose $`p-\widehat p\in\mathcal E`$. For a deterministic direction $`w`$, define the support function
 ```math
+\begin{gathered}
 h_{\mathcal E}(w)=\sup_{e\in\mathcal E}w\cdot e.
+\end{gathered}
 ```
 The portfolio price therefore satisfies
 ```math
+\begin{gathered}
 w\cdot\widehat p-h_{\mathcal E}(-w)
 \le w\cdot p
 \le w\cdot\widehat p+h_{\mathcal E}(w).
+\end{gathered}
 ```
 This relation translates the geometry of the joint error directly into a valuation interval. We also give a criterion for strict tightening of this joint set relative to its smallest coordinate box in a specified direction.
 
@@ -80,22 +86,28 @@ For rough Heston, we first analyze the determinant $`\Delta`$ and Cramer numerat
 
 Consider the normalized Riccati equation
 ```math
+\begin{gathered}
 D_C^\alpha H=-b+dH+\tfrac12H^2,
 \qquad d=-s_0+i\rho u,
+\end{gathered}
 ```
 and a reference trajectory $`\widehat H`$ with the prescribed regularity and zero initial value. If
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits \widehat H\le\varepsilon_R,
 \qquad 0\le\varepsilon_R\le2s_0,
 \qquad
 \eta\ge|D_C^\alpha\widehat H-F(\widehat H)|,
+\end{gathered}
 ```
 then the dissipativity rate is $`\sigma=s_0-\varepsilon_R/2\ge0`$. A two-dimensional convex Caputo inequality converts error-modulus control into a positive-kernel comparison. In particular, when $`\sigma\gt 0`$ and $`\eta\le\delta`$,
 ```math
+\begin{gathered}
 |H(x)-\widehat H(x)|
 \le\frac{\delta}{\sigma}
 \{1-E_\alpha(-\sigma x^\alpha)\}
 \le\frac{\delta}{\sigma}.
+\end{gathered}
 ```
 The stability constant is determined by dissipativity. Frequency enters the independently evaluated residual and trajectory bounds; the propagation of error preserves the equation's dissipative structure. We give real-valued and strictly nonreal examples and prove the comparison under the same conditions.
 
@@ -105,15 +117,21 @@ The positive-kernel representation of the characteristic exponent propagates sta
 
 For a finite candidate set, suppose the model objective for candidate $`\vartheta`$ satisfies
 ```math
+\begin{gathered}
 J(\vartheta)\in[L_\vartheta,U_\vartheta].
+\end{gathered}
 ```
 If a candidate $`\vartheta_*`$ satisfies
 ```math
+\begin{gathered}
 g:=\min_{\vartheta\ne\vartheta_*}L_\vartheta-U_{\vartheta_*}\gt 0,
+\end{gathered}
 ```
 then it is the unique optimum in that set. If $`\delta_J`$ uniformly bounds the difference between the numerical and model objectives, and $`\varepsilon_{\mathrm{alg}}`$ bounds the optimization error, then
 ```math
+\begin{gathered}
 2\delta_J+\varepsilon_{\mathrm{alg}}\lt g
+\end{gathered}
 ```
 is sufficient to preserve candidate selection. This condition links numerical accuracy to the actual decision gap, rather than imposing an isolated price tolerance unrelated to the objective.
 
@@ -124,17 +142,23 @@ is sufficient to preserve candidate selection. This condition links numerical ac
 Set $`s=S/100`$. The continuous process satisfies
 
 ```math
+\begin{gathered}
 ds_t=rs_tdt+s_t\sqrt{V_t}(\rho\,dW_t+\sqrt{1-\rho^2}\,dB_t),
 \qquad dV_t=(d-\kappa V_t)dt+\xi\sqrt{V_t}\,dW_t,
+\end{gathered}
 ```
 
 where $`d=\kappa\bar v`$, $`r=1/100`$, and $`s_0=1`$. With time step $`h=1/768`$, the actual discrete one-step update is
 
 ```math
+\begin{gathered}
 V'=[dh+(1-\kappa h)v+\xi\sqrt{hv}G]^+,
+\end{gathered}
 ```
 ```math
+\begin{gathered}
 \log(s'/s)=rh-hv/2+\sqrt{hv}(\rho G+\sqrt{1-\rho^2}H),
+\end{gathered}
 ```
 
 Here $`G,H`$ are independent standard normal random variables. The stock increment and positive-part variance update share $`G`$. Denote the law of the continuous process by $`P`$ and the law of this original discrete chain by $`Q`$.
@@ -142,21 +166,27 @@ Here $`G,H`$ are independent standard normal random variables. The stock increme
 The theoretical parameter domain is
 
 ```math
+\begin{gathered}
 \kappa\in[2,4],\quad \bar v,v_0\in[3/100,3/50],\quad
 \xi\in[9/50,7/25],\quad \rho\in[-4/5,-3/10].
+\end{gathered}
 ```
 
 The fixed example uses
 
 ```math
+\begin{gathered}
 \theta_*=(\kappa,\bar v,\xi,\rho,v_0)=(3,.045,.23,-.55,.045).
+\end{gathered}
 ```
 
 The nine standard options are European puts with maturities $`1/4,1/2,1`$ and strikes $`90,100,110`$. The tenth instrument is an arithmetic-average Asian call spread maturing after one year with twelve monthly observations:
 
 ```math
+\begin{gathered}
 R_{10}=(A-95)^+-(A-110)^+,\qquad
 A=\frac1{12}\sum_{m=1}^{12}S_{m/12}.
+\end{gathered}
 ```
 
 The eighth instrument is the one-year at-the-money put. The direction $`w=\mathbf e_{10}-\mathbf e_8`$ compares the pricing biases of these two instruments.
@@ -168,28 +198,36 @@ The eighth instrument is the one-year at-the-money put. The direction $`w=\mathb
 Consider finitely many multidate modes $`i=1,\ldots,M`$ with loadings $`\alpha_{i,n}\in\mathbb C`$ satisfying
 
 ```math
+\begin{gathered}
 \Re\alpha_{i,n}\le0,\qquad
 \sum_n|\Re\alpha_{i,n}|\le\frac12.
+\end{gathered}
 ```
 
 The continuous future kernel is the exact affine kernel with verified integrability. Completing the real Gaussian square, integrating the full positive-part kernel, and applying a finite telescoping decomposition give the mode bias
 
 ```math
+\begin{gathered}
 \Delta\Phi_i=\Phi_{Q,i}-\Phi_{P,i}=
 \sum_{j=0}^{N-1}r_{ji}.
+\end{gathered}
 ```
 
 Partition the variance axis into finitely many measurable intervals $`I_r`$, including zero and the unbounded tail. Define probabilities under the same original $`Q`$ chain by
 
 ```math
+\begin{gathered}
 \pi_{jr}=Q(V_j\in I_r).
+\end{gathered}
 ```
 
 Suppose stored nonnegative quantities $`h_{jir}`$ bound the corresponding weighted squared kernel residuals, and
 
 ```math
+\begin{gathered}
 E_Q[W_{ji}^2 e^{4V_j}]\le K_j,
 \quad K_j=\exp\{6/25+(73/75)jh\}.
+\end{gathered}
 ```
 
 Complex Cauchy–Schwarz then gives
@@ -254,12 +292,16 @@ With cross-time constraints, the exact expression is $`\max_{\mathcal F}\sum_j`$
 Let
 
 ```math
+\begin{gathered}
 F_k(\Pi)=\sum_{j,i}|c_{ki}|\sqrt{a_{ji}\cdot\pi_j},
 \quad m_k=\max_{\mathcal F}F_k,
+\end{gathered}
 ```
 ```math
+\begin{gathered}
 \mathcal B=\mathop{\mathrm{rect}}\nolimits (\mathcal E)
 =\prod_k[-m_k-\varrho_k,m_k+\varrho_k].
+\end{gathered}
 ```
 
 This is **the smallest coordinate box of the same joint outer set**. The exact support gap is
@@ -292,8 +334,10 @@ The characterization concerns **strict tightening of an outer set**. It neither 
 The specified terminal-level example fixes $`j=767`$, $`\theta_*`$, the original mode catalogue, and the prespecified $`\mathcal P_{767}`$. The partition is
 
 ```math
+\begin{gathered}
 I_0=\{0\},\qquad I_r=((r-1)/100,r/100]\ (1\le r\le100),
 \qquad I_{101}=(1,\infty).
+\end{gathered}
 ```
 
 The set contains the actual probabilities under the original $`Q`$ and is constrained by the full mean, exponential moments, and two groups of Laplace information. It is represented by 102 nonnegative variables and 22 exact rational constraints. All nine actual one-step residual envelopes cover zero, finite intervals, and the tail.
@@ -301,7 +345,9 @@ The set contains the actual probabilities under the original $`Q`$ and is constr
 After conjugate reduction, the complete terminal Asian pricing row is
 
 ```math
+\begin{gathered}
 F_A(\pi)=C_A\sqrt{K_{767}}\sqrt{a\cdot\pi},\qquad C_A\gt 0.
+\end{gathered}
 ```
 
 The complete eight-frequency row for the one-year at-the-money put is
@@ -319,8 +365,10 @@ F_P(\pi)=\frac{1600e^{-.01}}{\pi}\sqrt{K_{767}}
 An exact primal–dual certificate establishes that $`F_A`$ has a unique maximizer $`\pi^A`$ supported only on intervals 1, 2, and 6. Its decimal approximation is
 
 ```math
+\begin{gathered}
 (\pi^A_1,\pi^A_2,\pi^A_6)
 \approx(.0276833515163,.0487291439380,.923587504546).
+\end{gathered}
 ```
 
 The three active constraints with positive dual multipliers form a nonsingular matrix. Every unsupported index has strictly positive reduced cost, so uniqueness follows from exact algebra.
@@ -378,23 +426,29 @@ Separate intervals for individual prices do not alone establish shared state str
 Between observation times, the full state is $`x=(s,v,A_m,\ell_m)`$. The variables $`A_m`$ and $`\ell_m`$ record the sums of observed stock prices and log-stock prices, respectively. The exact map $`J_i`$ updates the history at an observation time. The generator is
 
 ```math
+\begin{gathered}
 \mathcal L=rs\partial_s+(d-\kappa v)\partial_v
 +\frac12vs^2\partial_{ss}+\rho\xi vs\partial_{sv}
 +\frac12\xi^2v\partial_{vv}.
+\end{gathered}
 ```
 
 Choose a nonnegative weight $`W`$, for example
 
 ```math
+\begin{gathered}
 W=s^{-1/2}e^v+e^{-\ell_m/24}s^{-(12-m)/24}e^v,
+\end{gathered}
 ```
 
 or the natural weight better suited to the arithmetic branch in the fixed setting,
 
 ```math
+\begin{gathered}
 W^{\rm nat}=\mathfrak B_m^{-1/2}e^v+\mathfrak G_m^{-1/2}e^v,
 \quad \mathfrak B_m=(A_m+(12-m)s)/12,
 \quad \mathfrak G_m=e^{\ell_m/12}s^{(12-m)/12}.
+\end{gathered}
 ```
 
 These weights agree across observation times. The Lyapunov estimate supplies moment bounds at continuous and discrete times; at $`\theta_*`$ over one year, one may take $`E_PW,E_QW\lt 5/2`$, together with squared-moment bounds at continuous stopping times. Each approximate function uses one fixed weight throughout the remaining months.
@@ -402,13 +456,17 @@ These weights agree across observation times. The Lyapunov estimate supplies mom
 The field $`\widetilde u`$ is locally $`C^{1,2}`$ on each open interval between observations, has a right-sided extension at $`v=0`$ suitable for Itô calculus, and has genuine one-sided traces uniformly on compact state sets. Assume
 
 ```math
+\begin{gathered}
 |\widetilde u|\le CW,\qquad
 |\mathfrak r(t,x)|\le\eta_c(t)W(t,x),\quad
 \int_0^1\eta_c(t)dt\lt \infty,
+\end{gathered}
 ```
 ```math
+\begin{gathered}
 |d_i(x)|\le\eta_iW(t_i-,x),\qquad
 |\delta(x)|\le\eta_TW(1,x),
+\end{gathered}
 ```
 
 where
@@ -426,7 +484,9 @@ where
 The operator $`Q_j`$ includes the original positive-part kernel and any observation at the end of the step. Terminal values and jumps use the same convention, with every update counted once. Domination covers the full state space, the zero boundary, and the unbounded tail. Discrete defects under the original $`Q`$ are integrable and admit the full-horizon inclusion
 
 ```math
+\begin{gathered}
 \sum_j E_Q\mathscr D_j\in[L_Q,U_Q].
+\end{gathered}
 ```
 
 #### 3.3.3. Core lemma and proof: $`H\Rightarrow M`$
@@ -447,22 +507,28 @@ E_QR-E_PR=
 **Proof.** The finite discrete tower property gives
 
 ```math
+\begin{gathered}
 E_Q\widetilde u_N-\widetilde u_0
 =\sum_jE_Q\mathscr D_j.
+\end{gathered}
 ```
 
 For the continuous process, first stop it in a compact state domain on a closed subinterval away from observation times. The local Itô stochastic integral has expectation zero. The squared-weight Lyapunov bound and $` |\widetilde u|\le CW`$ give uniform integrability of the stopped field values, permitting removal of stopping. Temporal $`L^1`$ domination and a uniform bound on $`E_PW`$ yield
 
 ```math
+\begin{gathered}
 E_P\int_0^1|\mathfrak r(t,X_t)|dt
 \le\int_0^1\eta_c(t)E_PW(t,X_t)dt\lt \infty,
+\end{gathered}
 ```
 
 Absolute integrable domination therefore also removes stopping from the residual integral. As subinterval endpoints approach an observation time, genuine traces, continuous paths, and the same uniform-integrability bound give convergence in $`L^1`$. The function jump at an observation is $`-d_i`$. Summing over the intervals gives
 
 ```math
+\begin{gathered}
 E_P\widetilde u_N-\widetilde u_0
 =E_P\int_0^1\mathfrak r(t,X_t)dt-\sum_iE_Pd_i.
+\end{gathered}
 ```
 
 Subtract the two identities and include $`\delta=R-\widetilde u_N`$ in both expectations to obtain (H10). The common initial value cancels exactly. ∎
@@ -501,32 +567,42 @@ Integrability and the triangle inequality applied to (H10) prove both statements
 The existing field uses
 
 ```math
+\begin{gathered}
 \widetilde u_q^A=\mathfrak B_m^{-q}
 \left[1+\Phi(y,v)c_q(t)\right],\quad
 y=\frac{A_m}{A_m+(12-m)s},\quad z=\frac{v}{1+v},
+\end{gathered}
 ```
 
 with thirteen state-basis functions
 
 ```math
+\begin{gathered}
 \{(1-y)y^iz^j:0\le i\le2,0\le j\le3\}
 \cup\{v(1-y)^2\}.
+\end{gathered}
 ```
 
 Cubic Hermite interpolation is used within each original time step, and the final finite coefficients define the field as exact binary rationals. The added basis function $`\psi=v(1-y)^2`$ represents exactly the linear variance term in $`L_q1`$. The source is
 
 ```math
+\begin{gathered}
 g_q=-qr\,e_{00}+\frac12q(q+1)e_\psi.
+\end{gathered}
 ```
 
 Full column rank of evaluation at the fixed state points follows from a polynomial root-counting argument. Exact history-update maps determine adjacent endpoints at all observations, and the terminal value is the prescribed function. The field grows at most linearly in $`v`$, and the generator residual at most quadratically. The finite coefficients give
 
 ```math
+\begin{gathered}
 |P_q|\le C_{0,q}+C_{1,q}v
 \le(C_{0,q}+2C_{1,q}/e)e^{v/2},
+\end{gathered}
 ```
 ```math
+\begin{gathered}
 e^{-v}|F_q^A|\le a_0+a_1/e+4a_2/e^2,
+\end{gathered}
 ```
 
 and exponential tail bounds. These finite global bounds, regularity at zero, and the correlated Gaussian estimates for the original $`Q`$ establish $`C\Rightarrow H`$. The source completion concerns the generator applied to the terminal constant; closure of the finite space under all generator images is not required.
@@ -582,10 +658,12 @@ Using $`ve^{-v}\le1/e`$, a constant continuous dominating function over the full
 Gaussian integration of the original stock update gives exactly
 
 ```math
+\begin{gathered}
 \mathscr D_j=s^{-1/2}
 \left\{a_\varepsilon(t_{j+1})
 \exp\!\left[h\left(\frac{3v}{8}-\frac r2\right)\right]
 -a_\varepsilon(t_j)\right\}.
+\end{gathered}
 ```
 
 Using $`|a_\varepsilon(t_{j+1})-a_\varepsilon(t_j)|\le\varepsilon h`$,
@@ -647,10 +725,12 @@ For $`w=\mathbf e_{10}-\mathbf e_8`$ in the original terminal example, (H8) esta
 Given a closed acceptance set $`\mathcal Y`$ for nine prices, a discrete price center $`\widehat p_h`$, and a joint compact error-input set $`\mathcal K_\theta`$ containing the actual $`(n,e)`$, define
 
 ```math
+\begin{gathered}
 \mathcal T_\theta=
 \{(n,e)\in\mathcal K_\theta:
 \widehat p_{h,\mathrm{cal}}+n_{\mathrm{cal}}-e_{\mathrm{cal}}
 \in\mathcal Y\},
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -670,7 +750,9 @@ The proof uses $`p_c=\widehat p_h+n-e`$, compactness of the intersection with a 
 
 Let $`1/2\lt \alpha\lt 1`$, $`u\in\mathbb R`$, $`\nu\gt 0`$, and $`|\rho|\le1`$, and set
 ```math
+\begin{gathered}
 b=(u^2+1/4)/2,\qquad s_0=\kappa-\rho/2\ge0,\qquad d=-s_0+i\rho u.
+\end{gathered}
 ```
 The normalized equation is
 ```math
@@ -766,7 +848,9 @@ D_x^\alpha\psi_\epsilon(z)
 ```
 Together with
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits (\bar H F(H))=-bX-s_0|H|^2+\tfrac12X|H|^2
+\end{gathered}
 ```
 and $`X\le0`$, this yields $`D_x^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Scalar comparison followed by $`\epsilon\downarrow0`$ gives
 ```math
@@ -811,11 +895,13 @@ D_x^\alpha\psi_\epsilon(e)+\sigma\psi_\epsilon(e)\le |r|\le\eta,
 ```
 The scalar Caputo solution with the right-hand side is $`k_\sigma*\eta`$. Its positivity follows from the negative historical-minimum principle in (R8): a nonnegative source and zero initial value give a nonnegative solution. Applying this principle to smooth, nonnegative sources of narrowing support gives positivity of the continuous positive-time kernel $`k_\sigma\ge0`$. General continuous envelopes follow by uniform approximation. Comparison in (R13) and the limit $`\epsilon\downarrow0`$ establish (R4). The kernel mass is
 ```math
+\begin{gathered}
 \int_0^xk_\sigma(t)\,dt=
 \begin{cases}
 \{1-E_\alpha(-\sigma x^\alpha)\}/\sigma,&\sigma\gt 0,\\
 x^\alpha/\Gamma(1+\alpha),&\sigma=0,
 \end{cases}
+\end{gathered}
 ```
 which gives (R5). ∎
 
@@ -839,7 +925,9 @@ For $`s_0\gt 0`$, this recovers the uniform error bound from real-valued dissipa
 
 Let $`M`$ be the existing six-condition matching matrix, $`\Delta`$ its unnormalized determinant, and $`N_1,N_2,N_3`$ its three Cramer numerators. Before any division, define
 ```math
+\begin{gathered}
 \mathcal Q(y)=\Delta+N_1y+N_2y^2+N_3y^3,
+\end{gathered}
 ```
 ```math
 \begin{gathered}
@@ -862,7 +950,9 @@ Define $`H_{\mathrm{str}}`$ by $`\beta_j\gt 0`$, $`\tau_n\le0`$, and $`\tau_1\lt
 
 **Proof.** First, $`\beta_1\gt 0`$ rules out $`\Delta=0`$. Cramer's rule gives $`q_j=N_j/\Delta`$ and
 ```math
+\begin{gathered}
 \mathop{\mathrm{Re}}\nolimits q_j=\beta_j/|\Delta|^2\gt 0.
+\end{gathered}
 ```
 Thus $`\mathop{\mathrm{Re}}\nolimits Q(y)\ge1`$ and consequently $`|Q(y)|\ge1`$. By (R15), $`\mathcal P=\Delta P`$ and $`\mathcal Q=\Delta Q`$, so
 ```math
@@ -882,17 +972,23 @@ The full-frequency structural proof uses $`N_j=f^jF_j`$ and $`f=1/\Gamma(1+\alph
 
 The domain of T1 is $`u=0`$, $`1/2\lt \alpha\lt 1`$, and $`0\le s_0\le1/2`$. For the same six-condition construction, the determinant is real with $`\Delta\ne0`$, and $`q_j\gt 0`$. Write
 ```math
+\begin{gathered}
 A=\sqrt{s_0^2+1/4},\quad R=A-s_0\gt 0,\quad
 B=-b_1\gt 0,\quad D=b_2\ge0.
+\end{gathered}
 ```
 The large-time coefficients $`g_1,g_2`$ are strictly positive, and matching gives
 ```math
+\begin{gathered}
 Rq_1=B+g_1q_2+g_2q_3\gt B.
+\end{gathered}
 ```
 Moreover, $`m=\Gamma(1+2\alpha)/\Gamma(1+\alpha)^2\gt 1`$ and
 ```math
+\begin{gathered}
 DR/B^2=8s_0R/m\lt 1,
 \quad s_0R=\frac{s_0}{4(A+s_0)}\lt \frac18.
+\end{gathered}
 ```
 Hence $`p_2=D-Bq_1\lt 0`$, while $`p_1=-B\lt 0`$ and $`p_3=-Rq_3\lt 0`$. Since $`q_0=1`$, each nonzero coefficient of $`P\bar Q=PQ`$ is a sum containing at least one product of a negative $`p_k`$ and a positive $`q_j`$. Thus $`\tau_n\lt 0`$ and $`\beta_j=\Delta^2q_j\gt 0`$. Therefore,
 ```math
@@ -916,8 +1012,10 @@ The continuous domain
 ```
 is compactified using $`\omega=\sqrt{u^2+1/4}`$ and $`\eta=u/(1+u)`$, mapping $`u\ge0`$ to the closed interval $`[0,1]`$ while preserving
 ```math
+\begin{gathered}
 \Delta=\omega^3\bar\Delta,\quad F_j=\omega^{3+j}\bar F_j,
 \quad B_j=\omega^{6+j}\bar B_j,\quad D_n=\omega^{7+n}\bar D_n.
+\end{gathered}
 ```
 The complete closed-rectangle certificate establishes $`\bar B_j\gt 0`$, $`\bar D_n\lt 0`$, and $`|\bar\Delta|\gt 1/120`$. Conjugate symmetry covers negative frequencies. Thus (R19) gives another explicit implication $`C_{\mathrm{str}}\Rightarrow H_{\mathrm{str}}`$. The conclusions hold for all $`\nu\gt 0`$ and all positive physical times. This parameter domain and the central T1 domain are stated separately; both use the same unnormalized sign criterion.
 
@@ -932,20 +1030,26 @@ The complete closed-rectangle certificate establishes $`\bar B_j\gt 0`$, $`\bar 
 ```
 These parameters lie in (R19), so the existing third-order approximation satisfies $`H_{\mathrm{str}}`$ at all times and $`\mathop{\mathrm{Re}}\nolimits \widehat H\lt 0`$. On every finite interval $`X`$, the rational trajectory belongs to the required regularity class. An independently computable residual envelope below verifies $`H_{\mathrm{diss}}`$ in full. Write $`Y=X^\alpha`$ and
 ```math
+\begin{gathered}
 K_P(Y)=\sum_{j=1}^3|p_j|Y^j,\qquad
 P'Q-PQ'=\sum_{j=0}^4a_jy^j,\qquad
 K_D(Y)=\sum_{j=0}^4|a_j|Y^j,
+\end{gathered}
 ```
 where
 ```math
+\begin{gathered}
 (a_0,a_1,a_2,a_3,a_4)=
 (p_1,2p_2,p_2q_1-p_1q_2+3p_3,
 2(p_3q_1-p_1q_3),p_3q_2-p_2q_3).
+\end{gathered}
 ```
 The bound $`|Q|\ge1`$ gives $`|\widehat H|\le K_P(Y)`$ and
 $`|\widehat H'(x)|\le\alpha K_D(Y)x^{\alpha-1}`$. The Caputo definition and a Beta integral then yield
 ```math
+\begin{gathered}
 |D_x^\alpha\widehat H(x)|\le\Gamma(1+\alpha)K_D(Y).
+\end{gathered}
 ```
 An exact constant envelope is therefore
 ```math
@@ -968,15 +1072,19 @@ H(x)=-\frac{b}{\Gamma(1+\alpha)}x^\alpha
 ```
 The remainder estimate follows from $`I^\alpha x^{m\alpha}=\Gamma(1+m\alpha)x^{(m+1)\alpha}/\Gamma(1+(m+1)\alpha)`$ and requires no assumption of global convergence of the time series. Hence
 ```math
+\begin{gathered}
 \mathop{\mathrm{Im}}\nolimits H(x)=-\frac{b\rho u}{\Gamma(1+2\alpha)}x^{2\alpha}
 +O(x^{3\alpha})\gt 0
+\end{gathered}
 ```
 for sufficiently small positive $`x`$. The same third-order approximation matches the first three small-time coefficients and therefore has the same nonzero leading imaginary term. This example satisfies the complex-valued condition but not the real-valued condition. Its strictly nonreal trajectory demonstrates the extension in scope.
 
 **Example 2 (recovery of the real-valued case on the full frequency axis).** When $`\rho=\kappa=0`$, the equation is real-valued at every frequency. Set
 ```math
+\begin{gathered}
 c=\sqrt{8b}=2\sqrt{u^2+1/4},\quad
 \tau=c^{1/\alpha}x,\quad H(x)=cH_0(\tau).
+\end{gathered}
 ```
 Substitution in (R1) gives exactly
 ```math
@@ -1062,7 +1170,9 @@ At $`u=0`$, the coefficient $`2`$ is the product of the trapezoidal half-weight 
 
 For a candidate set $`\Theta=\{\alpha_1,\ldots,\alpha_J\}`$ and $`n`$ quotes, define
 ```math
+\begin{gathered}
 J_j=\frac1{2n}\sum_{i=1}^n(C_{ij}-M_i)^2.
+\end{gathered}
 ```
 If $`C_{ij}\in[p^-_{ij},p^+_{ij}]`$ and $`M_i\in[m_i^-,m_i^+]`$, set $`r^-_{ij}=p^-_{ij}-m_i^+`$ and $`r^+_{ij}=p^+_{ij}-m_i^-`$. The lower bound for each squared term is zero if the interval contains zero, and otherwise the smaller squared endpoint. Its upper bound is the larger squared endpoint. Summing gives $`J_j\in[L_j,U_j]`$. If
 ```math
@@ -1120,7 +1230,9 @@ The following propositions are direct consequences of support functions, expansi
 
 Let $`p\in\mathbb R^n`$ be the model price vector and $`\widehat p`$ a deterministic numerical output. Suppose it has independently been proved that
 ```math
+\begin{gathered}
 e=p-\widehat p\in E,
+\end{gathered}
 ```
 where $`E`$ is nonempty and compact, with support function $`h_E(w)=\max_{e\in E}w\cdot e`$. For a fixed position vector $`w\in\mathbb R^n`$,
 ```math
@@ -1137,12 +1249,16 @@ For normalized prices $`c_i=C_i/(D_iF_i)`$, a cash portfolio uses $`w_i=a_iD_iF_
 
 For candidates $`j=1,\ldots,N_{\rm cand}`$, the exact objective is
 ```math
+\begin{gathered}
 J_j=\frac1{2n}\|p_j-m\|_2^2.
+\end{gathered}
 ```
 Here $`m`$ is the fixed quote target. Let $`\widehat p_j`$ and $`r_j=\widehat p_j-m`$ be deterministic numerical quantities, with certified inclusion $`p_j-\widehat p_j\in E_j`$. Write
 ```math
+\begin{gathered}
 \widehat J_j=\frac1{2n}\|r_j\|_2^2,
 \qquad R_j^2=\max_{e\in E_j}\|e\|_2^2.
+\end{gathered}
 ```
 Then
 ```math
@@ -1155,7 +1271,9 @@ U_j=\widehat J_j+h_{E_j}(r_j)/n+R_j^2/(2n).
 ```
 **Proof.** The exact expansion is
 ```math
+\begin{gathered}
 J_j=\widehat J_j+\frac{r_j\cdot e_j}{n}+\frac{\|e_j\|_2^2}{2n}.
+\end{gathered}
 ```
 The linear perturbation belongs to $`[-h_{E_j}(-r_j),h_{E_j}(r_j)]`$, the squared term belongs to $`[0,R_j^2]`$, and $`J_j\ge0`$. This proves (D.2). ∎
 
@@ -1241,7 +1359,9 @@ $`B_i=\mathop{\mathrm{BS}}\nolimits (\sigma_i^{\rm bid})/(DF)`$, $`A_i=\mathop{\
 Fix the correlation, volatility coefficient, and Riccati mean-reversion parameter at
 
 ```math
+\begin{gathered}
 \rho=-.7445,\qquad \nu=.2897,\qquad \lambda_R=0,
+\end{gathered}
 ```
 
 and fix the forward variance curve as
@@ -1302,10 +1422,12 @@ Thus $`\alpha=.52`$, $`H=.02`$ is the unique optimal candidate for the model pri
 This gap also provides an error tolerance for other numerical implementations. Suppose an implementation returns an objective $`\widetilde J`$ satisfying
 
 ```math
+\begin{gathered}
 \sup_{\alpha\in\{.52,.60,.90\}}
 |\widetilde J(\alpha)-J(\alpha)|\le\delta_J,
 \qquad
 \widetilde J(\widehat\alpha)\le\min\widetilde J+\varepsilon_{\rm alg},
+\end{gathered}
 ```
 
 where $`\varepsilon_{\rm alg}\ge0`$ is the objective tolerance of the optimization procedure. Then
@@ -1321,10 +1443,12 @@ J(\widehat\alpha)-\min J
 **Proof.** The objective error bound and approximate optimality condition give, successively,
 
 ```math
+\begin{gathered}
 J(\widehat\alpha)
 \le\widetilde J(\widehat\alpha)+\delta_J
 \le\min\widetilde J+\varepsilon_{\rm alg}+\delta_J
 \le\min J+2\delta_J+\varepsilon_{\rm alg}.
+\end{gathered}
 ```
 
 If $`2\delta_J+\varepsilon_{\rm alg}\lt g`$, selection of any other candidate would contradict (U5), so $`\widehat\alpha=.52`$. In particular, when the implementation minimizes $`\widetilde J`$ exactly, the following uniform objective error bound is sufficient to preserve that selection:
@@ -1404,7 +1528,9 @@ v^P=.008709300813304\ldots,
 **Proof.** For $`c_1\in[\ell_1,r_1]`$, $`c_2\in[\ell_2,r_2]`$, we have
 
 ```math
+\begin{gathered}
 c_1-c_2\in[\ell_1-r_2,r_1-\ell_2].
+\end{gathered}
 ```
 
 Substitution of the two model price intervals gives (U10). Computing the distances from $`v^P`$ to the two exact endpoints, taking their maximum, and rounding outward gives (U11). If the individual price errors are first converted into symmetric intervals and the triangle inequality is then applied, the resulting upper bound is $`.000851064392510`$. Retaining the signed endpoints of the individual intervals gives the tighter portfolio error bound in (U11). This calculation uses linear operations on marginal price intervals; its accuracy gain comes from the asymmetric endpoint information in the individual price errors.

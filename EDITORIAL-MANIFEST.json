@@ -1,0 +1,214 @@
+{
+  "status": "SEALED_EDITORIAL_LAYER_INHERITING_FIXED_V3_SCIENCE",
+  "version": "v3.1.0-editorial-20261007",
+  "parent": {
+    "source_revision": "027c42d89d6741ff00347074e559bf0faaf46797",
+    "source_tree": "3f83b4c6554a20c8fb40bee3661774ddfa386a02",
+    "release_tag": "v3.0.0-research-20261007",
+    "source_manifest_sha256": "51a0c0529dfffafa038c2911a03b19cc2365a3179533737141e3fe7d5d688a29",
+    "scientific_manifest_sha256": "788513e8a6a1cbe6e2a086dbb80d25b7da1864f7419b1f3bb7668ab1dc16639b",
+    "fresh_acceptance_sha256": "1fa7d09c4fed6b87ad758ab04eb3439bb535d561bdc9fa29dbc4958b2c541d03",
+    "delivery_manifest_sha256": "f35c7b8c7e64ff65a682ddd07db4eb04722145a18f9c7e3db5b6c50827f0343c",
+    "science_archive_name": "Theodore-Ouyang-Heston-V3-Evidence-20261007.zip",
+    "science_archive_bytes": 701213852,
+    "science_archive_sha256": "f4c038b736ec01b3dd9c4e2dcff733665b5b7997f99ee26b64eb5cff0f2ab120"
+  },
+  "inherited_source_prefix": "inherited-v3",
+  "inherited_source_objects": 472,
+  "scientific_input_objects": 450,
+  "scientific_recomputation": false,
+  "scope": "New editorial files are not covered by the old FRESH-ACCEPTANCE. Parent scientific inputs and retained acceptance remain unchanged.",
+  "editorial_files": [
+    {
+      "path": ".github/workflows/source.yml",
+      "bytes": 373,
+      "sha256": "90585a967c98172c7bb646f1bf270a555c38e103043370e93b631583e76ddf3b"
+    },
+    {
+      "path": "AUTHOR-CHRONOLOGY.md",
+      "bytes": 2318,
+      "sha256": "7136c16c840ab64a1c6fb1cb0997d5673e74d11cc85f026f7d3dfcacfaa3aca5"
+    },
+    {
+      "path": "EDITORIAL-MATH-CHECK.json",
+      "bytes": 3225,
+      "sha256": "d08093059b5c3090c54cd668dd52c3484d4f376d5cf1c7239509a112a668a4bd"
+    },
+    {
+      "path": "EDITORIAL-RESPONSE-ZH.md",
+      "bytes": 2784,
+      "sha256": "3dab5ec27773519e649a3ac645e5d7395de54d67ebcaa93194ccddbb55702631"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4228,
+      "sha256": "9abcf6488e30b79dfbb9d335bf755cb6a274ce0668febc0e1151d416313a9a21"
+    },
+    {
+      "path": "RENDERING.md",
+      "bytes": 1846,
+      "sha256": "8bec59830e350dee75cc3565d5f8e5f090694ac89371f15e42862d37567bfd83"
+    },
+    {
+      "path": "audit-experiments/check_figure.py",
+      "bytes": 914,
+      "sha256": "15f2303448eac526faeb597f62004f54c6feee2775043f054f4f3b887754e031"
+    },
+    {
+      "path": "audit-experiments/figure-check.json",
+      "bytes": 131,
+      "sha256": "44f3258168932ece5d47efd1049cc95d2cee2d3a75c65f724b3f5f02fb1e2d2b"
+    },
+    {
+      "path": "audit-experiments/plot_budget_counts.py",
+      "bytes": 4440,
+      "sha256": "b3e3bc3ef5974455fccd7378537a19e34f854bc872efa41aa8064feb117fe48b"
+    },
+    {
+      "path": "audit-experiments/portfolio-budget-counts.json",
+      "bytes": 299970,
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "path": "audit-experiments/portfolio-pass-counts.pdf",
+      "bytes": 8500,
+      "sha256": "f781aba220ca826a9c85ab3b36ef12284b8bfd20132cc7057a71a15baa826d94"
+    },
+    {
+      "path": "audit-experiments/portfolio-pass-counts.png",
+      "bytes": 196485,
+      "sha256": "d6f27ed9b52aaf51e0119f2917526b0fd6d424dcfc1d26ee674bc9c1aa15a2f5"
+    },
+    {
+      "path": "audit-experiments/portfolio-pass-counts.svg",
+      "bytes": 36963,
+      "sha256": "d40f5949d8a59352f8ee0a4299e28c43df6d211fa6d93417456321e6f4122d49"
+    },
+    {
+      "path": "editorial-allowlist.json",
+      "bytes": 2554,
+      "sha256": "0b76d0334f30c896f191cb64aa292213c0fd2530c26980289537d734c3ece8e9"
+    },
+    {
+      "path": "manuscript/author.json",
+      "bytes": 390,
+      "sha256": "b5e9a02906cf5a8b7342adac2cea65b1818c6547f7282fa29738862e14fea8b0"
+    },
+    {
+      "path": "manuscript/merged-heston-en.md",
+      "bytes": 186567,
+      "sha256": "e6d8174e19457f190a749f3a489ec7eb5f302288eb7837d8ba6cf933de5dbdf0"
+    },
+    {
+      "path": "manuscript/merged-heston-zh.md",
+      "bytes": 157807,
+      "sha256": "a85554a42d7346aafb182b51994ee46426a64dd52f5ecbb6005cb348c4ac5fb1"
+    },
+    {
+      "path": "paper/Theodore-Ouyang-Merged-Heston-EN.pdf",
+      "bytes": 6491024,
+      "sha256": "f9f84110f50b56699cd66f96b6c60aba42d906aa419cc557f44804000191a0d2"
+    },
+    {
+      "path": "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf",
+      "bytes": 6632239,
+      "sha256": "7b5cb546d6d046d67c31bb7036649acf548f0bc23f36505ad574b583f3eacde0"
+    },
+    {
+      "path": "qa/PRESENTATION-CHECK.json",
+      "bytes": 1007,
+      "sha256": "06ddf54e3c457060cfcd7c420c83e39d488c97afe71d3fc767c31b2f18aa2088"
+    },
+    {
+      "path": "qa/manuscript-qa.json",
+      "bytes": 1863,
+      "sha256": "50b5dff7fc282d19595fb35010162960500effecbe2cdf132a3c5d7b5b1f4819"
+    },
+    {
+      "path": "qa/report-pdf-build.json",
+      "bytes": 216825,
+      "sha256": "7058e0caa1fe52665dea2b3d02387a8e0b0364233af21446708b86290f080a7a"
+    },
+    {
+      "path": "qa/rough-heston-pdf-build.json",
+      "bytes": 246254,
+      "sha256": "ec1f22bb079700f18afbb75b0cc5ebc1f6688ea2662897534175908aa0d064c8"
+    },
+    {
+      "path": "qa_pdf.py",
+      "bytes": 4106,
+      "sha256": "b0b50b22080a18dc39dc969f038a4c75e4a9bba769fbff88e84f5f69f5a1f124"
+    },
+    {
+      "path": "scripts/build_pdf.py",
+      "bytes": 22105,
+      "sha256": "7cdb1a80164f02dcf631909ee168ebdadf4f141872476751b5d2e18dc4011583"
+    },
+    {
+      "path": "scripts/math_inputs.py",
+      "bytes": 1073,
+      "sha256": "ee47689bd138deeb98339e0ae167b160ed678cfdf16aa40cab66a1635afc06b1"
+    },
+    {
+      "path": "scripts/prepare_publication_v31.py",
+      "bytes": 8434,
+      "sha256": "61bad11abbff93fd98298ca36b1f8786d6850bdfea312591d3d60e3969c46c2d"
+    },
+    {
+      "path": "scripts/render_math.cjs",
+      "bytes": 8264,
+      "sha256": "59c0b99c9d9101c06ac260aff010d8b2da0095739d83c42a2cfd9e5622f484ed"
+    },
+    {
+      "path": "scripts/vector_math.py",
+      "bytes": 5412,
+      "sha256": "b5072689ac0571f50f563bc6b9e29ea16e1e0c73e03882a7a44e19fceb0c0108"
+    },
+    {
+      "path": "verify_editorial.py",
+      "bytes": 6296,
+      "sha256": "935e4c9ac0f87278822e74cfee26e8fbe589d0aa175783c169d5a0da9f9d1572"
+    },
+    {
+      "path": "verify_source.py",
+      "bytes": 142,
+      "sha256": "6f3dd489a19b88874787a903b6844ec9a1398a581f9c822465690a33a656797e"
+    }
+  ],
+  "overlay_members": [
+    ".github/workflows/source.yml",
+    "AUTHOR-CHRONOLOGY.md",
+    "EDITORIAL-MANIFEST.json",
+    "EDITORIAL-MATH-CHECK.json",
+    "EDITORIAL-RESPONSE-ZH.md",
+    "README.md",
+    "RENDERING.md",
+    "SOURCE-MANIFEST.json",
+    "audit-experiments/check_figure.py",
+    "audit-experiments/figure-check.json",
+    "audit-experiments/plot_budget_counts.py",
+    "audit-experiments/portfolio-budget-counts.json",
+    "audit-experiments/portfolio-pass-counts.pdf",
+    "audit-experiments/portfolio-pass-counts.png",
+    "audit-experiments/portfolio-pass-counts.svg",
+    "editorial-allowlist.json",
+    "manuscript/author.json",
+    "manuscript/merged-heston-en.md",
+    "manuscript/merged-heston-zh.md",
+    "paper/Theodore-Ouyang-Merged-Heston-EN.pdf",
+    "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf",
+    "qa/PRESENTATION-CHECK.json",
+    "qa/manuscript-qa.json",
+    "qa/report-pdf-build.json",
+    "qa/rough-heston-pdf-build.json",
+    "qa_pdf.py",
+    "scripts/build_pdf.py",
+    "scripts/math_inputs.py",
+    "scripts/prepare_publication_v31.py",
+    "scripts/render_math.cjs",
+    "scripts/vector_math.py",
+    "verify_editorial.py",
+    "verify_source.py"
+  ],
+  "overlay_reconstruction": "Overlay omits inherited-v3. Use the complete new source checkout, or place the exact parent source revision under inherited-v3. Science runs from the separately downloaded named V3 scientific archive."
+}

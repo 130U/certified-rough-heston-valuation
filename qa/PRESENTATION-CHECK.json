@@ -1,0 +1,27 @@
+{
+  "status": "PASS_EDITORIAL_NAVIGATION_AND_LAYOUT_IDENTITIES",
+  "documents": [
+    {
+      "language": "EN",
+      "pages": 67,
+      "contents_entries": 17,
+      "contents_links": 34,
+      "all_contents_destinations_correct": true,
+      "pdf_sha256": "f9f84110f50b56699cd66f96b6c60aba42d906aa419cc557f44804000191a0d2",
+      "out_of_frame_prose_glyphs": 0
+    },
+    {
+      "language": "ZH",
+      "pages": 55,
+      "contents_entries": 17,
+      "contents_links": 34,
+      "all_contents_destinations_correct": true,
+      "pdf_sha256": "7b5cb546d6d046d67c31bb7036649acf548f0bc23f36505ad574b583f3eacde0",
+      "out_of_frame_prose_glyphs": 0
+    }
+  ],
+  "plot_data_sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20",
+  "plot_data_byte_identical_to_fixed_V3": true,
+  "scientific_recomputation": false,
+  "scope": "Contents destinations, source/PDF identities, page glyph bounds and unchanged figure data; not mathematical proof verification."
+}

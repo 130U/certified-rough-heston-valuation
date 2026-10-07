@@ -1,0 +1,108 @@
+{
+  "EN": {
+    "pages": 67,
+    "core_theorem_pages": [
+      7
+    ],
+    "formula_occurrences": 1178,
+    "contents_pages": [
+      2
+    ],
+    "chronology_pages": [
+      65
+    ],
+    "pdf_sha256": "f9f84110f50b56699cd66f96b6c60aba42d906aa419cc557f44804000191a0d2",
+    "source_sha256": "e6d8174e19457f190a749f3a489ec7eb5f302288eb7837d8ba6cf933de5dbdf0",
+    "every_page_read": true,
+    "out_of_frame_prose_glyphs": [],
+    "contact_sheets": [
+      "EN-contact-1.png",
+      "EN-contact-2.png",
+      "EN-contact-3.png",
+      "EN-contact-4.png",
+      "EN-contact-5.png"
+    ],
+    "selected_pages": [
+      1,
+      2,
+      5,
+      7,
+      13,
+      14,
+      15,
+      16,
+      17,
+      21,
+      22,
+      28,
+      38,
+      39,
+      42,
+      44,
+      45,
+      46,
+      49,
+      52,
+      53,
+      55,
+      56,
+      65,
+      67
+    ]
+  },
+  "ZH": {
+    "pages": 55,
+    "core_theorem_pages": [
+      6
+    ],
+    "formula_occurrences": 1155,
+    "contents_pages": [
+      2,
+      19,
+      40,
+      48,
+      49
+    ],
+    "chronology_pages": [
+      53,
+      54
+    ],
+    "pdf_sha256": "7b5cb546d6d046d67c31bb7036649acf548f0bc23f36505ad574b583f3eacde0",
+    "source_sha256": "a85554a42d7346aafb182b51994ee46426a64dd52f5ecbb6005cb348c4ac5fb1",
+    "every_page_read": true,
+    "out_of_frame_prose_glyphs": [],
+    "contact_sheets": [
+      "ZH-contact-1.png",
+      "ZH-contact-2.png",
+      "ZH-contact-3.png",
+      "ZH-contact-4.png"
+    ],
+    "selected_pages": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19,
+      23,
+      24,
+      32,
+      35,
+      36,
+      40,
+      41,
+      42,
+      48,
+      49,
+      53,
+      54,
+      55
+    ]
+  }
+}

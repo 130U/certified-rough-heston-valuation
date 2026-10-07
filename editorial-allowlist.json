@@ -1,0 +1,33 @@
+{
+  "version": "v3.1.0-editorial-20261007",
+  "editorial_files": [
+    {"source": "editorial-allowlist.json", "path": "editorial-allowlist.json"},
+    {"source": "README.md", "path": "README.md"},
+    {"source": "AUTHOR-CHRONOLOGY.md", "path": "AUTHOR-CHRONOLOGY.md"},
+    {"source": "EDITORIAL-RESPONSE-ZH.md", "path": "EDITORIAL-RESPONSE-ZH.md"},
+    {"source": "manuscript/merged-heston-en.md", "path": "manuscript/merged-heston-en.md"},
+    {"source": "manuscript/merged-heston-zh.md", "path": "manuscript/merged-heston-zh.md"},
+    {"source": "manuscript/author.json", "path": "manuscript/author.json"},
+    {"source": "paper/Theodore-Ouyang-Merged-Heston-EN.pdf", "path": "paper/Theodore-Ouyang-Merged-Heston-EN.pdf"},
+    {"source": "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf", "path": "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf"},
+    {"source": "scripts/build_pdf.py", "path": "scripts/build_pdf.py"},
+    {"source": "scripts/math_inputs.py", "path": "scripts/math_inputs.py"},
+    {"source": "scripts/render_math.cjs", "path": "scripts/render_math.cjs"},
+    {"source": "scripts/vector_math.py", "path": "scripts/vector_math.py"},
+    {"source": "scripts/prepare_publication_v31.py", "path": "scripts/prepare_publication_v31.py"},
+    {"source": "EDITORIAL-MATH-CHECK.json", "path": "EDITORIAL-MATH-CHECK.json"},
+    {"source": "qa_pdf.py", "path": "qa_pdf.py"},
+    {"source": "qa/manuscript-qa.json", "path": "qa/manuscript-qa.json"},
+    {"source": "qa/rough-heston-pdf-build.json", "path": "qa/rough-heston-pdf-build.json"},
+    {"source": "qa/report-pdf-build.json", "path": "qa/report-pdf-build.json"},
+    {"source": "audit-experiments/plot_budget_counts.py", "path": "audit-experiments/plot_budget_counts.py"},
+    {"source": "audit-experiments/check_figure.py", "path": "audit-experiments/check_figure.py"},
+    {"source": "audit-experiments/portfolio-budget-counts.json", "path": "audit-experiments/portfolio-budget-counts.json"},
+    {"source": "audit-experiments/portfolio-pass-counts.png", "path": "audit-experiments/portfolio-pass-counts.png"},
+    {"source": "audit-experiments/portfolio-pass-counts.pdf", "path": "audit-experiments/portfolio-pass-counts.pdf"},
+    {"source": "audit-experiments/portfolio-pass-counts.svg", "path": "audit-experiments/portfolio-pass-counts.svg"},
+    {"source": "audit-experiments/figure-check.json", "path": "audit-experiments/figure-check.json"},
+    {"source": "RENDERING.md", "path": "RENDERING.md"},
+    {"source": "qa/PRESENTATION-CHECK.json", "path": "qa/PRESENTATION-CHECK.json"}
+  ]
+}

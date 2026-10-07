@@ -1,26 +1,38 @@
-# Certified Joint Pricing Errors in Rough Heston — V3
+# Certified Joint Pricing Errors in Rough Heston — V3.1
 
-[Fixed release and four delivery assets](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007).
+**Theodore Ouyang**
 
-The English and Chinese PDFs have a compact main argument, integrated technical Appendices A–E, and independent classical extensions F–G. The editable current sources are `v3/manuscript/merged-heston-en.md` and `v3/manuscript/merged-heston-zh.md`. `v3/REVISION-RESPONSE-zh.md` gives the complete migration and review response.
+V3.1 is an editorial edition of the fixed V3 research release. It clarifies the presentation and author chronology while retaining the numerical results, scientific code, saved evidence and recorded V3 acceptance. Author-reported chronology: the underlying research was conducted in 2023; the principal articles were written in 2024; the materials were uploaded to GitHub in 2026. The merged manuscript's additional proofs, experiments and verification records belong to the 2026 revision. See [the author chronology](AUTHOR-CHRONOLOGY.md).
 
-Download the named `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`, verify the checksum file, and extract it. GitHub's automatically generated source archive omits the large NumPy residual banks and cannot replace the named evidence archive.
+[English PDF](https://github.com/130U/certified-rough-heston-valuation/releases/download/v3.1.0-editorial-20261007/Theodore-Ouyang-Merged-Heston-EN.pdf) · [中文 PDF](https://github.com/130U/certified-rough-heston-valuation/releases/download/v3.1.0-editorial-20261007/Theodore-Ouyang-Merged-Heston-ZH.pdf) · [Editorial overlay ZIP](https://github.com/130U/certified-rough-heston-valuation/releases/download/v3.1.0-editorial-20261007/Theodore-Ouyang-Heston-V3.1-Editorial-20261007.zip) · [V3.1 release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.1.0-editorial-20261007)
+
+The editable manuscripts are [English](manuscript/merged-heston-en.md) and [Chinese](manuscript/merged-heston-zh.md). [The editorial response](EDITORIAL-RESPONSE-ZH.md) describes this edition's changes. The current article explains shared transform errors, finite-history propagation and the certification of actual pricing outputs; its classical extensions retain their stated proof and financial scope.
+
+## Scientific evidence and reproduction
+
+The complete numerical evidence remains the fixed [V3 scientific ZIP](https://github.com/130U/certified-rough-heston-valuation/releases/download/v3.0.0-research-20261007/Theodore-Ouyang-Heston-V3-Evidence-20261007.zip), with its [checksum file](https://github.com/130U/certified-rough-heston-valuation/releases/download/v3.0.0-research-20261007/SHA256SUMS.txt). Its SHA256 is:
+
+```text
+f4c038b736ec01b3dd9c4e2dcff733665b5b7997f99ee26b64eb5cff0f2ab120
+```
+
+Download that named V3 ZIP, verify its checksum, and extract it into a separate directory. Run the following commands from the extracted V3 archive's root:
 
 ```text
 python -m pip install -r requirements.txt
 python reproduce.py --full
 ```
 
-Scientific computation requires Python 3.12 and NumPy 2.3.5. The verification driver checks the scientific manifest and executes in a fresh copy, without reporting host configuration, user paths, clocks or resource telemetry. The actual-output bitwise replay is checked on the executing floating-point implementation; no universal cross-platform bitwise equality is assumed.
+The V3.1 editorial overlay and GitHub's generated source archives omit the 27 large NPZ banks needed for this execution. The new repository root contains editorial verification; it does not replace the extracted V3 scientific execution directory.
 
-`--full` adds the original full structural-sign cover. The default inherited frontier driver already requests the two full transfer/output readers. Neither mode regenerates every saved continuous residual derivative bound. The explicit obligation matrix in `v3/audit-experiments/appendix-e-en.md` gives the separate regeneration commands, reading scope and shared dependencies. Saved evidence, independent reconstruction, full generator execution and CI source identity are different claims.
+The V3 driver verifies its scientific manifest and performs saved-evidence acceptance in a fresh copy. `--full` includes the original complete structural-sign cover. It does not regenerate every saved continuous residual derivative bound. The explicit obligation matrix in the V3 archive's `v3/audit-experiments/appendix-e-en.md` distinguishes retained evidence, independent reconstruction and separate generator commands.
 
-The new matched kernel study computes strict resolvent weights and compares four propagation methods at the same output, centre, residual bank and remainder. Its separate reader uses a different cumulative-series expansion, reads every bank entry and reconstructs all twelve prices. Dyadic, Gamma, logarithm and exponential primitives, and the upstream residual proof, remain shared. The experiment retains the failed quarter-point frozen-output budget; the small additional kernel gain is reported with its scope.
+## Editorial and scientific identities
 
-The experiment audit includes the quarter-year decision ledger, all unresolved nearby pairs, the closest-pair loss decomposition, fixed-output reference transitions and exact budget–pass-count curves for all 28 declared directions. The plot has PDF/SVG/PNG exports in `v3/audit-experiments`.
+The original V3 source, including its manifests, is retained without byte changes under `inherited-v3/`. The original `SCIENTIFIC-MANIFEST.json` and `FRESH-ACCEPTANCE.json` belong to that fixed V3 evidence. They do not certify the V3.1 README, revised prose or new PDF bytes.
 
-The `baseline` and `new-research` directories are inherited, fixed scientific inputs. Current paper claims and verification descriptions are authoritative in `v3`. Privacy-only transforms remove unnecessary execution metadata from the inherited copy and rebind transformed dependency identities; the original V2 stays privately preserved. `BASELINE-TRANSFORM.json` records mathematical JSON-projection and NPZ-byte invariance. This is not a claim that all historical raw generators were rerun after a metadata transform.
+The new `EDITORIAL-MANIFEST.json` links the edited material to the fixed V3 scientific identities. The new root `SOURCE-MANIFEST.json` identifies the current source tree. The root editorial verifier checks this bridge and the inherited source identities; it does not rerun the scientific bank.
 
-`FRESH-ACCEPTANCE.json` records this revision's actual author-side fresh execution. It is not an external referee run. `SCIENTIFIC-MANIFEST.json` seals inputs; `DELIVERY-MANIFEST.json` also binds PDFs and acceptance records. `SOURCE-MANIFEST.json` in the Git checkout identifies source files and the large arrays supplied only by the named release asset. CI verifies source identities and the retained acceptance binding, rather than independently rerunning the large scientific bank.
+The recorded V3 fresh acceptance is author-side execution, not external referee replication. Its scope and dependencies remain unchanged. Actual-output bitwise replay is checked on the executing floating-point implementation; universal bitwise equality is not assumed. The paper retains unresolved budgets and candidate comparisons, and the classical terminal strictness result does not imply a complete annual monetary pricing certificate.
 
-Appendices F–G preserve original-chain moment/integrability proofs and the signed error identity for inexact trial fields. The terminal strictness witness and incomplete thirteen-dimensional diagnostic do not imply a complete annual monetary pricing certificate. A numerical reference point is never treated as exact truth, and finite-candidate rankings do not imply continuous calibration or market identification.
+Public reproducibility metadata retain mathematical inputs, software dependency versions, evidence identities and verification scope.

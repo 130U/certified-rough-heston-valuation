@@ -1,0 +1,59 @@
+{
+  "status": "PASS_LIMITED_EDITORIAL_MATH_IDENTITY_CHECK",
+  "files": [
+    {
+      "path": "manuscript/merged-heston-en.md",
+      "previous_sha256": "ab206384751f90f04b62b2b5d1a8b8aa007421f58eb04484071185c7b1a23b5a",
+      "revised_sha256": "e6d8174e19457f190a749f3a489ec7eb5f302288eb7837d8ba6cf933de5dbdf0",
+      "existing_tag_count": 169,
+      "tag_sequence_unchanged": true,
+      "tagged_formula_bodies_unchanged": true
+    },
+    {
+      "path": "manuscript/merged-heston-zh.md",
+      "previous_sha256": "9f95fefe0bed312fb3ba65f964756568446e970fb44b1b137c778a5382662b5f",
+      "revised_sha256": "a85554a42d7346aafb182b51994ee46426a64dd52f5ecbb6005cb348c4ac5fb1",
+      "existing_tag_count": 169,
+      "tag_sequence_unchanged": true,
+      "tagged_formula_bodies_unchanged": true
+    }
+  ],
+  "chapter_7_mapping": {
+    "old_7.6": "new_7.5",
+    "old_7.7": "new_7.6",
+    "old_7.5": "new_7.7"
+  },
+  "dimensionless_damping": {
+    "lambda": "4313633/40000000",
+    "T": "1/2",
+    "alpha": "13/25",
+    "lower_exact": "19066771676384779556450532150226369/253530120045645880299340641075200000",
+    "upper_exact": "3813354335276955911290106430049587433/50706024009129176059868128215040000000",
+    "verified_relation": "lower^25 <= lambda^25/8192 <= upper^25",
+    "display": "approximately 0.075205",
+    "scope": "Interpretive existing-parameter calculation, not a new theorem or scientific experiment."
+  },
+  "scope": "Limited V3.1 editorial revision and final bilingual identity review. Section 8 distinguishes the editorial release from the unchanged published V3 scientific archive; Appendix H records the author-provided chronology and actual revision stage. Existing numbered formulas and scientific inputs preserved. Identity checks do not establish mathematical correctness; author-side verification is not external referee replication.",
+  "scientific_inputs_modified": false,
+  "pdf_generated": false,
+  "remote_publication_performed": false,
+  "final_bilingual_checks": {
+    "section_8_editorial_vs_scientific_archive_distinction": true,
+    "section_8_fixed_v3_full_command_preserved": true,
+    "section_8_inherited_source_identity_command_not_scientific_regeneration": true,
+    "appendix_H_author_provided_chronology_bilingual_match": true,
+    "appendix_H_actual_revision_stage_and_no_retroactive_priority": true,
+    "appendix_H_identity_not_correctness_and_author_side_not_external_replication": true,
+    "en_zh_tag_sequences_match": true,
+    "existing_tagged_display_formulas_byte_identical_to_v3": true
+  },
+  "public_v3_readback_binding": {
+    "status": "PASS_COMPLETE_PUBLIC_ASSET_AND_SOURCE_READBACK",
+    "receipt_sha256": "2409208d5e250be41b7a22273f9f3dcd9e92385f9164e3c6376dc23e6374a3a5",
+    "release_url": "https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007",
+    "scientific_commit": "027c42d89d6741ff00347074e559bf0faaf46797",
+    "scientific_zip_sha256": "f4c038b736ec01b3dd9c4e2dcff733665b5b7997f99ee26b64eb5cff0f2ab120",
+    "zip_members": 494,
+    "scope": "Existing completed public transport readback; no new download or scientific run in this editorial check."
+  }
+}

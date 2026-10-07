@@ -1,0 +1,732 @@
+{
+  "contract_id": "systematic-original-12-strike-portfolios-v1",
+  "date": "2026-10-07",
+  "freeze_time_utc": "2026-10-07 05:52:04 UTC",
+  "new_directions_frozen_before_systematic_results": true,
+  "known_before_freeze": "The previously published 4400/4500 spread result and upstream frozen inputs were already known. New systematic outcomes were not calculated.",
+  "source_sha256": {
+    "normalized-quote-bands.json": "167a484d6e6dfe537f111df0b93512898d31d96995cffe25a212f2a5f83c3b10",
+    "frozen-pade-numeric-output.json": "4a04778284923a55c28f6507e46f57bb67c696a87ef118ace0e8962be79c110e",
+    "f8-price-point052-v3-u64.json": "fa82b70939b66f517e0c0bbb8ab8ec30ba5325ae1b32d33b284471a0f86ddb10",
+    "f8-price-point06-v3-u64.json": "47b14d9fa17bd995372151ab1127e0de2435f83dfd13db5714597c3dbe6b3393",
+    "f8-price-betap9-u64-v3.json": "430c0e85da75086a31d18ac2252095a1ef92d13e85f69067f7ef08624ca9876f"
+  },
+  "candidates": [
+    "13/25",
+    "3/5",
+    "9/10"
+  ],
+  "maturity": "1/2",
+  "discount_D": "1",
+  "forward_F": "211093/50",
+  "normalization": "C/(D F); multiply normalized errors by D F to obtain index points",
+  "strikes": [
+    "3700",
+    "3800",
+    "3900",
+    "4000",
+    "4100",
+    "4200",
+    "4300",
+    "4400",
+    "4500",
+    "4600",
+    "4700",
+    "4800"
+  ],
+  "directions": [
+    {
+      "id": "adjacent-spread-3700-3800",
+      "kind": "adjacent_spread",
+      "weights": [
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-3800-3900",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3800",
+        "3900"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-3900-4000",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3900",
+        "4000"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4000-4100",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4100"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4100-4200",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4100",
+        "4200"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4200-4300",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4200",
+        "4300"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4300-4400",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4400-4500",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4400",
+        "4500"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4500-4600",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4500",
+        "4600"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4600-4700",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0"
+      ],
+      "active_strikes": [
+        "4600",
+        "4700"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4700-4800",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1"
+      ],
+      "active_strikes": [
+        "4700",
+        "4800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-butterfly-3700-3900",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-3800-4000",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3800",
+        "3900",
+        "4000"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-3900-4100",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3900",
+        "4000",
+        "4100"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4000-4200",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4100",
+        "4200"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4100-4300",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4100",
+        "4200",
+        "4300"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4200-4400",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4200",
+        "4300",
+        "4400"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4300-4500",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400",
+        "4500"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4400-4600",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4400",
+        "4500",
+        "4600"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4500-4700",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0"
+      ],
+      "active_strikes": [
+        "4500",
+        "4600",
+        "4700"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4600-4800",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1"
+      ],
+      "active_strikes": [
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "wide-spread-3700-4000",
+      "kind": "wide_spread",
+      "weights": [
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "4000"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-4000-4300",
+      "kind": "wide_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4300"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-4300-4600",
+      "kind": "wide_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4600"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-3700-4800",
+      "kind": "wide_spread",
+      "weights": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "active_strikes": [
+        "3700",
+        "4800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "positive-basket-all",
+      "kind": "positive_basket",
+      "weights": [
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900",
+        "4000",
+        "4100",
+        "4200",
+        "4300",
+        "4400",
+        "4500",
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "1"
+    },
+    {
+      "id": "positive-basket-first-half",
+      "kind": "positive_basket",
+      "weights": [
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900",
+        "4000",
+        "4100",
+        "4200"
+      ],
+      "gross_units": "1"
+    },
+    {
+      "id": "positive-basket-last-half",
+      "kind": "positive_basket",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400",
+        "4500",
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "1"
+    }
+  ],
+  "point_budgets": [
+    "1/4",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "comparisons": [
+    "symmetric_marginal",
+    "best_signed_marginal",
+    "shared_Fourier",
+    "legal_directional_intersection"
+  ],
+  "intersection_semantics": "Intersect valid directional intervals from the joint set, signed marginal price box and proven true-call payoff bounds. This encloses the actual set intersection; exact intersection support optimization is not claimed.",
+  "success_rule": "Exact outward absolute implementation-error upper endpoint <= specified point budget; otherwise NOT_CERTIFIED.",
+  "timing_rule": "Report source read, reusable coefficient preparation, each directional support aggregation and each marginal/intersection/decision increment separately. Timings are observations, not performance guarantees.",
+  "limitations": [
+    "Single unchanged maturity and fixed three candidates.",
+    "Bounds improve, not measured actual error or trading loss.",
+    "No new residual/field generation.",
+    "No inference for additional maturities or nearby alpha values without certificates."
+  ]
+}

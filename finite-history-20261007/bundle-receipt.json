@@ -1,0 +1,9 @@
+{
+  "status": "PASS_FIXED_ARCHIVE_ALL_BLOB_READBACK",
+  "archive": "Theodore-Ouyang-Heston-Finite-History-Evidence-20261007.zip",
+  "bytes": 187393093,
+  "sha256": "edc25d2ad86c1526f404ec1a46a02a283f0726602f259beaa97eb1219d22d299",
+  "files": 243,
+  "uncompressed_bytes": 207444015,
+  "wall_seconds": 18.817291000043042
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_ALL_211241_EXACT_STRUCTURAL_LEAF_RECOMPUTATIONS",
+  "required_leaves": 211241,
+  "signs_recomputed": 211241,
+  "source_sha256": {
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\frozen\\compact-rough-layer-certificate.json.gz": "409283b98f59051eacadeba2e3be87c3fee6cbd9b8ef794959c501ea581476b8",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\compact-halfplane-certificate-v2-partial.py": "14296e1d25ed2841de3ee3bbc3f89410c6aade9c5cb621be1dd8504d1046959f"
+  },
+  "generator": "executed public raw-polynomial 100-bit outward dyadic interval generator",
+  "scope": "Each complete leaf alpha/eta rectangle, all 3 B margins, 6 negative-D margins, raw determinant margin, and R real margin. Not a different implementation of transcendental primitives.",
+  "wall_seconds": 194.3172801999608,
+  "all_regenerated_records_identical": true,
+  "return_code": 0
+}

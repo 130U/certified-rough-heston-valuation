@@ -1,0 +1,49 @@
+{
+  "status": "GENERATED_ARTIFACT_BYTE_RECEIPT",
+  "baseline_commit": "6a5134197db60c765ca3aea4f6cdeb2bafbb6617",
+  "execution": {
+    "utc_started": "2026-10-07T04:49:21.987859+00:00",
+    "utc_completed": "2026-10-07T04:49:22.643241+00:00",
+    "python_version": "3.12.14",
+    "python_executable": "C:\\Users\\theod\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "source_sha256": "bb1f4c70dab366957344acc6875823be96e5211bda8ed2f208bc91bb46e262a9",
+    "source_bytes": 18097,
+    "path_helper_sha256": "13d13220879dad207975d1f99fad4a5c3a9f22aa5578bbf2fe61e9a77e2aa0fa",
+    "path_helper_bytes": 1085,
+    "command_argv": [
+      "C:\\Users\\theod\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-B",
+      "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\bc-merged-20261007\\near-tie-diagnostic.py"
+    ],
+    "wall_seconds": 0.658001699950546,
+    "exit_status": 0
+  },
+  "artifacts": [
+    {
+      "path": "near-tie-diagnostic.py",
+      "bytes": 18097,
+      "sha256": "bb1f4c70dab366957344acc6875823be96e5211bda8ed2f208bc91bb46e262a9"
+    },
+    {
+      "path": "audit_paths.py",
+      "bytes": 1085,
+      "sha256": "13d13220879dad207975d1f99fad4a5c3a9f22aa5578bbf2fe61e9a77e2aa0fa"
+    },
+    {
+      "path": "near-tie-diagnostic.json",
+      "bytes": 59533,
+      "sha256": "6a603193bd27810cb2739b940c03bb3be85180ddd679690026709dd07eada10f"
+    },
+    {
+      "path": "near-tie-paragraph-zh.md",
+      "bytes": 1165,
+      "sha256": "0b435870ef3c5b7c1fe22c51488228d9f4015e7e6beb7be1f83cc3c65534764e"
+    },
+    {
+      "path": "near-tie-paragraph-en.md",
+      "bytes": 1363,
+      "sha256": "340a2c942f945a85a3ce054fa304bf0e6246ec0c303505b62561d8dc5f9f87f1"
+    }
+  ]
+}

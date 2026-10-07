@@ -1,0 +1,47 @@
+{
+  "status": "OUTWARD_BINARY64_INTERVAL_POINT_RESIDUAL_CERTIFICATE",
+  "alpha_exact": "13/25",
+  "beta_exact": "13/25",
+  "T_exact": "1/2",
+  "frequency_scope": "fixed dyadic nodes only",
+  "u": [
+    0.0,
+    0.125
+  ],
+  "nu_exact": "2897/10000",
+  "field_file": "fixed-field-betap52-u128.npz",
+  "field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "split": 4,
+  "certified_closed_subintervals": 8189,
+  "first_cell_method": "finite generalized-power residual expansion",
+  "residual_definition": "physical Gbar-nu*F(Hhat), Hhat=I^alpha Gbar",
+  "delta_physical_upper_exact_dyadics": [
+    "6622931140787195/2475880078570760549798248448",
+    "1368980976726363/309485009821345068724781056"
+  ],
+  "delta_F_upper_convenience": [
+    9.233623006310533e-12,
+    1.526895445317833e-11
+  ],
+  "first_cell_physical_upper_exact_dyadics": [
+    "6358738557837695/2535301200456458802993406410752",
+    "2255735218444055/633825300114114700748351602688"
+  ],
+  "largest_bound_time": [
+    0.4995892790306556,
+    0.4995892790306556
+  ],
+  "seconds": 425.4220000000205,
+  "source_sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e",
+  "polynomial_startup_cancellation": true,
+  "combined_derivative_source_sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf",
+  "first_cell_Re_H_div_talpha_upper_exact_dyadics": [
+    "-5883174772536387/144115188075855872",
+    "-6250873195819911/144115188075855872"
+  ],
+  "later_cells_Re_H_upper_exact_dyadics": [
+    "-4049245067844791/295147905179352825856",
+    "-8604645768406625/590295810358705651712"
+  ],
+  "approx_left_halfplane_certified": true
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS_SECOND_COEFFICIENT_ASSEMBLY_SHARED_FOURIER_VERIFICATION",
+  "records": [
+    {
+      "alpha": "13/25",
+      "nodes": 1025,
+      "independent_node_support_interval": [
+        "46143112930373727100458943/158456325028528675187087900672",
+        "369144903442989816803672623/1267650600228229401496703205376"
+      ],
+      "independently_sufficient_full_radius_upper": "92393375533766306972794713/316912650057057350374175801344",
+      "reported_full_radius_upper": "369573502135065227891765799/1267650600228229401496703205376",
+      "reported_upper_independently_confirmed": true
+    },
+    {
+      "alpha": "3/5",
+      "nodes": 1025,
+      "independent_node_support_interval": [
+        "128282798893860560724378827/1267650600228229401496703205376",
+        "64141399446930280362189937/633825300114114700748351602688"
+      ],
+      "independently_sufficient_full_radius_upper": "257117766660097958686963109/2535301200456458802993406410752",
+      "reported_full_radius_upper": "257117766660097958687488049/2535301200456458802993406410752",
+      "reported_upper_independently_confirmed": true
+    },
+    {
+      "alpha": "9/10",
+      "nodes": 1025,
+      "independent_node_support_interval": [
+        "6899034516708017981657775/316912650057057350374175801344",
+        "431189657294251123853627/19807040628566084398385987584"
+      ],
+      "independently_sufficient_full_radius_upper": "55332206120714393118919411/2535301200456458802993406410752",
+      "reported_full_radius_upper": "55332206120714393119088661/2535301200456458802993406410752",
+      "reported_upper_independently_confirmed": true
+    }
+  ],
+  "signed_shift_negative_controls": [
+    {
+      "alpha": "13/25",
+      "omitted_signed_reference_fast_shift_rejected": true
+    },
+    {
+      "alpha": "3/5",
+      "omitted_signed_reference_fast_shift_rejected": true
+    },
+    {
+      "alpha": "9/10",
+      "omitted_signed_reference_fast_shift_rejected": true
+    }
+  ],
+  "signed_price_transformation_remainder_and_budget_decisions_exactly_checked": true,
+  "wall_seconds": 1.026161600020714,
+  "scope": "New stable real trigonometric coefficient identity; no import of the shared-Fourier calculator. Upstream saved radii and elementary scalar enclosure library are reused."
+}

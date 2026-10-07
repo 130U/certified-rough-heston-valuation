@@ -1,0 +1,65 @@
+{"signs_recomputed": 4096, "required": 211241, "seconds": 4.511}
+{"signs_recomputed": 8192, "required": 211241, "seconds": 7.748}
+{"signs_recomputed": 12288, "required": 211241, "seconds": 10.846}
+{"signs_recomputed": 16384, "required": 211241, "seconds": 14.296}
+{"signs_recomputed": 20480, "required": 211241, "seconds": 17.233}
+{"signs_recomputed": 24576, "required": 211241, "seconds": 20.671}
+{"signs_recomputed": 28672, "required": 211241, "seconds": 23.675}
+{"signs_recomputed": 32768, "required": 211241, "seconds": 27.236}
+{"signs_recomputed": 36864, "required": 211241, "seconds": 30.811}
+{"signs_recomputed": 40960, "required": 211241, "seconds": 33.943}
+{"signs_recomputed": 45056, "required": 211241, "seconds": 38.335}
+{"signs_recomputed": 49152, "required": 211241, "seconds": 42.31}
+{"signs_recomputed": 53248, "required": 211241, "seconds": 45.926}
+{"signs_recomputed": 57344, "required": 211241, "seconds": 49.167}
+{"signs_recomputed": 61440, "required": 211241, "seconds": 52.414}
+{"signs_recomputed": 65536, "required": 211241, "seconds": 55.539}
+{"signs_recomputed": 69632, "required": 211241, "seconds": 59.04}
+{"signs_recomputed": 73728, "required": 211241, "seconds": 62.268}
+{"signs_recomputed": 77824, "required": 211241, "seconds": 65.78}
+{"signs_recomputed": 81920, "required": 211241, "seconds": 69.593}
+{"signs_recomputed": 86016, "required": 211241, "seconds": 72.888}
+{"signs_recomputed": 90112, "required": 211241, "seconds": 75.809}
+{"signs_recomputed": 94208, "required": 211241, "seconds": 79.079}
+{"signs_recomputed": 98304, "required": 211241, "seconds": 82.734}
+{"signs_recomputed": 102400, "required": 211241, "seconds": 86.261}
+{"signs_recomputed": 106496, "required": 211241, "seconds": 91.676}
+{"signs_recomputed": 110592, "required": 211241, "seconds": 96.452}
+{"signs_recomputed": 114688, "required": 211241, "seconds": 100.085}
+{"signs_recomputed": 118784, "required": 211241, "seconds": 103.747}
+{"signs_recomputed": 122880, "required": 211241, "seconds": 107.09}
+{"signs_recomputed": 126976, "required": 211241, "seconds": 110.495}
+{"signs_recomputed": 131072, "required": 211241, "seconds": 114.438}
+{"signs_recomputed": 135168, "required": 211241, "seconds": 117.698}
+{"signs_recomputed": 139264, "required": 211241, "seconds": 120.83}
+{"signs_recomputed": 143360, "required": 211241, "seconds": 124.213}
+{"signs_recomputed": 147456, "required": 211241, "seconds": 128.194}
+{"signs_recomputed": 151552, "required": 211241, "seconds": 132.034}
+{"signs_recomputed": 155648, "required": 211241, "seconds": 135.92}
+{"signs_recomputed": 159744, "required": 211241, "seconds": 139.84}
+{"signs_recomputed": 163840, "required": 211241, "seconds": 143.427}
+{"signs_recomputed": 167936, "required": 211241, "seconds": 147.197}
+{"signs_recomputed": 172032, "required": 211241, "seconds": 151.411}
+{"signs_recomputed": 176128, "required": 211241, "seconds": 155.638}
+{"signs_recomputed": 180224, "required": 211241, "seconds": 159.214}
+{"signs_recomputed": 184320, "required": 211241, "seconds": 163.333}
+{"signs_recomputed": 188416, "required": 211241, "seconds": 168.365}
+{"signs_recomputed": 192512, "required": 211241, "seconds": 174.726}
+{"signs_recomputed": 196608, "required": 211241, "seconds": 178.885}
+{"signs_recomputed": 200704, "required": 211241, "seconds": 183.214}
+{"signs_recomputed": 204800, "required": 211241, "seconds": 187.499}
+{"signs_recomputed": 208896, "required": 211241, "seconds": 191.828}
+{
+  "status": "PASS_ALL_211241_EXACT_STRUCTURAL_LEAF_RECOMPUTATIONS",
+  "required_leaves": 211241,
+  "signs_recomputed": 211241,
+  "source_sha256": {
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\frozen\\compact-rough-layer-certificate.json.gz": "409283b98f59051eacadeba2e3be87c3fee6cbd9b8ef794959c501ea581476b8",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\compact-halfplane-certificate-v2-partial.py": "14296e1d25ed2841de3ee3bbc3f89410c6aade9c5cb621be1dd8504d1046959f"
+  },
+  "generator": "executed public raw-polynomial 100-bit outward dyadic interval generator",
+  "scope": "Each complete leaf alpha/eta rectangle, all 3 B margins, 6 negative-D margins, raw determinant margin, and R real margin. Not a different implementation of transcendental primitives.",
+  "wall_seconds": 194.3172801999608,
+  "all_regenerated_records_identical": true,
+  "return_code": 0
+}

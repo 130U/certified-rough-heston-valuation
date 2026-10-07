@@ -1,0 +1,15 @@
+{
+  "contract_id": "BC-merge-original-spread-comparison-v1",
+  "fixed_before_new_joint_result_readback": true,
+  "date": "2026-10-07",
+  "data": "unchanged twelve-strike half-year normalized SPX experiment",
+  "strike_long": "4400",
+  "strike_short": "4500",
+  "candidates": ["13/25", "3/5", "9/10"],
+  "DF": "211093/50",
+  "primary_absolute_implementation_budget_index_points": "1",
+  "additional_sensitivity_budgets_index_points": ["1/4", "1/2", "2"],
+  "criteria": "PASS if an outward full-budget absolute error upper bound is at most the stated budget; otherwise NOT_CERTIFIED_AT_BUDGET",
+  "comparison": "same actual frozen output; symmetric marginal, best signed marginal, joint Fourier full error; include arithmetic and signed ref-fast shift",
+  "interpretation": "a prespecified research diagnostic, not a market-suitability or user-risk-tolerance assertion"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "renderer": "MathJax 3.2.2",
+  "packages": [
+    "base",
+    "ams",
+    "newcommand"
+  ],
+  "input": "qa/GitHub-build.json",
+  "input_sha256": "7d75d2282a46f6000d90529a23c67046e6ac6e4cf76acb09fcf4385e4ea50437",
+  "check": "Every emitted formula converted to SVG; TeX errors and merror nodes inspected",
+  "documents": [
+    {
+      "source": "manuscript/merged-heston-source.md",
+      "source_sha256": "61a5f30a54e20c9ca64ab907525de233a259293249ef3428dc9cdcba12d5c07a",
+      "target": "manuscript/merged-heston.md",
+      "target_sha256": "f103fd9b25fc7bc8f993b508274e63370d6b539720341d372ffbafd44238cf55",
+      "formula_count": 829,
+      "equation_tag_count": 123,
+      "rendered_svg_count": 829,
+      "errors": []
+    }
+  ],
+  "total_formula_count": 829
+}

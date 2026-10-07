@@ -1,0 +1,30 @@
+name: Verify merged joint-error revision
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  joint-error-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r code/requirements.txt
+      - run: python revision-20261007/check_revision.py
+      - run: python revision-20261007/full_structure_verify.py
+      - run: python revision-20261007/startup_independent.py
+      - run: python revision-20261007/shared_fourier_spread.py
+      - run: python revision-20261007/verify_shared_fourier.py
+      - run: python revision-20261007/spread_decisions.py
+      - run: python revision-20261007/near-tie-diagnostic.py
+      - run: python revision-20261007/adversarial_checks.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --ignore-scripts --no-package-lock
+      - run: node revision-20261007/scripts/verify_github_math.cjs --mathjax node_modules/mathjax-full

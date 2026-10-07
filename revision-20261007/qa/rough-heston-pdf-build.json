@@ -1,0 +1,3595 @@
+{
+  "document": "rough-heston",
+  "source_sha256": "61a5f30a54e20c9ca64ab907525de233a259293249ef3428dc9cdcba12d5c07a",
+  "math_occurrences": [
+    "md5d3a4becac8e73c3f98",
+    "m8267ba1d7c551c2ea85b",
+    "m16c3c5238cd37bc93ca3",
+    "m0411dfa8d3fbb0633e77",
+    "m77c44da3663235b4c586",
+    "m4faabafa110d553a7e8f",
+    "m93f33a44bb812ecb8879",
+    "m8038d406d7ce05cad65c",
+    "m37ad3625bb5a44feb9b3",
+    "m619514ce46749ea462c3",
+    "md457ed99e2d39e52efd6",
+    "m00ec4b971bec67cded57",
+    "m40d89a3e57cfd38326ea",
+    "ma135d492878b989fc924",
+    "mf578c58491a5b74cc9de",
+    "mf049a54bc3354449b12a",
+    "mfa54e98ebab1a41199bb",
+    "m73b571e924bd4cd50d66",
+    "m11b0bf4f17035fc54d60",
+    "mcce069add012bdb1fcb5",
+    "me831420ea1da0af6b5fc",
+    "md49ecb7d11002509fe47",
+    "mf049a54bc3354449b12a",
+    "m7d23e783e5a87930a235",
+    "md49ecb7d11002509fe47",
+    "m84f3cbed1ef772cdcc5e",
+    "m77c2a22a1d07d2897979",
+    "mf8d17a8ecd5e2706ca65",
+    "m4bc745c8fce491e68cb6",
+    "ma9a1bd015f53a4e02403",
+    "m402599e771466d7bf9cc",
+    "mbc3f79e215003e954f3e",
+    "md014a5c21f1e34e6d38f",
+    "m5964e10116031a271572",
+    "meb429edb24bd827c05bb",
+    "me29fa557b5049ce1991e",
+    "ma0fc8f9d9eef8173614e",
+    "m7db8ac733a8a736158a7",
+    "m6c9c112239bbc32b07fc",
+    "m5cae6b41f8cf5753301e",
+    "me830f9e5ad25c593d825",
+    "m02b48f5781cb92a32d58",
+    "m93b9746f504b8e9cd391",
+    "m88669317cbca3d2ff13d",
+    "mcb4ccd1397395bd86d13",
+    "m6651194c35e4bbf52544",
+    "m8fa4bb61b46bd5de010e",
+    "mde1f85fc72663ff378c1",
+    "m5b58849055c09feb5aea",
+    "m1dd82e0f1aa1debb6c61",
+    "m15e51e4ec1b06b18ec46",
+    "mb1212241d3c122999adf",
+    "me203e25bed542bab3b8c",
+    "mdbe57019ae8440ca2eac",
+    "mc7878a78dd9d821be6b2",
+    "m8f3d8cbe5b0eaef0412d",
+    "m646d912dcdd6a9486bf5",
+    "mf900aea470187e6dff70",
+    "m5aa481769799f3ff42e1",
+    "m13a88ed267216bbcb203",
+    "mc876bc2bdaec3d39d37e",
+    "mef940b7bf0ffe500bcbb",
+    "m22136f26789e6aafada1",
+    "ma96e830d6d1dc702c038",
+    "m3d940268b0c384eb2d20",
+    "m24111b5ee278a043bda8",
+    "meed799ad5f113b1079d1",
+    "m239e8cd3cf4cb48b9df0",
+    "m5e71bf56017ddd1c0a6f",
+    "m93cbb880d3e673b438ba",
+    "m03ec533f9bbd2a7e9e5d",
+    "m5f0605455d855eec24f0",
+    "ma4be53581ff8eff48d34",
+    "ma287bf4ce260d79068d9",
+    "md24793bf1da5ee52d9c5",
+    "mca7052eafe0a19ca0512",
+    "mf979ebe6cfe78d6c4bb5",
+    "med74b8dd1de880b63d74",
+    "m7b985827a80e63356e1f",
+    "m1c6803eab868e44d4382",
+    "m01d898a5b83f9501022d",
+    "m880e5f833907161cc365",
+    "mc7878a78dd9d821be6b2",
+    "med50caf2ddf3587d1da6",
+    "m057cb17ad00b5dcb75fe",
+    "me1d4f9924507a18c0ef4",
+    "mb13d9cbcbcf00889a242",
+    "maa2acee74e6590a8ed1e",
+    "md063bf9daf2915cd6ba4",
+    "m9c4b843d47d611dbfa10",
+    "mef940b7bf0ffe500bcbb",
+    "mefd99d8c58c3b7372a3e",
+    "ma6351e0d078c31207a7b",
+    "m3f2402933f2a2e360322",
+    "m3c96d20839d8a43dfd2e",
+    "m4ea31ef8a7df1c62d61e",
+    "ma9a1bd015f53a4e02403",
+    "m1c8cc19aef5951191597",
+    "m4f31674b050557497090",
+    "m4fd38f868feb43722e6e",
+    "mb99b06cb6350156d012e",
+    "m5fa1622d3227ebcf4f0b",
+    "mf741c19d9d7bed21825d",
+    "m4cd62de26373741ebe38",
+    "m47fe1d0a26af39266064",
+    "mda46160c1b1ddf4890df",
+    "mde6980274134c0760658",
+    "md80ffac36ef214e613d0",
+    "m0072658a79cd0f8fe7bc",
+    "mf741c19d9d7bed21825d",
+    "meae17ed98a86ed4da015",
+    "m3cc8b3b1738e4b385430",
+    "me60a92547ae7f75344b1",
+    "m610fce40646908d0b55a",
+    "m177b5ddebb166afdf223",
+    "mfec5b63730937b33b217",
+    "mb64d8e32fe249e8e7971",
+    "m31746046193badf4fcea",
+    "m9b03f65457b5af6838fa",
+    "m8d4cd2bd7adfc085a366",
+    "m57762295eebe11914f60",
+    "mbf3fd14aecc9a14719cc",
+    "mee4ffc52ed80e1c6f01a",
+    "m5d150d4188ef0bbf6e74",
+    "m399cf3699ac91031e000",
+    "m65cf249681f807c7e0e9",
+    "m8f0854ee3883f251ccae",
+    "m0a0f561d6951afe607e3",
+    "mfec5b63730937b33b217",
+    "m5b34e0e96a92e24e5dae",
+    "mba82dc3829f798c72b5b",
+    "m930b4237f3cd4d7d81c2",
+    "md0300564bd679bbdc53d",
+    "maa1921de4cf058ed430a",
+    "m47c3b51ca5f6804f2a92",
+    "meddda8179f5d654ca453",
+    "me6ff3ff26047347fce49",
+    "m1042b19d121c75cbdbe3",
+    "m21c1db98b6f2f34578c8",
+    "m406ee5b99ebe57f89d12",
+    "mb363ddfdad63d5ba01dd",
+    "m36b1567f4f49224e1fe7",
+    "m8f0854ee3883f251ccae",
+    "m9e2c0843ac0b864d378e",
+    "mc430222c985d22b60f7b",
+    "m76d5e2470110828e74f3",
+    "ma46b814e37f435ef7c28",
+    "mbc96efe48f023cd0c2c5",
+    "ma69900b870853239a4a0",
+    "m47dcae0f4fcbc284775b",
+    "mbb973899dd5e77b2bf3e",
+    "md4b59223d3d95fe6c76a",
+    "mc40445189d7e61755c4b",
+    "mfd29fa1ac5eb43b7db4f",
+    "m8c9c3ee2c3a376efa8a1",
+    "m2b553778837939e15418",
+    "m519c2fd8c4f87c9d02f2",
+    "m0dfaefb1964056b631e9",
+    "mf5b59d319198c6f6afa8",
+    "mf79f20e39544d77ca951",
+    "m7da2bf43fdb43427f75b",
+    "m2dac66e08be9cb4d4985",
+    "mc13f7969c475e723eb2d",
+    "m6b2d502bab9ee5490ec7",
+    "mdd031428e1893730248c",
+    "m8a79b9678000dda785c7",
+    "md24b27bbf7cc4f574e6d",
+    "mb85e2a07116bced93d32",
+    "m653a2a0f5f991ab3f32a",
+    "mea9611020fdebc09f4d7",
+    "m1daf978444492595a08e",
+    "mbcc4156454a2e215d5f3",
+    "mcf91c558e5bb803f1243",
+    "ma262a44e101977c237b6",
+    "m9c2edb608fa31fe538a2",
+    "m98b0468417508768b187",
+    "m61c2c0ca7910dc34db19",
+    "m283f16df7d622725a3e8",
+    "m23884646fd88f51068c2",
+    "m068ab3810215fa02ebd3",
+    "m7c58f6a6625df4520bd8",
+    "m4231bb0996ceeb62e79c",
+    "m1aefc378d414e61eb535",
+    "mad74a7fd6ebab039d774",
+    "m5976f3c0e546815550ef",
+    "md53ba1372155f3245731",
+    "m1a15587694640797c149",
+    "mc809828d46de94776749",
+    "m14e58c4ebcfcd0627128",
+    "m5976f3c0e546815550ef",
+    "m3f43db16f7a8643a9f05",
+    "md667501b8eb0ff3feac5",
+    "m8c1997a8c047652fedcd",
+    "mef62f3fce9d4fa51a946",
+    "m70db899ee40abd67465b",
+    "m347f3160798a60e2c07a",
+    "ma7a258892d71f0d11d19",
+    "m17fbdf4bc1fd3e99081e",
+    "mebe113ef28dbd9e9af68",
+    "m6dfcc72d03b8d9bf3e2d",
+    "md5a08087636dac68a7b2",
+    "m8ad732694551077eac52",
+    "m7f4bbc0dd5003ea1bc68",
+    "m6a1e5fcfabe06bebf613",
+    "mb836447984257f4ea9de",
+    "mfd14e93344975bf94c4c",
+    "m4f898a053c90537575ab",
+    "m6b9226e890a346fa128b",
+    "m7e112db1217e3d71e848",
+    "meb4476aea82c16233796",
+    "m2e71f5d2ff44b0e61c74",
+    "m70cac8b06e82f104cd16",
+    "m5a2aa684e5d7bdaaaa49",
+    "m503bad42005b5caced27",
+    "m01900d6e01d8e943b926",
+    "m8dc91f9ad572dff86d41",
+    "m91a084e7a97edd54ce8f",
+    "m34be340e6dbee59635cc",
+    "ma68d41b9b20b99206fba",
+    "m808104676f7deb0bc89e",
+    "me33e379a802619bbdce5",
+    "mb2eb9b1bee7fdeffaebc",
+    "m44fb4372d077a3602701",
+    "mac66eca47374597edad8",
+    "m411989c0b76c06b29ef5",
+    "m0955edc620ccc4a6e5d6",
+    "mbeaac8487381ea9d93e0",
+    "md61dce88453cbd81d329",
+    "ma193b5668671815dcdaf",
+    "m28e2263c2dc80325252a",
+    "mb2240352eb585808df3e",
+    "mb6542c19f2e0735bec1e",
+    "m221fef32e9f6f81d251f",
+    "m6895263fc2c5d92b686f",
+    "m084ddd53f2a287ac896e",
+    "mf9d7d527bb4d97994ba8",
+    "m0713f4c15acb5096331c",
+    "mc4fe33c85d575c856cbd",
+    "m158ad51ef99980809754",
+    "m6922e3d2ff09ffdc3537",
+    "md15c382a6ade7009c05a",
+    "m4a1706868c32fe401200",
+    "m946f701a97c8cd96788d",
+    "m8e0f40e4d65314d62ded",
+    "m52e2e9f3e0a8b8516eff",
+    "m6e285b379d2996a0a848",
+    "mfbcda7f2a11522c53caf",
+    "m80a4fd1b7e877a46efdf",
+    "mf731c825ea69d227b7cb",
+    "mf564554216f120852f4c",
+    "m97cdf4821f48dc9af105",
+    "m202e2ff4e398fc65a5f4",
+    "m7fab4ef1ac80fd8783c4",
+    "m7877ddc5e4e5e53bab99",
+    "m7e7a26407e6be48a28d3",
+    "m2ee30fa5dcddc7efdfc0",
+    "m2b7c19a2fba78365f5cf",
+    "me26f0ab17ea0dae53596",
+    "md2dc203dd05648f8c613",
+    "mbd2699e48e6d9d53ab72",
+    "mcb7b43783964387bc402",
+    "m3e6a48993da0f9fa2735",
+    "maa9238155830c42c4c00",
+    "m190e1ed3c97792ff61ad",
+    "m258623a95c2e0f40158b",
+    "m2cfdf8ca572c9c4412c1",
+    "mf609b62257d7b602eca6",
+    "md594daf6085373e5bc17",
+    "mf8e9f76848c40e9e7fcd",
+    "m37180f03ccf5adf86e4a",
+    "m125ddb1fcaaf0574afde",
+    "ma57171c9e70348f4d521",
+    "m9b4f2ef0a740c5fd6267",
+    "me104c66e3d5c036fc757",
+    "m30b24d8e20838998e595",
+    "m8b93dc8cb64e334f4172",
+    "maf74044f00ff7d07af72",
+    "mce8ade5ffbf877f808f1",
+    "m1acdf520ee5b0e3db622",
+    "meb82433e3933ae882e1b",
+    "md426d907bcf067efe581",
+    "m7035d11dfced471fe391",
+    "m57762295eebe11914f60",
+    "m6ea16d0b0cc840d9d5d6",
+    "mc3578c6fa9b6b1482ff1",
+    "m76bec38fdbb63b23f292",
+    "m3e6a48993da0f9fa2735",
+    "m5f89b48e94943ca792c5",
+    "ma5015857f0f276003ff7",
+    "m528d1cde1f83c6f0e284",
+    "mc6630b32ac1952c04dde",
+    "m4a1706868c32fe401200",
+    "mbd1217205b80379ccc6c",
+    "md18f96a89530fafc70a0",
+    "m254ae9dbcfbf863a0a7a",
+    "m9aaed8ef8375a3c6454c",
+    "mfb2043a312c6f8f12c44",
+    "m1b2fa97b81e5fd4ddd00",
+    "mc3a32f6b960a4441e3aa",
+    "md609fec2fa73f75ebeb3",
+    "m32bc9189815dea4f9d9f",
+    "ma9a1bd015f53a4e02403",
+    "mdfc1f1399e2e3da374a1",
+    "mfd6dc89d4fa60cd23995",
+    "mdf0156fbc2b6d8f7913e",
+    "m7d5e223ec86d4a86baa1",
+    "mdfa61799347064c4f31c",
+    "mf6dca8b1ae087b7ea38a",
+    "m8eeca15906b0f8276d11",
+    "mac7f5156894207d55986",
+    "mb241ec905cbdd22cff64",
+    "m5114482e7e80fa35916b",
+    "m5e138acf3da7b691fd4b",
+    "mc5de7f1e46e199c5d58e",
+    "m2b0fd630b8b4ce5e24db",
+    "me4b0ca97b925a449e73e",
+    "m951079131a7b70f322d3",
+    "mdabece964ade770989b3",
+    "md8c05a3cb74006d84bc9",
+    "m2eda45737e3814cfb5a4",
+    "maccadc594537a4fb3741",
+    "m17f76c729eeec7370d36",
+    "m371a4b1784650b17bbe0",
+    "m9a8e85d16c1c7d8c058a",
+    "m4fe8153becff5a61b1a7",
+    "ma8cc57c59e4a87bc14be",
+    "m3d6f98ecc15eaf82885d",
+    "m5928ad8f33e499c1af31",
+    "m6d5375ecc2fd189d013a",
+    "me643a03535182138e9de",
+    "m2b553778837939e15418",
+    "m1aea10903c46a41284d4",
+    "m01a9a2c5f082f5ca6182",
+    "m5566177ee869c873a0d2",
+    "m2a4ac5811a7bb0ab4767",
+    "m61456d091f85d76e2e8d",
+    "m608986df4173cd3211b1",
+    "m2e123b702ffd03eb02b4",
+    "m5023ba2b73ca64cfbaba",
+    "m7fec4e89a94b484a9128",
+    "m4f727594789d69c1f7a8",
+    "mad6f749203caac494858",
+    "mc2e6a5ca1da581556614",
+    "mbca880c2bfa54506c811",
+    "m87912e32d7d3691bb9f4",
+    "m98a075ab943b256b67fd",
+    "mde7189fd4d0b7148e910",
+    "mcee7ed40fd734b06d235",
+    "ma8dd19ed8b6ba2dabbc7",
+    "m5a22bad6796e79af9383",
+    "m235947122e0fd5d02d99",
+    "me0e1e76d2c1158ac8756",
+    "mb4c1380a620307abb8cc",
+    "m38fb464d632b0307f1cd",
+    "m23884646fd88f51068c2",
+    "m18533e9c216aceabd33c",
+    "md49ecb7d11002509fe47",
+    "m1146be4618c7e8636886",
+    "mbd448cd161aa2e3a3f3b",
+    "m08aec461049227190292",
+    "m78bf371ce10ecbaf7ee8",
+    "m3c9e6d4ad7af2028039e",
+    "m7dd97d7666dfd8ec033c",
+    "m34948eb563817c5d68c6",
+    "mf3fd1d316c188c41e8a5",
+    "m4da3290b102030252c63",
+    "mc3b4be3094f3acf98b3e",
+    "m93f33a44bb812ecb8879",
+    "m4faabafa110d553a7e8f",
+    "m18001ceac3b14e6785dc",
+    "m66f5443aa453db544438",
+    "mb5038333990b27c78029",
+    "m45ec769e8cb8d78c6e76",
+    "m615cf8ac4aaaccd06149",
+    "me6351e5e1e7220cad438",
+    "m9a34a975355bcc4bc28b",
+    "mfc2669b849b3829c78e3",
+    "m16c87a9c47e8317340fd",
+    "m80eec9928aeaa921f294",
+    "mc8071f88f01ece6c789d",
+    "m93f33a44bb812ecb8879",
+    "mc8071f88f01ece6c789d",
+    "m9456c7227ddf9903b653",
+    "m1d34ca91efb05b9e9232",
+    "m6b9226e890a346fa128b",
+    "md263a9018641aa3bb4d8",
+    "m3078c2d08be03145cee4",
+    "m225d60aae862c67a4aa9",
+    "m69f8718dd0d6785ced7d",
+    "mdfedd9222ba30be13ab9",
+    "m4d4f6f00d7f702beb375",
+    "m1c43c99513d55e29b0f8",
+    "m3e24a6f9708ddfe07578",
+    "mf8e3fa5a186b8025777d",
+    "mba7b878d1fbcfb5cb378",
+    "m02a3f97e15feb209d52a",
+    "mb16bfd39b40e4517def8",
+    "m36ff1084da26dfd55f50",
+    "mbd5135d367c1edfce738",
+    "m8c5255570c5c9bca7bac",
+    "m558473061f9203c2e862",
+    "m0b4189b5d4d5900228eb",
+    "m42678cbd2ac66651c875",
+    "m18654bfac1d1bacf9fdf",
+    "me98b58bb5cce862bd945",
+    "m680ba67058add08bfcff",
+    "m246257e147ee7ab75132",
+    "m83a0b6ff0a472155a5b9",
+    "m117427fbd73e720d4260",
+    "m8bd5fc3ed973c89ed0b0",
+    "mdf52e61eea9d5f5b8918",
+    "m595e1e0a58c43542d72d",
+    "maa9238155830c42c4c00",
+    "m746c4fe9d8a6006f516a",
+    "m41b6f46237abbdd0f758",
+    "m4dc9d2c2d1a7fd4d2e80",
+    "m9dc310bd65a9d9837a6b",
+    "m419c863ed83c9b33e8ab",
+    "mc7efb9a2a9412201c211",
+    "m522fb7e41df2c2418dad",
+    "m5ec48334baa2a049df15",
+    "m419c863ed83c9b33e8ab",
+    "ma8eafa47fd2ab4c64158",
+    "md5506516bbdb51bb7392",
+    "madd2c3f48e4bbd42e7a9",
+    "m2661f32de7059d2b36e2",
+    "m5250d662ebeb902d03c5",
+    "m98b8b75fec2c9e193dad",
+    "m787719c1be7368904889",
+    "m9770efd3df8806eeda97",
+    "md7d90c1f4c591cea2694",
+    "m824fb5c654a833780017",
+    "me2b51ae0926adb9779f2",
+    "ma3729e7cf5bd0604c161",
+    "mec131ce078a2fea81b11",
+    "m4431df592db0601e62a3",
+    "m9820d079bb3a47f49f74",
+    "m2d6d8c97e11cdd6ac0de",
+    "me939eff8a18687c729ed",
+    "md291f97785bffedd5ce4",
+    "m9770efd3df8806eeda97",
+    "m787719c1be7368904889",
+    "mdf47e10c9ad5c43bc070",
+    "mcbdf71a61690eec8d52d",
+    "md451e6fb7afc079c339d",
+    "m3bc986106a7139ccc966",
+    "me08de7632e394a8551aa",
+    "mfb1777d6170795843af6",
+    "m3f14f4a57d7d688af2e8",
+    "m83acd9e32c621b47b572",
+    "m6960f8273038c9ad83dd",
+    "m58447f33c559898b68ff",
+    "maf0d822b0a33dd4aacc8",
+    "m787719c1be7368904889",
+    "mbcfb78b703d072c1442e",
+    "m89b8b6392e66333bdd09",
+    "m216379efaa12bb60a252",
+    "m0910621bb6dbea24dd69",
+    "mceb233117fa702f96427",
+    "meda8b6e72279f9b024b4",
+    "m5ee036df42011bf5d9e5",
+    "m787719c1be7368904889",
+    "m853107a5ca6d8c541e6b",
+    "m7944810515b1bd4ba905",
+    "m17485a2d21c6ffafcf1b",
+    "ma01a4a22a1b25d7075f5",
+    "mf0641a7cccbefe7db5e1",
+    "mae421d6197413478de1f",
+    "m0f23fda005117484a075",
+    "mefec430baa683041fa63",
+    "m6b9226e890a346fa128b",
+    "m0f23fda005117484a075",
+    "m5ee036df42011bf5d9e5",
+    "m6838e7006cbb2bbcc399",
+    "m342cad43a42d1e2155c6",
+    "m05b4b7539a627550b908",
+    "m1a5fe161e76cd96db8e7",
+    "m4558a8bb5ed80289a216",
+    "m0b22364f9b0e501f5795",
+    "mfb2587c2ac6c5cc23989",
+    "mdd1aa8ad0448971bb093",
+    "m781fe8b025c8e82d9979",
+    "m56fbbebe4168657da00d",
+    "m02089e97fb75328f0544",
+    "m7b1a25c07d5b07ffe18b",
+    "m3699b4f7c419c34cd21a",
+    "m511d001d687734d2453a",
+    "m72e375de688d9ba127b8",
+    "m8684f31c3a0482bda7f2",
+    "m71ce32df8701d1faf385",
+    "m787719c1be7368904889",
+    "m66f19b9024d5765149a5",
+    "m731d459e57f3fe8b879f",
+    "m8f02b14a67b8dffa7687",
+    "m95391211fe120f08c545",
+    "mcaf3355a5f76c88ca26f",
+    "m69fc1ca2a39b56c7b96b",
+    "mfbbb107ceda93994c576",
+    "m05775331a2bb5caef147",
+    "mc386946e174d9c3ca9a5",
+    "m95391211fe120f08c545",
+    "mc2808675b97ce7bf4c40",
+    "m3104a67c3b34fec99c95",
+    "m0888d8e74a22e9f676aa",
+    "m807573c08497fdff4f73",
+    "mf42ed0d9d590ca74c4e7",
+    "m388255de5d6c627f6083",
+    "m79a191376d22ee857263",
+    "m388255de5d6c627f6083",
+    "mf42ed0d9d590ca74c4e7",
+    "mdf7fcaa29c271c66523b",
+    "m4308a5df47ee46f76a11",
+    "m787719c1be7368904889",
+    "meae17ed98a86ed4da015",
+    "m787719c1be7368904889",
+    "m9770efd3df8806eeda97",
+    "m4308a5df47ee46f76a11",
+    "m28e2eecb4227e1417930",
+    "m0b417668a1984c340895",
+    "m6b678594c6f4b9307084",
+    "mb108c9e13a077d66332e",
+    "me5e71670ac3b17fcb130",
+    "m829c39946f9efdcdfd35",
+    "me5e71670ac3b17fcb130",
+    "m7fb10d8960de0a5ac0ac",
+    "md11b8324b4eccea7935e",
+    "m2e7b4c760786c0c67c7c",
+    "m1d9ccde55b4f09f92aa0",
+    "m73e6acf5c1cd49774b6b",
+    "m2661f32de7059d2b36e2",
+    "m24b2ba52e9c5f316d268",
+    "m9347a7239c0bbd5f3974",
+    "m72e375de688d9ba127b8",
+    "mc3f1abd8e0a789021d16",
+    "m388255de5d6c627f6083",
+    "m39ef34753b70ab5758b4",
+    "mf93c8666c8081a66aafa",
+    "mf0fd4713f52d34701db2",
+    "me26b2f70b2d2a4121bab",
+    "m5187f7cfdad6da22a4d6",
+    "m5fb92ebb2d4175bacc23",
+    "m787719c1be7368904889",
+    "m4c7f29049cee6f59efa8",
+    "m8f1945fb2c6ab5a10993",
+    "me524b6ecc45e46c0301d",
+    "me5e9d1c8104a5e9e74c1",
+    "m461ff010e635d4f8c8c1",
+    "m4308a5df47ee46f76a11",
+    "m4e936a63ef33955bed04",
+    "m2b7bc4b0c9fbb3677e7c",
+    "m4308a5df47ee46f76a11",
+    "m67a8878d880e0d6141a6",
+    "m3c0cc0fdb013a7ed7ffc",
+    "mccac01a3fbb3b99188df",
+    "m63715c40989d547d3240",
+    "m72e375de688d9ba127b8",
+    "m7dc67d51c0c4168ad054",
+    "m3a64479257fce4e6157b",
+    "m2e28a3ed46894c900482",
+    "m25e33c0c0134c3d1b99e",
+    "mdba93a2db5b54949bbcb",
+    "mfe468e21c78bced04df2",
+    "mb652f915c616c1f4e1f7",
+    "m9e3cb02adcb6978cac42",
+    "m984109bff6239fc2ab3e",
+    "m6c4424a5108eca0b196e",
+    "m787719c1be7368904889",
+    "mf7788e280c9910503809",
+    "m7053e296908fa671e754",
+    "mf1dac21bd25c26bacc64",
+    "mceae5d7a92a8c90783a7",
+    "me6b6bbeb46d701481bb1",
+    "m36d2fa9b9c9ee8bc5115",
+    "md255710f207606beef4e",
+    "m65308be0b284bb30b0e4",
+    "m622638fba4101a12e622",
+    "m42966450599e20da5327",
+    "macbc88687df2b6e478c8",
+    "md89e582a646d0d7120a1",
+    "me7b37df9a59dcda881a8",
+    "mb108c9e13a077d66332e",
+    "ma3683a537063fbe57b26",
+    "md5306629c647a2c6c56b",
+    "m2e029fbd4192f226f99b",
+    "m9dc310bd65a9d9837a6b",
+    "m968448a57c40610b749c",
+    "m1662e66b9f8b157a13f0",
+    "m520725d5a049aa3dc3d4",
+    "m3c31f9b24ae7a2ae8f01",
+    "mc4c8279b9f31b4af068b",
+    "mdec5f4520571ea8b75ab",
+    "ma2f385d1565e54fc5569",
+    "mee72533e096ede830f31",
+    "m3f01ad5b8c22c11be5f9",
+    "m51c96c9f8f661603bdc7",
+    "md2036b771f6aee9e5e7f",
+    "mca0ccd23abcd4835c04b",
+    "m5c5dbf18fac47b9b64ac",
+    "m10d51b19358d6e7ff2a8",
+    "mac931831c056691a5947",
+    "mbc80c35e6e9dc525740b",
+    "me623eac5a74974b09a50",
+    "mee72533e096ede830f31",
+    "mfb1777d6170795843af6",
+    "m5c7d450767101109674c",
+    "mc4c8279b9f31b4af068b",
+    "m4113592cda310a50ad97",
+    "mee72533e096ede830f31",
+    "m9b4f8a6228be1e445d75",
+    "mc7649ca2ccbbc9296e95",
+    "m6dbdeed5b5dad4fc5b7f",
+    "m228aa32248ac7ae8770f",
+    "mac931831c056691a5947",
+    "m16c3c5238cd37bc93ca3",
+    "ma4210bdaa213c50fe7c9",
+    "mdd2d6c6b7aceccb70038",
+    "mfb2043a312c6f8f12c44",
+    "m3ac0c8f314e7e72aea8a",
+    "m097248c2d62dd71dd51c",
+    "mc41c56771948e6cea39c",
+    "mc573d26cbd1ec6fbee0d",
+    "mc92046f2e404b7a334b8",
+    "m18186247f605200753ca",
+    "m16c3c5238cd37bc93ca3",
+    "m6aaf05aa82809868a433",
+    "m0b6b29238b346e7c041d",
+    "mb99b06cb6350156d012e",
+    "m0fc72cd673e457f5bdea",
+    "m8946a66cdef54b6e4c48",
+    "m3e96e756a6cd7125a9fe",
+    "m41521c56a5fba43c2dfa",
+    "mb7908066ebad9a3c26c9",
+    "m7cdb1ae79409ea6ed813",
+    "m1466da7145636a74778b",
+    "mcf86ea065dcab513f98c",
+    "m8e2c86586a0d11060ed5",
+    "m0c0e6862aa40b8dfe480",
+    "mdd1b0dc9c0dda94fc2cb",
+    "m5a6b663459bc43f90a66",
+    "m9c11cc1e6d339483bbd6",
+    "mcb5eecf51cabc6b0a19a",
+    "m542f49b3a7ccdbcbceaa",
+    "m82aba6bb276a6a83c6dd",
+    "mee66c59b4a21fc7aba0f",
+    "mccf0d6757ddfe8a330f6",
+    "m94b6de48c4b5886e2969",
+    "me3dc5b8b98630478af55",
+    "m73d6c8905e9d7f781a0f",
+    "m4930f64c53322c31d370",
+    "mcde7b7f3b3fefba5683a",
+    "ma9a1bd015f53a4e02403",
+    "m19eee8ac8ff2fcba54fe",
+    "m57d1c2be2f9b254dedf3",
+    "m84d8d5b4158249a56861",
+    "mcf811770a2a0b3238941",
+    "m7f3ab4cdee4074713731",
+    "ma9a1bd015f53a4e02403",
+    "ma9a1bd015f53a4e02403",
+    "ma274f8d6582366db64d9",
+    "md3ff0b4eff19601d5814",
+    "m29bbb3ed79a441fcb963",
+    "m54135dd76284b467d45e",
+    "m8f01bdb62472d50ad058",
+    "m8d6de692886f2c619f7e",
+    "m2fe16e2b86afa4f9376c",
+    "m108f955d6176c28aa234",
+    "made992bda7dc32bb5d2e",
+    "mc1520e2f8586973ce305",
+    "m7ae3464da69fd84e448b",
+    "m30c790775a561f3de99f",
+    "m41f77838cc344bfd8723",
+    "m1ac39365d156d482637a",
+    "m1fdf95397a8cdbcc8a25",
+    "m9e2eba79d4d66658b487",
+    "m2e56a6a025498d25bbc5",
+    "m0034878ee1ad87ab7b4c",
+    "mdb49919109b046034a29",
+    "me2b51ae0926adb9779f2",
+    "m4431df592db0601e62a3",
+    "ma3729e7cf5bd0604c161",
+    "m9770efd3df8806eeda97",
+    "m787719c1be7368904889",
+    "m928573e0021eb64f3f6f",
+    "me939eff8a18687c729ed",
+    "md291f97785bffedd5ce4",
+    "mdf47e10c9ad5c43bc070",
+    "m5de6e5087ca4fd816fca",
+    "m7c8cea7c8e334d5f1bd6",
+    "me32be415c62f92cf985c",
+    "mac0972a8e3f2313956c0",
+    "me89813e8889450d46a96",
+    "mdbc63f6a3df844d75b8b",
+    "m5c6727acd1347cf604b4",
+    "mc92ea1de5c5e7f86b572",
+    "m56b14417e24b7c555a1d",
+    "m12644e91faad7900ddd9",
+    "m74403b88ded4be9f8363",
+    "md36228902a808629ec03",
+    "ma0d3ca8fb375fe5c1be6",
+    "me4dad9c9182f1da1ac45",
+    "m8fe1a9a84ae760586e9c",
+    "m17f0dc2f8cf52cd39cfa",
+    "m0a029e3609f6466ad3f9",
+    "m65c826100359c883c117",
+    "m8146fd4ccb329866a31f",
+    "mf8369dbcf6724f7fa3b0",
+    "m388a65ce112c6c77faa9",
+    "m5d969bfbe0a875bf8b14",
+    "m0a029e3609f6466ad3f9",
+    "mf93c8666c8081a66aafa",
+    "m45ce72c68bbd055e480e",
+    "m1c97d58d53f8eeb48a5c",
+    "m787719c1be7368904889",
+    "m82ade813a4cfe901c4d8",
+    "m841afb06aee9dcff85f6",
+    "m14249ea243db4523083d",
+    "madd6081fe07d099e3af9",
+    "m96de1cc132f69217e130",
+    "m0dc0b1a8870e3c648a5b",
+    "m901de7ec2f4521bdc905",
+    "m349eb84a08eef72b2e3e",
+    "mafb2de7f4b3c26172c1e",
+    "m002dd45e1ef9006111a4",
+    "mf93c8666c8081a66aafa",
+    "m437e3f9ca500cba60708",
+    "ma23dd0f1e1c181076fc0",
+    "m5ec75c96c0be3c7371ca",
+    "m93d3f1a0b932d3c54ce1",
+    "m593883ac480da71ff34d",
+    "mb059383c1f25d4c0994d",
+    "m23724527d4bb8601776e",
+    "m8fa8b55085311a3f7930",
+    "m787719c1be7368904889",
+    "maf0d822b0a33dd4aacc8",
+    "m1d027b2fb552dc5a2216",
+    "m2934c4a843528f22513d",
+    "m44845d6222abe257464b",
+    "m3fd3705b87c0b2c6bdd6",
+    "m8ba3f19ebbb1477cc73c",
+    "m9770efd3df8806eeda97",
+    "m787719c1be7368904889",
+    "mfcb77e3146adb37a3303",
+    "m511d001d687734d2453a",
+    "mb3ca9e7a5c5f874470f6",
+    "m68f2935d4e9f56c7c5fe",
+    "m97ef4577ae3d06484a12",
+    "m9247d1635c9099bc5bff",
+    "m2779904cac292c28d76a",
+    "mf93c8666c8081a66aafa",
+    "m1f323d68a93141b1e8f8",
+    "mdfb25afd6f2f869da2da",
+    "m97165f8a0d7906e1f452",
+    "m022e56932d2f8bc3c598",
+    "m88614ba30f072ddbe930",
+    "m223ef8f4c659d3399013",
+    "me0530d3ff07a532885a1",
+    "mb4cb62bf94ffb9bde0f2",
+    "m00efdbe278a0b82bacdb",
+    "mb66061bc6f7c2c98a245",
+    "mc2ec177842a887deba7b",
+    "m12742d7710efb23f3e97",
+    "m6bde398cc673212bb5f8",
+    "m6c5e9d4471be14d9ecb2",
+    "mf5fc876ccd1637eec9be",
+    "m2a747a15b2be8b6eba8d",
+    "m3f0eb4813378d2f974c5",
+    "md3db01a43a692196ad4a",
+    "mfa7f84d6cc50d3ca7b1e",
+    "m04260ce7074e0e9b3548",
+    "me8ca74b1efa13d48f523",
+    "mb4bb8e70161fbc7bedea",
+    "mff0901c317d7dd1ef5a0",
+    "m85e749510603007be58a",
+    "m9838e08308f7a48bbce5",
+    "md011737d6c61fe36f41a",
+    "m1a61d6cc888a5f20cd30",
+    "m8f861b615a3bdc56f0b7",
+    "m58e6b3e3bd7681de9950",
+    "m3aad05481b33b797859b",
+    "m52c0c85a0e5ddf7891a8",
+    "md41718efac303ce63070",
+    "m62a9a43872d82d99a46f",
+    "m664c444f9ba98d1fd58d",
+    "m6d8929699e8752f159a4",
+    "m695ad2fea2e599627aa1",
+    "m90be4adacaeba88e1e3f",
+    "mb18aef6418fa835ba5b7",
+    "m087a2486e1b98b931835",
+    "m11bce805f55319144e9e",
+    "me2830eef7927999cc148",
+    "ma28972e74cd2c13b94b3",
+    "ma93b31f1b4931eaa610b",
+    "m3befcc85b7e2aaf3b093",
+    "m79384ab9db80a5e3a916",
+    "m385534a254b140b8edc0",
+    "m9b3dac9e5dd91127d462",
+    "mb9c8c20bb6ef6fbd083e",
+    "m8e6a868546bf99277a5e",
+    "me32be415c62f92cf985c",
+    "m77cfe1bc1a89023b903e",
+    "mef6a24d4f3df4029eb4c",
+    "m35a4e25dd7d4a86bd658",
+    "m721df91b57a10790d2c7",
+    "m1e29d11aa466e03ff7a9",
+    "mb532e95d4c99a26ac2cb",
+    "md5fdb0f80cd83f5bfea5",
+    "mc1725fd08020f86dc090",
+    "m22cfb724ec3b622090f9",
+    "m57daef06ca6669ed7062",
+    "m4fa873915a6bbec261c0",
+    "m2a58962b440f13490f67",
+    "m68bbf522eff9a8a14e51",
+    "m2a7182fea4557acd3046",
+    "meb0c5b726ac8647092d6",
+    "mc9e9a206c243776d6551",
+    "mb40482b83e05d8a1bd07",
+    "md3c530e95b4b1db63a31",
+    "m0ab0df3ce027e42dfd38",
+    "m31f81259af5ce7c16888",
+    "mcaea1510b7e5d638a3fb",
+    "mceb461fa625d578d6d4d",
+    "m57daef06ca6669ed7062",
+    "m8e27e7825d79cd45d7d8",
+    "mda0a18cc576b1d26de88",
+    "me938174458050a01cc0a",
+    "me7cc4ea0523c810a63e0",
+    "m1af46a1accf0e9456295",
+    "m673444a5dc71b301a455",
+    "mf93c8666c8081a66aafa"
+  ],
+  "displays": [
+    {
+      "id": "m00ec4b971bec67cded57",
+      "tags": [
+        "2.1"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 313.634,
+      "height_pt": 27.171
+    },
+    {
+      "id": "mfa54e98ebab1a41199bb",
+      "tags": [
+        "2.2"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 273.99,
+      "height_pt": 23.955
+    },
+    {
+      "id": "m73b571e924bd4cd50d66",
+      "tags": [
+        "2.3"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 358.303,
+      "height_pt": 13.018
+    },
+    {
+      "id": "m11b0bf4f17035fc54d60",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 365.405,
+      "height_pt": 12.37
+    },
+    {
+      "id": "m77c2a22a1d07d2897979",
+      "tags": [
+        "2.4"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 368.504,
+      "height_pt": 11.4
+    },
+    {
+      "id": "m402599e771466d7bf9cc",
+      "tags": [
+        "2.5"
+      ],
+      "font_pt": 9.055,
+      "page": 4,
+      "width_pt": 399.0,
+      "height_pt": 22.118
+    },
+    {
+      "id": "m5964e10116031a271572",
+      "tags": [
+        "2.6"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 279.774,
+      "height_pt": 27.04
+    },
+    {
+      "id": "me29fa557b5049ce1991e",
+      "tags": [
+        "2.7"
+      ],
+      "font_pt": 10.909,
+      "page": 4,
+      "width_pt": 199.97,
+      "height_pt": 27.64
+    },
+    {
+      "id": "m5cae6b41f8cf5753301e",
+      "tags": [
+        "2.8"
+      ],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 320.839,
+      "height_pt": 26.4
+    },
+    {
+      "id": "me830f9e5ad25c593d825",
+      "tags": [
+        "2.9"
+      ],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 334.056,
+      "height_pt": 27.053
+    },
+    {
+      "id": "m88669317cbca3d2ff13d",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 229.884,
+      "height_pt": 14.52
+    },
+    {
+      "id": "mcb4ccd1397395bd86d13",
+      "tags": [
+        "2.10"
+      ],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 323.119,
+      "height_pt": 14.52
+    },
+    {
+      "id": "m6651194c35e4bbf52544",
+      "tags": [
+        "2.11"
+      ],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 365.474,
+      "height_pt": 41.454
+    },
+    {
+      "id": "m8fa4bb61b46bd5de010e",
+      "tags": [],
+      "font_pt": 10.814,
+      "page": 5,
+      "width_pt": 441.0,
+      "height_pt": 26.278
+    },
+    {
+      "id": "mde1f85fc72663ff378c1",
+      "tags": [
+        "2.12"
+      ],
+      "font_pt": 10.724,
+      "page": 5,
+      "width_pt": 399.0,
+      "height_pt": 12.16
+    },
+    {
+      "id": "mb1212241d3c122999adf",
+      "tags": [
+        "2.13"
+      ],
+      "font_pt": 10.909,
+      "page": 5,
+      "width_pt": 228.788,
+      "height_pt": 59.298
+    },
+    {
+      "id": "m646d912dcdd6a9486bf5",
+      "tags": [
+        "2.14"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 397.781,
+      "height_pt": 12.37
+    },
+    {
+      "id": "m13a88ed267216bbcb203",
+      "tags": [
+        "3.1"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 298.231,
+      "height_pt": 10.909
+    },
+    {
+      "id": "mc876bc2bdaec3d39d37e",
+      "tags": [
+        "3.2"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 295.853,
+      "height_pt": 11.391
+    },
+    {
+      "id": "m239e8cd3cf4cb48b9df0",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 349.325,
+      "height_pt": 20.291
+    },
+    {
+      "id": "m5e71bf56017ddd1c0a6f",
+      "tags": [
+        "3.3"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 281.426,
+      "height_pt": 20.291
+    },
+    {
+      "id": "ma4be53581ff8eff48d34",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 191.917,
+      "height_pt": 13.276
+    },
+    {
+      "id": "md24793bf1da5ee52d9c5",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 295.268,
+      "height_pt": 13.271
+    },
+    {
+      "id": "med74b8dd1de880b63d74",
+      "tags": [
+        "3.4"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 131.443,
+      "height_pt": 13.758
+    },
+    {
+      "id": "m7b985827a80e63356e1f",
+      "tags": [
+        "3.5"
+      ],
+      "font_pt": 10.909,
+      "page": 6,
+      "width_pt": 71.489,
+      "height_pt": 16.071
+    },
+    {
+      "id": "m880e5f833907161cc365",
+      "tags": [
+        "3.6"
+      ],
+      "font_pt": 10.909,
+      "page": 7,
+      "width_pt": 258.005,
+      "height_pt": 22.483
+    },
+    {
+      "id": "m057cb17ad00b5dcb75fe",
+      "tags": [
+        "3.7"
+      ],
+      "font_pt": 10.909,
+      "page": 7,
+      "width_pt": 132.623,
+      "height_pt": 32.365
+    },
+    {
+      "id": "me1d4f9924507a18c0ef4",
+      "tags": [
+        "3.8"
+      ],
+      "font_pt": 10.909,
+      "page": 7,
+      "width_pt": 215.946,
+      "height_pt": 96.304
+    },
+    {
+      "id": "m4fd38f868feb43722e6e",
+      "tags": [
+        "4.1"
+      ],
+      "font_pt": 10.909,
+      "page": 7,
+      "width_pt": 269.906,
+      "height_pt": 27.315
+    },
+    {
+      "id": "m47fe1d0a26af39266064",
+      "tags": [
+        "4.2"
+      ],
+      "font_pt": 10.909,
+      "page": 7,
+      "width_pt": 280.655,
+      "height_pt": 26.508
+    },
+    {
+      "id": "m3cc8b3b1738e4b385430",
+      "tags": [
+        "4.3"
+      ],
+      "font_pt": 10.909,
+      "page": 8,
+      "width_pt": 114.75,
+      "height_pt": 11.332
+    },
+    {
+      "id": "mb64d8e32fe249e8e7971",
+      "tags": [
+        "4.4"
+      ],
+      "font_pt": 10.909,
+      "page": 8,
+      "width_pt": 272.223,
+      "height_pt": 24.235
+    },
+    {
+      "id": "m8d4cd2bd7adfc085a366",
+      "tags": [
+        "4.5"
+      ],
+      "font_pt": 10.909,
+      "page": 8,
+      "width_pt": 276.782,
+      "height_pt": 24.195
+    },
+    {
+      "id": "m399cf3699ac91031e000",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 8,
+      "width_pt": 311.556,
+      "height_pt": 30.146
+    },
+    {
+      "id": "md0300564bd679bbdc53d",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 8,
+      "width_pt": 200.323,
+      "height_pt": 14.943
+    },
+    {
+      "id": "m47c3b51ca5f6804f2a92",
+      "tags": [
+        "4.6"
+      ],
+      "font_pt": 10.909,
+      "page": 9,
+      "width_pt": 172.494,
+      "height_pt": 22.8
+    },
+    {
+      "id": "m406ee5b99ebe57f89d12",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 9,
+      "width_pt": 323.902,
+      "height_pt": 32.798
+    },
+    {
+      "id": "ma46b814e37f435ef7c28",
+      "tags": [
+        "4.7"
+      ],
+      "font_pt": 10.909,
+      "page": 9,
+      "width_pt": 162.268,
+      "height_pt": 23.109
+    },
+    {
+      "id": "mbb973899dd5e77b2bf3e",
+      "tags": [
+        "4.8"
+      ],
+      "font_pt": 10.909,
+      "page": 9,
+      "width_pt": 248.107,
+      "height_pt": 35.051
+    },
+    {
+      "id": "m7da2bf43fdb43427f75b",
+      "tags": [
+        "5.1"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 313.66,
+      "height_pt": 26.304
+    },
+    {
+      "id": "mdd031428e1893730248c",
+      "tags": [
+        "5.2"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 261.991,
+      "height_pt": 26.304
+    },
+    {
+      "id": "m8a79b9678000dda785c7",
+      "tags": [
+        "5.3"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 299.638,
+      "height_pt": 26.944
+    },
+    {
+      "id": "m653a2a0f5f991ab3f32a",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 330.897,
+      "height_pt": 27.04
+    },
+    {
+      "id": "mea9611020fdebc09f4d7",
+      "tags": [
+        "5.4"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 202.188,
+      "height_pt": 27.04
+    },
+    {
+      "id": "mbcc4156454a2e215d5f3",
+      "tags": [
+        "5.5"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 200.45,
+      "height_pt": 26.944
+    },
+    {
+      "id": "mad74a7fd6ebab039d774",
+      "tags": [
+        "5.6"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 171.037,
+      "height_pt": 14.437
+    },
+    {
+      "id": "m1a15587694640797c149",
+      "tags": [
+        "5.7"
+      ],
+      "font_pt": 10.909,
+      "page": 10,
+      "width_pt": 189.708,
+      "height_pt": 14.52
+    },
+    {
+      "id": "mef62f3fce9d4fa51a946",
+      "tags": [
+        "6.1"
+      ],
+      "font_pt": 10.909,
+      "page": 11,
+      "width_pt": 150.385,
+      "height_pt": 28.356
+    },
+    {
+      "id": "m17fbdf4bc1fd3e99081e",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 11,
+      "width_pt": 323.993,
+      "height_pt": 27.589
+    },
+    {
+      "id": "m4f898a053c90537575ab",
+      "tags": [
+        "6.2"
+      ],
+      "font_pt": 10.909,
+      "page": 11,
+      "width_pt": 255.7,
+      "height_pt": 12.422
+    },
+    {
+      "id": "m7e112db1217e3d71e848",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 11,
+      "width_pt": 358.885,
+      "height_pt": 20.291
+    },
+    {
+      "id": "m70cac8b06e82f104cd16",
+      "tags": [
+        "6.3"
+      ],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 172.219,
+      "height_pt": 25.538
+    },
+    {
+      "id": "m503bad42005b5caced27",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 311.669,
+      "height_pt": 20.291
+    },
+    {
+      "id": "m808104676f7deb0bc89e",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 282.406,
+      "height_pt": 33.437
+    },
+    {
+      "id": "me33e379a802619bbdce5",
+      "tags": [
+        "6.4"
+      ],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 152.369,
+      "height_pt": 11.729
+    },
+    {
+      "id": "mbeaac8487381ea9d93e0",
+      "tags": [
+        "6.5"
+      ],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 88.642,
+      "height_pt": 26.262
+    },
+    {
+      "id": "m28e2263c2dc80325252a",
+      "tags": [
+        "6.6"
+      ],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 231.265,
+      "height_pt": 33.289
+    },
+    {
+      "id": "mb2240352eb585808df3e",
+      "tags": [
+        "6.7"
+      ],
+      "font_pt": 10.909,
+      "page": 12,
+      "width_pt": 332.947,
+      "height_pt": 32.716
+    },
+    {
+      "id": "md15c382a6ade7009c05a",
+      "tags": [
+        "7.1"
+      ],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 383.293,
+      "height_pt": 14.52
+    },
+    {
+      "id": "m52e2e9f3e0a8b8516eff",
+      "tags": [
+        "7.2"
+      ],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 179.76,
+      "height_pt": 23.109
+    },
+    {
+      "id": "m6e285b379d2996a0a848",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 279.966,
+      "height_pt": 13.909
+    },
+    {
+      "id": "mfbcda7f2a11522c53caf",
+      "tags": [
+        "7.3"
+      ],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 299.429,
+      "height_pt": 26.4
+    },
+    {
+      "id": "m7877ddc5e4e5e53bab99",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 290.689,
+      "height_pt": 12.37
+    },
+    {
+      "id": "m7e7a26407e6be48a28d3",
+      "tags": [
+        "7.4"
+      ],
+      "font_pt": 10.909,
+      "page": 13,
+      "width_pt": 230.74,
+      "height_pt": 10.909
+    },
+    {
+      "id": "md2dc203dd05648f8c613",
+      "tags": [
+        "7.5"
+      ],
+      "font_pt": 10.909,
+      "page": 14,
+      "width_pt": 335.444,
+      "height_pt": 31.298
+    },
+    {
+      "id": "m190e1ed3c97792ff61ad",
+      "tags": [
+        "7.6"
+      ],
+      "font_pt": 10.909,
+      "page": 14,
+      "width_pt": 221.239,
+      "height_pt": 21.568
+    },
+    {
+      "id": "m258623a95c2e0f40158b",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 14,
+      "width_pt": 103.773,
+      "height_pt": 14.572
+    },
+    {
+      "id": "m2cfdf8ca572c9c4412c1",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 14,
+      "width_pt": 349.374,
+      "height_pt": 12.916
+    },
+    {
+      "id": "mf609b62257d7b602eca6",
+      "tags": [
+        "7.7"
+      ],
+      "font_pt": 10.909,
+      "page": 14,
+      "width_pt": 313.317,
+      "height_pt": 26.944
+    },
+    {
+      "id": "m37180f03ccf5adf86e4a",
+      "tags": [
+        "7.8"
+      ],
+      "font_pt": 10.719,
+      "page": 14,
+      "width_pt": 399.0,
+      "height_pt": 32.146
+    },
+    {
+      "id": "m6ea16d0b0cc840d9d5d6",
+      "tags": [
+        "7.9"
+      ],
+      "font_pt": 10.909,
+      "page": 15,
+      "width_pt": 287.889,
+      "height_pt": 25.221
+    },
+    {
+      "id": "mc3578c6fa9b6b1482ff1",
+      "tags": [
+        "7.10"
+      ],
+      "font_pt": 10.222,
+      "page": 15,
+      "width_pt": 399.0,
+      "height_pt": 12.051
+    },
+    {
+      "id": "ma5015857f0f276003ff7",
+      "tags": [
+        "7.11"
+      ],
+      "font_pt": 10.627,
+      "page": 15,
+      "width_pt": 399.0,
+      "height_pt": 23.677
+    },
+    {
+      "id": "mc6630b32ac1952c04dde",
+      "tags": [
+        "7.12"
+      ],
+      "font_pt": 10.909,
+      "page": 15,
+      "width_pt": 325.765,
+      "height_pt": 27.04
+    },
+    {
+      "id": "m32bc9189815dea4f9d9f",
+      "tags": [
+        "8.1"
+      ],
+      "font_pt": 10.909,
+      "page": 16,
+      "width_pt": 240.026,
+      "height_pt": 12.37
+    },
+    {
+      "id": "mdfc1f1399e2e3da374a1",
+      "tags": [
+        "8.2"
+      ],
+      "font_pt": 10.909,
+      "page": 16,
+      "width_pt": 275.653,
+      "height_pt": 13.199
+    },
+    {
+      "id": "mdfa61799347064c4f31c",
+      "tags": [
+        "8.3"
+      ],
+      "font_pt": 10.909,
+      "page": 16,
+      "width_pt": 344.783,
+      "height_pt": 32.365
+    },
+    {
+      "id": "mb241ec905cbdd22cff64",
+      "tags": [
+        "8.4"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 319.198,
+      "height_pt": 13.766
+    },
+    {
+      "id": "m5e138acf3da7b691fd4b",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 281.399,
+      "height_pt": 26.171
+    },
+    {
+      "id": "mc5de7f1e46e199c5d58e",
+      "tags": [
+        "8.5"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 357.414,
+      "height_pt": 27.646
+    },
+    {
+      "id": "m951079131a7b70f322d3",
+      "tags": [
+        "8.6"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 105.058,
+      "height_pt": 17.75
+    },
+    {
+      "id": "m2eda45737e3814cfb5a4",
+      "tags": [
+        "8.7"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 90.793,
+      "height_pt": 11.391
+    },
+    {
+      "id": "m17f76c729eeec7370d36",
+      "tags": [
+        "8.8"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 105.573,
+      "height_pt": 17.545
+    },
+    {
+      "id": "m9a8e85d16c1c7d8c058a",
+      "tags": [
+        "8.9"
+      ],
+      "font_pt": 10.909,
+      "page": 17,
+      "width_pt": 81.37,
+      "height_pt": 17.771
+    },
+    {
+      "id": "m5a22bad6796e79af9383",
+      "tags": [
+        "8.10"
+      ],
+      "font_pt": 10.909,
+      "page": 18,
+      "width_pt": 109.377,
+      "height_pt": 12.389
+    },
+    {
+      "id": "m08aec461049227190292",
+      "tags": [
+        "8.11"
+      ],
+      "font_pt": 10.909,
+      "page": 18,
+      "width_pt": 258.518,
+      "height_pt": 12.916
+    },
+    {
+      "id": "m4da3290b102030252c63",
+      "tags": [
+        "8.12"
+      ],
+      "font_pt": 10.909,
+      "page": 22,
+      "width_pt": 174.096,
+      "height_pt": 12.502
+    },
+    {
+      "id": "mfc2669b849b3829c78e3",
+      "tags": [
+        "J1"
+      ],
+      "font_pt": 10.909,
+      "page": 22,
+      "width_pt": 267.671,
+      "height_pt": 27.32
+    },
+    {
+      "id": "m80eec9928aeaa921f294",
+      "tags": [
+        "J2"
+      ],
+      "font_pt": 10.909,
+      "page": 23,
+      "width_pt": 176.755,
+      "height_pt": 32.497
+    },
+    {
+      "id": "m9456c7227ddf9903b653",
+      "tags": [
+        "J3"
+      ],
+      "font_pt": 10.909,
+      "page": 23,
+      "width_pt": 256.292,
+      "height_pt": 32.716
+    },
+    {
+      "id": "md263a9018641aa3bb4d8",
+      "tags": [
+        "J4"
+      ],
+      "font_pt": 10.909,
+      "page": 23,
+      "width_pt": 216.5,
+      "height_pt": 31.466
+    },
+    {
+      "id": "mb16bfd39b40e4517def8",
+      "tags": [
+        "J5"
+      ],
+      "font_pt": 10.909,
+      "page": 23,
+      "width_pt": 192.961,
+      "height_pt": 32.716
+    },
+    {
+      "id": "m36ff1084da26dfd55f50",
+      "tags": [
+        "J6"
+      ],
+      "font_pt": 10.909,
+      "page": 23,
+      "width_pt": 228.264,
+      "height_pt": 32.716
+    },
+    {
+      "id": "m42678cbd2ac66651c875",
+      "tags": [
+        "J7"
+      ],
+      "font_pt": 10.909,
+      "page": 24,
+      "width_pt": 297.772,
+      "height_pt": 25.578
+    },
+    {
+      "id": "me98b58bb5cce862bd945",
+      "tags": [
+        "J8"
+      ],
+      "font_pt": 10.909,
+      "page": 24,
+      "width_pt": 297.611,
+      "height_pt": 13.069
+    },
+    {
+      "id": "m522fb7e41df2c2418dad",
+      "tags": [
+        "J9"
+      ],
+      "font_pt": 10.909,
+      "page": 24,
+      "width_pt": 166.244,
+      "height_pt": 18.317
+    },
+    {
+      "id": "md5506516bbdb51bb7392",
+      "tags": [
+        "J10"
+      ],
+      "font_pt": 10.909,
+      "page": 25,
+      "width_pt": 166.619,
+      "height_pt": 27.247
+    },
+    {
+      "id": "m824fb5c654a833780017",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 25,
+      "width_pt": 378.599,
+      "height_pt": 20.291
+    },
+    {
+      "id": "m9820d079bb3a47f49f74",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 25,
+      "width_pt": 160.611,
+      "height_pt": 13.82
+    },
+    {
+      "id": "m2d6d8c97e11cdd6ac0de",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 25,
+      "width_pt": 226.005,
+      "height_pt": 20.291
+    },
+    {
+      "id": "mdf47e10c9ad5c43bc070",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 25,
+      "width_pt": 343.013,
+      "height_pt": 10.909
+    },
+    {
+      "id": "mcbdf71a61690eec8d52d",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 210.452,
+      "height_pt": 10.909
+    },
+    {
+      "id": "me08de7632e394a8551aa",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 260.221,
+      "height_pt": 32.365
+    },
+    {
+      "id": "m6960f8273038c9ad83dd",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 150.85,
+      "height_pt": 27.27
+    },
+    {
+      "id": "m58447f33c559898b68ff",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 135.255,
+      "height_pt": 33.437
+    },
+    {
+      "id": "mbcfb78b703d072c1442e",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 81.442,
+      "height_pt": 11.391
+    },
+    {
+      "id": "m216379efaa12bb60a252",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 239.245,
+      "height_pt": 14.042
+    },
+    {
+      "id": "m0910621bb6dbea24dd69",
+      "tags": [
+        "H1"
+      ],
+      "font_pt": 10.909,
+      "page": 26,
+      "width_pt": 151.374,
+      "height_pt": 22.994
+    },
+    {
+      "id": "m7944810515b1bd4ba905",
+      "tags": [
+        "H2"
+      ],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 238.353,
+      "height_pt": 24.857
+    },
+    {
+      "id": "m17485a2d21c6ffafcf1b",
+      "tags": [
+        "H3"
+      ],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 302.344,
+      "height_pt": 34.05
+    },
+    {
+      "id": "mae421d6197413478de1f",
+      "tags": [
+        "H4"
+      ],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 234.097,
+      "height_pt": 33.209
+    },
+    {
+      "id": "m05b4b7539a627550b908",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 201.006,
+      "height_pt": 24.857
+    },
+    {
+      "id": "m1a5fe161e76cd96db8e7",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 182.293,
+      "height_pt": 23.623
+    },
+    {
+      "id": "m4558a8bb5ed80289a216",
+      "tags": [
+        "H5"
+      ],
+      "font_pt": 10.909,
+      "page": 27,
+      "width_pt": 374.451,
+      "height_pt": 47.761
+    },
+    {
+      "id": "m71ce32df8701d1faf385",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 28,
+      "width_pt": 342.03,
+      "height_pt": 10.909
+    },
+    {
+      "id": "m66f19b9024d5765149a5",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 28,
+      "width_pt": 183.685,
+      "height_pt": 14.007
+    },
+    {
+      "id": "m731d459e57f3fe8b879f",
+      "tags": [
+        "H6"
+      ],
+      "font_pt": 10.909,
+      "page": 28,
+      "width_pt": 312.14,
+      "height_pt": 31.685
+    },
+    {
+      "id": "mcaf3355a5f76c88ca26f",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 28,
+      "width_pt": 309.054,
+      "height_pt": 12.892
+    },
+    {
+      "id": "m05775331a2bb5caef147",
+      "tags": [
+        "H7"
+      ],
+      "font_pt": 10.909,
+      "page": 29,
+      "width_pt": 308.332,
+      "height_pt": 48.24
+    },
+    {
+      "id": "mc2808675b97ce7bf4c40",
+      "tags": [
+        "H8"
+      ],
+      "font_pt": 10.909,
+      "page": 29,
+      "width_pt": 223.135,
+      "height_pt": 10.909
+    },
+    {
+      "id": "m73e6acf5c1cd49774b6b",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 261.818,
+      "height_pt": 22.123
+    },
+    {
+      "id": "m24b2ba52e9c5f316d268",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 167.693,
+      "height_pt": 12.407
+    },
+    {
+      "id": "m9347a7239c0bbd5f3974",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 395.565,
+      "height_pt": 14.298
+    },
+    {
+      "id": "mf0fd4713f52d34701db2",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 272.248,
+      "height_pt": 26.955
+    },
+    {
+      "id": "me26b2f70b2d2a4121bab",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 218.68,
+      "height_pt": 10.909
+    },
+    {
+      "id": "m5187f7cfdad6da22a4d6",
+      "tags": [
+        "H9"
+      ],
+      "font_pt": 10.909,
+      "page": 30,
+      "width_pt": 383.171,
+      "height_pt": 11.631
+    },
+    {
+      "id": "m4c7f29049cee6f59efa8",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 101.336,
+      "height_pt": 24.857
+    },
+    {
+      "id": "me524b6ecc45e46c0301d",
+      "tags": [
+        "H10"
+      ],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 344.361,
+      "height_pt": 37.326
+    },
+    {
+      "id": "me5e9d1c8104a5e9e74c1",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 116.127,
+      "height_pt": 24.857
+    },
+    {
+      "id": "m2b7bc4b0c9fbb3677e7c",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 232.679,
+      "height_pt": 26.955
+    },
+    {
+      "id": "m3c0cc0fdb013a7ed7ffc",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 203.615,
+      "height_pt": 30.013
+    },
+    {
+      "id": "m7dc67d51c0c4168ad054",
+      "tags": [
+        "H11"
+      ],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 318.665,
+      "height_pt": 32.716
+    },
+    {
+      "id": "m2e28a3ed46894c900482",
+      "tags": [
+        "H12"
+      ],
+      "font_pt": 10.909,
+      "page": 31,
+      "width_pt": 287.425,
+      "height_pt": 33.579
+    },
+    {
+      "id": "m9e3cb02adcb6978cac42",
+      "tags": [
+        "H17"
+      ],
+      "font_pt": 10.909,
+      "page": 32,
+      "width_pt": 221.068,
+      "height_pt": 13.018
+    },
+    {
+      "id": "m7053e296908fa671e754",
+      "tags": [
+        "H18"
+      ],
+      "font_pt": 10.909,
+      "page": 32,
+      "width_pt": 202.896,
+      "height_pt": 26.171
+    },
+    {
+      "id": "mceae5d7a92a8c90783a7",
+      "tags": [
+        "H19"
+      ],
+      "font_pt": 10.909,
+      "page": 32,
+      "width_pt": 140.229,
+      "height_pt": 26.171
+    },
+    {
+      "id": "me6b6bbeb46d701481bb1",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 32,
+      "width_pt": 241.935,
+      "height_pt": 26.171
+    },
+    {
+      "id": "m42966450599e20da5327",
+      "tags": [
+        "H20"
+      ],
+      "font_pt": 10.909,
+      "page": 32,
+      "width_pt": 262.968,
+      "height_pt": 26.285
+    },
+    {
+      "id": "m1662e66b9f8b157a13f0",
+      "tags": [
+        "H14"
+      ],
+      "font_pt": 10.909,
+      "page": 33,
+      "width_pt": 194.473,
+      "height_pt": 12.455
+    },
+    {
+      "id": "ma2f385d1565e54fc5569",
+      "tags": [
+        "H15"
+      ],
+      "font_pt": 10.909,
+      "page": 33,
+      "width_pt": 289.374,
+      "height_pt": 12.455
+    },
+    {
+      "id": "m9b4f8a6228be1e445d75",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 33,
+      "width_pt": 201.688,
+      "height_pt": 12.297
+    },
+    {
+      "id": "mc7649ca2ccbbc9296e95",
+      "tags": [
+        "H16"
+      ],
+      "font_pt": 10.909,
+      "page": 33,
+      "width_pt": 175.817,
+      "height_pt": 12.297
+    },
+    {
+      "id": "ma4210bdaa213c50fe7c9",
+      "tags": [
+        "J11"
+      ],
+      "font_pt": 10.909,
+      "page": 34,
+      "width_pt": 352.136,
+      "height_pt": 12.879
+    },
+    {
+      "id": "m0b6b29238b346e7c041d",
+      "tags": [
+        "A.1"
+      ],
+      "font_pt": 9.732,
+      "page": 36,
+      "width_pt": 399.0,
+      "height_pt": 24.803
+    },
+    {
+      "id": "m8946a66cdef54b6e4c48",
+      "tags": [
+        "A.2"
+      ],
+      "font_pt": 10.909,
+      "page": 37,
+      "width_pt": 192.478,
+      "height_pt": 11.729
+    },
+    {
+      "id": "m3e96e756a6cd7125a9fe",
+      "tags": [
+        "A.3"
+      ],
+      "font_pt": 10.909,
+      "page": 37,
+      "width_pt": 152.248,
+      "height_pt": 11.729
+    },
+    {
+      "id": "mcb5eecf51cabc6b0a19a",
+      "tags": [
+        "A.4"
+      ],
+      "font_pt": 10.909,
+      "page": 37,
+      "width_pt": 359.945,
+      "height_pt": 26.891
+    },
+    {
+      "id": "m57d1c2be2f9b254dedf3",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 37,
+      "width_pt": 281.665,
+      "height_pt": 11.553
+    },
+    {
+      "id": "m84d8d5b4158249a56861",
+      "tags": [
+        "B.1"
+      ],
+      "font_pt": 10.909,
+      "page": 37,
+      "width_pt": 309.393,
+      "height_pt": 11.553
+    },
+    {
+      "id": "m8d6de692886f2c619f7e",
+      "tags": [
+        "B.2"
+      ],
+      "font_pt": 10.909,
+      "page": 38,
+      "width_pt": 142.274,
+      "height_pt": 12.37
+    },
+    {
+      "id": "m928573e0021eb64f3f6f",
+      "tags": [
+        "Q1"
+      ],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 234.949,
+      "height_pt": 78.268
+    },
+    {
+      "id": "mdf47e10c9ad5c43bc070",
+      "tags": [
+        "Q2"
+      ],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 343.013,
+      "height_pt": 10.909
+    },
+    {
+      "id": "me89813e8889450d46a96",
+      "tags": [
+        "Q3"
+      ],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 257.293,
+      "height_pt": 13.406
+    },
+    {
+      "id": "m12644e91faad7900ddd9",
+      "tags": [
+        "Q4"
+      ],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 250.004,
+      "height_pt": 13.406
+    },
+    {
+      "id": "m8fe1a9a84ae760586e9c",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 158.85,
+      "height_pt": 23.52
+    },
+    {
+      "id": "m8146fd4ccb329866a31f",
+      "tags": [
+        "Q5"
+      ],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 206.745,
+      "height_pt": 10.909
+    },
+    {
+      "id": "m5d969bfbe0a875bf8b14",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 39,
+      "width_pt": 153.436,
+      "height_pt": 13.012
+    },
+    {
+      "id": "m45ce72c68bbd055e480e",
+      "tags": [
+        "Q6"
+      ],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 246.099,
+      "height_pt": 24.857
+    },
+    {
+      "id": "m841afb06aee9dcff85f6",
+      "tags": [
+        "Q7"
+      ],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 233.277,
+      "height_pt": 33.579
+    },
+    {
+      "id": "m901de7ec2f4521bdc905",
+      "tags": [
+        "Q8"
+      ],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 343.163,
+      "height_pt": 27.606
+    },
+    {
+      "id": "m5ec75c96c0be3c7371ca",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 266.887,
+      "height_pt": 13.493
+    },
+    {
+      "id": "m23724527d4bb8601776e",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 277.455,
+      "height_pt": 13.493
+    },
+    {
+      "id": "m8ba3f19ebbb1477cc73c",
+      "tags": [
+        "Q9"
+      ],
+      "font_pt": 10.909,
+      "page": 40,
+      "width_pt": 103.096,
+      "height_pt": 22.994
+    },
+    {
+      "id": "m97ef4577ae3d06484a12",
+      "tags": [
+        "Q10"
+      ],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 320.212,
+      "height_pt": 10.909
+    },
+    {
+      "id": "mdfb25afd6f2f869da2da",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 273.073,
+      "height_pt": 28.81
+    },
+    {
+      "id": "mf5fc876ccd1637eec9be",
+      "tags": [
+        "Q11"
+      ],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 89.24,
+      "height_pt": 10.909
+    },
+    {
+      "id": "m1a61d6cc888a5f20cd30",
+      "tags": [
+        "Q12"
+      ],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 196.034,
+      "height_pt": 12.502
+    },
+    {
+      "id": "m62a9a43872d82d99a46f",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 220.782,
+      "height_pt": 13.088
+    },
+    {
+      "id": "m6d8929699e8752f159a4",
+      "tags": [
+        "Q13"
+      ],
+      "font_pt": 10.909,
+      "page": 41,
+      "width_pt": 227.176,
+      "height_pt": 32.716
+    },
+    {
+      "id": "ma28972e74cd2c13b94b3",
+      "tags": [
+        "Q14"
+      ],
+      "font_pt": 10.909,
+      "page": 42,
+      "width_pt": 120.856,
+      "height_pt": 75.678
+    },
+    {
+      "id": "m721df91b57a10790d2c7",
+      "tags": [
+        "Q15"
+      ],
+      "font_pt": 10.046,
+      "page": 42,
+      "width_pt": 399.0,
+      "height_pt": 25.022
+    },
+    {
+      "id": "md3c530e95b4b1db63a31",
+      "tags": [],
+      "font_pt": 10.909,
+      "page": 42,
+      "width_pt": 310.059,
+      "height_pt": 12.507
+    },
+    {
+      "id": "mcaea1510b7e5d638a3fb",
+      "tags": [
+        "Q16"
+      ],
+      "font_pt": 10.909,
+      "page": 42,
+      "width_pt": 276.611,
+      "height_pt": 32.581
+    },
+    {
+      "id": "mceb461fa625d578d6d4d",
+      "tags": [
+        "Q17"
+      ],
+      "font_pt": 10.909,
+      "page": 42,
+      "width_pt": 273.544,
+      "height_pt": 57.807
+    },
+    {
+      "id": "mda0a18cc576b1d26de88",
+      "tags": [
+        "Q18"
+      ],
+      "font_pt": 10.909,
+      "page": 42,
+      "width_pt": 166.427,
+      "height_pt": 12.992
+    },
+    {
+      "id": "m673444a5dc71b301a455",
+      "tags": [
+        "Q19"
+      ],
+      "font_pt": 10.909,
+      "page": 43,
+      "width_pt": 313.453,
+      "height_pt": 21.458
+    }
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "1. Introduction"
+    },
+    {
+      "level": 3,
+      "text": "1.1. Related work"
+    },
+    {
+      "level": 3,
+      "text": "1.2. Contributions and evidence"
+    },
+    {
+      "level": 2,
+      "text": "2. Mathematical Setting and the Established Six-Condition Third-Order Construction"
+    },
+    {
+      "level": 3,
+      "text": "2.1. Variance model, time scales, and price definition"
+    },
+    {
+      "level": 3,
+      "text": "2.2. The established six-condition [3/3] approximation"
+    },
+    {
+      "level": 2,
+      "text": "3. A Full-Frequency Structural Theorem for the Fixed Third-Order Construction"
+    },
+    {
+      "level": 2,
+      "text": "4. Complex Dissipation and Independent Residual Error Bounds"
+    },
+    {
+      "level": 3,
+      "text": "4.1. Regularity, the history formula, and convexity"
+    },
+    {
+      "level": 3,
+      "text": "4.2. The global half-plane property of the exact solution"
+    },
+    {
+      "level": 3,
+      "text": "4.3. A stability constant independent of frequency"
+    },
+    {
+      "level": 2,
+      "text": "5. Positive-Kernel Error Propagation for the Derivative-Based Characteristic Exponent"
+    },
+    {
+      "level": 2,
+      "text": "6. The Continuous Fourier Integral, the Discrete Grid, and the Infinite Tail"
+    },
+    {
+      "level": 3,
+      "text": "6.1. Rigorous analytic-strip discretisation"
+    },
+    {
+      "level": 3,
+      "text": "6.2. Direct high-frequency control of the exact Lewis-contour solution"
+    },
+    {
+      "level": 3,
+      "text": "6.3. The complete price-error bound"
+    },
+    {
+      "level": 2,
+      "text": "7. Continuous-Time Residual Certificates for the Fixed Reference Trajectory"
+    },
+    {
+      "level": 3,
+      "text": "7.1. The certified trajectory and its initial interval"
+    },
+    {
+      "level": 3,
+      "text": "7.2. Rigorous integration and derivative bounds on subsequent intervals"
+    },
+    {
+      "level": 3,
+      "text": "7.3. Arithmetic bounds and explicit floating-point assumptions"
+    },
+    {
+      "level": 3,
+      "text": "7.4. Exponent integration and effective weights for the same trajectory"
+    },
+    {
+      "level": 2,
+      "text": "8. Finite-Candidate Roughness Selection and Stability of the Specified Third-Order Implementation"
+    },
+    {
+      "level": 3,
+      "text": "8.1. Quote definitions and the finite candidate set"
+    },
+    {
+      "level": 3,
+      "text": "8.2. From model-price intervals to finite-set optimality"
+    },
+    {
+      "level": 3,
+      "text": "8.3. Reference computation and error decomposition"
+    },
+    {
+      "level": 3,
+      "text": "8.4. Objective comparison and quote consistency"
+    },
+    {
+      "level": 3,
+      "text": "8.5. All twelve prices and the total error of the numerical implementation"
+    },
+    {
+      "level": 4,
+      "text": "α=0.52, H=0.02"
+    },
+    {
+      "level": 4,
+      "text": "α=0.60, H=0.10"
+    },
+    {
+      "level": 4,
+      "text": "α=0.90, H=0.40"
+    },
+    {
+      "level": 3,
+      "text": "8.6. Conditions for the numerical results"
+    },
+    {
+      "level": 2,
+      "text": "9. Shared Fourier Errors at the Actual Pricing Output"
+    },
+    {
+      "level": 3,
+      "text": "9.1. The error object and its centre"
+    },
+    {
+      "level": 3,
+      "text": "9.2. Complete inclusion, support, and strictness"
+    },
+    {
+      "level": 3,
+      "text": "9.3. A call-spread estimate and finite arithmetic"
+    },
+    {
+      "level": 3,
+      "text": "9.4. Safe objective bounds for a joint set"
+    },
+    {
+      "level": 2,
+      "text": "10. Classical Heston: Shared States and Trial-Field Residuals"
+    },
+    {
+      "level": 3,
+      "text": "10.1. Fixed mathematical setting"
+    },
+    {
+      "level": 3,
+      "text": "10.2. Shared state constraints for the original chain"
+    },
+    {
+      "level": 4,
+      "text": "10.2.1. Structural conditions and the core argument"
+    },
+    {
+      "level": 4,
+      "text": "10.2.2. From joint residuals to joint prices"
+    },
+    {
+      "level": 4,
+      "text": "10.2.3. Criterion for strict tightening"
+    },
+    {
+      "level": 4,
+      "text": "10.2.4. Certified example for the original instruments"
+    },
+    {
+      "level": 3,
+      "text": "10.3. A common framework for exact future-value functions and finite trial fields"
+    },
+    {
+      "level": 4,
+      "text": "10.3.1. Function classes and sufficient conditions"
+    },
+    {
+      "level": 4,
+      "text": "10.3.2. Structural condition MX000523Z"
+    },
+    {
+      "level": 4,
+      "text": "10.3.3. Core lemma and proof: MX000543Z"
+    },
+    {
+      "level": 4,
+      "text": "10.3.4. Propagation proposition: MX000554Z"
+    },
+    {
+      "level": 4,
+      "text": "10.3.5. A fully explicit analytic witness"
+    },
+    {
+      "level": 3,
+      "text": "10.4. Financial propagation: portfolio values and joint quote-acceptance sets"
+    },
+    {
+      "level": 4,
+      "text": "10.4.1. Portfolio-value bounds"
+    },
+    {
+      "level": 4,
+      "text": "10.4.2. Calibration acceptance and target valuation"
+    },
+    {
+      "level": 2,
+      "text": "11. Financial Decisions with the Complete Error"
+    },
+    {
+      "level": 3,
+      "text": "11.3. Unseparated Candidates under Synthetic Quotes"
+    },
+    {
+      "level": 2,
+      "text": "12. Evidence, Verification Semantics, and Cost"
+    },
+    {
+      "level": 2,
+      "text": "13. Applicability and Conclusion"
+    },
+    {
+      "level": 2,
+      "text": "Appendix A. Verification of the Probability-Model and Strip-Transform Assumptions"
+    },
+    {
+      "level": 2,
+      "text": "Appendix B. The Exact Finite Certificate for Theorem 3.1"
+    },
+    {
+      "level": 2,
+      "text": "Appendix C. Original-Chain Probability Inclusion"
+    },
+    {
+      "level": 3,
+      "text": "C.1. Exact continuation and integrability"
+    },
+    {
+      "level": 3,
+      "text": "C.2. Original-chain squared moments and common probabilities"
+    },
+    {
+      "level": 3,
+      "text": "C.3. The 22 valid terminal probability constraints"
+    },
+    {
+      "level": 3,
+      "text": "C.4. Terminal one-step profiles over zero, finite bands, and the tail"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "tables": [
+    {
+      "rows": 7,
+      "columns": 3,
+      "cells": [
+        [
+          "Object",
+          "Retained or added result",
+          "Evidence and financial role"
+        ],
+        [
+          "Existing third-order construction",
+          "Full-frequency structure on a stated continuous domain",
+          "Raw polynomials, complete leaf cover, and recomputable signs; well-definedness"
+        ],
+        [
+          "Independent reference function",
+          "Complex residual-to-state, exponent, and complete price bounds",
+          "Fixed coefficients, continuous envelopes, quadrature and true tails"
+        ],
+        [
+          "Multi-strike output at one parameter",
+          "Shared Fourier disks, centre translation, complete directional bounds",
+          "Original node radii and exact spread comparison"
+        ],
+        [
+          "Classical positive-part chain",
+          "Common-state inclusion and strictness",
+          "Original-Q moments, 102 bands, 22 rows, exact witnesses"
+        ],
+        [
+          "Nonexact trial functions",
+          "Four-contribution signed identity and explicit admissible example",
+          "Actual traces, terminal value, integrable weights and full-year envelopes"
+        ],
+        [
+          "Fixed parameter profile",
+          "Strict three-candidate ranking and quote exclusion",
+          "Thirty-six price rows, objective intervals, and actual frozen output"
+        ]
+      ]
+    },
+    {
+      "rows": 4,
+      "columns": 5,
+      "cells": [
+        [
+          "α",
+          "H",
+          "Rigorous model J interval",
+          "Rigorous model-price RMS interval",
+          "Rigorous implemented Padé J interval"
+        ],
+        [
+          "0.52",
+          "0.02",
+          "[0.0000000068962, 0.0000001833669]",
+          "[0.00011744, 0.00060559]",
+          "[0.0000000708602, 0.0000000708603]"
+        ],
+        [
+          "0.60",
+          "0.10",
+          "[0.0000004535720, 0.0000006021720]",
+          "[0.00095244, 0.00109743]",
+          "[0.0000006127366, 0.0000006127367]"
+        ],
+        [
+          "0.90",
+          "0.40",
+          "[0.0000082343900, 0.0000083484458]",
+          "[0.00405817, 0.00408619]",
+          "[0.0000081393603, 0.0000081393604]"
+        ]
+      ]
+    },
+    {
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        [
+          "α",
+          "Rigorous model J_band interval",
+          "Rows strictly excluding quote consistency",
+          "All-row quote consistency certified"
+        ],
+        [
+          "0.52",
+          "[0.0000000005732, 0.0000000877280]",
+          "[8, 9]",
+          "No"
+        ],
+        [
+          "0.60",
+          "[0.0000003444775, 0.0000004648236]",
+          "[5, 6, 7, 8, 9, 10, 11]",
+          "No"
+        ],
+        [
+          "0.90",
+          "[0.0000076345237, 0.0000077422463]",
+          "[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+          "No"
+        ]
+      ]
+    },
+    {
+      "rows": 13,
+      "columns": 5,
+      "cells": [
+        [
+          "K",
+          "Rigorous quote-midpoint interval",
+          "Rigorous normalised model-price interval",
+          "Implemented Padé dyadic output (displayed value)",
+          "Total model-price error bound for this output"
+        ],
+        [
+          "3700",
+          "[0.13916863, 0.13916864]",
+          "[0.13882872, 0.13937153]",
+          "0.13910887",
+          "0.00028016"
+        ],
+        [
+          "3800",
+          "[0.11921230, 0.11921231]",
+          "[0.11858902, 0.11913912]",
+          "0.11888921",
+          "0.00030019"
+        ],
+        [
+          "3900",
+          "[0.09981335, 0.09981336]",
+          "[0.09909480, 0.09965209]",
+          "0.09943278",
+          "0.00033799"
+        ],
+        [
+          "4000",
+          "[0.08123198, 0.08123199]",
+          "[0.08055552, 0.08111992]",
+          "0.08092667",
+          "0.00037115"
+        ],
+        [
+          "4100",
+          "[0.06371452, 0.06371453]",
+          "[0.06322696, 0.06379836]",
+          "0.06361496",
+          "0.00038801"
+        ],
+        [
+          "4200",
+          "[0.04759685, 0.04759686]",
+          "[0.04740368, 0.04798201]",
+          "0.04781654",
+          "0.00041287"
+        ],
+        [
+          "4300",
+          "[0.03333802, 0.03333803]",
+          "[0.03349166, 0.03407684]",
+          "0.03393723",
+          "0.00044558"
+        ],
+        [
+          "4400",
+          "[0.02173166, 0.02173167]",
+          "[0.02200137, 0.02259332]",
+          "0.02244498",
+          "0.00044361"
+        ],
+        [
+          "4500",
+          "[0.01316937, 0.01316938]",
+          "[0.01332823, 0.01392686]",
+          "0.01373568",
+          "0.00040746"
+        ],
+        [
+          "4600",
+          "[0.00760335, 0.00760336]",
+          "[0.00746696, 0.00807221]",
+          "0.00785225",
+          "0.00038529"
+        ],
+        [
+          "4700",
+          "[0.00434644, 0.00434645]",
+          "[0.00393703, 0.00454881]",
+          "0.00430503",
+          "0.00036801"
+        ],
+        [
+          "4800",
+          "[0.00253419, 0.00253420]",
+          "[0.00199815, 0.00261641]",
+          "0.00232396",
+          "0.00032582"
+        ]
+      ]
+    },
+    {
+      "rows": 13,
+      "columns": 5,
+      "cells": [
+        [
+          "K",
+          "Rigorous quote-midpoint interval",
+          "Rigorous normalised model-price interval",
+          "Implemented Padé dyadic output (displayed value)",
+          "Total model-price error bound for this output"
+        ],
+        [
+          "3700",
+          "[0.13916863, 0.13916864]",
+          "[0.13908096, 0.13925890]",
+          "0.13914793",
+          "0.00011096"
+        ],
+        [
+          "3800",
+          "[0.11921230, 0.11921231]",
+          "[0.11900101, 0.11918134]",
+          "0.11908020",
+          "0.00010114"
+        ],
+        [
+          "3900",
+          "[0.09981335, 0.09981336]",
+          "[0.09970355, 0.09988623]",
+          "0.09981101",
+          "0.00010746"
+        ],
+        [
+          "4000",
+          "[0.08123198, 0.08123199]",
+          "[0.08138513, 0.08157015]",
+          "0.08152385",
+          "0.00013873"
+        ],
+        [
+          "4100",
+          "[0.06371452, 0.06371453]",
+          "[0.06429081, 0.06447812]",
+          "0.06445106",
+          "0.00016025"
+        ],
+        [
+          "4200",
+          "[0.04759685, 0.04759686]",
+          "[0.04869874, 0.04888832]",
+          "0.04888577",
+          "0.00018704"
+        ],
+        [
+          "4300",
+          "[0.03333802, 0.03333803]",
+          "[0.03496352, 0.03515534]",
+          "0.03518748",
+          "0.00022397"
+        ],
+        [
+          "4400",
+          "[0.02173166, 0.02173167]",
+          "[0.02351737, 0.02371142]",
+          "0.02375739",
+          "0.00024002"
+        ],
+        [
+          "4500",
+          "[0.01316937, 0.01316938]",
+          "[0.01471126, 0.01490749]",
+          "0.01493438",
+          "0.00022313"
+        ],
+        [
+          "4600",
+          "[0.00760335, 0.00760336]",
+          "[0.00857862, 0.00877702]",
+          "0.00878309",
+          "0.00020447"
+        ],
+        [
+          "4700",
+          "[0.00434644, 0.00434645]",
+          "[0.00474038, 0.00494092]",
+          "0.00492883",
+          "0.00018845"
+        ],
+        [
+          "4800",
+          "[0.00253419, 0.00253420]",
+          "[0.00255071, 0.00275338]",
+          "0.00270300",
+          "0.00015230"
+        ]
+      ]
+    },
+    {
+      "rows": 13,
+      "columns": 5,
+      "cells": [
+        [
+          "K",
+          "Rigorous quote-midpoint interval",
+          "Rigorous normalised model-price interval",
+          "Implemented Padé dyadic output (displayed value)",
+          "Total model-price error bound for this output"
+        ],
+        [
+          "3700",
+          "[0.13916863, 0.13916864]",
+          "[0.13880016, 0.13883098]",
+          "0.13876501",
+          "0.00006596"
+        ],
+        [
+          "3800",
+          "[0.11921230, 0.11921231]",
+          "[0.11929811, 0.11932934]",
+          "0.11923074",
+          "0.00009859"
+        ],
+        [
+          "3900",
+          "[0.09981335, 0.09981336]",
+          "[0.10073709, 0.10076873]",
+          "0.10063802",
+          "0.00013071"
+        ],
+        [
+          "4000",
+          "[0.08123198, 0.08123199]",
+          "[0.08327826, 0.08331031]",
+          "0.08315433",
+          "0.00015597"
+        ],
+        [
+          "4100",
+          "[0.06371452, 0.06371453]",
+          "[0.06710772, 0.06714016]",
+          "0.06696694",
+          "0.00017321"
+        ],
+        [
+          "4200",
+          "[0.04759685, 0.04759686]",
+          "[0.05242401, 0.05245684]",
+          "0.05228161",
+          "0.00017523"
+        ],
+        [
+          "4300",
+          "[0.03333802, 0.03333803]",
+          "[0.03943228, 0.03946550]",
+          "0.03931664",
+          "0.00014886"
+        ],
+        [
+          "4400",
+          "[0.02173166, 0.02173167]",
+          "[0.02834450, 0.02837811]",
+          "0.02828552",
+          "0.00009258"
+        ],
+        [
+          "4500",
+          "[0.01316937, 0.01316938]",
+          "[0.01934300, 0.01937699]",
+          "0.01935637",
+          "0.00002061"
+        ],
+        [
+          "4600",
+          "[0.00760335, 0.00760336]",
+          "[0.01249183, 0.01252619]",
+          "0.01257890",
+          "0.00008707"
+        ],
+        [
+          "4700",
+          "[0.00434644, 0.00434645]",
+          "[0.00765389, 0.00768862]",
+          "0.00780424",
+          "0.00015035"
+        ],
+        [
+          "4800",
+          "[0.00253419, 0.00253420]",
+          "[0.00449079, 0.00452590]",
+          "0.00467714",
+          "0.00018635"
+        ]
+      ]
+    },
+    {
+      "rows": 8,
+      "columns": 2,
+      "cells": [
+        [
+          "Symbol",
+          "Meaning in this analysis"
+        ],
+        [
+          "MX000507Z",
+          "MX000508Z is the exact continuous future-value function satisfying the integrability and regularity conditions below; its terminal and observation-time conditions agree exactly with MX000509Z."
+        ],
+        [
+          "MX000510Z",
+          "The same field satisfies global state-growth bounds, uniform integrability under squared weights, piecewise Itô regularity, genuine observation-time traces, temporal MX000511Z residual domination, terminal-discrepancy domination, and integrable defects under the original MX000512Z."
+        ],
+        [
+          "MX000513Z",
+          "Apply the finite tower property under the original MX000514Z; under the original MX000515Z, apply piecewise Itô calculus, Lyapunov-based removal of stopping, and MX000516Z traces; subtract the identities."
+        ],
+        [
+          "MX000517Z",
+          "A four-term signed residual identity for the same field."
+        ],
+        [
+          "MX000518Z",
+          "Certified residual bounds yield an effective interval or monetary bound for the original continuous–discrete price bias."
+        ],
+        [
+          "MX000519Z",
+          "A finite deterministic time/state representation satisfying the stated verifiable growth, residual, and interface conditions."
+        ],
+        [
+          "MX000520Z",
+          "The fully explicit analytic field (H17), whose formulas verify global growth, traces, integrability, exact terminal value, and a nonzero generator residual."
+        ]
+      ]
+    },
+    {
+      "rows": 4,
+      "columns": 6,
+      "cells": [
+        [
+          "α",
+          "Symmetric marginal points",
+          "Signed marginal points",
+          "Joint points",
+          "Joint normalized bound",
+          "Signed-bound reduction"
+        ],
+        [
+          "0.52",
+          "3.593075",
+          "2.679931",
+          "1.397613",
+          "0.000331041790898",
+          "47.8489%"
+        ],
+        [
+          "0.60",
+          "1.955315",
+          "0.899772",
+          "0.504126",
+          "0.000119408273369",
+          "43.9719%"
+        ],
+        [
+          "0.90",
+          "0.477839",
+          "0.447312",
+          "0.396808",
+          "0.000093988900141",
+          "11.2903%"
+        ]
+      ]
+    },
+    {
+      "rows": 5,
+      "columns": 2,
+      "cells": [
+        [
+          "Quantity on the full compactified domain",
+          "Strict lower bound"
+        ],
+        [
+          "MX000668Z",
+          "MX000669Z"
+        ],
+        [
+          "MX000670Z",
+          "MX000671Z"
+        ],
+        [
+          "MX000672Z",
+          "MX000673Z"
+        ],
+        [
+          "MX000674Z",
+          "MX000675Z"
+        ]
+      ]
+    }
+  ],
+  "paragraphs": [
+    "We study how verifiable numerical residuals produce price-error outer sets that retain shared error structure and support spread valuation, quotation exclusion, and finite-candidate selection. For rough Heston, the fixed Gatheral--Radoicic six-condition, two-point third-order construction is nonsingular at all real frequencies, has a positive-real-part denominator at positive times, and preserves the left half-plane on MX000000Z, MX000001Z, with zero Riccati mean reversion. Complex Caputo convexity and one-sided dissipation transfer independent continuous residuals to states; a positive exponent kernel, strip quadrature, and true-tail bounds give complete price intervals. At one parameter and maturity, the same Fourier transform errors enter all strikes. Their complex disks yield a joint price set, explicitly translated to the actual fast output. For the specified classical Heston positive-part Euler chain, common original-chain variance probabilities constrain multiple residual modes. Support functions characterize directional bounds and strict tightening. Nonexact trial functions retain a signed identity with discrete defects, continuous residuals, interfaces, and terminal errors. The upstream probability objects are verified separately and meet at the price-error level. A fixed six-month, twelve-strike SPX experiment certifies the unique finite winner MX000002Z among MX000003Z. Shared-node spread bounds are compared with signed marginal bounds using the complete budget. Each conclusion retains its model, parameter, trajectory, and output assumptions.",
+    "**Keywords:** Heston; rough volatility; continuous residual; common states; joint pricing error; outward arithmetic; finite candidates.",
+    "Portfolio valuation and calibration concern simultaneous relationships among prices. Valid individual error intervals need not allow their extreme errors to occur in the same direction. Our central question is whether independently verifiable residuals can produce a set containing the actual error vector, retain constraints arising from shared objects, and yield the directional bounds required by a financial decision.",
+    "Rough Heston supplies a continuous-residual route: algebraic structure of a fixed approximation, dissipativity of a complex fractional equation, and complete Fourier error analysis establish price inclusion. Classical Heston supplies a discrete-defect route: modes under one original chain share state probabilities, constraining simultaneous residuals. These routes enter one price-error framework while preserving their respective probability laws, signs, and remainders.",
+    "Write MX000004Z for model prices, MX000005Z for the actual frozen output, and MX000006Z for a reference value. Implementation validation concerns MX000007Z. Rough Heston uses the shared transform errors in MX000008Z and the shift MX000009Z. The classical telescoping identity is written as MX000010Z, so model-minus-algorithm error requires sign reversal. Original-chain probabilities and continuous-process occupation probabilities are treated separately.",
+    "Gatheral--Radoicic [GR2019, GR2023v1] introduced the two-end rational approximation and its mean-reversion extension. Jeng--Kilicman [JK2020, JK2021] studied global Pade and public SPX data. We analyse the existing third-order construction; continuous-domain sign verification of its raw determinant and Cramer numerators provides the structural result. The formula and endpoint matching are established methods.",
+    "Abi Jaber--El Euch [AbiJaberElEuch2018v1] supply the Volterra probability model and affine transform. Caputo history convexity [LiLiu2018], Mittag--Leffler positivity [Simon2014], and strip trapezoidal error theory [TrefethenWeideman2014] supply the analytical tools. Their use here requires the specified complex real-part dissipation, an independent continuous residual for a fixed reference function, and a complete budget for the stated output.",
+    "Classical Heston, Euler weak error, and exponential integrability have established treatments [Heston1993, CozmaReisinger2016, MickelNeuenkirch2022v2]. Moment information and convex optimization also have financial-bound precedents [BertsimasPopescu2002, BoydVandenberghe2004]. We construct a residual-vector outer inclusion using common original-chain probabilities and characterize complete-row maximizer and phase conditions. Support-function and convexity algebra remain attributed tools.",
+    "The author's preceding Asian valuation manuscript [OuyangAsian2024] certifies implementation error for a specified arithmetic Asian problem. It provides contract and transform background; its Gaussian-smoothing objects and transform catalog are not identified with the thirteen-dimensional trial-field basis.",
+    "Bayer and Breneis bound the characteristic-function and European-payoff weak errors of Markovian kernel approximations through the kernel L1 error [BBWeak2023v1]. Their subsequent low-dimensional simulation construction reports second-order weak convergence numerically [BBSimulation2023v1]. Our object is a fixed six-condition rational implementation: raw matching signs establish its structure on the stated domain, an independently enclosed continuous-time residual certifies a reference trajectory, and shared Fourier perturbations propagate the certificate to several strikes and the frozen output. The approximation objects differ, so performance comparisons require a common model contract.",
+    "Caputo convexity and pointwise residual comparison have established foundations [LiLiu2018, Kopteva2021v2]. We apply them to the dissipative divided difference of the complex Riccati equation and verify the hypotheses for the specified reference field. Support-function operations are likewise standard [BoydVandenberghe2004]. The model-specific conclusions concern the shared error variables in the complete pricing implementation and their certified effect on a portfolio direction and finite-candidate objectives.",
+    "Sections 2--8 give the complete rough-model proofs and fixed candidate example. Section 9 constructs the joint multi-strike error at the actual output. Section 10 supplies the classical common-state implementation. Section 11 presents financial decisions and the complete spread comparison. Section 12 specifies evidence and costs, and Section 13 states applicability. Appendices retain the model, structure-certificate, and original-chain inclusion proofs.",
+    "Our conventions for the fractional integral and Caputo derivative are ",
+    " Under the regularity of the trajectories used below, MX000012Z with zero initial value, so MX000013Z. The Caputo operator and all time scalings retain their fractional definitions. Set MX000014Z. The physical Riccati state MX000015Z satisfies ",
+    " Define ",
+    "  Then MX000019Z and MX000020Z. Dividing the normalised state error by MX000021Z gives the physical MX000022Z error. Likewise, dividing the physical residual MX000023Z by MX000024Z gives the residual bound for the normalised equation.",
+    "For pricing and the numerical example, we fix MX000025Z and the entire forward variance curve ",
+    " The curve parameter MX000027Z and Riccati parameter MX000028Z are defined separately. Curve (2.4) remains fixed when the candidate MX000029Z changes. The probability model is ",
+    " Equation (2.5) is the forward variance representation with zero Riccati mean reversion. Appendix A verifies the probability model and affine transform associated with this curve using Theorems 2.1 and 2.3 and Example 2.2 of Abi Jaber and El Euch.",
+    "Let MX000031Z be the normalised positive martingale and write MX000032Z. The exact characteristic exponent is ",
+    " With MX000034Z, the model European call price is ",
+    " The model specification, decimal inputs, and normalisation jointly define the prices considered below.",
+    "Set MX000036Z, take the principal square root in MX000037Z, and let MX000038Z. The three short-time and long-time coefficients are respectively ",
+    "  For MX000041Z, MX000042Z is finite and negative. The fixed two-endpoint construction of Gatheral and Radoičić [GR2019] requires ",
+    "  These six conditions give the linear system ",
+    " Equations (2.8)–(2.11) are the established construction. We next prove invertibility, a nonvanishing denominator, the trajectory half-plane property, and exact-solution error bounds for an independent reference trajectory.",
+    "To avoid division by the matching determinant before proving its nonvanishing, define ",
+    "  The reflection formula and recurrence relations give MX000048Z and MX000049Z. In the latter two expressions, the factors MX000050Z occur in the denominators. Direct expansion of the determinant and Cramer numerators of (2.11) gives ",
+    " Here MX000052Z is exactly the determinant of the original system, and the numerators are MX000053Z. After establishing MX000054Z, we may define MX000055Z, in which case ",
+    " In physical time, the denominator coefficients are MX000057Z; the normalised coefficients MX000058Z retain their original definition.",
+    "**Theorem 3.1 (full-frequency structure).** For ",
+    " the established matching system (2.11) is nonsingular. Its normalised denominator satisfies ",
+    " Moreover, for MX000061Z, MX000062Z. The result holds at every positive time and every finite real frequency. Its domain is the stated parameter set; MX000063Z, a continuous MX000064Z domain, and nonzero MX000065Z are outside the scope of this theorem.",
+    "**Proof.** First take MX000066Z. Set ",
+    "  Since MX000069Z, these functions are defined on the closed interval MX000070Z. We have MX000071Z and ",
+    " The principal square root is continuous and lies in the first quadrant; MX000073Z. The real part of the Hermitian product of two first-quadrant numbers is nonnegative. Hence ",
+    " Equation (3.3) expresses MX000075Z in reciprocal form, with a denominator determined directly by the current parameters.",
+    "Substitute MX000076Z and (3.3) into (2.12)–(2.13) to obtain the barred original quantities. Homogeneity gives ",
+    " Define three real functions ",
+    " The rigorous rational covering in Appendix B proves that, throughout the closed rectangle MX000079Z, MX000080Z and ",
+    " This first establishes MX000082Z and then yields MX000083Z, proving (3.2).",
+    "For the trajectory half-plane, the finite convolution in (2.14) gives ",
+    "  The same rational covering certifies the six compactified quantities MX000086Z, with scaling MX000087Z. Set MX000088Z. The right-hand side of (3.7) is MX000089Z and is therefore strictly negative for every MX000090Z. Having proved that the denominator is nonzero, division by MX000091Z gives MX000092Z. Negative frequencies follow by conjugate symmetry of the principal root and matching coefficients. The closed endpoint MX000093Z represents the infinite-frequency limit, so the proof on the closed compactified domain covers every finite frequency. ∎",
+    "Positive real parts of the coefficients provide a sufficient condition for a nonvanishing denominator. Appendix B specifies the algebraic identities, elementary-function remainder bounds, and continuous interval covering used in the computer-assisted proof.",
+    "If MX000094Z is a bounded local continuous solution, then MX000095Z are MX000096Z-Hölder continuous. For MX000097Z, write MX000098Z. Cancellation gives the derivative formula ",
+    " The near-endpoint exponent satisfies MX000100Z; the other endpoint and the first term are integrable. Thus MX000101Z and it is locally MX000102Z at positive times. Local existence follows from Volterra contraction on a bounded ball. For MX000103Z that is locally Lipschitz at positive times, integration by parts gives ",
+    " At a positive maximum over the full history, with zero initial value, this derivative is strictly positive. Consequently, MX000105Z, MX000106Z, and MX000107Z imply MX000108Z. For a convex MX000109Z function MX000110Z on the real plane, apply the supporting-hyperplane inequality to both terms in (4.2) to obtain ",
+    " This is the established Caputo history-convexity inequality, rather than an ordinary chain rule. We work within the regularity assumptions of Proposition 3.11 of Li and Liu [LiLiu2018] and directly prove the version needed here.",
+    "**Lemma 4.1.** Suppose MX000112Z. The normalised equation has a unique global solution, and MX000113Z for MX000114Z. If MX000115Z, then ",
+    " When MX000117Z, the latter time-dependent bound remains valid.",
+    "**Proof.** Write MX000118Z. Completing the square gives ",
+    " If MX000120Z first reaches a small positive level MX000121Z, the derivative in (4.2) is positive, whereas (4.5) is negative, a contradiction. Thus MX000122Z. Reaching zero at a positive time gives the same contradiction, proving strict negativity.",
+    "Let MX000123Z. Equation (4.3), together with ",
+    " gives MX000125Z. Compare with the zero-initial-value linear scalar equation and let MX000126Z to obtain (4.4). The scalar solution is verified directly by the Mittag–Leffler series. If finite-time blow-up occurred, (4.4) would bound the trajectory, MX000127Z, and a uniform Hölder constant. The history integral would have a finite limit at that endpoint, and local contraction would extend the solution, a contradiction. Successive Volterra contractions give uniqueness. ∎",
+    "**Theorem 4.2 (dissipative residual bound).** Suppose MX000128Z, MX000129Z, and MX000130Z, with local Lipschitz regularity at positive times. Assume, for every MX000131Z, that ",
+    " Set MX000133Z. Then ",
+    " In particular, for a trajectory in the left half-plane, one may take MX000135Z. No smallness assumption on MX000136Z or MX000137Z is required.",
+    "**Proof.** The error MX000138Z satisfies ",
+    " Apply (4.3) to MX000140Z to obtain MX000141Z. Comparison with the linear scalar solution, followed by MX000142Z, proves the claim. Convex regularisation includes points of zero error and applies to the complex error viewed as a vector in the real plane. ∎",
+    "If MX000143Z corresponds to the physical-time trajectory MX000144Z and MX000145Z has been certified, the same result gives ",
+    " In the numerical example, MX000147Z. This dissipation rate controls the complex error modulus; Section 7 supplies the independent residual MX000148Z. The estimate applies the established convexity tool to the specific error propagation considered here.",
+    "**Proposition 4.3 (an error radius without an assumed approximate half-plane).** If MX000149Z, every admissible trajectory with the same initial value satisfies ",
+    " To prove this, rewrite the error terms as MX000151Z. The exact-solution half-plane gives MX000152Z, interpreted through the same convex regularisation of the modulus. Choose any MX000153Z. The right-hand side is strictly negative at MX000154Z; a first hitting time of MX000155Z contradicts (4.2). Letting MX000156Z proves the result. This is a sufficient small-residual condition; violating it does not establish an actual error or pole. The completed node trajectories in this example have a certified half-plane property and use (4.7), which does not impose the threshold in (4.8).",
+    "For (2.4), MX000157Z, MX000158Z, and MX000159Z. Positivity of the scalar resolvent follows from the negative-minimum principle in (4.2), or from the completely monotone representation of Simon [Simon2014]. Define ",
+    " Both initial exponents MX000161Z exceed MX000162Z, so MX000163Z. Explicitly, ",
+    "  where MX000166Z.",
+    "**Theorem 5.1.** For a zero-initial-value AC trajectory MX000167Z, use the derivative-based exponent ",
+    " Then ",
+    " In particular, if MX000170Z, then ",
+    "**Proof.** Since MX000172Z, absolute Fubini changes the exponent integral into MX000173Z. Integration by parts, using MX000174Z, yields the positive-kernel representation. Absolute Fubini is justified by MX000175Z and the continuous, finite curve. Then MX000176Z and MX000177Z give the estimate. ∎",
+    "If MX000178Z, then MX000179Z is exactly this derivative-based exponent, so the residual integral is not added again. The substitution-based exponent formed from MX000180Z differs by MX000181Z and requires a separate conversion. All numerical exponent quantities used here are derivative-based.",
+    "Using MX000182Z and the integral identity for the exponential, whenever (5.5) holds, ",
+    " The first estimate is based at the exact exponent; the second is based at the approximate exponent. Their minimum is a valid bound. The state error may increase with frequency, while decay of the approximate transform under the pricing weight can compensate for part of that increase.",
+    "If a model-transform envelope MX000184Z and an approximate-modulus bound MX000185Z are also available, then ",
+    " The first bound is the triangle inequality. The second follows from MX000187Z and the convexity bound MX000188Z. It can be combined with (5.6) by taking the minimum, or compared with the error bound MX000189Z obtained by explicitly setting the node approximation to zero. The calculation uses the smallest of the applicable bounds.",
+    "**Theorem 6.1.** Suppose MX000190Z. For any MX000191Z, let MX000192Z. Replacing the integral in (2.7) by the infinite trapezoidal sum incurs a price error of at most ",
+    "**Proof.** Jensen's inequality gives, within the strip, MX000194Z. On compact substrips, MX000195Z, so the transform is analytic. The boundaries MX000196Z satisfy ",
+    " Shift the real-axis Fourier integration contour to the upper and lower boundaries. The vertical integrals vanish by quadratic decay, giving MX000198Z. The absolutely and uniformly convergent periodisation MX000199Z has Fourier coefficients MX000200Z. Summing at zero and subtracting MX000201Z gives a two-sided error of at most MX000202Z. Conjugate symmetry halves both the two-sided integral and its sum. Multiplication by MX000203Z gives (6.1). ∎",
+    "This is a specific application of the analytic-strip trapezoidal theory of Trefethen and Weideman [TrefethenWeideman2014]. Each pricing node uses its own continuous-time residual bound; the analytic strip controls the quadrature error between nodes.",
+    "Fix MX000204Z. Set MX000205Z. Equation (4.5) gives ",
+    " Let MX000207Z be the scalar zero-initial-value solution satisfying equality. Comparison gives ",
+    " Because the right-hand side satisfies MX000209Z, linear comparison and the bound of Simon [Simon2014], MX000210Z, give ",
+    " The comparison argument uses a positive maximum over the full history.",
+    "Take MX000212Z and define ",
+    " For MX000214Z, we have MX000215Z. For any partition of MX000216Z, denoted MX000217Z, the positive kernel in (5.4) and the monotonicity of MX000218Z give ",
+    "  This envelope holds at every continuous high frequency. The time partition constructs a lower sum for the positive-measure integral. The example uses MX000221Z and rigorous intervals to obtain a positive rational lower bound for MX000222Z. No singular evaluation is performed at MX000223Z. The difference between bounds taken from the appropriate sides at distinct endpoints, MX000224Z, is a valid lower bound on the mass.",
+    "Using the right-endpoint sum of a positive decreasing function, for MX000225Z the exact discrete-tail contribution to the normalised price is bounded by ",
+    " The integral tail uses an envelope for the exact solution. Finite nodes assigned the value zero are charged according to the same envelope, so every part of the frequency range has an explicit error contribution.",
+    "Suppose the node values MX000227Z have exact-error bounds MX000228Z. The finite price sum ",
+    " satisfies ",
+    " The coefficient MX000231Z is the product of the trapezoidal half-weight at MX000232Z and the denominator factor MX000233Z. Rigorous intervals include rounding errors in the phase, square root, exponential, and finite summation. Here MX000234Z. The first MX000235Z nodes, MX000236Z, use independent residual bounds; the remaining node approximations are zero, with their errors bounded by the exact-transform envelope. For MX000237Z, we use (6.5). This hybrid rule combines node errors and the tail in one price estimate.",
+    "For each candidate MX000238Z and each MX000239Z, we store ",
+    " Here MX000241Z is the continuous piecewise-linear interpolation in physical time at nodes MX000242Z, with MX000243Z. Nodes and complex coefficients are interpreted as the exact dyadic rationals represented by their binary64 values. The following independent residual controls the continuous-time error of this reference trajectory: ",
+    " Equation (7.1) defines an entire absolutely continuous reference trajectory. Its independent residual gives the model-price intervals, which are then used to bound the output error of the selected [3/3] implementation.",
+    "Write ",
+    "  The initial interval is MX000247Z. Substitute all generalised powers into (7.2), first cancel MX000248Z exactly, combine equal powers, and then take MX000249Z. Since every MX000250Z, this bounds the full initial closed interval. The generalised-power expansion retains the fractional initial behaviour.",
+    "On a source interval MX000251Z, set MX000252Z. The integral weights for the linear hat functions are ",
+    "  These weights are nonnegative. For a truncated interval, recover the endpoints by affine interpolation within the original interval. On the final interval, MX000255Z can be evaluated directly using MX000256Z. For MX000257Z, retain eight positive-series terms, using respectively ",
+    " The unscaled tails are each bounded by MX000259Z because MX000260Z. This reduces interval inflation from subtracting nearly equal endpoint quantities while retaining rigorous history integration.",
+    "Subdivide each subsequent original interval twice into four closed subintervals MX000261Z, with recorded dyadic centres MX000262Z. Given a derivative bound on the full subinterval, ",
+    " The ordinary residual derivative may be discontinuous at original nodes. The derivative bounds below hold almost everywhere; absolute continuity of the residual and the fundamental theorem of calculus still imply (7.6). Each of the following three identities provides a derivative bound, and we take their minimum: ",
+    "   The constant-kernel weight of a past source interval decreases with the integration endpoint, whereas the weight of the current source interval increases while that endpoint lies within it. Endpoint bounds therefore enclose both types of weight. In the third identity, first combine MX000267Z on each source interval and then integrate against the positive kernel, retaining cancellation in the original relation.",
+    "The singular terms from the initial source interval are handled directly by fractional-power integrals. For MX000268Z, the positive weight satisfies ",
+    " When MX000270Z, discard the first upper bound. The second follows from the full Euler Beta integral and is finite. Kernel monotonicity at the endpoints gives the lower bound and the first upper bound. Every MX000271Z, so the hypotheses of the classical Beta formula hold.",
+    "Using the same MX000272Z enclosure and rigorous point values, certify an upper bound for MX000273Z on every subsequent subinterval. On the initial interval, factor out MX000274Z, leaving a finite bracket; use its negative constant term and the endpoint contributions of the remaining positive parts. Bound (4.7) is used only when the upper real-part bound is nonpositive on every closed interval. This condition therefore covers the entire closed time interval.",
+    "The structural certificate and special functions use outward-rounded intervals with integer endpoints divided by MX000275Z. Batched residual weights use IEEE binary64; each basic operation is enlarged outward to adjacent representable numbers. After converting an exact rational Gamma enclosure, endpoint inclusion is checked with Fraction. The logarithm uses exact binary scaling and a twenty-two-term atanh series with MX000276Z, whose tail is MX000277Z. After scaling, the exponential has MX000278Z and a degree-24 Taylor tail bounded by MX000279Z. These explicit remainders define the intervals for logarithms, exponentials, and noninteger powers.",
+    "For matrix multiplication with rigorous weight centres MX000280Z, radii MX000281Z, and recorded dyadic values MX000282Z, include ",
+    " and an additional underflow-error allowance. Induction on products of basic rounding factors gives this estimate and permits different summation association orders. Norm summations are also rounded outward. The calculation assumes round-to-nearest IEEE basic operations, correctly rounded square roots, gradual underflow, and the absence of overflow or NaNs. The supplementary material records source and computation versions. The interval-inclusion conclusions in this section are conditional on these arithmetic assumptions and the stated remainder bounds.",
+    "For the fixed curve, define ",
+    " These quantities are respectively MX000285Z; termwise integration verifies the second formula. If a linear-trajectory interval is MX000286Z with MX000287Z, its rigorous nonnegative exponent weights are ",
+    " The curve moment for the power component MX000289Z is ",
+    " This follows directly from the series and Beta integration. Together with (7.1), it makes MX000291Z a rigorous finite sum. Trigonometric phases and complex exponentials also use finite Taylor expansions with explicit tails. On the present horizon, if MX000292Z, a Mittag–Leffler series tail may be bounded by MX000293Z: all Gamma arguments exceed one, and Euler's integral gives MX000294Z. Rigorous integration encloses the approximate exponent, while (5.5) controls the difference between the model and approximate exponents.",
+    "We use twelve quotes at the mathematical maturity MX000295Z from the public SPX sample representing ordinary market conditions. Strikes range from 3700 to 4800 in steps of 100. The original CSV is identified by commit 860049da2b7486fe8aa509061eff23cc28c2ef89 in the WoonJeng data repository. The market bid and ask implied-volatility columns and the authors' model-output columns are identified separately. Market quotes define the objective; the error analysis in this paper supplies the model-price intervals.",
+    "The experiment uses normalised call prices with MX000296Z. Decimal IV and maturity values in the CSV are treated as exact rational inputs. Standard Black–Scholes conversion of the bid and ask IVs gives MX000297Z. The target is the price midpoint MX000298Z, rather than the Black–Scholes price obtained from the reported midpoint IV. These inputs jointly define the normalised quote setting below.",
+    "Fix MX000299Z and the entire forward variance function ",
+    " The curve exponent .5286 and curve parameter .5037 remain fixed. Changing MX000301Z neither recomputes the curve nor assigns .5037 to Riccati mean reversion. These values are the published rounded fitted parameters in [JK2021] and define a candidate comparison with the other inputs fixed.",
+    "The candidate set is ",
+    " This is a conditional objective profile with all other parameters and the complete curve held fixed. The threshold MX000303Z distinguishes the lower- and higher-H candidates in this comparison. All three satisfy MX000304Z, so the classification is within the roughness candidates rather than between rough and classical Heston models. All assertions in this section concern the complete three-element set (8.2).",
+    "The model prices MX000305Z arise from the admissible nonnegative Volterra variance model and its exact affine transform. The model and kernel assumptions of AbiJaberElEuch2018v1 are verified individually in this paper; admissibility is established at the probability-model level. Define ",
+    " Thus the normalised price RMS is MX000307Z, rather than MX000308Z. The same normalisation applies to the objective intervals, finite-candidate gap, and stability constants.",
+    "**Theorem 8.1 (finite-objective intervals and selection stability).** For each MX000309Z, suppose all model prices have certified enclosures ",
+    " Assume MX000311Z. Define ",
+    "  Then MX000314Z. Writing MX000315Z, the exact finite-set optimum satisfies ",
+    " For MX000317Z, every exact MX000318Z-near-optimal candidate belongs to ",
+    " The condition MX000320Z is sufficient for that candidate to be near-optimal for the exact objective. If ",
+    " then MX000322Z is the unique minimiser of the model objective on the finite set. If ",
+    " then every exact near-optimal candidate in the finite set satisfies MX000324Z.",
+    "Quote consistency is checked separately. If any row satisfies MX000325Z or MX000326Z, the candidate cannot lie in all quote bands simultaneously. Conversely, if every row satisfies MX000327Z and MX000328Z, then quote consistency is certified. Overlapping intervals without this inner-band condition retain possible consistency; overlap alone does not certify it.",
+    "**Proof.** The exact difference MX000329Z belongs to the closed interval used in (8.5). The minimum of its square is MX000330Z and the maximum is MX000331Z, so the weighted sum encloses every MX000332Z. Each MX000333Z; a candidate attaining the smallest MX000334Z gives MX000335Z, proving (8.6). If MX000336Z, then MX000337Z, proving (8.7). Conversely, MX000338Z gives the stated sufficient inner condition. Under (8.8), every competitor satisfies MX000339Z, proving uniqueness. Condition (8.9) places the model objective of every selected higher-H candidate above MX000340Z and therefore excludes it. No independence assumption on quote errors across candidates is needed.",
+    "If MX000341Z, then the exact price satisfies MX000342Z; if MX000343Z, then MX000344Z. A single such row rules out simultaneous consistency. In the opposite direction, the inner-band conditions give MX000345Z. Applying these statements row by row proves the consistency assertions. ∎",
+    "**Corollary (objective perturbation).** Suppose another numerical objective MX000346Z satisfies MX000347Z, and its selected candidate is MX000348Z-near-optimal. Then ",
+    " Indeed, MX000350Z. If the strict gap in (8.8) satisfies MX000351Z, the same unique finite-set minimiser must be selected. This selection stability follows from the finite-objective gap and applies to the fixed candidate set (8.2).",
+    "For each candidate, a separately implemented product-integration procedure generates and fixes a physical-time reference function MX000352Z, where MX000353Z. Its nodes and coefficients are interpreted as their recorded exact dyadic values. The certified trajectory is MX000354Z, rather than the floating-point PI nodes themselves. The initial time interval uses the full generalised-power residual expansion. The remaining closed intervals use rigorous convolution-derivative bounds and the mean value theorem, covering all MX000355Z. At each Fourier node, division of the physical residual by exact MX000356Z gives the input to the proved error barrier or certified half-plane linear error estimate.",
+    "The recorded exponent is derivative-based: MX000357Z. The positive kernel MX000358Z gives ",
+    " No residual integral is added a second time. Gamma and Mittag–Leffler curve moments, trajectory integrals, exponents, phases, and sums for the fixed curve use outward-rounded 100-bit rational intervals.",
+    "The positive-half-axis price rule has MX000360Z and analytic-strip width MX000361Z. At the available nodes MX000362Z, the recorded trajectories use their actual residual certificates. For nodes above 64 through 128, the approximate transform is explicitly zero and each error is bounded by the exact-transform envelope. Above 128, the proved infinite discrete-rule tail bound obtained from the proved continuous-integral envelope is included. A comparison bound for the real part of the exact Riccati solution and a 64-cell lower sum over the entire positive-kernel curve give the high-frequency envelope. The analytic-strip trapezoidal error is estimated separately. Passage from the full-axis integral to the positive half-axis, including the half-weight at zero, is handled explicitly. The resulting enclosures cover all twelve model prices below and are based on error bounds rather than grid-convergence differences or Richardson diagnostics.",
+    "All displayed endpoints are decimal outward roundings of rational bounds; the decisions use the untruncated exact rational endpoints. The unique minimiser of the model objective is α=0.52, H=0.02. A strict lower bound on the gap between its objective and those of its competitors is 0.0000002702052. The implemented Padé output has the same unique finite-set minimiser, as certified by strict interval separation.",
+    "For ε=0, the outer set of exact optimal candidates is MX000363Z. The specified higher-H candidates with α≥.6 are strictly separated from this optimum.",
+    "Least-squares ordering and quote consistency are determined separately from objective intervals and rowwise price intervals. The following tables report the prices supporting these two model-validation results.",
+    "The implemented Padé procedure is the selected six-condition GR [3/3] approximation. It uses a 256-point Jacobi rule for the derivative-based exponent and an eighth-order composite Gauss–Legendre rule for Fourier inversion with a fixed truncation limit of 200. The recorded files identify the Python/NumPy implementation and exact source versions. Each finite numerical output MX000364Z is saved as an exact dyadic rational. The model-price reference interval gives ",
+    " This bound includes the implementation's state, exponent, quadrature, truncation, and floating-point errors. The saved outputs can therefore be compared directly without a separate certification of an infinite-integral analytic Padé price. The numerical objective uses the same quote-price midpoint intervals. We assert selection preservation only when both the numerical and model objectives are strictly separated on the finite set and have the same minimiser. The assertion concerns the specified implementation, candidates, and input setting.",
+    "This section provides three sets of continuous-time model-price intervals, finite-objective ordering, rowwise quote relations, and output-error and selection-stability bounds for the selected Padé implementation. The GR matching construction, affine model, Caputo comparison, Mittag–Leffler bounds, strip trapezoidal rule, and general objective-gap argument are established methods. The proofs and computations here connect them to the same finite-candidate problem.",
+    "The results apply to the three stated candidates, the fixed curve and remaining parameters, a six-month horizon, and twelve normalised quotes defined by implied volatilities. This setting also fixes the objective, numerical outputs, and definition of every error term.",
+    "Exact endpoints for all prices and objectives are available in the supplementary numerical material.",
+    "Fix one model parameter, maturity, contour, and reference grid. Let MX000366Z be the continuous-model price vector, MX000367Z the exact finite reference sum, and MX000368Z the frozen rational output. For each included frequency let MX000369Z be the reference transform and put MX000370Z. Section 7 supplies bounds MX000371Z; at a deliberately omitted finite node MX000372Z, the true-transform envelope supplies the radius. The same MX000373Z enters every strike at this parameter and maturity.",
+    "For the Lewis rule in Section 6, set MX000374Z, MX000375Z, and ",
+    " The half weight at zero is already included in MX000377Z. The complete error is ",
+    " where MX000379Z includes the true infinite-grid tail and analytic-strip discretisation error. A finite reference sum enclosed by interval arithmetic contributes its centre uncertainty when a numerical representative of MX000380Z is used. Omitted finite nodes remain in (J2); they are not also charged as an infinite tail. No stochastic covariance is used in this representation.",
+    "**Theorem 9.1 (complete shared-node inclusion).** Suppose (J2) holds, all radii are nonnegative, and MX000381Z is a nonempty compact convex outer set. Define ",
+    " Then MX000383Z, and, for real MX000384Z, ",
+    " If the centre shift is supplied as a box MX000386Z, replace the first term by the support of that box. All numerical evaluations of (J4) must be outward enclosures.",
+    "**Proof.** Substituting the actual transform errors in (J2) gives inclusion. The product of complex disks is compact and convex and its real-linear image has those properties. A disk MX000387Z has real-linear support MX000388Z for the functional MX000389Z: Cauchy--Schwarz gives the upper bound, attained at MX000390Z when MX000391Z; when MX000392Z, every feasible point attains it. Independent disks and Minkowski addition give (J4). Translation gives the signed centre term. A box enclosing MX000393Z provides a further valid Minkowski outer enclosure even if its coordinates are dependent. MX000394Z",
+    "If MX000395Z, the smallest coordinate box of this same set has support ",
+    " Consequently its excess over (J4), before translation, is ",
+    " It is strictly positive exactly when one positive-radius node has nonzero coefficients MX000398Z that do not all lie on a common nonnegative complex ray. This follows from the equality case of the complex triangle inequality, node by node. Translation does not change widths. This criterion compares the constructed set with its own coordinate box, and does not assert strict improvement over every independently available signed price enclosure.",
+    "For any separately established signed model-price box MX000399Z, intersect it with MX000400Z. The actual model vector belongs to the intersection. Without solving the intersection support problem, the minimum of the two valid directional upper bounds remains valid; likewise take the maximum of the lower bounds. Thus a computation can retain the best signed marginal information while using node cancellation where it improves the complete bound. Nonemptiness of the mathematical intersection follows from inclusion, rather than from empirical agreement between numerical approximations.",
+    "For MX000401Z, the node coefficient is ",
+    " It is the modulus of one combined coefficient, rather than the sum of two moduli. A useful analytic bound, valid with MX000403Z, is ",
+    " To prove it, separate the difference in amplitudes from the phase difference using the smaller amplitude, then apply MX000405Z. At zero, the spread coefficient is MX000406Z. Low-frequency error therefore cancels for nearby strikes even when the individual node radii are large. High-frequency and tail contributions are still retained.",
+    "The implementation below uses rational outward bounds for logarithms, trigonometric functions, square roots, and the circle constant. It encloses the exact coefficient difference before multiplying by the saved radius. Reference-sum and frozen-output intervals supply the signed centre. Taking interval midpoints for display never substitutes for the outward endpoint arithmetic used in a decision.",
+    "If the target quote MX000407Z is enclosed around a stored centre MX000408Z with MX000409Z, use MX000410Z and replace the output-error set by MX000411Z. This includes quote-conversion arithmetic with the correct sign. The following formulas otherwise take MX000412Z to be exact.",
+    "Let MX000413Z, where MX000414Z, MX000415Z, and the complete output error belongs to a compact convex set MX000416Z. For any trial vector MX000417Z, put MX000418Z. Convexity gives the certified lower bound ",
+    " This follows by taking the infimum of the supporting affine function MX000420Z. Feasibility of MX000421Z is unnecessary for validity; it affects sharpness. A numerical primal minimizer becomes a lower-bound certificate only after its support or dual obligation has also been bounded correctly.",
+    "If MX000422Z, expansion yields ",
+    " A safe choice is any valid coordinate box MX000424Z: with MX000425Z represented exactly, MX000426Z is sufficient. Tighter validated norm bounds may replace it. Maximization of this convex quadratic is not certified by a local stationary point. A supporting function, norm bound, interval subdivision, or valid relaxation must establish the upper direction.",
+    "For a finite candidate collection, form valid objective intervals by intersecting (J9)--(J10), when used, with the original interval-square bounds in Theorem 8.1. A unique candidate is certified only if its upper endpoint is smaller than every competing lower endpoint. If this condition is absent, return the nonempty set of candidates whose lower endpoint is at most the least upper endpoint. It contains every exact minimizer. Different candidates have different transform errors; (J4) does not identify their error variables.",
+    "The support formula, the equality case of the triangle inequality, and the convexity bounds are established tools. Their role here is to join the model-specific continuous residual certificate to the actual multi-strike pricing output, preserving every required budget and its centre. The numerical comparison in Section 11 is the evidence for the resulting financial improvement.",
+    "This section keeps the classical sign MX000427Z. Model-minus-discrete error is its negative. Common probabilities belong only to the stated original MX000428Z chain; continuous residuals are integrated under MX000429Z. Appendix C gives the original-chain moment and constraint proof.",
+    "Set MX000430Z. The continuous process satisfies",
+    "where MX000432Z, MX000433Z, and MX000434Z. With time step MX000435Z, the actual discrete one-step update is",
+    "Here MX000438Z are independent standard normal random variables. The stock increment and positive-part variance update share MX000439Z. Denote the law of the continuous process by MX000440Z and the law of this original discrete chain by MX000441Z.",
+    "The theoretical parameter domain is",
+    "The fixed example uses",
+    "The nine standard options are European puts with maturities MX000444Z and strikes MX000445Z. The tenth instrument is an arithmetic-average Asian call spread maturing after one year with twelve monthly observations:",
+    "The eighth instrument is the one-year at-the-money put. The direction MX000447Z compares the pricing biases of these two instruments.",
+    "Consider finitely many multidate modes MX000448Z with loadings MX000449Z satisfying",
+    "The continuous future kernel is the exact affine kernel with verified integrability. Completing the real Gaussian square, integrating the full positive-part kernel, and applying a finite telescoping decomposition give the mode bias",
+    "Partition the variance axis into finitely many measurable intervals MX000452Z, including zero and the unbounded tail. Define probabilities under the same original MX000453Z chain by",
+    "Suppose stored nonnegative quantities MX000455Z bound the corresponding weighted squared kernel residuals, and",
+    "Complex Cauchy–Schwarz then gives",
+    "The essential point in (H1) is that all MX000458Z use **the same** MX000459Z, and all time levels share one nonempty compact convex set MX000460Z containing the actual occupation vector. The probability constraints must be valid for the original MX000461Z; a mode-tilted distribution cannot be substituted for that law.",
+    "The scheme-specific proof includes the complete Gaussian positive-part integral, exact continuous future kernel, exponential moments with doubled nonpositive loadings, the atom at zero, and the unbounded tail. Together they make (H1) an effective inclusion for this model. The full proof is given in [Appendix C and the supplementary classical derivation](../evidence/classical-evidence.md).",
+    "For exact finite pricing coefficients MX000462Z, assume the price bias admits the representation, including the full remainder,",
+    "Define the joint outer set",
+    "This set is nonempty, compact, convex, and centrally symmetric, and MX000465Z. For MX000466Z, its support function is",
+    "**Proof of the price propagation formula.** For fixed MX000468Z, each MX000469Z lies in a complex disk. Its real-linear support in direction MX000470Z is exactly the modulus of the coefficient times the radius. Conditional on MX000471Z, phases can be selected independently across disks, so their supports add. Maximizing over **the same** MX000472Z gives (H4). Compactness ensures attainment. The actual residuals and probabilities provide a feasible representation in (H3), establishing inclusion of the price vector. ∎",
+    "With cross-time constraints, the exact expression is MX000473Z. It separates into a sum of timewise maxima only when MX000474Z.",
+    "Let",
+    "This is **the smallest coordinate box of the same joint outer set**. The exact support gap is",
+    "Every term is nonnegative. Hence MX000478Z if and only if there is a common MX000479Z satisfying both conditions:",
+    "1. For every MX000480Z, it maximizes the **complete pricing row** MX000481Z. 2. For each positive-radius MX000482Z, the nonzero complex numbers MX000483Z lie on a common nonnegative ray.",
+    "If there is no such common witness, MX000484Z. This is necessary and sufficient for strict directional tightening of the constructed set relative to its smallest box. No phase condition is needed at zero radius; the gap in the zero direction is zero.",
+    "**Proof.** The common remainder box cancels exactly in the support difference. Adding and subtracting MX000485Z gives (H5). Compactness ensures that the minimum is attained. A nonnegative sum vanishes only when every active-row deficit vanishes and every complex triangle inequality at positive radius is an equality. These are precisely the two stated conditions. Conversely, substituting a common witness gives a zero gap. ∎",
+    "The characterization concerns **strict tightening of an outer set**. It neither assumes that the model price bias attains the outer boundary nor interprets the set gap as a lower bound on the actual pricing bias.",
+    "The specified terminal-level example fixes MX000486Z, MX000487Z, the original mode catalogue, and the prespecified MX000488Z. The partition is",
+    "The set contains the actual probabilities under the original MX000490Z and is constrained by the full mean, exponential moments, and two groups of Laplace information. It is represented by 102 nonnegative variables and 22 exact rational constraints. All nine actual one-step residual envelopes cover zero, finite intervals, and the tail.",
+    "After conjugate reduction, the complete terminal Asian pricing row is",
+    "The complete eight-frequency row for the one-year at-the-money put is",
+    "An exact primal–dual certificate establishes that MX000493Z has a unique maximizer MX000494Z supported only on intervals 1, 2, and 6. Its decimal approximation is",
+    "The three active constraints with positive dual multipliers form a nonsingular matrix. Every unsupported index has strictly positive reduced cost, so uniqueness follows from exact algebra.",
+    "The same probability set contains an exact feasible point MX000496Z supported on intervals 5 and 6. Along MX000497Z, the derivative of the auxiliary put row is certified to lie in",
+    "Its lower endpoint exceeds MX000499Z. Thus MX000500Z is not a maximizer of the put row. The two complete pricing rows have no common maximizer, yielding",
+    "Equation (H7) concerns the directional derivative of an auxiliary row; (H8) is a qualitative strict gap for the terminal outer set. For a construction retaining the specified modes and envelope identities and continued through valid timewise product sets, each level satisfies MX000502Z, and the accumulated support gap before payoff intersections satisfies MX000503Z. A change in probability information, mode catalogue, or payoff-intersection rule requires application of (H5) to the resulting set.",
+    "The evidence consists of the [terminal strict-separation proposition](../evidence/classical-evidence.md), [exact input](https://github.com/130U/certified-rough-heston-valuation/blob/6a5134197db60c765ca3aea4f6cdeb2bafbb6617/code/classical/terminal767-input.json), [result certificate](https://github.com/130U/certified-rough-heston-valuation/blob/6a5134197db60c765ca3aea4f6cdeb2bafbb6617/code/classical/terminal767-result.json), and [independent rational verification](https://github.com/130U/certified-rough-heston-valuation/blob/6a5134197db60c765ca3aea4f6cdeb2bafbb6617/code/classical/terminal767-historical-review.json). The input SHA256 is `5ad2c18e9336db16e3957b9b1f6669f0f9065a13991ebed8a0498df9b942524c`. The independent verification records 407 exact-arithmetic checks.",
+    "The object is MX000504Z, where MX000505Z is the same original payoff or an exact finite pricing-conversion remainder, and MX000506Z is a deterministic trial field.",
+    "Here MX000521Z is a sufficient condition independently defined by field properties; it does not require the trial field to equal the unknown exact solution. For the exact future-value function, the backward equation makes the continuous residual zero, and exact observation and terminal conditions eliminate their respective defects. Consequently, MX000522Z recovers the telescoping formula for the exact future-value function.",
+    "Separate intervals for individual prices do not alone establish shared state structure, because they supply no cross-price compatibility witness. The trial-field extension is expressed by the identity below, while the shared-state inclusion provides a joint error framework retaining price dependence.",
+    "Between observation times, the full state is MX000524Z. The variables MX000525Z and MX000526Z record the sums of observed stock prices and log-stock prices, respectively. The exact map MX000527Z updates the history at an observation time. The generator is",
+    "Choose a nonnegative weight MX000529Z, for example",
+    "or the natural weight better suited to the arithmetic branch in the fixed setting,",
+    "These weights agree across observation times. The Lyapunov estimate supplies moment bounds at continuous and discrete times; at MX000532Z over one year, one may take MX000533Z, together with squared-moment bounds at continuous stopping times. Each approximate function uses one fixed weight throughout the remaining months.",
+    "The field MX000534Z is locally MX000535Z on each open interval between observations, has a right-sided extension at MX000536Z suitable for Itô calculus, and has genuine one-sided traces uniformly on compact state sets. Assume",
+    "where",
+    "The operator MX000540Z includes the original positive-part kernel and any observation at the end of the step. Terminal values and jumps use the same convention, with every update counted once. Domination covers the full state space, the zero boundary, and the unbounded tail. Discrete defects under the original MX000541Z are integrable and admit the full-horizon inclusion",
+    "**Core lemma.** Under the stated conditions,",
+    "**Proof.** The finite discrete tower property gives",
+    "For the continuous process, first stop it in a compact state domain on a closed subinterval away from observation times. The local Itô stochastic integral has expectation zero. The squared-weight Lyapunov bound and MX000546Z give uniform integrability of the stopped field values, permitting removal of stopping. Temporal MX000547Z domination and a uniform bound on MX000548Z yield",
+    "Absolute integrable domination therefore also removes stopping from the residual integral. As subinterval endpoints approach an observation time, genuine traces, continuous paths, and the same uniform-integrability bound give convergence in MX000550Z. The function jump at an observation is MX000551Z. Summing over the intervals gives",
+    "Subtract the two identities and include MX000553Z in both expectations to obtain (H10). The common initial value cancels exactly. ∎",
+    "Equation (H10) is signed: each contribution is determined by the residual of the same function under the discrete chain or continuous process. Established Itô and residual tools connect the growth and tail assumptions for this positive-part kernel, multiple observation dates, and unbounded state space.",
+    "At MX000555Z, (H10) gives",
+    "If the global discrete defect satisfies MX000557Z, then",
+    "Integrability and the triangle inequality applied to (H10) prove both statements. If joint signed information on the contributions is available, one may instead take the linear image of their joint feasible set. Equations (H11)–(H12) are valid, readily computable nonnegative bounds.",
+    "To verify MX000559Z directly in the main text, we provide an admissible object independent of the large field-coefficient collection. Fix MX000560Z and any MX000561Z, and take terminal payoff MX000562Z and field",
+    "The field is history-independent, has zero jumps at all observation times, has the exact terminal value, and satisfies MX000564Z. Set MX000565Z. The continuous squared-weight Lyapunov and original MX000566Z estimates apply, and MX000567Z.",
+    "The exact generator yields",
+    "Using MX000569Z, a constant continuous dominating function over the full year is",
+    "Gaussian integration of the original stock update gives exactly",
+    "Using MX000572Z, MX000573Z, and MX000574Z, with MX000575Z, we obtain the global bound",
+    "These explicit finite constants, exact terminal and observation conditions, global regularity, and squared-moment domination directly verify MX000577Z. At MX000578Z, (H18) equals MX000579Z, so the field is not an exact future-value function satisfying the continuous backward equation. This gives a self-contained MX000580Z.",
+    "For this negative-power terminal payoff, the exact continuous future-value function belongs to the admissible affine class with nonpositive loading and satisfies the established moment conditions. The same object class therefore contains both the exact future-value function in MX000581Z and the nonexact field (H17); the residual identity also applies to the latter. This analytic witness establishes the extended scope. The financial example uses the original instruments and exact certificates. Equations (H19)–(H20) provide finite, full-year integrable sufficient bounds; quote-related error bounds use independent certificates for the corresponding field.",
+    "**Proposition (joint certificates for linear combinations).** Let MX000582Z be the discounted continuous and discrete prices at the same parameters, let MX000583Z, and let MX000584Z be nonempty and compact. For deterministic positions or price-comparison coefficients MX000585Z,",
+    "If MX000587Z, both half-widths equal MX000588Z. If the discrete price center MX000589Z itself satisfies MX000590Z, then",
+    "If the actual MX000592Z belongs to a joint compact set MX000593Z, the two-term sums in (H15) can be replaced by MX000594Z and MX000595Z, retaining joint information about both errors.",
+    "**Proof.** Since MX000596Z, the inequalities MX000597Z and MX000598Z give (H14). Next, MX000599Z; controlling MX000600Z and MX000601Z separately gives (H15). Taking linear support directly over the joint MX000602Z set proves the final assertion. ∎",
+    "This is standard linear propagation by support functions, rather than a separate mathematical innovation. It shows how the main theory produces financial outputs: spreads, portfolio values, and prespecified comparison directions use vector-error guarantees instead of arbitrary combinations of single-instrument endpoints.",
+    "For MX000603Z in the original terminal example, (H8) establishes a strictly smaller directional terminal bound using the joint structure with the same information. The direction compares an arithmetic-average Asian call spread with a one-year at-the-money put. It is fixed by the setting and is not an optimal hedge or trading signal.",
+    "Given a closed acceptance set MX000604Z for nine prices, a discrete price center MX000605Z, and a joint compact error-input set MX000606Z containing the actual MX000607Z, define",
+    "If the exact calibration prices satisfy the acceptance rule, the model target price belongs to MX000610Z. The condition MX000611Z excludes compatibility of that parameter with the rule; otherwise the target endpoints are attained. Enlarging the joint input to a coordinate box can only enlarge or preserve the target set.",
+    "The proof uses MX000612Z, compactness of the intersection with a closed acceptance condition, and attainment of linear extrema on a nonempty compact set. The rule preserves a common price-error vector. It is suited to constraining parameters using liquid standard options before valuing a path-dependent instrument. Once a valid center and complete error inputs are available for a quote specification, (H16) provides a computable screening and valuation map.",
+    "Section 8 retains the original quotes, parameters, and curve. The model and frozen output uniquely select MX000613Z, while quotation rows 8 and 9 exclude its full band compatibility. Ranking and quotation compatibility are separate conclusions. They do not identify a market parameter or establish ranking after refitting other parameters. We now recompute the original 4400--4500 spread using Section 9 and compare it with the best signed marginal intervals at the same frozen output.",
+    "Absolute bounds are rounded upward and reduction percentages downward; decisions use saved exact fractions. For alpha=.52, the joint full radius is at most 0.000291542087440, while the signed centre is approximately -0.000039499703457. The complete model-minus-fast spread error satisfies ",
+    " Width and absolute error relative to the actual output are distinct quantities. All 1025 finite-node transform errors are counted once; strip error, the true infinite tail, and reference-sum arithmetic uncertainty are retained. This is a complete-budget improvement.",
+    "Prices are normalized as MX000615Z, with MX000616Z. Multiply normalized error by MX000617Z for index points. Before reading the new joint result, this diagnostic fixed a primary one-point budget and sensitivity thresholds of 0.25, 0.5, and 2 points. This is not described as pre-computation preregistration or a market-suitability criterion. The alpha=.52 joint bound does not certify the primary one-point budget. At the fixed two-point threshold, the marginal bound is insufficient while the joint bound suffices.",
+    "For alpha=.90, the joint signed interval is strictly positive, so the frozen output is below the model spread. Its absolute bound still uses the larger endpoint magnitude. Shared variables are confined to one candidate's same-maturity nodes.",
+    "Unique selection requires MX000618Z. Otherwise the rule returns an unresolved set containing every exact minimizer. An overlapping-input rejection test verifies the rule; it is not a new near-tie market experiment. Numerical calibration claims remain confined to the three stated candidates. A dense profile, continuous-domain optimization, and refitting other parameters are separate experiments.",
+    "To test an unresolved candidate decision with actual pricing outputs, we retain the original twelve strikes, 3700--4800, the six-month maturity, and the other model inputs, but restrict the candidate set to MX000619Z. We construct synthetic target prices MX000620Z. Interpreting the frozen fast outputs as exact dyadics makes their quadratic objectives MX000621Z exactly equal, row by row; the common value lies in [8.8558783E-8, 8.8558784E-8]. Using the existing complete price certificates gives model-objective intervals [3.8651464E-8, 3.05889870E-7] and [3.2507356E-8, 8.9847876E-8], which overlap. The decision returns MX000622Z with status `UNSEPARATED`, withholding a unique-winner certificate. As a control, the original SPX-IV-defined quote-midpoint intervals and the same two candidates and price certificates still certify MX000623Z. This is a synthetic-quote stress test, not an observed market tie, a denser continuous-parameter experiment, or a refit of other parameters. The complete price intervals retain continuous-residual, exponent, quadrature, finite-node, and true infinite-tail errors. Upstream certificates are reused rather than regenerated; exact targets, row identities, source byte identities, and execution records appear in `near-tie-diagnostic.json`.",
+    "The baseline is repository commit `6a5134197db60c765ca3aea4f6cdeb2bafbb6617`. The source inventory, exact shared-node ledgers, aggregate certificate, and command logs identify the current objects. Complete cover reconstruction checks 211241 leaves and 422481 tree nodes. Every leaf is additionally recomputed from the raw polynomials using the released 100-bit outward rational interval generator and compared field by field; `full-structure-verification.json` records this run separately from the initial 16-leaf check. This is full sign regeneration, without claiming a separately implemented transcendental library. The original frozen fields and continuous residual records remain the upstream objects. Saved-input checks, independent startup assembly at all 1539 candidate-frequency pairs, and a two-frequency full-time fresh replay for each candidate are distinguished from full-time regeneration at every frequency. A second spread checker does not import the new calculator: it assembles coefficient magnitudes through amplitude differences and a sine identity and checks the centre translation and complete remainder.",
+    "For the classical chain, all 22 probability rows and 918 profile entries are reproduced, and 407 exact terminal witness checks test feasibility, dual inequalities, uniqueness, and the signed derivative. Adversarial tests deliberately damage coverage, a sign record, a constraint, a node, or a budget and require rejection. Regeneration, saved-record verification, and independent numerical diagnostics answer different questions and are identified in the logs.",
+    "The complete budget assigns reference-state error to transform disks through the positive kernel; reference exponent and finite-sum arithmetic to centre uncertainty; omitted finite nodes to true-transform disks; strip error to continuous-integral/infinite-rule conversion; the true infinite tail to the remainder; and reference-minus-fast discrepancy to a signed translation. No finite node is charged twice as a tail.",
+    "The historical thirteen-dimensional field receipts identify saved mode integrals, but the portable package omits the full coefficient bank. The retained trial-function extension uses the fully explicit analytic example, rather than presenting those receipts as a complete annual price certificate. The archive and its scope remain documented in the internal review.",
+    "Execution times, versions, sign counts, node counts, and exit states are recorded in `verification.json` and the new spread certificate. Historical residual-generator times of approximately 793, 779, and 194 seconds are not fresh regeneration times. Support aggregation and upstream certification costs are reported separately.",
+    "The probability model and integrability establish model prices; Theorem 3.1 establishes rational structure only on its stated continuous domain; complete price intervals additionally require the fixed field, scaling, forward curve, continuous residual, strip bound, and true tail. Joint strike errors share transforms only at one parameter and maturity. Candidate claims concern the fixed curve and the stated finite collection. Classical strictness concerns the specified original chain, modes, probability information, and outer set before payoff-range intersection.",
+    "Half-plane preservation alone does not make an approximation a probability characteristic function, an arbitrage-free full surface, or a Greeks certificate. The alpha=.90 price certificate uses its independent field and does not extend Theorem 3.1. The main proof does not rely on a broader central-frequency T1 chain.",
+    "The connection is established through actual error inclusion: rough-model residuals produce shared transform disks, classical original-chain states constrain residual feasibility, and their price images yield directional bounds at the actual output centre. The original spread obtains a strictly tighter complete certification bound; candidate ranking and quotation exclusion retain their separate meanings. The resulting analytical and computational claims preserve explicit objects, hypotheses, and quantifiers.",
+    "The primary source is Abi Jaber–El Euch, arXiv:1803.00477v1, first posted on 2018-03-01, with a PDF title-page date of March 2, 2018. The journal article appeared in 2019 in Statistics & Probability Letters 149, 63–72. Locators refer to the internal pagination of the 13-page preprint: Theorem 2.1 and Example 2.2 on p.4, Theorem 2.3 on p.5, and H2 and Table 1 on pp.9–10. These are preprint, not journal, page numbers.",
+    "For MX000624Z, ",
+    " The exponent in the latter integral is MX000626Z at zero and MX000627Z at infinity, so the integral is finite. The resolvent of the first kind, ",
+    " is verified by the Beta identity and is nonnegative and nonincreasing. The completely monotone spectral measure ",
+    " gives MX000630Z. Under MX000631Z, the two spectral integrals in H2 become constants times MX000632Z and MX000633Z, respectively. The remaining constants MX000634Z and MX000635Z are finite for MX000636Z. Table 1 of the source therefore covers the required shifted-kernel conditions.",
+    "Curve (2.4) is nondecreasing, has a nonnegative initial value, and is locally Hölder with exponent MX000637Z. On MX000638Z, the kernel has MX000639Z. Hence the curve-class assumptions in Example 2.2(i) hold, and Theorem 2.1 gives a nonnegative continuous weak variance solution and moment bounds. The equivalent kernel input is ",
+    " Its worst exponent is MX000641Z, so it belongs to MX000642Z; also MX000643Z. The nonnegative input measure meets Example 2.2(ii). This verifies the model specification with a varying kernel and fixed forward variance curve.",
+    "Theorem 2.3 of the source requires MX000644Z, a second-state initial transform with nonpositive real part, and a variance forcing term with nonpositive real part. Taking MX000645Z and zero for the other initial and forcing terms gives (2.2), (2.6), and uniqueness in weak law. With MX000646Z, the Riccati solution is zero and MX000647Z follows. A positive local martingale with constant expectation is a true martingale. Thus the probability strip in (6.1) follows from the continuous-time model. This argument applies established existence and affine-transform theory.",
+    "The certificate domain is MX000648Z. Every interval MX000649Z uses integer outward rounding. Rational inputs are rounded down and up; products take extrema over the four endpoint corners and are quantised. Reciprocals first exclude zero. Square roots use integer isqrt and an increment for the upper endpoint. Complex quantities use rectangular real–imaginary interval arithmetic. The analytic lower bounds in (3.3) fix the principal-root and reciprocal branches; no floating-point sign tolerance is used.",
+    "The four basic MX000650Z-dependent functions MX000651Z satisfy ",
+    "  We have MX000654Z, and elementary trigonometric identities give the derivatives of MX000655Z. Strict endpoint values therefore enclose each continuous MX000656Z interval, without sampling MX000657Z at grid points.",
+    "The constant MX000658Z is certified by Machin's identity and one hundred terms of each alternating arctangent series. The logarithm is reduced to MX000659Z and evaluated with one hundred positive atanh-series terms and a geometric tail. The exponential is reduced to MX000660Z, evaluated with one hundred Taylor terms and a geometric tail, and restored by repeated rigorous squaring. For positive real Gamma arguments, recurrence first shifts to MX000661Z. Retaining MX000662Z in log Gamma gives the positive-real remainder bound ",
+    " In Binet's positive integral, the ten-term geometric remainder of arctangent is positive and bounded by the first omitted power. Integration gives (B.2), consistent with the positive-real Stirling remainder in NIST2010. After exponentiation, divide successively by the recurrence factors. Sine and cosine retain thirty-two terms, with absolute Lagrange tails MX000664Z. Bernoulli numbers, factorials, and interval endpoints are exact rationals.",
+    "For each closed rectangle, substitute these enclosures successively into (3.3), (2.12), (2.13), (3.5), and (3.8). Accept only when the lower endpoints of all three MX000665Z are strictly positive and the upper endpoints of all six MX000666Z are strictly negative. Otherwise bisect one coordinate at its exact rational midpoint. The two closed children have the parent rectangle as their union, and strict enclosures also cover the shared boundary.",
+    "The finite covering contains 211241 leaf rectangles of total rational area exactly MX000667Z. An independent check reconstructs 422481 binary-tree nodes from the root, with maximum depth 19 and each recorded leaf occurring exactly once. In addition to the area check, this excludes missing subtrees, interior overlap, and endpoint gaps. The theorem uses the order interval covered by this complete closed tree.",
+    "The stronger rational margins in the complete certificate imply the following bounds. Each simplification has been independently checked using Fraction.",
+    "The proof consists of rigorous interval inclusion and a complete finite covering. The supplementary material provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.",
+    "Write MX000676Z, MX000677Z, MX000678Z, and MX000679Z. Denote the continuous law by MX000680Z and the actual discrete-chain law by MX000681Z:",
+    "Here MX000683Z are independent standard normal variables; the stock and variance updates share MX000684Z. The parameter box is",
+    "Each real loading of a finite multidate exponential mode is nonpositive, with total absolute value at most MX000686Z. Let MX000687Z be the realized prefix and MX000688Z the remaining loading. Between observations, the continuous continuation MX000689Z satisfies",
+    "starting from zero terminal coefficients. At observations the remaining loading changes, while MX000691Z continue without resetting. Put MX000692Z and MX000693Z. On MX000694Z, the real derivative is",
+    "since MX000696Z, MX000697Z, and MX000698Z. A first-crossing argument gives MX000699Z. The radial bound",
+    "prevents finite-time explosion, and MX000701Z.",
+    "To identify the formal continuation with its expectation, multiply all real loadings by MX000702Z. Write MX000703Z for the resulting realized and remaining loadings. The process",
+    "is a nonnegative local supermartingale. Its constant drift is nonpositive; its variance drift is at most MX000705Z. Prefix and remaining-loading changes cancel at observations. The stopped affine local martingale MX000706Z satisfies",
+    "Compact stopping and the supermartingale inequality give a uniform MX000708Z-moment bound. Uniform integrability removes stopping and proves the exact continuation, including MX000709Z and every finite starting state. Finite telescoping under the original chain consequently yields",
+    "where MX000711Z is the actual one-step MX000712Z propagation minus the exact continuous continuation, after removing the common factor MX000713Z.",
+    "For nonpositive real loadings with total absolute value at most one,",
+    "For MX000715Z, completing the real Gaussian square in the stock factor changes the variance-candidate mean to MX000716Z, where MX000717Z. The pointwise bound MX000718Z gives",
+    "Here MX000720Z, the variance coefficient is at most MX000721Z, and MX000722Z. At MX000723Z the negative part is exactly zero. Using MX000724Z and MX000725Z gives the original conditional expectation",
+    "Throughout(Q2), MX000727Z, MX000728Z, and MX000729Z. Hence",
+    "Successive conditioning, cancellation of loading changes, and MX000731Z prove(Q7). Gaussian square completion is an integration device; the resulting expectation remains under the original law MX000732Z.",
+    "For a common variance partition MX000733Z, put MX000734Z and MX000735Z. Split the integrand in(Q6) into MX000736Z and MX000737Z. Complex Cauchy–Schwarz and(Q7) then give",
+    "Every mode uses the same original-chain probability vector. Stock and history dependence remain in the first squared moment. A general trial-field defect that still depends on other states requires a uniform envelope over them or an enlarged partition. Continuous residuals under MX000739Z do not share the MX000740Z occupation vector without a further proof.",
+    "Fix MX000741Z.",
+    "For MX000742Z, we have MX000743Z and MX000744Z. Use",
+    "These 102 disjoint bands cover the state space. For MX000746Z, the one-step mass at zero is MX000747Z; at MX000748Z, MX000749Z. The atom must be retained separately from the continuous density.",
+    "The projection excess satisfies",
+    "For MX000751Z, bound the normal negative part by MX000752Z, discard the nonnegative MX000753Z contribution in the exponent, and maximize MX000754Z. At zero the excess vanishes. The strict constant follows from MX000755Z, MX000756Z, MX000757Z, MX000758Z, and MX000759Z. The recursion MX000760Z has fixed point MX000761Z. Starting from MX000762Z, induction gives",
+    "Let MX000764Z, MX000765Z, and MX000766Z. The positive-part inequality and concavity of MX000767Z give MX000768Z. At MX000769Z, use MX000770Z, MX000771Z, and MX000772Z to obtain a decrease of at least MX000773Z. Since MX000774Z, induction and Jensen imply",
+    "Take MX000776Z. For each MX000777Z, set MX000778Z and MX000779Z. Gaussian integration and MX000780Z give",
+    "Successive conditioning with MX000782Z yields",
+    "The reference quadruple is MX000784Z; the point quadruple is MX000785Z. The reference uses no larger MX000786Z and no smaller MX000787Z than the actual values, giving a valid upper bound throughout(Q2). All 767 steps verify MX000788Z, ensuring monotonicity of the quadratic recursion on the entire rational enclosure.",
+    "For every MX000789Z, the true probabilities therefore satisfy",
+    "The zero-band coefficients are both one; the tail coefficients are zero and MX000791Z. Adding MX000792Z, MX000793Z, and the two mass inequalities gives MX000794Z rows. Nonnegativity is the variable domain. For saved inequalities MX000795Z, upper-bound rows use lower coefficient endpoints and upper right-hand-side endpoints. Lower-bound rows use upper coefficient endpoints and lower right-hand-side endpoints before sign reversal. The saved rational polytope thus contains the actual probability vector. It is nonempty and compact as a closed subset of the probability simplex.",
+    "The terminal continuation has MX000796Z, so the projection difference MX000797Z is exactly zero. For MX000798Z, put MX000799Z, MX000800Z, and MX000801Z. Then",
+    "The specified modes are MX000803Z for the Asian profile, and MX000804Z for the put. On MX000805Z, the real drift is at most MX000806Z, hence MX000807Z. The radial estimate gives MX000808Z.",
+    "Let MX000809Z, with MX000810Z, MX000811Z, and MX000812Z. The exact guard MX000813Z establishes MX000814Z on the whole step. Its residual is MX000815Z, where",
+    "The difference equation has coefficient MX000817Z with real part at most MX000818Z. Variation of constants gives",
+    "Define",
+    "The second branches use MX000821Z. The exponential-difference integral identity yields, for every MX000822Z,",
+    "The band supremum is determined by finite endpoints of the closure or the stationary point MX000824Z; the infinite-tail limit is zero. If MX000825Z, use the monotone branch without division. The coarse bound MX000826Z also holds. Thus valid input to(Q9) is",
+    "The zero band is evaluated at MX000828Z; the tail includes its endpoint enclosure, any stationary point, and its zero limit. Rational outward checks cover the guards for all nine modes and all 918 profile entries. These inputs and the main text's primal–dual witness close the terminal example's computational obligations. Strict terminal outer-set tightening alone does not give a money-valued annual pricing-error bound.",
+    "1. **GR2019.** Gatheral, Jim and Radoičić, Radoš. *Rational Approximation of the Rough Heston Solution*. International Journal of Theoretical and Applied Finance 22(3), 1950010, 2019. DOI [10.1142/S0219024919500109](https://doi.org/10.1142/S0219024919500109). The SSRN manuscript dated January 29, 2019 is used.",
+    "2. **GR2023v1.** Gatheral, Jim and Radoičić, Radoš. *A Generalization of the Rational Rough Heston Approximation*. 2023. [Source](https://arxiv.org/abs/2310.09181v1). Version used: arXiv:2310.09181v1.",
+    "3. **JK2020.** Siow Woon Jeng and Adem Kiliçman. *Series Expansion and Fourth-Order Global Padé Approximation for a Rough Heston Solution*. Mathematics 8(11), 1968, 2020. DOI [10.3390/math8111968](https://doi.org/10.3390/math8111968).",
+    "4. **JK2021.** Siow Woon Jeng and Adem Kiliçman. *SPX Calibration of Option Approximations under Rough Heston Model*. Mathematics 9(21), 2675, 2021. DOI [10.3390/math9212675](https://doi.org/10.3390/math9212675).",
+    "5. **AbiJaberElEuch2018v1.** Abi Jaber, Eduardo and El Euch, Omar. *Markovian structure of the Volterra Heston model*. Statistics & Probability Letters 149, 63–72, 2019. DOI [10.1016/j.spl.2019.01.024](https://doi.org/10.1016/j.spl.2019.01.024). Version used: arXiv:1803.00477v1.",
+    "6. **LiLiu2018.** Li, Lei and Liu, Jian-Guo. *A Generalized Definition of Caputo Derivatives and Its Application to Fractional ODEs*. SIAM Journal on Mathematical Analysis 50(3), 2867–2900, 2018. DOI [10.1137/17M1160318](https://doi.org/10.1137/17M1160318). The convexity result is Proposition 3.11.",
+    "7. **Simon2014.** Simon, Thomas. *Comparing Fréchet and positive stable laws*. 2014. [Source](https://arxiv.org/abs/1310.1888v2). Version used: arXiv:1310.1888v2.",
+    "8. **TrefethenWeideman2014.** Trefethen, Lloyd N. and Weideman, J. A. C. *The Exponentially Convergent Trapezoidal Rule*. SIAM Review 56(3), 385–458, 2014. DOI [10.1137/130932132](https://doi.org/10.1137/130932132). Strip quadrature is covered by Theorem 5.1.",
+    "9. **NIST2010.** Olver, Frank W. J. and Lozier, Daniel W. and Boisvert, Ronald F. and Clark, Charles W. *NIST Handbook of Mathematical Functions*. Cambridge University Press, 2010. [Source](https://dlmf.nist.gov/).",
+    "10. **GatheralCode2023.** Gatheral, Jim. *RationalRoughHeston: roughHestonPadeLambda.R*. 2023. [Source](https://github.com/jgatheral/RationalRoughHeston/blob/d65ea96e4c113fbb330074dfaea3e7715d650bbd/roughHestonPadeLambda.R).",
+    "11. **WoonJengSPXDataset2021Frozen.** WoonJeng. *Dataset for SPX Calibration of Option Approximations under Rough Heston model*. 2021. [Source](https://github.com/WoonJeng/Dataset-for-SPX-Calibration-of-Option-Approximations-under-Rough-Heston-model/tree/860049da2b7486fe8aa509061eff23cc28c2ef89).",
+    "12. **Gilewicz2005.** Gilewicz, Jacek and Pindor, Maciej and Telega, J. Joachim and Tokarzewski, Stanisław. *N-Point Padé Approximants and Two-Sided Estimates of Errors on the Real Axis for Stieltjes Functions*. Journal of Computational and Applied Mathematics 178(1–2), 247–253, 2005. DOI [10.1016/j.cam.2003.12.051](https://doi.org/10.1016/j.cam.2003.12.051).",
+    "13. **EberleinGlauPapapantoleon2008v1.** Eberlein, Ernst and Glau, Kathrin and Papapantoleon, Antonis. *Analysis of valuation formulae and applications to exotic options in Lévy models*. 2008. [Source](https://arxiv.org/abs/0809.3405v1). Version used: arXiv:0809.3405v1.",
+    "14. **Heston1993.** Heston, Steven L. *A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options*. The Review of Financial Studies 6(2), 327–343, 1993. DOI [10.1093/rfs/6.2.327](https://doi.org/10.1093/rfs/6.2.327).",
+    "15. **CozmaReisinger2016.** Cozma, Andrei and Reisinger, Christoph. *Exponential integrability properties of Euler discretization schemes for the Cox–Ingersoll–Ross process*. Discrete and Continuous Dynamical Systems - B 21(10), 3359–3377, 2016. DOI [10.3934/dcdsb.2016101](https://doi.org/10.3934/dcdsb.2016101). Version used: arXiv:1601.00919v1.",
+    "16. **KimKimKimWee2016.** Kim, Bara and Kim, Jeongsim and Kim, Jerim and Wee, In-Suk. *A recursive method for discretely monitored geometric Asian option prices*. Bulletin of the Korean Mathematical Society 53(3), 733–749, 2016. DOI [10.4134/BKMS.b150283](https://doi.org/10.4134/BKMS.b150283).",
+    "17. **BoydVandenberghe2004.** Boyd, Stephen and Vandenberghe, Lieven. *Convex Optimization*. Cambridge University Press, 2004. [Source](https://web.stanford.edu/~boyd/cvxbook/).",
+    "18. **MickelNeuenkirch2022v2.** Mickel, Annalena and Neuenkirch, Andreas. *The weak convergence order of two Euler-type discretization schemes for the log-Heston model*. 2022. [Source](https://arxiv.org/abs/2106.10926v2). Version used: arXiv:2106.10926v2.",
+    "19. **BertsimasPopescu2002.** Bertsimas, Dimitris and Popescu, Ioana. *On the Relation between Option and Stock Prices: A Convex Optimization Approach*. Operations Research 50(2), 358–374, 2002. [Source](https://www.mit.edu/~dbertsim/papers/Finance/On%20the%20relation%20between%20option%20and%20stock%20prices-%20a%20convex%20optimization%20approach.pdf).",
+    "20. **Hartmann2008.** Hartmann, Ralf. *Multitarget Error Estimation and Adaptivity in Aerodynamic Flow Simulations*. SIAM Journal on Scientific Computing 31(1), 708–731, 2008. [Source](https://elib.dlr.de/57073/1/Har08a.pdf).",
+    "21. **CboeSPX2022.** Cboe Global Markets. *Cboe to Further Expand S&P 500 Index Options Suite with New and Additional Daily Expirations*. 2022. [Source](https://ir.cboe.com/news/news-details/2022/Cboe-to-Further-Expand-SP-500-Index-Options-Suite-with-New-and-Additional-Daily-Expirations-09-19-2022/default.aspx).",
+    "22. **FederalReserveSR1107.** Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency. *Supervisory Guidance on Model Risk Management*. Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency(SR 11-7, Attachment), 2011. [Source](https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107a1.pdf). This reference concerns the historical model-validation framework published in 2011.",
+    "23. **OuyangAsian2024.** Ouyang, Theodore. *Certified Valuation of Arithmetic Asian Options via Common Gaussian Smoothing*. Author manuscript, 2024 cover version; supplied PDF. [Project](https://github.com/130U/certified-valuation-arithmetic-asian-options).",
+    "24. **BBWeak2023v1.** Bayer, Christian and Breneis, Simon. *Weak Markovian Approximations of Rough Heston*. 2023. [Version record](https://arxiv.org/abs/2309.07023v1), [original PDF](https://arxiv.org/pdf/2309.07023v1). Version used: arXiv:2309.07023v1, submitted 13 September 2023. The characteristic-function and European-payoff error results are Theorems 2.2 and 2.7.",
+    "25. **BBSimulation2023v1.** Bayer, Christian and Breneis, Simon. *Efficient option pricing in the rough Heston model using weak simulation schemes*. 2023. [Version record](https://arxiv.org/abs/2310.04146v1), [original PDF](https://arxiv.org/pdf/2310.04146v1). Version used: arXiv:2310.04146v1, submitted 6 October 2023. This version reports second-order weak convergence numerically on p. 4.",
+    "26. **Kopteva2021v2.** Kopteva, Natalia. *Pointwise-in-time a posteriori error control for time-fractional parabolic equations*. Applied Mathematics Letters 123, 107515, 2022. DOI [10.1016/j.aml.2021.107515](https://doi.org/10.1016/j.aml.2021.107515). [Version record](https://arxiv.org/abs/2105.05848v2), [original PDF](https://arxiv.org/pdf/2105.05848v2). Version used: arXiv:2105.05848v2, revised 5 July 2021; first submitted 12 May 2021. The pointwise residual bound and norm inequality are Theorem 2.2 and Lemma 2.8."
+  ],
+  "math_rendering": {
+    "status": "PASS",
+    "mathjax": "3.2.2",
+    "errors": []
+  },
+  "presentation_equivalences": {},
+  "pdf": "Theodore-Ouyang-Merged-Heston-EN.pdf",
+  "pdf_sha256": "e8291a6c204ecd1572e0261c4d1e806e01d5dbac7fca2b2da285678aae2e906b",
+  "math_source_occurrences": 829,
+  "vector_formulas": true
+}

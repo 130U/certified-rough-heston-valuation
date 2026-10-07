@@ -1,5 +1,7 @@
 # Certified Rough Heston Valuation
 
+The [merged joint-error revision](revision-20261007/README.md) combines the two manuscripts with a complete shared-Fourier price certificate, independent checks, and a reviewer response. The [45-page English paper](revision-20261007/paper/Theodore-Ouyang-Merged-Heston-EN.pdf) retains explicit evidence and scope boundaries.
+
 **Theodore Ouyang · Mathematical finance**
 
 A mathematical study of a practical question: **can a fast rational pricing approximation change the roughness candidate selected from option quotes, and how can that decision be checked?**

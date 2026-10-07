@@ -1,0 +1,19 @@
+{
+  "author": "Theodore Ouyang",
+  "school": "Duke University",
+  "address": "2080 Duke University Road, Durham, NC 27708, USA",
+  "emails": [
+    "10@alumni.duke.edu",
+    "theodore.oy2025@gmail.com"
+  ],
+  "date": "",
+  "metadata_basis": "Author details reproduced from the user-supplied PDF template.",
+  "titles": {
+    "report": "Heston 模型的可验证联合定价误差",
+    "rough-heston": "Certified Joint Pricing Errors in Heston Models"
+  },
+  "subtitles": {
+    "report": "复残差、共同状态与金融判定",
+    "rough-heston": "Residuals, Shared States, and Financial Decisions"
+  }
+}

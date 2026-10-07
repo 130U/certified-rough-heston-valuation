@@ -30,6 +30,8 @@ The second contribution is a complete implementation-level financial certificate
 
 The third contribution is a checkable structural domain for the specified Gatheral--Radoicic rational construction, together with an independently generated reference certificate. The all-frequency result has explicit restrictions on correlation, fractional order and mean reversion. The numerical references do not derive their residual certificates from the algebraic sign proof. A nearby-parameter protocol and output controls probe the method's transfer and its appropriate workload.
 
+**Table 1. Dependencies of the rational-output and independent-reference proof chains.**
+
 | Proof chain | Inputs and conclusion | Role in the price certificate |
 |---|---|---|
 | Rational construction | Endpoint matching, raw determinant and numerator signs; well-defined Padé output and left-half-plane structure | Defines and checks the specified production formula on its stated domain |
@@ -108,6 +110,8 @@ c=1-\frac{\sqrt m}{\pi}\int_0^\infty
 The model specification, decimal inputs, and normalisation jointly define the prices considered below.
 
 All experiments use model parameter $\nu=0.2897$, $\rho=-0.7445$, Riccati mean reversion zero, Fourier step $1/8$, a finite reference/error grid through 128 (1025 nodes), 100-bit outward dyadic arithmetic and 64 forward-moment series terms. The actual Padé output uses composite Gauss–Legendre order 8 through 200 (352 nodes) and Jacobi order 256; its Fourier cutoff is distinct from the certificate cutoff. $N_t$ counts source time cells. The number of frequency nodes is written explicitly to avoid confusing it with $\nu$.
+
+**Table 2. Fixed configurations: maturity in years; time cells, reference nodes, residual subcells and history bins are counts.**
 
 | ID | T | alpha | N_t source cells | nonzero ref nodes | zero finite nodes | subcells | history bins |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -478,7 +482,9 @@ The narrow correlation width quantifies local persistence around the fixed publi
 
 The original six-month contract uses twelve strikes \(K_i=3700+100i\), \(0\le i\le11\), forward \(F=4221.86\), discount \(D=1\), and the fixed forward-variance curve in (2.4). Prices and task errors are in index points. The position multiplier is one; no exchange-specific currency notional is inferred. Candidate changes affect \(\alpha\) while leaving the curve and other parameters fixed. The three-candidate profile \(.52,.60,.90\) is a finite comparison and excludes several original bid/ask bands; it is not a successful market calibration or a continuous optimum.
 
-The complete \(K=4400\) minus \(K=4500\) task bound is compared below. Each row retains its actual output, signed centre, included finite frequencies, strip, true tail and arithmetic. Displayed upper bounds are rounded upward. The quarter-year study recomputes its maturity-specific reference integral, true-transform envelopes and tails; its upstream full-history certificate is lawfully restricted to the shorter horizon. It does not reuse a six-month exponent or tail value.
+Table 3 compares the complete \(K=4400\) minus \(K=4500\) task bound. Each row retains its actual output, signed centre, included finite frequencies, strip, true tail and arithmetic. Displayed upper bounds are rounded upward. The quarter-year study recomputes its maturity-specific reference integral, true-transform envelopes and tails; its upstream full-history certificate is lawfully restricted to the shorter horizon. It does not reuse a six-month exponent or tail value.
+
+**Table 3. H0–H4 and Q0–Q2 complete unit-spread certificates, in index points; outputs and reference changes are identified by configuration.**
 
 | Maturity and stage | Complete joint bound, points | Matched signed marginal bound, points | Interpretation |
 |---|---:|---:|---|
@@ -498,6 +504,8 @@ The first finite-history reduction is about 72.91%, calculated against the displ
 The following matched pass-count table uses H1 at each stated alpha.
 
 Let \(e_i\) select strike \(K_i\). We keep the exact holdings below, without rescaling them to make a budget pass. Gross weight means \(\sum_i|w_i|\). Every threshold is an absolute error in index points for the specified holding vector.
+
+**Table 4. The 28 fixed portfolio directions on the twelve strikes; gross weight is the sum of absolute position weights.**
 
 | Family | Exact direction | Count | Gross weight |
 |---|---|---:|---:|
@@ -532,6 +540,8 @@ quadratic remainder. Its same-radius marginal comparison uses the identical
 upstream certificate. Errors across different alpha candidates are not
 assumed jointly correlated.
 
+**Table 5. N1 and N2 five-candidate objective enclosures under the original quotes; displayed values are normalized J multiplied by 10^8.**
+
 | alpha | N_t=1024 joint J ×10^8 | N_t=2048 joint J ×10^8 |
 |---:|---:|---:|
 | 0.520 | [4.825094, 6.778350] | [5.293449, 6.024095] |
@@ -539,6 +549,8 @@ assumed jointly correlated.
 | 0.530 | [6.748974, 8.517584] | [7.187004, 7.859529] |
 | 0.540 | [9.807435, 11.422182] | [10.218707, 10.839486] |
 | 0.550 | [14.000658, 15.482012] | [14.387007, 14.960680] |
+
+**Table 6. N1 and N2 strict separations among the ten pairs of five fixed candidates, using matched joint and marginal inputs.**
 
 | Generated layer | Joint strictly separated pairs | Matched marginal pairs |
 |---|---:|---:|
@@ -562,6 +574,8 @@ The use case is validation of a stored or externally fixed output: an existing p
 
 A separately frozen descriptive control reuses the complete \(N_t=2048,\alpha=.52\) residual bank with 128 history bins. Every intersected closed source cell contributes to each bin maximum, and all weights are outwardly enclosed. All five methods below use the same model, six-month \(4400-4500\) spread, 0.25-point tolerance, reference centre, node radii, strip and true-tail budget. This control does not change the prespecified nearby-grid experiment.
 
+**Table 7. N2L actual-output controls for the half-year unit 4400–4500 spread; complete bounds and the budget are in index points.**
+
 | Output | Complete joint, points | Matched marginal, points | Joint 0.25-point decision |
 |---|---:|---:|---|
 | Frozen Padé | 0.394999331 | 0.514096070 | UNRESOLVED |
@@ -573,6 +587,8 @@ A separately frozen descriptive control reuses the complete \(N_t=2048,\alpha=.5
 All five matched marginal bounds remain above 0.25 points. Direct reference and corrected fast values happen to have the same complete bound in this instance; their actual stored values are checked separately. Exact dyadic arithmetic charges the reference return, stored correction and final addition. For these freely replaceable outputs, the reference is simpler than delivering the unchanged fast result. The joint structure still changes the decision for the reference and BL outputs. The BL 512-to-1024 difference is a diagnostic, not its certified error.
 
 The certificate is not free. Its generation encloses 2,100,735 continuous frequency-by-cell residual entries, 513 reference exponents and 1,025 true-transform node bounds, plus the infinite tail and 12,300 price coefficients. Full reading checks all these entries and reconstructs the exponents, coefficients and decisions. Each additional portfolio evaluates 1,025 shared-disk support terms and the complete remainder; 28 portfolios reuse the same bank without further residual generation. This is reuse across directions at one parameter and maturity, not reuse across unverified model parameters.
+
+**Table 8. Typed deterministic work for the additional output constructions; these counts do not measure total computational cost.**
 
 | Additional output construction | Deterministic mathematical work |
 |---|---|
@@ -591,7 +607,9 @@ We froze the six-month configuration at \(\alpha=13/25\), \(\nu=2897/10000\), \(
 
 For N2L the dimensionless damping is \(\lambda T^\alpha\approx0.075205\) (more precisely, about 0.075205153821). This small value describes the strength of dissipation over the stated finite horizon and helps interpret the modest additional kernel improvement; it does not itself predict a price-error reduction or establish a new certificate. The complete budget still includes the frozen centre, finite omitted nodes and other remainder terms.
 
-The table reports upper endpoints in index points, rounded upward to nine decimals. “Global state” first bounds the state by its global residual and then applies the exponent functional; “global curve” propagates that same residual maximum directly through the curve. The final two rows use the identical 128 binwise envelopes and differ only in the pricing kernel.
+Table 9 reports upper endpoints in index points, rounded upward to nine decimals. “Global state” first bounds the state by its global residual and then applies the exponent functional; “global curve” propagates that same residual maximum directly through the curve. The final two rows use the identical 128 binwise envelopes and differ only in the pricing kernel.
+
+**Table 9. N2L matched propagation for the half-year unit 4400–4500 spread, in index points; the residual bank and all other inputs are fixed.**
 
 | Propagation | Frozen fast marginal | Frozen fast joint | Stored reference joint | Used-node joint radius |
 | --- | ---: | ---: | ---: | ---: |
@@ -604,7 +622,7 @@ The actual binary64 corrected-fast output has the same certified bounds as the s
 
 The modest gain is consistent with the fixed terms in the certificate. Even if the contribution of all 513 used reference nodes vanished, the same symmetric frozen-output budget formula would retain the absolute signed centre, finite omitted-node radius and other remainder terms. Their exact rational sum is strictly greater than the downward decimal endpoint 0.352626733 points, and is therefore greater than a quarter point. This is a floor for the declared fixed budget formula, not a lower bound on the true error, and not a floor for other certification strategies. Keeping those terms frozen prevents a quarter-point certificate through refinement of the used nodes alone. The omitted finite frequencies and the output-centre conversion therefore remain the consequential next research targets.
 
-The reconstructed global-curve and local-curve endpoints agree exactly with the saved baseline rational endpoints, including all twelve individual radii and frozen-output bounds. For example, the saved global-curve endpoint is approximately 0.4285709861017229; its strict nine-decimal upward display is 0.428570987. A previously rounded display of 0.428570986 is not a change in residuals, centres, coefficients or remainders.
+The reconstructed global-curve and local-curve endpoints agree exactly with the saved baseline rational endpoints, including all twelve individual radii and frozen-output bounds; the table displays strict nine-decimal upward endpoints.
 
 ### Verification scope and mathematical work
 
@@ -617,6 +635,8 @@ The new propagation reuses the existing bank and generates zero new residual ent
 ### 7.6. Matched ledgers and certificate resolution
 
 The quarter-maturity decision is attributable to shared aggregation. Q2 uses identical actual output, reference centre, 1025 node radii and all remainders in both columns. Finite omitted-node support is zero because every finite node has a nonzero reference. Values below are in index points; exact fractions are retained in quarter-exact-ledger.json.
+
+**Table 10. Q2 quarter-year unit-spread ledger, in index points; only aggregation of the shared node errors differs between columns.**
 
 | Component | Joint | Signed marginal |
 | --- | --- | --- |
@@ -632,6 +652,8 @@ The quarter-maturity decision is attributable to shared aggregation. Q2 uses ide
 The joint complete bound is 0.233318843 points versus 0.252393939 points for signed marginal aggregation; only the joint certificate passes the 0.25-point budget. The difference 0.019075095 points is entirely the node-support aggregation difference. Complete-bound displays are rounded upward to nine decimal places; component/centre and gap displays are approximate. Every decision and ledger identity uses exact fractional endpoints. Tiny reference arithmetic is displayed separately, and the signed centre is a locator, not an extra additive charge on top of its absolute value.
 
 Every portfolio curve uses the 28 originally fixed and fully specified directions. Exact endpoints, all threshold breakpoints and pass counts are supplied in portfolio-exact-thresholds.csv and portfolio-budget-counts.json. Certification uses the complete rational endpoint condition $B\leq\tau$, including equality. Between-bank plots show descriptive changes; joint versus signed marginal within one bank uses matched radii. No 28-direction quarterly dataset is inferred from the single quarter spread.
+
+**Table 11. Complete-budget pass counts for all 28 fixed half-year directions; budgets are in index points and equality is included.**
 
 | Bank | alpha | Budget points | Marginal | Joint |
 | --- | --- | --- | --- | --- |
@@ -659,6 +681,8 @@ Every portfolio curve uses the 28 originally fixed and fully specified direction
 
 The two nearby levels retain all ten unordered pairs, including unresolved ones:
 
+**Table 12. Complete unresolved-pair lists for N1 and N2 under the original quotes, alongside strict separation counts.**
+
 | N_t | Method | Separated pairs | Complete unresolved list |
 | --- | --- | --- | --- |
 | 1024 | joint | 7/10 | (0.520, 0.525), (0.520, 0.530), (0.525, 0.530) |
@@ -670,6 +694,8 @@ The closest N2 joint separation, alpha=.520 versus .525, is a positive gap of ap
 
 The unchanged actual half-year 4400–4500 output admits the following complete centre accounting. Signed centres are approximate displays; radius and complete-bound columns are decimal upper endpoints, so independently rounded columns need not add exactly:
 
+**Table 13. Half-year frozen-output centre accounting for H2–H4, N2 and N2L, in index points; upper-endpoint rounding is applied independently.**
+
 | Bank | Signed centre points | Complete radius points | Complete bound points |
 | --- | --- | --- | --- |
 | H2 | -0.166762218 | 0.200496564 | 0.367258782 |
@@ -678,7 +704,7 @@ The unchanged actual half-year 4400–4500 output admits the following complete 
 | N2 | -0.166762218 | 0.261808769 | 0.428570987 |
 | N2L | -0.166762218 | 0.228237113 | 0.394999331 |
 
-Expanding H2 to H3 changes the absolute centre charge as well as the paid reference radius; H3 to H4 retains that new centre. N2 to N2L retains its own reference centre and fullremainders. H4 to N2L is a descriptive cross-bank identity, not an ablation. These transitions are exact in frozen-output-centre-account.json, which also reports the common strict-reference certificate floor as a fraction of each BL-core bound. A dominant floor limits what this comparison can establish about intrinsic solver accuracy. When replacement is permitted and the strict reference is already available, returning that reference directly is the simpler workload; frozen-output audit and free replacement answer different tasks.
+Expanding H2 to H3 changes the absolute centre charge as well as the paid reference radius; H3 to H4 retains that new centre. N2 to N2L retains its own reference centre and full remainders. H4 to N2L is a descriptive cross-bank identity, not an ablation. These transitions are exact in frozen-output-centre-account.json, which also reports the common strict-reference certificate floor as a fraction of each BL-core bound. A dominant floor limits what this comparison can establish about intrinsic solver accuracy. When replacement is permitted and the strict reference is already available, returning that reference directly is the simpler workload; frozen-output audit and free replacement answer different tasks.
 
 ### 7.7. What the experiments do and do not establish
 
@@ -690,9 +716,9 @@ The fixed refinement menu certifies reliable termination when the complete task 
 
 The guarantee is conditional on the stated model, affine transform, regular reference and outward enclosures. The analytical condition on the curve is not itself a stochastic admissibility theorem. The narrow structural domain excludes general mean reversion and broad correlation calibration. Unresolved intervals, failed budgets and quote incompatibilities are valid outcomes.
 
-The fixed [V3.1 editorial release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.1.0-editorial-20261007) provides the current bilingual paper, editable manuscripts and editorial identity checks. Its small editorial archive explicitly depends on the unchanged scientific archive at the fixed [V3 research release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007). Download and extract `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`, then run `python reproduce.py --full` in that extracted directory for the declared scientific checks. The V3.1 source preserves the original source under `inherited-v3/`; `python verify_editorial.py` checks the editorial identities and inherited source bridge, rather than rerunning continuous residual generation. The current V3.1 manuscripts supersede the historical PDFs inside the scientific archive. GitHub's automatic source archive does not contain the release-only numerical banks. File checksums establish identity; scientific readers establish only the mathematical obligations that their code actually recomputes.
+The fixed [V5 editorial release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v5.0.0-editorial-20261007) provides the current bilingual paper, editable manuscripts and editorial identity checks. Its small editorial archive explicitly depends on the unchanged scientific archive at the fixed [V3 research release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007). Download and extract `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`, then run `python reproduce.py --full` in that extracted directory for the declared scientific checks. The V5 source preserves the original source under `inherited-v3/`; `python verify_editorial.py` checks the editorial identities and inherited source bridge, rather than rerunning continuous residual generation. The current V5 manuscripts supersede the historical PDFs inside the scientific archive. GitHub's automatic source archive does not contain the release-only numerical banks. File checksums establish identity; scientific readers establish only the mathematical obligations that their code actually recomputes.
 
-The verification matrix in Appendix E assigns each obligation to a generation command, reading command, recomputation scope and shared dependency. In particular, `--full` is not an assertion that every continuous derivative enclosure has been independently regenerated. It adds the specified structural coverage and reconstruction checks. Residual regeneration has separate explicit commands. The readers reconstruct history maxima, strict exponents, transform and coefficient enclosures, complete prices, objectives and decisions where listed; saved derivative bounds and common strict primitives remain part of the trusted base. An author-side fresh execution is not an external referee reproduction.
+Tables E.6, E.7 and E.10 assign each obligation to a generation command, reading command, recomputation scope and shared dependency. In particular, `--full` is not an assertion that every continuous derivative enclosure has been independently regenerated. It adds the specified structural coverage and reconstruction checks. Residual regeneration has separate explicit commands. The readers reconstruct history maxima, strict exponents, transform and coefficient enclosures, complete prices, objectives and decisions where listed; saved derivative bounds and common strict primitives remain part of the trusted base. An author-side fresh execution is not an external referee reproduction.
 
 Software versions and mathematical workload counts are sufficient to identify the numerical procedure, without personal host metadata or elapsed measurements. Counts of closed cells, interval terms, history products and direction supports have different units. They establish the amount of work performed and what is reused, rather than a speed comparison. Evidence volume is disclosed separately. A new direction at fixed parameter and maturity reuses the same certified bank; the generation cost cannot be omitted from a claimed full task.
 
@@ -914,6 +940,8 @@ For each closed rectangle, substitute these enclosures successively into (B.8), 
 The finite covering contains 211241 leaf rectangles of total rational area exactly \(2/25\). An independent check reconstructs 422481 binary-tree nodes from the root, with maximum depth 19 and each recorded leaf occurring exactly once. In addition to the area check, this excludes missing subtrees, interior overlap, and endpoint gaps. The theorem uses the order interval covered by this complete closed tree.
 
 The stronger rational margins in the complete certificate imply the following bounds. Each simplification has been independently checked using Fraction.
+
+**Table B.1. Strict lower bounds on the full compactified structural domain specified in Appendix B.**
 
 | Quantity on the full compactified domain | Strict lower bound |
 |---|---:|
@@ -1652,6 +1680,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 \]
 Thus the normalised price RMS is \(\sqrt{2J}\), rather than \(\sqrt{J/6}\). The same normalisation applies to the objective intervals, finite-candidate gap, and stability constants.
 
+**Table E.1. Historical half-year three-candidate benchmark: normalized objective, price RMS and actual Padé-output objective enclosures.**
+
 | α | H | Rigorous model J interval | Rigorous model-price RMS interval | Rigorous implemented Padé J interval |
 |---|---|---|---|---|
 | 0.52 | 0.02 | [0.0000000068962, 0.0000001833669] | [0.00011744, 0.00060559] | [0.0000000708602, 0.0000000708603] |
@@ -1662,6 +1692,8 @@ All displayed endpoints are decimal outward roundings of rational bounds; the de
 
 For ε=0, the outer set of exact optimal candidates is \(\{13/25\}\). The specified higher-H candidates with α≥.6 are strictly separated from this optimum.
 
+**Table E.2. Historical three-candidate quote-band objective and consistency decisions, using the original twelve quotes.**
+
 | α | Rigorous model J_band interval | Rows strictly excluding quote consistency | All-row quote consistency certified |
 |---|---|---|---|
 | 0.52 | [0.0000000005732, 0.0000000877280] | [8, 9] | No |
@@ -1671,6 +1703,8 @@ For ε=0, the outer set of exact optimal candidates is \(\{13/25\}\). The specif
 Least-squares ordering and quote consistency are determined separately from objective intervals and rowwise price intervals. The following tables report the prices supporting these two model-validation results.
 
 #### α=0.52, H=0.02
+
+**Table E.3. Historical alpha=0.52 price accounts: normalized quotes, model prices, actual output and its total error bound.**
 
 | K | Rigorous quote-midpoint interval | Rigorous normalised model-price interval | Implemented Padé dyadic output (displayed value) | Total model-price error bound for this output |
 |---|---|---|---|---|
@@ -1689,6 +1723,8 @@ Least-squares ordering and quote consistency are determined separately from obje
 
 #### α=0.60, H=0.10
 
+**Table E.4. Historical alpha=0.60 price accounts, with the same normalization and column meanings as Table E.3.**
+
 | K | Rigorous quote-midpoint interval | Rigorous normalised model-price interval | Implemented Padé dyadic output (displayed value) | Total model-price error bound for this output |
 |---|---|---|---|---|
 | 3700 | [0.13916863, 0.13916864] | [0.13908096, 0.13925890] | 0.13914793 | 0.00011096 |
@@ -1705,6 +1741,8 @@ Least-squares ordering and quote consistency are determined separately from obje
 | 4800 | [0.00253419, 0.00253420] | [0.00255071, 0.00275338] | 0.00270300 | 0.00015230 |
 
 #### α=0.90, H=0.40
+
+**Table E.5. Historical alpha=0.90 price accounts, with the same normalization and column meanings as Table E.3.**
 
 | K | Rigorous quote-midpoint interval | Rigorous normalised model-price interval | Implemented Padé dyadic output (displayed value) | Total model-price error bound for this output |
 |---|---|---|---|---|
@@ -1738,36 +1776,42 @@ In the verification matrix only, the ID column labels proof obligations, rather 
 
 All configuration IDs and mathematical dimensions are fixed in configuration-registry.json. The following table states the actual reader obligation. Shared elementary interval primitives, shared continuous-derivative generator, reused fixed scientific input and an independently written assembly are distinct types of dependence. These are author-side acceptance checks; no outside referee execution is presumed.
 
+**Table E.6. Proof obligations, reader locators, actual recomputation and shared dependencies of the inherited scientific evidence.**
+
 | ID | Obligation | Verification command | Recomputed | Inherited / shared |
 | --- | --- | --- | --- | --- |
-| S1 | Padé coefficient signs on the original parameter rectangle | python bc-merged-20261007/full_structure_verify.py | 211241 structural sign leaves and rectangle cover | model/parameter definitions; original strict interval algebra and generalized-power primitives |
-| S2 | Startup Caputo residual and left-halfplane enclosure | python bc-merged-20261007/startup_independent.py | all 513 frequencies for each of the three original startup cells | stored field dyadics and later-time continuous residuals; Gamma/power/dyadic outward primitives |
-| R1 | Full original alpha=.52 low-frequency continuous residual cover | python heston-nine-point-20261007/check-time-envelope.py | 8189 closed cells x513 entries: cover, saved dyadic values and per-node maxima; startup audited separately | derivative inequalities in identified continuous generator; NumPy enclosure with proved dot-product error and strict scalar primitives |
-| R2 | Full alpha=.52 high-frequency continuous residual cover | python heston-frontier-20261007/omission-verify.py | 8189 closed cells x512 entries: exact bank, startup/halfplane, saved-node maxima | identified Caputo derivative-generator inequalities; strict scalar primitives and original continuous generator |
-| P1 | Global finite-history and low-frequency128-bin price accounts | python heston-nine-point-20261007/verify-finite-history-independent.py; python heston-nine-point-20261007/independent-time-local.py | forward masses, complete cell intersections, 513 tightened radii, all 1025 finite terms and complete spread remainder | continuous residual theorem/validity and identified stored field; strict forward-moment, exponent and true-tail primitives |
-| P2 | Expanded-reference frozen half-year output account | python heston-frontier-20261007/independent-omission.py | changed reference centre, all 1025 support terms, old/new complete interval intersection, global/local high-frequency accounts | same actual fast output and continuous residual banks; original strict moment/scalar primitives |
-| Q1 | Quarter-maturity used64 certificate and actual fast output | python heston-frontier-20261007/independent-transfer.py --full | all three exact terminal interpolations, 1539 restricted exponents, three original fast-output calculations, all 3075 true finite CF/tail/price terms | larger-horizon continuous residuals and halfplane certificate; strict moment/trig/dyadic/true-tail libraries; original fast implementation used only for output replay |
-| Q2 | Quarter full128 global and128-bin complete certificate | python heston-frontier-20261007/independent-transfer-supplement.py --full | all 1025 restricted exponents, all 1025 CF/tail/coefficient/radius terms, all high bank entries, all 128 local weights and exact account | low/high continuous derivative validity; actual fast replay is separately performed by Q1; strict moment/trig/dyadic/true-tail libraries; path helpers of Q1 |
-| N1 | Fresh fields/residuals at the five nearby alpha points | python nearby_independent.py --N 1024; python nearby_independent.py --N 2048 | all cells, startup, halfplane, 513 exponents and 1025 CF/coefficient terms per point; all objective/pair decisions | strict proof of continuous residual generator and final propagation theorem; declared sdk outward primitives, stored reference data |
-| N2 | Descriptive128-bin reused-bank control, outside nearby objective grid | python local_output_independent.py | 128 exact positive weights, every intersecting closed-bank maximum, 513 tightened radii, all 12 prices and allactual output rounding | complete identity-matched N2048 point proof and continuous residual generator; same strict moment/trig/dyadic primitives |
-| C1 | Same model and complete tolerance for frozen/direct/corrected/BL-core outputs | python workload_controls_independent.py --N 2048 --local128 | exact stored-output centre translation, allsame-reference remainder and28 portfolio supports; BL nominal-output metadata identity | reference certificate, BL nominal-output producer and its stored dyadics; same strict outward coefficient primitives |
+| S1 | Padé coefficient signs on the original parameter rectangle | `full_structure_verify.py` ([S1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s1)) | 211241 structural sign leaves and rectangle cover | model/parameter definitions; original strict interval algebra and generalized-power primitives |
+| S2 | Startup Caputo residual and left-halfplane enclosure | `startup_independent.py` ([S2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s2)) | all 513 frequencies for each of the three original startup cells | stored field dyadics and later-time continuous residuals; Gamma/power/dyadic outward primitives |
+| R1 | Full original alpha=.52 low-frequency continuous residual cover | `check-time-envelope.py` ([R1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r1)) | 8189 closed cells ×513 entries: cover, saved dyadic values and per-node maxima; startup audited separately | derivative inequalities in identified continuous generator; NumPy enclosure with proved dot-product error and strict scalar primitives |
+| R2 | Full alpha=.52 high-frequency continuous residual cover | `omission-verify.py` ([R2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r2)) | 8189 closed cells ×512 entries: exact bank, startup/halfplane, saved-node maxima | identified Caputo derivative-generator inequalities; strict scalar primitives and original continuous generator |
+| P1 | Global finite-history and low-frequency 128-bin price accounts | `verify-finite-history-independent.py`; `independent-time-local.py` ([P1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p1)) | forward masses, complete cell intersections, 513 tightened radii, all 1025 finite terms and complete spread remainder | continuous residual theorem/validity and identified stored field; strict forward-moment, exponent and true-tail primitives |
+| P2 | Expanded-reference frozen half-year output account | `independent-omission.py` ([P2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p2)) | changed reference centre, all 1025 support terms, old/new complete interval intersection, global/local high-frequency accounts | same actual fast output and continuous residual banks; original strict moment/scalar primitives |
+| Q1 | Quarter-maturity used 64 certificate and actual fast output | `independent-transfer.py` ([Q1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q1)) | all three exact terminal interpolations, 1539 restricted exponents, three original fast-output calculations, all 3075 true finite CF/tail/price terms | larger-horizon continuous residuals and halfplane certificate; strict moment/trig/dyadic/true-tail libraries; original fast implementation used only for output replay |
+| Q2 | Quarter full 128 global and 128-bin complete certificate | `independent-transfer-supplement.py` ([Q2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q2)) | all 1025 restricted exponents, all 1025 CF/tail/coefficient/radius terms, all high bank entries, all 128 local weights and exact account | low/high continuous derivative validity; actual fast replay is separately performed by Q1; strict moment/trig/dyadic/true-tail libraries; path helpers of Q1 |
+| N1 | Fresh fields/residuals at the five nearby alpha points | `nearby_independent.py` ([N1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n1)) | all cells, startup, halfplane, 513 exponents and 1025 CF/coefficient terms per point; all objective/pair decisions | strict proof of continuous residual generator and final propagation theorem; declared sdk outward primitives, stored reference data |
+| N2 | Descriptive 128-bin reused-bank control, outside nearby objective grid | `local_output_independent.py` ([N2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n2)) | 128 exact positive weights, every intersecting closed-bank maximum, 513 tightened radii, all 12 prices and all actual output rounding | complete identity-matched N2048 point proof and continuous residual generator; same strict moment/trig/dyadic primitives |
+| C1 | Same model and complete tolerance for frozen/direct/corrected/BL-core outputs | `workload_controls_independent.py` ([C1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#c1)) | exact stored-output centre translation, all same-reference remainder and 28 portfolio supports; BL nominal-output metadata identity | reference certificate, BL nominal-output producer and its stored dyadics; same strict outward coefficient primitives |
 
-Exact generation commands, their empty-tree versus retained-input behavior, source hashes and boundary notes are in proof-obligation-matrix.json. Run commands in a disposable relative work copy to preserve the fixed packet. In particular, nearby_generate.py regenerates missing fields/residuals, but retains identity-matched components when present. nearby_independent.py can use an identity-matched per-point cache; the top-level fresh acceptance driver deletes every such cache before invocation.
+Copyable commands and their working directories are in the [command index](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md); proof-obligation-matrix.json retains exact generation commands, empty-tree versus retained-input behavior, source hashes and boundary notes. Run commands in a disposable relative work copy to preserve the fixed packet. In particular, nearby_generate.py regenerates missing fields/residuals, but retains identity-matched components when present. nearby_independent.py can use an identity-matched per-point cache; the top-level fresh acceptance driver deletes every such cache before invocation.
 
 For the explicitly retained V2 entrypoint source snapshots, the complete --full distinction is:
 
+**Table E.7. Scope of the retained historical entry points; the current V3 driver adds the obligations in Table E.10.**
+
 | Entry point | Additional executed obligation | Outside that command |
 | --- | --- | --- |
-| reproduce.py default | fixed-copy saved evidence readers; original frontier always requests bothquarter readers --full; new nearby reader point caches deleted by this top driver | all continuous residual generators or all structural signs |
-| reproduce.py --full | default plus all211241 original structural sign leaves | fresh low/high/new-nearby continuous derivative generation |
-| baseline/.../run_evidence.py --regenerate-continuous | original alpha=.52 513-node low continuous generator and retained8189-cell bank | new five-alpha reference/residual generation |
-| baseline/.../run_frontier.py --regenerate-full | separate-clone full 512 high continuous generator plus fresh-bank audit | alter fixed quarter input receipts |
+| reproduce.py default | fixed-copy saved evidence readers; original frontier always requests both quarter readers --full; new nearby reader point caches deleted by this top driver | all continuous residual generators or all structural signs |
+| reproduce.py --full | default plus all 211241 original structural sign leaves | fresh low/high/new-nearby continuous derivative generation |
+| `run_evidence.py` (regenerate-continuous) | original alpha=.52 513-node low continuous generator and retained 8189-cell bank | new five-alpha reference/residual generation |
+| `run_frontier.py` (regenerate-full) | separate-clone full 512 high continuous generator plus fresh-bank audit | alter fixed quarter input receipts |
 | nearby_generate.py --N N | missing field/residual/exponent components; otherwise reuses identified existing components | force regeneration over already retained scientific output |
 | publication-v2 CI source.yml | source manifest identities and retained acceptance receipt binding | NumPy bank replay, interval arithmetic replay or residual generation |
 
 Thus the retained V2 reproduce.py --full adds structural-sign regeneration. It does not regenerate all continuous residual derivatives. Its source SHA is not imposed on the new V3 top-level driver. The original low continuous generator requires run_evidence.py --regenerate-continuous; the high-frequency generator requires run_frontier.py --regenerate-full, which uses a distinct reconstruction clone and preserves the fixed transfer input receipts. The historical CI checks source identities and the retained acceptance receipt binding; it does not perform the large-bank interval replay. A stored PASS receipt, byte identities, executed recomputation and a mathematical theorem remain separately identifiable evidence.
 
 The exact closest-pair gap equals the sum of the following signed contributions; scientific notation is a display only:
+
+**Table E.8. Signed contributions to the closest-pair normalized objective gap; scientific notation displays the exact ledger.**
 
 | Gap contribution | Normalized loss contribution |
 | --- | --- |
@@ -1781,9 +1825,11 @@ The exact closest-pair gap equals the sum of the following signed contributions;
 | candidate_a_quadratic_remainder | -1.195663126282e-09 |
 | box_intersection_endpoint_adjustment | 0.000000000000e+00 |
 
-The quarterly account has zero finite omissions; its infinite tail beyond128 remains paid. The unused-node term in the nearby/global controls is nonzero and cannot be dropped by borrowing the quarter full-reference result. Exact ledger fractions and all 40 pair-mode records are delivered with independent secondary readback and intentional corruption controls.
+The quarterly account has zero finite omissions; its infinite tail beyond 128 remains paid. The unused-node term in the nearby/global controls is nonzero and cannot be dropped by borrowing the quarter full-reference result. Exact ledger fractions and all 40 pair-mode records are delivered with independent secondary readback and intentional corruption controls.
 
 Common ideal strict-reference floor in the BL-core complete bound (floors and percentages are approximate displays; exact fractions are authoritative):
+
+**Table E.9. Common strict-reference floor and output translation in BL-core certificates; price quantities are in index points.**
 
 | Bank | Nominal output | Reference floor points | Translation points | Floor / complete bound |
 | --- | --- | --- | --- | --- |
@@ -1800,11 +1846,13 @@ portfolio-pass-counts.svg and portfolio-pass-counts.pdf show the exact-endpoint 
 
 The matrix distinguishes the historical V2 driver snapshot from the current V3 entry. The V3 command additionally runs the separate dissipative-kernel reader, the exact experimental-account reader and bilingual extension-consistency checks. It still does not regenerate all upstream continuous derivative bounds.
 
+**Table E.10. Additional V3 obligations and the separate recomputation/shared-base boundary, beyond the retained historical driver.**
+
 | New obligation | Generate | Verify | Separate recomputation and shared base |
 |---|---|---|---|
-| Dissipative weights and complete prices | v3/kernel/generate.py --baseline . | v3/kernel/independent.py --baseline . | 14-layer direct series versus 12-layer moments; all 128 bins, 1025 nodes, 12 prices and 8 controls; strict primitives and upstream residual proof shared |
-| Exact experiment ledgers and thresholds | v3/audit-experiments/produce_audit.py --baseline . | v3/audit-experiments/read_audit_independent.py --baseline . | Exact saved-bank accounts, pair gaps, 504 thresholds and 9 controls; inherited derivative validity |
-| Integrated F/G mathematical text | Current editable appendix sources | v3/extensions/check_appendices.py | Bilingual formula parity and scope checks; analytic proof review and retained classical readers are separately recorded |
+| Dissipative weights and complete prices | `generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1)) | `independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1)) | 14-layer direct series versus 12-layer moments; all 128 bins, 1025 nodes, 12 prices and 8 controls; strict primitives and upstream residual proof shared |
+| Exact experiment ledgers and thresholds | `produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1)) | `read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1)) | Exact saved-bank accounts, pair gaps, 504 thresholds and 9 controls; inherited derivative validity |
+| Integrated F/G mathematical text | Current editable appendix sources | `check_appendices.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#g1)) | Bilingual formula parity and scope checks; analytic proof review and retained classical readers are separately recorded |
 
 
 ### E.3. Budget sensitivity of every fixed direction
@@ -2078,9 +2126,9 @@ The exact Asian primal and dual satisfy \(\pi^A\ge0\), \(A\pi^A\le b\), \(y\ge0\
 \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}>0.\tag{F.26}
 \]
 
-Its nonzero coordinates are approximately ((.0276833515163,.0487291439380,.923587504546)). Weak duality proves optimality. Complementary slackness forces any optimizer onto \(S\) and onto the three active equalities; nonsingularity proves uniqueness. The strictly increasing square root transfers uniqueness to \(F_A\).
+Its nonzero coordinates are approximately \((.0276833515163,\ .0487291439380,\ .923587504546)\). Weak duality proves optimality. Complementary slackness forces any optimizer onto \(S\) and onto the three active equalities; nonsingularity proves uniqueness. The strictly increasing square root transfers uniqueness to \(F_A\).
 
-The same polytope contains an exact \(\pi^B\) supported on ({5,6}). Let \(D_\omega=(\omega^2+1/16)(\omega^2+25/16)\) and \(x_\omega=d_\omega\cdot\pi^A>0\). For the auxiliary put row \(\mathscr B(\pi)=\sum_\omega\sqrt{d_\omega\cdot\pi}/\sqrt{D_\omega}\),
+The same polytope contains an exact \(\pi^B\) supported on \(\{5,6\}\). Let \(D_\omega=(\omega^2+1/16)(\omega^2+25/16)\) and \(x_\omega=d_\omega\cdot\pi^A>0\). For the auxiliary put row \(\mathscr B(\pi)=\sum_\omega\sqrt{d_\omega\cdot\pi}/\sqrt{D_\omega}\),
 
 \[
 \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0}
@@ -2097,7 +2145,7 @@ g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)>0,
 
 The second inequality follows from the coefficient triangle inequality; possible phase cancellation can only further reduce the joint support. With valid timewise product sets and the same complete catalog, the accumulated un-intersected support gap is at least this positive terminal gap. A modified catalog, probability set, or payoff intersection requires renewed analysis.
 
-The machine appendix paths are `baseline/english-heston-release/code/classical/terminal767-input.json`, `terminal767-result.json`, `verify_input_bounds.py`, and `verify_terminal.py`. The first reader regenerates 22 rows, twelve 767-step Laplace recursions, and all 918 profile entries; the second verifies the 407 exact witness checks. These establish the terminal claims and leave the complete-price premise (F.21), annual monetary endpoints, and any trading interpretation unproved by this example.
+Within `baseline/english-heston-release/code/classical/`, the machine appendices are `terminal767-input.json`, `terminal767-result.json`, `verify_input_bounds.py`, and `verify_terminal.py`. The first reader regenerates 22 rows, twelve 767-step Laplace recursions, and all 918 profile entries; the second verifies the 407 exact witness checks. These establish the terminal claims and leave the complete-price premise (F.21), annual monetary endpoints, and any trading interpretation unproved by this example.
 
 ### F.8. Standard financial propagation corollary
 
@@ -2306,13 +2354,13 @@ L_*>0.003407444052031154>0.\tag{G.17}
 
 This rejects the selected allocation \(\int\eta_c\le1/1000\), and retains the status `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`. It does not reject every sufficient allocation, minimize over the trial space, or bound the actual signed price bias from below. The portable `verify_field_receipt.py` checks exact saved interval aggregation; it does not regenerate the absent coefficient bank or rerun the archived direct integration. Accordingly, (G.17) is an archived-field necessary-condition diagnostic, while the explicit field (G.10) independently proves nonexact admissibility without that bank. No complete annual monetary PASS is inferred.
 
-The machine appendix uses `baseline/english-heston-release/code/classical/field-cell-integrals.json`, `field-result.json`, `field-independent-readback.json`, `provenance.json`, and `verify_field_receipt.py`, with publication manifests fixing their scientific identities. Contact, environment, and execution-measurement metadata are unnecessary to these mathematical assertions.
+Within `baseline/english-heston-release/code/classical/`, the machine appendix uses `field-cell-integrals.json`, `field-result.json`, `field-independent-readback.json`, `provenance.json`, and `verify_field_receipt.py`, with publication manifests fixing their scientific identities. Contact, environment, and execution-measurement metadata are unnecessary to these mathematical assertions.
 
 ## Appendix H. Research chronology and revision scope
 
-The author reports that the underlying research was conducted in 2023, that the principal articles were written in 2024, and that the materials were uploaded to GitHub in 2026. These are the author's stated chronology; the repository upload records public availability, not an independently established date of research priority.
+The author reports the project chronology as follows: the underlying research was conducted in **2023**; the principal articles were written in **2024**; and the materials were uploaded to GitHub in **2026**. Repository dates record the 2026 public upload and subsequent changes; they do not substitute for the author-reported research and writing dates or independently establish research priority.
 
-The merged revisions in 2026 include proof strengthening, rigorous dissipative pricing-kernel calculations and the declared verification work. Those additions belong to their actual revision stage; they are not retrospectively attributed to the 2023 underlying research or the 2024 writing. V3.1 makes the limited editorial changes described here and retains the existing scientific banks and numerical outcomes.
+The merged revisions in 2026 include proof strengthening, rigorous dissipative pricing-kernel calculations and the declared verification work. Those additions belong to their actual revision stage; they are not retrospectively attributed to the 2023 underlying research or the 2024 writing. The current V5 edition makes limited notation, table-caption and typography corrections and retains the existing scientific banks and numerical outcomes. The displayed implementation and evidence are the versions uploaded and revised in 2026, rather than a claim that every current source file or later result already existed in 2023 or 2024.
 
 Formula-label alignment, manuscript hashes and rendered transcription checks establish identity and consistency within their stated scope. In particular, alignment of the 169 existing equation labels is not a proof that the mathematics is correct. Mathematical validity rests on the stated hypotheses and proofs, and numerical claims on the declared certificates and verification obligations, including their inherited and shared dependencies. Author-side validation is not external referee replication.
 

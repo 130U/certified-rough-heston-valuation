@@ -1,6 +1,6 @@
 {
   "document": "report",
-  "source_sha256": "a85554a42d7346aafb182b51994ee46426a64dd52f5ecbb6005cb348c4ac5fb1",
+  "source_sha256": "4aa4340818eb8e6ffbb5ba10f7ab75a24283d81b57e591be7e85a0010b815262",
   "math_occurrences": [
     "m77c44da3663235b4c586",
     "m4faabafa110d553a7e8f",
@@ -30,7 +30,7 @@
     "mf8d17a8ecd5e2706ca65",
     "m4bc745c8fce491e68cb6",
     "ma9a1bd015f53a4e02403",
-    "m402599e771466d7bf9cc",
+    "m5285e010e9a5b30fef3a",
     "mbc3f79e215003e954f3e",
     "md014a5c21f1e34e6d38f",
     "m5964e10116031a271572",
@@ -976,7 +976,7 @@
     "mcaea1510b7e5d638a3fb",
     "mff2dbdc97360d341ed3f",
     "me2136a704eca6e51446b",
-    "md0e70fac44a0c37d6eb1",
+    "m0324f672b541ba41037c",
     "me938174458050a01cc0a",
     "me7cc4ea0523c810a63e0",
     "maa74500cdc3ca658263f",
@@ -1003,7 +1003,7 @@
     "m7c0829076800c962b76c",
     "m129414503bb09a184cea",
     "mfb1777d6170795843af6",
-    "mbd11ddda454a2719e94d",
+    "mc7f88d3a7a0a6bb969c7",
     "mf44e5236e2ffac59508a",
     "ma274f8d6582366db64d9",
     "md53a0fd9a0f160d5885d",
@@ -1019,8 +1019,10 @@
     "mb0a2969ecd4ab31f93ee",
     "m24f21df31020a02d01ee",
     "m88c72f4fa9c4ca23c4a6",
+    "me54d91106bd48833f401",
     "m8a0f86a62f2e237a7b38",
     "m8f02b14a67b8dffa7687",
+    "m587f6e42765c620dc254",
     "m69fc1ca2a39b56c7b96b",
     "m1c926cddfea0de7329ca",
     "mdbfeadd0b7f471fbe878",
@@ -1108,7 +1110,7 @@
     "mf1dac21bd25c26bacc64",
     "m7f7c963987caf337b2cc",
     "md291f97785bffedd5ce4",
-    "m66aafb62c761466bca47",
+    "madb69d3945240515b309",
     "m4b5e525b70eefd9e1b88",
     "m6527ce65ccc76b6fb469",
     "m361273c2e8f6945fa966",
@@ -1164,1850 +1166,1850 @@
       "tags": [
         "1.1"
       ],
-      "font_pt": 10.909,
-      "page": 3,
-      "width_pt": 213.79,
-      "height_pt": 12.671
+      "font_pt": 11.0,
+      "page": 1,
+      "width_pt": 215.574,
+      "height_pt": 12.777
     },
     {
       "id": "m00ec4b971bec67cded57",
       "tags": [
         "2.1"
       ],
-      "font_pt": 10.909,
-      "page": 4,
-      "width_pt": 313.634,
-      "height_pt": 27.171
+      "font_pt": 11.0,
+      "page": 2,
+      "width_pt": 316.25,
+      "height_pt": 27.398
     },
     {
       "id": "mfa54e98ebab1a41199bb",
       "tags": [
         "2.2"
       ],
-      "font_pt": 10.909,
-      "page": 4,
-      "width_pt": 273.99,
-      "height_pt": 23.955
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 276.276,
+      "height_pt": 24.155
     },
     {
       "id": "m73b571e924bd4cd50d66",
       "tags": [
         "2.3"
       ],
-      "font_pt": 10.909,
-      "page": 4,
-      "width_pt": 358.303,
-      "height_pt": 13.018
+      "font_pt": 10.778,
+      "page": 3,
+      "width_pt": 354.0,
+      "height_pt": 12.861
     },
     {
       "id": "m11b0bf4f17035fc54d60",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 4,
-      "width_pt": 365.405,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 368.453,
+      "height_pt": 12.473
     },
     {
       "id": "m77c2a22a1d07d2897979",
       "tags": [
         "2.4"
       ],
-      "font_pt": 10.909,
-      "page": 4,
-      "width_pt": 368.504,
-      "height_pt": 11.4
+      "font_pt": 10.48,
+      "page": 3,
+      "width_pt": 354.0,
+      "height_pt": 10.951
     },
     {
-      "id": "m402599e771466d7bf9cc",
+      "id": "m5285e010e9a5b30fef3a",
       "tags": [
         "2.5"
       ],
-      "font_pt": 9.055,
-      "page": 5,
-      "width_pt": 399.0,
-      "height_pt": 22.118
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 178.883,
+      "height_pt": 60.108
     },
     {
       "id": "m5964e10116031a271572",
       "tags": [
         "2.6"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 279.774,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 282.108,
+      "height_pt": 27.266
     },
     {
       "id": "me29fa557b5049ce1991e",
       "tags": [
         "2.7"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 199.97,
-      "height_pt": 27.64
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 201.638,
+      "height_pt": 27.871
     },
     {
       "id": "mc5e6672f04bf313c6b7e",
       "tags": [
         "3.1"
       ],
-      "font_pt": 10.909,
-      "page": 6,
-      "width_pt": 323.646,
-      "height_pt": 14.943
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 326.346,
+      "height_pt": 15.068
     },
     {
       "id": "m4c891714abc85e307b3a",
       "tags": [
         "3.2"
       ],
-      "font_pt": 10.909,
-      "page": 6,
-      "width_pt": 212.556,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 214.329,
+      "height_pt": 12.473
     },
     {
       "id": "maf0137a685bade2f17c1",
       "tags": [
         "3.3"
       ],
-      "font_pt": 10.909,
-      "page": 6,
-      "width_pt": 342.691,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 345.55,
+      "height_pt": 14.641
     },
     {
       "id": "m5294b7cd577dd51922b5",
       "tags": [
         "3.4"
       ],
-      "font_pt": 10.909,
-      "page": 6,
-      "width_pt": 126.237,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 127.29,
+      "height_pt": 27.266
     },
     {
       "id": "mf58da812b834dd75a393",
       "tags": [
         "3.5"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 354.733,
-      "height_pt": 31.717
+      "font_pt": 10.886,
+      "page": 5,
+      "width_pt": 354.0,
+      "height_pt": 31.651
     },
     {
       "id": "m8e5677ace37b696d1362",
       "tags": [
         "3.6"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 344.058,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 346.928,
+      "height_pt": 12.473
     },
     {
       "id": "mcd8ad45c5e18e432ffad",
       "tags": [
         "3.7"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 252.364,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 5,
+      "width_pt": 254.47,
+      "height_pt": 14.641
     },
     {
       "id": "m18daf1d4b676bf19ef2c",
       "tags": [
         "3.8"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 385.034,
-      "height_pt": 30.638
+      "font_pt": 10.03,
+      "page": 6,
+      "width_pt": 354.0,
+      "height_pt": 28.168
     },
     {
       "id": "ma2b4ae5e11cd2e7de7ea",
       "tags": [
         "4.1"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 159.566,
-      "height_pt": 14.64
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 160.897,
+      "height_pt": 14.762
     },
     {
       "id": "mef62f3fce9d4fa51a946",
       "tags": [
         "4.2"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 150.385,
-      "height_pt": 28.356
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 151.639,
+      "height_pt": 28.592
     },
     {
       "id": "m49c83d9ad28244a93c99",
       "tags": [
         "4.3"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 234.369,
-      "height_pt": 33.289
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 236.324,
+      "height_pt": 33.566
     },
     {
       "id": "m578e252998a46118f5a8",
       "tags": [
         "4.4"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 336.051,
-      "height_pt": 32.782
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 338.854,
+      "height_pt": 33.055
     },
     {
       "id": "mfc2669b849b3829c78e3",
       "tags": [
         "5.1"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 267.671,
-      "height_pt": 27.32
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 269.904,
+      "height_pt": 27.548
     },
     {
       "id": "m140637e7f29c3e07852e",
       "tags": [
         "5.2"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 176.755,
-      "height_pt": 32.497
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 178.23,
+      "height_pt": 32.768
     },
     {
       "id": "m9456c7227ddf9903b653",
       "tags": [
         "5.3"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 256.292,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 258.43,
+      "height_pt": 32.989
     },
     {
       "id": "md263a9018641aa3bb4d8",
       "tags": [
         "5.4"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 216.5,
-      "height_pt": 31.466
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 218.306,
+      "height_pt": 31.728
     },
     {
       "id": "mb16bfd39b40e4517def8",
       "tags": [
         "5.5"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 192.961,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 194.57,
+      "height_pt": 32.989
     },
     {
       "id": "m36ff1084da26dfd55f50",
       "tags": [
         "5.6"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 228.264,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 230.168,
+      "height_pt": 32.989
     },
     {
       "id": "mbcb09278b47da9b993c8",
       "tags": [
         "5.7"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 195.378,
-      "height_pt": 12.671
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 197.008,
+      "height_pt": 12.777
     },
     {
       "id": "m5b8a081dad6195cc19fc",
       "tags": [
         "5.8"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 226.447,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 228.336,
+      "height_pt": 32.989
     },
     {
       "id": "m42678cbd2ac66651c875",
       "tags": [
         "5.9"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 297.772,
-      "height_pt": 25.578
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 300.256,
+      "height_pt": 25.792
     },
     {
       "id": "me98b58bb5cce862bd945",
       "tags": [
         "5.10"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 297.611,
-      "height_pt": 13.069
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 300.093,
+      "height_pt": 13.178
     },
     {
       "id": "m522fb7e41df2c2418dad",
       "tags": [
         "5.11"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 166.244,
-      "height_pt": 18.317
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 167.631,
+      "height_pt": 18.47
     },
     {
       "id": "md5506516bbdb51bb7392",
       "tags": [
         "5.12"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 166.619,
-      "height_pt": 27.247
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 168.008,
+      "height_pt": 27.475
     },
     {
       "id": "mb241ec905cbdd22cff64",
       "tags": [
         "5.13"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 319.198,
-      "height_pt": 13.766
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 321.861,
+      "height_pt": 13.881
     },
     {
       "id": "m5e138acf3da7b691fd4b",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 281.399,
-      "height_pt": 26.171
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 283.746,
+      "height_pt": 26.389
     },
     {
       "id": "mc5de7f1e46e199c5d58e",
       "tags": [
         "5.14"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 357.414,
-      "height_pt": 27.646
+      "font_pt": 10.805,
+      "page": 9,
+      "width_pt": 354.0,
+      "height_pt": 27.382
     },
     {
       "id": "m951079131a7b70f322d3",
       "tags": [
         "5.15"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 105.058,
-      "height_pt": 17.75
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 105.934,
+      "height_pt": 17.898
     },
     {
       "id": "m2eda45737e3814cfb5a4",
       "tags": [
         "5.16"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 90.793,
-      "height_pt": 11.391
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 91.551,
+      "height_pt": 11.486
     },
     {
       "id": "m17f76c729eeec7370d36",
       "tags": [
         "5.17"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 105.573,
-      "height_pt": 17.545
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 106.454,
+      "height_pt": 17.691
     },
     {
       "id": "m9a8e85d16c1c7d8c058a",
       "tags": [
         "5.18"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 81.37,
-      "height_pt": 17.771
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 82.049,
+      "height_pt": 17.919
     },
     {
       "id": "m13a88ed267216bbcb203",
       "tags": [
         "6.1"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 298.231,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 300.719,
+      "height_pt": 11.0
     },
     {
       "id": "mc876bc2bdaec3d39d37e",
       "tags": [
         "6.2"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 295.853,
-      "height_pt": 11.391
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 298.321,
+      "height_pt": 11.486
     },
     {
       "id": "m2675d8a595b665f53550",
       "tags": [
         "6.3"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 309.067,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 311.645,
+      "height_pt": 12.473
     },
     {
       "id": "m0b6b29238b346e7c041d",
       "tags": [
         "A.1"
       ],
-      "font_pt": 9.732,
-      "page": 20,
-      "width_pt": 399.0,
-      "height_pt": 24.803
+      "font_pt": 8.634,
+      "page": 18,
+      "width_pt": 354.0,
+      "height_pt": 22.006
     },
     {
       "id": "m8946a66cdef54b6e4c48",
       "tags": [
         "A.2"
       ],
-      "font_pt": 10.909,
-      "page": 20,
-      "width_pt": 192.478,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 18,
+      "width_pt": 194.084,
+      "height_pt": 11.827
     },
     {
       "id": "m3e96e756a6cd7125a9fe",
       "tags": [
         "A.3"
       ],
-      "font_pt": 10.909,
-      "page": 20,
-      "width_pt": 152.248,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 19,
+      "width_pt": 153.518,
+      "height_pt": 11.827
     },
     {
       "id": "mcb5eecf51cabc6b0a19a",
       "tags": [
         "A.4"
       ],
-      "font_pt": 10.909,
-      "page": 20,
-      "width_pt": 359.945,
-      "height_pt": 26.891
+      "font_pt": 10.729,
+      "page": 19,
+      "width_pt": 354.0,
+      "height_pt": 26.447
     },
     {
       "id": "m5cae6b41f8cf5753301e",
       "tags": [
         "B.1"
       ],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 320.839,
-      "height_pt": 26.4
+      "font_pt": 11.0,
+      "page": 19,
+      "width_pt": 323.515,
+      "height_pt": 26.62
     },
     {
       "id": "me830f9e5ad25c593d825",
       "tags": [
         "B.2"
       ],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 334.056,
-      "height_pt": 27.053
+      "font_pt": 11.0,
+      "page": 19,
+      "width_pt": 336.843,
+      "height_pt": 27.279
     },
     {
       "id": "m88669317cbca3d2ff13d",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 229.884,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 19,
+      "width_pt": 231.802,
+      "height_pt": 14.641
     },
     {
       "id": "mcb4ccd1397395bd86d13",
       "tags": [
         "B.3"
       ],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 323.119,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 19,
+      "width_pt": 325.815,
+      "height_pt": 14.641
     },
     {
       "id": "m6651194c35e4bbf52544",
       "tags": [
         "B.4"
       ],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 365.474,
-      "height_pt": 41.454
+      "font_pt": 10.567,
+      "page": 19,
+      "width_pt": 354.0,
+      "height_pt": 40.153
     },
     {
       "id": "m8fa4bb61b46bd5de010e",
       "tags": [],
-      "font_pt": 10.814,
-      "page": 21,
-      "width_pt": 441.0,
-      "height_pt": 26.278
+      "font_pt": 9.711,
+      "page": 19,
+      "width_pt": 396.0,
+      "height_pt": 23.596
     },
     {
       "id": "m34e6579f98b2fd909fe3",
       "tags": [
         "B.5"
       ],
-      "font_pt": 10.5,
-      "page": 21,
-      "width_pt": 399.0,
-      "height_pt": 11.906
+      "font_pt": 9.316,
+      "page": 20,
+      "width_pt": 354.0,
+      "height_pt": 10.563
     },
     {
       "id": "m3c35bca81abb4266490a",
       "tags": [
         "B.6"
       ],
-      "font_pt": 10.909,
-      "page": 21,
-      "width_pt": 250.029,
-      "height_pt": 59.298
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 252.114,
+      "height_pt": 59.793
     },
     {
       "id": "m1a24945c46c868a51a0b",
       "tags": [
         "B.7"
       ],
-      "font_pt": 10.709,
-      "page": 21,
-      "width_pt": 399.0,
-      "height_pt": 12.143
+      "font_pt": 9.501,
+      "page": 20,
+      "width_pt": 354.0,
+      "height_pt": 10.773
     },
     {
       "id": "m239e8cd3cf4cb48b9df0",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 349.325,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 352.239,
+      "height_pt": 20.46
     },
     {
       "id": "m5e71bf56017ddd1c0a6f",
       "tags": [
         "B.8"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 281.426,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 283.774,
+      "height_pt": 20.46
     },
     {
       "id": "ma4be53581ff8eff48d34",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 191.917,
-      "height_pt": 13.276
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 193.518,
+      "height_pt": 13.387
     },
     {
       "id": "md24793bf1da5ee52d9c5",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 295.268,
-      "height_pt": 13.271
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 297.731,
+      "height_pt": 13.382
     },
     {
       "id": "med74b8dd1de880b63d74",
       "tags": [
         "B.9"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 131.443,
-      "height_pt": 13.758
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 132.539,
+      "height_pt": 13.873
     },
     {
       "id": "m7b985827a80e63356e1f",
       "tags": [
         "B.10"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 71.489,
-      "height_pt": 16.071
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 72.085,
+      "height_pt": 16.205
     },
     {
       "id": "m880e5f833907161cc365",
       "tags": [
         "B.11"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 258.005,
-      "height_pt": 22.483
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 260.158,
+      "height_pt": 22.671
     },
     {
       "id": "m057cb17ad00b5dcb75fe",
       "tags": [
         "B.12"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 132.623,
-      "height_pt": 32.365
+      "font_pt": 11.0,
+      "page": 20,
+      "width_pt": 133.729,
+      "height_pt": 32.635
     },
     {
       "id": "m6d67dec2151754038959",
       "tags": [
         "B.13"
       ],
-      "font_pt": 10.909,
-      "page": 22,
-      "width_pt": 224.614,
-      "height_pt": 96.304
+      "font_pt": 11.0,
+      "page": 21,
+      "width_pt": 226.488,
+      "height_pt": 97.107
     },
     {
       "id": "m57d1c2be2f9b254dedf3",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 23,
-      "width_pt": 281.665,
-      "height_pt": 11.553
+      "font_pt": 11.0,
+      "page": 21,
+      "width_pt": 284.014,
+      "height_pt": 11.649
     },
     {
       "id": "m84d8d5b4158249a56861",
       "tags": [
         "B.14"
       ],
-      "font_pt": 10.909,
-      "page": 23,
-      "width_pt": 309.393,
-      "height_pt": 11.553
+      "font_pt": 11.0,
+      "page": 21,
+      "width_pt": 311.974,
+      "height_pt": 11.649
     },
     {
       "id": "m8d6de692886f2c619f7e",
       "tags": [
         "B.15"
       ],
-      "font_pt": 10.909,
-      "page": 23,
-      "width_pt": 142.274,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 21,
+      "width_pt": 143.461,
+      "height_pt": 12.473
     },
     {
       "id": "ma79894c73bd3e68ac642",
       "tags": [
         "B.16"
       ],
-      "font_pt": 10.909,
-      "page": 24,
-      "width_pt": 347.519,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 350.418,
+      "height_pt": 12.473
     },
     {
       "id": "mc2ea55070825aa537d89",
       "tags": [
         "B.17"
       ],
-      "font_pt": 10.909,
-      "page": 24,
-      "width_pt": 279.46,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 281.791,
+      "height_pt": 11.0
     },
     {
       "id": "m264aa7a59fbd0c670161",
       "tags": [
         "B.18"
       ],
-      "font_pt": 10.909,
-      "page": 24,
-      "width_pt": 157.336,
-      "height_pt": 11.478
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 158.649,
+      "height_pt": 11.574
     },
     {
       "id": "maf4d90b885d7f3d5fd9c",
       "tags": [
         "B.19"
       ],
-      "font_pt": 10.909,
-      "page": 24,
-      "width_pt": 253.656,
-      "height_pt": 12.853
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 255.772,
+      "height_pt": 12.96
     },
     {
       "id": "m4fd38f868feb43722e6e",
       "tags": [
         "C.1"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 269.906,
-      "height_pt": 27.315
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 272.158,
+      "height_pt": 27.543
     },
     {
       "id": "m77097249491777668324",
       "tags": [
         "C.2"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 203.528,
-      "height_pt": 27.315
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 205.226,
+      "height_pt": 27.543
     },
     {
       "id": "m47fe1d0a26af39266064",
       "tags": [
         "C.3"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 280.655,
-      "height_pt": 26.508
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 282.996,
+      "height_pt": 26.729
     },
     {
       "id": "m3cc8b3b1738e4b385430",
       "tags": [
         "C.4"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 114.75,
-      "height_pt": 11.332
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 115.707,
+      "height_pt": 11.427
     },
     {
       "id": "mb64d8e32fe249e8e7971",
       "tags": [
         "C.5"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 272.223,
-      "height_pt": 24.235
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 274.494,
+      "height_pt": 24.438
     },
     {
       "id": "m8d4cd2bd7adfc085a366",
       "tags": [
         "C.6"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 276.782,
-      "height_pt": 24.195
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 279.091,
+      "height_pt": 24.397
     },
     {
       "id": "m399cf3699ac91031e000",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 311.556,
-      "height_pt": 30.146
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 314.154,
+      "height_pt": 30.397
     },
     {
       "id": "md0300564bd679bbdc53d",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 200.323,
-      "height_pt": 14.943
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 201.994,
+      "height_pt": 15.068
     },
     {
       "id": "m47c3b51ca5f6804f2a92",
       "tags": [
         "C.7"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 172.494,
-      "height_pt": 22.8
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 173.933,
+      "height_pt": 22.99
     },
     {
       "id": "m406ee5b99ebe57f89d12",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 323.902,
-      "height_pt": 32.798
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 326.604,
+      "height_pt": 33.072
     },
     {
       "id": "ma46b814e37f435ef7c28",
       "tags": [
         "C.8"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 162.268,
-      "height_pt": 23.109
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 163.622,
+      "height_pt": 23.301
     },
     {
       "id": "m4a46ee29b750a15aaf8b",
       "tags": [
         "C.9"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 185.469,
-      "height_pt": 11.332
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 187.017,
+      "height_pt": 11.427
     },
     {
       "id": "md9b7468ded30d1496c6b",
       "tags": [
         "C.10"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 287.211,
-      "height_pt": 12.776
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 289.607,
+      "height_pt": 12.882
     },
     {
       "id": "m7a2a8436a2eb4859da9a",
       "tags": [
         "C.11"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 291.4,
-      "height_pt": 27.279
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 293.831,
+      "height_pt": 27.507
     },
     {
       "id": "m4df392f219da9e84dac1",
       "tags": [
         "C.12"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 203.441,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 205.138,
+      "height_pt": 27.169
     },
     {
       "id": "mccf82987fc1aa4fe2698",
       "tags": [
         "C.13"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 108.211,
-      "height_pt": 11.066
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 109.113,
+      "height_pt": 11.158
     },
     {
       "id": "m3b0b73d6d9233be195d3",
       "tags": [
         "C.14"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 256.603,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 258.743,
+      "height_pt": 27.266
     },
     {
       "id": "mee6013969c8cd167cbff",
       "tags": [
         "C.15"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 139.646,
-      "height_pt": 9.916
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 140.811,
+      "height_pt": 9.999
     },
     {
       "id": "m9ac81c57560a40235a33",
       "tags": [
         "C.16"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 270.057,
-      "height_pt": 13.077
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 272.309,
+      "height_pt": 13.186
     },
     {
       "id": "m5aad553becf41c9fa898",
       "tags": [
         "C.17"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 224.31,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 226.181,
+      "height_pt": 27.169
     },
     {
       "id": "m5dfd6dad6e39ea5a0b7f",
       "tags": [
         "C.18"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 139.646,
-      "height_pt": 9.916
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 140.811,
+      "height_pt": 9.999
     },
     {
       "id": "ma7de2e71b1af62a43bae",
       "tags": [
         "C.19"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 152.01,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 153.278,
+      "height_pt": 26.523
     },
     {
       "id": "mcf6940a274a5abef7c1f",
       "tags": [
         "C.20"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 345.088,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 347.966,
+      "height_pt": 27.266
     },
     {
       "id": "mff751d12399655c7087f",
       "tags": [
         "C.21"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 273.126,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 275.405,
+      "height_pt": 27.169
     },
     {
       "id": "mbb973899dd5e77b2bf3e",
       "tags": [
         "C.22"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 248.107,
-      "height_pt": 35.051
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 250.176,
+      "height_pt": 35.343
     },
     {
       "id": "m7da2bf43fdb43427f75b",
       "tags": [
         "C.23"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 313.66,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 316.276,
+      "height_pt": 26.523
     },
     {
       "id": "mdd031428e1893730248c",
       "tags": [
         "C.24"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 261.991,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 264.176,
+      "height_pt": 26.523
     },
     {
       "id": "m8a79b9678000dda785c7",
       "tags": [
         "C.25"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 299.638,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 302.137,
+      "height_pt": 27.169
     },
     {
       "id": "m653a2a0f5f991ab3f32a",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 330.897,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 333.658,
+      "height_pt": 27.266
     },
     {
       "id": "mea9611020fdebc09f4d7",
       "tags": [
         "C.26"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 202.188,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 203.875,
+      "height_pt": 27.266
     },
     {
       "id": "mbcc4156454a2e215d5f3",
       "tags": [
         "C.27"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 200.45,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 202.122,
+      "height_pt": 27.169
     },
     {
       "id": "mad74a7fd6ebab039d774",
       "tags": [
         "C.28"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 171.037,
-      "height_pt": 14.437
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 172.464,
+      "height_pt": 14.557
     },
     {
       "id": "m1a15587694640797c149",
       "tags": [
         "C.29"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 189.708,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 191.29,
+      "height_pt": 14.641
     },
     {
       "id": "m360a64d5b367862b865f",
       "tags": [
         "C.30"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 327.659,
-      "height_pt": 32.638
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 330.393,
+      "height_pt": 32.91
     },
     {
       "id": "mc40903ee57186f34c687",
       "tags": [
         "C.31"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 165.666,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 167.048,
+      "height_pt": 27.169
     },
     {
       "id": "m7b092859d51b5e2c8833",
       "tags": [
         "C.32"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 297.011,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 299.488,
+      "height_pt": 32.989
     },
     {
       "id": "m014324de683a76c3d182",
       "tags": [
         "C.33"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 164.372,
-      "height_pt": 32.9
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 165.744,
+      "height_pt": 33.175
     },
     {
       "id": "m2a00a1a5b73995818b2b",
       "tags": [
         "C.34"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 277.394,
-      "height_pt": 13.08
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 279.708,
+      "height_pt": 13.189
     },
     {
       "id": "m9ee9962a2337ac1f043a",
       "tags": [
         "C.35"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 95.951,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 96.752,
+      "height_pt": 25.065
     },
     {
       "id": "md15c382a6ade7009c05a",
       "tags": [
         "D.1"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 383.293,
-      "height_pt": 14.52
+      "font_pt": 10.075,
+      "page": 29,
+      "width_pt": 354.0,
+      "height_pt": 13.41
     },
     {
       "id": "m52e2e9f3e0a8b8516eff",
       "tags": [
         "D.2"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 179.76,
-      "height_pt": 23.109
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 181.259,
+      "height_pt": 23.301
     },
     {
       "id": "m6e285b379d2996a0a848",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 279.966,
-      "height_pt": 13.909
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 282.302,
+      "height_pt": 14.025
     },
     {
       "id": "mfbcda7f2a11522c53caf",
       "tags": [
         "D.3"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 299.429,
-      "height_pt": 26.4
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 301.927,
+      "height_pt": 26.62
     },
     {
       "id": "m7877ddc5e4e5e53bab99",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 290.689,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 293.114,
+      "height_pt": 12.473
     },
     {
       "id": "m7e7a26407e6be48a28d3",
       "tags": [
         "D.4"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 230.74,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 232.664,
+      "height_pt": 11.0
     },
     {
       "id": "md2dc203dd05648f8c613",
       "tags": [
         "D.5"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 335.444,
-      "height_pt": 31.298
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 338.242,
+      "height_pt": 31.559
     },
     {
       "id": "m190e1ed3c97792ff61ad",
       "tags": [
         "D.6"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 221.239,
-      "height_pt": 21.568
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 223.084,
+      "height_pt": 21.748
     },
     {
       "id": "m258623a95c2e0f40158b",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 103.773,
-      "height_pt": 14.572
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 104.639,
+      "height_pt": 14.694
     },
     {
       "id": "m2cfdf8ca572c9c4412c1",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 349.374,
-      "height_pt": 12.916
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 352.288,
+      "height_pt": 13.024
     },
     {
       "id": "mf609b62257d7b602eca6",
       "tags": [
         "D.7"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 313.317,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 315.931,
+      "height_pt": 27.169
     },
     {
       "id": "m37180f03ccf5adf86e4a",
       "tags": [
         "D.8"
       ],
-      "font_pt": 10.719,
-      "page": 33,
-      "width_pt": 399.0,
-      "height_pt": 32.146
+      "font_pt": 9.51,
+      "page": 31,
+      "width_pt": 354.0,
+      "height_pt": 28.521
     },
     {
       "id": "m6ea16d0b0cc840d9d5d6",
       "tags": [
         "D.9"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 287.889,
-      "height_pt": 25.221
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 290.29,
+      "height_pt": 25.431
     },
     {
       "id": "mc3578c6fa9b6b1482ff1",
       "tags": [
         "D.10"
       ],
-      "font_pt": 10.222,
-      "page": 33,
-      "width_pt": 399.0,
-      "height_pt": 12.051
+      "font_pt": 9.069,
+      "page": 31,
+      "width_pt": 354.0,
+      "height_pt": 10.692
     },
     {
       "id": "ma5015857f0f276003ff7",
       "tags": [
         "D.11"
       ],
-      "font_pt": 10.627,
-      "page": 33,
-      "width_pt": 399.0,
-      "height_pt": 23.677
+      "font_pt": 9.429,
+      "page": 31,
+      "width_pt": 354.0,
+      "height_pt": 21.007
     },
     {
       "id": "mc6630b32ac1952c04dde",
       "tags": [
         "D.12"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 325.765,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 328.482,
+      "height_pt": 27.266
     },
     {
       "id": "m17fbdf4bc1fd3e99081e",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 323.993,
-      "height_pt": 27.589
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 326.696,
+      "height_pt": 27.819
     },
     {
       "id": "m4f898a053c90537575ab",
       "tags": [
         "D.13"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 255.7,
-      "height_pt": 12.422
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 257.833,
+      "height_pt": 12.526
     },
     {
       "id": "m7e112db1217e3d71e848",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 358.885,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 361.879,
+      "height_pt": 20.46
     },
     {
       "id": "m70cac8b06e82f104cd16",
       "tags": [
         "D.14"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 172.219,
-      "height_pt": 25.538
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 173.656,
+      "height_pt": 25.751
     },
     {
       "id": "m503bad42005b5caced27",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 311.669,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 314.269,
+      "height_pt": 20.46
     },
     {
       "id": "m808104676f7deb0bc89e",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 282.406,
-      "height_pt": 33.437
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 284.761,
+      "height_pt": 33.716
     },
     {
       "id": "me33e379a802619bbdce5",
       "tags": [
         "D.15"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 152.369,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 153.64,
+      "height_pt": 11.827
     },
     {
       "id": "mbeaac8487381ea9d93e0",
       "tags": [
         "D.16"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 88.642,
-      "height_pt": 26.262
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 89.382,
+      "height_pt": 26.481
     },
     {
       "id": "m95c79a1be68a6039cae1",
       "tags": [
         "D.17"
       ],
-      "font_pt": 10.909,
-      "page": 35,
-      "width_pt": 284.314,
-      "height_pt": 12.916
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 286.685,
+      "height_pt": 13.024
     },
     {
       "id": "m3d3a64e331f60dd4b631",
       "tags": [
         "D.18"
       ],
-      "font_pt": 10.909,
-      "page": 35,
-      "width_pt": 250.947,
-      "height_pt": 22.994
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 253.041,
+      "height_pt": 23.186
     },
     {
       "id": "m5a22bad6796e79af9383",
       "tags": [
         "D.19"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 109.377,
-      "height_pt": 12.389
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 110.289,
+      "height_pt": 12.493
     },
     {
       "id": "m32bc9189815dea4f9d9f",
       "tags": [
         "E.1"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 240.026,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 242.029,
+      "height_pt": 12.473
     },
     {
       "id": "mdfc1f1399e2e3da374a1",
       "tags": [
         "E.2"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 275.653,
-      "height_pt": 13.199
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 277.952,
+      "height_pt": 13.309
     },
     {
       "id": "mdfa61799347064c4f31c",
       "tags": [
         "E.3"
       ],
-      "font_pt": 10.909,
-      "page": 37,
-      "width_pt": 344.783,
-      "height_pt": 32.365
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 347.659,
+      "height_pt": 32.635
     },
     {
       "id": "m4da3290b102030252c63",
       "tags": [
         "E.4"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 174.096,
-      "height_pt": 12.502
+      "font_pt": 11.0,
+      "page": 37,
+      "width_pt": 175.548,
+      "height_pt": 12.606
     },
     {
       "id": "m8cb0ddbbb357ef0d7999",
       "tags": [
         "F.1"
       ],
-      "font_pt": 10.909,
-      "page": 44,
-      "width_pt": 234.949,
-      "height_pt": 78.268
+      "font_pt": 11.0,
+      "page": 41,
+      "width_pt": 236.909,
+      "height_pt": 78.921
     },
     {
       "id": "mdf47e10c9ad5c43bc070",
       "tags": [
         "F.2"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 343.013,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 345.874,
+      "height_pt": 11.0
     },
     {
       "id": "m1378f8f1386dcdfc2b01",
       "tags": [
         "F.3"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 156.959,
-      "height_pt": 22.994
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 158.268,
+      "height_pt": 23.186
     },
     {
       "id": "ma2d2c6970edf4333230a",
       "tags": [
         "F.4"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 257.293,
-      "height_pt": 13.406
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 259.439,
+      "height_pt": 13.518
     },
     {
       "id": "mbe629c3650b7ecb6a3d3",
       "tags": [
         "F.5"
       ],
-      "font_pt": 10.244,
-      "page": 45,
-      "width_pt": 399.0,
-      "height_pt": 22.086
+      "font_pt": 9.089,
+      "page": 42,
+      "width_pt": 354.0,
+      "height_pt": 19.595
     },
     {
       "id": "ma7641cd9157b70e8663a",
       "tags": [
         "F.6"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 309.976,
-      "height_pt": 13.012
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 312.562,
+      "height_pt": 13.121
     },
     {
       "id": "m6877977e76c82a3a6a05",
       "tags": [
         "F.7"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 342.63,
-      "height_pt": 25.706
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 345.488,
+      "height_pt": 25.92
     },
     {
       "id": "m9279f3cb41088ac1dea3",
       "tags": [
         "F.8"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 247.055,
-      "height_pt": 33.437
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 249.116,
+      "height_pt": 33.716
     },
     {
       "id": "mdc58c4c9f9f47bfc5691",
       "tags": [
         "F.9"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 231.455,
-      "height_pt": 33.579
+      "font_pt": 11.0,
+      "page": 43,
+      "width_pt": 233.386,
+      "height_pt": 33.859
     },
     {
       "id": "m9e695263674f2bc6eb2a",
       "tags": [
         "F.10"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 348.007,
-      "height_pt": 27.606
+      "font_pt": 11.0,
+      "page": 43,
+      "width_pt": 350.91,
+      "height_pt": 27.837
     },
     {
       "id": "m74c692814a2b44a43987",
       "tags": [
         "F.11"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 279.454,
-      "height_pt": 30.258
+      "font_pt": 11.0,
+      "page": 43,
+      "width_pt": 281.785,
+      "height_pt": 30.511
     },
     {
       "id": "m6abe04cc92c1307e2efc",
       "tags": [
         "F.12"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 370.905,
-      "height_pt": 22.994
+      "font_pt": 10.412,
+      "page": 43,
+      "width_pt": 354.0,
+      "height_pt": 21.946
     },
     {
       "id": "m93e4854746fbfdea96e5",
       "tags": [
         "F.13"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 320.212,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 43,
+      "width_pt": 322.883,
+      "height_pt": 11.0
     },
     {
       "id": "m5aefb7b239469c7def1c",
       "tags": [
         "F.14"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 393.464,
-      "height_pt": 12.723
+      "font_pt": 9.815,
+      "page": 43,
+      "width_pt": 354.0,
+      "height_pt": 11.447
     },
     {
       "id": "mbcd24eb945b7ef3625a7",
       "tags": [
         "F.15"
       ],
-      "font_pt": 10.909,
-      "page": 47,
-      "width_pt": 328.609,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 44,
+      "width_pt": 331.35,
+      "height_pt": 32.989
     },
     {
       "id": "m46e27e463e402351e64f",
       "tags": [
         "F.16"
       ],
-      "font_pt": 10.909,
-      "page": 47,
-      "width_pt": 315.314,
-      "height_pt": 49.411
+      "font_pt": 11.0,
+      "page": 44,
+      "width_pt": 317.944,
+      "height_pt": 49.823
     },
     {
       "id": "ma97e32a3f52856235dab",
       "tags": [
         "F.17"
       ],
-      "font_pt": 9.8,
-      "page": 47,
-      "width_pt": 399.0,
-      "height_pt": 24.408
+      "font_pt": 8.694,
+      "page": 44,
+      "width_pt": 354.0,
+      "height_pt": 21.655
     },
     {
       "id": "mcaea1510b7e5d638a3fb",
       "tags": [
         "F.18"
       ],
-      "font_pt": 10.909,
-      "page": 47,
-      "width_pt": 276.611,
-      "height_pt": 32.581
+      "font_pt": 11.0,
+      "page": 44,
+      "width_pt": 278.918,
+      "height_pt": 32.853
     },
     {
       "id": "me2136a704eca6e51446b",
       "tags": [
         "F.19"
       ],
-      "font_pt": 10.909,
-      "page": 47,
-      "width_pt": 277.118,
-      "height_pt": 57.807
+      "font_pt": 11.0,
+      "page": 44,
+      "width_pt": 279.43,
+      "height_pt": 58.289
     },
     {
-      "id": "md0e70fac44a0c37d6eb1",
+      "id": "m0324f672b541ba41037c",
       "tags": [
         "F.20"
       ],
-      "font_pt": 8.692,
-      "page": 47,
-      "width_pt": 399.0,
-      "height_pt": 17.097
+      "font_pt": 11.0,
+      "page": 44,
+      "width_pt": 313.317,
+      "height_pt": 38.037
     },
     {
       "id": "maa74500cdc3ca658263f",
       "tags": [
         "F.21"
       ],
-      "font_pt": 10.909,
-      "page": 48,
-      "width_pt": 238.353,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 45,
+      "width_pt": 240.341,
+      "height_pt": 25.065
     },
     {
       "id": "me5769b48cea6a1fd0cb7",
       "tags": [
         "F.22"
       ],
-      "font_pt": 10.909,
-      "page": 48,
-      "width_pt": 299.333,
-      "height_pt": 34.05
+      "font_pt": 11.0,
+      "page": 45,
+      "width_pt": 301.83,
+      "height_pt": 34.334
     },
     {
       "id": "mc186cfdfd4dac1c2c147",
       "tags": [
         "F.23"
       ],
-      "font_pt": 10.909,
-      "page": 48,
-      "width_pt": 234.425,
-      "height_pt": 33.209
+      "font_pt": 11.0,
+      "page": 45,
+      "width_pt": 236.38,
+      "height_pt": 33.486
     },
     {
       "id": "m1887be7deb6df90a9560",
       "tags": [
         "F.24"
       ],
-      "font_pt": 10.909,
-      "page": 48,
-      "width_pt": 314.199,
-      "height_pt": 56.107
+      "font_pt": 11.0,
+      "page": 45,
+      "width_pt": 316.82,
+      "height_pt": 56.575
     },
     {
-      "id": "mbd11ddda454a2719e94d",
+      "id": "mc7f88d3a7a0a6bb969c7",
       "tags": [
         "F.25"
       ],
-      "font_pt": 8.559,
-      "page": 49,
-      "width_pt": 399.0,
-      "height_pt": 24.86
+      "font_pt": 11.0,
+      "page": 46,
+      "width_pt": 314.744,
+      "height_pt": 49.373
     },
     {
       "id": "m88c72f4fa9c4ca23c4a6",
       "tags": [
         "F.26"
       ],
-      "font_pt": 10.909,
-      "page": 49,
-      "width_pt": 301.449,
-      "height_pt": 15.054
+      "font_pt": 11.0,
+      "page": 46,
+      "width_pt": 303.964,
+      "height_pt": 15.18
     },
     {
       "id": "mc2f25ec23dd71742fede",
       "tags": [
         "F.27"
       ],
-      "font_pt": 10.909,
-      "page": 49,
-      "width_pt": 355.201,
-      "height_pt": 29.859
+      "font_pt": 10.872,
+      "page": 46,
+      "width_pt": 354.0,
+      "height_pt": 29.758
     },
     {
       "id": "mb47286503e839ee648e5",
       "tags": [
         "F.28"
       ],
-      "font_pt": 10.909,
-      "page": 49,
-      "width_pt": 388.552,
-      "height_pt": 11.109
+      "font_pt": 9.939,
+      "page": 46,
+      "width_pt": 354.0,
+      "height_pt": 10.121
     },
     {
       "id": "ma848d335aee88a921f68",
       "tags": [
         "F.29"
       ],
-      "font_pt": 10.909,
-      "page": 49,
-      "width_pt": 289.374,
-      "height_pt": 28.182
+      "font_pt": 11.0,
+      "page": 46,
+      "width_pt": 291.788,
+      "height_pt": 28.417
     },
     {
       "id": "m9b88a32a994287e0cb97",
       "tags": [
         "F.30"
       ],
-      "font_pt": 10.909,
-      "page": 50,
-      "width_pt": 204.448,
-      "height_pt": 27.866
+      "font_pt": 11.0,
+      "page": 46,
+      "width_pt": 206.153,
+      "height_pt": 28.098
     },
     {
       "id": "m6669c6ced7fbfd27a103",
       "tags": [
         "G.1"
       ],
-      "font_pt": 10.909,
-      "page": 50,
-      "width_pt": 258.623,
-      "height_pt": 13.406
+      "font_pt": 11.0,
+      "page": 47,
+      "width_pt": 260.78,
+      "height_pt": 13.518
     },
     {
       "id": "m47fbe2ca32be684a53bf",
       "tags": [
         "G.2"
       ],
-      "font_pt": 10.677,
-      "page": 50,
-      "width_pt": 399.0,
-      "height_pt": 29.94
+      "font_pt": 9.473,
+      "page": 47,
+      "width_pt": 354.0,
+      "height_pt": 26.563
     },
     {
       "id": "m0e82f8c406d0992697ec",
       "tags": [
         "G.3"
       ],
-      "font_pt": 10.909,
-      "page": 50,
-      "width_pt": 383.259,
-      "height_pt": 20.873
+      "font_pt": 10.076,
+      "page": 47,
+      "width_pt": 354.0,
+      "height_pt": 19.28
     },
     {
       "id": "md727dd49a4aa000aff7a",
       "tags": [
         "G.4"
       ],
-      "font_pt": 10.909,
-      "page": 51,
-      "width_pt": 335.334,
-      "height_pt": 41.137
+      "font_pt": 11.0,
+      "page": 47,
+      "width_pt": 338.131,
+      "height_pt": 41.48
     },
     {
       "id": "md2cb4aad7be4a11b1f43",
       "tags": [
         "G.5"
       ],
-      "font_pt": 10.909,
-      "page": 51,
-      "width_pt": 237.439,
-      "height_pt": 26.053
+      "font_pt": 11.0,
+      "page": 48,
+      "width_pt": 239.419,
+      "height_pt": 26.27
     },
     {
       "id": "m5bd3555ac5815f95b0ef",
       "tags": [
         "G.6"
       ],
-      "font_pt": 10.909,
-      "page": 51,
-      "width_pt": 344.361,
-      "height_pt": 37.326
+      "font_pt": 11.0,
+      "page": 48,
+      "width_pt": 347.234,
+      "height_pt": 37.638
     },
     {
       "id": "m07fba9c30bd22f25f00e",
       "tags": [
         "G.7"
       ],
-      "font_pt": 10.909,
-      "page": 51,
-      "width_pt": 116.127,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 48,
+      "width_pt": 117.096,
+      "height_pt": 25.065
     },
     {
       "id": "m3c0cc0fdb013a7ed7ffc",
       "tags": [
         "G.8"
       ],
-      "font_pt": 10.909,
-      "page": 51,
-      "width_pt": 203.615,
-      "height_pt": 30.013
+      "font_pt": 11.0,
+      "page": 48,
+      "width_pt": 205.314,
+      "height_pt": 30.263
     },
     {
       "id": "ma063825222ddc0c5ee3f",
       "tags": [
         "G.9"
       ],
-      "font_pt": 10.909,
-      "page": 52,
-      "width_pt": 374.442,
-      "height_pt": 69.568
+      "font_pt": 10.313,
+      "page": 48,
+      "width_pt": 354.0,
+      "height_pt": 65.77
     },
     {
       "id": "m0be66eb79dd20af3ee0c",
       "tags": [
         "G.10"
       ],
-      "font_pt": 10.909,
-      "page": 52,
-      "width_pt": 357.221,
-      "height_pt": 13.018
+      "font_pt": 10.811,
+      "page": 49,
+      "width_pt": 354.0,
+      "height_pt": 12.9
     },
     {
       "id": "m8a5479d497429e3b4520",
       "tags": [
         "G.11"
       ],
-      "font_pt": 10.909,
-      "page": 52,
-      "width_pt": 197.919,
-      "height_pt": 13.018
+      "font_pt": 11.0,
+      "page": 49,
+      "width_pt": 199.57,
+      "height_pt": 13.126
     },
     {
       "id": "m7f7c963987caf337b2cc",
       "tags": [
         "G.12"
       ],
-      "font_pt": 10.909,
-      "page": 52,
-      "width_pt": 333.198,
-      "height_pt": 26.955
+      "font_pt": 11.0,
+      "page": 49,
+      "width_pt": 335.977,
+      "height_pt": 27.18
     },
     {
-      "id": "m66aafb62c761466bca47",
+      "id": "madb69d3945240515b309",
       "tags": [
         "G.13"
       ],
-      "font_pt": 9.129,
-      "page": 52,
-      "width_pt": 399.0,
-      "height_pt": 11.298
+      "font_pt": 11.0,
+      "page": 49,
+      "width_pt": 265.033,
+      "height_pt": 28.4
     },
     {
       "id": "mb63e4480d1cd43ec201a",
       "tags": [
         "G.14"
       ],
-      "font_pt": 10.909,
-      "page": 53,
-      "width_pt": 275.202,
-      "height_pt": 44.757
+      "font_pt": 11.0,
+      "page": 49,
+      "width_pt": 277.498,
+      "height_pt": 45.131
     },
     {
       "id": "m363a13ec15cac3617fa6",
       "tags": [
         "G.15"
       ],
-      "font_pt": 10.909,
-      "page": 53,
-      "width_pt": 221.89,
-      "height_pt": 32.666
+      "font_pt": 11.0,
+      "page": 50,
+      "width_pt": 223.741,
+      "height_pt": 32.938
     },
     {
       "id": "m6f2e014303fe66924b03",
       "tags": [
         "G.16"
       ],
-      "font_pt": 10.909,
-      "page": 53,
-      "width_pt": 267.742,
-      "height_pt": 26.83
+      "font_pt": 11.0,
+      "page": 50,
+      "width_pt": 269.975,
+      "height_pt": 27.053
     },
     {
       "id": "m41a8e1b87393869ddfda",
       "tags": [
         "G.17"
       ],
-      "font_pt": 10.909,
-      "page": 53,
-      "width_pt": 270.76,
-      "height_pt": 27.603
+      "font_pt": 11.0,
+      "page": 50,
+      "width_pt": 273.019,
+      "height_pt": 27.833
     }
   ],
   "headings": [
@@ -3263,87 +3265,87 @@
   "contents": [
     {
       "text": "1. 研究问题与贡献",
-      "page": 3,
+      "page": 1,
       "key": "heading-0"
     },
     {
       "text": "2. 模型、单位与固定配置",
-      "page": 4,
+      "page": 2,
       "key": "heading-3"
     },
     {
       "text": "3. 有限历史传播：非扩张与耗散",
-      "page": 6,
+      "page": 4,
       "key": "heading-4"
     },
     {
       "text": "4. 连续认证与完整 Fourier 价格",
-      "page": 7,
+      "page": 6,
       "key": "heading-6"
     },
     {
       "text": "5. 共同误差与金融判定",
-      "page": 8,
+      "page": 7,
       "key": "heading-7"
     },
     {
       "text": "6. 指定有理输出的结构",
-      "page": 12,
+      "page": 10,
       "key": "heading-10"
     },
     {
       "text": "7. 匹配判定与科学对照",
-      "page": 12,
+      "page": 10,
       "key": "heading-11"
     },
     {
       "text": "8. 适用范围与固定复现入口",
-      "page": 19,
+      "page": 17,
       "key": "heading-20"
     },
     {
       "text": "附录 A. 概率模型及条带变换的文献应用核验",
-      "page": 20,
+      "page": 18,
       "key": "heading-21"
     },
     {
       "text": "附录 B. 精确构造与结构证书",
-      "page": 21,
+      "page": 19,
       "key": "heading-22"
     },
     {
       "text": "附录 C. 完整传播证明与解析变体",
-      "page": 25,
+      "page": 23,
       "key": "heading-26"
     },
     {
       "text": "附录 D. 连续认证与可靠精化",
-      "page": 31,
+      "page": 29,
       "key": "heading-32"
     },
     {
       "text": "附录 E. 完整实验与验证职责",
-      "page": 36,
+      "page": 34,
       "key": "heading-38"
     },
     {
       "text": "附录 F. 经典 Heston 原链联合包含",
-      "page": 44,
+      "page": 41,
       "key": "heading-45"
     },
     {
       "text": "附录 G. 非精确试探函数与有符号误差恒等式",
-      "page": 50,
+      "page": 47,
       "key": "heading-54"
     },
     {
       "text": "附录 H. 研究时间线与修订范围",
-      "page": 53,
+      "page": 50,
       "key": "heading-60"
     },
     {
       "text": "参考文献",
-      "page": 54,
+      "page": 51,
       "key": "heading-61"
     }
   ],
@@ -3914,45 +3916,45 @@
         ],
         [
           "N1",
-          "五个邻近alpha点的新场与残差",
+          "13/25",
           "1/4",
-          "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
-          "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+          "0/28",
+          "0/28"
         ],
         [
           "N1",
-          "五个邻近alpha点的新场与残差",
+          "13/25",
           "1/2",
-          "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
-          "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+          "0/28",
+          "4/28"
         ],
         [
           "N1",
-          "五个邻近alpha点的新场与残差",
+          "13/25",
           "1",
-          "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
-          "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+          "15/28",
+          "28/28"
         ],
         [
           "N2",
-          "邻近目标网格之外的描述性128区间复用对照",
+          "13/25",
           "1/4",
-          "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
-          "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+          "0/28",
+          "0/28"
         ],
         [
           "N2",
-          "邻近目标网格之外的描述性128区间复用对照",
+          "13/25",
           "1/2",
-          "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
-          "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+          "6/28",
+          "23/28"
         ],
         [
           "N2",
-          "邻近目标网格之外的描述性128区间复用对照",
+          "13/25",
           "1",
-          "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
-          "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+          "28/28",
+          "28/28"
         ],
         [
           "N2L",
@@ -4450,77 +4452,77 @@
         [
           "S1",
           "原参数矩形上的Padé系数符号",
-          "python bc-merged-20261007/full_structure_verify.py",
+          "`full_structure_verify.py` ([S1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s1))",
           "211241个结构符号叶及矩形覆盖",
           "模型与参数定义；原严格区间代数及广义幂原语"
         ],
         [
           "S2",
           "初始单元Caputo残差与左半平面",
-          "python bc-merged-20261007/startup_independent.py",
+          "`startup_independent.py` ([S2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s2))",
           "三种原候选各513个频率的全部初始单元",
           "保存的dyadic场及后续连续残差；Gamma、幂和二进向外原语"
         ],
         [
           "R1",
           "原alpha=.52低频连续残差完整覆盖",
-          "python heston-nine-point-20261007/check-time-envelope.py",
+          "`check-time-envelope.py` ([R1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r1))",
           "8189个闭单元×513项：覆盖、保存dyadic值及逐节点最大值；初始单元另审",
           "固定连续生成器的导数不等式；附已证点积误差的NumPy包含及严格标量原语"
         ],
         [
           "R2",
           "alpha=.52高频连续残差完整覆盖",
-          "python heston-frontier-20261007/omission-verify.py",
+          "`omission-verify.py` ([R2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r2))",
           "8189个闭单元×512项：精确银行、初始单元/半平面及节点最大值",
           "固定Caputo导数生成器不等式；严格标量原语及原连续生成器"
         ],
         [
           "P1",
           "全局有限历史与低频128区间价格账本",
-          "python heston-nine-point-20261007/verify-finite-history-independent.py; python heston-nine-point-20261007/independent-time-local.py",
+          "`verify-finite-history-independent.py`; `independent-time-local.py` ([P1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p1))",
           "前向质量、完整单元交集、513个收紧半径、1025个有限项及完整价差余项",
           "连续残差定理与合法性及固定场；严格前向矩、指数和真实尾原语"
         ],
         [
           "P2",
           "扩展参考的冻结半年输出账本",
-          "python heston-frontier-20261007/independent-omission.py",
+          "`independent-omission.py` ([P2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p2))",
           "更新的参考中心、1025个支持项、新旧完整区间交集及全局/局部高频账本",
           "同一实际快输出与连续残差银行；原严格矩与标量原语"
         ],
         [
           "Q1",
           "季度through64证书及实际快输出",
-          "python heston-frontier-20261007/independent-transfer.py --full",
+          "`independent-transfer.py` ([Q1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q1))",
           "三个精确终端插值、1539个限制指数、三批原快输出和3075个真实有限CF/尾/价格项",
           "较长期限的连续残差与半平面证书；严格矩/三角/dyadic/真实尾库；原快实现仅供输出重放"
         ],
         [
           "Q2",
           "季度through128全局及128区间完整证书",
-          "python heston-frontier-20261007/independent-transfer-supplement.py --full",
+          "`independent-transfer-supplement.py` ([Q2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q2))",
           "1025个限制指数及CF/尾/系数/半径项、全部高频银行项、128局部权重及精确账本",
           "低/高频连续导数合法性；实际输出另由Q1重放；严格原语及Q1路径帮助器"
         ],
         [
           "N1",
           "五个邻近alpha点的新场与残差",
-          "python nearby_independent.py --N 1024; python nearby_independent.py --N 2048",
+          "`nearby_independent.py` ([N1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n1))",
           "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
           "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
         ],
         [
           "N2",
           "邻近目标网格之外的描述性128区间复用对照",
-          "python local_output_independent.py",
+          "`local_output_independent.py` ([N2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n2))",
           "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
           "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
         ],
         [
           "C1",
           "同模型完整容差下的冻结/直接/修正/BL核心输出",
-          "python workload_controls_independent.py --N 2048 --local128",
+          "`workload_controls_independent.py` ([C1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#c1))",
           "保存输出的精确中心平移、同参考全部余项及28组合支持；BL名义输出元数据身份",
           "参考证书、BL名义输出生成器及保存dyadic值；同一严格向外系数原语"
         ]
@@ -4537,22 +4539,22 @@
         ],
         [
           "reproduce.py default",
-          "fixed-copy saved evidence readers; original frontier always requests bothquarter readers --full; new nearby reader point caches deleted by this top driver",
-          "allcontinuous residual generators or allstructural signs"
+          "fixed-copy saved evidence readers; original frontier always requests both quarter readers --full; new nearby reader point caches deleted by this top driver",
+          "all continuous residual generators or all structural signs"
         ],
         [
           "reproduce.py --full",
-          "default plus all211241 original structural sign leaves",
+          "default plus all 211241 original structural sign leaves",
           "fresh low/high/new-nearby continuous derivative generation"
         ],
         [
-          "baseline/.../run_evidence.py --regenerate-continuous",
-          "original alpha=.52 513-node low continuous generator and retained8189-cell bank",
+          "`run_evidence.py` (regenerate-continuous)",
+          "original alpha=.52 513-node low continuous generator and retained 8189-cell bank",
           "new five-alpha reference/residual generation"
         ],
         [
-          "baseline/.../run_frontier.py --regenerate-full",
-          "separate-clone full512 high continuous generator plus fresh-bank audit",
+          "`run_frontier.py` (regenerate-full)",
+          "separate-clone full 512 high continuous generator plus fresh-bank audit",
           "alter fixed quarter input receipts"
         ],
         [
@@ -4626,31 +4628,31 @@
         ],
         [
           "N1",
-          "五个邻近alpha点的新场与残差",
+          "BL modified-Adams core, 512 steps",
           "0.423484833",
-          "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
-          "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+          "0.000853401",
+          "99.798887%"
         ],
         [
           "N1",
-          "五个邻近alpha点的新场与残差",
+          "BL modified-Adams core, 1024 steps",
           "0.423484833",
-          "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
-          "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+          "0.000305328",
+          "99.927953%"
         ],
         [
           "N2",
-          "邻近目标网格之外的描述性128区间复用对照",
+          "BL modified-Adams core, 512 steps",
           "0.261808768",
-          "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
-          "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+          "0.000845646",
+          "99.678039%"
         ],
         [
           "N2",
-          "邻近目标网格之外的描述性128区间复用对照",
+          "BL modified-Adams core, 1024 steps",
           "0.261808768",
-          "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
-          "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+          "0.000297572",
+          "99.886469%"
         ],
         [
           "N2L",
@@ -4680,20 +4682,20 @@
         ],
         [
           "耗散权重与完整价格",
-          "v3/kernel/generate.py --baseline .",
-          "v3/kernel/independent.py --baseline .",
+          "`generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1))",
+          "`independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1))",
           "14层直接级数对12层矩公式；128区间、1025节点、12价格和8负控；共用严格原语并继承上游残差证明"
         ],
         [
           "精确实验账本与阈值",
-          "v3/audit-experiments/produce_audit.py --baseline .",
-          "v3/audit-experiments/read_audit_independent.py --baseline .",
+          "`produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1))",
+          "`read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1))",
           "保存银行精确分账、候选间隙、504阈值及9负控；继承导数界有效性"
         ],
         [
           "整合F/G数学文本",
           "当前可编辑附录来源",
-          "v3/extensions/check_appendices.py",
+          "`check_appendices.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#g1))",
           "双语公式及范围核查；解析证明复核与经典读取器实际运行另有记录"
         ]
       ]
@@ -4709,6 +4711,7 @@
     "首要分析贡献，是通过有限历史核把耗散复 Riccati 残差传至 Heston 定价指数。定理3.1提前给出，显式保留曲线初值项与物理因子 MX000008Z。Caputo 凸性和正预解核提供既有比较机制；这里发展的贡献是模型特定的定价泛函连接、可认证历史权重及完整输出预算。",
     "第二条贡献是完整实现层金融认证。共同变换圆盘平移到实际输出，在组合及有限目标方向上求界。季度匹配实验隔离了共同结构改变认证决定的效果。统一消融分别解释传播、逐时包络、省略频率认证与重新定中心。支持函数、凸性以及已知单位成本菜单的排序均作为既有工具，不分别列为原创贡献。",
     "第三条贡献是指定 Gatheral–Radoičić 有理构造的可检查结构域，以及独立生成的参考证书。全频率结论明确限制相关系数、分数阶阶数和均值回复。数值参考的残差证书不由代数符号证明代替。邻近参数合同与输出对照进一步检验可迁移性及适当工作负载。",
+    "**表 1. 有理输出与独立参考两条证明支线的依赖。**",
     "两条证明支线共享数学模型。Padé 符号证书本身不认证价格误差；独立残差路径也不要求 Padé 轨迹充当参考场。",
     "Gatheral–Radoičić [GR2019, GR2023v1] 提出两端有理近似，Jeng–Kiliçman [JK2020, JK2021] 分析全局 Padé 与公开 SPX 数据。本文使用其公式及匹配方法，结构结论针对明确认证域内的原始匹配系统。",
     "Abi Jaber–El Euch [AbiJaberElEuch2018v1] 提供 Volterra 模型与仿射变换；Li–Liu [LiLiu2018] 通过正则化建立 Caputo 凸性；Kopteva [Kopteva2021v2] 以正分数阶逆传播逐时残差；Simon [SimonCM2015] 支撑 Mittag–Leffler 正性，Trefethen–Weideman [TrefethenWeideman2014] 提供条带梯形规则。本文写清所需正则性桥接并注明归属。",
@@ -4726,6 +4729,7 @@
     " 记 MX000032Z，模型欧式看涨价格为 ",
     " 下文的价格由所列模型、输入十进制数和归一化约定共同确定。",
     "全部实验使用模型参数 MX000034Z、MX000035Z、Riccati 均值回复为零、Fourier 步长 MX000036Z、截至128的有限参考/误差网格（1025节点）、100位向外舍入二进有理算术及64项前向曲线矩级数。实际 Padé 输出采用截至200的8阶复合 Gauss–Legendre（352节点）和256阶 Jacobi；输出截断与证书截断不同。MX000037Z 表示源时间单元数，频率节点数直接列出，以免与 MX000038Z 混淆。",
+    "**表 2. 固定配置：期限单位为年；时间单元、参考节点、残差子单元和历史分区均为计数。**",
     "H0是旧全时统一状态传播；H1在同一参考场上使用有限期限全局传播。H2保留旧低频128分区bank。H3/H4将同一参考场的参考中心扩至128，保留低频bank，并分别对新增高频bank采用全局/128分区传播。Q0/Q1/Q2均从初始时刻保留完整历史，在旧半年场上精确插值得到季度终点：Q0有1430/1353/550个时间结点，Q1/Q2有1430个。它们复用较长期限的连续残差bank，重新计算季度矩、输出与尾部。旧 alpha=.9 源场有1025个时间结点、截至80的641个存储频率，H0/H1/Q0实际只用其中513个非零参考节点；.52/.60旧场有2049个时间结点、截至128的1025个存储频率。",
     "N1/N2为每个五点候选分别重新生成场和完整连续残差bank，非初始时间单元分成两个闭子单元（2047/4095闭单元）。N2L是事先单独冻结的、alpha=.52下复用N2的描述性128分区对照，不替换邻近网格目标实验。旧低频、高频bank均有8189个闭时间单元（四个非初始子单元），对应513、512个频率。因此H4的0.115215934点与N2L的0.394999331点涉及不同参考中心、参考节点覆盖和残差bank，不能仅归因于128分区传播。BL-core512/1024是名义历史步进对照，其完整保证继承明确标注的N1/N2/N2L参考bank。",
     "H与N参考场生成器先在零至 MX000039Z 上建立均匀辅助网格 MX000040Z，再取 MX000041Z、MX000042Z。精确算术下对应分级规则 MX000043Z。生成使用binary64算术，并将端点强制为零及二分之一；认证把保存节点作为精确二进有理数，不声称它们恰等于解析规则。季度限制保留所有严格小于 MX000044Z 的原节点，追加精确终点，并在有理区间算术中包含原相邻场系数的线性插值，保留此前全部历史。",
@@ -4799,40 +4803,51 @@
     "狭窄相关系数区间量化固定公开参数附近的局部持续性，不是宽校准参数盒定理。完整闭覆盖及导数/直接后备记录见附录B.2；导数界针对紧化后的量。第4节独立参考路线不将此Padé符号证明作为残差证书。",
     "原半年合同使用十二执行价 MX000221Z，MX000222Z，远期 MX000223Z、贴现 MX000224Z，前向方差曲线固定为(2.4)。价格和任务误差均为指数点，持仓乘数为一，不推定交易所特定货币名义本金。候选只改变 MX000225Z，曲线和其他参数保持不变。三候选 MX000226Z 是有限比较，且与多条原 bid/ask 区间不兼容，不表示市场拟合成功或连续最优解。",
     "下表比较 MX000227Z 减 MX000228Z 的完整任务界。每行保留实际输出、有符号中心、有限节点、条带、真实尾及算术；展示的上界向上舍入。季度研究重算对应期限的参考积分、真实变换包络和尾界，上游完整历史证书依法限制到短期限；不复用半年指数或尾数值。",
+    "**表 3. H0–H4及Q0–Q2单位价差的完整证书，单位为指数点；输出及参考变化由配置区分。**",
     "相对表中原完整界，首个有限历史改进约72.91%。收紧的是保证误差界，不是观测到的真实误差或交易损失。半年高频精化合法地把中心从约 MX000229Z 更新至 MX000230Z 点，不能把全部收益归于共同几何。末行使用相同输出、中心、节点半径及余项，隔离了共同变量改变认证决定的作用。该逐时精化在全局阶段失败后另行固定，属于探索性期限迁移，不能事后改称预注册实验。",
     "以下匹配通过数表使用各所列alpha的H1配置。",
     "令 MX000231Z 选取 MX000232Z。以下持仓不为通过预算而重新缩放；总绝对权重为 MX000233Z。阈值均是指定持仓的指数点绝对误差。",
+    "**表 4. 十二个执行价上的28个固定组合方向；总绝对权重为持仓权重绝对值之和。**",
     "每组匹配比较的上游半径相同。有限历史方法在 MX000238Z、0.5点预算下，联合通过28/28，边际13/28；0.25点预算下，MX000239Z 分别10/28与1/28，MX000240Z 分别20/28与13/28。MX000241Z 的1点预算下两种新方法均通过28/28，该宽松阈值不能单独识别共同结构收益。合法 payoff 交集在测试中没有进一步收紧。未通过只表示当前外界不足，不表示真实误差超过预算。",
     "两层目标列分别对应N1和N2配置。",
     "固定原半年 12 条报价、F=4221.86、D=1 及其余模型参数。新结果计算之前 冻结 alpha={0.520,0.525,0.530,0.540,0.550} 和第一层 N_t=1024；只要任一 相邻 joint 比较 unresolved，就把**全部五点**升级到 N_t=2048。 每点重新生成连续参考场、完整闭时间残差银行；64 以内已用节点、128 以内 全部有限省略节点、真无限尾、条带、参考算术和原报价转换不确定性全付。 目标为归一化价格平方 MX000242Z；若改用指数点平方须统一乘 MX000243Z。目标区间半宽只支付固定 bid/ask 价格 中点转换的外向算术误差，不是市场 bid/ask 半宽；排名不证明对任意市场 band 内报价目标的统一最优。Taylor 线性项保留共同 Fourier disks， 二次余项按完整坐标半径支付；marginal 对照使用同样上游半径。 不同 alpha 候选的误差没有被假定相关。",
+    "**表 5. 原报价下N1和N2五候选目标区间；显示值为归一化J乘以10^8。**",
+    "**表 6. N1和N2五个固定候选的十对严格分离计数；联合与边际使用匹配输入。**",
     "第一层保留 unresolved 近邻并触发预先固定的全点升级。 最终五点集合认证 alpha=0.520 是严格最小候选。 这不是连续校准最优性。五点均仍与至少一条原 bid/ask 报价不兼容， 因此也不是市场模型识别。",
     "两层全量生成共15,754,230个闭单元残差条目、5,130个参考指数和10,250个真实变换包络。独立读取器检查完整覆盖及最大值，重构指数、系数和目标并拒绝故意破坏；共享已披露的严格原语，不冒称重新独立推导每个残差导数。",
     "详细匹配输出表使用N2L；前述失败层为N1和N2。",
     "适用场景是存储或外部固定输出的验证：既有定价库审计、可重建的历史结果，或待检查任务中不能替换的生产输出。如果参考已经可用且允许更换返回值，直接返回其认证中心是合理对照。中心修正快速值也必须计入修正量的存储和最终加法舍入。下游支持函数便于复用，不自动意味着整个参考路线适合作为经济的在线求解器。",
     "另行固定的描述性对照复用完整 MX000244Z 残差库及128历史分区：每个分区对全部相交闭源单元取最大，权重向外包围。五种方法使用相同模型、半年 MX000245Z 价差、0.25点预算、参考中心、节点半径、条带与真实尾。它不改变预先固定的邻近网格主实验。",
+    "**表 7. N2L半年单位4400–4500价差的实际输出对照；完整界及预算单位为指数点。**",
     "五种匹配边际界均未通过0.25点。直接参考与修正值在本例碰巧得到相同完整界，但实际存储值分别检查；精确二进有理算术支付参考返回、修正存储和最终加法舍入。允许自由替换输出时，直接参考比保留原快速值更简单。共同结构仍改变了参考及BL输出的认证决定。BL两层差异只是诊断，不是其认证误差。",
     "完整证书生成并非零成本：需认证2,100,735个频率乘闭时间单元残差条目、513个参考指数、1,025个真实变换节点、无限尾及12,300个价格系数。完整读取检查全部条目并重构指数、系数和决定。每个附加组合计算1,025个共同圆盘支持项及完整余项；28组合复用同一库，无需新增残差生成。这是同参数、期限下的方向复用，不是跨未验证参数复用。",
+    "**表 8. 附加输出构造的分类型确定性工作量；计数不度量总计算成本。**",
     "这些是不同类型的工作量，不等同于统一浮点操作或总成本比。参考场生成、向外超越函数求值及验证与名义输出构造分别披露，不推导速度或机器性能优势。完整账本另列指数求积工作和两个粗包络失败阶段。",
     "我们在计算新预解核权重之前，固定了半年配置：MX000246Z、MX000247Z、MX000248Z、MX000249Z。物理耗散参数因此为 MX000250Z。四种比较复用同一 N2L（N_t=2048）闭单元残差银行、同一实际 binary64 快价格、同一参考指数和有符号中心，并保持有限省略节点、解析条带、真正无限尾及参考算术余项一致。金融方向为一单位 4400–4500 看涨价差；完整有限网格含 1025 个频率，其中 513 个为已用参考频率，512 个为保留的有限省略频率。每种方法均重建全部十二个价格的证书。",
     "N2L配置的无量纲耗散为 MX000251Z（更精确的近似值为0.075205153821）。这个较小数值刻画给定有限期限内的耗散强度，可帮助解释耗散核带来的附加改善较温和；它本身不预测价格误差降幅，也不建立新证书。完整预算仍支付冻结中心、有限省略节点和其他余项。",
     "下表单位为指数点，所有上界端点均向上舍入至九位小数。“全局状态”先通过全局残差控制状态，再应用指数泛函；“全局曲线”将同一全局残差最大值直接通过曲线传播。最后两行使用完全相同的 128 个分区残差包络，差别仅为定价传播核。",
+    "**表 9. N2L半年单位4400–4500价差的匹配传播比较，单位为指数点；残差银行及其他输入固定。**",
     "在这一配置中，实际 binary64 中心修正快输出具有与实际参考输出相同的认证上界；读取验收保留了转换与舍入。逐时曲线至逐时预解核的严格有理数改善量为正，约为 0.001916504 点，分别约占完整冻结快输出上界的 0.485% 和已用节点联合半径的 4.523%。这些百分比描述可保证上界的变化，不代表观测定价误差或交易损失的变化。原一指数点及半点任务继续通过；冻结快输出的四分之一点任务仍未解决。两种逐时方法原本均已使实际参考输出和中心修正输出通过四分之一点预算。因此，在这一匹配实验中，新增耗散核没有改变该预算的通过判断。",
     "改善幅度较小，与当前证书的冻结项相符。即使 513 个已用参考节点的贡献全部消失，同一对称冻结输出预算公式仍保留有符号中心绝对值、有限省略节点半径和其他余项。三者精确有理数之和严格大于向下小数端点 0.352626733 点，因此也大于四分之一点。它只是本次固定预算公式的下限，既不是真实误差下界，也不是其他认证策略的下界。保持这些项不变，仅收紧已用节点无法完成四分之一点认证。因此，有限省略频率及实际输出的中心转换仍是下一阶段更有影响的研究对象。",
-    "重建的全局曲线与逐时曲线端点和保存的基线有理数端点精确一致，包括十二个单价格半径和冻结输出误差界。例如，保存的全局曲线上界约为 0.4285709861017229，其九位小数向上端点为 0.428570987；此前显示的 0.428570986 只是小数展示方式不同，不涉及残差、中心、系数或余项变化。",
+    "重建的全局曲线与逐时曲线端点和保存的基线有理数端点精确一致，包括十二个单价格半径和冻结输出误差界；表中显示严格的九位小数向上端点。",
     "独立读取器实际读取了残差银行的全部 2,100,735 项，检查从零开始的闭单元完整覆盖，并重算全部 128 个传播分区的最大值。它通过直接双重 Gamma 级数独立展开累计预解核，保留十四个外层项；生成器则使用严格幂场矩，保留十二个外层项。两者均保留六十四个内层项并严格控制余项。读取器检查四种比较的全部 513 个变换半径取小规则，保留全部 1025 个有限频率并重建十二个完整价格。在 MX000252Z 时，读取器将 129 个累计端点和 128 个单元权重逐一与曲线核结论比较。八项实际负控均被拒绝：负耗散、错误的物理 MX000253Z 尺度、遗漏初始闭单元、删去有限省略节点、抹去真正无限尾、改变有符号中心、低报预解核指数包络，以及零耗散权重不复现曲线核。",
     "这里的独立性指新累计权重代数与完整证书组装的独立重建。读取器共享已明确标识的二进制有理区间算术及 Gamma、对数、指数原语，并继承此前通过验收的残差导数证明与参考指数；没有独立重推这些上游证明。执行回执明确记录了这一共享边界。",
     "新增传播复用已有银行，不产生新的残差项。所声明的残差加权和含 MX000254Z 项，使用 129 个累计端点包络；生成器每个端点保留十二个外层级数项及六十四个内层曲线项。这些数字是按运算类型区分的数学工作量，不构成总计算成本、速度提升或与重新生成残差、参考价格工作负载的等价比较。固定合同、严格输出与独立读取器均包含于预解核证据组件。",
     "季度任务中是否通过预算的改变可以归于共同聚合。Q2两列使用完全相同的实际输出、参考中心、1025个节点半径及全部余项；每个有限节点已有非零参考，有限遗漏节点支持为零。下表单位为指数点；quarter-exact-ledger.json保留精确有理数。",
+    "**表 10. Q2季度单位价差分项账本，单位为指数点；两列仅共同节点误差的聚合方式不同。**",
     "联合完整上界为0.233318843点，有符号边际为0.252393939点；仅联合通过0.25点预算。差值0.019075095点完全来自节点支持的聚合方式。完整上界展示值向上舍入至9位小数，分项/中心及间隙只作近似显示；所有决定和账本恒等式均使用精确有理端点。极小参考算术单列；有符号中心用于定位，其绝对值才是对称预算中的一次支出。",
     "全部组合曲线使用原先冻结且权重明确定义的28个方向。portfolio-exact-thresholds.csv和portfolio-budget-counts.json给出精确端点、全部阈值断点和通过数。认证条件是完整有理端点 MX000255Z，包含等号。不同bank的曲线属于描述性变化，同bank联合/有符号边际则使用匹配半径。季度单价差不会被扩写成没有计算的28方向数据集。",
+    "**表 11. 全部28个固定半年方向的完整预算通过数；预算单位为指数点，包含等号端点。**",
     "邻近两层完整保留10个无序对，包括未分离结果：",
+    "**表 12. 原报价下N1和N2的完整未分离候选对及严格分离计数。**",
     "N2中最近的alpha=.520与.525联合严格间隙约为7.382643478687e-10（归一化平方中点损失）。精确端点分解为 MX000256Z，再加坐标盒交集产生的端点调整。nearby-pair-resolution.json分别列清已用节点、有限零置节点、条带/无限尾/参考算术、固定报价中点换算算术。排名针对原固定中点损失；中点换算的算术区间不是市场bid/ask宽度，五个候选均另行保留原bid/ask不兼容结论。",
     "实际半年4400–4500输出保持不变时，完整中心支出如下。有符号中心为近似展示；完整半径与完整上界列为十进制上端点，各列独立舍入后不必恰好相加：",
+    "**表 13. H2–H4、N2与N2L半年冻结输出的中心分账，单位为指数点；上端点逐列独立向上舍入。**",
     "H2扩至H3同时改变中心绝对值支出与付清后的参考半径；H3至H4保留新中心。N2至N2L保留其自身参考中心和全部余项。H4至N2L是不同bank的描述性恒等式，不是消融。frozen-output-centre-account.json给出精确转移，还列明共同严格参考证书底座占每个BL-core完整界的比例。底座占主导会限制对求解器内在精度的解释；当允许替换输出、且严格参考已经可得时，直接返回参考价是更简单的工作负载，冻结输出审计与自由替换任务需要分别评价。",
     "现代方法对照仅重实现 Boyarchenko 等的 modified-Adams Riccati 核心，不声称复现完整 SINH 变形及 Conformal Bootstrap。两种离散化的接近只是诊断，不是区间证书。要比较完整认证输出，必须计入该保证所需的独立参考、尾部、算术与验证工作。",
     "固定菜单在完整任务半径达到预算时给出可靠终止；最少动作数要求所有替代半径已认证且每动作单位成本。构造全部替代量仍属于证书生成工作，不能推断未知菜单的最少工作量。模型拟合、市场不确定性、交易成本及连续全局校准不属于输出误差保证。",
     "保证以给定模型、仿射变换、合法参考轨迹和向外包含为条件。曲线解析条件本身不是随机模型合法性定理；狭窄结构域不包括一般均值回复或宽相关系数校准。未解决区间、失败预算与报价不兼容都是有效结果。",
-    "固定的 [V3.1 编辑发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.1.0-editorial-20261007) 提供当前双语论文、可编辑稿与编辑身份检查。其小型编辑归档明确依赖固定 [V3 研究发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007) 中未改动的完整科学归档。下载并解压 `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`，在解压目录运行 `python reproduce.py --full`，执行所声明的科学检查。V3.1 源码将原始源码保存在 `inherited-v3/`；`python verify_editorial.py` 检查编辑身份与继承源码的对应关系，不重新生成连续残差。当前 V3.1 稿件替代科学归档内的历史 PDF；GitHub 自动源码归档不包含仅随发布分发的数值银行。文件校验和建立身份；科学读取器仅建立其代码实际重新推导的数学义务。",
+    "固定的 [V5 编辑发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v5.0.0-editorial-20261007) 提供当前双语论文、可编辑稿与编辑身份检查。其小型编辑归档明确依赖固定 [V3 研究发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007) 中未改动的完整科学归档。下载并解压 `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`，在解压目录运行 `python reproduce.py --full`，执行所声明的科学检查。V5 源码将原始源码保存在 `inherited-v3/`；`python verify_editorial.py` 检查编辑身份与继承源码的对应关系，不重新生成连续残差。当前 V5 稿件替代科学归档内的历史 PDF；GitHub 自动源码归档不包含仅随发布分发的数值银行。文件校验和建立身份；科学读取器仅建立其代码实际重新推导的数学义务。",
     "附录E矩阵为每项证明义务列出生成命令、读取命令、重新计算范围和共享依赖。特别地，`--full` 不代表全部连续导数包络已被独立重新生成；它增加明示的结构覆盖与重建检查。残差重新生成另有明确命令。读取器按表重建历史最大值、严格指数、变换及系数包含、完整价格、目标与判定；保存的导数界及共用严格原语仍属于可信基础。作者侧新副本执行不等于外部审稿人复现。",
     "软件版本与数学工作量识别计算过程，不披露个人主机元数据或运行耗时。闭单元、区间项、历史乘积和方向支持计数具有不同单位，说明实际工作及复用对象，不构成速度比较。证据体积另列。固定参数与期限下新增方向复用同一银行；完整任务不能省略证据生成工作。",
     "附录A–E补全主文证明与实验。附录F–G是独立的经典Heston扩展，包含原链共同概率对象和非精确试探函数四项有符号恒等式，不声称已完成年度货币价格认证。历史十三维运行收据缺少建立该主张所需的完整系数银行。",
@@ -4873,6 +4888,7 @@
     "对每个闭矩形，将这些包络依次代入 (B.8)、(B.5)、(B.6)、(B.10)、(B.13)。只有三条 MX000349Z 下端严格正、六条 MX000350Z 上端严格负才接受；否则沿一个坐标的确切有理中点二分。两个闭子矩形并集等于母矩形，共享边界亦由严格包络覆盖。",
     "有限区间覆盖包含 211241 个叶矩形，其有理面积精确为 MX000351Z。独立检查从根矩形重建 422481 个二叉树节点、最大深度19，每个记录叶子恰出现一次，因此除面积外还排除了遗漏子树、内域重叠与端点空洞。本定理采用该完整闭树所覆盖的阶数区间。",
     "完整证书中的更强有理余量蕴含下表；每次简化转化已用 Fraction 独立检查。",
+    "**表 B.1. 附录B指定的完整紧化结构域上的严格下界。**",
     "证明由严格区间包含与完整有限覆盖组成。补充材料给出区间算术实现、全部叶矩形及树结构检查，供逐项复核。",
     "**证明。** 保留频率紧化 MX000360Z、MX000361Z，以及原始未归一化多项式 MX000362Z。令 MX000363Z、MX000364Z。则 MX000365Z，负 MX000366Z 时 MX000367Z，且 MX000368Z、MX000369Z。在 MX000370Z 内，因 MX000371Z，平方根分支始终固定，并有",
     "撇号表示实 MX000373Z 导数。MX000374Z 由 MX000375Z 得到：MX000376Z 和 MX000377Z 均非负，且 MX000378Z。又因 MX000379Z，有 MX000380Z。",
@@ -5013,23 +5029,33 @@
     " 这是其余参数和全部曲线固定的条件目标剖面。阈值 MX000832Z 只区分本次较低与较高 H 候选；三个候选本身均有 MX000833Z，不是粗糙模型与经典 Heston 的二分类。本节的量词为 (E.2) 的完整三候选集合。",
     "模型价格 MX000834Z 来自合法正 Volterra 方差模型及其真实仿射变换。AbiJaberElEuch2018v1 的模型/核条件在本文已逐项验证；不把有理式无极点当作概率模型合法性。目标为 ",
     " 因此归一化价格 RMS 是 MX000836Z，不是 MX000837Z；同一归一化约定适用于目标区间、有限间隙与稳定性常数。",
+    "**表 E.1. 历史半年三候选基准：归一化目标、价格RMS与实际Padé输出目标区间。**",
     "所有表端点按有理数向外取十进制；判定使用未截断的精确有理数端点。 模型目标的唯一最优候选为 α=0.52、H=0.02，竞争者目标与胜者的统一严格间隙下界为 0.0000002702052。 实际 Padé 数值输出的唯一有限最优解 与模型目标的有限最优解 相同，已严格认证。",
     "ε=0 时真最优候选外集合为 MX000838Z；所选 α≥.6 较高 H 候选与该最优值严格分离。",
+    "**表 E.2. 原十二条报价下历史三候选的报价带目标及相容性判定。**",
     "最小二乘排序与报价相容性分别由目标区间和逐行价格区间判定。下表同时报告这两项模型验证结果。",
+    "**表 E.3. 历史alpha=0.52价格账本：归一化报价、模型价格、实际输出及其总误差界。**",
+    "**表 E.4. 历史alpha=0.60价格账本；归一化及列含义与表E.3相同。**",
+    "**表 E.5. 历史alpha=0.90价格账本；归一化及列含义与表E.3相同。**",
     "实际 Padé 流程为本文所选GR六条件 [3/3]，导数型指数用256阶Jacobi规则，Fourier用固定截断上限200的8阶复合Gauss–Legendre规则，实际 Python/NumPy 和源字节版本由固定文件记录。每个实际有限输出 MX000839Z 以精确二进有理数保存。模型价格的参考区间给出 ",
     " 此式包含该实际流程的全部状态、指数、求积、截断与浮点误差，故不必另给“解析 Padé 无限积分”认证后才比较这批实际输出。其数值目标采用同一报价价格中点区间。当算法目标和模型目标均通过严格有限区间分离且胜者相同，才声明该固定流程保持(E.2)的候选选择；该声明的对象是已固定的算法、候选和输入设定。",
     "本附录的历史全局状态基准使用附录C.1的全时间状态界；第3节给出有限历史替代与新预解核计算，第7节按明确配置比较。",
     "仅在下列验证矩阵中，ID列表示证明义务编号，不是第2节的实验配置编号；义务N2对应N2L局部区间精化。",
     "configuration-registry.json固定全部配置ID和数学规模。下表以源码实际行为区分读取器义务。共同基础区间原语、共同连续导数生成器、复用固定科学输入与独立编写聚合，是不同种类的依赖。本轮是作者侧验收，不能表述为外部审稿人已经执行。",
+    "**表 E.6. 继承科学证据的证明义务、读取器定位、实际重算范围及共享依赖。**",
     "proof-obligation-matrix.json列出精确生成命令、空输出目录与现存输入时的行为、源码哈希和边界。命令应在相对路径的可丢弃工作副本运行，以保持冻结包。nearby_generate.py只生成缺失的场/残差；已有且身份匹配的部件会复用。nearby_independent.py可使用身份匹配的逐点缓存；顶层fresh验收会在调用前删除这些缓存。",
     "以下入口表对应明确留存的V2源码快照；--full与连续重生成必须区分：",
+    "**表 E.7. 保留的历史入口覆盖范围；当前V3驱动器另增加表E.10所列义务。**",
     "因此留存的V2 reproduce.py --full增加结构符号重生成，不重算全部连续残差导数；不会用其源码SHA冒验新V3顶层driver。旧低频连续生成需run_evidence.py --regenerate-continuous；高频生成需run_frontier.py --regenerate-full，后者使用独立重建副本，保持固定季度证据输入。历史CI检查源码身份及已留存验收收据的绑定，不执行大型bank区间重读。留存PASS收据、字节身份、真正重新计算与数学定理是分别识别的证据。",
     "最近邻严格间隙等于以下有符号贡献之和；科学计数法只用于展示：",
+    "**表 E.8. 最近候选对归一化目标间隙的有符号分项；科学计数法展示精确账本。**",
     "季度分账的有限遗漏为零，但截至128之后的无限尾仍完整支付。邻近/全局控制的有限零置项非零，不能借用季度全参考结果删掉。交付精确有理账本和全部40条pair-mode记录，并有独立二次重读及有意义的故意破坏负控。",
     "BL-core完整界中的共同理想严格参考底座（底座与比例为近似展示，判定以精确有理端点为准）：",
+    "**表 E.9. BL核心证书的共同严格参考底座及输出平移；价格量单位为指数点。**",
     "机器账本另行记录付清binary64返回舍入的参考价比例。BL512/1024名义差是经验比较；其完整保证仍为共同参考底座加实际输出的精确平移。这些比例不能给出BL算法的内在误差估计。",
     "portfolio-pass-counts.svg及portfolio-pass-counts.pdf展示旧三候选和重新生成alpha=.52控制的精确端点通过数阶梯。先用有理数计数，再转换展示坐标。绘图明示0–2点范围，CSV/JSON保留全部阈值。跨bank曲线是描述性比较，同bank方法半径匹配。审计只使用明确类型的科学工作量、证据字节和版本/哈希身份，不纳入设备信息和执行计时。",
     "矩阵将历史V2入口快照与当前V3入口分开。V3命令另行运行独立耗散核读取器、精确实验账本读取器和双语扩展一致性检查；仍不重生成全部上游连续导数界。",
+    "**表 E.10. 相对保留历史驱动器的V3新增义务及独立重算与共享基础边界。**",
     "图E.1使用所有28个固定半年方向的精确端点。实线为联合认证，虚线为有符号边际认证；同一配置内半径相同，不同银行间仅作描述性对照。展示范围为零至二指数点，机器表保留所有阈值，包括图外阈值。",
     "本附录给出联合误差接口的第二种上游实现。模型特定内容是：从相关高斯正部离散链，严格得到所有模态共用的原概率向量；支持函数及金融传播采用标准凸分析。终端见证证明外包集合的严格改善，不构成完整年度金额定价证书。",
     "记 MX000841Z、MX000842Z、MX000843Z、MX000844Z，取 MX000845Z。连续概率律 MX000846Z 与原离散概率律 MX000847Z 为",
@@ -5074,47 +5100,47 @@
     "共轭合并后的完整终端价格行为",
     "MX001002Z 是圆周率，MX001003Z 是概率向量。MX001004Z 需要证明：单纯形 Beta 系数为 MX001005Z，原目录保留执行价 95 与 110 的系数差。Gamma 因子有限且非零，执行价因子的模长 MX001006Z 与 MX001007Z 不同，因此至少一个系数非零。",
     "精确 Asian 原始与对偶见证满足 MX001008Z、MX001009Z、MX001010Z、MX001011Z、MX001012Z。令 MX001013Z，MX001014Z 为三个正对偶行（点参数 MX001015Z 的 Laplace 行、均值行、质量行）。见证的紧凑精确表达为",
-    "其非零坐标约为 ((.0276833515163,.0487291439380,.923587504546))。弱对偶证明最优性，互补松弛将任意最优解限制在 MX001017Z 和三个活跃等式上，可逆性证明唯一性；严格递增的平方根将唯一性传递给 MX001018Z。",
-    "同一多面体含有支撑为 ({5,6}) 的精确 MX001019Z。令 MX001020Z、MX001021Z。辅助 put 行 MX001022Z 满足",
-    "精确有理 MX001024Z 由 `terminal767-result.json` 的 `put_direction.derivative` 端点指定，无需印出巨大分数。每个系数包络 MX001025Z 满足 MX001026Z 及 MX001027Z；负方向变化先交换端点再求和。因此完整有符号行导数为正，Asian 最大化点不是 put 最大化点，故",
+    "其非零坐标约为 MX001017Z。弱对偶证明最优性，互补松弛将任意最优解限制在 MX001018Z 和三个活跃等式上，可逆性证明唯一性；严格递增的平方根将唯一性传递给 MX001019Z。",
+    "同一多面体含有支撑为 MX001020Z 的精确 MX001021Z。令 MX001022Z、MX001023Z。辅助 put 行 MX001024Z 满足",
+    "精确有理 MX001026Z 由 `terminal767-result.json` 的 `put_direction.derivative` 端点指定，无需印出巨大分数。每个系数包络 MX001027Z 满足 MX001028Z 及 MX001029Z；负方向变化先交换端点再求和。因此完整有符号行导数为正，Asian 最大化点不是 put 最大化点，故",
     "第二个不等式来自系数的三角不等式；相位抵消只会进一步降低联合支持。在有效的逐时间乘积集合和同一完整目录下，累计的未取交集支持差值至少为该正终端差值。变更目录、概率集合或 payoff 交集，需要重新分析。",
-    "机器附录路径为 `baseline/english-heston-release/code/classical/terminal767-input.json`、`terminal767-result.json`、`verify_input_bounds.py`、`verify_terminal.py`。第一读取器重生成 22 行、十二条各 767 步的 Laplace 递推及全部 918 个包络项；第二读取器执行 407 项精确见证检查。这些支持终端结论，并未证明完整价格前提 (F.21)、年度金额端点或交易解释。",
-    "对有效紧集合 MX001029Z、MX001030Z，",
-    "若实际 MX001032Z 属于共同紧集合 MX001033Z，则左端减项改用 MX001034Z，右端加项改用 MX001035Z。对闭校准接受集合 MX001036Z，",
-    "恒等式 MX001038Z 证明上述结论。非空 MX001039Z 紧，目标端点达到；空集合排除与接受规则的兼容性。将共同输入集合扩大为坐标箱体，只会扩大或保持目标集合。这些属于标准集合传播，前提是已取得有效中心和完整误差输入。",
+    "在目录 `baseline/english-heston-release/code/classical/` 中，机器附录为 `terminal767-input.json`、`terminal767-result.json`、`verify_input_bounds.py`、`verify_terminal.py`。第一读取器重生成 22 行、十二条各 767 步的 Laplace 递推及全部 918 个包络项；第二读取器执行 407 项精确见证检查。这些支持终端结论，并未证明完整价格前提 (F.21)、年度金额端点或交易解释。",
+    "对有效紧集合 MX001031Z、MX001032Z，",
+    "若实际 MX001034Z 属于共同紧集合 MX001035Z，则左端减项改用 MX001036Z，右端加项改用 MX001037Z。对闭校准接受集合 MX001038Z，",
+    "恒等式 MX001040Z 证明上述结论。非空 MX001041Z 紧，目标端点达到；空集合排除与接受规则的兼容性。将共同输入集合扩大为坐标箱体，只会扩大或保持目标集合。这些属于标准集合传播，前提是已取得有效中心和完整误差输入。",
     "本附录使用同一个确定性试探函数进行连续—离散比较，该函数不必满足后向方程。我们独立于未知精确解陈述充分条件，证明四个有符号项，并构造一个全局可积的非精确解析函数。以下期望未贴现；由 payoff 转为价格时，应将恒等式与界乘以共同贴现因子。",
-    "采用附录 F 的原概率律 MX001040Z、参数及相关正部更新。月度观测之间，状态为 MX001041Z，其中 MX001042Z 是已观测归一化股票值之和，MX001043Z 是其对数之和。观测映射 MX001044Z 将当前 MX001045Z 加入相应历史。观测之间的生成器为",
+    "采用附录 F 的原概率律 MX001042Z、参数及相关正部更新。月度观测之间，状态为 MX001043Z，其中 MX001044Z 是已观测归一化股票值之和，MX001045Z 是其对数之和。观测映射 MX001046Z 将当前 MX001047Z 加入相应历史。观测之间的生成器为",
     "在整个期限选择同一个固定非负权重，例如",
-    "两个权重都在观测映射前后精确匹配。算术均值不小于几何均值，所以 MX001048Z。两个权重中的历史因子都对应总绝对值至多为 MX001049Z 的多日期非正实载荷。",
-    "**引理（权重矩界）。** 在 MX001050Z 和 MX001051Z 上，每个权重满足",
-    "最后的上确界取遍下面紧状态域局部化使用的停时。证明连续单分支界时，对 MX001053Z、MX001054Z 使用生成器；方差系数 MX001055Z，常数漂移 MX001056Z，观测时载荷变化抵消。非负停时超鞅给出单分支期望至多为 MX001057Z。离散概率律使用 (F.10)–(F.11) 的 MX001058Z 情形及 MX001059Z，得到单分支界 MX001060Z。将两个分支相加，或用 MX001061Z，得到所需一阶界；严格比较由 MX001062Z 保证。",
-    "平方界使用 MX001063Z。每个平方分支的总股票载荷至多为一，方差载荷为二；将方差载荷提高到四可支配该分支。连续指数超鞅的方差系数至多为 MX001064Z，常数漂移至多为 MX001065Z，故停时给出统一有限二阶矩；自然权重同理。这足以保证被 MX001066Z 支配的函数一致可积，无需假设停时随机积分的极限本身是普通鞅。",
-    "MX001067Z 是两个概率律下同一终端 payoff 或同一精确有限转换余项。确定性函数 MX001068Z 在观测之间局部 MX001069Z，在 MX001070Z 处有可用于 Itô 公式的右侧延拓，并在紧状态集上一致存在真正的单侧迹。要求全局界",
-    "支配必须覆盖所有状态、MX001072Z 和无界尾部。定义",
-    "跳跃残差定义为**左迹减观测更新后的右迹**。MX001074Z 包含原核和步末观测；两个概率律都采用相同的观测后终端约定，每次更新恰计一次。MX001075Z 必须在原 MX001076Z 下可积；有效的完整期限包络为 MX001077Z。另一充分条件是 MX001078Z。",
+    "两个权重都在观测映射前后精确匹配。算术均值不小于几何均值，所以 MX001050Z。两个权重中的历史因子都对应总绝对值至多为 MX001051Z 的多日期非正实载荷。",
+    "**引理（权重矩界）。** 在 MX001052Z 和 MX001053Z 上，每个权重满足",
+    "最后的上确界取遍下面紧状态域局部化使用的停时。证明连续单分支界时，对 MX001055Z、MX001056Z 使用生成器；方差系数 MX001057Z，常数漂移 MX001058Z，观测时载荷变化抵消。非负停时超鞅给出单分支期望至多为 MX001059Z。离散概率律使用 (F.10)–(F.11) 的 MX001060Z 情形及 MX001061Z，得到单分支界 MX001062Z。将两个分支相加，或用 MX001063Z，得到所需一阶界；严格比较由 MX001064Z 保证。",
+    "平方界使用 MX001065Z。每个平方分支的总股票载荷至多为一，方差载荷为二；将方差载荷提高到四可支配该分支。连续指数超鞅的方差系数至多为 MX001066Z，常数漂移至多为 MX001067Z，故停时给出统一有限二阶矩；自然权重同理。这足以保证被 MX001068Z 支配的函数一致可积，无需假设停时随机积分的极限本身是普通鞅。",
+    "MX001069Z 是两个概率律下同一终端 payoff 或同一精确有限转换余项。确定性函数 MX001070Z 在观测之间局部 MX001071Z，在 MX001072Z 处有可用于 Itô 公式的右侧延拓，并在紧状态集上一致存在真正的单侧迹。要求全局界",
+    "支配必须覆盖所有状态、MX001074Z 和无界尾部。定义",
+    "跳跃残差定义为**左迹减观测更新后的右迹**。MX001076Z 包含原核和步末观测；两个概率律都采用相同的观测后终端约定，每次更新恰计一次。MX001077Z 必须在原 MX001078Z 下可积；有效的完整期限包络为 MX001079Z。另一充分条件是 MX001080Z。",
     "这些条件没有通过假设所求误差界来定义可容许性。精确未来值函数只有在上述正则性和支配条件已验证后，才属于此类；有限表示也只有在增长、残差、左右迹、终端值及原核接口均已验证后，才属于此类。",
-    "**定理（同一函数的残差恒等式）。** 在 (G.3)–(G.5) 和原 MX001079Z 下离散残差可积的条件下，",
-    "**证明。** 原 MX001081Z 下有限条件望远镜求和给出",
-    "对 MX001083Z，先在紧状态域内、远离观测时刻的闭子区间上局部化，Itô 公式中的随机积分期望为零。(G.3) 的二阶矩界与 MX001084Z 保证停时函数值一致可积，解除停时时得到 MX001085Z 收敛。Tonelli 及 (G.4) 给出 MX001086Z，从而可用绝对可积支配解除时间积分中的停时。区间端点趋近观测时刻时，紧集上一致的真正左右迹与连续路径给出几乎处处收敛，同一一致可积性给出 MX001087Z 收敛。实际函数跳跃为 MX001088Z。对所有区间和跳跃求和，得到",
-    "由 (G.7) 减 (G.8)，再分别加入 MX001090Z 的两个期望，共同确定性初值精确抵消，得到 (G.6)。采用上述观测后约定，论证也包括终端日的观测。∎",
-    "若改为定义 MX001091Z，则 (G.6) 对应项必须写作 MX001092Z。明确符号约定，避免混用两种定义。对精确延续，后向残差、观测残差和终端差均消失，恢复 (F.8)；非精确函数则保留四个有符号项。",
-    "在 MX001093Z 处，(G.6) 和权重引理给出",
+    "**定理（同一函数的残差恒等式）。** 在 (G.3)–(G.5) 和原 MX001081Z 下离散残差可积的条件下，",
+    "**证明。** 原 MX001083Z 下有限条件望远镜求和给出",
+    "对 MX001085Z，先在紧状态域内、远离观测时刻的闭子区间上局部化，Itô 公式中的随机积分期望为零。(G.3) 的二阶矩界与 MX001086Z 保证停时函数值一致可积，解除停时时得到 MX001087Z 收敛。Tonelli 及 (G.4) 给出 MX001088Z，从而可用绝对可积支配解除时间积分中的停时。区间端点趋近观测时刻时，紧集上一致的真正左右迹与连续路径给出几乎处处收敛，同一一致可积性给出 MX001089Z 收敛。实际函数跳跃为 MX001090Z。对所有区间和跳跃求和，得到",
+    "由 (G.7) 减 (G.8)，再分别加入 MX001092Z 的两个期望，共同确定性初值精确抵消，得到 (G.6)。采用上述观测后约定，论证也包括终端日的观测。∎",
+    "若改为定义 MX001093Z，则 (G.6) 对应项必须写作 MX001094Z。明确符号约定，避免混用两种定义。对精确延续，后向残差、观测残差和终端差均消失，恢复 (F.8)；非精确函数则保留四个有符号项。",
+    "在 MX001095Z 处，(G.6) 和权重引理给出",
     "这是由三角不等式得到的非负充分界；若已取得四项的共同有符号包络，可直接传播其线性像。各价格的独立区间不能自行提供共同状态兼容性见证。尤其，残差包络的必要下界，并不是对 (G.9) 任一充分上界的计算。",
-    "固定 MX001095Z、MX001096Z、MX001097Z，取",
-    "使用单分支权重 MX001099Z，前面的权重证明同样适用。该函数在 MX001100Z 上全局正则，不依赖历史，观测左右迹和终端值精确匹配，且 MX001101Z。生成器残差为",
-    "由 MX001103Z，可取全局、时间常数型支配函数",
-    "尽管股票与方差共享 MX001105Z，这里的函数不依赖下一步方差，所以原股票高斯积分可以精确计算：",
-    "为证明该界，将差写作 MX001107Z，使用 MX001108Z、MX001109Z，及 MX001110Z 时的 MX001111Z。因此每个离散残差可积；因 MX001112Z，完整期限包络可显式取为 MX001113Z。代入 (G.9)，得到有限充分界 MX001114Z。",
-    "在 MX001115Z 处，(G.11) 等于 MX001116Z，所以该函数不是精确未来值函数。同一个负幂 payoff 的精确函数由附录 F 的仿射延续和矩界证明存在，其载荷为 MX001117Z。同一可容许对象类因此既含精确函数，也含非精确函数，四项恒等式对二者均适用。此例是解析适用范围见证，不是原市场工具的数值证书。",
-    "保存的经典试探函数诊断具有另一种有条件的用途。令 MX001118Z、MX001119Z、MX001120Z、MX001121Z、MX001122Z，其分支为 MX001123Z。本节 MX001124Z，所以 MX001125Z 对应负股票阻尼；这里的 MX001126Z 不同于附录 F 中的负载荷 MX001127Z 记号。共轭生成器为",
-    "基函数为 MX001129Z、MX001130Z，另加 MX001131Z。它们精确表示终端强迫项 MX001132Z；这是终端生成器补全，不是对所有生成器像的闭合。对有限端点常数，函数使用三次 Hermite 插值及精确物理斜率 MX001133Z，其中 MX001134Z。令 MX001135Z，精确观测传递为",
-    "这来自 MX001137Z、MX001138Z、MX001139Z。终端修正节点为零；精确传递及斜率定义左右迹，浮点生成值不能替代这些定义。有限函数满足 MX001140Z。其连续残差关于 MX001141Z 至多二次，MX001142Z 系数有界，因此 MX001143Z。完整使用 (G.9) 仍需要实际系数银行、所有状态下的原 MX001144Z 包络及完整期限充分上界。",
-    "对保存的首月状态 MX001145Z，令 MX001146Z、MX001147Z 为基函数生成器值行、MX001148Z。单个时间片上的精确积分为",
-    "因为 MX001150Z，且 MX001151Z。归档包含全部 3080 个加权复积分区间（385 模态、八单元，覆盖原 64 时间片）。在共同相位零处，对每单元求实模态区间之和，使用 MX001152Z，再减去已积分的几何分支上界。精确总值由 `field-result.json` 的数学字段 `whole_lower` 指定：",
-    "它拒绝所选分配 MX001154Z，保留状态 `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`；它不拒绝所有充分分配，不对整个试探空间取最优，也不从下方控制实际有符号价格偏差。可移植读取器 `verify_field_receipt.py` 核查保存区间的精确聚合，不重新生成缺失系数银行，也不重跑归档直接积分。因此 (G.17) 属于归档函数的必要条件诊断；显式函数 (G.10) 则不依赖该银行，独立证明非精确可容许性。这里不推出完整年度金额 PASS。",
-    "机器附录使用 `baseline/english-heston-release/code/classical/field-cell-integrals.json`、`field-result.json`、`field-independent-readback.json`、`provenance.json`、`verify_field_receipt.py`，由发布清单固定科学身份。联系字段、运行环境和执行测量元数据均非这些数学断言所必需。",
-    "作者明确提供的时间线为：基础研究开展于2023年，主要文章撰写于2024年，材料于2026年上传GitHub。这些日期表述作者提供的研究历程；仓库上传记录公开可获取的阶段，不单独建立研究优先权的日期。",
-    "2026年的合稿修订新增了证明补强、严格耗散定价核计算及明示的验证工作。这些内容归属于实际发生的修订阶段，不回溯为2023年的基础研究或2024年初稿已经取得的成果。V3.1仅作此处说明的有限编辑修订，保留既有科学银行和数值结果。",
+    "固定 MX001097Z、MX001098Z、MX001099Z，取",
+    "使用单分支权重 MX001101Z，前面的权重证明同样适用。该函数在 MX001102Z 上全局正则，不依赖历史，观测左右迹和终端值精确匹配，且 MX001103Z。生成器残差为",
+    "由 MX001105Z，可取全局、时间常数型支配函数",
+    "尽管股票与方差共享 MX001107Z，这里的函数不依赖下一步方差，所以原股票高斯积分可以精确计算：",
+    "为证明该界，将差写作 MX001109Z，使用 MX001110Z、MX001111Z，及 MX001112Z 时的 MX001113Z。因此每个离散残差可积；因 MX001114Z，完整期限包络可显式取为 MX001115Z。代入 (G.9)，得到有限充分界 MX001116Z。",
+    "在 MX001117Z 处，(G.11) 等于 MX001118Z，所以该函数不是精确未来值函数。同一个负幂 payoff 的精确函数由附录 F 的仿射延续和矩界证明存在，其载荷为 MX001119Z。同一可容许对象类因此既含精确函数，也含非精确函数，四项恒等式对二者均适用。此例是解析适用范围见证，不是原市场工具的数值证书。",
+    "保存的经典试探函数诊断具有另一种有条件的用途。令 MX001120Z、MX001121Z、MX001122Z、MX001123Z、MX001124Z，其分支为 MX001125Z。本节 MX001126Z，所以 MX001127Z 对应负股票阻尼；这里的 MX001128Z 不同于附录 F 中的负载荷 MX001129Z 记号。共轭生成器为",
+    "基函数为 MX001131Z、MX001132Z，另加 MX001133Z。它们精确表示终端强迫项 MX001134Z；这是终端生成器补全，不是对所有生成器像的闭合。对有限端点常数，函数使用三次 Hermite 插值及精确物理斜率 MX001135Z，其中 MX001136Z。令 MX001137Z，精确观测传递为",
+    "这来自 MX001139Z、MX001140Z、MX001141Z。终端修正节点为零；精确传递及斜率定义左右迹，浮点生成值不能替代这些定义。有限函数满足 MX001142Z。其连续残差关于 MX001143Z 至多二次，MX001144Z 系数有界，因此 MX001145Z。完整使用 (G.9) 仍需要实际系数银行、所有状态下的原 MX001146Z 包络及完整期限充分上界。",
+    "对保存的首月状态 MX001147Z，令 MX001148Z、MX001149Z 为基函数生成器值行、MX001150Z。单个时间片上的精确积分为",
+    "因为 MX001152Z，且 MX001153Z。归档包含全部 3080 个加权复积分区间（385 模态、八单元，覆盖原 64 时间片）。在共同相位零处，对每单元求实模态区间之和，使用 MX001154Z，再减去已积分的几何分支上界。精确总值由 `field-result.json` 的数学字段 `whole_lower` 指定：",
+    "它拒绝所选分配 MX001156Z，保留状态 `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`；它不拒绝所有充分分配，不对整个试探空间取最优，也不从下方控制实际有符号价格偏差。可移植读取器 `verify_field_receipt.py` 核查保存区间的精确聚合，不重新生成缺失系数银行，也不重跑归档直接积分。因此 (G.17) 属于归档函数的必要条件诊断；显式函数 (G.10) 则不依赖该银行，独立证明非精确可容许性。这里不推出完整年度金额 PASS。",
+    "在目录 `baseline/english-heston-release/code/classical/` 中，机器附录使用 `field-cell-integrals.json`、`field-result.json`、`field-independent-readback.json`、`provenance.json`、`verify_field_receipt.py`，由发布清单固定科学身份。联系字段、运行环境和执行测量元数据均非这些数学断言所必需。",
+    "作者明确提供的项目时间线为：**2023年开展基础研究，2024年主要撰写文章，2026年将材料上传GitHub**。仓库日期记录2026年的公开上传及后续修改，不能替代作者陈述的研究与写作时间，也不单独建立研究优先权。",
+    "2026年的合稿修订新增了证明补强、严格耗散定价核计算及明示的验证工作。这些内容归属于实际发生的修订阶段，不回溯为2023年的基础研究或2024年初稿已经取得的成果。当前V5仅修正符号、表格题注和排版，保留既有科学银行和数值结果。GitHub展示的实现与证据是2026年上传及修订的版本，不声称每份当前源文件或后增结果在2023年或2024年已经存在。",
     "公式标签对齐、稿件哈希及渲染转写检查，只在明示范围内建立身份与一致性。尤其，169个既有公式标签对齐并不证明数学正确。数学有效性仍依赖完整假设和证明，数值主张仍依赖所列证书与验证义务，包括其继承与共享依赖。作者侧验证不等于外部审稿人独立复现。",
     "1. **GR2019.** Gatheral, Jim and Radoičić, Radoš. *Rational Approximation of the Rough Heston Solution*. International Journal of Theoretical and Applied Finance 22(3), 1950010, 2019. DOI [10.1142/S0219024919500109](https://doi.org/10.1142/S0219024919500109)。 使用2019年1月29日SSRN稿。",
     "2. **GR2023v1.** Gatheral, Jim and Radoičić, Radoš. *A Generalization of the Rational Rough Heston Approximation*. 2023. [原文](https://arxiv.org/abs/2310.09181v1)。 使用版本：arXiv:2310.09181v1。",
@@ -5140,10 +5166,31 @@
     "errors": []
   },
   "presentation_equivalences": {
-    "H7": "The exact interval is printed as the same lower and upper inequalities on two lines."
+    "H7": "The exact interval is printed as the same lower and upper inequalities on two lines.",
+    "2.5": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "F.20": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "F.25": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "G.13": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source."
+  },
+  "typography": {
+    "paper": "US Letter",
+    "page_pt": [
+      612.0,
+      792.0
+    ],
+    "column_width_pt": 396,
+    "side_margin_pt": 108,
+    "top_margin_pt": 72,
+    "bottom_margin_pt": 72,
+    "body_font": "NimbusRomNo9L-Regu",
+    "body_font_pt": 11.0,
+    "body_leading_pt": 12.1,
+    "math_style": "MathJax TeX / Computer Modern style, native vector outlines",
+    "substitution": false,
+    "explicit_page_breaks": false
   },
   "pdf": "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf",
-  "pdf_sha256": "7b5cb546d6d046d67c31bb7036649acf548f0bc23f36505ad574b583f3eacde0",
-  "math_source_occurrences": 1155,
+  "pdf_sha256": "6bdf5b5051c7466792069f95a822c82d6f93bd6d23d6ec42c7f38985c4322929",
+  "math_source_occurrences": 1157,
   "vector_formulas": true
 }

@@ -1,74 +1,181 @@
 {
   "EN": {
-    "pages": 67,
+    "pages": 64,
     "core_theorem_pages": [
-      7
+      5
     ],
-    "formula_occurrences": 1178,
+    "formula_occurrences": 1180,
     "contents_pages": [
-      2
+      21
     ],
     "chronology_pages": [
-      65
+      63
     ],
-    "pdf_sha256": "f9f84110f50b56699cd66f96b6c60aba42d906aa419cc557f44804000191a0d2",
-    "source_sha256": "e6d8174e19457f190a749f3a489ec7eb5f302288eb7837d8ba6cf933de5dbdf0",
+    "notation_review_pages": [
+      57
+    ],
+    "table_caption_pages": [
+      2,
+      4,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      26,
+      42,
+      43,
+      44,
+      46,
+      48,
+      49,
+      50
+    ],
+    "embedded_fonts": [
+      "/AAAAAA+Cmtt10",
+      "/AAAAAA+DejaVuSans",
+      "/AAAAAA+DejaVuSerif",
+      "/Helvetica",
+      "/NimbusRomNo9L-Medi",
+      "/NimbusRomNo9L-MediItal",
+      "/NimbusRomNo9L-Regu",
+      "/NimbusRomNo9L-ReguItal"
+    ],
+    "typography": {
+      "paper": "US Letter",
+      "page_pt": [
+        612.0,
+        792.0
+      ],
+      "column_width_pt": 396,
+      "side_margin_pt": 108,
+      "top_margin_pt": 72,
+      "bottom_margin_pt": 72,
+      "body_font": "NimbusRomNo9L-Regu",
+      "body_font_pt": 11.0,
+      "body_leading_pt": 12.1,
+      "math_style": "MathJax TeX / Computer Modern style, native vector outlines",
+      "substitution": false,
+      "explicit_page_breaks": false
+    },
+    "pdf_sha256": "54f5aead57cbf2d0d657ac85a27737a514f74dc7ac55af2b2851ed8e0f63a9ee",
+    "source_sha256": "94db32fb132f28ef52fadf382c44cf85bd5c86107f7fa1726f58e5de8f61f8c6",
     "every_page_read": true,
     "out_of_frame_prose_glyphs": [],
     "contact_sheets": [
       "EN-contact-1.png",
       "EN-contact-2.png",
       "EN-contact-3.png",
-      "EN-contact-4.png",
-      "EN-contact-5.png"
+      "EN-contact-4.png"
     ],
     "selected_pages": [
       1,
       2,
+      4,
       5,
-      7,
+      11,
+      12,
       13,
       14,
       15,
       16,
       17,
+      18,
+      19,
+      20,
       21,
       22,
-      28,
-      38,
+      25,
+      26,
+      35,
+      36,
       39,
+      41,
       42,
+      43,
       44,
       45,
       46,
+      48,
       49,
-      52,
+      50,
       53,
-      55,
-      56,
-      65,
-      67
+      54,
+      57,
+      63,
+      64
     ]
   },
   "ZH": {
-    "pages": 55,
+    "pages": 52,
     "core_theorem_pages": [
-      6
+      5
     ],
-    "formula_occurrences": 1155,
+    "formula_occurrences": 1157,
     "contents_pages": [
-      2,
-      19,
-      40,
-      48,
-      49
+      17
     ],
     "chronology_pages": [
-      53,
-      54
+      50
     ],
-    "pdf_sha256": "7b5cb546d6d046d67c31bb7036649acf548f0bc23f36505ad574b583f3eacde0",
-    "source_sha256": "a85554a42d7346aafb182b51994ee46426a64dd52f5ecbb6005cb348c4ac5fb1",
+    "notation_review_pages": [
+      46
+    ],
+    "table_caption_pages": [
+      2,
+      3,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      22,
+      35,
+      36,
+      37,
+      39,
+      40
+    ],
+    "embedded_fonts": [
+      "/AAAAAA+Cmtt10",
+      "/AAAAAA+DejaVuSans",
+      "/AAAAAA+SimSun-0",
+      "/AAAAAB+SimSun-0",
+      "/AAAAAC+SimSun-0",
+      "/AAAAAD+SimSun-0",
+      "/Helvetica",
+      "/NimbusRomNo9L-Medi",
+      "/NimbusRomNo9L-MediItal",
+      "/NimbusRomNo9L-Regu",
+      "/NimbusRomNo9L-ReguItal"
+    ],
+    "typography": {
+      "paper": "US Letter",
+      "page_pt": [
+        612.0,
+        792.0
+      ],
+      "column_width_pt": 396,
+      "side_margin_pt": 108,
+      "top_margin_pt": 72,
+      "bottom_margin_pt": 72,
+      "body_font": "NimbusRomNo9L-Regu",
+      "body_font_pt": 11.0,
+      "body_leading_pt": 12.1,
+      "math_style": "MathJax TeX / Computer Modern style, native vector outlines",
+      "substitution": false,
+      "explicit_page_breaks": false
+    },
+    "pdf_sha256": "6bdf5b5051c7466792069f95a822c82d6f93bd6d23d6ec42c7f38985c4322929",
+    "source_sha256": "4aa4340818eb8e6ffbb5ba10f7ab75a24283d81b57e591be7e85a0010b815262",
     "every_page_read": true,
     "out_of_frame_prose_glyphs": [],
     "contact_sheets": [
@@ -81,28 +188,35 @@
       1,
       2,
       3,
+      4,
+      5,
       6,
       7,
-      8,
+      10,
+      11,
       12,
       13,
       14,
+      15,
+      16,
       17,
       18,
       19,
+      21,
+      22,
       23,
-      24,
-      32,
+      30,
+      33,
+      34,
       35,
       36,
+      37,
+      38,
+      39,
       40,
-      41,
-      42,
-      48,
-      49,
-      53,
-      54,
-      55
+      46,
+      50,
+      52
     ]
   }
 }

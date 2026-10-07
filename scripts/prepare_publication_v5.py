@@ -1,11 +1,11 @@
-"""Build the explicit V3.1 editorial source and small overlay; never publish."""
+"""Build the explicit V5 editorial source and small overlay; never publish."""
 from pathlib import Path, PurePosixPath
 import argparse, hashlib, json, os, shutil, sys, zipfile
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from verify_editorial import PARENT, VERSION, require, name, sha, read, record, parent_identities, verify
+from verify_editorial import PARENT, VERSION, require, name, sha, read, record, parent_identities, verify, chronology, PREDECESSOR
 import verify_editorial as editorial_verifier
-ARCHIVE = "Theodore-Ouyang-Heston-V3.1-Editorial-20261007.zip"
+ARCHIVE = "Theodore-Ouyang-Heston-V5-Editorial-20261007.zip"
 CI = """name: Verify editorial and inherited source identities
 on:
   push:
@@ -37,7 +37,7 @@ def prepare(parent, root, allowlist, output, delivery):
     require(len(paths) == len(set(paths)) == len({n.casefold() for n in paths}), "Duplicate editorial output.")
     require(not generated.intersection(paths), "Explicit editorial output collides with a generated member.")
     require(all(not p.startswith("inherited-v3/") and not p.casefold().endswith((".npz", ".zip")) for p in paths), "Overlay includes inherited/large-bank objects.")
-    required = {"README.md", "AUTHOR-CHRONOLOGY.md", "EDITORIAL-RESPONSE-ZH.md", "manuscript/merged-heston-en.md", "manuscript/merged-heston-zh.md",
+    required = {"README.md", "AUTHOR-CHRONOLOGY.md", "CHRONOLOGY.json", "COMMANDS.md", "RENDERING.md", "EDITORIAL-RESPONSE-ZH.md", "manuscript/merged-heston-en.md", "manuscript/merged-heston-zh.md",
                 "paper/Theodore-Ouyang-Merged-Heston-EN.pdf", "paper/Theodore-Ouyang-Merged-Heston-ZH.pdf"}
     require(required <= set(paths), "Missing required editorial manuscript/delivery objects.")
     for r in specs:
@@ -47,6 +47,7 @@ def prepare(parent, root, allowlist, output, delivery):
         if r["path"] in required and r["path"].endswith(".pdf"):
             with (root / relative_source).open("rb") as stream:
                 require(stream.read(5) == b"%PDF-", "Editorial PDF header is invalid.")
+    date_check = chronology(root)
     target, stage = root / name(output), root / name(delivery)
     require(target.resolve().is_relative_to(root) and stage.resolve().is_relative_to(root), "Publication stage escapes root.")
     require(not target.exists() and not stage.exists(), "Use new immutable publication and delivery stages.")
@@ -55,24 +56,24 @@ def prepare(parent, root, allowlist, output, delivery):
         src = parent.joinpath(*PurePosixPath(row["path"]).parts)
         require(record(parent, row["path"]) == {k: row[k] for k in ("path", "bytes", "sha256")}, "Parent file changed.")
         dst = inherited.joinpath(*PurePosixPath(row["path"]).parts); dst.parent.mkdir(parents=True, exist_ok=True)
-        os.link(src, dst)  # Fixed inherited bytes are never edited or rewritten.
+        shutil.copyfile(src, dst)  # Read the fixed parent; create an independent, byte-identical copy.
     for r in specs:
         src = root.joinpath(*PurePosixPath(r["source"]).parts); dst = target.joinpath(*PurePosixPath(r["path"]).parts)
         dst.parent.mkdir(parents=True, exist_ok=True); shutil.copyfile(src, dst)
     shutil.copyfile(Path(editorial_verifier.__file__), target / "verify_editorial.py")
-    (target / "verify_source.py").write_text('"""V3.1 editorial wrapper; retained V3 science is verified separately."""\nfrom verify_editorial import main\nif __name__ == "__main__": main()\n', encoding="utf-8", newline="\n")
+    (target / "verify_source.py").write_text('"""V5 editorial wrapper; retained V3 science is verified separately."""\nfrom verify_editorial import main\nif __name__ == "__main__": main()\n', encoding="utf-8", newline="\n")
     workflow = target / ".github/workflows/source.yml"; workflow.parent.mkdir(parents=True); workflow.write_text(CI, encoding="utf-8", newline="\n")
     overlay_paths = sorted(paths + ["verify_source.py", "verify_editorial.py", ".github/workflows/source.yml"])
-    bridge = {"status": "SEALED_EDITORIAL_LAYER_INHERITING_FIXED_V3_SCIENCE", "version": VERSION, "parent": PARENT,
+    bridge = {"status": "SEALED_EDITORIAL_LAYER_INHERITING_FIXED_V3_SCIENCE", "version": VERSION, "parent": PARENT, "preceding_editorial": PREDECESSOR,
               "inherited_source_prefix": "inherited-v3", "inherited_source_objects": 472, "scientific_input_objects": len(science["files"]),
-              "scientific_recomputation": False,
+              "scientific_recomputation": False, "chronology_sha256": date_check["chronology_sha256"],
               "scope": "New editorial files are not covered by the old FRESH-ACCEPTANCE. Parent scientific inputs and retained acceptance remain unchanged.",
               "editorial_files": [record(target, p) for p in overlay_paths],
               "overlay_members": sorted(overlay_paths + ["EDITORIAL-MANIFEST.json", "SOURCE-MANIFEST.json"]),
               "overlay_reconstruction": "Overlay omits inherited-v3. Use the complete new source checkout, or place the exact parent source revision under inherited-v3. Science runs from the separately downloaded named V3 scientific archive."}
     write(target / "EDITORIAL-MANIFEST.json", bridge)
     all_paths = ["inherited-v3/" + r["path"] for r in inherited_rows] + overlay_paths + ["EDITORIAL-MANIFEST.json"]
-    source = {"status": "SEALED_EDITORIAL_SOURCE_WITH_UNCHANGED_INHERITED_V3", "version": VERSION, "parent": PARENT,
+    source = {"status": "SEALED_EDITORIAL_SOURCE_WITH_UNCHANGED_INHERITED_V3", "version": VERSION, "parent": PARENT, "preceding_editorial": PREDECESSOR,
               "editorial_manifest_sha256": sha(target / "EDITORIAL-MANIFEST.json"),
               "source_files": [record(target, p) for p in sorted(all_paths)], "manifest_self_reference": False}
     write(target / "SOURCE-MANIFEST.json", source)
@@ -94,14 +95,14 @@ def prepare(parent, root, allowlist, output, delivery):
     (stage / "SHA256SUMS.txt").write_text("".join(sha(stage / p) + "  " + p + "\n" for p in asset_names), encoding="utf-8", newline="\n")
     write(stage / "EDITORIAL-DELIVERY.json", {"status": "PASS_SMALL_EDITORIAL_OVERLAY_IDENTITIES", "version": VERSION,
           "assets": [record(stage, p) for p in asset_names], "overlay_members": len(members),
-          "inherited_members_in_overlay": 0, "npz_members_in_overlay": 0, "scientific_recomputation": False, "parent": PARENT})
+          "inherited_members_in_overlay": 0, "npz_members_in_overlay": 0, "scientific_recomputation": False, "parent": PARENT, "preceding_editorial": PREDECESSOR})
     # Recheck all parent identities after materialization and overlay reading.
     parent_identities(parent)
-    print("PASS V3.1 editorial source and small overlay; unchanged 450 scientific identities; no scientific rerun.", flush=True)
+    print("PASS V5 editorial source and small overlay; unchanged 450 scientific identities; no scientific rerun.", flush=True)
 
 def main():
     p = argparse.ArgumentParser(description=__doc__); p.add_argument("--parent", type=Path, required=True); p.add_argument("--root", type=Path, required=True)
-    p.add_argument("--allowlist", default="editorial-allowlist.json"); p.add_argument("--output", default="publication-v31"); p.add_argument("--delivery", default="delivery-v31")
+    p.add_argument("--allowlist", default="editorial-allowlist.json"); p.add_argument("--output", default="publication-v5"); p.add_argument("--delivery", default="delivery-v5")
     a = p.parse_args()
     try: prepare(a.parent, a.root, a.allowlist, a.output, a.delivery)
     except (ValueError, KeyError, OSError, json.JSONDecodeError, zipfile.BadZipFile):

@@ -10,7 +10,7 @@ pdf.setTitle('Exact-endpoint certification counts');pdf.setAuthor('Research evid
 def line(x1,y1,x2,y2,color='#111111',width=1,dash=False):
  parts.append(f'<line x1="{x1:.4f}" y1="{y1:.4f}" x2="{x2:.4f}" y2="{y2:.4f}" stroke="{color}" stroke-width="{width}"'+(' stroke-dasharray="6 4"' if dash else '')+'/>');pdf.setStrokeColor(HexColor(color));pdf.setLineWidth(width);pdf.setDash(6,4) if dash else pdf.setDash();pdf.line(x1,H-y1,x2,H-y2)
 def text(x,y,s,size=12,color='#111111',anchor='start'):
- size *= 1.75  # Presentation only: legible after insertion at paper width.
+ size *= 1.95  # Presentation only: legible at the 396 pt Letter-paper column width.
  parts.append(f'<text x="{x:.4f}" y="{y:.4f}" font-family="Helvetica,Arial,sans-serif" font-size="{size}" fill="{color}" text-anchor="{anchor}">{html.escape(s)}</text>');pdf.setFillColor(HexColor(color));pdf.setFont('Helvetica',size)
  {'start':pdf.drawString,'middle':pdf.drawCentredString,'end':pdf.drawRightString}[anchor](x,H-y,s)
 def path(coords,color,dash=False):
@@ -38,7 +38,7 @@ def main():
   legend_y=top+height+58
   for k,(bank,color) in enumerate(banks):line(left+k*145,legend_y,left+22+k*145,legend_y,color,2);text(left+28+k*145,legend_y+4,bank,10)
  text(75,800,'Solid: joint. Dashed: signed marginal. H0: old uniform; H1: finite horizon; N1/N2: global; N2L: 128 bins.',11)
- text(75,819,'Shown range: 0-2 points. All exact thresholds are retained in CSV/JSON. Across-bank changes are descriptive.',11)
+ text(75,819,'Shown range: 0-2 points. All exact thresholds are retained in CSV/JSON. Across-bank changes are descriptive.',10.5)
  svg='<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850"><rect width="1100" height="850" fill="white"/>'+''.join(parts)+'</svg>'
  (HERE/'portfolio-pass-counts.svg').write_text(svg,encoding='utf-8');pdf.showPage();pdf.save();print('PASS standard vector budget plots from504 exact thresholds')
 if __name__=='__main__':main()

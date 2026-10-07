@@ -23,20 +23,23 @@ def main():
         assert not [d for d in log['displays'] if d['font_pt']<8.5]
         doc=pdfium.PdfDocument(str(path));reader=PdfReader(path)
         assert len(doc)==len(reader.pages)>0
-        texts=[];outside=[];corepages=[];selected={0,1,len(doc)-1};contents_pages=[];chronology_pages=[]
+        texts=[];outside=[];corepages=[];selected={0,1,len(doc)-1};contents_pages=[];chronology_pages=[];symbol_pages=[];caption_pages=[];body_fonts={}
         for i,page in enumerate(doc):
+            assert list(page.get_size())==[612.0,792.0],(lang,i+1,'not US Letter')
             textpage=page.get_textpage();txt=textpage.get_text_range();texts.append(txt)
             assert len(txt.strip())>30,(lang,i+1,'empty page')
             assert '\ufffd' not in txt and '\x00' not in txt,(lang,i+1,'text marker')
             if 'finite-history pricing envelope' in txt or '有限历史定价' in txt:corepages.append(i+1);selected.add(i)
-            if 'Contents' in txt or '目录' in txt:contents_pages.append(i+1);selected.add(i)
+            if re.search(r'(?m)^(Contents|目录)\s*$',txt):contents_pages.append(i+1);selected.add(i)
             if '2023' in txt and '2024' in txt and '2026' in txt:chronology_pages.append(i+1);selected.add(i)
+            if '(F.26)' in txt or '(F.27)' in txt:symbol_pages.append(i+1);selected.add(i)
+            if re.search(r'Table\s+(?:\d+|[A-H]\.\d+)|表\s*(?:\d+|[A-H]\.\d+)',txt):caption_pages.append(i+1);selected.add(i)
             if any(x in txt for x in ['0.233318843','candidate','Nearby','邻近','0.115215934','0.252393939','certified correlation','相关系数']):selected.add(i)
             for k in range(textpage.count_chars()):
                 ch=textpage.get_text_range(k,1)
                 if not ch.strip():continue
                 x0,y0,x1,y1=textpage.get_charbox(k)
-                if x0<77 or x1>527 or y0<58 or y1>782:outside.append({'page':i+1,'box':[round(x0,2),round(y0,2),round(x1,2),round(y1,2)]})
+                if x0<104 or x1>509 or y0<36 or y1>726:outside.append({'page':i+1,'box':[round(x0,2),round(y0,2),round(x1,2),round(y1,2)]})
             textpage.close();page.close()
         contacts=[]
         for start in range(0,len(doc),16):
@@ -47,8 +50,25 @@ def main():
             filename=f'{lang}-contact-{start//16+1}.png';sheet.save(out/filename);contacts.append(filename)
         for i in sorted(selected):
             page=doc[i];page.render(scale=1.5).to_pil().save(out/f'{lang}-page-{i+1}.png');page.close()
+        font_names=set()
+        for page in reader.pages:
+            for font in page['/Resources'].get('/Font',{}).values():
+                font=font.get_object();font_names.add(str(font['/BaseFont']))
+                if str(font['/BaseFont']).startswith('/NimbusRomNo9L-'):
+                    assert '/FontFile' in font['/FontDescriptor'].get_object(),(lang,'Nimbus font not embedded')
+        assert '/NimbusRomNo9L-Regu' in font_names and '/NimbusRomNo9L-Medi' in font_names
+        assert log['typography']['body_font_pt']==11 and not log['typography']['substitution']
+        assert reader.metadata.get('/CreationDate')=='D:20261007' and reader.metadata.get('/ModDate')=='D:20261007'
+        assert not outside,(lang,'prose outside the column',outside[:5])
+        joined='\n'.join(texts)
+        source_tags=re.findall(r'\\tag\{([^{}]+)\}',source)
+        assert len(source_tags)==169 and len(set(source_tags))==169
+        assert all('('+tag+')' in joined for tag in source_tags),(lang,'missing visible equation number')
+        assert not any(bad in joined for bad in ['fullremainders','allactual','allsame-reference','and28'])
+        assert symbol_pages and caption_pages and chronology_pages
         report[lang]={'pages':len(doc),'core_theorem_pages':corepages,'formula_occurrences':len(log['math_occurrences']),
           'contents_pages':contents_pages,'chronology_pages':chronology_pages,
+          'notation_review_pages':symbol_pages,'table_caption_pages':caption_pages,'embedded_fonts':sorted(font_names),'typography':log['typography'],
           'pdf_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'source_sha256':log['source_sha256'],
           'every_page_read':True,'out_of_frame_prose_glyphs':outside,'contact_sheets':contacts,'selected_pages':[i+1 for i in sorted(selected)]}
         doc.close()

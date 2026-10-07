@@ -1,0 +1,386 @@
+{
+  "status": "PASS_LIMITED_EDITORIAL_TEXT",
+  "equation_tag_count": 169,
+  "tables_per_language": 24,
+  "table_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "B.1",
+    "E.1",
+    "E.2",
+    "E.3",
+    "E.4",
+    "E.5",
+    "E.6",
+    "E.7",
+    "E.8",
+    "E.9",
+    "E.10"
+  ],
+  "scientific_data_changed": false,
+  "prior_chinese_transcription_repairs": [
+    {
+      "table": "11",
+      "row_index": 12,
+      "old_cells": [
+        "N1",
+        "五个邻近alpha点的新场与残差",
+        "1/4",
+        "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
+        "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+      ],
+      "new_cells": [
+        "N1",
+        "13/25",
+        "1/4",
+        "0/28",
+        "0/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "11",
+      "row_index": 13,
+      "old_cells": [
+        "N1",
+        "五个邻近alpha点的新场与残差",
+        "1/2",
+        "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
+        "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+      ],
+      "new_cells": [
+        "N1",
+        "13/25",
+        "1/2",
+        "0/28",
+        "4/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "11",
+      "row_index": 14,
+      "old_cells": [
+        "N1",
+        "五个邻近alpha点的新场与残差",
+        "1",
+        "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
+        "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+      ],
+      "new_cells": [
+        "N1",
+        "13/25",
+        "1",
+        "15/28",
+        "28/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "11",
+      "row_index": 15,
+      "old_cells": [
+        "N2",
+        "邻近目标网格之外的描述性128区间复用对照",
+        "1/4",
+        "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
+        "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+      ],
+      "new_cells": [
+        "N2",
+        "13/25",
+        "1/4",
+        "0/28",
+        "0/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "11",
+      "row_index": 16,
+      "old_cells": [
+        "N2",
+        "邻近目标网格之外的描述性128区间复用对照",
+        "1/2",
+        "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
+        "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+      ],
+      "new_cells": [
+        "N2",
+        "13/25",
+        "1/2",
+        "6/28",
+        "23/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "11",
+      "row_index": 17,
+      "old_cells": [
+        "N2",
+        "邻近目标网格之外的描述性128区间复用对照",
+        "1",
+        "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
+        "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+      ],
+      "new_cells": [
+        "N2",
+        "13/25",
+        "1",
+        "28/28",
+        "28/28"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "table": "E.9",
+      "row_index": 0,
+      "old_cells": [
+        "N1",
+        "五个邻近alpha点的新场与残差",
+        "0.423484833",
+        "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
+        "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+      ],
+      "new_cells": [
+        "N1",
+        "BL modified-Adams core, 512 steps",
+        "0.423484833",
+        "0.000853401",
+        "99.798887%"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/frozen-output-centre-account.json",
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "table": "E.9",
+      "row_index": 1,
+      "old_cells": [
+        "N1",
+        "五个邻近alpha点的新场与残差",
+        "0.423484833",
+        "每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定",
+        "连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据"
+      ],
+      "new_cells": [
+        "N1",
+        "BL modified-Adams core, 1024 steps",
+        "0.423484833",
+        "0.000305328",
+        "99.927953%"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/frozen-output-centre-account.json",
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "table": "E.9",
+      "row_index": 2,
+      "old_cells": [
+        "N2",
+        "邻近目标网格之外的描述性128区间复用对照",
+        "0.261808768",
+        "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
+        "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+      ],
+      "new_cells": [
+        "N2",
+        "BL modified-Adams core, 512 steps",
+        "0.261808768",
+        "0.000845646",
+        "99.678039%"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/frozen-output-centre-account.json",
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "table": "E.9",
+      "row_index": 3,
+      "old_cells": [
+        "N2",
+        "邻近目标网格之外的描述性128区间复用对照",
+        "0.261808768",
+        "128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入",
+        "身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语"
+      ],
+      "new_cells": [
+        "N2",
+        "BL modified-Adams core, 1024 steps",
+        "0.261808768",
+        "0.000297572",
+        "99.886469%"
+      ],
+      "fixed_scientific_file": "v3/audit-experiments/frozen-output-centre-account.json",
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    }
+  ],
+  "scientific_ledger_identities": {
+    "portfolio-budget-counts.json": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20",
+    "frozen-output-centre-account.json": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+  },
+  "display_history_moved_out_of_scientific_narrative": {
+    "en": "The reconstructed global-curve and local-curve endpoints agree exactly with the saved baseline rational endpoints, including all twelve individual radii and frozen-output bounds. For example, the saved global-curve endpoint is approximately 0.4285709861017229; its strict nine-decimal upward display is 0.428570987. A previously rounded display of 0.428570986 is not a change in residuals, centres, coefficients or remainders.",
+    "zh": "重建的全局曲线与逐时曲线端点和保存的基线有理数端点精确一致，包括十二个单价格半径和冻结输出误差界。例如，保存的全局曲线上界约为 0.4285709861017229，其九位小数向上端点为 0.428570987；此前显示的 0.428570986 只是小数展示方式不同，不涉及残差、中心、系数或余项变化。"
+  },
+  "symbol_repair": {
+    "coordinates": "\\((.0276833515163,\\ .0487291439380,\\ .923587504546)\\)",
+    "support": "\\(\\{5,6\\}\\)"
+  },
+  "scope": "Editorial source, equation-body and bilingual numerical-transcription verification; not rerunning the scientific banks.",
+  "all_table_numeric_cells": [
+    {
+      "table": "1",
+      "numeric_cells_verified": 0,
+      "row_count": 3
+    },
+    {
+      "table": "2",
+      "numeric_cells_verified": 76,
+      "row_count": 11
+    },
+    {
+      "table": "3",
+      "numeric_cells_verified": 13,
+      "row_count": 8
+    },
+    {
+      "table": "4",
+      "numeric_cells_verified": 8,
+      "row_count": 4
+    },
+    {
+      "table": "5",
+      "numeric_cells_verified": 15,
+      "row_count": 5
+    },
+    {
+      "table": "6",
+      "numeric_cells_verified": 4,
+      "row_count": 2
+    },
+    {
+      "table": "7",
+      "numeric_cells_verified": 10,
+      "row_count": 5
+    },
+    {
+      "table": "8",
+      "numeric_cells_verified": 0,
+      "row_count": 5
+    },
+    {
+      "table": "9",
+      "numeric_cells_verified": 16,
+      "row_count": 4
+    },
+    {
+      "table": "10",
+      "numeric_cells_verified": 16,
+      "row_count": 8
+    },
+    {
+      "table": "11",
+      "numeric_cells_verified": 84,
+      "row_count": 21
+    },
+    {
+      "table": "12",
+      "numeric_cells_verified": 11,
+      "row_count": 4
+    },
+    {
+      "table": "13",
+      "numeric_cells_verified": 15,
+      "row_count": 5
+    },
+    {
+      "table": "B.1",
+      "numeric_cells_verified": 0,
+      "row_count": 4
+    },
+    {
+      "table": "E.1",
+      "numeric_cells_verified": 15,
+      "row_count": 3
+    },
+    {
+      "table": "E.2",
+      "numeric_cells_verified": 9,
+      "row_count": 3
+    },
+    {
+      "table": "E.3",
+      "numeric_cells_verified": 60,
+      "row_count": 12
+    },
+    {
+      "table": "E.4",
+      "numeric_cells_verified": 60,
+      "row_count": 12
+    },
+    {
+      "table": "E.5",
+      "numeric_cells_verified": 60,
+      "row_count": 12
+    },
+    {
+      "table": "E.6",
+      "numeric_cells_verified": 0,
+      "row_count": 11
+    },
+    {
+      "table": "E.7",
+      "numeric_cells_verified": 0,
+      "row_count": 6
+    },
+    {
+      "table": "E.8",
+      "numeric_cells_verified": 9,
+      "row_count": 9
+    },
+    {
+      "table": "E.9",
+      "numeric_cells_verified": 18,
+      "row_count": 6
+    },
+    {
+      "table": "E.10",
+      "numeric_cells_verified": 0,
+      "row_count": 3
+    }
+  ],
+  "copyable_path_locators": {
+    "split_folder_and_basename_locations": [
+      "F.7",
+      "G.5"
+    ],
+    "remaining_long_directory_tokens": {
+      "en": [
+        "baseline/english-heston-release/code/classical/",
+        "baseline/english-heston-release/code/classical/"
+      ],
+      "zh": [
+        "baseline/english-heston-release/code/classical/",
+        "baseline/english-heston-release/code/classical/"
+      ]
+    },
+    "full_file_paths_preserved_by_folder_plus_basename": true
+  }
+}

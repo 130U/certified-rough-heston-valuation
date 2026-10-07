@@ -1,6 +1,6 @@
 {
   "document": "rough-heston",
-  "source_sha256": "e6d8174e19457f190a749f3a489ec7eb5f302288eb7837d8ba6cf933de5dbdf0",
+  "source_sha256": "94db32fb132f28ef52fadf382c44cf85bd5c86107f7fa1726f58e5de8f61f8c6",
   "math_occurrences": [
     "m77c44da3663235b4c586",
     "m4faabafa110d553a7e8f",
@@ -30,7 +30,7 @@
     "mf8d17a8ecd5e2706ca65",
     "m4bc745c8fce491e68cb6",
     "ma9a1bd015f53a4e02403",
-    "m402599e771466d7bf9cc",
+    "m5285e010e9a5b30fef3a",
     "mbc3f79e215003e954f3e",
     "md014a5c21f1e34e6d38f",
     "m5964e10116031a271572",
@@ -999,7 +999,7 @@
     "mcaea1510b7e5d638a3fb",
     "mff2dbdc97360d341ed3f",
     "me2136a704eca6e51446b",
-    "md0e70fac44a0c37d6eb1",
+    "m0324f672b541ba41037c",
     "me938174458050a01cc0a",
     "me7cc4ea0523c810a63e0",
     "maa74500cdc3ca658263f",
@@ -1026,7 +1026,7 @@
     "m7c0829076800c962b76c",
     "m129414503bb09a184cea",
     "mfb1777d6170795843af6",
-    "mbd11ddda454a2719e94d",
+    "mc7f88d3a7a0a6bb969c7",
     "mf44e5236e2ffac59508a",
     "ma274f8d6582366db64d9",
     "md53a0fd9a0f160d5885d",
@@ -1042,9 +1042,11 @@
     "mb0a2969ecd4ab31f93ee",
     "m24f21df31020a02d01ee",
     "m88c72f4fa9c4ca23c4a6",
+    "me54d91106bd48833f401",
     "m8a0f86a62f2e237a7b38",
     "m8f02b14a67b8dffa7687",
     "m69fc1ca2a39b56c7b96b",
+    "m587f6e42765c620dc254",
     "m1c926cddfea0de7329ca",
     "mdbfeadd0b7f471fbe878",
     "mb1b02087aa89e65bb669",
@@ -1131,7 +1133,7 @@
     "mf1dac21bd25c26bacc64",
     "m7f7c963987caf337b2cc",
     "md291f97785bffedd5ce4",
-    "m66aafb62c761466bca47",
+    "madb69d3945240515b309",
     "m4b5e525b70eefd9e1b88",
     "m6527ce65ccc76b6fb469",
     "m361273c2e8f6945fa966",
@@ -1187,1850 +1189,1850 @@
       "tags": [
         "1.1"
       ],
-      "font_pt": 10.909,
-      "page": 3,
-      "width_pt": 213.79,
-      "height_pt": 12.671
+      "font_pt": 11.0,
+      "page": 1,
+      "width_pt": 215.574,
+      "height_pt": 12.777
     },
     {
       "id": "m00ec4b971bec67cded57",
       "tags": [
         "2.1"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 313.634,
-      "height_pt": 27.171
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 316.25,
+      "height_pt": 27.398
     },
     {
       "id": "mfa54e98ebab1a41199bb",
       "tags": [
         "2.2"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 273.99,
-      "height_pt": 23.955
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 276.276,
+      "height_pt": 24.155
     },
     {
       "id": "m73b571e924bd4cd50d66",
       "tags": [
         "2.3"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 358.303,
-      "height_pt": 13.018
+      "font_pt": 10.778,
+      "page": 3,
+      "width_pt": 354.0,
+      "height_pt": 12.861
     },
     {
       "id": "m11b0bf4f17035fc54d60",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 365.405,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 3,
+      "width_pt": 368.453,
+      "height_pt": 12.473
     },
     {
       "id": "m77c2a22a1d07d2897979",
       "tags": [
         "2.4"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 368.504,
-      "height_pt": 11.4
+      "font_pt": 10.48,
+      "page": 3,
+      "width_pt": 354.0,
+      "height_pt": 10.951
     },
     {
-      "id": "m402599e771466d7bf9cc",
+      "id": "m5285e010e9a5b30fef3a",
       "tags": [
         "2.5"
       ],
-      "font_pt": 9.055,
-      "page": 5,
-      "width_pt": 399.0,
-      "height_pt": 22.118
+      "font_pt": 11.0,
+      "page": 4,
+      "width_pt": 178.883,
+      "height_pt": 60.108
     },
     {
       "id": "m5964e10116031a271572",
       "tags": [
         "2.6"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 279.774,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 4,
+      "width_pt": 282.108,
+      "height_pt": 27.266
     },
     {
       "id": "me29fa557b5049ce1991e",
       "tags": [
         "2.7"
       ],
-      "font_pt": 10.909,
-      "page": 5,
-      "width_pt": 199.97,
-      "height_pt": 27.64
+      "font_pt": 11.0,
+      "page": 4,
+      "width_pt": 201.638,
+      "height_pt": 27.871
     },
     {
       "id": "mba42b21b29f377889336",
       "tags": [
         "3.1"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 334.555,
-      "height_pt": 14.943
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 337.346,
+      "height_pt": 15.068
     },
     {
       "id": "m18e1475e158fd883a08f",
       "tags": [
         "3.2"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 209.524,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 211.272,
+      "height_pt": 12.473
     },
     {
       "id": "m03cb1cf8845cdc2d99fe",
       "tags": [
         "3.3"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 342.691,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 345.55,
+      "height_pt": 14.641
     },
     {
       "id": "m7e3726513b377b09072d",
       "tags": [
         "3.4"
       ],
-      "font_pt": 10.909,
-      "page": 7,
-      "width_pt": 128.059,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 129.127,
+      "height_pt": 27.266
     },
     {
       "id": "me7668ccdf5ea48d26ce5",
       "tags": [
         "3.5"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 358.377,
-      "height_pt": 31.717
+      "font_pt": 10.776,
+      "page": 6,
+      "width_pt": 354.0,
+      "height_pt": 31.329
     },
     {
       "id": "m8e5677ace37b696d1362",
       "tags": [
         "3.6"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 344.058,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 6,
+      "width_pt": 346.928,
+      "height_pt": 12.473
     },
     {
       "id": "mcd8ad45c5e18e432ffad",
       "tags": [
         "3.7"
       ],
-      "font_pt": 10.909,
-      "page": 8,
-      "width_pt": 252.364,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 254.47,
+      "height_pt": 14.641
     },
     {
       "id": "m18daf1d4b676bf19ef2c",
       "tags": [
         "3.8"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 385.034,
-      "height_pt": 30.638
+      "font_pt": 10.03,
+      "page": 7,
+      "width_pt": 354.0,
+      "height_pt": 28.168
     },
     {
       "id": "ma2b4ae5e11cd2e7de7ea",
       "tags": [
         "4.1"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 159.566,
-      "height_pt": 14.64
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 160.897,
+      "height_pt": 14.762
     },
     {
       "id": "mef62f3fce9d4fa51a946",
       "tags": [
         "4.2"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 150.385,
-      "height_pt": 28.356
+      "font_pt": 11.0,
+      "page": 7,
+      "width_pt": 151.639,
+      "height_pt": 28.592
     },
     {
       "id": "m49c83d9ad28244a93c99",
       "tags": [
         "4.3"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 234.369,
-      "height_pt": 33.289
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 236.324,
+      "height_pt": 33.566
     },
     {
       "id": "m578e252998a46118f5a8",
       "tags": [
         "4.4"
       ],
-      "font_pt": 10.909,
-      "page": 9,
-      "width_pt": 336.051,
-      "height_pt": 32.782
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 338.854,
+      "height_pt": 33.055
     },
     {
       "id": "mfc2669b849b3829c78e3",
       "tags": [
         "5.1"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 267.671,
-      "height_pt": 27.32
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 269.904,
+      "height_pt": 27.548
     },
     {
       "id": "m80eec9928aeaa921f294",
       "tags": [
         "5.2"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 176.755,
-      "height_pt": 32.497
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 178.23,
+      "height_pt": 32.768
     },
     {
       "id": "m9456c7227ddf9903b653",
       "tags": [
         "5.3"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 256.292,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 258.43,
+      "height_pt": 32.989
     },
     {
       "id": "md263a9018641aa3bb4d8",
       "tags": [
         "5.4"
       ],
-      "font_pt": 10.909,
-      "page": 10,
-      "width_pt": 216.5,
-      "height_pt": 31.466
+      "font_pt": 11.0,
+      "page": 8,
+      "width_pt": 218.306,
+      "height_pt": 31.728
     },
     {
       "id": "mb16bfd39b40e4517def8",
       "tags": [
         "5.5"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 192.961,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 194.57,
+      "height_pt": 32.989
     },
     {
       "id": "m36ff1084da26dfd55f50",
       "tags": [
         "5.6"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 228.264,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 230.168,
+      "height_pt": 32.989
     },
     {
       "id": "mbcb09278b47da9b993c8",
       "tags": [
         "5.7"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 195.378,
-      "height_pt": 12.671
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 197.008,
+      "height_pt": 12.777
     },
     {
       "id": "m5b8a081dad6195cc19fc",
       "tags": [
         "5.8"
       ],
-      "font_pt": 10.909,
-      "page": 11,
-      "width_pt": 226.447,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 9,
+      "width_pt": 228.336,
+      "height_pt": 32.989
     },
     {
       "id": "m42678cbd2ac66651c875",
       "tags": [
         "5.9"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 297.772,
-      "height_pt": 25.578
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 300.256,
+      "height_pt": 25.792
     },
     {
       "id": "me98b58bb5cce862bd945",
       "tags": [
         "5.10"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 297.611,
-      "height_pt": 13.069
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 300.093,
+      "height_pt": 13.178
     },
     {
       "id": "m522fb7e41df2c2418dad",
       "tags": [
         "5.11"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 166.244,
-      "height_pt": 18.317
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 167.631,
+      "height_pt": 18.47
     },
     {
       "id": "md5506516bbdb51bb7392",
       "tags": [
         "5.12"
       ],
-      "font_pt": 10.909,
-      "page": 12,
-      "width_pt": 166.619,
-      "height_pt": 27.247
+      "font_pt": 11.0,
+      "page": 10,
+      "width_pt": 168.008,
+      "height_pt": 27.475
     },
     {
       "id": "mb241ec905cbdd22cff64",
       "tags": [
         "5.13"
       ],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 319.198,
-      "height_pt": 13.766
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 321.861,
+      "height_pt": 13.881
     },
     {
       "id": "m5e138acf3da7b691fd4b",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 281.399,
-      "height_pt": 26.171
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 283.746,
+      "height_pt": 26.389
     },
     {
       "id": "mc5de7f1e46e199c5d58e",
       "tags": [
         "5.14"
       ],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 357.414,
-      "height_pt": 27.646
+      "font_pt": 10.805,
+      "page": 11,
+      "width_pt": 354.0,
+      "height_pt": 27.382
     },
     {
       "id": "m951079131a7b70f322d3",
       "tags": [
         "5.15"
       ],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 105.058,
-      "height_pt": 17.75
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 105.934,
+      "height_pt": 17.898
     },
     {
       "id": "m2eda45737e3814cfb5a4",
       "tags": [
         "5.16"
       ],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 90.793,
-      "height_pt": 11.391
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 91.551,
+      "height_pt": 11.486
     },
     {
       "id": "m17f76c729eeec7370d36",
       "tags": [
         "5.17"
       ],
-      "font_pt": 10.909,
-      "page": 13,
-      "width_pt": 105.573,
-      "height_pt": 17.545
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 106.454,
+      "height_pt": 17.691
     },
     {
       "id": "m9a8e85d16c1c7d8c058a",
       "tags": [
         "5.18"
       ],
-      "font_pt": 10.909,
-      "page": 14,
-      "width_pt": 81.37,
-      "height_pt": 17.771
+      "font_pt": 11.0,
+      "page": 11,
+      "width_pt": 82.049,
+      "height_pt": 17.919
     },
     {
       "id": "m13a88ed267216bbcb203",
       "tags": [
         "6.1"
       ],
-      "font_pt": 10.909,
-      "page": 14,
-      "width_pt": 298.231,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 12,
+      "width_pt": 300.719,
+      "height_pt": 11.0
     },
     {
       "id": "mc876bc2bdaec3d39d37e",
       "tags": [
         "6.2"
       ],
-      "font_pt": 10.909,
-      "page": 14,
-      "width_pt": 295.853,
-      "height_pt": 11.391
+      "font_pt": 11.0,
+      "page": 12,
+      "width_pt": 298.321,
+      "height_pt": 11.486
     },
     {
       "id": "mc16230e2564e52d7f0e4",
       "tags": [
         "6.3"
       ],
-      "font_pt": 10.909,
-      "page": 14,
-      "width_pt": 312.1,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 12,
+      "width_pt": 314.703,
+      "height_pt": 12.473
     },
     {
       "id": "m0b6b29238b346e7c041d",
       "tags": [
         "A.1"
       ],
-      "font_pt": 9.732,
-      "page": 24,
-      "width_pt": 399.0,
-      "height_pt": 24.803
+      "font_pt": 8.634,
+      "page": 22,
+      "width_pt": 354.0,
+      "height_pt": 22.006
     },
     {
       "id": "m8946a66cdef54b6e4c48",
       "tags": [
         "A.2"
       ],
-      "font_pt": 10.909,
-      "page": 24,
-      "width_pt": 192.478,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 194.084,
+      "height_pt": 11.827
     },
     {
       "id": "m3e96e756a6cd7125a9fe",
       "tags": [
         "A.3"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 152.248,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 22,
+      "width_pt": 153.518,
+      "height_pt": 11.827
     },
     {
       "id": "mcb5eecf51cabc6b0a19a",
       "tags": [
         "A.4"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 359.945,
-      "height_pt": 26.891
+      "font_pt": 10.729,
+      "page": 23,
+      "width_pt": 354.0,
+      "height_pt": 26.447
     },
     {
       "id": "m5cae6b41f8cf5753301e",
       "tags": [
         "B.1"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 320.839,
-      "height_pt": 26.4
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 323.515,
+      "height_pt": 26.62
     },
     {
       "id": "me830f9e5ad25c593d825",
       "tags": [
         "B.2"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 334.056,
-      "height_pt": 27.053
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 336.843,
+      "height_pt": 27.279
     },
     {
       "id": "m88669317cbca3d2ff13d",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 229.884,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 231.802,
+      "height_pt": 14.641
     },
     {
       "id": "mcb4ccd1397395bd86d13",
       "tags": [
         "B.3"
       ],
-      "font_pt": 10.909,
-      "page": 25,
-      "width_pt": 323.119,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 23,
+      "width_pt": 325.815,
+      "height_pt": 14.641
     },
     {
       "id": "m6651194c35e4bbf52544",
       "tags": [
         "B.4"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 365.474,
-      "height_pt": 41.454
+      "font_pt": 10.567,
+      "page": 23,
+      "width_pt": 354.0,
+      "height_pt": 40.153
     },
     {
       "id": "m8fa4bb61b46bd5de010e",
       "tags": [],
-      "font_pt": 10.814,
-      "page": 26,
-      "width_pt": 441.0,
-      "height_pt": 26.278
+      "font_pt": 9.711,
+      "page": 23,
+      "width_pt": 396.0,
+      "height_pt": 23.596
     },
     {
       "id": "m34e6579f98b2fd909fe3",
       "tags": [
         "B.5"
       ],
-      "font_pt": 10.5,
-      "page": 26,
-      "width_pt": 399.0,
-      "height_pt": 11.906
+      "font_pt": 9.316,
+      "page": 23,
+      "width_pt": 354.0,
+      "height_pt": 10.563
     },
     {
       "id": "m3c35bca81abb4266490a",
       "tags": [
         "B.6"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 250.029,
-      "height_pt": 59.298
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 252.114,
+      "height_pt": 59.793
     },
     {
       "id": "m1a24945c46c868a51a0b",
       "tags": [
         "B.7"
       ],
-      "font_pt": 10.709,
-      "page": 26,
-      "width_pt": 399.0,
-      "height_pt": 12.143
+      "font_pt": 9.501,
+      "page": 24,
+      "width_pt": 354.0,
+      "height_pt": 10.773
     },
     {
       "id": "m239e8cd3cf4cb48b9df0",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 349.325,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 352.239,
+      "height_pt": 20.46
     },
     {
       "id": "m5e71bf56017ddd1c0a6f",
       "tags": [
         "B.8"
       ],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 281.426,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 283.774,
+      "height_pt": 20.46
     },
     {
       "id": "ma4be53581ff8eff48d34",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 26,
-      "width_pt": 191.917,
-      "height_pt": 13.276
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 193.518,
+      "height_pt": 13.387
     },
     {
       "id": "md24793bf1da5ee52d9c5",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 295.268,
-      "height_pt": 13.271
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 297.731,
+      "height_pt": 13.382
     },
     {
       "id": "med74b8dd1de880b63d74",
       "tags": [
         "B.9"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 131.443,
-      "height_pt": 13.758
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 132.539,
+      "height_pt": 13.873
     },
     {
       "id": "m7b985827a80e63356e1f",
       "tags": [
         "B.10"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 71.489,
-      "height_pt": 16.071
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 72.085,
+      "height_pt": 16.205
     },
     {
       "id": "m880e5f833907161cc365",
       "tags": [
         "B.11"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 258.005,
-      "height_pt": 22.483
+      "font_pt": 11.0,
+      "page": 24,
+      "width_pt": 260.158,
+      "height_pt": 22.671
     },
     {
       "id": "m057cb17ad00b5dcb75fe",
       "tags": [
         "B.12"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 132.623,
-      "height_pt": 32.365
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 133.729,
+      "height_pt": 32.635
     },
     {
       "id": "m6d67dec2151754038959",
       "tags": [
         "B.13"
       ],
-      "font_pt": 10.909,
-      "page": 27,
-      "width_pt": 224.614,
-      "height_pt": 96.304
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 226.488,
+      "height_pt": 97.107
     },
     {
       "id": "m57d1c2be2f9b254dedf3",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 281.665,
-      "height_pt": 11.553
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 284.014,
+      "height_pt": 11.649
     },
     {
       "id": "m84d8d5b4158249a56861",
       "tags": [
         "B.14"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 309.393,
-      "height_pt": 11.553
+      "font_pt": 11.0,
+      "page": 25,
+      "width_pt": 311.974,
+      "height_pt": 11.649
     },
     {
       "id": "m8d6de692886f2c619f7e",
       "tags": [
         "B.15"
       ],
-      "font_pt": 10.909,
-      "page": 28,
-      "width_pt": 142.274,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 143.461,
+      "height_pt": 12.473
     },
     {
       "id": "mdfda3faf89ba2a45bbeb",
       "tags": [
         "B.16"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 347.519,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 26,
+      "width_pt": 350.418,
+      "height_pt": 12.473
     },
     {
       "id": "mc2ea55070825aa537d89",
       "tags": [
         "B.17"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 279.46,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 281.791,
+      "height_pt": 11.0
     },
     {
       "id": "m264aa7a59fbd0c670161",
       "tags": [
         "B.18"
       ],
-      "font_pt": 10.909,
-      "page": 29,
-      "width_pt": 157.336,
-      "height_pt": 11.478
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 158.649,
+      "height_pt": 11.574
     },
     {
       "id": "maf4d90b885d7f3d5fd9c",
       "tags": [
         "B.19"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 253.656,
-      "height_pt": 12.853
+      "font_pt": 11.0,
+      "page": 27,
+      "width_pt": 255.772,
+      "height_pt": 12.96
     },
     {
       "id": "m4fd38f868feb43722e6e",
       "tags": [
         "C.1"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 269.906,
-      "height_pt": 27.315
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 272.158,
+      "height_pt": 27.543
     },
     {
       "id": "m77097249491777668324",
       "tags": [
         "C.2"
       ],
-      "font_pt": 10.909,
-      "page": 30,
-      "width_pt": 203.528,
-      "height_pt": 27.315
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 205.226,
+      "height_pt": 27.543
     },
     {
       "id": "m47fe1d0a26af39266064",
       "tags": [
         "C.3"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 280.655,
-      "height_pt": 26.508
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 282.996,
+      "height_pt": 26.729
     },
     {
       "id": "m3cc8b3b1738e4b385430",
       "tags": [
         "C.4"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 114.75,
-      "height_pt": 11.332
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 115.707,
+      "height_pt": 11.427
     },
     {
       "id": "mb64d8e32fe249e8e7971",
       "tags": [
         "C.5"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 272.223,
-      "height_pt": 24.235
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 274.494,
+      "height_pt": 24.438
     },
     {
       "id": "m8d4cd2bd7adfc085a366",
       "tags": [
         "C.6"
       ],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 276.782,
-      "height_pt": 24.195
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 279.091,
+      "height_pt": 24.397
     },
     {
       "id": "m399cf3699ac91031e000",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 311.556,
-      "height_pt": 30.146
+      "font_pt": 11.0,
+      "page": 28,
+      "width_pt": 314.154,
+      "height_pt": 30.397
     },
     {
       "id": "md0300564bd679bbdc53d",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 31,
-      "width_pt": 200.323,
-      "height_pt": 14.943
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 201.994,
+      "height_pt": 15.068
     },
     {
       "id": "m47c3b51ca5f6804f2a92",
       "tags": [
         "C.7"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 172.494,
-      "height_pt": 22.8
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 173.933,
+      "height_pt": 22.99
     },
     {
       "id": "m406ee5b99ebe57f89d12",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 323.902,
-      "height_pt": 32.798
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 326.604,
+      "height_pt": 33.072
     },
     {
       "id": "ma46b814e37f435ef7c28",
       "tags": [
         "C.8"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 162.268,
-      "height_pt": 23.109
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 163.622,
+      "height_pt": 23.301
     },
     {
       "id": "m75302b1966e5176e8c82",
       "tags": [
         "C.9"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 185.469,
-      "height_pt": 11.332
+      "font_pt": 11.0,
+      "page": 29,
+      "width_pt": 187.017,
+      "height_pt": 11.427
     },
     {
       "id": "mf91e3a2ebc7671db754a",
       "tags": [
         "C.10"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 287.211,
-      "height_pt": 12.776
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 289.607,
+      "height_pt": 12.882
     },
     {
       "id": "m3319fcaa462ab9089cb1",
       "tags": [
         "C.11"
       ],
-      "font_pt": 10.909,
-      "page": 32,
-      "width_pt": 293.222,
-      "height_pt": 27.279
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 295.668,
+      "height_pt": 27.507
     },
     {
       "id": "m0740c9f3ad069dd3aeaf",
       "tags": [
         "C.12"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 336.437,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 339.243,
+      "height_pt": 27.169
     },
     {
       "id": "m5d949a58c79d6ebbb1af",
       "tags": [
         "C.13"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 105.178,
-      "height_pt": 11.066
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 106.055,
+      "height_pt": 11.158
     },
     {
       "id": "m6e39ff25563a5ef05647",
       "tags": [
         "C.14"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 258.424,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 30,
+      "width_pt": 260.58,
+      "height_pt": 27.266
     },
     {
       "id": "m5dfd6dad6e39ea5a0b7f",
       "tags": [
         "C.15"
       ],
-      "font_pt": 10.909,
-      "page": 33,
-      "width_pt": 139.646,
-      "height_pt": 9.916
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 140.811,
+      "height_pt": 9.999
     },
     {
       "id": "m9ac81c57560a40235a33",
       "tags": [
         "C.16"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 270.057,
-      "height_pt": 13.077
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 272.309,
+      "height_pt": 13.186
     },
     {
       "id": "m5aad553becf41c9fa898",
       "tags": [
         "C.17"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 224.31,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 226.181,
+      "height_pt": 27.169
     },
     {
       "id": "m5dfd6dad6e39ea5a0b7f",
       "tags": [
         "C.18"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 139.646,
-      "height_pt": 9.916
+      "font_pt": 11.0,
+      "page": 31,
+      "width_pt": 140.811,
+      "height_pt": 9.999
     },
     {
       "id": "ma7de2e71b1af62a43bae",
       "tags": [
         "C.19"
       ],
-      "font_pt": 10.909,
-      "page": 34,
-      "width_pt": 152.01,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 153.278,
+      "height_pt": 26.523
     },
     {
       "id": "mcf6940a274a5abef7c1f",
       "tags": [
         "C.20"
       ],
-      "font_pt": 10.909,
-      "page": 35,
-      "width_pt": 345.088,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 347.966,
+      "height_pt": 27.266
     },
     {
       "id": "mff751d12399655c7087f",
       "tags": [
         "C.21"
       ],
-      "font_pt": 10.909,
-      "page": 35,
-      "width_pt": 273.126,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 275.405,
+      "height_pt": 27.169
     },
     {
       "id": "mbb973899dd5e77b2bf3e",
       "tags": [
         "C.22"
       ],
-      "font_pt": 10.909,
-      "page": 35,
-      "width_pt": 248.107,
-      "height_pt": 35.051
+      "font_pt": 11.0,
+      "page": 32,
+      "width_pt": 250.176,
+      "height_pt": 35.343
     },
     {
       "id": "m7da2bf43fdb43427f75b",
       "tags": [
         "C.23"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 313.66,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 316.276,
+      "height_pt": 26.523
     },
     {
       "id": "mdd031428e1893730248c",
       "tags": [
         "C.24"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 261.991,
-      "height_pt": 26.304
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 264.176,
+      "height_pt": 26.523
     },
     {
       "id": "m8a79b9678000dda785c7",
       "tags": [
         "C.25"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 299.638,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 302.137,
+      "height_pt": 27.169
     },
     {
       "id": "m653a2a0f5f991ab3f32a",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 330.897,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 333.658,
+      "height_pt": 27.266
     },
     {
       "id": "mea9611020fdebc09f4d7",
       "tags": [
         "C.26"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 202.188,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 203.875,
+      "height_pt": 27.266
     },
     {
       "id": "mbcc4156454a2e215d5f3",
       "tags": [
         "C.27"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 200.45,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 202.122,
+      "height_pt": 27.169
     },
     {
       "id": "mad74a7fd6ebab039d774",
       "tags": [
         "C.28"
       ],
-      "font_pt": 10.909,
-      "page": 36,
-      "width_pt": 171.037,
-      "height_pt": 14.437
+      "font_pt": 11.0,
+      "page": 33,
+      "width_pt": 172.464,
+      "height_pt": 14.557
     },
     {
       "id": "m1a15587694640797c149",
       "tags": [
         "C.29"
       ],
-      "font_pt": 10.909,
-      "page": 37,
-      "width_pt": 189.708,
-      "height_pt": 14.52
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 191.29,
+      "height_pt": 14.641
     },
     {
       "id": "m360a64d5b367862b865f",
       "tags": [
         "C.30"
       ],
-      "font_pt": 10.909,
-      "page": 37,
-      "width_pt": 327.659,
-      "height_pt": 32.638
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 330.393,
+      "height_pt": 32.91
     },
     {
       "id": "mc40903ee57186f34c687",
       "tags": [
         "C.31"
       ],
-      "font_pt": 10.909,
-      "page": 37,
-      "width_pt": 165.666,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 34,
+      "width_pt": 167.048,
+      "height_pt": 27.169
     },
     {
       "id": "m7b092859d51b5e2c8833",
       "tags": [
         "C.32"
       ],
-      "font_pt": 10.909,
-      "page": 38,
-      "width_pt": 297.011,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 35,
+      "width_pt": 299.488,
+      "height_pt": 32.989
     },
     {
       "id": "m014324de683a76c3d182",
       "tags": [
         "C.33"
       ],
-      "font_pt": 10.909,
-      "page": 38,
-      "width_pt": 164.372,
-      "height_pt": 32.9
+      "font_pt": 11.0,
+      "page": 35,
+      "width_pt": 165.744,
+      "height_pt": 33.175
     },
     {
       "id": "m2a00a1a5b73995818b2b",
       "tags": [
         "C.34"
       ],
-      "font_pt": 10.909,
-      "page": 38,
-      "width_pt": 277.394,
-      "height_pt": 13.08
+      "font_pt": 11.0,
+      "page": 35,
+      "width_pt": 279.708,
+      "height_pt": 13.189
     },
     {
       "id": "m9ee9962a2337ac1f043a",
       "tags": [
         "C.35"
       ],
-      "font_pt": 10.909,
-      "page": 38,
-      "width_pt": 95.951,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 35,
+      "width_pt": 96.752,
+      "height_pt": 25.065
     },
     {
       "id": "md15c382a6ade7009c05a",
       "tags": [
         "D.1"
       ],
-      "font_pt": 10.909,
-      "page": 38,
-      "width_pt": 383.293,
-      "height_pt": 14.52
+      "font_pt": 10.075,
+      "page": 35,
+      "width_pt": 354.0,
+      "height_pt": 13.41
     },
     {
       "id": "m52e2e9f3e0a8b8516eff",
       "tags": [
         "D.2"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 179.76,
-      "height_pt": 23.109
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 181.259,
+      "height_pt": 23.301
     },
     {
       "id": "m6e285b379d2996a0a848",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 279.966,
-      "height_pt": 13.909
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 282.302,
+      "height_pt": 14.025
     },
     {
       "id": "mfbcda7f2a11522c53caf",
       "tags": [
         "D.3"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 299.429,
-      "height_pt": 26.4
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 301.927,
+      "height_pt": 26.62
     },
     {
       "id": "m7877ddc5e4e5e53bab99",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 290.689,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 293.114,
+      "height_pt": 12.473
     },
     {
       "id": "m7e7a26407e6be48a28d3",
       "tags": [
         "D.4"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 230.74,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 232.664,
+      "height_pt": 11.0
     },
     {
       "id": "md2dc203dd05648f8c613",
       "tags": [
         "D.5"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 335.444,
-      "height_pt": 31.298
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 338.242,
+      "height_pt": 31.559
     },
     {
       "id": "m190e1ed3c97792ff61ad",
       "tags": [
         "D.6"
       ],
-      "font_pt": 10.909,
-      "page": 39,
-      "width_pt": 221.239,
-      "height_pt": 21.568
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 223.084,
+      "height_pt": 21.748
     },
     {
       "id": "m258623a95c2e0f40158b",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 40,
-      "width_pt": 103.773,
-      "height_pt": 14.572
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 104.639,
+      "height_pt": 14.694
     },
     {
       "id": "m2cfdf8ca572c9c4412c1",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 40,
-      "width_pt": 349.374,
-      "height_pt": 12.916
+      "font_pt": 11.0,
+      "page": 36,
+      "width_pt": 352.288,
+      "height_pt": 13.024
     },
     {
       "id": "mf609b62257d7b602eca6",
       "tags": [
         "D.7"
       ],
-      "font_pt": 10.909,
-      "page": 40,
-      "width_pt": 313.317,
-      "height_pt": 26.944
+      "font_pt": 11.0,
+      "page": 37,
+      "width_pt": 315.931,
+      "height_pt": 27.169
     },
     {
       "id": "m37180f03ccf5adf86e4a",
       "tags": [
         "D.8"
       ],
-      "font_pt": 10.719,
-      "page": 40,
-      "width_pt": 399.0,
-      "height_pt": 32.146
+      "font_pt": 9.51,
+      "page": 37,
+      "width_pt": 354.0,
+      "height_pt": 28.521
     },
     {
       "id": "m6ea16d0b0cc840d9d5d6",
       "tags": [
         "D.9"
       ],
-      "font_pt": 10.909,
-      "page": 40,
-      "width_pt": 287.889,
-      "height_pt": 25.221
+      "font_pt": 11.0,
+      "page": 37,
+      "width_pt": 290.29,
+      "height_pt": 25.431
     },
     {
       "id": "mc3578c6fa9b6b1482ff1",
       "tags": [
         "D.10"
       ],
-      "font_pt": 10.222,
-      "page": 41,
-      "width_pt": 399.0,
-      "height_pt": 12.051
+      "font_pt": 9.069,
+      "page": 37,
+      "width_pt": 354.0,
+      "height_pt": 10.692
     },
     {
       "id": "ma5015857f0f276003ff7",
       "tags": [
         "D.11"
       ],
-      "font_pt": 10.627,
-      "page": 41,
-      "width_pt": 399.0,
-      "height_pt": 23.677
+      "font_pt": 9.429,
+      "page": 38,
+      "width_pt": 354.0,
+      "height_pt": 21.007
     },
     {
       "id": "mc6630b32ac1952c04dde",
       "tags": [
         "D.12"
       ],
-      "font_pt": 10.909,
-      "page": 41,
-      "width_pt": 325.765,
-      "height_pt": 27.04
+      "font_pt": 11.0,
+      "page": 38,
+      "width_pt": 328.482,
+      "height_pt": 27.266
     },
     {
       "id": "m17fbdf4bc1fd3e99081e",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 41,
-      "width_pt": 323.993,
-      "height_pt": 27.589
+      "font_pt": 11.0,
+      "page": 38,
+      "width_pt": 326.696,
+      "height_pt": 27.819
     },
     {
       "id": "m4f898a053c90537575ab",
       "tags": [
         "D.13"
       ],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 255.7,
-      "height_pt": 12.422
+      "font_pt": 11.0,
+      "page": 38,
+      "width_pt": 257.833,
+      "height_pt": 12.526
     },
     {
       "id": "m7e112db1217e3d71e848",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 358.885,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 38,
+      "width_pt": 361.879,
+      "height_pt": 20.46
     },
     {
       "id": "m70cac8b06e82f104cd16",
       "tags": [
         "D.14"
       ],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 172.219,
-      "height_pt": 25.538
+      "font_pt": 11.0,
+      "page": 38,
+      "width_pt": 173.656,
+      "height_pt": 25.751
     },
     {
       "id": "m503bad42005b5caced27",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 311.669,
-      "height_pt": 20.291
+      "font_pt": 11.0,
+      "page": 39,
+      "width_pt": 314.269,
+      "height_pt": 20.46
     },
     {
       "id": "m808104676f7deb0bc89e",
       "tags": [],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 282.406,
-      "height_pt": 33.437
+      "font_pt": 11.0,
+      "page": 39,
+      "width_pt": 284.761,
+      "height_pt": 33.716
     },
     {
       "id": "me33e379a802619bbdce5",
       "tags": [
         "D.15"
       ],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 152.369,
-      "height_pt": 11.729
+      "font_pt": 11.0,
+      "page": 39,
+      "width_pt": 153.64,
+      "height_pt": 11.827
     },
     {
       "id": "mbeaac8487381ea9d93e0",
       "tags": [
         "D.16"
       ],
-      "font_pt": 10.909,
-      "page": 42,
-      "width_pt": 88.642,
-      "height_pt": 26.262
+      "font_pt": 11.0,
+      "page": 39,
+      "width_pt": 89.382,
+      "height_pt": 26.481
     },
     {
       "id": "m95c79a1be68a6039cae1",
       "tags": [
         "D.17"
       ],
-      "font_pt": 10.909,
-      "page": 43,
-      "width_pt": 284.314,
-      "height_pt": 12.916
+      "font_pt": 11.0,
+      "page": 39,
+      "width_pt": 286.685,
+      "height_pt": 13.024
     },
     {
       "id": "m3d3a64e331f60dd4b631",
       "tags": [
         "D.18"
       ],
-      "font_pt": 10.909,
-      "page": 43,
-      "width_pt": 250.947,
-      "height_pt": 22.994
+      "font_pt": 11.0,
+      "page": 40,
+      "width_pt": 253.041,
+      "height_pt": 23.186
     },
     {
       "id": "m5a22bad6796e79af9383",
       "tags": [
         "D.19"
       ],
-      "font_pt": 10.909,
-      "page": 44,
-      "width_pt": 109.377,
-      "height_pt": 12.389
+      "font_pt": 11.0,
+      "page": 41,
+      "width_pt": 110.289,
+      "height_pt": 12.493
     },
     {
       "id": "m32bc9189815dea4f9d9f",
       "tags": [
         "E.1"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 240.026,
-      "height_pt": 12.37
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 242.029,
+      "height_pt": 12.473
     },
     {
       "id": "mdfc1f1399e2e3da374a1",
       "tags": [
         "E.2"
       ],
-      "font_pt": 10.909,
-      "page": 45,
-      "width_pt": 275.653,
-      "height_pt": 13.199
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 277.952,
+      "height_pt": 13.309
     },
     {
       "id": "mdfa61799347064c4f31c",
       "tags": [
         "E.3"
       ],
-      "font_pt": 10.909,
-      "page": 46,
-      "width_pt": 344.783,
-      "height_pt": 32.365
+      "font_pt": 11.0,
+      "page": 42,
+      "width_pt": 347.659,
+      "height_pt": 32.635
     },
     {
       "id": "m4da3290b102030252c63",
       "tags": [
         "E.4"
       ],
-      "font_pt": 10.909,
-      "page": 49,
-      "width_pt": 174.096,
-      "height_pt": 12.502
+      "font_pt": 11.0,
+      "page": 45,
+      "width_pt": 175.548,
+      "height_pt": 12.606
     },
     {
       "id": "m8cb0ddbbb357ef0d7999",
       "tags": [
         "F.1"
       ],
-      "font_pt": 10.909,
-      "page": 54,
-      "width_pt": 234.949,
-      "height_pt": 78.268
+      "font_pt": 11.0,
+      "page": 52,
+      "width_pt": 236.909,
+      "height_pt": 78.921
     },
     {
       "id": "mdf47e10c9ad5c43bc070",
       "tags": [
         "F.2"
       ],
-      "font_pt": 10.909,
-      "page": 55,
-      "width_pt": 343.013,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 52,
+      "width_pt": 345.874,
+      "height_pt": 11.0
     },
     {
       "id": "m1378f8f1386dcdfc2b01",
       "tags": [
         "F.3"
       ],
-      "font_pt": 10.909,
-      "page": 55,
-      "width_pt": 156.959,
-      "height_pt": 22.994
+      "font_pt": 11.0,
+      "page": 53,
+      "width_pt": 158.268,
+      "height_pt": 23.186
     },
     {
       "id": "ma2d2c6970edf4333230a",
       "tags": [
         "F.4"
       ],
-      "font_pt": 10.909,
-      "page": 55,
-      "width_pt": 257.293,
-      "height_pt": 13.406
+      "font_pt": 11.0,
+      "page": 53,
+      "width_pt": 259.439,
+      "height_pt": 13.518
     },
     {
       "id": "mbe629c3650b7ecb6a3d3",
       "tags": [
         "F.5"
       ],
-      "font_pt": 10.244,
-      "page": 55,
-      "width_pt": 399.0,
-      "height_pt": 22.086
+      "font_pt": 9.089,
+      "page": 53,
+      "width_pt": 354.0,
+      "height_pt": 19.595
     },
     {
       "id": "ma7641cd9157b70e8663a",
       "tags": [
         "F.6"
       ],
-      "font_pt": 10.909,
-      "page": 55,
-      "width_pt": 309.976,
-      "height_pt": 13.012
+      "font_pt": 11.0,
+      "page": 53,
+      "width_pt": 312.562,
+      "height_pt": 13.121
     },
     {
       "id": "m6877977e76c82a3a6a05",
       "tags": [
         "F.7"
       ],
-      "font_pt": 10.909,
-      "page": 55,
-      "width_pt": 342.63,
-      "height_pt": 25.706
+      "font_pt": 11.0,
+      "page": 53,
+      "width_pt": 345.488,
+      "height_pt": 25.92
     },
     {
       "id": "m9279f3cb41088ac1dea3",
       "tags": [
         "F.8"
       ],
-      "font_pt": 10.909,
-      "page": 56,
-      "width_pt": 247.055,
-      "height_pt": 33.437
+      "font_pt": 11.0,
+      "page": 53,
+      "width_pt": 249.116,
+      "height_pt": 33.716
     },
     {
       "id": "mdc58c4c9f9f47bfc5691",
       "tags": [
         "F.9"
       ],
-      "font_pt": 10.909,
-      "page": 56,
-      "width_pt": 231.455,
-      "height_pt": 33.579
+      "font_pt": 11.0,
+      "page": 54,
+      "width_pt": 233.386,
+      "height_pt": 33.859
     },
     {
       "id": "m9e695263674f2bc6eb2a",
       "tags": [
         "F.10"
       ],
-      "font_pt": 10.909,
-      "page": 56,
-      "width_pt": 348.007,
-      "height_pt": 27.606
+      "font_pt": 11.0,
+      "page": 54,
+      "width_pt": 350.91,
+      "height_pt": 27.837
     },
     {
       "id": "m74c692814a2b44a43987",
       "tags": [
         "F.11"
       ],
-      "font_pt": 10.909,
-      "page": 56,
-      "width_pt": 279.454,
-      "height_pt": 30.258
+      "font_pt": 11.0,
+      "page": 54,
+      "width_pt": 281.785,
+      "height_pt": 30.511
     },
     {
       "id": "m6abe04cc92c1307e2efc",
       "tags": [
         "F.12"
       ],
-      "font_pt": 10.909,
-      "page": 56,
-      "width_pt": 370.905,
-      "height_pt": 22.994
+      "font_pt": 10.412,
+      "page": 54,
+      "width_pt": 354.0,
+      "height_pt": 21.946
     },
     {
       "id": "m93e4854746fbfdea96e5",
       "tags": [
         "F.13"
       ],
-      "font_pt": 10.909,
-      "page": 57,
-      "width_pt": 320.212,
-      "height_pt": 10.909
+      "font_pt": 11.0,
+      "page": 54,
+      "width_pt": 322.883,
+      "height_pt": 11.0
     },
     {
       "id": "m5aefb7b239469c7def1c",
       "tags": [
         "F.14"
       ],
-      "font_pt": 10.909,
-      "page": 57,
-      "width_pt": 393.464,
-      "height_pt": 12.723
+      "font_pt": 9.815,
+      "page": 54,
+      "width_pt": 354.0,
+      "height_pt": 11.447
     },
     {
       "id": "mbcd24eb945b7ef3625a7",
       "tags": [
         "F.15"
       ],
-      "font_pt": 10.909,
-      "page": 57,
-      "width_pt": 328.609,
-      "height_pt": 32.716
+      "font_pt": 11.0,
+      "page": 55,
+      "width_pt": 331.35,
+      "height_pt": 32.989
     },
     {
       "id": "m46e27e463e402351e64f",
       "tags": [
         "F.16"
       ],
-      "font_pt": 10.909,
-      "page": 57,
-      "width_pt": 315.314,
-      "height_pt": 49.411
+      "font_pt": 11.0,
+      "page": 55,
+      "width_pt": 317.944,
+      "height_pt": 49.823
     },
     {
       "id": "ma97e32a3f52856235dab",
       "tags": [
         "F.17"
       ],
-      "font_pt": 9.8,
-      "page": 58,
-      "width_pt": 399.0,
-      "height_pt": 24.408
+      "font_pt": 8.694,
+      "page": 55,
+      "width_pt": 354.0,
+      "height_pt": 21.655
     },
     {
       "id": "mcaea1510b7e5d638a3fb",
       "tags": [
         "F.18"
       ],
-      "font_pt": 10.909,
-      "page": 58,
-      "width_pt": 276.611,
-      "height_pt": 32.581
+      "font_pt": 11.0,
+      "page": 55,
+      "width_pt": 278.918,
+      "height_pt": 32.853
     },
     {
       "id": "me2136a704eca6e51446b",
       "tags": [
         "F.19"
       ],
-      "font_pt": 10.909,
-      "page": 58,
-      "width_pt": 277.118,
-      "height_pt": 57.807
+      "font_pt": 11.0,
+      "page": 56,
+      "width_pt": 279.43,
+      "height_pt": 58.289
     },
     {
-      "id": "md0e70fac44a0c37d6eb1",
+      "id": "m0324f672b541ba41037c",
       "tags": [
         "F.20"
       ],
-      "font_pt": 8.692,
-      "page": 58,
-      "width_pt": 399.0,
-      "height_pt": 17.097
+      "font_pt": 11.0,
+      "page": 56,
+      "width_pt": 313.317,
+      "height_pt": 38.037
     },
     {
       "id": "maa74500cdc3ca658263f",
       "tags": [
         "F.21"
       ],
-      "font_pt": 10.909,
-      "page": 58,
-      "width_pt": 238.353,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 56,
+      "width_pt": 240.341,
+      "height_pt": 25.065
     },
     {
       "id": "me5769b48cea6a1fd0cb7",
       "tags": [
         "F.22"
       ],
-      "font_pt": 10.909,
-      "page": 58,
-      "width_pt": 299.333,
-      "height_pt": 34.05
+      "font_pt": 11.0,
+      "page": 56,
+      "width_pt": 301.83,
+      "height_pt": 34.334
     },
     {
       "id": "mc186cfdfd4dac1c2c147",
       "tags": [
         "F.23"
       ],
-      "font_pt": 10.909,
-      "page": 59,
-      "width_pt": 234.425,
-      "height_pt": 33.209
+      "font_pt": 11.0,
+      "page": 56,
+      "width_pt": 236.38,
+      "height_pt": 33.486
     },
     {
       "id": "m1887be7deb6df90a9560",
       "tags": [
         "F.24"
       ],
-      "font_pt": 10.909,
-      "page": 59,
-      "width_pt": 314.199,
-      "height_pt": 56.107
+      "font_pt": 11.0,
+      "page": 57,
+      "width_pt": 316.82,
+      "height_pt": 56.575
     },
     {
-      "id": "mbd11ddda454a2719e94d",
+      "id": "mc7f88d3a7a0a6bb969c7",
       "tags": [
         "F.25"
       ],
-      "font_pt": 8.559,
-      "page": 59,
-      "width_pt": 399.0,
-      "height_pt": 24.86
+      "font_pt": 11.0,
+      "page": 57,
+      "width_pt": 314.744,
+      "height_pt": 49.373
     },
     {
       "id": "m88c72f4fa9c4ca23c4a6",
       "tags": [
         "F.26"
       ],
-      "font_pt": 10.909,
-      "page": 60,
-      "width_pt": 301.449,
-      "height_pt": 15.054
+      "font_pt": 11.0,
+      "page": 57,
+      "width_pt": 303.964,
+      "height_pt": 15.18
     },
     {
       "id": "mc2f25ec23dd71742fede",
       "tags": [
         "F.27"
       ],
-      "font_pt": 10.909,
-      "page": 60,
-      "width_pt": 355.201,
-      "height_pt": 29.859
+      "font_pt": 10.872,
+      "page": 57,
+      "width_pt": 354.0,
+      "height_pt": 29.758
     },
     {
       "id": "mb47286503e839ee648e5",
       "tags": [
         "F.28"
       ],
-      "font_pt": 10.909,
-      "page": 60,
-      "width_pt": 388.552,
-      "height_pt": 11.109
+      "font_pt": 9.939,
+      "page": 58,
+      "width_pt": 354.0,
+      "height_pt": 10.121
     },
     {
       "id": "ma848d335aee88a921f68",
       "tags": [
         "F.29"
       ],
-      "font_pt": 10.909,
-      "page": 60,
-      "width_pt": 289.374,
-      "height_pt": 28.182
+      "font_pt": 11.0,
+      "page": 58,
+      "width_pt": 291.788,
+      "height_pt": 28.417
     },
     {
       "id": "m9b88a32a994287e0cb97",
       "tags": [
         "F.30"
       ],
-      "font_pt": 10.909,
-      "page": 61,
-      "width_pt": 204.448,
-      "height_pt": 27.866
+      "font_pt": 11.0,
+      "page": 58,
+      "width_pt": 206.153,
+      "height_pt": 28.098
     },
     {
       "id": "m6669c6ced7fbfd27a103",
       "tags": [
         "G.1"
       ],
-      "font_pt": 10.909,
-      "page": 61,
-      "width_pt": 258.623,
-      "height_pt": 13.406
+      "font_pt": 11.0,
+      "page": 59,
+      "width_pt": 260.78,
+      "height_pt": 13.518
     },
     {
       "id": "m47fbe2ca32be684a53bf",
       "tags": [
         "G.2"
       ],
-      "font_pt": 10.677,
-      "page": 61,
-      "width_pt": 399.0,
-      "height_pt": 29.94
+      "font_pt": 9.473,
+      "page": 59,
+      "width_pt": 354.0,
+      "height_pt": 26.563
     },
     {
       "id": "m0e82f8c406d0992697ec",
       "tags": [
         "G.3"
       ],
-      "font_pt": 10.909,
-      "page": 61,
-      "width_pt": 383.259,
-      "height_pt": 20.873
+      "font_pt": 10.076,
+      "page": 59,
+      "width_pt": 354.0,
+      "height_pt": 19.28
     },
     {
       "id": "md727dd49a4aa000aff7a",
       "tags": [
         "G.4"
       ],
-      "font_pt": 10.909,
-      "page": 62,
-      "width_pt": 335.334,
-      "height_pt": 41.137
+      "font_pt": 11.0,
+      "page": 59,
+      "width_pt": 338.131,
+      "height_pt": 41.48
     },
     {
       "id": "md2cb4aad7be4a11b1f43",
       "tags": [
         "G.5"
       ],
-      "font_pt": 10.909,
-      "page": 62,
-      "width_pt": 237.439,
-      "height_pt": 26.053
+      "font_pt": 11.0,
+      "page": 59,
+      "width_pt": 239.419,
+      "height_pt": 26.27
     },
     {
       "id": "m5bd3555ac5815f95b0ef",
       "tags": [
         "G.6"
       ],
-      "font_pt": 10.909,
-      "page": 62,
-      "width_pt": 344.361,
-      "height_pt": 37.326
+      "font_pt": 11.0,
+      "page": 60,
+      "width_pt": 347.234,
+      "height_pt": 37.638
     },
     {
       "id": "m07fba9c30bd22f25f00e",
       "tags": [
         "G.7"
       ],
-      "font_pt": 10.909,
-      "page": 62,
-      "width_pt": 116.127,
-      "height_pt": 24.857
+      "font_pt": 11.0,
+      "page": 60,
+      "width_pt": 117.096,
+      "height_pt": 25.065
     },
     {
       "id": "m3c0cc0fdb013a7ed7ffc",
       "tags": [
         "G.8"
       ],
-      "font_pt": 10.909,
-      "page": 63,
-      "width_pt": 203.615,
-      "height_pt": 30.013
+      "font_pt": 11.0,
+      "page": 60,
+      "width_pt": 205.314,
+      "height_pt": 30.263
     },
     {
       "id": "ma063825222ddc0c5ee3f",
       "tags": [
         "G.9"
       ],
-      "font_pt": 10.909,
-      "page": 63,
-      "width_pt": 374.442,
-      "height_pt": 69.568
+      "font_pt": 10.313,
+      "page": 60,
+      "width_pt": 354.0,
+      "height_pt": 65.77
     },
     {
       "id": "m0be66eb79dd20af3ee0c",
       "tags": [
         "G.10"
       ],
-      "font_pt": 10.909,
-      "page": 63,
-      "width_pt": 357.221,
-      "height_pt": 13.018
+      "font_pt": 10.811,
+      "page": 61,
+      "width_pt": 354.0,
+      "height_pt": 12.9
     },
     {
       "id": "m8a5479d497429e3b4520",
       "tags": [
         "G.11"
       ],
-      "font_pt": 10.909,
-      "page": 63,
-      "width_pt": 197.919,
-      "height_pt": 13.018
+      "font_pt": 11.0,
+      "page": 61,
+      "width_pt": 199.57,
+      "height_pt": 13.126
     },
     {
       "id": "m7f7c963987caf337b2cc",
       "tags": [
         "G.12"
       ],
-      "font_pt": 10.909,
-      "page": 64,
-      "width_pt": 333.198,
-      "height_pt": 26.955
+      "font_pt": 11.0,
+      "page": 61,
+      "width_pt": 335.977,
+      "height_pt": 27.18
     },
     {
-      "id": "m66aafb62c761466bca47",
+      "id": "madb69d3945240515b309",
       "tags": [
         "G.13"
       ],
-      "font_pt": 9.129,
-      "page": 64,
-      "width_pt": 399.0,
-      "height_pt": 11.298
+      "font_pt": 11.0,
+      "page": 61,
+      "width_pt": 265.033,
+      "height_pt": 28.4
     },
     {
       "id": "mb63e4480d1cd43ec201a",
       "tags": [
         "G.14"
       ],
-      "font_pt": 10.909,
-      "page": 64,
-      "width_pt": 275.202,
-      "height_pt": 44.757
+      "font_pt": 11.0,
+      "page": 61,
+      "width_pt": 277.498,
+      "height_pt": 45.131
     },
     {
       "id": "m363a13ec15cac3617fa6",
       "tags": [
         "G.15"
       ],
-      "font_pt": 10.909,
-      "page": 64,
-      "width_pt": 221.89,
-      "height_pt": 32.666
+      "font_pt": 11.0,
+      "page": 62,
+      "width_pt": 223.741,
+      "height_pt": 32.938
     },
     {
       "id": "m6f2e014303fe66924b03",
       "tags": [
         "G.16"
       ],
-      "font_pt": 10.909,
-      "page": 65,
-      "width_pt": 267.742,
-      "height_pt": 26.83
+      "font_pt": 11.0,
+      "page": 62,
+      "width_pt": 269.975,
+      "height_pt": 27.053
     },
     {
       "id": "m41a8e1b87393869ddfda",
       "tags": [
         "G.17"
       ],
-      "font_pt": 10.909,
-      "page": 65,
-      "width_pt": 270.76,
-      "height_pt": 27.603
+      "font_pt": 11.0,
+      "page": 62,
+      "width_pt": 273.019,
+      "height_pt": 27.833
     }
   ],
   "headings": [
@@ -3286,87 +3288,87 @@
   "contents": [
     {
       "text": "1. Research question and contribution",
-      "page": 3,
+      "page": 1,
       "key": "heading-0"
     },
     {
       "text": "2. Model, units and fixed configurations",
-      "page": 5,
+      "page": 3,
       "key": "heading-3"
     },
     {
       "text": "3. Finite-history propagation: nonexpansion and dissipation",
-      "page": 7,
+      "page": 5,
       "key": "heading-4"
     },
     {
       "text": "4. Continuous certificates and complete Fourier prices",
-      "page": 9,
+      "page": 7,
       "key": "heading-6"
     },
     {
       "text": "5. Shared errors and financial decisions",
-      "page": 10,
+      "page": 8,
       "key": "heading-7"
     },
     {
       "text": "6. Structure of the specified rational output",
-      "page": 14,
+      "page": 12,
       "key": "heading-10"
     },
     {
       "text": "7. Matched decisions and scientific controls",
-      "page": 15,
+      "page": 12,
       "key": "heading-11"
     },
     {
       "text": "8. Applicability and a fixed reproducibility entry",
-      "page": 23,
+      "page": 20,
       "key": "heading-20"
     },
     {
       "text": "Appendix A. Verification of the Probability-Model and Strip-Transform Assumptions",
-      "page": 24,
+      "page": 22,
       "key": "heading-21"
     },
     {
       "text": "Appendix B. Exact construction and structural certificates",
-      "page": 25,
+      "page": 23,
       "key": "heading-22"
     },
     {
       "text": "Appendix C. Complete propagation proofs and analytic variants",
-      "page": 30,
+      "page": 28,
       "key": "heading-26"
     },
     {
       "text": "Appendix D. Continuous certification and reliable refinement",
-      "page": 38,
+      "page": 35,
       "key": "heading-32"
     },
     {
       "text": "Appendix E. Complete experiments and verification duties",
-      "page": 45,
+      "page": 41,
       "key": "heading-38"
     },
     {
       "text": "Appendix F. Original-chain classical Heston inclusion",
-      "page": 54,
+      "page": 52,
       "key": "heading-45"
     },
     {
       "text": "Appendix G. Nonexact trial fields and the signed error identity",
-      "page": 61,
+      "page": 58,
       "key": "heading-54"
     },
     {
       "text": "Appendix H. Research chronology and revision scope",
-      "page": 65,
+      "page": 63,
       "key": "heading-60"
     },
     {
       "text": "References",
-      "page": 66,
+      "page": 63,
       "key": "heading-61"
     }
   ],
@@ -4473,78 +4475,78 @@
         [
           "S1",
           "Padé coefficient signs on the original parameter rectangle",
-          "python bc-merged-20261007/full_structure_verify.py",
+          "`full_structure_verify.py` ([S1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s1))",
           "211241 structural sign leaves and rectangle cover",
           "model/parameter definitions; original strict interval algebra and generalized-power primitives"
         ],
         [
           "S2",
           "Startup Caputo residual and left-halfplane enclosure",
-          "python bc-merged-20261007/startup_independent.py",
+          "`startup_independent.py` ([S2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s2))",
           "all 513 frequencies for each of the three original startup cells",
           "stored field dyadics and later-time continuous residuals; Gamma/power/dyadic outward primitives"
         ],
         [
           "R1",
           "Full original alpha=.52 low-frequency continuous residual cover",
-          "python heston-nine-point-20261007/check-time-envelope.py",
-          "8189 closed cells x513 entries: cover, saved dyadic values and per-node maxima; startup audited separately",
+          "`check-time-envelope.py` ([R1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r1))",
+          "8189 closed cells ×513 entries: cover, saved dyadic values and per-node maxima; startup audited separately",
           "derivative inequalities in identified continuous generator; NumPy enclosure with proved dot-product error and strict scalar primitives"
         ],
         [
           "R2",
           "Full alpha=.52 high-frequency continuous residual cover",
-          "python heston-frontier-20261007/omission-verify.py",
-          "8189 closed cells x512 entries: exact bank, startup/halfplane, saved-node maxima",
+          "`omission-verify.py` ([R2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r2))",
+          "8189 closed cells ×512 entries: exact bank, startup/halfplane, saved-node maxima",
           "identified Caputo derivative-generator inequalities; strict scalar primitives and original continuous generator"
         ],
         [
           "P1",
-          "Global finite-history and low-frequency128-bin price accounts",
-          "python heston-nine-point-20261007/verify-finite-history-independent.py; python heston-nine-point-20261007/independent-time-local.py",
+          "Global finite-history and low-frequency 128-bin price accounts",
+          "`verify-finite-history-independent.py`; `independent-time-local.py` ([P1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p1))",
           "forward masses, complete cell intersections, 513 tightened radii, all 1025 finite terms and complete spread remainder",
           "continuous residual theorem/validity and identified stored field; strict forward-moment, exponent and true-tail primitives"
         ],
         [
           "P2",
           "Expanded-reference frozen half-year output account",
-          "python heston-frontier-20261007/independent-omission.py",
+          "`independent-omission.py` ([P2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p2))",
           "changed reference centre, all 1025 support terms, old/new complete interval intersection, global/local high-frequency accounts",
           "same actual fast output and continuous residual banks; original strict moment/scalar primitives"
         ],
         [
           "Q1",
-          "Quarter-maturity used64 certificate and actual fast output",
-          "python heston-frontier-20261007/independent-transfer.py --full",
+          "Quarter-maturity used 64 certificate and actual fast output",
+          "`independent-transfer.py` ([Q1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q1))",
           "all three exact terminal interpolations, 1539 restricted exponents, three original fast-output calculations, all 3075 true finite CF/tail/price terms",
           "larger-horizon continuous residuals and halfplane certificate; strict moment/trig/dyadic/true-tail libraries; original fast implementation used only for output replay"
         ],
         [
           "Q2",
-          "Quarter full128 global and128-bin complete certificate",
-          "python heston-frontier-20261007/independent-transfer-supplement.py --full",
+          "Quarter full 128 global and 128-bin complete certificate",
+          "`independent-transfer-supplement.py` ([Q2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q2))",
           "all 1025 restricted exponents, all 1025 CF/tail/coefficient/radius terms, all high bank entries, all 128 local weights and exact account",
           "low/high continuous derivative validity; actual fast replay is separately performed by Q1; strict moment/trig/dyadic/true-tail libraries; path helpers of Q1"
         ],
         [
           "N1",
           "Fresh fields/residuals at the five nearby alpha points",
-          "python nearby_independent.py --N 1024; python nearby_independent.py --N 2048",
+          "`nearby_independent.py` ([N1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n1))",
           "all cells, startup, halfplane, 513 exponents and 1025 CF/coefficient terms per point; all objective/pair decisions",
           "strict proof of continuous residual generator and final propagation theorem; declared sdk outward primitives, stored reference data"
         ],
         [
           "N2",
-          "Descriptive128-bin reused-bank control, outside nearby objective grid",
-          "python local_output_independent.py",
-          "128 exact positive weights, every intersecting closed-bank maximum, 513 tightened radii, all 12 prices and allactual output rounding",
+          "Descriptive 128-bin reused-bank control, outside nearby objective grid",
+          "`local_output_independent.py` ([N2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n2))",
+          "128 exact positive weights, every intersecting closed-bank maximum, 513 tightened radii, all 12 prices and all actual output rounding",
           "complete identity-matched N2048 point proof and continuous residual generator; same strict moment/trig/dyadic primitives"
         ],
         [
           "C1",
           "Same model and complete tolerance for frozen/direct/corrected/BL-core outputs",
-          "python workload_controls_independent.py --N 2048 --local128",
-          "exact stored-output centre translation, allsame-reference remainder and28 portfolio supports; BL nominal-output metadata identity",
+          "`workload_controls_independent.py` ([C1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#c1))",
+          "exact stored-output centre translation, all same-reference remainder and 28 portfolio supports; BL nominal-output metadata identity",
           "reference certificate, BL nominal-output producer and its stored dyadics; same strict outward coefficient primitives"
         ]
       ]
@@ -4560,21 +4562,21 @@
         ],
         [
           "reproduce.py default",
-          "fixed-copy saved evidence readers; original frontier always requests bothquarter readers --full; new nearby reader point caches deleted by this top driver",
+          "fixed-copy saved evidence readers; original frontier always requests both quarter readers --full; new nearby reader point caches deleted by this top driver",
           "all continuous residual generators or all structural signs"
         ],
         [
           "reproduce.py --full",
-          "default plus all211241 original structural sign leaves",
+          "default plus all 211241 original structural sign leaves",
           "fresh low/high/new-nearby continuous derivative generation"
         ],
         [
-          "baseline/.../run_evidence.py --regenerate-continuous",
-          "original alpha=.52 513-node low continuous generator and retained8189-cell bank",
+          "`run_evidence.py` (regenerate-continuous)",
+          "original alpha=.52 513-node low continuous generator and retained 8189-cell bank",
           "new five-alpha reference/residual generation"
         ],
         [
-          "baseline/.../run_frontier.py --regenerate-full",
+          "`run_frontier.py` (regenerate-full)",
           "separate-clone full 512 high continuous generator plus fresh-bank audit",
           "alter fixed quarter input receipts"
         ],
@@ -4703,20 +4705,20 @@
         ],
         [
           "Dissipative weights and complete prices",
-          "v3/kernel/generate.py --baseline .",
-          "v3/kernel/independent.py --baseline .",
+          "`generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1))",
+          "`independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1))",
           "14-layer direct series versus 12-layer moments; all 128 bins, 1025 nodes, 12 prices and 8 controls; strict primitives and upstream residual proof shared"
         ],
         [
           "Exact experiment ledgers and thresholds",
-          "v3/audit-experiments/produce_audit.py --baseline .",
-          "v3/audit-experiments/read_audit_independent.py --baseline .",
+          "`produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1))",
+          "`read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1))",
           "Exact saved-bank accounts, pair gaps, 504 thresholds and 9 controls; inherited derivative validity"
         ],
         [
           "Integrated F/G mathematical text",
           "Current editable appendix sources",
-          "v3/extensions/check_appendices.py",
+          "`check_appendices.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#g1))",
           "Bilingual formula parity and scope checks; analytic proof review and retained classical readers are separately recorded"
         ]
       ]
@@ -4732,6 +4734,7 @@
     "The principal analytical contribution is the connection from a dissipative complex Riccati residual to the Heston exponent through a finite-history kernel. Theorem 3.1 states both the nonexpansive curve bound and the stricter positive-dissipation envelope. The initial curve term and the physical factor MX000008Z remain explicit. Existing Caputo convexity and positive-resolvent results supply the comparison mechanism; the model-specific pricing-functional composition, certified history weights and complete output budget are the contribution developed here.",
     "The second contribution is a complete implementation-level financial certificate. Shared transform disks are translated to the actual output and evaluated in portfolio and finite-objective directions. The quarter-year matched comparison isolates a certification decision changed by the joint structure. The unified ablation distinguishes propagation, time-local envelopes, omitted-frequency certification and recentering. Support functions, convexity and sorting a fully known unit-cost menu are established tools, rather than separate novelty claims.",
     "The third contribution is a checkable structural domain for the specified Gatheral--Radoicic rational construction, together with an independently generated reference certificate. The all-frequency result has explicit restrictions on correlation, fractional order and mean reversion. The numerical references do not derive their residual certificates from the algebraic sign proof. A nearby-parameter protocol and output controls probe the method's transfer and its appropriate workload.",
+    "**Table 1. Dependencies of the rational-output and independent-reference proof chains.**",
     "The chains share the mathematical model. A successful Padé sign certificate does not by itself certify its pricing error. Conversely, the independent-reference residual route does not require the Padé trajectory to serve as its reference field.",
     "Gatheral--Radoicic [GR2019, GR2023v1] construct two-end rational approximations. Jeng--Kilicman [JK2020, JK2021] analyse global Padé approximations and public SPX data. The formula and endpoint-matching method used here are theirs. Our structural statement concerns the raw matching system throughout its explicitly certified domain.",
     "Abi Jaber--El Euch [AbiJaberElEuch2018v1] supply the Volterra model and affine transform. Li--Liu [LiLiu2018] establish Caputo convexity through regularization; Kopteva [Kopteva2021v2] propagates a time-dependent residual with a positive fractional inverse. Simon [SimonCM2015] supplies Mittag--Leffler positivity, and Trefethen--Weideman [TrefethenWeideman2014] supplies strip trapezoidal analysis. We state the exact regularity bridge consumed here and attribute these mechanisms.",
@@ -4749,6 +4752,7 @@
     " With MX000032Z, the model European call price is ",
     " The model specification, decimal inputs, and normalisation jointly define the prices considered below.",
     "All experiments use model parameter MX000034Z, MX000035Z, Riccati mean reversion zero, Fourier step MX000036Z, a finite reference/error grid through 128 (1025 nodes), 100-bit outward dyadic arithmetic and 64 forward-moment series terms. The actual Padé output uses composite Gauss–Legendre order 8 through 200 (352 nodes) and Jacobi order 256; its Fourier cutoff is distinct from the certificate cutoff. MX000037Z counts source time cells. The number of frequency nodes is written explicitly to avoid confusing it with MX000038Z.",
+    "**Table 2. Fixed configurations: maturity in years; time cells, reference nodes, residual subcells and history bins are counts.**",
     "H0 uses the old uniform-state propagation; H1 uses finite-horizon global propagation on the identical field. H2 retains the original low-frequency 128-bin bank. H3/H4 expand the same reference centre through 128, retaining that low bank and adding the newly certified high bank with global/128-bin propagation. Q0/Q1/Q2 keep full history from zero and use exact quarter-terminal interpolation of the original half-year field: Q0 has 1430/1353/550 time knots, and Q1/Q2 have 1430 knots. Their larger-horizon continuous banks are reused; quarter moments, output and tails are recomputed. The original alpha=.9 source field has 1025 time knots and 641 stored frequencies through 80; only 513 are nonzero reference nodes in H0/H1/Q0. The .52/.60 original fields have 2049 knots and 1025 stored frequencies through 128.",
     "N1/N2 regenerate each five-point field and its continuous residual bank, with two nonstartup subcells (2047/4095 closed cells). N2L is a separately frozen descriptive 128-bin reuse of N2 at alpha=.52; it does not replace the nearby-grid objective experiment. The old low and high banks each have 8189 closed cells (four nonstartup subcells), for 513 and 512 frequencies respectively. Thus the 0.115215934-point H4 certificate and 0.394999331-point N2L certificate concern different reference centres, node coverage and residual banks. Their difference cannot be attributed solely to 128-bin propagation. BL-core512/1024 are nominal history-stepping controls whose complete guarantees use the explicitly identified N1/N2/N2L reference bank.",
     "The H and N field generators use a uniform auxiliary grid MX000039Z from zero to MX000040Z, followed by MX000041Z and MX000042Z. In exact arithmetic this is the graded rule MX000043Z. Generation uses binary64 arithmetic and forces the endpoints to zero and one half; certification uses the saved nodes as exact dyadics, rather than identifying them with the analytical rule. For quarter-year restriction it keeps every original knot strictly below MX000044Z, appends the exact endpoint, and encloses the linear interpolation of the original bracketing field coefficients in rational interval arithmetic. All preceding history is retained.",
@@ -4821,43 +4825,54 @@
     "at every real Fourier frequency and every positive time.",
     "The narrow correlation width quantifies local persistence around the fixed public-data correlation. It is not a broad calibration-box theorem. The complete closed cover and derivative/direct fallback records are in Appendix B.2; derivative bounds apply to the compactified quantities. The independent reference route of Section 4 does not use this Padé sign proof as its residual certificate.",
     "The original six-month contract uses twelve strikes MX000228Z, MX000229Z, forward MX000230Z, discount MX000231Z, and the fixed forward-variance curve in (2.4). Prices and task errors are in index points. The position multiplier is one; no exchange-specific currency notional is inferred. Candidate changes affect MX000232Z while leaving the curve and other parameters fixed. The three-candidate profile MX000233Z is a finite comparison and excludes several original bid/ask bands; it is not a successful market calibration or a continuous optimum.",
-    "The complete MX000234Z minus MX000235Z task bound is compared below. Each row retains its actual output, signed centre, included finite frequencies, strip, true tail and arithmetic. Displayed upper bounds are rounded upward. The quarter-year study recomputes its maturity-specific reference integral, true-transform envelopes and tails; its upstream full-history certificate is lawfully restricted to the shorter horizon. It does not reuse a six-month exponent or tail value.",
+    "Table 3 compares the complete MX000234Z minus MX000235Z task bound. Each row retains its actual output, signed centre, included finite frequencies, strip, true tail and arithmetic. Displayed upper bounds are rounded upward. The quarter-year study recomputes its maturity-specific reference integral, true-transform envelopes and tails; its upstream full-history certificate is lawfully restricted to the shorter horizon. It does not reuse a six-month exponent or tail value.",
+    "**Table 3. H0–H4 and Q0–Q2 complete unit-spread certificates, in index points; outputs and reference changes are identified by configuration.**",
     "The first finite-history reduction is about 72.91%, calculated against the displayed old complete bound. It is a reduction of a guaranteed error bound, not an observed reduction of true pricing error or trading loss. The six-month high-frequency refinement legally changes the centre from approximately MX000236Z to MX000237Z points. Its improvement therefore cannot be assigned wholly to common-error geometry. The last row compares equal output, centre, node radii and remainders, and isolates a decision changed by retaining the shared error variables. Its time-local refinement was fixed after the failed global stage and is an exploratory transfer experiment, rather than a retrospectively preregistered result.",
     "The following matched pass-count table uses H1 at each stated alpha.",
     "Let MX000238Z select strike MX000239Z. We keep the exact holdings below, without rescaling them to make a budget pass. Gross weight means MX000240Z. Every threshold is an absolute error in index points for the specified holding vector.",
+    "**Table 4. The 28 fixed portfolio directions on the twelve strikes; gross weight is the sum of absolute position weights.**",
     "All methods in each matched comparison use identical upstream radii. At a 0.5-point budget and MX000245Z, finite-history joint bounds certify 28/28 portfolios against 13/28 signed marginal bounds. At a 0.25-point budget, the corresponding counts are 10/28 against 1/28 for MX000246Z, and 20/28 against 13/28 for MX000247Z. At the looser one-point budget for MX000248Z, both new methods certify 28/28; that improvement alone cannot isolate the shared structure. A lawful payoff intersection produces no additional tightening in the tested setting. Failure to certify means that this outer bound is insufficient, not that the true error exceeds the threshold.",
     "The two objective columns refer to N1 and N2 respectively.",
     "The original twelve half-year quotes, forward F=4221.86, discount D=1, and all other model parameters are fixed. Before computing new results we froze alpha={0.520,0.525,0.530,0.540,0.550}, a first layer N_t=1024, and an upgrade of **all five** candidates to N_t=2048 if any adjacent joint comparison remained unresolved. Every point has a newly generated continuous reference field and a complete closed-time residual bank. Fourier nodes through 64, all omitted finite nodes through 128, true infinite tails, strip remainder, reference arithmetic and original quote-conversion intervals are paid.",
     "The objective is the original normalized midpoint loss MX000249Z, using normalized calls. Index-point squared units would require multiplication by MX000250Z. Here the tiny target interval halfwidth is only outward arithmetic error in converting the fixed bid/ask-price midpoint; it is not the market bid/ask halfwidth. Ranking does not establish a uniform winner for arbitrary quote targets inside those market bands. A Taylor support enclosure preserves common Fourier disks in its linear term and charges the full coordinate-radius quadratic remainder. Its same-radius marginal comparison uses the identical upstream certificate. Errors across different alpha candidates are not assumed jointly correlated.",
+    "**Table 5. N1 and N2 five-candidate objective enclosures under the original quotes; displayed values are normalized J multiplied by 10^8.**",
+    "**Table 6. N1 and N2 strict separations among the ten pairs of five fixed candidates, using matched joint and marginal inputs.**",
     "The first layer retained its unresolved close pairs and triggered the frozen all-candidate upgrade. The final finite grid has alpha=0.520 as a strict minimum. This is a five-point comparison, not a continuous calibration optimum. All five candidates remain incompatible with at least one original bid/ask row; the finite-set result therefore does not identify a market-calibrated model.",
     "Both layers fully generate every closed-cell residual entry: 15,754,230 entries, 5,130 reference exponents and 10,250 true-transform envelopes in total. Separate readers check complete coverage and maxima, reconstruct all exponents, coefficients and objectives, and reject deliberate corruptions; they share the stated rigorous primitives rather than independently rederive every residual derivative.",
     "The detailed matched output table uses N2L; the preceding failed levels are N1 and N2.",
     "The use case is validation of a stored or externally fixed output: an existing pricing-library audit, a reproducible historical result, or a production output that cannot be replaced in the task being checked. When the reference is already available and output replacement is allowed, directly returning its certified centre is an appropriate control. Centre-correcting the fast output is another control and must include the rounding of both the stored correction and final addition. The reference route does not automatically become an economical online solver merely because its downstream support function is inexpensive.",
     "A separately frozen descriptive control reuses the complete MX000251Z residual bank with 128 history bins. Every intersected closed source cell contributes to each bin maximum, and all weights are outwardly enclosed. All five methods below use the same model, six-month MX000252Z spread, 0.25-point tolerance, reference centre, node radii, strip and true-tail budget. This control does not change the prespecified nearby-grid experiment.",
+    "**Table 7. N2L actual-output controls for the half-year unit 4400–4500 spread; complete bounds and the budget are in index points.**",
     "All five matched marginal bounds remain above 0.25 points. Direct reference and corrected fast values happen to have the same complete bound in this instance; their actual stored values are checked separately. Exact dyadic arithmetic charges the reference return, stored correction and final addition. For these freely replaceable outputs, the reference is simpler than delivering the unchanged fast result. The joint structure still changes the decision for the reference and BL outputs. The BL 512-to-1024 difference is a diagnostic, not its certified error.",
     "The certificate is not free. Its generation encloses 2,100,735 continuous frequency-by-cell residual entries, 513 reference exponents and 1,025 true-transform node bounds, plus the infinite tail and 12,300 price coefficients. Full reading checks all these entries and reconstructs the exponents, coefficients and decisions. Each additional portfolio evaluates 1,025 shared-disk support terms and the complete remainder; 28 portfolios reuse the same bank without further residual generation. This is reuse across directions at one parameter and maturity, not reuse across unverified model parameters.",
+    "**Table 8. Typed deterministic work for the additional output constructions; these counts do not measure total computational cost.**",
     "These are typed work counts, not interchangeable floating-point operations or a total-cost ratio. The field generation, outward transcendental evaluations and verification remain distinct from nominal output construction. No speed or machine-performance advantage is inferred. Complete ledgers record the additional exponent-quadrature work and both coarse failed control stages.",
     "We froze the six-month configuration at MX000253Z, MX000254Z, MX000255Z, and MX000256Z before computing the new resolvent weights. The physical damping is therefore MX000257Z. All four comparisons reuse the same N2L (N_t=2048) closed-cell residual bank, the same stored binary64 fast prices, the same reference exponents and signed centres, and the same finite omission, analytic strip, true infinite tail and reference arithmetic terms. The financial direction is the unit 4400–4500 call spread; the full finite grid contains 1025 frequencies, including 513 used reference frequencies and 512 retained finite omitted frequencies. The complete twelve-price certificate is reconstructed for every method.",
     "For N2L the dimensionless damping is MX000258Z (more precisely, about 0.075205153821). This small value describes the strength of dissipation over the stated finite horizon and helps interpret the modest additional kernel improvement; it does not itself predict a price-error reduction or establish a new certificate. The complete budget still includes the frozen centre, finite omitted nodes and other remainder terms.",
-    "The table reports upper endpoints in index points, rounded upward to nine decimals. “Global state” first bounds the state by its global residual and then applies the exponent functional; “global curve” propagates that same residual maximum directly through the curve. The final two rows use the identical 128 binwise envelopes and differ only in the pricing kernel.",
+    "Table 9 reports upper endpoints in index points, rounded upward to nine decimals. “Global state” first bounds the state by its global residual and then applies the exponent functional; “global curve” propagates that same residual maximum directly through the curve. The final two rows use the identical 128 binwise envelopes and differ only in the pricing kernel.",
+    "**Table 9. N2L matched propagation for the half-year unit 4400–4500 spread, in index points; the residual bank and all other inputs are fixed.**",
     "The actual binary64 corrected-fast output has the same certified bounds as the stored reference in this configuration; its conversion and rounding are included in the read-back. The strict rational reduction from local curve to local resolvent is positive and approximately 0.001916504 points: about 0.485% of the complete frozen-fast bound and 4.523% of its used-node joint radius. These percentages describe changes in guaranteed upper bounds, rather than observed pricing error or transaction loss. The one-point and half-point frozen-output tasks remain certified; the quarter-point frozen-output task remains unresolved. Both local methods already certify the stored reference and corrected output at a quarter point. Thus the additional dissipative kernel does not change that budget decision in this matched experiment.",
     "The modest gain is consistent with the fixed terms in the certificate. Even if the contribution of all 513 used reference nodes vanished, the same symmetric frozen-output budget formula would retain the absolute signed centre, finite omitted-node radius and other remainder terms. Their exact rational sum is strictly greater than the downward decimal endpoint 0.352626733 points, and is therefore greater than a quarter point. This is a floor for the declared fixed budget formula, not a lower bound on the true error, and not a floor for other certification strategies. Keeping those terms frozen prevents a quarter-point certificate through refinement of the used nodes alone. The omitted finite frequencies and the output-centre conversion therefore remain the consequential next research targets.",
-    "The reconstructed global-curve and local-curve endpoints agree exactly with the saved baseline rational endpoints, including all twelve individual radii and frozen-output bounds. For example, the saved global-curve endpoint is approximately 0.4285709861017229; its strict nine-decimal upward display is 0.428570987. A previously rounded display of 0.428570986 is not a change in residuals, centres, coefficients or remainders.",
+    "The reconstructed global-curve and local-curve endpoints agree exactly with the saved baseline rational endpoints, including all twelve individual radii and frozen-output bounds; the table displays strict nine-decimal upward endpoints.",
     "The separate reader actually reads all 2,100,735 entries of the complete residual bank, checks closed-cell coverage from zero, and recomputes the maxima for all 128 propagation bins. It independently expands the cumulative resolvent by the direct double Gamma series with fourteen outer terms, while the producer uses twelve outer terms and a strict power-field moment. Both enclose all inner tails with sixty-four retained terms. The reader checks all 513 transform-radius minima in all four comparisons and rebuilds all twelve prices with all 1025 finite frequencies. At MX000259Z, it replays all 129 cumulative endpoints and all 128 cell weights against the curve-kernel conclusion. Eight actual negative controls are rejected: negative damping, an incorrect physical MX000260Z scale, a missing initial closed cell, a removed finite omitted node, an erased true infinite tail, an altered signed centre, an understated resolvent exponent enclosure, and a zero-damping weight that does not reproduce the curve kernel.",
     "This is an independent reconstruction of the new cumulative-weight algebra and certificate assembly. It shares the identified dyadic arithmetic, Gamma, logarithm and exponential primitives, and inherits the previously validated residual derivative proof and reference exponents. It is not an independent rederivation of those upstream proofs. The execution receipts distinguish that sharing boundary explicitly.",
     "The new propagation reuses the existing bank and generates zero new residual entries. Its declared weighted residual sum has MX000261Z terms, with 129 cumulative endpoint enclosures, twelve outer series terms per producer endpoint, and sixty-four inner curve terms. These are typed mathematical work counts. They do not establish a total computational cost, a speedup, or comparability with workloads that regenerate residuals or reference prices. The frozen contract, strict outputs and separate reader are supplied in the kernel evidence component.",
     "The quarter-maturity decision is attributable to shared aggregation. Q2 uses identical actual output, reference centre, 1025 node radii and all remainders in both columns. Finite omitted-node support is zero because every finite node has a nonzero reference. Values below are in index points; exact fractions are retained in quarter-exact-ledger.json.",
+    "**Table 10. Q2 quarter-year unit-spread ledger, in index points; only aggregation of the shared node errors differs between columns.**",
     "The joint complete bound is 0.233318843 points versus 0.252393939 points for signed marginal aggregation; only the joint certificate passes the 0.25-point budget. The difference 0.019075095 points is entirely the node-support aggregation difference. Complete-bound displays are rounded upward to nine decimal places; component/centre and gap displays are approximate. Every decision and ledger identity uses exact fractional endpoints. Tiny reference arithmetic is displayed separately, and the signed centre is a locator, not an extra additive charge on top of its absolute value.",
     "Every portfolio curve uses the 28 originally fixed and fully specified directions. Exact endpoints, all threshold breakpoints and pass counts are supplied in portfolio-exact-thresholds.csv and portfolio-budget-counts.json. Certification uses the complete rational endpoint condition MX000262Z, including equality. Between-bank plots show descriptive changes; joint versus signed marginal within one bank uses matched radii. No 28-direction quarterly dataset is inferred from the single quarter spread.",
+    "**Table 11. Complete-budget pass counts for all 28 fixed half-year directions; budgets are in index points and equality is included.**",
     "The two nearby levels retain all ten unordered pairs, including unresolved ones:",
+    "**Table 12. Complete unresolved-pair lists for N1 and N2 under the original quotes, alongside strict separation counts.**",
     "The closest N2 joint separation, alpha=.520 versus .525, is a positive gap of approximately 7.382643478687e-10 in normalized squared-midpoint loss. Its endpoint identity is MX000263Z plus any box-intersection endpoint adjustment. The gap decomposition, including used nodes, finite zero nodes, reference strip/tail/arithmetic and midpoint-conversion arithmetic, is recorded exactly in nearby-pair-resolution.json. This is a fixed original midpoint-loss ranking. The midpoint-conversion arithmetic interval does not represent the market bid/ask width; all five candidates remain separately bid/ask-incompatible.",
     "The unchanged actual half-year 4400–4500 output admits the following complete centre accounting. Signed centres are approximate displays; radius and complete-bound columns are decimal upper endpoints, so independently rounded columns need not add exactly:",
-    "Expanding H2 to H3 changes the absolute centre charge as well as the paid reference radius; H3 to H4 retains that new centre. N2 to N2L retains its own reference centre and fullremainders. H4 to N2L is a descriptive cross-bank identity, not an ablation. These transitions are exact in frozen-output-centre-account.json, which also reports the common strict-reference certificate floor as a fraction of each BL-core bound. A dominant floor limits what this comparison can establish about intrinsic solver accuracy. When replacement is permitted and the strict reference is already available, returning that reference directly is the simpler workload; frozen-output audit and free replacement answer different tasks.",
+    "**Table 13. Half-year frozen-output centre accounting for H2–H4, N2 and N2L, in index points; upper-endpoint rounding is applied independently.**",
+    "Expanding H2 to H3 changes the absolute centre charge as well as the paid reference radius; H3 to H4 retains that new centre. N2 to N2L retains its own reference centre and full remainders. H4 to N2L is a descriptive cross-bank identity, not an ablation. These transitions are exact in frozen-output-centre-account.json, which also reports the common strict-reference certificate floor as a fraction of each BL-core bound. A dominant floor limits what this comparison can establish about intrinsic solver accuracy. When replacement is permitted and the strict reference is already available, returning that reference directly is the simpler workload; frozen-output audit and free replacement answer different tasks.",
     "The modern-method comparison reimplements the modified-Adams Riccati core described by Boyarchenko et al.; it does not reproduce their full SINH deformation or Conformal Bootstrap. Agreement between two discretizations is a numerical diagnostic, not an interval certificate. Any comparison to a complete certified output must pay the independent reference, tails, arithmetic and verification costs required by that guarantee.",
     "The fixed refinement menu certifies reliable termination when the complete task radius meets the budget. Its minimum number of actions assumes that every alternative radius is already certified and every action has unit cost. We retain those assumptions and do not infer minimum work for an unknown menu. Work spent constructing all alternatives remains part of certificate generation. Model fit, market uncertainty, transaction costs and global continuous calibration remain outside the output-error guarantee.",
     "The guarantee is conditional on the stated model, affine transform, regular reference and outward enclosures. The analytical condition on the curve is not itself a stochastic admissibility theorem. The narrow structural domain excludes general mean reversion and broad correlation calibration. Unresolved intervals, failed budgets and quote incompatibilities are valid outcomes.",
-    "The fixed [V3.1 editorial release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.1.0-editorial-20261007) provides the current bilingual paper, editable manuscripts and editorial identity checks. Its small editorial archive explicitly depends on the unchanged scientific archive at the fixed [V3 research release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007). Download and extract `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`, then run `python reproduce.py --full` in that extracted directory for the declared scientific checks. The V3.1 source preserves the original source under `inherited-v3/`; `python verify_editorial.py` checks the editorial identities and inherited source bridge, rather than rerunning continuous residual generation. The current V3.1 manuscripts supersede the historical PDFs inside the scientific archive. GitHub's automatic source archive does not contain the release-only numerical banks. File checksums establish identity; scientific readers establish only the mathematical obligations that their code actually recomputes.",
-    "The verification matrix in Appendix E assigns each obligation to a generation command, reading command, recomputation scope and shared dependency. In particular, `--full` is not an assertion that every continuous derivative enclosure has been independently regenerated. It adds the specified structural coverage and reconstruction checks. Residual regeneration has separate explicit commands. The readers reconstruct history maxima, strict exponents, transform and coefficient enclosures, complete prices, objectives and decisions where listed; saved derivative bounds and common strict primitives remain part of the trusted base. An author-side fresh execution is not an external referee reproduction.",
+    "The fixed [V5 editorial release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v5.0.0-editorial-20261007) provides the current bilingual paper, editable manuscripts and editorial identity checks. Its small editorial archive explicitly depends on the unchanged scientific archive at the fixed [V3 research release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007). Download and extract `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`, then run `python reproduce.py --full` in that extracted directory for the declared scientific checks. The V5 source preserves the original source under `inherited-v3/`; `python verify_editorial.py` checks the editorial identities and inherited source bridge, rather than rerunning continuous residual generation. The current V5 manuscripts supersede the historical PDFs inside the scientific archive. GitHub's automatic source archive does not contain the release-only numerical banks. File checksums establish identity; scientific readers establish only the mathematical obligations that their code actually recomputes.",
+    "Tables E.6, E.7 and E.10 assign each obligation to a generation command, reading command, recomputation scope and shared dependency. In particular, `--full` is not an assertion that every continuous derivative enclosure has been independently regenerated. It adds the specified structural coverage and reconstruction checks. Residual regeneration has separate explicit commands. The readers reconstruct history maxima, strict exponents, transform and coefficient enclosures, complete prices, objectives and decisions where listed; saved derivative bounds and common strict primitives remain part of the trusted base. An author-side fresh execution is not an external referee reproduction.",
     "Software versions and mathematical workload counts are sufficient to identify the numerical procedure, without personal host metadata or elapsed measurements. Counts of closed cells, interval terms, history products and direction supports have different units. They establish the amount of work performed and what is reused, rather than a speed comparison. Evidence volume is disclosed separately. A new direction at fixed parameter and maturity reuses the same certified bank; the generation cost cannot be omitted from a claimed full task.",
     "Appendices A–E complete the main proof and experiments. Appendices F–G are independent classical Heston extensions with original-chain probability objects and a four-part signed identity for inexact trial functions. They do not assert a completed annual monetary pricing certificate. The earlier thirteen-dimensional receipt lacks the full coefficient bank required for that claim.",
     "The finite-history theory and matched task experiments establish a bounded, reusable route from continuous residuals to actual-output certificates. Direct certified reference output should be used when replacement is permitted and available; fixed-output audit and shared-bank reuse are distinct workloads. No point estimate is treated as exact truth, and no certificate-to-true-error ratio is reported when a rigorous error interval crosses zero.",
@@ -4897,6 +4912,7 @@
     "For each closed rectangle, substitute these enclosures successively into (B.8), (B.5), (B.6), (B.10), and (B.13). Accept only when the lower endpoints of all three MX000356Z are strictly positive and the upper endpoints of all six MX000357Z are strictly negative. Otherwise bisect one coordinate at its exact rational midpoint. The two closed children have the parent rectangle as their union, and strict enclosures also cover the shared boundary.",
     "The finite covering contains 211241 leaf rectangles of total rational area exactly MX000358Z. An independent check reconstructs 422481 binary-tree nodes from the root, with maximum depth 19 and each recorded leaf occurring exactly once. In addition to the area check, this excludes missing subtrees, interior overlap, and endpoint gaps. The theorem uses the order interval covered by this complete closed tree.",
     "The stronger rational margins in the complete certificate imply the following bounds. Each simplification has been independently checked using Fraction.",
+    "**Table B.1. Strict lower bounds on the full compactified structural domain specified in Appendix B.**",
     "The proof consists of rigorous interval inclusion and a complete finite covering. The supplementary material provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.",
     "**Proof.** Retain the frequency compactification MX000367Z, MX000368Z, and the original unnormalized polynomials MX000369Z. Write MX000370Z, MX000371Z. Then MX000372Z, MX000373Z for negative MX000374Z, MX000375Z, and MX000376Z. Throughout MX000377Z, the square-root branch remains fixed because MX000378Z. Consequently,",
     "where primes denote real MX000380Z derivatives. The identity MX000381Z follows from MX000382Z: the terms MX000383Z and MX000384Z are nonnegative, while MX000385Z. Also MX000386Z, since MX000387Z.",
@@ -5037,23 +5053,33 @@
     " This is a conditional objective profile with all other parameters and the complete curve held fixed. The threshold MX000855Z distinguishes the lower- and higher-H candidates in this comparison. All three satisfy MX000856Z, so the classification is within the roughness candidates rather than between rough and classical Heston models. All assertions in this section concern the complete three-element set (E.2).",
     "The model prices MX000857Z arise from the admissible nonnegative Volterra variance model and its exact affine transform. The model and kernel assumptions of AbiJaberElEuch2018v1 are verified individually in this paper; admissibility is established at the probability-model level. Define ",
     " Thus the normalised price RMS is MX000859Z, rather than MX000860Z. The same normalisation applies to the objective intervals, finite-candidate gap, and stability constants.",
+    "**Table E.1. Historical half-year three-candidate benchmark: normalized objective, price RMS and actual Padé-output objective enclosures.**",
     "All displayed endpoints are decimal outward roundings of rational bounds; the decisions use the untruncated exact rational endpoints. The unique minimiser of the model objective is α=0.52, H=0.02. A strict lower bound on the gap between its objective and those of its competitors is 0.0000002702052. The implemented Padé output has the same unique finite-set minimiser, as certified by strict interval separation.",
     "For ε=0, the outer set of exact optimal candidates is MX000861Z. The specified higher-H candidates with α≥.6 are strictly separated from this optimum.",
+    "**Table E.2. Historical three-candidate quote-band objective and consistency decisions, using the original twelve quotes.**",
     "Least-squares ordering and quote consistency are determined separately from objective intervals and rowwise price intervals. The following tables report the prices supporting these two model-validation results.",
+    "**Table E.3. Historical alpha=0.52 price accounts: normalized quotes, model prices, actual output and its total error bound.**",
+    "**Table E.4. Historical alpha=0.60 price accounts, with the same normalization and column meanings as Table E.3.**",
+    "**Table E.5. Historical alpha=0.90 price accounts, with the same normalization and column meanings as Table E.3.**",
     "The implemented Padé procedure is the selected six-condition GR [3/3] approximation. It uses a 256-point Jacobi rule for the derivative-based exponent and an eighth-order composite Gauss–Legendre rule for Fourier inversion with a fixed truncation limit of 200. The recorded files identify the Python/NumPy implementation and exact source versions. Each finite numerical output MX000862Z is saved as an exact dyadic rational. The model-price reference interval gives ",
     " This bound includes the implementation's state, exponent, quadrature, truncation, and floating-point errors. The saved outputs can therefore be compared directly without a separate certification of an infinite-integral analytic Padé price. The numerical objective uses the same quote-price midpoint intervals. We assert selection preservation only when both the numerical and model objectives are strictly separated on the finite set and have the same minimiser. The assertion concerns the specified implementation, candidates, and input setting.",
     "The historical global-state benchmark in this appendix uses the uniform state barrier proved in Appendix C.1. The finite-history alternatives and the new resolvent computation are stated in Section 3 and compared under identified configurations in Section 7.",
     "In the verification matrix only, the ID column labels proof obligations, rather than the configuration IDs of Section 2; obligation N2 covers the N2L local-bin refinement.",
     "All configuration IDs and mathematical dimensions are fixed in configuration-registry.json. The following table states the actual reader obligation. Shared elementary interval primitives, shared continuous-derivative generator, reused fixed scientific input and an independently written assembly are distinct types of dependence. These are author-side acceptance checks; no outside referee execution is presumed.",
-    "Exact generation commands, their empty-tree versus retained-input behavior, source hashes and boundary notes are in proof-obligation-matrix.json. Run commands in a disposable relative work copy to preserve the fixed packet. In particular, nearby_generate.py regenerates missing fields/residuals, but retains identity-matched components when present. nearby_independent.py can use an identity-matched per-point cache; the top-level fresh acceptance driver deletes every such cache before invocation.",
+    "**Table E.6. Proof obligations, reader locators, actual recomputation and shared dependencies of the inherited scientific evidence.**",
+    "Copyable commands and their working directories are in the [command index](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md); proof-obligation-matrix.json retains exact generation commands, empty-tree versus retained-input behavior, source hashes and boundary notes. Run commands in a disposable relative work copy to preserve the fixed packet. In particular, nearby_generate.py regenerates missing fields/residuals, but retains identity-matched components when present. nearby_independent.py can use an identity-matched per-point cache; the top-level fresh acceptance driver deletes every such cache before invocation.",
     "For the explicitly retained V2 entrypoint source snapshots, the complete --full distinction is:",
+    "**Table E.7. Scope of the retained historical entry points; the current V3 driver adds the obligations in Table E.10.**",
     "Thus the retained V2 reproduce.py --full adds structural-sign regeneration. It does not regenerate all continuous residual derivatives. Its source SHA is not imposed on the new V3 top-level driver. The original low continuous generator requires run_evidence.py --regenerate-continuous; the high-frequency generator requires run_frontier.py --regenerate-full, which uses a distinct reconstruction clone and preserves the fixed transfer input receipts. The historical CI checks source identities and the retained acceptance receipt binding; it does not perform the large-bank interval replay. A stored PASS receipt, byte identities, executed recomputation and a mathematical theorem remain separately identifiable evidence.",
     "The exact closest-pair gap equals the sum of the following signed contributions; scientific notation is a display only:",
-    "The quarterly account has zero finite omissions; its infinite tail beyond128 remains paid. The unused-node term in the nearby/global controls is nonzero and cannot be dropped by borrowing the quarter full-reference result. Exact ledger fractions and all 40 pair-mode records are delivered with independent secondary readback and intentional corruption controls.",
+    "**Table E.8. Signed contributions to the closest-pair normalized objective gap; scientific notation displays the exact ledger.**",
+    "The quarterly account has zero finite omissions; its infinite tail beyond 128 remains paid. The unused-node term in the nearby/global controls is nonzero and cannot be dropped by borrowing the quarter full-reference result. Exact ledger fractions and all 40 pair-mode records are delivered with independent secondary readback and intentional corruption controls.",
     "Common ideal strict-reference floor in the BL-core complete bound (floors and percentages are approximate displays; exact fractions are authoritative):",
+    "**Table E.9. Common strict-reference floor and output translation in BL-core certificates; price quantities are in index points.**",
     "The separate returned-reference ratio also pays binary64 return rounding and is retained in the machine ledger. A small BL512/1024 nominal difference is an empirical comparison; its complete guarantee uses the same reference floor plus exact output translation. These floor fractions do not establish an intrinsic BL error estimate.",
     "portfolio-pass-counts.svg and portfolio-pass-counts.pdf show the exact-endpoint pass-count step functions for the original three candidates and the regenerated alpha=.52 controls. Coordinates are converted to display decimals only after exact counting. The plotted 0–2-point range is stated explicitly; all thresholds are retained in the CSV/JSON. Cross-bank curves are descriptive and within-bank methods share radii. Only typed scientific work counts, evidence bytes and version/hash identities are used; no host or duration measurements are part of this audit.",
     "The matrix distinguishes the historical V2 driver snapshot from the current V3 entry. The V3 command additionally runs the separate dissipative-kernel reader, the exact experimental-account reader and bilingual extension-consistency checks. It still does not regenerate all upstream continuous derivative bounds.",
+    "**Table E.10. Additional V3 obligations and the separate recomputation/shared-base boundary, beyond the retained historical driver.**",
     "Figure E.1 uses exact endpoints for all 28 declared half-year directions. Solid curves denote joint certificates and dashed curves signed-marginal certificates; radii are matched within each configuration. Comparisons between different banks are descriptive. The shown range is zero to two index points; the machine table retains every threshold, including those beyond this plotting range.",
     "This appendix supplies a second, classical-Heston upstream implementation of the joint-error interface. Its model-specific content is the passage from the correlated positive-part chain to a common original-law probability vector. The support-function and financial propagation steps use standard convex analysis. The terminal witness proves strict improvement of an outer set; it does not provide a complete annual monetary pricing certificate.",
     "Write MX000864Z, MX000865Z, MX000866Z, MX000867Z, and MX000868Z. The continuous law MX000869Z and the original discrete law MX000870Z are",
@@ -5098,47 +5124,47 @@
     "After conjugate reduction, the complete terminal rows are",
     "Here MX001025Z is the circle constant, while MX001026Z is the probability vector. The strict inequality MX001027Z is substantive: the simplex Beta coefficient is MX001028Z. The original catalog retains the difference between strikes 95 and 110. Its Gamma factors are finite and nonzero, and the strike factors have unequal magnitudes MX001029Z and MX001030Z, so at least one coefficient is nonzero.",
     "The exact Asian primal and dual satisfy MX001031Z, MX001032Z, MX001033Z, MX001034Z, and MX001035Z. Let MX001036Z and let MX001037Z be the three positive-dual rows (point MX001038Z Laplace, mean, mass). The exact compact expression for the witness is",
-    "Its nonzero coordinates are approximately ((.0276833515163,.0487291439380,.923587504546)). Weak duality proves optimality. Complementary slackness forces any optimizer onto MX001040Z and onto the three active equalities; nonsingularity proves uniqueness. The strictly increasing square root transfers uniqueness to MX001041Z.",
-    "The same polytope contains an exact MX001042Z supported on ({5,6}). Let MX001043Z and MX001044Z. For the auxiliary put row MX001045Z,",
-    "The exact rational MX001047Z are the `put_direction.derivative` endpoints in `terminal767-result.json`. This reference specifies them exactly without a large printed fraction. Each coefficient enclosure MX001048Z obeys MX001049Z and MX001050Z; negative profile changes reverse endpoints before summation. Thus the signed full-row derivative is positive. The Asian maximizer is not a put maximizer, so",
+    "Its nonzero coordinates are approximately MX001040Z. Weak duality proves optimality. Complementary slackness forces any optimizer onto MX001041Z and onto the three active equalities; nonsingularity proves uniqueness. The strictly increasing square root transfers uniqueness to MX001042Z.",
+    "The same polytope contains an exact MX001043Z supported on MX001044Z. Let MX001045Z and MX001046Z. For the auxiliary put row MX001047Z,",
+    "The exact rational MX001049Z are the `put_direction.derivative` endpoints in `terminal767-result.json`. This reference specifies them exactly without a large printed fraction. Each coefficient enclosure MX001050Z obeys MX001051Z and MX001052Z; negative profile changes reverse endpoints before summation. Thus the signed full-row derivative is positive. The Asian maximizer is not a put maximizer, so",
     "The second inequality follows from the coefficient triangle inequality; possible phase cancellation can only further reduce the joint support. With valid timewise product sets and the same complete catalog, the accumulated un-intersected support gap is at least this positive terminal gap. A modified catalog, probability set, or payoff intersection requires renewed analysis.",
-    "The machine appendix paths are `baseline/english-heston-release/code/classical/terminal767-input.json`, `terminal767-result.json`, `verify_input_bounds.py`, and `verify_terminal.py`. The first reader regenerates 22 rows, twelve 767-step Laplace recursions, and all 918 profile entries; the second verifies the 407 exact witness checks. These establish the terminal claims and leave the complete-price premise (F.21), annual monetary endpoints, and any trading interpretation unproved by this example.",
-    "For compact valid sets MX001052Z and MX001053Z,",
-    "If the actual MX001055Z belongs to a common compact MX001056Z, replace the lower subtraction by MX001057Z and the upper addition by MX001058Z. For a closed calibration acceptance set MX001059Z,",
-    "The identities MX001061Z prove these statements. Nonempty MX001062Z is compact and attains the target endpoints; emptiness excludes compatibility with the acceptance rule. Enlarging the common input set to a coordinate box enlarges or preserves the target set. These are standard set-propagation consequences, conditional on a valid center and complete error inputs.",
+    "Within `baseline/english-heston-release/code/classical/`, the machine appendices are `terminal767-input.json`, `terminal767-result.json`, `verify_input_bounds.py`, and `verify_terminal.py`. The first reader regenerates 22 rows, twelve 767-step Laplace recursions, and all 918 profile entries; the second verifies the 407 exact witness checks. These establish the terminal claims and leave the complete-price premise (F.21), annual monetary endpoints, and any trading interpretation unproved by this example.",
+    "For compact valid sets MX001054Z and MX001055Z,",
+    "If the actual MX001057Z belongs to a common compact MX001058Z, replace the lower subtraction by MX001059Z and the upper addition by MX001060Z. For a closed calibration acceptance set MX001061Z,",
+    "The identities MX001063Z prove these statements. Nonempty MX001064Z is compact and attains the target endpoints; emptiness excludes compatibility with the acceptance rule. Enlarging the common input set to a coordinate box enlarges or preserves the target set. These are standard set-propagation consequences, conditional on a valid center and complete error inputs.",
     "This appendix extends the continuous–discrete comparison to one deterministic trial field that need not solve the backward equation. It states sufficient conditions independently of the unknown exact solution, proves the four signed terms, and gives an explicit globally integrable nonexact field. Expectations below are undiscounted; multiply the identity and its bounds by the common discount factor when converting a payoff to a price.",
-    "Use the original laws MX001063Z, parameters, and correlated positive-part update of Appendix F. Between monthly fixings the state is MX001064Z, where MX001065Z is the sum of the realized normalized stock values and MX001066Z the sum of their logarithms. The fixing map MX001067Z adds the current MX001068Z to these histories. Between fixings,",
+    "Use the original laws MX001065Z, parameters, and correlated positive-part update of Appendix F. Between monthly fixings the state is MX001066Z, where MX001067Z is the sum of the realized normalized stock values and MX001068Z the sum of their logarithms. The fixing map MX001069Z adds the current MX001070Z to these histories. Between fixings,",
     "Choose one fixed nonnegative weight for the entire horizon, for example",
-    "Both weights match exactly across the fixing map. Since the arithmetic mean is at least the geometric mean, MX001071Z. The history factors in both weights are multidate nonpositive real loadings with total absolute value at most MX001072Z.",
-    "**Lemma (weight moments).** At MX001073Z, over MX001074Z, either weight satisfies",
-    "The last supremum is over the compact-localization stopping times used below. To prove the first bound for a branch, use the generator on MX001076Z, with MX001077Z. Its variance coefficient is MX001078Z, and its constant drift is MX001079Z. Loading changes cancel at fixings. Nonnegative stopped supermartingales give branch expectation at most MX001080Z. For the discrete law, (F.10)–(F.11) with MX001081Z and MX001082Z give a branch bound MX001083Z. Sum two branches, or use MX001084Z. The strict comparisons follow from MX001085Z.",
-    "For the squared bound, MX001086Z. Each squared branch has total stock loading at most one and variance loading two. Increasing the latter to four dominates it; the continuous exponential-supermartingale variance coefficient is bounded by MX001087Z, with constant drift at most MX001088Z. Stopping therefore gives a uniform finite second moment. The same argument covers the natural weight. This is enough for uniform integrability of fields dominated by MX001089Z; no ordinary martingale assumption on the stopped limiting stochastic integral is needed.",
-    "Let MX001090Z be the same terminal payoff, or the same exact finite conversion remainder, under both laws. The deterministic field MX001091Z is locally MX001092Z between fixings, admits a right-sided extension at MX001093Z suitable for Itô's formula, and has genuine one-sided traces uniformly on compact state sets. Require global bounds",
-    "Domination includes all states, MX001095Z, and the unbounded tail. Define",
-    "The jump defect is **left trace minus right trace after the fixing**. The operator MX001097Z includes the original kernel and any fixing at the end of the step. Use the same post-fixing terminal convention in both laws, and count each update once. The defects MX001098Z must be integrable under the original MX001099Z; a valid full-horizon enclosure is MX001100Z. A sufficient alternative is MX001101Z.",
+    "Both weights match exactly across the fixing map. Since the arithmetic mean is at least the geometric mean, MX001073Z. The history factors in both weights are multidate nonpositive real loadings with total absolute value at most MX001074Z.",
+    "**Lemma (weight moments).** At MX001075Z, over MX001076Z, either weight satisfies",
+    "The last supremum is over the compact-localization stopping times used below. To prove the first bound for a branch, use the generator on MX001078Z, with MX001079Z. Its variance coefficient is MX001080Z, and its constant drift is MX001081Z. Loading changes cancel at fixings. Nonnegative stopped supermartingales give branch expectation at most MX001082Z. For the discrete law, (F.10)–(F.11) with MX001083Z and MX001084Z give a branch bound MX001085Z. Sum two branches, or use MX001086Z. The strict comparisons follow from MX001087Z.",
+    "For the squared bound, MX001088Z. Each squared branch has total stock loading at most one and variance loading two. Increasing the latter to four dominates it; the continuous exponential-supermartingale variance coefficient is bounded by MX001089Z, with constant drift at most MX001090Z. Stopping therefore gives a uniform finite second moment. The same argument covers the natural weight. This is enough for uniform integrability of fields dominated by MX001091Z; no ordinary martingale assumption on the stopped limiting stochastic integral is needed.",
+    "Let MX001092Z be the same terminal payoff, or the same exact finite conversion remainder, under both laws. The deterministic field MX001093Z is locally MX001094Z between fixings, admits a right-sided extension at MX001095Z suitable for Itô's formula, and has genuine one-sided traces uniformly on compact state sets. Require global bounds",
+    "Domination includes all states, MX001097Z, and the unbounded tail. Define",
+    "The jump defect is **left trace minus right trace after the fixing**. The operator MX001099Z includes the original kernel and any fixing at the end of the step. Use the same post-fixing terminal convention in both laws, and count each update once. The defects MX001100Z must be integrable under the original MX001101Z; a valid full-horizon enclosure is MX001102Z. A sufficient alternative is MX001103Z.",
     "These conditions do not define admissibility by assuming the desired error bound. An exact future-value field belongs to this class only when the stated regularity and domination are verified. A finite representation also belongs only after its growth, residuals, traces, terminal value, and original-kernel interface have been verified.",
-    "**Theorem (one-field residual identity).** Under (G.3)–(G.5) and the integrable original-MX001102Z defects,",
-    "**Proof.** Finite conditional telescoping under MX001104Z gives",
-    "For MX001106Z, localize in compact state domains, on closed subintervals away from fixings. Itô's formula then has a stochastic integral of expectation zero. The second-moment bound in (G.3) and MX001107Z make the stopped field values uniformly integrable, so they converge in MX001108Z when stopping is removed. Tonelli and (G.4) give MX001109Z, which removes stopping from the time integral by absolute integrable domination. As the subinterval endpoints approach a fixing, compact-uniform genuine traces and continuous paths give almost-sure trace convergence; the same uniform integrability gives MX001110Z convergence. The actual field jump is MX001111Z. Summing all intervals and jumps therefore gives",
-    "Subtract (G.8) from (G.7), and add the two terminal defects MX001113Z. The common deterministic initial value cancels, giving (G.6). The argument also includes a fixing at the terminal date using the specified post-fixing convention. ∎",
-    "If one instead defines MX001114Z, its term in (G.6) is MX001115Z. This explicit sign convention avoids mixing the two definitions. For an exact continuation, the backward residual, fixing defects, and terminal discrepancy vanish, recovering (F.8). For a nonexact field all four signed terms remain.",
-    "At MX001116Z, (G.6) and the moment lemma imply",
+    "**Theorem (one-field residual identity).** Under (G.3)–(G.5) and the integrable original-MX001104Z defects,",
+    "**Proof.** Finite conditional telescoping under MX001106Z gives",
+    "For MX001108Z, localize in compact state domains, on closed subintervals away from fixings. Itô's formula then has a stochastic integral of expectation zero. The second-moment bound in (G.3) and MX001109Z make the stopped field values uniformly integrable, so they converge in MX001110Z when stopping is removed. Tonelli and (G.4) give MX001111Z, which removes stopping from the time integral by absolute integrable domination. As the subinterval endpoints approach a fixing, compact-uniform genuine traces and continuous paths give almost-sure trace convergence; the same uniform integrability gives MX001112Z convergence. The actual field jump is MX001113Z. Summing all intervals and jumps therefore gives",
+    "Subtract (G.8) from (G.7), and add the two terminal defects MX001115Z. The common deterministic initial value cancels, giving (G.6). The argument also includes a fixing at the terminal date using the specified post-fixing convention. ∎",
+    "If one instead defines MX001116Z, its term in (G.6) is MX001117Z. This explicit sign convention avoids mixing the two definitions. For an exact continuation, the backward residual, fixing defects, and terminal discrepancy vanish, recovering (F.8). For a nonexact field all four signed terms remain.",
+    "At MX001118Z, (G.6) and the moment lemma imply",
     "These are sufficient nonnegative bounds obtained by the triangle inequality. A joint signed enclosure of the four contributions can instead be propagated by its linear image. Separate price intervals alone supply no shared-state compatibility witness. In particular, a necessary lower bound on a residual envelope is not an evaluation of either sufficient upper bound in (G.9).",
-    "Fix MX001118Z, MX001119Z, and MX001120Z. Consider",
-    "Use MX001122Z, which is a single branch of the preceding weight proof. The field is globally regular for MX001123Z, is independent of the histories, has exact matching fixing traces and terminal value, and obeys MX001124Z. Its generator residual is",
-    "Because MX001126Z, a global dominating function, constant in time, is",
-    "The original stock Gaussian integral is exact even though the stock and variance share MX001128Z: this field does not depend on next-step variance. It gives",
-    "For the bound, write the difference as MX001130Z. Use MX001131Z, MX001132Z, and MX001133Z for MX001134Z. Thus every discrete defect is integrable, with the explicit full-horizon enclosure MX001135Z, because MX001136Z. Substitution into (G.9) gives the finite sufficient bound MX001137Z.",
-    "At MX001138Z, (G.11) equals MX001139Z. Therefore this field is not the exact future-value function. The exact field for the same negative-power payoff exists by the affine continuation and moment proof of Appendix F, with loading MX001140Z. The same admissible object class contains both exact and nonexact fields; the four-term identity applies to each. This example is an analytic scope witness, not a numerical certificate for the original market instruments.",
-    "The saved classical trial-field diagnostic has a distinct, conditional role. With MX001141Z, MX001142Z, MX001143Z, MX001144Z, and MX001145Z, its branch is MX001146Z. In this subsection MX001147Z, so MX001148Z corresponds to negative stock damping; this MX001149Z is not the negative loading MX001150Z used in Appendix F. The conjugated generator is",
-    "The basis consists of MX001152Z, MX001153Z, and MX001154Z. It exactly represents the terminal forcing MX001155Z. This is completion of the terminal generator, not closure under every generator image. For finite endpoint constants, the field uses cubic Hermite interpolation with exact physical slopes MX001156Z, where MX001157Z. The exact fixing carry, with MX001158Z, is",
-    "It follows from MX001160Z, MX001161Z, and MX001162Z. Terminal correction nodes are zero. Exact carries and slopes specify the traces; floating generation values do not replace these definitions. The finite field has MX001163Z. Its continuous residual is a polynomial of degree at most two in MX001164Z with bounded MX001165Z coefficients, so MX001166Z. A complete application of (G.9) still requires the actual coefficient bank, all-state original-MX001167Z envelopes, and full-horizon sufficient upper bounds.",
-    "For the saved first-month state MX001168Z, let MX001169Z, MX001170Z be the generator-value row of the basis, and MX001171Z. Exact integration over one piece gives",
-    "Indeed MX001173Z, and MX001174Z. The archive contains all 3080 weighted complex integral intervals (385 modes and eight cells, covering the original 64 time pieces). At common phase zero, sum the real mode intervals on each cell, apply MX001175Z, and subtract the integrated geometric-branch upper bound. The exact aggregate is specified by the mathematical field `whole_lower` in `field-result.json`:",
-    "This rejects the selected allocation MX001177Z, and retains the status `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`. It does not reject every sufficient allocation, minimize over the trial space, or bound the actual signed price bias from below. The portable `verify_field_receipt.py` checks exact saved interval aggregation; it does not regenerate the absent coefficient bank or rerun the archived direct integration. Accordingly, (G.17) is an archived-field necessary-condition diagnostic, while the explicit field (G.10) independently proves nonexact admissibility without that bank. No complete annual monetary PASS is inferred.",
-    "The machine appendix uses `baseline/english-heston-release/code/classical/field-cell-integrals.json`, `field-result.json`, `field-independent-readback.json`, `provenance.json`, and `verify_field_receipt.py`, with publication manifests fixing their scientific identities. Contact, environment, and execution-measurement metadata are unnecessary to these mathematical assertions.",
-    "The author reports that the underlying research was conducted in 2023, that the principal articles were written in 2024, and that the materials were uploaded to GitHub in 2026. These are the author's stated chronology; the repository upload records public availability, not an independently established date of research priority.",
-    "The merged revisions in 2026 include proof strengthening, rigorous dissipative pricing-kernel calculations and the declared verification work. Those additions belong to their actual revision stage; they are not retrospectively attributed to the 2023 underlying research or the 2024 writing. V3.1 makes the limited editorial changes described here and retains the existing scientific banks and numerical outcomes.",
+    "Fix MX001120Z, MX001121Z, and MX001122Z. Consider",
+    "Use MX001124Z, which is a single branch of the preceding weight proof. The field is globally regular for MX001125Z, is independent of the histories, has exact matching fixing traces and terminal value, and obeys MX001126Z. Its generator residual is",
+    "Because MX001128Z, a global dominating function, constant in time, is",
+    "The original stock Gaussian integral is exact even though the stock and variance share MX001130Z: this field does not depend on next-step variance. It gives",
+    "For the bound, write the difference as MX001132Z. Use MX001133Z, MX001134Z, and MX001135Z for MX001136Z. Thus every discrete defect is integrable, with the explicit full-horizon enclosure MX001137Z, because MX001138Z. Substitution into (G.9) gives the finite sufficient bound MX001139Z.",
+    "At MX001140Z, (G.11) equals MX001141Z. Therefore this field is not the exact future-value function. The exact field for the same negative-power payoff exists by the affine continuation and moment proof of Appendix F, with loading MX001142Z. The same admissible object class contains both exact and nonexact fields; the four-term identity applies to each. This example is an analytic scope witness, not a numerical certificate for the original market instruments.",
+    "The saved classical trial-field diagnostic has a distinct, conditional role. With MX001143Z, MX001144Z, MX001145Z, MX001146Z, and MX001147Z, its branch is MX001148Z. In this subsection MX001149Z, so MX001150Z corresponds to negative stock damping; this MX001151Z is not the negative loading MX001152Z used in Appendix F. The conjugated generator is",
+    "The basis consists of MX001154Z, MX001155Z, and MX001156Z. It exactly represents the terminal forcing MX001157Z. This is completion of the terminal generator, not closure under every generator image. For finite endpoint constants, the field uses cubic Hermite interpolation with exact physical slopes MX001158Z, where MX001159Z. The exact fixing carry, with MX001160Z, is",
+    "It follows from MX001162Z, MX001163Z, and MX001164Z. Terminal correction nodes are zero. Exact carries and slopes specify the traces; floating generation values do not replace these definitions. The finite field has MX001165Z. Its continuous residual is a polynomial of degree at most two in MX001166Z with bounded MX001167Z coefficients, so MX001168Z. A complete application of (G.9) still requires the actual coefficient bank, all-state original-MX001169Z envelopes, and full-horizon sufficient upper bounds.",
+    "For the saved first-month state MX001170Z, let MX001171Z, MX001172Z be the generator-value row of the basis, and MX001173Z. Exact integration over one piece gives",
+    "Indeed MX001175Z, and MX001176Z. The archive contains all 3080 weighted complex integral intervals (385 modes and eight cells, covering the original 64 time pieces). At common phase zero, sum the real mode intervals on each cell, apply MX001177Z, and subtract the integrated geometric-branch upper bound. The exact aggregate is specified by the mathematical field `whole_lower` in `field-result.json`:",
+    "This rejects the selected allocation MX001179Z, and retains the status `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`. It does not reject every sufficient allocation, minimize over the trial space, or bound the actual signed price bias from below. The portable `verify_field_receipt.py` checks exact saved interval aggregation; it does not regenerate the absent coefficient bank or rerun the archived direct integration. Accordingly, (G.17) is an archived-field necessary-condition diagnostic, while the explicit field (G.10) independently proves nonexact admissibility without that bank. No complete annual monetary PASS is inferred.",
+    "Within `baseline/english-heston-release/code/classical/`, the machine appendix uses `field-cell-integrals.json`, `field-result.json`, `field-independent-readback.json`, `provenance.json`, and `verify_field_receipt.py`, with publication manifests fixing their scientific identities. Contact, environment, and execution-measurement metadata are unnecessary to these mathematical assertions.",
+    "The author reports the project chronology as follows: the underlying research was conducted in **2023**; the principal articles were written in **2024**; and the materials were uploaded to GitHub in **2026**. Repository dates record the 2026 public upload and subsequent changes; they do not substitute for the author-reported research and writing dates or independently establish research priority.",
+    "The merged revisions in 2026 include proof strengthening, rigorous dissipative pricing-kernel calculations and the declared verification work. Those additions belong to their actual revision stage; they are not retrospectively attributed to the 2023 underlying research or the 2024 writing. The current V5 edition makes limited notation, table-caption and typography corrections and retains the existing scientific banks and numerical outcomes. The displayed implementation and evidence are the versions uploaded and revised in 2026, rather than a claim that every current source file or later result already existed in 2023 or 2024.",
     "Formula-label alignment, manuscript hashes and rendered transcription checks establish identity and consistency within their stated scope. In particular, alignment of the 169 existing equation labels is not a proof that the mathematics is correct. Mathematical validity rests on the stated hypotheses and proofs, and numerical claims on the declared certificates and verification obligations, including their inherited and shared dependencies. Author-side validation is not external referee replication.",
     "1. **GR2019.** Gatheral, Jim and Radoičić, Radoš. *Rational Approximation of the Rough Heston Solution*. International Journal of Theoretical and Applied Finance 22(3), 1950010, 2019. DOI [10.1142/S0219024919500109](https://doi.org/10.1142/S0219024919500109). The SSRN manuscript dated January 29, 2019 is used.",
     "2. **GR2023v1.** Gatheral, Jim and Radoičić, Radoš. *A Generalization of the Rational Rough Heston Approximation*. Quantitative Finance 24(2), 329–335, 2024. DOI [10.1080/14697688.2024.2302055](https://doi.org/10.1080/14697688.2024.2302055). [Source](https://arxiv.org/abs/2310.09181v1). Version used: arXiv:2310.09181v1.",
@@ -5163,9 +5189,31 @@
     "mathjax": "3.2.2",
     "errors": []
   },
-  "presentation_equivalences": {},
+  "presentation_equivalences": {
+    "2.5": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "F.20": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "F.25": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.",
+    "G.13": "Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source."
+  },
+  "typography": {
+    "paper": "US Letter",
+    "page_pt": [
+      612.0,
+      792.0
+    ],
+    "column_width_pt": 396,
+    "side_margin_pt": 108,
+    "top_margin_pt": 72,
+    "bottom_margin_pt": 72,
+    "body_font": "NimbusRomNo9L-Regu",
+    "body_font_pt": 11.0,
+    "body_leading_pt": 12.1,
+    "math_style": "MathJax TeX / Computer Modern style, native vector outlines",
+    "substitution": false,
+    "explicit_page_breaks": false
+  },
   "pdf": "paper/Theodore-Ouyang-Merged-Heston-EN.pdf",
-  "pdf_sha256": "f9f84110f50b56699cd66f96b6c60aba42d906aa419cc557f44804000191a0d2",
-  "math_source_occurrences": 1178,
+  "pdf_sha256": "54f5aead57cbf2d0d657ac85a27737a514f74dc7ac55af2b2851ed8e0f63a9ee",
+  "math_source_occurrences": 1180,
   "vector_formulas": true
 }

@@ -30,6 +30,8 @@ c^*-c^{\rm fast}=d+\operatorname{Re}(A\delta)+r,
 
 第三条贡献是指定 Gatheral–Radoičić 有理构造的可检查结构域，以及独立生成的参考证书。全频率结论明确限制相关系数、分数阶阶数和均值回复。数值参考的残差证书不由代数符号证明代替。邻近参数合同与输出对照进一步检验可迁移性及适当工作负载。
 
+**表 1. 有理输出与独立参考两条证明支线的依赖。**
+
 | 证明支线 | 输入和结论 | 在价格证书中的作用 |
 |---|---|---|
 | 有理构造 | 两端匹配、原始行列式及分子符号；Padé 输出可定义与左半平面结构 | 检查指定域内的生产公式 |
@@ -108,6 +110,8 @@ c=1-\frac{\sqrt m}{\pi}\int_0^\infty
 下文的价格由所列模型、输入十进制数和归一化约定共同确定。
 
 全部实验使用模型参数 $\nu=0.2897$、$\rho=-0.7445$、Riccati 均值回复为零、Fourier 步长 $1/8$、截至128的有限参考/误差网格（1025节点）、100位向外舍入二进有理算术及64项前向曲线矩级数。实际 Padé 输出采用截至200的8阶复合 Gauss–Legendre（352节点）和256阶 Jacobi；输出截断与证书截断不同。$N_t$ 表示源时间单元数，频率节点数直接列出，以免与 $\nu$ 混淆。
+
+**表 2. 固定配置：期限单位为年；时间单元、参考节点、残差子单元和历史分区均为计数。**
 
 | ID | T | alpha | N_t 源时间单元 | 非零参考节点 | 有限零置节点 | 子单元 | 历史分区 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -479,6 +483,8 @@ u\in\mathbb R,\quad \nu>0,
 
 下表比较 \(K=4400\) 减 \(K=4500\) 的完整任务界。每行保留实际输出、有符号中心、有限节点、条带、真实尾及算术；展示的上界向上舍入。季度研究重算对应期限的参考积分、真实变换包络和尾界，上游完整历史证书依法限制到短期限；不复用半年指数或尾数值。
 
+**表 3. H0–H4及Q0–Q2单位价差的完整证书，单位为指数点；输出及参考变化由配置区分。**
+
 | 期限与阶段 | 完整联合界，点 | 匹配有符号边际界，点 | 解释 |
 |---|---:|---:|---|
 | H0: 半年：全局状态传播 | 1.397612096 | — | 原1点任务失败 |
@@ -497,6 +503,8 @@ u\in\mathbb R,\quad \nu>0,
 以下匹配通过数表使用各所列alpha的H1配置。
 
 令 \(e_i\) 选取 \(K_i\)。以下持仓不为通过预算而重新缩放；总绝对权重为 \(\sum_i|w_i|\)。阈值均是指定持仓的指数点绝对误差。
+
+**表 4. 十二个执行价上的28个固定组合方向；总绝对权重为持仓权重绝对值之和。**
 
 | 类型 | 精确方向 | 数量 | 总绝对权重 |
 |---|---|---:|---:|
@@ -522,6 +530,8 @@ band 内报价目标的统一最优。Taylor 线性项保留共同 Fourier disks
 二次余项按完整坐标半径支付；marginal 对照使用同样上游半径。
 不同 alpha 候选的误差没有被假定相关。
 
+**表 5. 原报价下N1和N2五候选目标区间；显示值为归一化J乘以10^8。**
+
 | alpha | N_t=1024 joint J ×10^8 | N_t=2048 joint J ×10^8 |
 |---:|---:|---:|
 | 0.520 | [4.825094, 6.778350] | [5.293449, 6.024095] |
@@ -529,6 +539,8 @@ band 内报价目标的统一最优。Taylor 线性项保留共同 Fourier disks
 | 0.530 | [6.748974, 8.517584] | [7.187004, 7.859529] |
 | 0.540 | [9.807435, 11.422182] | [10.218707, 10.839486] |
 | 0.550 | [14.000658, 15.482012] | [14.387007, 14.960680] |
+
+**表 6. N1和N2五个固定候选的十对严格分离计数；联合与边际使用匹配输入。**
 
 | Generated layer | Joint strictly separated pairs | Matched marginal pairs |
 |---|---:|---:|
@@ -551,6 +563,8 @@ band 内报价目标的统一最优。Taylor 线性项保留共同 Fourier disks
 
 另行固定的描述性对照复用完整 \(N_t=2048,\alpha=.52\) 残差库及128历史分区：每个分区对全部相交闭源单元取最大，权重向外包围。五种方法使用相同模型、半年 \(4400-4500\) 价差、0.25点预算、参考中心、节点半径、条带与真实尾。它不改变预先固定的邻近网格主实验。
 
+**表 7. N2L半年单位4400–4500价差的实际输出对照；完整界及预算单位为指数点。**
+
 | 输出 | 完整联合界，点 | 匹配边际界，点 | 联合0.25点决定 |
 |---|---:|---:|---|
 | 冻结Padé | 0.394999331 | 0.514096070 | 未解决 |
@@ -562,6 +576,8 @@ band 内报价目标的统一最优。Taylor 线性项保留共同 Fourier disks
 五种匹配边际界均未通过0.25点。直接参考与修正值在本例碰巧得到相同完整界，但实际存储值分别检查；精确二进有理算术支付参考返回、修正存储和最终加法舍入。允许自由替换输出时，直接参考比保留原快速值更简单。共同结构仍改变了参考及BL输出的认证决定。BL两层差异只是诊断，不是其认证误差。
 
 完整证书生成并非零成本：需认证2,100,735个频率乘闭时间单元残差条目、513个参考指数、1,025个真实变换节点、无限尾及12,300个价格系数。完整读取检查全部条目并重构指数、系数和决定。每个附加组合计算1,025个共同圆盘支持项及完整余项；28组合复用同一库，无需新增残差生成。这是同参数、期限下的方向复用，不是跨未验证参数复用。
+
+**表 8. 附加输出构造的分类型确定性工作量；计数不度量总计算成本。**
 
 | 附加输出构造 | 确定性数学工作 |
 |---|---|
@@ -582,6 +598,8 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 
 下表单位为指数点，所有上界端点均向上舍入至九位小数。“全局状态”先通过全局残差控制状态，再应用指数泛函；“全局曲线”将同一全局残差最大值直接通过曲线传播。最后两行使用完全相同的 128 个分区残差包络，差别仅为定价传播核。
 
+**表 9. N2L半年单位4400–4500价差的匹配传播比较，单位为指数点；残差银行及其他输入固定。**
+
 | 传播方式 | 冻结快输出边际界 | 冻结快输出联合界 | 实际参考输出联合界 | 已用节点联合半径 |
 | --- | ---: | ---: | ---: | ---: |
 | 全局状态 | 3.690877564 | 1.829428107 | 1.662665889 | 1.476801373 |
@@ -593,7 +611,7 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 
 改善幅度较小，与当前证书的冻结项相符。即使 513 个已用参考节点的贡献全部消失，同一对称冻结输出预算公式仍保留有符号中心绝对值、有限省略节点半径和其他余项。三者精确有理数之和严格大于向下小数端点 0.352626733 点，因此也大于四分之一点。它只是本次固定预算公式的下限，既不是真实误差下界，也不是其他认证策略的下界。保持这些项不变，仅收紧已用节点无法完成四分之一点认证。因此，有限省略频率及实际输出的中心转换仍是下一阶段更有影响的研究对象。
 
-重建的全局曲线与逐时曲线端点和保存的基线有理数端点精确一致，包括十二个单价格半径和冻结输出误差界。例如，保存的全局曲线上界约为 0.4285709861017229，其九位小数向上端点为 0.428570987；此前显示的 0.428570986 只是小数展示方式不同，不涉及残差、中心、系数或余项变化。
+重建的全局曲线与逐时曲线端点和保存的基线有理数端点精确一致，包括十二个单价格半径和冻结输出误差界；表中显示严格的九位小数向上端点。
 
 ### 验收范围与数学工作量
 
@@ -606,6 +624,8 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 ### 7.6. 匹配账本与证书分辨率
 
 季度任务中是否通过预算的改变可以归于共同聚合。Q2两列使用完全相同的实际输出、参考中心、1025个节点半径及全部余项；每个有限节点已有非零参考，有限遗漏节点支持为零。下表单位为指数点；quarter-exact-ledger.json保留精确有理数。
+
+**表 10. Q2季度单位价差分项账本，单位为指数点；两列仅共同节点误差的聚合方式不同。**
 
 | 分项 | 联合 | 有符号边际 |
 | --- | --- | --- |
@@ -622,6 +642,8 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 
 全部组合曲线使用原先冻结且权重明确定义的28个方向。portfolio-exact-thresholds.csv和portfolio-budget-counts.json给出精确端点、全部阈值断点和通过数。认证条件是完整有理端点 $B\leq\tau$，包含等号。不同bank的曲线属于描述性变化，同bank联合/有符号边际则使用匹配半径。季度单价差不会被扩写成没有计算的28方向数据集。
 
+**表 11. 全部28个固定半年方向的完整预算通过数；预算单位为指数点，包含等号端点。**
+
 | Bank | alpha | 预算点 | 边际 | 联合 |
 | --- | --- | --- | --- | --- |
 | H0 | 13/25 | 1/4 | 0/28 | 0/28 |
@@ -636,17 +658,19 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 | H1 | 9/10 | 1/4 | 13/28 | 20/28 |
 | H1 | 9/10 | 1/2 | 25/28 | 25/28 |
 | H1 | 9/10 | 1 | 27/28 | 28/28 |
-| N1 | 五个邻近alpha点的新场与残差 | 1/4 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N1 | 五个邻近alpha点的新场与残差 | 1/2 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N1 | 五个邻近alpha点的新场与残差 | 1 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | 1/4 | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | 1/2 | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | 1 | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
+| N1 | 13/25 | 1/4 | 0/28 | 0/28 |
+| N1 | 13/25 | 1/2 | 0/28 | 4/28 |
+| N1 | 13/25 | 1 | 15/28 | 28/28 |
+| N2 | 13/25 | 1/4 | 0/28 | 0/28 |
+| N2 | 13/25 | 1/2 | 6/28 | 23/28 |
+| N2 | 13/25 | 1 | 28/28 | 28/28 |
 | N2L | 13/25 | 1/4 | 0/28 | 1/28 |
 | N2L | 13/25 | 1/2 | 11/28 | 26/28 |
 | N2L | 13/25 | 1 | 28/28 | 28/28 |
 
 邻近两层完整保留10个无序对，包括未分离结果：
+
+**表 12. 原报价下N1和N2的完整未分离候选对及严格分离计数。**
 
 | N_t | 方法 | 已分离对数 | 完整未分离名单 |
 | --- | --- | --- | --- |
@@ -658,6 +682,8 @@ N2L配置的无量纲耗散为 \(\lambda T^\alpha\approx0.075205\)（更精确�
 N2中最近的alpha=.520与.525联合严格间隙约为7.382643478687e-10（归一化平方中点损失）。精确端点分解为 $J_{0,B}-J_{0,A}-H_B-H_A-Q_A$，再加坐标盒交集产生的端点调整。nearby-pair-resolution.json分别列清已用节点、有限零置节点、条带/无限尾/参考算术、固定报价中点换算算术。排名针对原固定中点损失；中点换算的算术区间不是市场bid/ask宽度，五个候选均另行保留原bid/ask不兼容结论。
 
 实际半年4400–4500输出保持不变时，完整中心支出如下。有符号中心为近似展示；完整半径与完整上界列为十进制上端点，各列独立舍入后不必恰好相加：
+
+**表 13. H2–H4、N2与N2L半年冻结输出的中心分账，单位为指数点；上端点逐列独立向上舍入。**
 
 | Bank | 有符号中心点 | 完整半径点 | 完整上界点 |
 | --- | --- | --- | --- |
@@ -679,7 +705,7 @@ H2扩至H3同时改变中心绝对值支出与付清后的参考半径；H3至H4
 
 保证以给定模型、仿射变换、合法参考轨迹和向外包含为条件。曲线解析条件本身不是随机模型合法性定理；狭窄结构域不包括一般均值回复或宽相关系数校准。未解决区间、失败预算与报价不兼容都是有效结果。
 
-固定的 [V3.1 编辑发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.1.0-editorial-20261007) 提供当前双语论文、可编辑稿与编辑身份检查。其小型编辑归档明确依赖固定 [V3 研究发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007) 中未改动的完整科学归档。下载并解压 `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`，在解压目录运行 `python reproduce.py --full`，执行所声明的科学检查。V3.1 源码将原始源码保存在 `inherited-v3/`；`python verify_editorial.py` 检查编辑身份与继承源码的对应关系，不重新生成连续残差。当前 V3.1 稿件替代科学归档内的历史 PDF；GitHub 自动源码归档不包含仅随发布分发的数值银行。文件校验和建立身份；科学读取器仅建立其代码实际重新推导的数学义务。
+固定的 [V5 编辑发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v5.0.0-editorial-20261007) 提供当前双语论文、可编辑稿与编辑身份检查。其小型编辑归档明确依赖固定 [V3 研究发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/v3.0.0-research-20261007) 中未改动的完整科学归档。下载并解压 `Theodore-Ouyang-Heston-V3-Evidence-20261007.zip`，在解压目录运行 `python reproduce.py --full`，执行所声明的科学检查。V5 源码将原始源码保存在 `inherited-v3/`；`python verify_editorial.py` 检查编辑身份与继承源码的对应关系，不重新生成连续残差。当前 V5 稿件替代科学归档内的历史 PDF；GitHub 自动源码归档不包含仅随发布分发的数值银行。文件校验和建立身份；科学读取器仅建立其代码实际重新推导的数学义务。
 
 附录E矩阵为每项证明义务列出生成命令、读取命令、重新计算范围和共享依赖。特别地，`--full` 不代表全部连续导数包络已被独立重新生成；它增加明示的结构覆盖与重建检查。残差重新生成另有明确命令。读取器按表重建历史最大值、严格指数、变换及系数包含、完整价格、目标与判定；保存的导数界及共用严格原语仍属于可信基础。作者侧新副本执行不等于外部审稿人复现。
 
@@ -904,6 +930,8 @@ Binet 正积分中 arctan 的十项几何余项为正且不超过首遗漏幂，
 有限区间覆盖包含 211241 个叶矩形，其有理面积精确为 \(2/25\)。独立检查从根矩形重建 422481 个二叉树节点、最大深度19，每个记录叶子恰出现一次，因此除面积外还排除了遗漏子树、内域重叠与端点空洞。本定理采用该完整闭树所覆盖的阶数区间。
 
 完整证书中的更强有理余量蕴含下表；每次简化转化已用 Fraction 独立检查。
+
+**表 B.1. 附录B指定的完整紧化结构域上的严格下界。**
 
 | 全紧化域的量 | 严格下界 |
 |---|---:|
@@ -1637,6 +1665,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 \]
 因此归一化价格 RMS 是 \(\sqrt{2J}\)，不是 \(\sqrt{J/6}\)；同一归一化约定适用于目标区间、有限间隙与稳定性常数。
 
+**表 E.1. 历史半年三候选基准：归一化目标、价格RMS与实际Padé输出目标区间。**
+
 | α | H | 真 J 严格区间 | 模型价格 RMS 严格区间 | 实际 Padé 输出 J 严格区间 |
 |---|---|---|---|---|
 | 0.52 | 0.02 | [0.0000000068962, 0.0000001833669] | [0.00011744, 0.00060559] | [0.0000000708602, 0.0000000708603] |
@@ -1647,6 +1677,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 
 ε=0 时真最优候选外集合为 \(\{13/25\}\)；所选 α≥.6 较高 H 候选与该最优值严格分离。
 
+**表 E.2. 原十二条报价下历史三候选的报价带目标及相容性判定。**
+
 | α | 真 J_band 严格区间 | 严格排除报价相容的行号 | 充分认证全部报价相容 |
 |---|---|---|---|
 | 0.52 | [0.0000000005732, 0.0000000877280] | [8, 9] | 否 |
@@ -1656,6 +1688,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 最小二乘排序与报价相容性分别由目标区间和逐行价格区间判定。下表同时报告这两项模型验证结果。
 
 #### α=0.52，H=0.02
+
+**表 E.3. 历史alpha=0.52价格账本：归一化报价、模型价格、实际输出及其总误差界。**
 
 | K | 报价价格中点严格区间 | 真 normalized 价严格区间 | 实际 Padé 二进有理数 输出（显示值） | 该输出对真价总误差上界 |
 |---|---|---|---|---|
@@ -1674,6 +1708,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 
 #### α=0.60，H=0.10
 
+**表 E.4. 历史alpha=0.60价格账本；归一化及列含义与表E.3相同。**
+
 | K | 报价价格中点严格区间 | 真 normalized 价严格区间 | 实际 Padé 二进有理数 输出（显示值） | 该输出对真价总误差上界 |
 |---|---|---|---|---|
 | 3700 | [0.13916863, 0.13916864] | [0.13908096, 0.13925890] | 0.13914793 | 0.00011096 |
@@ -1690,6 +1726,8 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 | 4800 | [0.00253419, 0.00253420] | [0.00255071, 0.00275338] | 0.00270300 | 0.00015230 |
 
 #### α=0.90，H=0.40
+
+**表 E.5. 历史alpha=0.90价格账本；归一化及列含义与表E.3相同。**
 
 | K | 报价价格中点严格区间 | 真 normalized 价严格区间 | 实际 Padé 二进有理数 输出（显示值） | 该输出对真价总误差上界 |
 |---|---|---|---|---|
@@ -1724,36 +1762,42 @@ J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12}
 
 configuration-registry.json固定全部配置ID和数学规模。下表以源码实际行为区分读取器义务。共同基础区间原语、共同连续导数生成器、复用固定科学输入与独立编写聚合，是不同种类的依赖。本轮是作者侧验收，不能表述为外部审稿人已经执行。
 
+**表 E.6. 继承科学证据的证明义务、读取器定位、实际重算范围及共享依赖。**
+
 | ID | 证明义务 | 验证命令 | 重新计算范围 | 继承/共享 |
 | --- | --- | --- | --- | --- |
-| S1 | 原参数矩形上的Padé系数符号 | python bc-merged-20261007/full_structure_verify.py | 211241个结构符号叶及矩形覆盖 | 模型与参数定义；原严格区间代数及广义幂原语 |
-| S2 | 初始单元Caputo残差与左半平面 | python bc-merged-20261007/startup_independent.py | 三种原候选各513个频率的全部初始单元 | 保存的dyadic场及后续连续残差；Gamma、幂和二进向外原语 |
-| R1 | 原alpha=.52低频连续残差完整覆盖 | python heston-nine-point-20261007/check-time-envelope.py | 8189个闭单元×513项：覆盖、保存dyadic值及逐节点最大值；初始单元另审 | 固定连续生成器的导数不等式；附已证点积误差的NumPy包含及严格标量原语 |
-| R2 | alpha=.52高频连续残差完整覆盖 | python heston-frontier-20261007/omission-verify.py | 8189个闭单元×512项：精确银行、初始单元/半平面及节点最大值 | 固定Caputo导数生成器不等式；严格标量原语及原连续生成器 |
-| P1 | 全局有限历史与低频128区间价格账本 | python heston-nine-point-20261007/verify-finite-history-independent.py; python heston-nine-point-20261007/independent-time-local.py | 前向质量、完整单元交集、513个收紧半径、1025个有限项及完整价差余项 | 连续残差定理与合法性及固定场；严格前向矩、指数和真实尾原语 |
-| P2 | 扩展参考的冻结半年输出账本 | python heston-frontier-20261007/independent-omission.py | 更新的参考中心、1025个支持项、新旧完整区间交集及全局/局部高频账本 | 同一实际快输出与连续残差银行；原严格矩与标量原语 |
-| Q1 | 季度through64证书及实际快输出 | python heston-frontier-20261007/independent-transfer.py --full | 三个精确终端插值、1539个限制指数、三批原快输出和3075个真实有限CF/尾/价格项 | 较长期限的连续残差与半平面证书；严格矩/三角/dyadic/真实尾库；原快实现仅供输出重放 |
-| Q2 | 季度through128全局及128区间完整证书 | python heston-frontier-20261007/independent-transfer-supplement.py --full | 1025个限制指数及CF/尾/系数/半径项、全部高频银行项、128局部权重及精确账本 | 低/高频连续导数合法性；实际输出另由Q1重放；严格原语及Q1路径帮助器 |
-| N1 | 五个邻近alpha点的新场与残差 | python nearby_independent.py --N 1024; python nearby_independent.py --N 2048 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | python local_output_independent.py | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
-| C1 | 同模型完整容差下的冻结/直接/修正/BL核心输出 | python workload_controls_independent.py --N 2048 --local128 | 保存输出的精确中心平移、同参考全部余项及28组合支持；BL名义输出元数据身份 | 参考证书、BL名义输出生成器及保存dyadic值；同一严格向外系数原语 |
+| S1 | 原参数矩形上的Padé系数符号 | `full_structure_verify.py` ([S1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s1)) | 211241个结构符号叶及矩形覆盖 | 模型与参数定义；原严格区间代数及广义幂原语 |
+| S2 | 初始单元Caputo残差与左半平面 | `startup_independent.py` ([S2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#s2)) | 三种原候选各513个频率的全部初始单元 | 保存的dyadic场及后续连续残差；Gamma、幂和二进向外原语 |
+| R1 | 原alpha=.52低频连续残差完整覆盖 | `check-time-envelope.py` ([R1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r1)) | 8189个闭单元×513项：覆盖、保存dyadic值及逐节点最大值；初始单元另审 | 固定连续生成器的导数不等式；附已证点积误差的NumPy包含及严格标量原语 |
+| R2 | alpha=.52高频连续残差完整覆盖 | `omission-verify.py` ([R2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#r2)) | 8189个闭单元×512项：精确银行、初始单元/半平面及节点最大值 | 固定Caputo导数生成器不等式；严格标量原语及原连续生成器 |
+| P1 | 全局有限历史与低频128区间价格账本 | `verify-finite-history-independent.py`; `independent-time-local.py` ([P1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p1)) | 前向质量、完整单元交集、513个收紧半径、1025个有限项及完整价差余项 | 连续残差定理与合法性及固定场；严格前向矩、指数和真实尾原语 |
+| P2 | 扩展参考的冻结半年输出账本 | `independent-omission.py` ([P2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#p2)) | 更新的参考中心、1025个支持项、新旧完整区间交集及全局/局部高频账本 | 同一实际快输出与连续残差银行；原严格矩与标量原语 |
+| Q1 | 季度through64证书及实际快输出 | `independent-transfer.py` ([Q1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q1)) | 三个精确终端插值、1539个限制指数、三批原快输出和3075个真实有限CF/尾/价格项 | 较长期限的连续残差与半平面证书；严格矩/三角/dyadic/真实尾库；原快实现仅供输出重放 |
+| Q2 | 季度through128全局及128区间完整证书 | `independent-transfer-supplement.py` ([Q2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#q2)) | 1025个限制指数及CF/尾/系数/半径项、全部高频银行项、128局部权重及精确账本 | 低/高频连续导数合法性；实际输出另由Q1重放；严格原语及Q1路径帮助器 |
+| N1 | 五个邻近alpha点的新场与残差 | `nearby_independent.py` ([N1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n1)) | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
+| N2 | 邻近目标网格之外的描述性128区间复用对照 | `local_output_independent.py` ([N2](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#n2)) | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
+| C1 | 同模型完整容差下的冻结/直接/修正/BL核心输出 | `workload_controls_independent.py` ([C1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#c1)) | 保存输出的精确中心平移、同参考全部余项及28组合支持；BL名义输出元数据身份 | 参考证书、BL名义输出生成器及保存dyadic值；同一严格向外系数原语 |
 
 proof-obligation-matrix.json列出精确生成命令、空输出目录与现存输入时的行为、源码哈希和边界。命令应在相对路径的可丢弃工作副本运行，以保持冻结包。nearby_generate.py只生成缺失的场/残差；已有且身份匹配的部件会复用。nearby_independent.py可使用身份匹配的逐点缓存；顶层fresh验收会在调用前删除这些缓存。
 
 以下入口表对应明确留存的V2源码快照；--full与连续重生成必须区分：
 
+**表 E.7. 保留的历史入口覆盖范围；当前V3驱动器另增加表E.10所列义务。**
+
 | 入口 | 实际新增执行 | 该命令不覆盖 |
 | --- | --- | --- |
-| reproduce.py default | fixed-copy saved evidence readers; original frontier always requests bothquarter readers --full; new nearby reader point caches deleted by this top driver | allcontinuous residual generators or allstructural signs |
-| reproduce.py --full | default plus all211241 original structural sign leaves | fresh low/high/new-nearby continuous derivative generation |
-| baseline/.../run_evidence.py --regenerate-continuous | original alpha=.52 513-node low continuous generator and retained8189-cell bank | new five-alpha reference/residual generation |
-| baseline/.../run_frontier.py --regenerate-full | separate-clone full512 high continuous generator plus fresh-bank audit | alter fixed quarter input receipts |
+| reproduce.py default | fixed-copy saved evidence readers; original frontier always requests both quarter readers --full; new nearby reader point caches deleted by this top driver | all continuous residual generators or all structural signs |
+| reproduce.py --full | default plus all 211241 original structural sign leaves | fresh low/high/new-nearby continuous derivative generation |
+| `run_evidence.py` (regenerate-continuous) | original alpha=.52 513-node low continuous generator and retained 8189-cell bank | new five-alpha reference/residual generation |
+| `run_frontier.py` (regenerate-full) | separate-clone full 512 high continuous generator plus fresh-bank audit | alter fixed quarter input receipts |
 | nearby_generate.py --N N | missing field/residual/exponent components; otherwise reuses identified existing components | force regeneration over already retained scientific output |
 | publication-v2 CI source.yml | source manifest identities and retained acceptance receipt binding | NumPy bank replay, interval arithmetic replay or residual generation |
 
 因此留存的V2 reproduce.py --full增加结构符号重生成，不重算全部连续残差导数；不会用其源码SHA冒验新V3顶层driver。旧低频连续生成需run_evidence.py --regenerate-continuous；高频生成需run_frontier.py --regenerate-full，后者使用独立重建副本，保持固定季度证据输入。历史CI检查源码身份及已留存验收收据的绑定，不执行大型bank区间重读。留存PASS收据、字节身份、真正重新计算与数学定理是分别识别的证据。
 
 最近邻严格间隙等于以下有符号贡献之和；科学计数法只用于展示：
+
+**表 E.8. 最近候选对归一化目标间隙的有符号分项；科学计数法展示精确账本。**
 
 | 间隙分项 | 归一化损失贡献 |
 | --- | --- |
@@ -1771,12 +1815,14 @@ proof-obligation-matrix.json列出精确生成命令、空输出目录与现存�
 
 BL-core完整界中的共同理想严格参考底座（底座与比例为近似展示，判定以精确有理端点为准）：
 
+**表 E.9. BL核心证书的共同严格参考底座及输出平移；价格量单位为指数点。**
+
 | Bank | 名义输出 | 参考底座点 | 平移点 | 底座/完整界 |
 | --- | --- | --- | --- | --- |
-| N1 | 五个邻近alpha点的新场与残差 | 0.423484833 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N1 | 五个邻近alpha点的新场与残差 | 0.423484833 | 每点全部闭单元、初始与半平面、513指数及1025个CF/系数项；全部目标与配对判定 | 连续残差生成器的严格证明及最终传播定理；声明的SDK向外原语、保存参考数据 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | 0.261808768 | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
-| N2 | 邻近目标网格之外的描述性128区间复用对照 | 0.261808768 | 128个精确正权重、所有相交闭单元最大值、513收紧半径、12价格及实际返回舍入 | 身份匹配的N2048完整逐点证明及连续残差生成器；同一严格矩/三角/dyadic原语 |
+| N1 | BL modified-Adams core, 512 steps | 0.423484833 | 0.000853401 | 99.798887% |
+| N1 | BL modified-Adams core, 1024 steps | 0.423484833 | 0.000305328 | 99.927953% |
+| N2 | BL modified-Adams core, 512 steps | 0.261808768 | 0.000845646 | 99.678039% |
+| N2 | BL modified-Adams core, 1024 steps | 0.261808768 | 0.000297572 | 99.886469% |
 | N2L | BL modified-Adams core, 512 steps | 0.228237113 | 0.000845646 | 99.630856% |
 | N2L | BL modified-Adams core, 1024 steps | 0.228237113 | 0.000297572 | 99.869791% |
 
@@ -1786,11 +1832,13 @@ portfolio-pass-counts.svg及portfolio-pass-counts.pdf展示旧三候选和重新
 
 矩阵将历史V2入口快照与当前V3入口分开。V3命令另行运行独立耗散核读取器、精确实验账本读取器和双语扩展一致性检查；仍不重生成全部上游连续导数界。
 
+**表 E.10. 相对保留历史驱动器的V3新增义务及独立重算与共享基础边界。**
+
 | 新义务 | 生成 | 验证 | 独立重算及共享基础 |
 |---|---|---|---|
-| 耗散权重与完整价格 | v3/kernel/generate.py --baseline . | v3/kernel/independent.py --baseline . | 14层直接级数对12层矩公式；128区间、1025节点、12价格和8负控；共用严格原语并继承上游残差证明 |
-| 精确实验账本与阈值 | v3/audit-experiments/produce_audit.py --baseline . | v3/audit-experiments/read_audit_independent.py --baseline . | 保存银行精确分账、候选间隙、504阈值及9负控；继承导数界有效性 |
-| 整合F/G数学文本 | 当前可编辑附录来源 | v3/extensions/check_appendices.py | 双语公式及范围核查；解析证明复核与经典读取器实际运行另有记录 |
+| 耗散权重与完整价格 | `generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1)) | `independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#k1)) | 14层直接级数对12层矩公式；128区间、1025节点、12价格和8负控；共用严格原语并继承上游残差证明 |
+| 精确实验账本与阈值 | `produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1)) | `read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#a1)) | 保存银行精确分账、候选间隙、504阈值及9负控；继承导数界有效性 |
+| 整合F/G数学文本 | 当前可编辑附录来源 | `check_appendices.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/v5.0.0-editorial-20261007/COMMANDS.md#g1)) | 双语公式及范围核查；解析证明复核与经典读取器实际运行另有记录 |
 
 
 ### E.3. 所有固定方向的预算敏感性
@@ -2064,9 +2112,9 @@ F_P(\pi)=\frac{1600e^{-.01}}{\pi_{\rm circ}}\sqrt{K_{767}}
 \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}>0.\tag{F.26}
 \]
 
-其非零坐标约为 ((.0276833515163,.0487291439380,.923587504546))。弱对偶证明最优性，互补松弛将任意最优解限制在 \(S\) 和三个活跃等式上，可逆性证明唯一性；严格递增的平方根将唯一性传递给 \(F_A\)。
+其非零坐标约为 \((.0276833515163,\ .0487291439380,\ .923587504546)\)。弱对偶证明最优性，互补松弛将任意最优解限制在 \(S\) 和三个活跃等式上，可逆性证明唯一性；严格递增的平方根将唯一性传递给 \(F_A\)。
 
-同一多面体含有支撑为 ({5,6}) 的精确 \(\pi^B\)。令 \(D_\omega=(\omega^2+1/16)(\omega^2+25/16)\)、\(x_\omega=d_\omega\cdot\pi^A>0\)。辅助 put 行 \(\mathscr B(\pi)=\sum_\omega\sqrt{d_\omega\cdot\pi}/\sqrt{D_\omega}\) 满足
+同一多面体含有支撑为 \(\{5,6\}\) 的精确 \(\pi^B\)。令 \(D_\omega=(\omega^2+1/16)(\omega^2+25/16)\)、\(x_\omega=d_\omega\cdot\pi^A>0\)。辅助 put 行 \(\mathscr B(\pi)=\sum_\omega\sqrt{d_\omega\cdot\pi}/\sqrt{D_\omega}\) 满足
 
 \[
 \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0}
@@ -2083,7 +2131,7 @@ g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)>0,
 
 第二个不等式来自系数的三角不等式；相位抵消只会进一步降低联合支持。在有效的逐时间乘积集合和同一完整目录下，累计的未取交集支持差值至少为该正终端差值。变更目录、概率集合或 payoff 交集，需要重新分析。
 
-机器附录路径为 `baseline/english-heston-release/code/classical/terminal767-input.json`、`terminal767-result.json`、`verify_input_bounds.py`、`verify_terminal.py`。第一读取器重生成 22 行、十二条各 767 步的 Laplace 递推及全部 918 个包络项；第二读取器执行 407 项精确见证检查。这些支持终端结论，并未证明完整价格前提 (F.21)、年度金额端点或交易解释。
+在目录 `baseline/english-heston-release/code/classical/` 中，机器附录为 `terminal767-input.json`、`terminal767-result.json`、`verify_input_bounds.py`、`verify_terminal.py`。第一读取器重生成 22 行、十二条各 767 步的 Laplace 递推及全部 918 个包络项；第二读取器执行 407 项精确见证检查。这些支持终端结论，并未证明完整价格前提 (F.21)、年度金额端点或交易解释。
 
 ### F.8. 标准金融传播推论
 
@@ -2292,13 +2340,13 @@ L_*>0.003407444052031154>0.\tag{G.17}
 
 它拒绝所选分配 \(\int\eta_c\le1/1000\)，保留状态 `FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY`；它不拒绝所有充分分配，不对整个试探空间取最优，也不从下方控制实际有符号价格偏差。可移植读取器 `verify_field_receipt.py` 核查保存区间的精确聚合，不重新生成缺失系数银行，也不重跑归档直接积分。因此 (G.17) 属于归档函数的必要条件诊断；显式函数 (G.10) 则不依赖该银行，独立证明非精确可容许性。这里不推出完整年度金额 PASS。
 
-机器附录使用 `baseline/english-heston-release/code/classical/field-cell-integrals.json`、`field-result.json`、`field-independent-readback.json`、`provenance.json`、`verify_field_receipt.py`，由发布清单固定科学身份。联系字段、运行环境和执行测量元数据均非这些数学断言所必需。
+在目录 `baseline/english-heston-release/code/classical/` 中，机器附录使用 `field-cell-integrals.json`、`field-result.json`、`field-independent-readback.json`、`provenance.json`、`verify_field_receipt.py`，由发布清单固定科学身份。联系字段、运行环境和执行测量元数据均非这些数学断言所必需。
 
 ## 附录 H. 研究时间线与修订范围
 
-作者明确提供的时间线为：基础研究开展于2023年，主要文章撰写于2024年，材料于2026年上传GitHub。这些日期表述作者提供的研究历程；仓库上传记录公开可获取的阶段，不单独建立研究优先权的日期。
+作者明确提供的项目时间线为：**2023年开展基础研究，2024年主要撰写文章，2026年将材料上传GitHub**。仓库日期记录2026年的公开上传及后续修改，不能替代作者陈述的研究与写作时间，也不单独建立研究优先权。
 
-2026年的合稿修订新增了证明补强、严格耗散定价核计算及明示的验证工作。这些内容归属于实际发生的修订阶段，不回溯为2023年的基础研究或2024年初稿已经取得的成果。V3.1仅作此处说明的有限编辑修订，保留既有科学银行和数值结果。
+2026年的合稿修订新增了证明补强、严格耗散定价核计算及明示的验证工作。这些内容归属于实际发生的修订阶段，不回溯为2023年的基础研究或2024年初稿已经取得的成果。当前V5仅修正符号、表格题注和排版，保留既有科学银行和数值结果。GitHub展示的实现与证据是2026年上传及修订的版本，不声称每份当前源文件或后增结果在2023年或2024年已经存在。
 
 公式标签对齐、稿件哈希及渲染转写检查，只在明示范围内建立身份与一致性。尤其，169个既有公式标签对齐并不证明数学正确。数学有效性仍依赖完整假设和证明，数值主张仍依赖所列证书与验证义务，包括其继承与共享依赖。作者侧验证不等于外部审稿人独立复现。
 

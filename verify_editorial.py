@@ -3,7 +3,7 @@
 This entry verifies files and retained evidence. It does not rerun science.
 """
 from pathlib import Path, PurePosixPath
-import argparse, hashlib, json, subprocess, sys
+import argparse, hashlib, json, re, subprocess, sys
 sys.dont_write_bytecode = True
 
 PARENT = {
@@ -18,7 +18,8 @@ PARENT = {
     "science_archive_bytes": 701213852,
     "science_archive_sha256": "f4c038b736ec01b3dd9c4e2dcff733665b5b7997f99ee26b64eb5cff0f2ab120",
 }
-VERSION = "v3.1.0-editorial-20261007"
+VERSION = "v5.0.0-editorial-20261007"
+PREDECESSOR = {'version': 'v3.1.0-editorial-20261007', 'source_revision': '09c73d2733ee44a1bdd93e49920f15ef9cd0334b'}
 
 def require(ok, message):
     if not ok: raise ValueError(message)
@@ -55,10 +56,65 @@ def parent_identities(root):
     require(all(available.get(r["path"]) == identity(r) for r in science["files"]), "Inherited scientific coverage differs.")
     return source, science
 
+
+CORE_YEARS = {"underlying_research": 2023, "principal_article_writing": 2024, "github_upload": 2026}
+CORE_STATEMENTS = {
+    "en": ["underlying research was conducted in 2023", "principal articles were written in 2024", "materials were uploaded to GitHub in 2026"],
+    "zh": ["基础研究开展于2023年", "主要文章撰写于2024年", "材料于2026年上传GitHub"],
+}
+
+def normalized(text): return re.sub(r"[\s*]", "", text).casefold()
+
+def chronology(root):
+    data = read(root / "CHRONOLOGY.json")
+    require(data["schema"] == "author-chronology-v1" and data["version"] == VERSION,
+            "Chronology schema/version differs.")
+    require(data["author"] == "Theodore Ouyang" and data["core_years"] == CORE_YEARS,
+            "Research/writing/upload chronology differs.")
+    require(data["core_statements"] == CORE_STATEMENTS, "Core chronology statements differ.")
+    revision = data["merged_revision"]
+    require(revision["year"] == 2026 and revision["retrospectively_attributed_to_2023_or_2024"] is False,
+            "Merged revision chronology differs.")
+    require(revision["scope"] == ["merged proof strengthening", "scientific code", "numerical experiments", "evidence assembly", "author-side verification"],
+            "Merged revision scope differs.")
+    edition = data["editorial_edition"]
+    require(edition["date"] == "2026-10-07" and edition["scientific_recomputation"] is False,
+            "Editorial date/scope differs.")
+    require(data["dated_writing_is_not_a_date_for_all_merged_proofs_code_or_evidence"] is True,
+            "Writing and later additions must remain distinct.")
+    checked = []
+    for path, language, section in [
+        ("README.md", "en", None), ("README.md", "zh", None),
+        ("AUTHOR-CHRONOLOGY.md", "en", None), ("AUTHOR-CHRONOLOGY.md", "zh", None),
+        ("manuscript/merged-heston-en.md", "en", "## Appendix H."),
+        ("manuscript/merged-heston-zh.md", "zh", "## 附录 H."),
+    ]:
+        text = (root / path).read_text(encoding="utf8")
+        if section:
+            require(section in text, "Missing chronology appendix: " + path)
+            text = text.split(section, 1)[1].split("\n## ", 1)[0]
+        compact = normalized(text)
+        alternatives = [[statement] for statement in CORE_STATEMENTS[language]]
+        if language == "zh":
+            alternatives = [[a, b] for a, b in zip(CORE_STATEMENTS["zh"],
+                ["2023年开展基础研究", "2024年主要撰写文章", "2026年将材料上传GitHub"])]
+        require(all(any(normalized(statement) in compact for statement in candidates) for candidates in alternatives),
+                "Core chronology text differs: " + path)
+        if section:
+            require("2026" in compact and ("proof" if language == "en" else "证明") in compact,
+                    "Merged revision scope missing: " + path)
+        checked.append({"path": path, "language": language})
+    return {"status": "PASS_DISTINCT_RESEARCH_WRITING_UPLOAD_AND_REVISION_CHRONOLOGY",
+            "core_years": CORE_YEARS, "merged_revision_year": 2026,
+            "chronology_sha256": sha(root / "CHRONOLOGY.json"), "checked_texts": checked}
+
 def verify(root):
     root = root.resolve(); source = read(root / "SOURCE-MANIFEST.json"); bridge = read(root / "EDITORIAL-MANIFEST.json")
     require(source["version"] == bridge["version"] == VERSION, "Editorial version differs.")
     require(bridge["parent"] == PARENT and source["parent"] == PARENT, "Fixed parent bridge differs.")
+    require(bridge["preceding_editorial"] == source["preceding_editorial"] == PREDECESSOR, "Preceding editorial identity differs.")
+    date_check = chronology(root)
+    require(bridge["chronology_sha256"] == date_check["chronology_sha256"], "Chronology bridge identity differs.")
     require(bridge["scientific_recomputation"] is False, "This layer cannot claim a new scientific run.")
     require(bridge["scientific_input_objects"] == 450, "Frozen science count differs.")
     require(source["editorial_manifest_sha256"] == sha(root / "EDITORIAL-MANIFEST.json"), "Editorial bridge identity differs.")
@@ -66,6 +122,12 @@ def verify(root):
     require("SOURCE-MANIFEST.json" not in names and len(names) == len(set(names)) == len({n.casefold() for n in names}),
             "Source manifest self-reference or duplicate.")
     require(all(record(root, r["path"]) == identity(r) for r in rows), "Editorial source SHA/size differs.")
+    editorial = {r["path"]: identity(r) for r in bridge["editorial_files"]}
+    require(len(editorial) == len(bridge["editorial_files"]), "Duplicate editorial identity.")
+    new_rows = {r["path"]: identity(r) for r in rows if not r["path"].startswith("inherited-v3/") and r["path"] != "EDITORIAL-MANIFEST.json"}
+    require(editorial == new_rows, "Editorial/source member coverage differs.")
+    require(bridge["overlay_members"] == sorted(list(editorial) + ["EDITORIAL-MANIFEST.json", "SOURCE-MANIFEST.json"]),
+            "Editorial overlay coverage differs.")
     inherited = root / "inherited-v3"; parent, science = parent_identities(inherited)
     expected = {"inherited-v3/" + r["path"]: identity(r) for r in parent["source_files"]}
     expected["inherited-v3/SOURCE-MANIFEST.json"] = record(inherited, "SOURCE-MANIFEST.json")
@@ -78,7 +140,7 @@ def verify(root):
     require(run.returncode == 0, "Original inherited V3 source verifier failed.")
     return {"status": "PASS_EDITORIAL_LAYER_AND_UNCHANGED_INHERITED_V3_IDENTITIES", "version": VERSION,
             "source_objects": len(rows), "inherited_source_objects": 472, "scientific_input_objects": len(science["files"]),
-            "parent": PARENT, "editorial_manifest_sha256": sha(root / "EDITORIAL-MANIFEST.json"),
+            "parent": PARENT, "preceding_editorial": PREDECESSOR, "chronology": date_check, "editorial_manifest_sha256": sha(root / "EDITORIAL-MANIFEST.json"),
             "source_manifest_sha256": sha(root / "SOURCE-MANIFEST.json"), "scientific_recomputation": False}
 
 def main():

@@ -1,0 +1,694 @@
+{
+  "directions": [
+    {
+      "id": "adjacent-spread-3700-3800",
+      "kind": "adjacent_spread",
+      "weights": [
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-3800-3900",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3800",
+        "3900"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-3900-4000",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3900",
+        "4000"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4000-4100",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4100"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4100-4200",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4100",
+        "4200"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4200-4300",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4200",
+        "4300"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4300-4400",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4400-4500",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4400",
+        "4500"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4500-4600",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4500",
+        "4600"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4600-4700",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0"
+      ],
+      "active_strikes": [
+        "4600",
+        "4700"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-spread-4700-4800",
+      "kind": "adjacent_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1"
+      ],
+      "active_strikes": [
+        "4700",
+        "4800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "adjacent-butterfly-3700-3900",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-3800-4000",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3800",
+        "3900",
+        "4000"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-3900-4100",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3900",
+        "4000",
+        "4100"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4000-4200",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4100",
+        "4200"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4100-4300",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4100",
+        "4200",
+        "4300"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4200-4400",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4200",
+        "4300",
+        "4400"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4300-4500",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400",
+        "4500"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4400-4600",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4400",
+        "4500",
+        "4600"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4500-4700",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1",
+        "0"
+      ],
+      "active_strikes": [
+        "4500",
+        "4600",
+        "4700"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "adjacent-butterfly-4600-4800",
+      "kind": "adjacent_butterfly",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-2",
+        "1"
+      ],
+      "active_strikes": [
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "4"
+    },
+    {
+      "id": "wide-spread-3700-4000",
+      "kind": "wide_spread",
+      "weights": [
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "4000"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-4000-4300",
+      "kind": "wide_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4000",
+        "4300"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-4300-4600",
+      "kind": "wide_spread",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "4300",
+        "4600"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "wide-spread-3700-4800",
+      "kind": "wide_spread",
+      "weights": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "active_strikes": [
+        "3700",
+        "4800"
+      ],
+      "gross_units": "2"
+    },
+    {
+      "id": "positive-basket-all",
+      "kind": "positive_basket",
+      "weights": [
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "1/12"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900",
+        "4000",
+        "4100",
+        "4200",
+        "4300",
+        "4400",
+        "4500",
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "1"
+    },
+    {
+      "id": "positive-basket-first-half",
+      "kind": "positive_basket",
+      "weights": [
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "active_strikes": [
+        "3700",
+        "3800",
+        "3900",
+        "4000",
+        "4100",
+        "4200"
+      ],
+      "gross_units": "1"
+    },
+    {
+      "id": "positive-basket-last-half",
+      "kind": "positive_basket",
+      "weights": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6",
+        "1/6"
+      ],
+      "active_strikes": [
+        "4300",
+        "4400",
+        "4500",
+        "4600",
+        "4700",
+        "4800"
+      ],
+      "gross_units": "1"
+    }
+  ],
+  "strikes": [
+    "3700",
+    "3800",
+    "3900",
+    "4000",
+    "4100",
+    "4200",
+    "4300",
+    "4400",
+    "4500",
+    "4600",
+    "4700",
+    "4800"
+  ],
+  "D": "1",
+  "F": "211093/50",
+  "position_scale": "exact original weights; one point multiplier",
+  "source_contract_sha256": "3cec7ba8095dc8e70a42d71ae7e43371a77770361ad4926e57668fe705f3753d"
+}

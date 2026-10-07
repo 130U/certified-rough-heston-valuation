@@ -1,0 +1,30 @@
+{
+  "contract_id": "quarter-alpha052-supplement-full-reference128-v1",
+  "frozen_utc": "2026-10-07 07:30:29 UTC",
+  "design_type": "Prespecified optional phase of transfer-contract.json; detailed implementation fixed after all-three used64 quarter results are known and before reading any full-reference quarter price or budget.",
+  "alpha_exact": "13/25",
+  "T_exact": "1/4",
+  "upstream_horizon": "1/2",
+  "field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "used_reference_cutoff": "128",
+  "finite_true_grid_cutoff": "128",
+  "frequency_step": "1/8",
+  "nodes": 1025,
+  "task": "Original normalized4400-4500 spread, D=1, F=211093/50. Pricing transfer, not calibration.",
+  "actual_fast_output": "Preserve the exact new-quarter alpha13/25 binary64 outputs in transfer-fast-output.json; adding a reference changes no actual fast value.",
+  "residual_sources": [
+    "original frozen residual-node-certificate-point052-v3-u64.json on0..64",
+    "omission-residual-high.json on64.125..128 with complete physical-time history on0..1/2"
+  ],
+  "reference": "Identical full-history physical field restricted to0..1/4. Exact terminal interpolation of LG, original analytic power terms and newly computed weights. Recompute all1025 reference exponent/CF components and reference-minus-same-fast centre.",
+  "propagation": "Global complete physical residual at every used node; eta=min(deltaF*J0(1/4), old all-time state bound propagated using new-quarter curve mass). Independent true-CF-plus-reference cap; never use the old omitted-zero radius at the new centre.",
+  "full_remainders": "New-quarter true strip and beyond128 infinite-tail are recalculated; reference arithmetic is recomputed for all1025 terms. Same-centre joint and signed marginal budgets are compared.",
+  "budgets_index_points": [
+    "1/4",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "failure_policy": "Retain every decision. Missing continuous/halfplane/identity/complete-tail evidence prevents certificate. Not-certified does not imply actual error exceeds budget.",
+  "cost_scope": "Supplement reference/tail/aggregation and independent full replay measured separately; reused field and all half-year continuous residual generation remain identified upstream costs. No total CPU-optimality claim."
+}

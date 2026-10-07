@@ -1,0 +1,15 @@
+{
+  "mode": "preflight",
+  "return_code": 0,
+  "command": [
+    "<private-path-withheld>",
+    "-X",
+    "utf8",
+    "-B",
+    "heston-frontier-20261007/omission-run.py",
+    "--worker",
+    "preflight"
+  ],
+  "stdout_file": "omission-preflight-output.txt",
+  "source_sha256": "d661d4de6a95a2471015f43e967423b4718bf530f174ec2f0585288f9fa86ee2"
+}

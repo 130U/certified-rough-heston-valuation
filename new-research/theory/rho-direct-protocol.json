@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_BEFORE_EXPLORATORY_DIRECT_INTERVAL_SUPPLEMENT",
+  "design_class": "Exploratory response to the disclosed partial first perturbation attempt",
+  "rho": ["-744501/1000000", "-744499/1000000"],
+  "alpha": ["13/25", "3/5"],
+  "kappa": "0",
+  "eta": ["0", "1"],
+  "method": "Keep all already certified three-dimensional leaves from the uniform perturbation attempt; directly enclose the original raw polynomials over the full rho interval on each unresolved continuous alpha-eta leaf.",
+  "maximum_direct_evaluations": 100000,
+  "maximum_additional_depth": 18,
+  "failure_rule": "Any unresolved leaf prevents a full-domain claim; the earlier narrow fallback stays valid independently.",
+  "success_rule": "Every original leaf must be covered exactly once by a finite closed subtree; all retained or direct B and negative-D lower bounds must be strictly positive over the full continuous rho interval.",
+  "scope": "Padé structural certification, not a new price experiment at a changed correlation."
+}

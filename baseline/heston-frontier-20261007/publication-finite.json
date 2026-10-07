@@ -1,0 +1,39 @@
+{
+  "phase": "finite",
+  "parent": "54c0167e3c6c1e710254aba84f1bae7196832f4f",
+  "tree_sha": "106f6e1becc03c268c9c27079bd2440fd5f26aa9",
+  "commit_sha": "62733a753dcfc863a4b066bb86d9aafda8c3c3c3",
+  "files": [
+    {
+      "path": "finite-history-20261007/manuscript/merged-heston-en.md",
+      "bytes": 138499,
+      "sha256": "10bde9fc31d31c2f7b47aa62b71c7bad2fc711022faca2d8b6a1d43d04851c16",
+      "blob_sha": "effe1d0349475863ccf9e8562d3e42dd8ef18038"
+    },
+    {
+      "path": "finite-history-20261007/manuscript/merged-heston-zh.md",
+      "bytes": 117787,
+      "sha256": "34763f52d703b512d7812212731be5ea165e95c0758dab42e1f749f4b14c63c5",
+      "blob_sha": "186e0f66e9c0661bbd42f817b88cd7f5a9103e51"
+    },
+    {
+      "path": "finite-history-20261007/manuscript/author.json",
+      "bytes": 680,
+      "sha256": "118ff0c9616ee3673b38294df75636acd03bf177d35a0846fddcbb243c573ff8",
+      "blob_sha": "22ee029d41d331c592da1ca8921865303e3ad33c"
+    },
+    {
+      "path": "finite-history-20261007/portfolio-contract.json",
+      "bytes": 13804,
+      "sha256": "ad341807ede1044b7a410c89cd82d682f0e90fe013c938f401387d6e5b7cb74d",
+      "blob_sha": "97a8996ffc63d49f4886685e0f267ac158fed436"
+    },
+    {
+      "path": "finite-history-20261007/bundle-receipt.json",
+      "bytes": 331,
+      "sha256": "babec70fb0e73f7300cb04935ade381a4881b259679a27232a66db935b345fc3",
+      "blob_sha": "c86b7c586d1f90b07fa982d26542f05f59d9670f"
+    }
+  ],
+  "ref_updated": false
+}

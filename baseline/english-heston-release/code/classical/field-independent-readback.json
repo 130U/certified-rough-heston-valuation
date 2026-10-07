@@ -1,0 +1,38 @@
+{
+  "status": "INDEPENDENT_NECESSARY_SCREEN_VERIFIED",
+  "precision_bits": 384,
+  "checked_mode_cells": 3080,
+  "checked_time_pieces": 64,
+  "modes": 385,
+  "theta0_lower_outward18": [
+    "0.003407444052031154",
+    "0.003407444052031155"
+  ],
+  "phase_lower_outward18": [
+    "0.000925023726825761",
+    "0.000925023726825762"
+  ],
+  "same_weight_positive_payment_lower_outward18": [
+    "0.006812048567352283",
+    "0.006812048567352284"
+  ],
+  "selected_PDE_allocation_rejected": true,
+  "complete_balance_rejected_by_this_lower_bound": false,
+  "sufficient_conversion_upper": null,
+  "actual_bias_lower_bound": null,
+  "source_sha256": "38295c42a1ca09f7cfc6b14925cd620483995432671ba5d4cee1ce09c5bc1569",
+  "candidate_sha256": "665a91049e2c4dd9463cba2fa6d5cc876b5707e0923a72047dc8a1852890c5a8",
+  "inputs": {
+    "A-terminal-generator-candidate.npz": "665a91049e2c4dd9463cba2fa6d5cc876b5707e0923a72047dc8a1852890c5a8",
+    "A-terminal-generator-cell-integrals.json": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4",
+    "A-terminal-generator-result.json": "6fb7e40d4f46b43550c906b09098da79e6c5ff0111fc76a32f031f6a7c7deb48",
+    "real-asian-price-coefficients-result-by-B-20261004.json": "f8db08e1d90e9b0d5cc0c29d9ff68ad2be3b8696203dda2e690e189ac04759ba",
+    "Root-integrated-PDE-result.json": "47bfcd259b16a35971f8bfc22dafa2e03ce6a5662172a0c811631136f477c676"
+  },
+  "Q_kernel_calls": 0,
+  "price_calls": 0,
+  "fit_calls": 0,
+  "expm_calls": 0,
+  "hard_job_bytes": 536870912,
+  "scope": "All stored 3080 complex intervals contain independent direct cubic integration; same candidate only."
+}

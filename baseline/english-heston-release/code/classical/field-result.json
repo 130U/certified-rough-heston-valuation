@@ -1,0 +1,100 @@
+{
+  "scope": "terminal_generator_completion_first_month_integral_necessary_screen",
+  "status": "FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY",
+  "Q_kernel_calls": 0,
+  "price_calls": 0,
+  "candidate_attempts": 1,
+  "old_arithmetic_coefficients_used": false,
+  "mechanism": "terminal-generator completion only; original 35 points and projection rule",
+  "forcing_identity": "g0=-q*r; g12=q*(q+1)/2 exact rational for field slopes; float saved g only generates nodes",
+  "source_sha256": "66f105b8f6ca934ed700623416afce102dcd10b373ccd04efc5ce0ecd2607d31",
+  "authorization_sha256": "c34eb466cd88f792f14acf4b0992077162c1f2fc945059ffb2abee9b44dd5eed",
+  "prefreeze_sha256": "3bf01f6b874f9dc8b7dbd8ad6661a769a7764b406ff462fe87848ff7aac84d16",
+  "contract_sha256": "d98da9848945b2e327634513c1c8f9c387e8363682b83dac3b981d4f585c3868",
+  "inputs": {
+    "real-asian-price-coefficients-result-by-B-20261004.json": "f8db08e1d90e9b0d5cc0c29d9ff68ad2be3b8696203dda2e690e189ac04759ba",
+    "A-fixed-pde-candidate.npz": "b140931199b85426911ddd6fa2c710bc9d57654f30fd996c14d6692198e4203b",
+    "A-fixed-pde-screen-result.json": "3fb48e79f494d8ff2f5906dc846a0fba29d2c64ca163aef828d29b37d02d11c7",
+    "Root-integrated-PDE-result.json": "47bfcd259b16a35971f8bfc22dafa2e03ce6a5662172a0c811631136f477c676"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.16.2",
+    "flint": "0.8.0"
+  },
+  "stage": "finished FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY",
+  "timeline": [
+    {
+      "stage": "assemble fixed 35-point spatial projection"
+    },
+    {
+      "stage": "all 385 fixed 14x14 exponential propagations"
+    },
+    {
+      "stage": "complete new arithmetic candidate frozen"
+    },
+    {
+      "stage": "Arb exact 64-piece arithmetic integrals and 8 fixed cells"
+    },
+    {
+      "stage": "finished FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY"
+    }
+  ],
+  "candidate_sha256": "665a91049e2c4dd9463cba2fa6d5cc876b5707e0923a72047dc8a1852890c5a8",
+  "candidate_bytes": 62703140,
+  "candidate_counts": {
+    "nodes_complex": 3848845,
+    "Kg_complex": 70070
+  },
+  "mass_matrix_sha256": "2fbc1c6e2e50c6a3c0dbd0d87c3b3ec83dd43ae969ad6033dbe761675f93d3f8",
+  "spatial_degrees": {
+    "old_R_y": 2,
+    "old_R_z": 3,
+    "completion": "v*(1-y)^2",
+    "dimension": 13
+  },
+  "time_degree_per_original_h": 3,
+  "exact_carry": "right fixing endpoint defined by exact rational T_n, never by float matching",
+  "exact_slopes": "minus frozen K times exact endpoint minus exact rational g(q); saved float g is generation-only",
+  "terminal": "nodes at T are exactly zero; P=1",
+  "geometry_reference": {
+    "candidate_sha256": "b140931199b85426911ddd6fa2c710bc9d57654f30fd996c14d6692198e4203b",
+    "integral_result_sha256": "47bfcd259b16a35971f8bfc22dafa2e03ce6a5662172a0c811631136f477c676",
+    "uniform_common_phase_integral_upper": "29371517942544732848213262824246260903451427115428886408733319160805301902735/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+    "old_UH_used": false
+  },
+  "cell_integrals_sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4",
+  "arithmetic_theta0_lower": "1616097773374132986520980047542311387882141181297273732873899922429422252841175/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+  "arithmetic_parseval_lower": "877449090105006105203125024240463687028511738390507476655177250938477705645787/948568795032094272909893509191171341133987714380927500611236528192824358010355712",
+  "geometric_upper": "29371517942544732848213262824246260903451427115428886408733319160805301902735/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "theta0_whole_lower": "211825137980176416264545048578203013986227105463569147286361401899350072719096586865/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "parseval_whole_lower": "57504474197603737565859153375360203946839641835733182561187287584184914111900394097/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "whole_lower": "211825137980176416264545048578203013986227105463569147286361401899350072719096586865/62165404551223330269422781018352605012557018849668464680057997111644937126566671941632",
+  "theta0_whole_lower_outward18": [
+    "0.003407444052031154",
+    "0.003407444052031155"
+  ],
+  "parseval_whole_lower_outward18": [
+    "0.000925023726825761",
+    "0.000925023726825762"
+  ],
+  "whole_lower_outward18": [
+    "0.003407444052031154",
+    "0.003407444052031155"
+  ],
+  "uniform_integrated_target": "1/1000",
+  "uniform_integrated_contract_failed": true,
+  "same_weight_positive_payment_lower": "101633701202888644523728714307821806110591765201420476867996200631308164890622542377827/14919697092293599264661467444404625203013684523920431523213919306794784910376001265991680",
+  "same_weight_positive_payment_lower_outward18": [
+    "0.006812048567352283",
+    "0.006812048567352284"
+  ],
+  "original_conversion_balance": "21581924359/1000000000000",
+  "same_weight_positive_payment_exceeds_balance": false,
+  "precision_bits": 256,
+  "arithmetic_time_cells": 8,
+  "arithmetic_original_h_pieces": 64,
+  "mode_count": 385,
+  "interpretation": "A lower bound for deterministic all-state positive PDE envelopes of this frozen field. No signed occupation or actual-bias lower bound."
+}

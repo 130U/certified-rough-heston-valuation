@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SEPARATE_SAME_GUARANTEE_AND_28_TASK_READBACK",
+  "N": 1024,
+  "methods_checked": 5,
+  "same_index_point_tolerance": "1/4",
+  "portfolio_aggregations_reconstructed": 28,
+  "new_continuous_residual_entries_for_portfolios": 0,
+  "controls_sha256": "3dd42a54acaacb14692225136f5959016a60443f5214ef6aa8d236c02e8a6de5",
+  "reader_sha256": "ed8f58595da8aed1b8227aff5cf7aa6220d5d9956e21e74b615583c57f6519eb",
+  "rounding_paid": "actual binary64 reference, stored correction and final addition checked by nearby_independent; ideal rational translation is separately identified"
+}

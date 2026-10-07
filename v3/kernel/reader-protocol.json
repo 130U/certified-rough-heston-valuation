@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_BEFORE_NEW_RESOLVENT_RESULTS",
+  "independent_outer_terms": 14,
+  "independent_inner_terms": 64,
+  "independent_formula": "Direct double Gamma-series for W_lambda; do not call producer cumulative or V2 power_field_moment",
+  "certificate_rule": "Rebuild a strict, tighter independent cumulative enclosure and all residual-functional upper bounds; recorded upper radii must dominate the independent calculation.",
+  "source_control": "Read every closed bank entry, reconstruct exact dyadic overlaps and every 513-vector local maximum, and bind all input hashes.",
+  "sharing": "V2 dyadic Gamma/log/exp and coefficient arithmetic are shared primitives. New resolvent algebra, interval assembly and certificate logic are separate.",
+  "controls": [
+    "negative_sigma",
+    "wrong_nu_scale",
+    "missing_initial_closed_cell",
+    "omitted_finite_node_removed",
+    "erased_true_infinite_tail",
+    "altered_signed_centre",
+    "understated_resolvent_eta",
+    "sigma_zero_not_curve"
+  ]
+}

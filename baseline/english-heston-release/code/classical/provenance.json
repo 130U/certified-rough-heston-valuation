@@ -1,0 +1,57 @@
+{
+  "scope": "Portable selected certificate data; original records remain unchanged.",
+  "files": {
+    "terminal767-input.json": {
+      "source_id": "terminal-input",
+      "original_sha256": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18",
+      "portable_sha256": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18",
+      "transformation": "Byte-identical copy."
+    },
+    "terminal767-result.json": {
+      "source_id": "terminal-result",
+      "original_sha256": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f",
+      "portable_sha256": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f",
+      "transformation": "Byte-identical copy."
+    },
+    "terminal767-historical-review.json": {
+      "source_id": "terminal-historical-review",
+      "original_sha256": "f3baa5a88d42561741d25ea8a293826fc965091cf97c399e6126b26625180e54",
+      "portable_sha256": "f3baa5a88d42561741d25ea8a293826fc965091cf97c399e6126b26625180e54",
+      "transformation": "Byte-identical copy."
+    },
+    "field-result.json": {
+      "source_id": "field-result",
+      "original_sha256": "6fb7e40d4f46b43550c906b09098da79e6c5ff0111fc76a32f031f6a7c7deb48",
+      "portable_sha256": "83ea632a837ea2caa1a2ac1f49ce72960726180d53a6dfbb08f988ce1c9b2003",
+      "transformation": "Private absolute input keys replaced by basenames; scientific values and status retained."
+    },
+    "field-independent-readback.json": {
+      "source_id": "field-independent-readback",
+      "original_sha256": "0e2cf55cc9f0a586d4d1f5d1a88b04959bd08a863162be11a9764ffec872ab42",
+      "portable_sha256": "bebbfb5026c0da1d8c1cc498e348b946d53e99d2a6be1ad5d650e40bf395f7da",
+      "transformation": "Private absolute input keys replaced by basenames; scientific values and status retained."
+    },
+    "field-cell-integrals.json": {
+      "source_id": "field-mode-cell-integrals",
+      "original_sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4",
+      "portable_sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4",
+      "transformation": "Byte-identical copy."
+    }
+  },
+  "not_shipped": {
+    "field-candidate": {
+      "sha256": "665a91049e2c4dd9463cba2fa6d5cc876b5707e0923a72047dc8a1852890c5a8",
+      "bytes": 62703140,
+      "reason": "The coefficient bank and its historical dependencies are not needed for exact receipt aggregation. The independent readback is an archived record, not a new regeneration."
+    }
+  },
+  "source_identities": {
+    "terminal-generator": "3735cc86a7c2535c480b531040583a0c90474c972da0d2c012dbd99813031a0f",
+    "terminal-prefreeze": "4fb9c383d752bbd89bbf58bdb9b6b5225a4c1d07baab308202fd4d554c0b3635",
+    "terminal-proposition": "7bac20f84573ff9c7876f2157ab6d16ed97a8708e72bd1b5c8fc2b1219436af5",
+    "classical-core-paper": "6bcd87534f14c874416f9b93058ab2ce2c84537912f2333894bfaf95e924e01c",
+    "field-generator-contract": "d98da9848945b2e327634513c1c8f9c387e8363682b83dac3b981d4f585c3868",
+    "field-generator": "66f105b8f6ca934ed700623416afce102dcd10b373ccd04efc5ce0ecd2607d31",
+    "field-independent-checker": "38295c42a1ca09f7cfc6b14925cd620483995432671ba5d4cee1ce09c5bc1569"
+  }
+}

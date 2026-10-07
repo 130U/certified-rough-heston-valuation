@@ -1,0 +1,25 @@
+{
+  "status": "PASS_DEPENDENCY_ORDER_REPLAY_ALL_RETURN_CODES_ZERO",
+  "execution_order": "independent propagation checker, supplementary portfolio scenario, exact scenario read-back",
+  "baseline_overwritten": false,
+  "records": [
+    {
+      "script": "verify-finite-history-independent.py",
+      "command": "<private-path-withheld>",
+      "exit_code": 0,
+      "stdout": "{\r\n  \"status\": \"PASS_INDEPENDENT_FINITE_HISTORY_ARITHMETIC_AND_POLICY_AUDIT\",\r\n  \"wall_seconds\": 2.303637299919501,\r\n  \"minimum_joint_upgrades\": 82,\r\n  \"minimum_same_center_marginal_upgrades\": 249\r\n}\r\n"
+    },
+    {
+      "script": "portfolio-experiments.py",
+      "command": "<private-path-withheld>",
+      "exit_code": 0,
+      "stdout": "{\"alpha\": \"13/25\", \"portfolios\": 28, \"completed_records\": 28}\r\n{\"alpha\": \"3/5\", \"portfolios\": 28, \"completed_records\": 56}\r\n{\"alpha\": \"9/10\", \"portfolios\": 28, \"completed_records\": 84}\r\n{\r\n  \"status\": \"PASS_SYSTEMATIC_ARITHMETIC_CONDITIONAL_ON_FINITE_HISTORY_THEOREM\",\r\n  \"records\": 84,\r\n  \"wall_seconds\": 13.699077599914744,\r\n  \"coefficient_preparation_seconds\": 7.988487599999644\r\n}\r\n"
+    },
+    {
+      "script": "portfolio-report.py",
+      "command": "<private-path-withheld>",
+      "exit_code": 0,
+      "stdout": "{\r\n  \"status\": \"PASS_EXACT_PORTFOLIO_SCENARIO_READBACK\",\r\n  \"matched_records\": 84,\r\n  \"scenarios\": [\r\n    {\r\n      \"scenario\": \"baseline\",\r\n      \"wall_seconds\": 16.418054300011136,\r\n      \"intersection_gains\": 0\r\n    },\r\n    {\r\n      \"scenario\": \"finite_history\",\r\n      \"wall_seconds\": 13.699077599914744,\r\n      \"intersection_gains\": 0\r\n    }\r\n  ]\r\n}\r\n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS_TYPED_TABLE_HEADER_PRIVACY",
+  "objects": [
+    {
+      "path": "v3/audit-experiments/portfolio-budget-counts.csv",
+      "sha256": "8857255755cda4e5914ef31f0f2fb1f3c520f9ba66b0e5cb42778798989c20a7",
+      "private_header_categories": []
+    },
+    {
+      "path": "v3/audit-experiments/portfolio-exact-thresholds.csv",
+      "sha256": "0b5ca7910a1c52a0f4985b8dac06d80acdcdee860b4fafb1c7b3f2c25ceadbcc",
+      "private_header_categories": []
+    }
+  ]
+}

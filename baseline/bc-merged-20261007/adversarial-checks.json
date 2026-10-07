@@ -1,0 +1,154 @@
+{
+  "status": "PASS_ALL_SEMANTIC_NEGATIVE_CONTROLS",
+  "tests": [
+    {
+      "name": "valid_structure_records",
+      "deliberate_corruption": false,
+      "semantic_rejection": false,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "name": "delete_necessary_leaf",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "required leaf missing"
+    },
+    {
+      "name": "flip_strict_leaf_sign",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "nonpositive sign margin"
+    },
+    {
+      "name": "inflate_positive_margin",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "strictly positive but inflated margin differs from generated interval evidence"
+    },
+    {
+      "name": "valid_terminal_primal_dual",
+      "deliberate_corruption": false,
+      "semantic_rejection": false,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "name": "flip_probability_constraint_direction",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "primal constraint direction"
+    },
+    {
+      "name": "wrong_dual_multiplier_sign",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "dual multiplier sign"
+    },
+    {
+      "name": "valid_shared_frequency_cover",
+      "deliberate_corruption": false,
+      "semantic_rejection": false,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "name": "delete_shared_finite_node",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "missing finite frequency node"
+    },
+    {
+      "name": "negative_CF_disk_radius",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "negative disk radius"
+    },
+    {
+      "name": "delete_true_infinite_tail_budget",
+      "deliberate_corruption": true,
+      "semantic_rejection": true,
+      "status": "PASS",
+      "reason": "incomplete budget"
+    }
+  ],
+  "additional_structure_sign_regeneration": {
+    "leaves": 64,
+    "indices": [
+      0,
+      3353,
+      6706,
+      10059,
+      13412,
+      16765,
+      20118,
+      23471,
+      26824,
+      30177,
+      33530,
+      36883,
+      40236,
+      43589,
+      46942,
+      50295,
+      53648,
+      57001,
+      60354,
+      63707,
+      67060,
+      70413,
+      73766,
+      77119,
+      80472,
+      83825,
+      87178,
+      90531,
+      93884,
+      97237,
+      100590,
+      103943,
+      107296,
+      110649,
+      114002,
+      117355,
+      120708,
+      124061,
+      127414,
+      130767,
+      134120,
+      137473,
+      140826,
+      144179,
+      147532,
+      150885,
+      154238,
+      157591,
+      160944,
+      164297,
+      167650,
+      171003,
+      174356,
+      177709,
+      181062,
+      184415,
+      187768,
+      191121,
+      194474,
+      197827,
+      201180,
+      204533,
+      207886,
+      211240
+    ],
+    "scope": "A sample-based cost estimate, not a verified runtime guarantee or full sign verification."
+  },
+  "hashes_bypassed_for_negative_controls": true,
+  "generator_scope": "Reused executed raw polynomial interval generator for 64 evenly spaced leaves; portable downstream semantic checks contain no hash assertions."
+}

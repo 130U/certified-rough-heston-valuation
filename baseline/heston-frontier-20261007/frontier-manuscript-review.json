@@ -1,0 +1,121 @@
+{
+  "status": "PASS_FINAL_BOUNDED_MATHEMATICAL_AND_CLAIM_READBACK",
+  "reviewed_utc": "2026-10-07T07:43:56.195503+00:00",
+  "reviewer": "math_audit independent agent",
+  "source_reviews": {
+    "en": {
+      "path": "manuscript/merged-heston-en.md",
+      "sha256": "20a9f073aefb87ba4ea7271fd23df158dd1b70a0a8464ece54779811893a8464",
+      "baseline_sha256": "10bde9fc31d31c2f7b47aa62b71c7bad2fc711022faca2d8b6a1d43d04851c16",
+      "formula_tags": 140,
+      "duplicate_tags": [],
+      "unresolved_parenthesized_formula_references": [],
+      "baseline_math_displays_missing": [],
+      "FQ1_to_FQ8_present": true,
+      "new_citation_keys_present": true,
+      "display_math_count": 194,
+      "previous_complete_scientific_source_sha256": "e98b312bb40ac348626b53d034bda4e9352a31b5c07988040946ba0e28f75a99"
+    },
+    "zh": {
+      "path": "manuscript/merged-heston-zh.md",
+      "sha256": "5aee47829481bd75474686e6350404227d2449ab7c7c28c46b2e79d3857e244c",
+      "baseline_sha256": "34763f52d703b512d7812212731be5ea165e95c0758dab42e1f749f4b14c63c5",
+      "formula_tags": 140,
+      "duplicate_tags": [],
+      "unresolved_parenthesized_formula_references": [],
+      "baseline_math_displays_missing": [],
+      "FQ1_to_FQ8_present": true,
+      "new_citation_keys_present": true,
+      "display_math_count": 194,
+      "previous_complete_scientific_source_sha256": "a35fcfad47f0bc6ac0a8ee710d471e96aa0d7532fb83d7294f1c11cbd7b7d2b6"
+    }
+  },
+  "blocking_findings": [],
+  "checks": [
+    {
+      "id": "MR1",
+      "status": "PASS",
+      "claim": "Theorem 9.2 uses q_alpha >= 0 a.e., with AC states and curve, zero state initial conditions, physical residual R, normalized residual R/nu, and lambda = nu sigma. The theorem remains conditional and does not extend the model or verified Riccati parameter domain."
+    },
+    {
+      "id": "MR2",
+      "status": "PASS",
+      "claim": "Section 9.6 retains the initial-value term, signed Fubini, positive full-history kernel, and nonnegative weights; declining-affine and constant-curve Mittag-Leffler corollaries have the stated formulas and analytical-only scope."
+    },
+    {
+      "id": "MR3",
+      "status": "PASS",
+      "claim": "Proposition 9.6 translates the reference while preserving the actual fast output; old omitted-zero disks are translated by adding the new-reference modulus before any valid minimum. All reference arithmetic, strip and true infinite tail remain in the complete remainder."
+    },
+    {
+      "id": "MR4",
+      "status": "PASS",
+      "claim": "Section 11.5 uses actual transform error on the displayed bound left-hand side. High-global and high-time-local scenarios both retain previously verified low-frequency time-local radii. The 0.115215934-point quarter-budget result belongs to the original alpha=13/25, T=1/2 task."
+    },
+    {
+      "id": "MR5",
+      "status": "PASS",
+      "claim": "Section 11.6 preserves all initial reference-through-64/global candidate failures and the alpha=13/25 full128/global failure 0.351318692. One later separately fixed exploration yields 0.233318843 joint versus 0.252393939 matched signed marginal at T=1/4, changing only the propagation while preserving that stage reference centre and complete remainder."
+    },
+    {
+      "id": "MR6",
+      "status": "PASS",
+      "claim": "Second-maturity weights, exponents, actual fast outputs, strip and genuine tail are recalculated or justified by restriction of the same zero-start fractional history; no cell restarts or borrowed half-year numerical tail are asserted."
+    },
+    {
+      "id": "MR7",
+      "status": "PASS",
+      "claim": "All 140 formula tags in each language are unique, all parenthesized formula references resolve, all baseline mathematical displays are retained, numbered theorem/proposition/corollary names and Appendix A-D references are consistent, and newly used bibliography keys exist."
+    },
+    {
+      "id": "MR8",
+      "status": "PASS",
+      "claim": "Stage costs distinguish new high-frequency cold residual generation, quarter reference/tail replay, cheap bin propagation, saved-record checks, shared primitives and reused upstream work. No actual bias observation, general calibration accuracy, universal originality, or minimum-runtime theorem is inferred."
+    }
+  ],
+  "independent_numerical_evidence": {
+    "omission_checker_status": "PASS_INDEPENDENT_OMISSION_FULL_HISTORY_RECENTER_AND_BUDGET_AUDIT",
+    "omission_checker_receipt_sha256": "f48d62f30c419dc262bc26fb33e0d756d2fd57f6fa6135293734d54b198f666f",
+    "independence_limit": "Original outward scalar primitives and continuous-residual generator mathematics are shared; this review does not claim independently implemented transcendental arithmetic or regenerate upstream residual trajectories."
+  },
+  "acceptance_boundary": "This source-specific mathematical/claim readback does not replace final current-source identity checks, full package execution, cold acceptance, PDF rendering, external download or referee acceptance. The recorded 18-command cold run predates the added quarter full-reference/time-local stages; the parent must update acceptance or identify that earlier stage explicitly.",
+  "packaging_URL_revision": {
+    "verified_utc": "2026-10-07T08:08:55.605900+00:00",
+    "status": "PASS_SOURCE_REIDENTIFICATION_WITH_UNCHANGED_SCIENTIFIC_CONTENT",
+    "languages": {
+      "en": {
+        "status": "PASS_EXACT_THREE_CHARACTER_URL_ONLY_CHANGE",
+        "previous_source_sha256": "e98b312bb40ac348626b53d034bda4e9352a31b5c07988040946ba0e28f75a99",
+        "new_source_sha256": "20a9f073aefb87ba4ea7271fd23df158dd1b70a0a8464ece54779811893a8464",
+        "reconstructed_previous_source_sha256": "e98b312bb40ac348626b53d034bda4e9352a31b5c07988040946ba0e28f75a99",
+        "old_asset_name": "Theodore-Ouyang-Heston-Frontier-Evidence-20261007.zip",
+        "new_asset_name": "Theodore-Ouyang-Heston-Frontier-Evidence-20261007-v2.zip",
+        "sole_inserted_ASCII_string": "-v2",
+        "URL_replacements": 1,
+        "inserted_characters": 3,
+        "inserted_UTF8_bytes": 3,
+        "formula_tag_sequence_identical": true,
+        "unique_formula_tags": 140,
+        "all_194_math_display_blocks_byte_identical": true,
+        "all_other_source_bytes_identical_after_reversing_URL_change": true
+      },
+      "zh": {
+        "status": "PASS_EXACT_THREE_CHARACTER_URL_ONLY_CHANGE",
+        "previous_source_sha256": "a35fcfad47f0bc6ac0a8ee710d471e96aa0d7532fb83d7294f1c11cbd7b7d2b6",
+        "new_source_sha256": "5aee47829481bd75474686e6350404227d2449ab7c7c28c46b2e79d3857e244c",
+        "reconstructed_previous_source_sha256": "a35fcfad47f0bc6ac0a8ee710d471e96aa0d7532fb83d7294f1c11cbd7b7d2b6",
+        "old_asset_name": "Theodore-Ouyang-Heston-Frontier-Evidence-20261007.zip",
+        "new_asset_name": "Theodore-Ouyang-Heston-Frontier-Evidence-20261007-v2.zip",
+        "sole_inserted_ASCII_string": "-v2",
+        "URL_replacements": 1,
+        "inserted_characters": 3,
+        "inserted_UTF8_bytes": 3,
+        "formula_tag_sequence_identical": true,
+        "unique_formula_tags": 140,
+        "all_194_math_display_blocks_byte_identical": true,
+        "all_other_source_bytes_identical_after_reversing_URL_change": true
+      }
+    },
+    "scope": "Only the public extension ZIP asset URL gains -v2. Scientific statements, assumptions, formulas, numbers, references and all other source bytes are unchanged. PDF visual receipts await independently checked regenerated PDF identities."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "PASS_EXPANDED_REFERENCE_SAME_ACTUAL_FAST_OUTPUT_FULL_BUDGET",
+  "alpha": "13/25",
+  "T": "1/2",
+  "reference_rows": [
+    {
+      "row_id": 8,
+      "K": "4400",
+      "m": "220000/211093",
+      "old_reference_interval": [
+        "28265243022590510271326177645/1267650600228229401496703205376",
+        "14132621511295255285988457161/633825300114114700748351602688"
+      ],
+      "new_reference_interval": [
+        "883558058537607192117933927/39614081257132168796771975168",
+        "28273857873203430481407152571/1267650600228229401496703205376"
+      ],
+      "new_reference_midpoint": "56547715746406860629181038235/2535301200456458802993406410752",
+      "new_reference_rounding_radius": "333633266907/2535301200456458802993406410752",
+      "unchanged_actual_fast": "101083247248963/4503599627370496",
+      "signed_new_reference_minus_fast": "-357093584071824584513061221/2535301200456458802993406410752",
+      "unchanged_grid_strip_budget_upper": "494858727271478588089/158456325028528675187087900672",
+      "unchanged_true_infinite_tail_beyond128_upper": "209116277117273901004319/1267650600228229401496703205376"
+    },
+    {
+      "row_id": 9,
+      "K": "4500",
+      "m": "225000/211093",
+      "old_reference_interval": [
+        "4318741110458299409442136371/316912650057057350374175801344",
+        "17274964441833197959040578643/1267650600228229401496703205376"
+      ],
+      "new_reference_interval": [
+        "8629019036659389717656615795/633825300114114700748351602688",
+        "17258038073318779796195146627/1267650600228229401496703205376"
+      ],
+      "new_reference_midpoint": "34516076146637559231508378217/2535301200456458802993406410752",
+      "new_reference_rounding_radius": "360881915037/2535301200456458802993406410752",
+      "unchanged_actual_fast": "123720086703015/9007199254740992",
+      "signed_new_reference_minus_fast": "-308032376733928957149449623/2535301200456458802993406410752",
+      "unchanged_grid_strip_budget_upper": "1011074308179368220613/316912650057057350374175801344",
+      "unchanged_true_infinite_tail_beyond128_upper": "52869811976734230882457/316912650057057350374175801344"
+    }
+  ],
+  "old_signed_centre": "-3129488924767868079446993/79228162514264337593543950336",
+  "new_signed_centre": "-24530603668947813681805799/1267650600228229401496703205376",
+  "signed_reference_centre_correction": "25541219127338075589346089/1267650600228229401496703205376",
+  "centre_correction_index_points_exact": "5391572569247176390381833965277/63382530011411470074835160268800",
+  "old_reference_irreducible_floor_given_zero_low_errors_index_points_outward": "0.352626734",
+  "prior_time_local_complete_error_interval": [
+    "-4368350892429126071738429084321922066447244106691155159/50216813883093446110686315385661331328818843555712276103168",
+    "401252378539541855816268963736022651014816658106520791/50216813883093446110686315385661331328818843555712276103168"
+  ],
+  "prior_time_local_absolute_bound_index_points_outward": "0.367258782",
+  "new_full_remainder_grid_true_infinite_tail_and_reference_rounding": "428598692075447383712283/1267650600228229401496703205376",
+  "high_nodes_fresh_certified": 512,
+  "closed_time_cells_each": 8189,
+  "same_actual_fast_output": true,
+  "same_reference_centre": false,
+  "scenarios": [
+    {
+      "scenario": "global-complete-history",
+      "new_signed_centre": "-24530603668947813681805799/1267650600228229401496703205376",
+      "joint_radius_upper": "2404913829886133677383925600497103605313977622584637031/200867255532373784442745261542645325315275374222849104412672",
+      "joint_actual_fast_error_interval": [
+        "-6291943137998946474402190784854876994953548559490233959/200867255532373784442745261542645325315275374222849104412672",
+        "-1482115478226679119634339583860669784325593314320959897/200867255532373784442745261542645325315275374222849104412672"
+      ],
+      "joint_absolute_bound_index_points_exact": "1328185152829611608120981659347370549495729426068471957107187/10043362776618689222137263077132266265763768711142455220633600",
+      "joint_absolute_bound_index_points_outward": "0.132245064",
+      "same_new_disk_signed_marginal_error_interval": [
+        "-60361346524930725676546907223777445110500254277992226873/1606938044258990275541962092341162602522202993782792835301376",
+        "-1831122404874279075745335725946929123732880712497323975/1606938044258990275541962092341162602522202993782792835301376"
+      ],
+      "same_new_disk_signed_marginal_absolute_bound_index_points_outward": "0.158585551",
+      "legal_old_new_complete_interval_intersection": [
+        "-6291943137998946474402190784854876994953548559490233959/200867255532373784442745261542645325315275374222849104412672",
+        "-1482115478226679119634339583860669784325593314320959897/200867255532373784442745261542645325315275374222849104412672"
+      ],
+      "intersection_absolute_bound_index_points_exact": "1328185152829611608120981659347370549495729426068471957107187/10043362776618689222137263077132266265763768711142455220633600",
+      "intersection_absolute_bound_index_points_outward": "0.132245064",
+      "old_new_intersection_strictly_improves_new": false,
+      "all_high_disks_embedded_in_old_zero_disks": false,
+      "propagation_scope": "Low nodes retain prior time-local radii in both scenarios; scenario name describes only newly certified high nodes.",
+      "budget_decisions": {
+        "1": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        },
+        "1/2": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        },
+        "1/4": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        }
+      }
+    },
+    {
+      "scenario": "128-preselected-closed-time-bins",
+      "new_signed_centre": "-24530603668947813681805799/1267650600228229401496703205376",
+      "joint_radius_upper": "6378813876990752789358327999182373771825410366094525605/803469022129495137770981046170581301261101496891396417650688",
+      "joint_actual_fast_error_interval": [
+        "-21926931109442003977431388736613467330383694113716913317/803469022129495137770981046170581301261101496891396417650688",
+        "-9169303355460498398714732738248719786732873381527862107/803469022129495137770981046170581301261101496891396417650688"
+      ],
+      "joint_absolute_bound_index_points_exact": "4628621668685440945607924142577946659172685141546844382825481/40173451106474756888549052308529065063055074844569820882534400",
+      "joint_absolute_bound_index_points_outward": "0.115215934",
+      "same_new_disk_signed_marginal_error_interval": [
+        "-52486429500560846789036814971643192773022888220618514535/1606938044258990275541962092341162602522202993782792835301376",
+        "-9706039429244157963255427978081181461210246769871036313/1606938044258990275541962092341162602522202993782792835301376"
+      ],
+      "same_new_disk_signed_marginal_absolute_bound_index_points_outward": "0.137896018",
+      "legal_old_new_complete_interval_intersection": [
+        "-21926931109442003977431388736613467330383694113716913317/803469022129495137770981046170581301261101496891396417650688",
+        "-9169303355460498398714732738248719786732873381527862107/803469022129495137770981046170581301261101496891396417650688"
+      ],
+      "intersection_absolute_bound_index_points_exact": "4628621668685440945607924142577946659172685141546844382825481/40173451106474756888549052308529065063055074844569820882534400",
+      "intersection_absolute_bound_index_points_outward": "0.115215934",
+      "old_new_intersection_strictly_improves_new": false,
+      "all_high_disks_embedded_in_old_zero_disks": false,
+      "propagation_scope": "Low nodes retain prior time-local radii in both scenarios; scenario name describes only newly certified high nodes.",
+      "budget_decisions": {
+        "1": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        },
+        "1/2": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        },
+        "1/4": {
+          "new_joint_pass": true,
+          "intersection_pass": true
+        }
+      }
+    }
+  ],
+  "contract_sha256": "0fe14a0ca50af8d5d2f5140b1eaa3dd7c7da81afd52433ced563afa949e7b5e3",
+  "dependency_sha256": {
+    "heston-frontier-20261007/omission-contract.json": "0fe14a0ca50af8d5d2f5140b1eaa3dd7c7da81afd52433ced563afa949e7b5e3",
+    "heston-frontier-20261007/omission-propagation-contract.json": "45efa9aa45641e598bea1de62416df8696c6175d66907366233e8ed9504d8b06",
+    "heston-frontier-20261007/omission-residual-high.json": "e278dad2333cbc787909da9051f0e397d6e4a66bdbaba641f14634ddf8c9d520",
+    "heston-frontier-20261007/omission-time-high.npz": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db",
+    "heston-frontier-20261007/omission-full-execution.json": "71c9a046ec8d5c29f67b1a61b64c96d42ad4b2ae89ea5f1e77d982356e32fb9f",
+    "heston-nine-point-20261007/time-local-results.json": "d512b19449fdd6b4109ec59b3ac94cdf907a32137a84e4d38dc91e09a86c70c9",
+    "heston-nine-point-20261007/time-local-node-ledger.json": "3d417473528ef560d90b400c8f460868040314689aa43686947bdc0c26c79a66",
+    "bc-merged-20261007/shared-fourier-nodes-alpha-13_25.json": "15c106b66c5419849d39fe5f4b567ac08b2398fc540402f06994b6385be3866c"
+  },
+  "source_sha256": "d6a2d08aaf3a27da21371e7169828f8e02ec9e8d8819fa40ab06f010cc2a8bf9",
+  "interval_primitives_shared": true,
+  "continuous_derivative_generator_shared": true,
+  "shared_primitive_sha256": {
+    "exponent-field-certificate.py": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
+    "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
+    "interval-pade-certificate.py": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2"
+  },
+  "claim_boundary": "One old fixed field, alpha=.52,T=.5 and one 4400-4500 spread. Proof-conditional numerical certification of unchanged actual fast output; no observed true bias/profitability or minimum-runtime claim."
+}

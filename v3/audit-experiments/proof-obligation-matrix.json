@@ -1,0 +1,239 @@
+{
+  "status": "PASS_SOURCE_CHECKED_SCOPE_MATRIX_NOT_A_NEW_FULL_REPLAY",
+  "obligations": [
+    {
+      "id": "S1",
+      "proof_obligation": "Pad\u00e9 coefficient signs on the original parameter rectangle",
+      "generation_command": "full_structure_verify.py assembles every delivered leaf",
+      "verification_command": "python bc-merged-20261007/full_structure_verify.py",
+      "recomputed_scope": "211241 structural sign leaves and rectangle cover",
+      "inherited_scope": "model/parameter definitions",
+      "shared_dependencies": "original strict interval algebra and generalized-power primitives",
+      "source": "baseline/bc-merged-20261007/full_structure_verify.py",
+      "source_sha256": "345f10123cbf19d3f8954f4d14f695e9f5424dc122b1cadd51f93bb26856b34b",
+      "source_anchors": [
+        "211241"
+      ],
+      "boundary": "Does not certify a price error or continuous residual."
+    },
+    {
+      "id": "S2",
+      "proof_obligation": "Startup Caputo residual and left-halfplane enclosure",
+      "generation_command": "original startup-corrected stored field generation",
+      "verification_command": "python bc-merged-20261007/startup_independent.py",
+      "recomputed_scope": "all513 frequencies for each of the three original startup cells",
+      "inherited_scope": "stored field dyadics and later-time continuous residuals",
+      "shared_dependencies": "Gamma/power/dyadic outward primitives",
+      "source": "baseline/bc-merged-20261007/startup_independent.py",
+      "source_sha256": "33319249212f955e081b545a9d04ab04056c9547d042b317eaf9636a7f1be223",
+      "source_anchors": [
+        "for j in range(513)",
+        "No solver update"
+      ],
+      "boundary": "Independent startup assembly; later source cells are not recomputed by this reader."
+    },
+    {
+      "id": "R1",
+      "proof_obligation": "Full original alpha=.52 low-frequency continuous residual cover",
+      "generation_command": "python heston-nine-point-20261007/retain-time-envelopes.py (a work copy)",
+      "verification_command": "python heston-nine-point-20261007/check-time-envelope.py",
+      "recomputed_scope": "8189 closed cells x513 entries: cover, saved dyadic values and per-node maxima; startup audited separately",
+      "inherited_scope": "derivative inequalities in identified continuous generator",
+      "shared_dependencies": "NumPy enclosure with proved dot-product error and strict scalar primitives",
+      "source": "baseline/heston-nine-point-20261007/retain-time-envelopes.py",
+      "source_sha256": "6ca32949c80c29c242da56d81ac7f39596a9abf98fd98848b405139c8366f9e3",
+      "source_anchors": [
+        "64.,4,32",
+        "retained[start+1"
+      ],
+      "boundary": "Regeneration executes the original continuous derivative calculation. Reading its retained bank is a narrower obligation."
+    },
+    {
+      "id": "R2",
+      "proof_obligation": "Full alpha=.52 high-frequency continuous residual cover",
+      "generation_command": "python heston-frontier-20261007/omission-run.py --regenerate-full (isolated work copy)",
+      "verification_command": "python heston-frontier-20261007/omission-verify.py",
+      "recomputed_scope": "8189 closed cells x512 entries: exact bank, startup/halfplane, saved-node maxima",
+      "inherited_scope": "identified Caputo derivative-generator inequalities",
+      "shared_dependencies": "strict scalar primitives and original continuous generator",
+      "source": "baseline/heston-frontier-20261007/omission-run.py",
+      "source_sha256": "d4ea2b802244f6cfa14f02ffffeb8fe1bba23def9abe25a1b982215cac25e657",
+      "source_anchors": [
+        "128.,4,32",
+        "len(out['u'])==512"
+      ],
+      "boundary": "run_frontier.py --regenerate-full uses a distinct clone; generated receipts are not substituted into frozen quarter inputs."
+    },
+    {
+      "id": "P1",
+      "proof_obligation": "Global finite-history and low-frequency128-bin price accounts",
+      "generation_command": "python heston-nine-point-20261007/finite-history.py; python heston-nine-point-20261007/time-local-propagation.py",
+      "verification_command": "python heston-nine-point-20261007/verify-finite-history-independent.py; python heston-nine-point-20261007/independent-time-local.py",
+      "recomputed_scope": "forward masses, complete cell intersections, 513 tightened radii, all1025 finite terms and complete spread remainder",
+      "inherited_scope": "continuous residual theorem/validity and identified stored field",
+      "shared_dependencies": "strict forward-moment, exponent and true-tail primitives",
+      "source": "baseline/heston-nine-point-20261007/independent-time-local.py",
+      "source_sha256": "8f59dce044d2ea1209cd5007aadaf3e18db05620833df5372291f4c4bcb9e1d8",
+      "source_anchors": [
+        "import"
+      ],
+      "boundary": "No independent second implementation of the continuous Caputo residual generator."
+    },
+    {
+      "id": "P2",
+      "proof_obligation": "Expanded-reference frozen half-year output account",
+      "generation_command": "python heston-frontier-20261007/omission-aggregate.py",
+      "verification_command": "python heston-frontier-20261007/independent-omission.py",
+      "recomputed_scope": "changed reference centre, all1025 support terms, old/new complete interval intersection, global/local high-frequency accounts",
+      "inherited_scope": "same actual fast output and continuous residual banks",
+      "shared_dependencies": "original strict moment/scalar primitives",
+      "source": "baseline/heston-frontier-20261007/independent-omission.py",
+      "source_sha256": "693568abca58750d5ce39a0e563522282fda066bddcf8a7d63abaae8a63c0525",
+      "source_anchors": [
+        "No import of omission-aggregate"
+      ],
+      "boundary": "The complete new centre is paid. This is not a comparison with the old omitted-node radius around the new centre."
+    },
+    {
+      "id": "Q1",
+      "proof_obligation": "Quarter-maturity used64 certificate and actual fast output",
+      "generation_command": "python heston-frontier-20261007/transfer-pricing.py",
+      "verification_command": "python heston-frontier-20261007/independent-transfer.py --full",
+      "recomputed_scope": "all three exact terminal interpolations, 1539 restricted exponents, three original fast-output calculations, all3075 true finite CF/tail/price terms",
+      "inherited_scope": "larger-horizon continuous residuals and halfplane certificate",
+      "shared_dependencies": "strict moment/trig/dyadic/true-tail libraries; original fast implementation used only for output replay",
+      "source": "baseline/heston-frontier-20261007/independent-transfer.py",
+      "source_sha256": "4a7116ee5993bc134a0605206cf568fa3d56f3808d01ec4b1442020d7763118e",
+      "source_anchors": [
+        "if args.full:",
+        "fast_replayed+=1",
+        "Frozen residual validity is inherited"
+      ],
+      "boundary": "Without --full, source identities and financial replay are checked, but original fast outputs and every restricted exponent are not newly recomputed."
+    },
+    {
+      "id": "Q2",
+      "proof_obligation": "Quarter full128 global and128-bin complete certificate",
+      "generation_command": "python heston-frontier-20261007/transfer-quarter-fullref.py; python heston-frontier-20261007/transfer-quarter-time-local.py",
+      "verification_command": "python heston-frontier-20261007/independent-transfer-supplement.py --full",
+      "recomputed_scope": "all1025 restricted exponents, all1025 CF/tail/coefficient/radius terms, allhigh bank entries, all128 local weights and exact account",
+      "inherited_scope": "low/high continuous derivative validity; actual fast replay is separately performed by Q1",
+      "shared_dependencies": "strict moment/trig/dyadic/true-tail libraries; path helpers of Q1",
+      "source": "baseline/heston-frontier-20261007/independent-transfer-supplement.py",
+      "source_sha256": "9351e94ea2606b4f47423f98a02f9cbb29120d671e5450613fc6d570e2283933",
+      "source_anchors": [
+        "if args.full:",
+        "count+=1",
+        "time_check=check_time_local"
+      ],
+      "boundary": "Its --full reconstructs exponents. It checks the complete saved bank but does not execute its Caputo derivative generator."
+    },
+    {
+      "id": "N1",
+      "proof_obligation": "Fresh fields/residuals at the five nearby alpha points",
+      "generation_command": "python nearby_generate.py --N 1024; python nearby_generate.py --N 2048 in a generator copy without N1024/N2048 output directories",
+      "verification_command": "python nearby_independent.py --N 1024; python nearby_independent.py --N 2048",
+      "recomputed_scope": "all cells, startup, halfplane, 513 exponents and1025 CF/coefficient terms per point; allobjective/pair decisions",
+      "inherited_scope": "strict proof of continuous residual generator and final propagation theorem",
+      "shared_dependencies": "declared sdk outward primitives, stored reference data",
+      "source": "new-research/experiments/nearby_independent.py",
+      "source_sha256": "6b610afaef61becd992a41df32dc728eeb50d2c483b5570b9cc8c0fa3ee996ff",
+      "source_anchors": [
+        "if cache.exists():",
+        "stored['executed_reader_sha256']==sha(Path(__file__))",
+        "reports.append(stored['record'])"
+      ],
+      "boundary": "Existing identity-matched point caches are reused; a fresh acceptance copy removes allpoint caches first. Existing generated fields/residuals are reused by nearby_generate.py, so that command is a fresh generator only in an empty output tree."
+    },
+    {
+      "id": "N2",
+      "proof_obligation": "Descriptive128-bin reused-bank control, outside nearby objective grid",
+      "generation_command": "python local_output_controls.py",
+      "verification_command": "python local_output_independent.py",
+      "recomputed_scope": "128 exact positive weights, every intersecting closed-bank maximum,513 tightened radii, all12 prices and allactual output rounding",
+      "inherited_scope": "complete identity-matched N2048 point proof and continuous residual generator",
+      "shared_dependencies": "same strict moment/trig/dyadic primitives",
+      "source": "new-research/experiments/local_output_independent.py",
+      "source_sha256": "1ea3024d31ca7d22941b488c3a1490c17cfc5d93fea854d436c5c27f12ece2a4",
+      "source_anchors": [
+        "point['status']=='PASS_COMPLETE_POINT_RECONSTRUCTION'",
+        "np.flatnonzero",
+        "new_continuous_residual_entries_generated"
+      ],
+      "boundary": "No new residual entries; source-bank validity is inherited, while allbin/radius/financial assembly is rebuilt."
+    },
+    {
+      "id": "C1",
+      "proof_obligation": "Same model and complete tolerance for frozen/direct/corrected/BL-core outputs",
+      "generation_command": "python modern_adams_comparison.py; python workload_and_output_controls.py --N 2048 --local128",
+      "verification_command": "python workload_controls_independent.py --N 2048 --local128",
+      "recomputed_scope": "exact stored-output centre translation, allsame-reference remainder and28 portfolio supports; BL nominal-output metadata identity",
+      "inherited_scope": "reference certificate, BL nominal-output producer and its stored dyadics",
+      "shared_dependencies": "same strict outward coefficient primitives",
+      "source": "new-research/experiments/workload_controls_independent.py",
+      "source_sha256": "ed8f58595da8aed1b8227aff5cf7aa6220d5d9956e21e74b615583c57f6519eb",
+      "source_anchors": [
+        "def main",
+        "methods"
+      ],
+      "boundary": "BL512/1024 refinement is empirical; final guarantee comes from the common strict reference. This reader does not independently implement BL history stepping."
+    }
+  ],
+  "flag_semantics": [
+    {
+      "entry": "reproduce.py default",
+      "newly_executes": "fixed-copy saved evidence readers; original frontier always requests bothquarter readers --full; new nearby reader point caches deleted by this top driver",
+      "does_not_execute": "allcontinuous residual generators or allstructural signs"
+    },
+    {
+      "entry": "reproduce.py --full",
+      "newly_executes": "default plus all211241 original structural sign leaves",
+      "does_not_execute": "fresh low/high/new-nearby continuous derivative generation"
+    },
+    {
+      "entry": "baseline/.../run_evidence.py --regenerate-continuous",
+      "newly_executes": "original alpha=.52 513-node low continuous generator and retained8189-cell bank",
+      "does_not_execute": "new five-alpha reference/residual generation"
+    },
+    {
+      "entry": "baseline/.../run_frontier.py --regenerate-full",
+      "newly_executes": "separate-clone full512 high continuous generator plus fresh-bank audit",
+      "does_not_execute": "alter fixed quarter input receipts"
+    },
+    {
+      "entry": "nearby_generate.py --N N",
+      "newly_executes": "missing field/residual/exponent components; otherwise reuses identified existing components",
+      "does_not_execute": "force regeneration over already retained scientific output"
+    },
+    {
+      "entry": "publication-v2 CI source.yml",
+      "newly_executes": "source manifest identities and retained acceptance receipt binding",
+      "does_not_execute": "NumPy bank replay, interval arithmetic replay or residual generation"
+    }
+  ],
+  "flag_source_identities": [
+    {
+      "source": "baseline/heston-frontier-20261007/run_frontier.py",
+      "sha256": "af45842127a44e69a13a601f4ec28cbbfedcd8626d70d2c96ff67c0af9ff3a94"
+    },
+    {
+      "source": "v3/audit-experiments/historical-ci/reproduce.py",
+      "sha256": "49dcaa0ba17b593ae994fe0ce86d35b49443e7d9df0140469259197946dce005"
+    },
+    {
+      "source": "baseline/heston-nine-point-20261007/run_evidence.py",
+      "sha256": "ef4334b7ba4fc2de63b70bdd435a32a52fde4b8ab19654b76dfd7432fa78234b"
+    },
+    {
+      "source": "v3/audit-experiments/historical-ci/source.yml",
+      "sha256": "0f0821c955aaffaf486cc9ac250b40edc2fc689d722b773cd5fbad94e17205f4"
+    },
+    {
+      "source": "v3/audit-experiments/historical-ci/verify_source.py",
+      "sha256": "afd95cb5952ab0bac7ad44b1176b310aed5a2ae1d54c365bba3232d2d312291d"
+    }
+  ],
+  "entrypoint_version": "The reproduce.py and CI rows describe the explicitly retained historical V2 entrypoint snapshots. They do not impose a V2 source hash on the new V3 top-level driver. Baseline reader source hashes identify the selected fixed template.",
+  "independence_boundary": "Reader assembly independence, arithmetic-primitive sharing and continuous-generator sharing are separate axes. Retained V2 author-side acceptance is not a claim of an outside referee run. This V3 task executes only secondary audit derivations.",
+  "privacy": "Only typed mathematical work counts, source hashes and evidence bytes are retained."
+}

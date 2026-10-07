@@ -1,0 +1,219 @@
+{
+  "status": "FROZEN_PADE_NUMERIC_OUTPUT_EXACT_DYADICS_NOT_TRUE_PRICE_CERTIFICATE",
+  "contract_sha256": "3b699721ccc449db08bbe172258a557c5607bbc45079347fad8c50ff3d534c0d",
+  "quotes_sha256": "fe9975e53e392be874084f31f47d2f56bd1bc56d171cdfc3ef3b464d912be479",
+  "executed_source_path": "freeze-pade-output.py",
+  "executed_source_sha256": "7d78ca16e474f49dec35a942876f2445172e450480c14e180a0ef53307a08c19",
+  "component_sources_sha256": {
+    "price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
+    "solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb"
+  },
+  "runtime_versions": {
+    "Python": "3.12.14",
+    "NumPy": "2.3.5"
+  },
+  "algorithm": {
+    "Fourier": "composite Gauss-Legendre order 8 on frozen cuts to 200",
+    "exponent": "D-type fractional convolution, Jacobi order 256",
+    "rational": "unchanged GR six-condition [3/3]",
+    "forward_curve": "frozen alpha0=.5286, not candidate alpha"
+  },
+  "arithmetic_scope": "stored binary64 outputs interpreted as exact dyadics; no true-price certificate in this file",
+  "cover": [
+    {
+      "alpha": "0.52",
+      "rows": [
+        {
+          "row_id": 1,
+          "normalized_call_exact_dyadic": "626490680872861/4503599627370496",
+          "normalized_call_float_display_only": 0.1391088757236283
+        },
+        {
+          "row_id": 2,
+          "normalized_call_exact_dyadic": "1070858809195337/9007199254740992",
+          "normalized_call_float_display_only": 0.11888921060913404
+        },
+        {
+          "row_id": 3,
+          "normalized_call_exact_dyadic": "55975681706645/562949953421312",
+          "normalized_call_float_display_only": 0.09943278503969033
+        },
+        {
+          "row_id": 4,
+          "normalized_call_exact_dyadic": "364461327184571/4503599627370496",
+          "normalized_call_float_display_only": 0.08092667140515064
+        },
+        {
+          "row_id": 5,
+          "normalized_call_exact_dyadic": "71624085640231/1125899906842624",
+          "normalized_call_float_display_only": 0.0636149671964068
+        },
+        {
+          "row_id": 6,
+          "normalized_call_exact_dyadic": "430693147642155/9007199254740992",
+          "normalized_call_float_display_only": 0.04781654490606024
+        },
+        {
+          "row_id": 7,
+          "normalized_call_exact_dyadic": "305679448503749/9007199254740992",
+          "normalized_call_float_display_only": 0.0339372361883582
+        },
+        {
+          "row_id": 8,
+          "normalized_call_exact_dyadic": "101083247248963/4503599627370496",
+          "normalized_call_float_display_only": 0.022444989699935247
+        },
+        {
+          "row_id": 9,
+          "normalized_call_exact_dyadic": "123720086703015/9007199254740992",
+          "normalized_call_float_display_only": 0.013735688886630792
+        },
+        {
+          "row_id": 10,
+          "normalized_call_exact_dyadic": "70726865207491/9007199254740992",
+          "normalized_call_float_display_only": 0.00785225942129164
+        },
+        {
+          "row_id": 11,
+          "normalized_call_exact_dyadic": "38776312193191/9007199254740992",
+          "normalized_call_float_display_only": 0.004305035460693385
+        },
+        {
+          "row_id": 12,
+          "normalized_call_exact_dyadic": "10466225671173/4503599627370496",
+          "normalized_call_float_display_only": 0.0023239689442118294
+        }
+      ]
+    },
+    {
+      "alpha": "0.6",
+      "rows": [
+        {
+          "row_id": 1,
+          "normalized_call_exact_dyadic": "156666649245085/1125899906842624",
+          "normalized_call_float_display_only": 0.1391479369462134
+        },
+        {
+          "row_id": 2,
+          "normalized_call_exact_dyadic": "1072579103709165/9007199254740992",
+          "normalized_call_float_display_only": 0.11908020166697286
+        },
+        {
+          "row_id": 3,
+          "normalized_call_exact_dyadic": "1755893862861/17592186044416",
+          "normalized_call_float_display_only": 0.09981101032173001
+        },
+        {
+          "row_id": 4,
+          "normalized_call_exact_dyadic": "734301643167871/9007199254740992",
+          "normalized_call_float_display_only": 0.08152385912650562
+        },
+        {
+          "row_id": 5,
+          "normalized_call_exact_dyadic": "18141361130139/281474976710656",
+          "normalized_call_float_display_only": 0.06445106183910454
+        },
+        {
+          "row_id": 6,
+          "normalized_call_exact_dyadic": "110080984717013/2251799813685248",
+          "normalized_call_float_display_only": 0.04888577752249512
+        },
+        {
+          "row_id": 7,
+          "normalized_call_exact_dyadic": "19808791559339/562949953421312",
+          "normalized_call_float_display_only": 0.035187482366685785
+        },
+        {
+          "row_id": 8,
+          "normalized_call_exact_dyadic": "213987602906793/9007199254740992",
+          "normalized_call_float_display_only": 0.023757396373146666
+        },
+        {
+          "row_id": 9,
+          "normalized_call_exact_dyadic": "134516991103089/9007199254740992",
+          "normalized_call_float_display_only": 0.014934386072594674
+        },
+        {
+          "row_id": 10,
+          "normalized_call_exact_dyadic": "4944440155205/562949953421312",
+          "normalized_call_float_display_only": 0.008783090086703638
+        },
+        {
+          "row_id": 11,
+          "normalized_call_exact_dyadic": "22197479530903/4503599627370496",
+          "normalized_call_float_display_only": 0.004928830572770826
+        },
+        {
+          "row_id": 12,
+          "normalized_call_exact_dyadic": "24346546236379/9007199254740992",
+          "normalized_call_float_display_only": 0.0027030096201728915
+        }
+      ]
+    },
+    {
+      "alpha": "0.9",
+      "rows": [
+        {
+          "row_id": 1,
+          "normalized_call_exact_dyadic": "156235515324749/1125899906842624",
+          "normalized_call_float_display_only": 0.13876501310217026
+        },
+        {
+          "row_id": 2,
+          "normalized_call_exact_dyadic": "536967531789677/4503599627370496",
+          "normalized_call_float_display_only": 0.11923074345380802
+        },
+        {
+          "row_id": 3,
+          "normalized_call_exact_dyadic": "453233384925051/4503599627370496",
+          "normalized_call_float_display_only": 0.10063802789451759
+        },
+        {
+          "row_id": 4,
+          "normalized_call_exact_dyadic": "374493841495737/4503599627370496",
+          "normalized_call_float_display_only": 0.08315433708177822
+        },
+        {
+          "row_id": 5,
+          "normalized_call_exact_dyadic": "301592309274515/4503599627370496",
+          "normalized_call_float_display_only": 0.06696694516128754
+        },
+        {
+          "row_id": 6,
+          "normalized_call_exact_dyadic": "235455471057465/4503599627370496",
+          "normalized_call_float_display_only": 0.05228161704839196
+        },
+        {
+          "row_id": 7,
+          "normalized_call_exact_dyadic": "354132824268685/9007199254740992",
+          "normalized_call_float_display_only": 0.03931664152786285
+        },
+        {
+          "row_id": 8,
+          "normalized_call_exact_dyadic": "254773343893379/9007199254740992",
+          "normalized_call_float_display_only": 0.02828552324511724
+        },
+        {
+          "row_id": 9,
+          "normalized_call_exact_dyadic": "174346758823297/9007199254740992",
+          "normalized_call_float_display_only": 0.01935637859143935
+        },
+        {
+          "row_id": 10,
+          "normalized_call_exact_dyadic": "113300679797711/9007199254740992",
+          "normalized_call_float_display_only": 0.012578902341710108
+        },
+        {
+          "row_id": 11,
+          "normalized_call_exact_dyadic": "70294378600879/9007199254740992",
+          "normalized_call_float_display_only": 0.007804243762441376
+        },
+        {
+          "row_id": 12,
+          "normalized_call_exact_dyadic": "5265993241245/1125899906842624",
+          "normalized_call_float_display_only": 0.004677141555160524
+        }
+      ]
+    }
+  ]
+}

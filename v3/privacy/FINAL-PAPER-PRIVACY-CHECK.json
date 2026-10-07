@@ -1,0 +1,170 @@
+{
+  "status": "PASS_PRIVACY_GATE_V3",
+  "scope": "Read-only content/metadata/source gate. Values are withheld from diagnostics.",
+  "files_checked": 2,
+  "checked_file_identities": [
+    {
+      "path": "Theodore-Ouyang-Merged-Heston-EN.pdf",
+      "sha256": "d55c9c4de103d16d4b1150afda92128f3c5639e5d7c7fdd7bc269908fb5c8517",
+      "bytes": 6398162
+    },
+    {
+      "path": "Theodore-Ouyang-Merged-Heston-ZH.pdf",
+      "sha256": "f03184b3ba8e2a13098590658df7af5fa7ad814d6959f66134fa5a04ddf16660",
+      "bytes": 6534810
+    }
+  ],
+  "issues": [],
+  "scanner_sha256": "10f8b0a0adf119a33ac27784c7efe7322a5dbc4a17d5a9b9de7a75c15c8100fc",
+  "policy": "v3b",
+  "reused_completed_v3a_inspections": 0,
+  "reuse_scope": "Only exact path/SHA identities inherit the completed v3a content gate. Every current byte identity is verified; all policy additions are inspected on every inherited object. Changed objects receive the full current gate.",
+  "negative_and_allow_controls": [
+    {
+      "name": "hard-memory.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "thread-limit.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "python-build.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "python-access.py",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "clock.py",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "alias-clock.py",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "dynamic-clock.py",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "private-path.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "encoded-path.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "contact.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "host.py",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "duration.md",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "duration-table.md",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "duration-took.md",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "binary-target.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "encoded-binary-target.json",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "javascript-clock.cjs",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "javascript-host.cjs",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "javascript-date.cjs",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "nested.json.gz",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "nested.zip",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "metadata.npz",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "string-metadata.npz",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-text.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-info.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-uri.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-xmp.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-attachment.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-build-date.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "pdf-private-info.pdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "scientific.json",
+      "status": "PASS_ALLOWED"
+    },
+    {
+      "name": "software.py",
+      "status": "PASS_ALLOWED"
+    },
+    {
+      "name": "mathematics.md",
+      "status": "PASS_ALLOWED"
+    },
+    {
+      "name": "software-versions.json",
+      "status": "PASS_ALLOWED"
+    },
+    {
+      "name": "path-removal.py",
+      "status": "PASS_ALLOWED"
+    },
+    {
+      "name": "neutral-date.pdf",
+      "status": "PASS_ALLOWED"
+    }
+  ],
+  "allowed": "Author name, scientific revision/protocol dates, semver software dependencies, mathematical time/history grids/precision/node counts, typed work/evidence counts and asymptotic resource complexity.",
+  "withdrawn": "Personal hardware/OS/memory/thread configuration, contacts, personal paths, binary distribution targets, raw interpreter build/platform information and execution measurements."
+}

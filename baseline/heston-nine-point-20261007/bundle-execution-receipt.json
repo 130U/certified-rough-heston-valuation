@@ -1,0 +1,173 @@
+{
+  "status": "PASS_EXECUTED_FIXED_EVIDENCE_BUNDLE",
+  "tested_manifest_sha256": "138664982ef9d9a5a6748b7c01d2ab19c73bb30271f2259b76dfb6599c6941f3",
+  "full_structural_regeneration": true,
+  "fresh_continuous_regeneration": false,
+  "records": [
+    {
+      "label": "frozen-inputs-and-model-inclusions",
+      "return_code": 0,
+      "log": "verification-work/frozen-inputs-and-model-inclusions.log"
+    },
+    {
+      "label": "classical-verify_package",
+      "return_code": 0,
+      "log": "verification-work/classical-verify_package.log"
+    },
+    {
+      "label": "classical-verify_input_bounds",
+      "return_code": 0,
+      "log": "verification-work/classical-verify_input_bounds.log"
+    },
+    {
+      "label": "classical-verify_terminal",
+      "return_code": 0,
+      "log": "verification-work/classical-verify_terminal.log"
+    },
+    {
+      "label": "classical-verify_field_receipt",
+      "return_code": 0,
+      "log": "verification-work/classical-verify_field_receipt.log"
+    },
+    {
+      "label": "startup_independent",
+      "return_code": 0,
+      "log": "verification-work/startup_independent.log"
+    },
+    {
+      "label": "adversarial_checks",
+      "return_code": 0,
+      "log": "verification-work/adversarial_checks.log"
+    },
+    {
+      "label": "all-211241-structural-signs",
+      "return_code": 0,
+      "log": "verification-work/all-211241-structural-signs.log"
+    },
+    {
+      "label": "finite-history",
+      "return_code": 0,
+      "log": "verification-work/finite-history.log"
+    },
+    {
+      "label": "verify-finite-history-independent",
+      "return_code": 0,
+      "log": "verification-work/verify-finite-history-independent.log"
+    },
+    {
+      "label": "check-time-envelope",
+      "return_code": 0,
+      "log": "verification-work/check-time-envelope.log"
+    },
+    {
+      "label": "time-local-propagation",
+      "return_code": 0,
+      "log": "verification-work/time-local-propagation.log"
+    },
+    {
+      "label": "literature-ledger-readback",
+      "return_code": 0,
+      "log": "verification-work/literature-ledger-readback.log"
+    },
+    {
+      "label": "independent-time-local",
+      "return_code": 0,
+      "log": "verification-work/independent-time-local.log"
+    },
+    {
+      "label": "portfolio-baseline",
+      "return_code": 0,
+      "log": "verification-work/portfolio-baseline.log"
+    },
+    {
+      "label": "portfolio-finite-history",
+      "return_code": 0,
+      "log": "verification-work/portfolio-finite-history.log"
+    },
+    {
+      "label": "portfolio-report",
+      "return_code": 0,
+      "log": "verification-work/portfolio-report.log"
+    },
+    {
+      "label": "portfolio-identities",
+      "return_code": 0,
+      "log": "verification-work/portfolio-identities.log"
+    }
+  ],
+  "scope": "Saved model inclusions, all startup bounds, semantic negative controls, finite-history independent arithmetic, complete time-envelope identity/cover, time-local propagation, all systematic portfolios. Optional switches regenerate structural signs and all alpha=.52 continuous residuals. Other candidates retain their released continuous-time certificates.",
+  "archive_log_mapping": {
+    "verification-work/frozen-inputs-and-model-inclusions.log": {
+      "archived_path": "acceptance-logs/frozen-inputs-and-model-inclusions.txt",
+      "sha256": "e076624e392e740bbd6d68ffb14076e56aa92f5d47b031b473ec52e840b90a3b"
+    },
+    "verification-work/classical-verify_package.log": {
+      "archived_path": "acceptance-logs/classical-verify_package.txt",
+      "sha256": "f0df893c6068e6334b2bdb967f7d174c48d866a731490fda256a8e2ec294bec6"
+    },
+    "verification-work/classical-verify_input_bounds.log": {
+      "archived_path": "acceptance-logs/classical-verify_input_bounds.txt",
+      "sha256": "c2580c38fff37716d4232248a91c24707f0fa77a5ac7842298e4a97511f4d11a"
+    },
+    "verification-work/classical-verify_terminal.log": {
+      "archived_path": "acceptance-logs/classical-verify_terminal.txt",
+      "sha256": "a0aa6e1b4b8c5cd70161be1c34d6ea429d8adba19695d5b88675ea131a1788e3"
+    },
+    "verification-work/classical-verify_field_receipt.log": {
+      "archived_path": "acceptance-logs/classical-verify_field_receipt.txt",
+      "sha256": "b06f34cba1d4d35957aee86a2c11e14dfdee9c79363d2714ee6de42705073b63"
+    },
+    "verification-work/startup_independent.log": {
+      "archived_path": "acceptance-logs/startup_independent.txt",
+      "sha256": "c648a483fdce7bf3deadc8e8e91cfeec66c5d4f2f446f649ac8a4f18f0a9759a"
+    },
+    "verification-work/adversarial_checks.log": {
+      "archived_path": "acceptance-logs/adversarial_checks.txt",
+      "sha256": "fb6c4a07e377144544b6370307e402e593a2f8bbd05abfb04199485a5517863b"
+    },
+    "verification-work/all-211241-structural-signs.log": {
+      "archived_path": "acceptance-logs/all-211241-structural-signs.txt",
+      "sha256": "1a84bb6a60b0b6454ca6eb00dbce81941ae494726cec6a837d0891523c821d17"
+    },
+    "verification-work/finite-history.log": {
+      "archived_path": "acceptance-logs/finite-history.txt",
+      "sha256": "b890ef4d67cfadacd9dd9f84c41586b4e4508eed777d17f0c841d56d7f1c1899"
+    },
+    "verification-work/verify-finite-history-independent.log": {
+      "archived_path": "acceptance-logs/verify-finite-history-independent.txt",
+      "sha256": "031ae14db8228fc688bcc289e680c84c500666ffe5a9ba78bb47ebc96e9536dc"
+    },
+    "verification-work/check-time-envelope.log": {
+      "archived_path": "acceptance-logs/check-time-envelope.txt",
+      "sha256": "400d6aac265454b7fa861fbfe4ab139399653f42f7fe44961b9b7f3e57b43558"
+    },
+    "verification-work/time-local-propagation.log": {
+      "archived_path": "acceptance-logs/time-local-propagation.txt",
+      "sha256": "ff0caf441aa3967aea3a16a62561c88b5af273e10fdd19ebb8aa315777f28b39"
+    },
+    "verification-work/literature-ledger-readback.log": {
+      "archived_path": "acceptance-logs/literature-ledger-readback.txt",
+      "sha256": "2e334ad4fad9c243eacfbfa0ed40dccbe72c6751bae874ddcc090da470bc90ed"
+    },
+    "verification-work/independent-time-local.log": {
+      "archived_path": "acceptance-logs/independent-time-local.txt",
+      "sha256": "9473e22037566ba0a1cc048d97da01273cdc88ae4dc434816f99c0d5836e4ab6"
+    },
+    "verification-work/portfolio-baseline.log": {
+      "archived_path": "acceptance-logs/portfolio-baseline.txt",
+      "sha256": "dc97824672d376b027cdc6fb188141ec050005622cc797195f3f1239c7f7131b"
+    },
+    "verification-work/portfolio-finite-history.log": {
+      "archived_path": "acceptance-logs/portfolio-finite-history.txt",
+      "sha256": "31b8b6e3a9191353b5582ae2b0bff1542a63a20acb7436ddbf17a1a75511d542"
+    },
+    "verification-work/portfolio-report.log": {
+      "archived_path": "acceptance-logs/portfolio-report.txt",
+      "sha256": "cd46ce2668a1f3eee6ce61f6a0eeb175b9365cb49232fca23bb635c04ecb61a9"
+    },
+    "verification-work/portfolio-identities.log": {
+      "archived_path": "acceptance-logs/portfolio-identities.txt",
+      "sha256": "faf388bde317ce2e15866784acda6c8d1b5cdb66898e0e76b48f3aebdab4c222"
+    }
+  }
+}

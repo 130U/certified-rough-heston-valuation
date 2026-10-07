@@ -1,0 +1,17 @@
+{
+  "provenance": {
+    "script_version": "1.0.0",
+    "rules_version": "1.0.0",
+    "rules_digest": "da4fc709cbfbb4f4",
+    "status": "PROVABLE AS STATED",
+    "verification": "Verified",
+    "obligation_count": 10,
+    "blocked_count": 0
+  },
+  "findings": [],
+  "summary": {
+    "STRUCTURAL-INCOMPLETE": 0,
+    "CANDIDATE": 0,
+    "INFO": 0
+  }
+}

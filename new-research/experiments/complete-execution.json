@@ -1,0 +1,90 @@
+{
+  "status": "PASS_COMPLETE_PRIVACY_PRESERVING_EXPERIMENT_ACCEPTANCE",
+  "driver_sha256": "34dcbd863969bf9d916b68dfd2b94f495c07246da789977ddccec7bd8d5d3d04",
+  "steps": [
+    {
+      "script": "nearby_independent.py",
+      "args": [
+        "--N",
+        "1024"
+      ],
+      "source_sha256": "6b610afaef61becd992a41df32dc728eeb50d2c483b5570b9cc8c0fa3ee996ff",
+      "returncode": 0,
+      "output": "PASS independent complete point 13/25 N 1024\nPASS independent complete point 21/40 N 1024\nPASS independent complete point 53/100 N 1024\nPASS independent complete point 27/50 N 1024\nPASS independent complete point 11/20 N 1024\nPASS all pairs and six negative controls\n"
+    },
+    {
+      "script": "nearby_fast_replay.py",
+      "args": [
+        "--N",
+        "1024"
+      ],
+      "source_sha256": "b3f4f508a8acc283b88b19f2500ec3ed1a7c8488f41b57a4d6d8e4b409a08e45",
+      "returncode": 0,
+      "output": "PASS five-candidate actual stored Pad\u00e9 output replay\n"
+    },
+    {
+      "script": "nearby_independent.py",
+      "args": [
+        "--N",
+        "2048"
+      ],
+      "source_sha256": "6b610afaef61becd992a41df32dc728eeb50d2c483b5570b9cc8c0fa3ee996ff",
+      "returncode": 0,
+      "output": "PASS independent complete point 13/25 N 2048\nPASS independent complete point 21/40 N 2048\nPASS independent complete point 53/100 N 2048\nPASS independent complete point 27/50 N 2048\nPASS independent complete point 11/20 N 2048\nPASS all pairs and six negative controls\n"
+    },
+    {
+      "script": "nearby_fast_replay.py",
+      "args": [
+        "--N",
+        "2048"
+      ],
+      "source_sha256": "b3f4f508a8acc283b88b19f2500ec3ed1a7c8488f41b57a4d6d8e4b409a08e45",
+      "returncode": 0,
+      "output": "PASS five-candidate actual stored Pad\u00e9 output replay\n"
+    },
+    {
+      "script": "workload_controls_independent.py",
+      "args": [
+        "--N",
+        "1024"
+      ],
+      "source_sha256": "ed8f58595da8aed1b8227aff5cf7aa6220d5d9956e21e74b615583c57f6519eb",
+      "returncode": 0,
+      "output": "PASS independent five-method and 28-task comparison\n"
+    },
+    {
+      "script": "workload_controls_independent.py",
+      "args": [
+        "--N",
+        "2048"
+      ],
+      "source_sha256": "ed8f58595da8aed1b8227aff5cf7aa6220d5d9956e21e74b615583c57f6519eb",
+      "returncode": 0,
+      "output": "PASS independent five-method and 28-task comparison\n"
+    },
+    {
+      "script": "local_output_independent.py",
+      "args": [],
+      "source_sha256": "1ea3024d31ca7d22941b488c3a1490c17cfc5d93fea854d436c5c27f12ece2a4",
+      "returncode": 0,
+      "output": "PASS independent local-output complete account\n"
+    },
+    {
+      "script": "workload_controls_independent.py",
+      "args": [
+        "--N",
+        "2048",
+        "--local128"
+      ],
+      "source_sha256": "ed8f58595da8aed1b8227aff5cf7aa6220d5d9956e21e74b615583c57f6519eb",
+      "returncode": 0,
+      "output": "PASS independent five-method and 28-task comparison\n"
+    }
+  ],
+  "scope": "All ten point-candidate proofs, all ten pair comparisons per level, actual fast-output replay, same-guarantee five-method controls, full 128-bin reuse, 28 shared-bank tasks. Fixed candidate generators are not rerun by default.",
+  "completed_verification_steps": 8,
+  "total_generated_closed_residual_entries": 15754230,
+  "total_strict_candidate_exponents_verified": 5130,
+  "total_true_CF_nodes_verified": 10250,
+  "independence_boundary": "Separate assembly/readers share disclosed strict arithmetic primitives and the residual producer theorem; this is author-side acceptance, not an external referee replay."
+}

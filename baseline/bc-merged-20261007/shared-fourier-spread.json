@@ -1,0 +1,209 @@
+{
+  "status": "PASS_SAME_CENTER_FULL_BUDGET_SHARED_FOURIER_CERTIFICATE",
+  "arithmetic": "100-bit outward integer dyadic intervals; exact Fraction comparisons",
+  "scope": "Frozen first-maturity rough Heston actual Padé output, same reference, all finite node errors, complete grid and true infinite-tail budgets. No new upstream residual generation.",
+  "source_sha256": {
+    "frozen-pade-numeric-output.json": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039",
+    "direct-tail-certificate.json": "bdbe6a73df03d90b68992763f98ce6927648e171b54bf46a308c8f867c30ab58",
+    "f8-price-point052-v3-u64.json": "d9b5247734e9d03a52f875c94651c85baaf155989a4a40c211854ad4b4216e6f",
+    "f8-price-point06-v3-u64.json": "5294e2af94564bd66136c09e350d1de4b0f3f8f64497b6f1b9ad1dbb156ee2e8",
+    "f8-price-betap9-u64-v3.json": "1789e1e9372b1b11f38c64a9d398518caba9886b02fce291d45d2c92718ab05b"
+  },
+  "implementation_sha256": "c195274c74a1f64111dd2da949cdb2e3fc92b83e2f932ee1c991e374bf95b1c7",
+  "dependency_sha256": {
+    "exponent-field-certificate.py": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
+    "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
+    "interval-pade-certificate.py": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2"
+  },
+  "same_center": true,
+  "omitted_finite_nodes_counted_once": true,
+  "clipping": false,
+  "results": [
+    {
+      "alpha": "13/25",
+      "source": "f8-price-point052-v3-u64.json",
+      "strikes": [
+        "4400",
+        "4500"
+      ],
+      "weights": [
+        "1",
+        "-1"
+      ],
+      "shared_finite_nodes": 1025,
+      "reference_centers_exact": [
+        "56530486045181020843303091967/2535301200456458802993406410752",
+        "34549928883666395596809124127/2535301200456458802993406410752"
+      ],
+      "signed_reference_minus_fast_center": "-3129488924767868079446993/79228162514264337593543950336",
+      "reference_rounding_radius": "155480692459/633825300114114700748351602688",
+      "full_remainder_grid_true_tail_and_reference_rounding": "428598692075411087506229/1267650600228229401496703205376",
+      "joint_node_support_interval": [
+        "369144903442989816803071049/1267650600228229401496703205376",
+        "184572451721494908402129785/633825300114114700748351602688"
+      ],
+      "marginal_node_support_interval": [
+        "754172226803907011979152059/1267650600228229401496703205376",
+        "754172226803907011982147147/1267650600228229401496703205376"
+      ],
+      "joint_full_radius_upper": "369573502135065227891765799/1267650600228229401496703205376",
+      "same_outer_set_marginal_full_radius_upper": "5895318949187362680231667/9903520314283042199192993792",
+      "joint_signed_actual_fast_error_interval": [
+        "-419645324931351117162917687/1267650600228229401496703205376",
+        "319501679338779338620613911/1267650600228229401496703205376"
+      ],
+      "best_signed_marginal_actual_fast_error_interval": [
+        "-804672648292268312339387519/1267650600228229401496703205376",
+        "704529002699696533797083743/1267650600228229401496703205376"
+      ],
+      "joint_actual_fast_absolute_error_upper": "419645324931351117162917687/1267650600228229401496703205376",
+      "best_signed_marginal_absolute_error_upper": "804672648292268312339387519/1267650600228229401496703205376",
+      "absolute_error_reduction_fraction": "385027323360917195176469832/804672648292268312339387519",
+      "display": {
+        "signed_center": "-3.94997034571442e-05",
+        "full_remainder": "3.38104752207151e-07",
+        "joint_radius": "0.000291542087439967",
+        "marginal_radius": "0.000595275090281283",
+        "joint_signed_interval": [
+          "-0.000331041790897111",
+          "0.000252042383982823"
+        ],
+        "best_signed_marginal_interval": [
+          "-0.000634774793738428",
+          "0.000555775386824139"
+        ],
+        "joint_actual_fast_absolute_error_upper": "0.000331041790897111",
+        "best_signed_marginal_absolute_error_upper": "0.000634774793738428",
+        "reduction_percent": "47.8489388421551",
+        "joint_actual_fast_bound_index_points": "1.39761209531688",
+        "best_signed_marginal_bound_index_points": "2.67993031069252",
+        "joint_support_width_index_points": "2.4616997545586"
+      },
+      "node_ledger_file": "shared-fourier-nodes-alpha-13_25.json"
+    },
+    {
+      "alpha": "3/5",
+      "source": "f8-price-point06-v3-u64.json",
+      "strikes": [
+        "4400",
+        "4500"
+      ],
+      "weights": [
+        "1",
+        "-1"
+      ],
+      "shared_finite_nodes": 1025,
+      "reference_centers_exact": [
+        "29934800708096772442203106555/1267650600228229401496703205376",
+        "37546230981720926498825257257/2535301200456458802993406410752"
+      ],
+      "signed_reference_minus_fast_center": "-45618172156548827496113971/2535301200456458802993406410752",
+      "reference_rounding_radius": "372344919303/2535301200456458802993406410752",
+      "full_remainder_grid_true_tail_and_reference_rounding": "552168872376837238203361/2535301200456458802993406410752",
+      "joint_node_support_interval": [
+        "128282798893860560724110743/1267650600228229401496703205376",
+        "16035349861732570090580293/158456325028528675187087900672"
+      ],
+      "marginal_node_support_interval": [
+        "247079279360387522819995373/1267650600228229401496703205376",
+        "30884909920048440352682919/158456325028528675187087900672"
+      ],
+      "joint_full_radius_upper": "257117766660097958687488049/2535301200456458802993406410752",
+      "same_outer_set_marginal_full_radius_upper": "494710727593151882881130065/2535301200456458802993406410752",
+      "joint_signed_actual_fast_error_interval": [
+        "-75683984704161696545900505/633825300114114700748351602688",
+        "105749797251774565595687039/1267650600228229401496703205376"
+      ],
+      "best_signed_marginal_actual_fast_error_interval": [
+        "-135082224937425177593959229/633825300114114700748351602688",
+        "224546277718301527691804487/1267650600228229401496703205376"
+      ],
+      "joint_actual_fast_absolute_error_upper": "75683984704161696545900505/633825300114114700748351602688",
+      "best_signed_marginal_absolute_error_upper": "135082224937425177593959229/633825300114114700748351602688",
+      "absolute_error_reduction_fraction": "59398240233263481048058724/135082224937425177593959229",
+      "display": {
+        "signed_center": "-1.79931962909715e-05",
+        "full_remainder": "2.17792218249029e-07",
+        "joint_radius": "0.000101415077077945",
+        "marginal_radius": "0.00019512897619584",
+        "joint_signed_interval": [
+          "-0.000119408273368916",
+          "8.34218807869733e-05"
+        ],
+        "best_signed_marginal_interval": [
+          "-0.000213122172486811",
+          "0.000177135779904868"
+        ],
+        "joint_actual_fast_absolute_error_upper": "0.000119408273368916",
+        "best_signed_marginal_absolute_error_upper": "0.000213122172486811",
+        "reduction_percent": "43.9719143364561",
+        "joint_actual_fast_bound_index_points": "0.504125013005293",
+        "best_signed_marginal_bound_index_points": "0.899771975135168",
+        "joint_support_width_index_points": "0.856320514624585"
+      },
+      "node_ledger_file": "shared-fourier-nodes-alpha-3_5.json"
+    },
+    {
+      "alpha": "9/10",
+      "source": "f8-price-betap9-u64-v3.json",
+      "strikes": [
+        "4400",
+        "4500"
+      ],
+      "weights": [
+        "1",
+        "-1"
+      ],
+      "shared_finite_nodes": 1025,
+      "reference_centers_exact": [
+        "71904445009183051483600716899/2535301200456458802993406410752",
+        "6135426985553683152460015833/316912650057057350374175801344"
+      ],
+      "signed_reference_minus_fast_center": "182957965234661756324396443/2535301200456458802993406410752",
+      "reference_rounding_radius": "16327087423/2535301200456458802993406410752",
+      "full_remainder_grid_true_tail_and_reference_rounding": "139929987050249265655155/2535301200456458802993406410752",
+      "joint_node_support_interval": [
+        "6899034516708017981636165/316912650057057350374175801344",
+        "27596138066832071926716753/1267650600228229401496703205376"
+      ],
+      "marginal_node_support_interval": [
+        "42760118009944358981771591/1267650600228229401496703205376",
+        "10690029502486089745571793/316912650057057350374175801344"
+      ],
+      "joint_full_radius_upper": "55332206120714393119088661/2535301200456458802993406410752",
+      "same_outer_set_marginal_full_radius_upper": "85660166006938967230229499/2535301200456458802993406410752",
+      "joint_signed_actual_fast_error_interval": [
+        "63812879556973681602653891/1267650600228229401496703205376",
+        "14893135709711009340217819/158456325028528675187087900672"
+      ],
+      "best_signed_marginal_actual_fast_error_interval": [
+        "24324449806930697273666097/633825300114114700748351602688",
+        "134309065620800361777064249/1267650600228229401496703205376"
+      ],
+      "joint_actual_fast_absolute_error_upper": "14893135709711009340217819/158456325028528675187087900672",
+      "best_signed_marginal_absolute_error_upper": "134309065620800361777064249/1267650600228229401496703205376",
+      "absolute_error_reduction_fraction": "101771677470552262116253/901403124971814508570901",
+      "display": {
+        "signed_center": "7.21641930362048e-05",
+        "full_remainder": "5.5192648126012e-08",
+        "joint_radius": "2.18247071041312e-05",
+        "marginal_radius": "3.3786978048808e-05",
+        "joint_signed_interval": [
+          "5.03394859320737e-05",
+          "9.3988900140336e-05"
+        ],
+        "best_signed_marginal_interval": [
+          "3.83772149873968e-05",
+          "0.000105951171085013"
+        ],
+        "joint_actual_fast_absolute_error_upper": "9.3988900140336e-05",
+        "best_signed_marginal_absolute_error_upper": "0.000105951171085013",
+        "reduction_percent": "11.2903621754955",
+        "joint_actual_fast_bound_index_points": "0.396807977946479",
+        "best_signed_marginal_bound_index_points": "0.447311011156972",
+        "joint_support_width_index_points": "0.184281715869295"
+      },
+      "node_ledger_file": "shared-fourier-nodes-alpha-9_10.json"
+    }
+  ]
+}

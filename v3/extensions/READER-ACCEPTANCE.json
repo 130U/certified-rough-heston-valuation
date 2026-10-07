@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SCOPED_PORTABLE_CLASSICAL_READER_ACCEPTANCE",
+  "mode": "default read-only; no --write",
+  "source_identities": "SOURCE-IDENTITIES.json",
+  "executions": [
+    {
+      "reader": "verify_input_bounds.py",
+      "exit_code": 0,
+      "status": "PASS_EXACT_MODEL_BOUND_REGENERATION",
+      "probability_rows": 22,
+      "bands": 102,
+      "profile_band_entries": 918,
+      "Laplace_recursions": 12,
+      "steps_per_recursion": 767,
+      "every_saved_field_matches": true
+    },
+    {
+      "reader": "verify_terminal.py",
+      "exit_code": 0,
+      "status": "PASS_PORTABLE_TERMINAL767_EXACT_ROW_CERTIFICATE",
+      "exact_checks": 407,
+      "unique_Asian_support": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "reader": "verify_field_receipt.py",
+      "exit_code": 0,
+      "status": "PASS_EXACT_FIELD_RECEIPT_AND_MODE_BOX_AGGREGATION",
+      "mode_cells": 3080,
+      "original_time_pieces": 64,
+      "verified_display_lower": "0.003407444052031154",
+      "selected_allocation_rejected": true,
+      "all_allocations_rejected": false
+    }
+  ],
+  "not_performed": [
+    "No reconstruction of the absent thirteen-function coefficient bank",
+    "No replay of the archived direct integration",
+    "No complete annual price computation or monetary certificate"
+  ],
+  "mathematical_status_of_selected_field": "FAIL_SELECTED_INTEGRATED_PDE_CONTRACT_ONLY",
+  "new_publication_metadata": "Scientific values only; source fields requiring privacy cleanup are recorded separately by category and hash"
+}

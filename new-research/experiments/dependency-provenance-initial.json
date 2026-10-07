@@ -1,0 +1,61 @@
+{
+  "status": "DEPENDENCY_TRANSFORMATION_DISCLOSED",
+  "records": [
+    {
+      "name": "interval-pade-certificate.py",
+      "original_sha256": "f2f371eefed6b550ceb308f4ac1075f68dba9850725029316212adaba41d494e",
+      "new_sha256": "62b3e470767ab8123ffe49c19d4059c5768aa8235866a7b95ecd821c229b5901",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "combined-field-derivative.py",
+      "original_sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf",
+      "new_sha256": "a693b8384e4438a5383cd0f613e534f9684918b6e903eeb21ce53a159a7486bf",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "exact-forward-moments.py",
+      "original_sha256": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+      "new_sha256": "f3a714e0f0716313bf2017e51908c47bd40e89a0cdb2810c11663bd017b1864e",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "direct-tail-certificate.py",
+      "original_sha256": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+      "new_sha256": "df3e4482327764d0a452710aae0c05d6a8e7bd4e3eb120a644ea48706ae73baf",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "solver-diagnostic.py",
+      "original_sha256": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d",
+      "new_sha256": "ae710759ab62f36dac712d588d67ed72cfaefb7922be4538710cb1a7f90ed421",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "field-residual-diagnostic.py",
+      "original_sha256": "788c4e65553942b623624fa23358475abff9c12fa935928f29fcf0ffdb42b8e3",
+      "new_sha256": "62af230c960f498c216ce0673af80878a20cc7a1a790ac33d01968a1ec7c25b8",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "certify-field-residual-v3.py",
+      "original_sha256": "a5ecadffd411db96f3895839f09f96aa0f6532f18ab3fddd575527b80def9a4e",
+      "new_sha256": "29ab7f3ddb90b3d4ef0f964f64beab12fd8d754ad83290ea17c1301ba2183685",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "exponent-field-certificate.py",
+      "original_sha256": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+      "new_sha256": "3883673a799a9594889d2da37e993c77d077f0532234e216183db17f5a2b48e6",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    },
+    {
+      "name": "price-profile-diagnostic.py",
+      "original_sha256": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+      "new_sha256": "8345d6ee1dfc1d427e1ed4edbafc4e69815e68eb4b5be2a15c49c83dc017999e",
+      "change_scope": "main/clock reporting removed; residual module additionally stores already computed closed-cell bounds"
+    }
+  ],
+  "quotes_sha256": "167a484d6e6dfe537f111df0b93512898d31d96995cffe25a212f2a5f83c3b10",
+  "numerical_source_scope": "existing rigorous primitives, same arithmetic implementation; independent reader shares these primitives"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "INLINE_DELIMITERS_AND_HEADING_LEVELS_RESTORED",
+  "files": [
+    {
+      "path": "appendix-f-en.md",
+      "inline_math_count": 169,
+      "display_math_count": 30
+    },
+    {
+      "path": "appendix-f-zh.md",
+      "inline_math_count": 169,
+      "display_math_count": 30
+    },
+    {
+      "path": "appendix-g-en.md",
+      "inline_math_count": 99,
+      "display_math_count": 17
+    },
+    {
+      "path": "appendix-g-zh.md",
+      "inline_math_count": 97,
+      "display_math_count": 17
+    }
+  ]
+}

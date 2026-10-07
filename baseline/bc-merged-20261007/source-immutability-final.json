@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FINAL_SOURCE_PACKAGE_IMMUTABILITY",
+  "result": {
+    "artifacts": 77,
+    "bytes": 152507109,
+    "maximum_file_bytes": 36365071
+  }
+}

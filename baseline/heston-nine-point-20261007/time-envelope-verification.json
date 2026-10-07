@@ -1,0 +1,49 @@
+{
+  "status": "PASS_FULL_TIME_ALL_513_FRESH_RESIDUAL_ENVELOPE_CHECK",
+  "alpha": "13/25",
+  "T": "1/2",
+  "frequencies": 513,
+  "closed_time_cells": 8189,
+  "all_complete_residual_endpoints_exactly_reproduced": true,
+  "all_startup_residual_endpoints_exactly_reproduced": true,
+  "all_halfplane_endpoint_arrays_exactly_reproduced": true,
+  "full_ordered_closed_time_cover_verified": true,
+  "storage_only_instrumentation_verified": true,
+  "negative_controls": [
+    {
+      "name": "remove_startup_cell",
+      "status": "PASS_REJECTED",
+      "reason": "necessary closed time cell missing"
+    },
+    {
+      "name": "remove_terminal_cell",
+      "status": "PASS_REJECTED",
+      "reason": "necessary closed time cell missing"
+    },
+    {
+      "name": "insert_time_gap",
+      "status": "PASS_REJECTED",
+      "reason": "gap or overlap in ordered exact time cover"
+    },
+    {
+      "name": "change_frequency",
+      "status": "PASS_REJECTED",
+      "reason": "necessary frequency missing"
+    },
+    {
+      "name": "negative_residual_bound",
+      "status": "PASS_REJECTED",
+      "reason": "negative residual upper endpoint"
+    },
+    {
+      "name": "inflate_frozen_complete_endpoint",
+      "status": "PASS_REJECTED",
+      "reason": "complete residual endpoints do not reproduce frozen values"
+    }
+  ],
+  "time_envelope_sha256": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de",
+  "frozen_field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "generated_source_sha256": "652614e41c5c46e14379df6eec187fcfc402f22d6c9d87c13443f2026b8b278b",
+  "implementation_sha256": "0b718253db03cf2d4a01a028d342819d15ad819e4986f745b295dfcfb3757b72",
+  "scope": "New execution of the unchanged continuous residual mathematics at all 513 fixed nodes and every closed time cell; this checker reuses no propagation implementation."
+}

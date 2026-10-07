@@ -1,0 +1,36 @@
+{
+  "status": "PASS_ALL_FIVE_ACTUAL_PADE_OUTPUT_REPLAYS",
+  "N": 1024,
+  "fourier_nodes": 352,
+  "Jacobi_nodes_per_frequency": 256,
+  "records": [
+    {
+      "alpha": "13/25",
+      "returned_values_verified": 12,
+      "candidate_sha256": "8da9963a38526306347aa259c61c709b411800a6b4d46c912bc82142149c4373"
+    },
+    {
+      "alpha": "21/40",
+      "returned_values_verified": 12,
+      "candidate_sha256": "cf85b62093bf4c3fd0c44fd3d6aa2dfa446d5b0030c70fe15886f47b0f3b6b0b"
+    },
+    {
+      "alpha": "53/100",
+      "returned_values_verified": 12,
+      "candidate_sha256": "3189f4b54193584daafca6ea41640ddcb178ce4be4f34057469f9ab00cac9d6d"
+    },
+    {
+      "alpha": "27/50",
+      "returned_values_verified": 12,
+      "candidate_sha256": "31dd71e15f1025c065556fde2980864dafac7dadb2937d44d83cac30018f6c35"
+    },
+    {
+      "alpha": "11/20",
+      "returned_values_verified": 12,
+      "candidate_sha256": "86c3c908653956c2a9e112b48dacc59f8381438a5d54eb6f488a5b97d9cbf1d7"
+    }
+  ],
+  "executed_algorithm_sha256": "8345d6ee1dfc1d427e1ed4edbafc4e69815e68eb4b5be2a15c49c83dc017999e",
+  "reader_sha256": "b3f4f508a8acc283b88b19f2500ec3ed1a7c8488f41b57a4d6d8e4b409a08e45",
+  "qualification": "Exact stored-output replay on the executing arithmetic platform; not a claim of universal cross-platform bitwise identity or internal quadrature accuracy."
+}

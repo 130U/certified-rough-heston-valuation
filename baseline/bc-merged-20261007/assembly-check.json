@@ -1,0 +1,44 @@
+{
+  "zh": {
+    "sha256": "945f116a760074edcea11df17cd9c33f3afb4939cc21af8479bc38d861d1bbc1",
+    "characters": 67963,
+    "equation_tags": 123,
+    "unique_tags": 123,
+    "main_sections": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ]
+  },
+  "en": {
+    "sha256": "61a5f30a54e20c9ca64ab907525de233a259293249ef3428dc9cdcba12d5c07a",
+    "characters": 120238,
+    "equation_tags": 123,
+    "unique_tags": 123,
+    "main_sections": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ]
+  }
+}

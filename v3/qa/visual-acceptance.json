@@ -1,0 +1,57 @@
+{
+  "status": "PASS_FINAL_VISUAL_AND_EVERY_PAGE_ACCEPTANCE",
+  "scope": "Every final contact-sheet page read by the root reviewer; detailed checks of central propagation, matched kernel and quarter accounting, budget figure, terminal witness and signed identity. Automated every-page text/glyph and complete formula-occurrence checks recorded separately.",
+  "documents": {
+    "EN": {
+      "pages": 66,
+      "pdf_sha256": "d55c9c4de103d16d4b1150afda92128f3c5639e5d7c7fdd7bc269908fb5c8517",
+      "source_sha256": "ab206384751f90f04b62b2b5d1a8b8aa007421f58eb04484071185c7b1a23b5a",
+      "formula_occurrences": 1170
+    },
+    "ZH": {
+      "pages": 53,
+      "pdf_sha256": "f03184b3ba8e2a13098590658df7af5fa7ad814d6959f66134fa5a04ddf16660",
+      "source_sha256": "9f95fefe0bed312fb3ba65f964756568446e970fb44b1b137c778a5382662b5f",
+      "formula_occurrences": 1147
+    }
+  },
+  "contact_sheets": [
+    {
+      "path": "qa/rendered/EN-contact-1.png",
+      "sha256": "0fa9e7a0ac8185413ae3c72f416f74e33f367540005175f39d55936565a6eaa9"
+    },
+    {
+      "path": "qa/rendered/EN-contact-2.png",
+      "sha256": "ca804344f651372f08ff93108fa9367717b99c731112a8fd935943aeddbbb538"
+    },
+    {
+      "path": "qa/rendered/EN-contact-3.png",
+      "sha256": "b53abd5ce34fb3b81a7a3d9d4154a6f6db50390234ee0e0d87ca599ba8293b3c"
+    },
+    {
+      "path": "qa/rendered/EN-contact-4.png",
+      "sha256": "a122bb6924b5e3c8905fc9d8dec4b8a73ba4c10505af49ea431548dffc8c9c8e"
+    },
+    {
+      "path": "qa/rendered/EN-contact-5.png",
+      "sha256": "42ad43f524acf0ef8454ec2416a4048fcf9f399f7339628447da899e08649c08"
+    },
+    {
+      "path": "qa/rendered/ZH-contact-1.png",
+      "sha256": "0421501223caf942770337746273c535f3b23fb0b819c5c15c1c597fe8ac9c6e"
+    },
+    {
+      "path": "qa/rendered/ZH-contact-2.png",
+      "sha256": "582e20725b3f0045ec8fb42dc39f520a74c949bc9cf7a4e8a4da002bcd3df569"
+    },
+    {
+      "path": "qa/rendered/ZH-contact-3.png",
+      "sha256": "3b40298afc1e91a556ffeeb71ee5164dd2819fa782a26dc44e7973f373148b65"
+    },
+    {
+      "path": "qa/rendered/ZH-contact-4.png",
+      "sha256": "8d0119342a147762621878af739b9f7504bb2fc6137f775be23fbef7e99198c1"
+    }
+  ],
+  "typesetting": "Editable Markdown and vector MathJax forms in PDF. No native LaTeX compilation is asserted."
+}

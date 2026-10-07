@@ -1,0 +1,1045 @@
+{
+  "version": "20261007-privacy-minimal-scientific-baseline",
+  "files": [
+    {
+      "path": "bc-merged-20261007/adversarial-checks.json",
+      "bytes": 3471,
+      "sha256": "ee445e86f27d317f0b9033efbe74ced4492fb06cd9f16d8cc1ba785a91d93d98"
+    },
+    {
+      "path": "bc-merged-20261007/adversarial_checks.py",
+      "bytes": 6245,
+      "sha256": "3494d916d043af538bfc7ad7bb91f995471f67f485f56f11b9a6bfdd9c24a8e6"
+    },
+    {
+      "path": "bc-merged-20261007/assembly-check.json",
+      "bytes": 698,
+      "sha256": "d6873df8ebd45a7754ce725fe5cb9d396f9de2a2fd7ca71e1f56d86159c2a17d"
+    },
+    {
+      "path": "bc-merged-20261007/audit_paths.py",
+      "bytes": 1105,
+      "sha256": "77412c4cc13c790b0a3e54b2be492cd901c95587b0a1ddc9b2d38ee29cc2c153"
+    },
+    {
+      "path": "bc-merged-20261007/fresh-residual-alpha-13_25-u0125.json",
+      "bytes": 1632,
+      "sha256": "c2057abd09abdcc99594d6b21a6391869da121800b33d586c54eba20dc19adf2"
+    },
+    {
+      "path": "bc-merged-20261007/fresh-residual-alpha-3_5-u0125.json",
+      "bytes": 1628,
+      "sha256": "dde4a7402c47f285fbef051429e05ff40794dfa6561ab50c3de13e6822df9ed7"
+    },
+    {
+      "path": "bc-merged-20261007/fresh-residual-alpha-9_10-u0125.json",
+      "bytes": 1626,
+      "sha256": "d6abc33fb4d8c572746cfc9e4cbcf530e0071bcac28c921c3727fb3e12b4504b"
+    },
+    {
+      "path": "bc-merged-20261007/full-structure-verification.json",
+      "bytes": 809,
+      "sha256": "8e71da7bb9258cca39fb4863c7382a34c3ae91c13a8ab39d7fc38e1c0d3e6c78"
+    },
+    {
+      "path": "bc-merged-20261007/full_structure_verify.py",
+      "bytes": 2737,
+      "sha256": "345f10123cbf19d3f8954f4d14f695e9f5424dc122b1cadd51f93bb26856b34b"
+    },
+    {
+      "path": "bc-merged-20261007/residual-fresh-subset.json",
+      "bytes": 1833,
+      "sha256": "cbc60a170d4087c371775173963d617eba1f3fe603649af3a8b4f0696592888c"
+    },
+    {
+      "path": "bc-merged-20261007/residual-spotcheck.json",
+      "bytes": 1833,
+      "sha256": "cbc60a170d4087c371775173963d617eba1f3fe603649af3a8b4f0696592888c"
+    },
+    {
+      "path": "bc-merged-20261007/residual_spotcheck.py",
+      "bytes": 3072,
+      "sha256": "7d7db86c74072a7ffc2fcf65cf4aa779e6ad9a2d19e0a17a93df438840252aba"
+    },
+    {
+      "path": "bc-merged-20261007/shared-fourier-independent-verification.json",
+      "bytes": 2235,
+      "sha256": "7372c43a57e82b24683d128f8877bf78bcf4856a4230f41c34408c8b9cbaba1e"
+    },
+    {
+      "path": "bc-merged-20261007/shared-fourier-nodes-alpha-13_25.json",
+      "bytes": 629783,
+      "sha256": "15c106b66c5419849d39fe5f4b567ac08b2398fc540402f06994b6385be3866c"
+    },
+    {
+      "path": "bc-merged-20261007/shared-fourier-nodes-alpha-3_5.json",
+      "bytes": 628370,
+      "sha256": "a98fb2591fc450277d639c7c954a107c70c3a9371fa20db400087192092c1ae2"
+    },
+    {
+      "path": "bc-merged-20261007/shared-fourier-nodes-alpha-9_10.json",
+      "bytes": 624300,
+      "sha256": "286fe81344db29e2d253a2a45156cc3d7124ef8e81249367692e8e4d77b6e399"
+    },
+    {
+      "path": "bc-merged-20261007/shared-fourier-spread.json",
+      "bytes": 10372,
+      "sha256": "ad575ed0ee73910edb02c7b073c9193e756b87b991acf5566361a1da2851e311"
+    },
+    {
+      "path": "bc-merged-20261007/shared_fourier_spread.py",
+      "bytes": 8058,
+      "sha256": "c195274c74a1f64111dd2da949cdb2e3fc92b83e2f932ee1c991e374bf95b1c7"
+    },
+    {
+      "path": "bc-merged-20261007/source-immutability-final.json",
+      "bytes": 156,
+      "sha256": "72479e60f27aca9bfb8ec128b0a6fede8e3996c8f81798a11575d6b4863cb387"
+    },
+    {
+      "path": "bc-merged-20261007/source-inventory.json",
+      "bytes": 1553,
+      "sha256": "f18405e6b39e8cb5dad2ed7b745274e48636c67cabdd72b3bda22ba62c2d286b"
+    },
+    {
+      "path": "bc-merged-20261007/spread-decision-contract.json",
+      "bytes": 902,
+      "sha256": "84b105c21e2e9c9e1b0096e06f92b5ac0a122875906a695994861fa8d55edeba"
+    },
+    {
+      "path": "bc-merged-20261007/spread-decisions.json",
+      "bytes": 6651,
+      "sha256": "ef9ee8f191a8b44d8593cfbd2a03daacc7b35a04e105241b3175e4f3e32a35e6"
+    },
+    {
+      "path": "bc-merged-20261007/spread_decisions.py",
+      "bytes": 2554,
+      "sha256": "94633bcc55167fc87c5d52e832ef7458e3977b0216ecd69f742d6d66e0229fb8"
+    },
+    {
+      "path": "bc-merged-20261007/startup-independent.json",
+      "bytes": 107516,
+      "sha256": "55eb8621e9d738fd8b9bbae36d5f01de000ee3df65e62a0cc964108548c4ef58"
+    },
+    {
+      "path": "bc-merged-20261007/startup_independent.py",
+      "bytes": 5007,
+      "sha256": "33319249212f955e081b545a9d04ab04056c9547d042b317eaf9636a7f1be223"
+    },
+    {
+      "path": "bc-merged-20261007/verification.json",
+      "bytes": 157794,
+      "sha256": "5c943f08162173ab70831be13cdf04aad484d62c4a247c597574e35802d0c56f"
+    },
+    {
+      "path": "bc-merged-20261007/verify_shared_fourier.py",
+      "bytes": 5427,
+      "sha256": "382afc4828159337967ae100388151b8168c7d6bf84a756cd5506204b9e4ed4a"
+    },
+    {
+      "path": "heston-frontier-20261007/frontier-manuscript-review.json",
+      "bytes": 7504,
+      "sha256": "e5e63e88cadef2d8039014028d234e7431d15fe8634aec439400a5a12d2fb168"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-omission.json",
+      "bytes": 33668,
+      "sha256": "f48d62f30c419dc262bc26fb33e0d756d2fd57f6fa6135293734d54b198f666f"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-omission.py",
+      "bytes": 29591,
+      "sha256": "693568abca58750d5ce39a0e563522282fda066bddcf8a7d63abaae8a63c0525"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-transfer-supplement.json",
+      "bytes": 7012,
+      "sha256": "38bd519715698f99b1c283d697747c3a93fbd11dc7c77f48c48682b1353e107b"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-transfer-supplement.py",
+      "bytes": 20034,
+      "sha256": "9351e94ea2606b4f47423f98a02f9cbb29120d671e5450613fc6d570e2283933"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-transfer.json",
+      "bytes": 7822,
+      "sha256": "217a2cb0c1efdffe4283dab6c889a444fdc3373e320e8d806e55a7bc14b1bfda"
+    },
+    {
+      "path": "heston-frontier-20261007/independent-transfer.py",
+      "bytes": 16754,
+      "sha256": "4a7116ee5993bc134a0605206cf568fa3d56f3808d01ec4b1442020d7763118e"
+    },
+    {
+      "path": "heston-frontier-20261007/manuscript-revision.json",
+      "bytes": 427,
+      "sha256": "1e2eee89a2da6a2ca064b6b3f01bde6b9bb0fdae1b2f0ccdc823ff81abfe905e"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-aggregate.py",
+      "bytes": 13393,
+      "sha256": "d6a2d08aaf3a27da21371e7169828f8e02ec9e8d8819fa40ab06f010cc2a8bf9"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-contract.json",
+      "bytes": 2120,
+      "sha256": "0fe14a0ca50af8d5d2f5140b1eaa3dd7c7da81afd52433ced563afa949e7b5e3"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-full-execution.json",
+      "bytes": 331,
+      "sha256": "71c9a046ec8d5c29f67b1a61b64c96d42ad4b2ae89ea5f1e77d982356e32fb9f"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-instrumentation.json",
+      "bytes": 1964,
+      "sha256": "c5aabd044af68598c5fb93e4bc5426fed667d9f2bd88ef3af4f9b5972025305e"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-node-ledger.json",
+      "bytes": 4730928,
+      "sha256": "221e92d0cb9aca8d96590b2a381a41941463001adb53da465a9b80a3348c43e9"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-preflight-execution.json",
+      "bytes": 346,
+      "sha256": "adbbff7dea5e6064b121c2a5ac9d0673771f9ec26bd3c81dbe30704dbc0389bd"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-preflight.json",
+      "bytes": 5882,
+      "sha256": "fd60f436602a52b05a302aee89455374f65ac6dee02f3a5ac5923bf0a326f390"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-propagation-contract.json",
+      "bytes": 1157,
+      "sha256": "45efa9aa45641e598bea1de62416df8696c6175d66907366233e8ed9504d8b06"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-residual-generator.py",
+      "bytes": 21958,
+      "sha256": "d661d4de6a95a2471015f43e967423b4718bf530f174ec2f0585288f9fa86ee2"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-residual-high.json",
+      "bytes": 115744,
+      "sha256": "e278dad2333cbc787909da9051f0e397d6e4a66bdbaba641f14634ddf8c9d520"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-residual-preflight.json",
+      "bytes": 119571,
+      "sha256": "920841073616a3fb7b66a7c628537f12564e1ac77be31baf445f357266a28f2c"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-results.json",
+      "bytes": 10075,
+      "sha256": "5c07287206fbeb65d4045a20afc209619a3c9a2650565a733c55f0ea91f8221f"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-run.py",
+      "bytes": 1312,
+      "sha256": "d4ea2b802244f6cfa14f02ffffeb8fe1bba23def9abe25a1b982215cac25e657"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-time-high.npz",
+      "bytes": 32125455,
+      "sha256": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-time-preflight.npz",
+      "bytes": 253745,
+      "sha256": "0d3c00492e072df24718bc1a273f8107cb24219323b579404892aa48c56b52b7"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-verification.json",
+      "bytes": 35674,
+      "sha256": "b84959f8f456a7747221e25230e825eb9f31fd1c1cc7d392551eaca0d1cdc7ed"
+    },
+    {
+      "path": "heston-frontier-20261007/omission-verify.py",
+      "bytes": 8083,
+      "sha256": "155df22af7213eb0b1b70286046653b62fa5aa5716c0db86e1db51bc22039143"
+    },
+    {
+      "path": "heston-frontier-20261007/packaging-first-attempt-diagnostic.json",
+      "bytes": 2646,
+      "sha256": "a1f06dcc36b4e72e17fdf745d2cc1ee6362b7e0546b2e411301dcd1a7590db19"
+    },
+    {
+      "path": "heston-frontier-20261007/public-finite-download.json",
+      "bytes": 372,
+      "sha256": "839a5a526c6f72e7e9c87bd90b987084a53279f6a3ecc80ac29071e1bea091b0"
+    },
+    {
+      "path": "heston-frontier-20261007/publication-finite.json",
+      "bytes": 1471,
+      "sha256": "dd9badd3bc0b6ce24b6fd18921560e6dd2881d62ae55d1dca271544806c77d6f"
+    },
+    {
+      "path": "heston-frontier-20261007/run_frontier.py",
+      "bytes": 6342,
+      "sha256": "af45842127a44e69a13a601f4ec28cbbfedcd8626d70d2c96ff67c0af9ff3a94"
+    },
+    {
+      "path": "heston-frontier-20261007/theory-evidence-ledger.json",
+      "bytes": 3436,
+      "sha256": "9222e9345382d5608566ceae3a93d58d1676ab72398056d2eb13c9dd39d88644"
+    },
+    {
+      "path": "heston-frontier-20261007/theory-proof-gap-scan.json",
+      "bytes": 350,
+      "sha256": "840aceab66dcab591f16db460476602fcf546b032b1d268ae99175b5f79d1fd7"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-coefficients.json",
+      "bytes": 1029060,
+      "sha256": "3c20b65a1503725b5bc43e125071ce1ee02b638b95cb221a5190d136b3b04fb2"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-contract.json",
+      "bytes": 4284,
+      "sha256": "270510b08f7f7ef8ad4de4a57d9ea6c7f48e22269fcd6b9028b8b9bcccd130a6"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-execution-receipt.json",
+      "bytes": 6565,
+      "sha256": "431e173788b44f2649495fbc17bb58b99f85bd71fdfe8fd21a96cf9a1443f6d9"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-exponents-alpha-13_25.json",
+      "bytes": 735907,
+      "sha256": "2d4b355b8678194edd70c78c63e7561339729472f920648213a2d58f4a3bed1e"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-exponents-alpha-3_5.json",
+      "bytes": 721560,
+      "sha256": "81b5055f2cda4a71b6343396849cdb81bff1b621df6f3522dd8a9412d00067e2"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-exponents-alpha-9_10.json",
+      "bytes": 571192,
+      "sha256": "cc36fae2ede451efcb410b591674f09dde7b34d9192034c69d1bb7a40fcd6ca0"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-fast-output.json",
+      "bytes": 1316,
+      "sha256": "395589f1203fc0866dc0e69f7209d336c8282f92b14d359d60f4a3a3e435573d"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-node-ledger-alpha-13_25.json",
+      "bytes": 809897,
+      "sha256": "e307d854962ace5900ff3557723e9fbfdf51916e6f69941bc652a15a161f945a"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-node-ledger-alpha-3_5.json",
+      "bytes": 808397,
+      "sha256": "ad8e7097c651019f56420ec8befd4bf1d210df8d51bb93ac632b85bdd31cd36c"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-node-ledger-alpha-9_10.json",
+      "bytes": 804548,
+      "sha256": "f61153bb458f62acacafc18b57d1bc3b3103fa27a066425e45e0d18496c960c9"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-preflight.json",
+      "bytes": 3240,
+      "sha256": "3fa0cb6dc862b4324323e13a838e8ab1a9442c361e08423b1fd6ddfe0f457266"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-pricing.py",
+      "bytes": 16772,
+      "sha256": "2dd0adf566fc959c9ef300cff341015b3ca0fafeb80504fcb152e3c9bcecbd71"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-quarter-fullref.py",
+      "bytes": 10765,
+      "sha256": "c2b00f76583e6794a7b3c510fb5387132967b30aa82499c78e89aaff5eccebf2"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-quarter-time-local.py",
+      "bytes": 6716,
+      "sha256": "d5272d1c283ff06210f2245ac247091c8c153193ef93418aeec792476d2f9b73"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-results.json",
+      "bytes": 16098,
+      "sha256": "a2735a8a3102f55a7c0ca539b0eefd96625cbc025aaebc8d94c08e7790d647f2"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-supplement-contract.json",
+      "bytes": 2296,
+      "sha256": "058c04804fb3c4beb5fe48a7cfc917aec7918b9f1efa6a66625886d2427ea89d"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-supplement-exponents.json",
+      "bytes": 1201252,
+      "sha256": "23adcd2a13051eb2ee1dae758722ef648c4ebc0ffbb2c0b2377aa7072ca7532e"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-supplement-node-ledger.json",
+      "bytes": 1396883,
+      "sha256": "5631bd2f68bc578a7ad4192c423265673c66b71c918f1fcffdcd7d3b0daefe87"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-supplement-results.json",
+      "bytes": 5616,
+      "sha256": "2a063d7a922a193a2aa2b3f19a6b4bc77c266f5dc01433279130ca07cb0d5ebd"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-tail-alpha-13_25.json",
+      "bytes": 342480,
+      "sha256": "a3b18985769659c848d6c20d9e07c6e6dbe5e209c2b43140e750c2729a046933"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-tail-alpha-3_5.json",
+      "bytes": 342459,
+      "sha256": "4400811ab9b5187f0f198dc81b90c67fc5564d6b8dbe8ed043d52d613e13b893"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-tail-alpha-9_10.json",
+      "bytes": 342218,
+      "sha256": "689a96e4902ff218fcc11b6923235ea2db508db7efc3f79b4a8bd033300f8535"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-time-local-contract.json",
+      "bytes": 1717,
+      "sha256": "e3ab101fa20a33e6c898920f11be292f05d056c6a99a3f95d587ee43ade4dc40"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-time-local-nodes.json",
+      "bytes": 815021,
+      "sha256": "2c0b6b15996577ed713ee316a7323ab70ff62b2615ccb4bed321ec0ac3d54016"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-time-local-results.json",
+      "bytes": 4119,
+      "sha256": "3fb031ce0c90a678df1efc18406cd372a4b4c3c50040a45bf6b93236ae5b490f"
+    },
+    {
+      "path": "heston-frontier-20261007/transfer-time-local-weights.json",
+      "bytes": 23261,
+      "sha256": "a06bde364488c942a275df6e3cea146f80d4ed26bd27ce8a333959a208dbf545"
+    },
+    {
+      "path": "heston-nine-point-20261007/BUNDLE-ACCEPTANCE.json",
+      "bytes": 33654,
+      "sha256": "c5cccc577ef46548f6cad21f56c7fb714edb98485c3af6c3f0d084df13950b03"
+    },
+    {
+      "path": "heston-nine-point-20261007/bundle-execution-receipt.json",
+      "bytes": 7066,
+      "sha256": "7e5e2d2629a9d4660c1b41a8440da3ca4e867444ff553313e82992f45fa4b936"
+    },
+    {
+      "path": "heston-nine-point-20261007/check-time-envelope.py",
+      "bytes": 8162,
+      "sha256": "0b718253db03cf2d4a01a028d342819d15ad819e4986f745b295dfcfb3757b72"
+    },
+    {
+      "path": "heston-nine-point-20261007/continuous-residual-with-time.py",
+      "bytes": 21700,
+      "sha256": "652614e41c5c46e14379df6eec187fcfc402f22d6c9d87c13443f2026b8b278b"
+    },
+    {
+      "path": "heston-nine-point-20261007/experiment-contract.json",
+      "bytes": 2179,
+      "sha256": "597bcbc48d2105d02d98575a86962ab8f5dda5b132a44a20a2ec0d3476bb12f1"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history-independent-verification.json",
+      "bytes": 4159,
+      "sha256": "5b6bfccaf3fa0fc62afde286899b9823e60eeb9433e7d318e3c0d6488755dba5"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history-nodes-alpha-13_25.json",
+      "bytes": 352076,
+      "sha256": "a0b2df22264e111b177541383eecf01bba63f47aac6296c3428f832a0c5ceca7"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history-nodes-alpha-3_5.json",
+      "bytes": 350788,
+      "sha256": "a02e181c9f4be41a127dc282874889b80babd5f17dc6f7b78e1d95b2773089bd"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history-nodes-alpha-9_10.json",
+      "bytes": 347854,
+      "sha256": "e92374215fb47acdc92425697f1009b4084014ee174dd6b8c6b1db90cc3ea167"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history-results.json",
+      "bytes": 71778,
+      "sha256": "e143a44aa9d70a05cd581b5204f5c40759cc149f2073406392f8dfafad44d346"
+    },
+    {
+      "path": "heston-nine-point-20261007/finite-history.py",
+      "bytes": 7822,
+      "sha256": "3cc275c36994ad4a634670d365cf75f5c5cd064142c9bcf9740a9b3a7ab48d4e"
+    },
+    {
+      "path": "heston-nine-point-20261007/fresh-all-node-time-residual.json",
+      "bytes": 120720,
+      "sha256": "c39a8476662e28d38225d858cf3216e570ea06c91d706ce3f7d242d3d00ae25a"
+    },
+    {
+      "path": "heston-nine-point-20261007/independent-time-local.json",
+      "bytes": 741745,
+      "sha256": "e30147b61e828f4eb34aa3ea5883d8cc77ff3e6ed132d774fd57229d421176b0"
+    },
+    {
+      "path": "heston-nine-point-20261007/independent-time-local.py",
+      "bytes": 20719,
+      "sha256": "8f59dce044d2ea1209cd5007aadaf3e18db05620833df5372291f4c4bcb9e1d8"
+    },
+    {
+      "path": "heston-nine-point-20261007/literature-ledger-readback.json",
+      "bytes": 2191,
+      "sha256": "74dc25ea1394ed5845609478eb64df133b96fd5dd5685b1a17795c0808a3cbf8"
+    },
+    {
+      "path": "heston-nine-point-20261007/literature-ledger-readback.py",
+      "bytes": 8373,
+      "sha256": "c734388d010e5c82dafb0717cbe3f6f381c2e08f23b132996e1a670474086575"
+    },
+    {
+      "path": "heston-nine-point-20261007/make_portfolio_contract.py",
+      "bytes": 3593,
+      "sha256": "2c9d2ae2b34ef6b13e414969e1865fb92c6fbc305218eaa4673297dfd5551f36"
+    },
+    {
+      "path": "heston-nine-point-20261007/new-menu-floor.json",
+      "bytes": 210597,
+      "sha256": "5f83f67a01eaec47080885fb3995aa8e8c4fbee305b26cd66b73e597f9f64d8d"
+    },
+    {
+      "path": "heston-nine-point-20261007/optimal-upgrade-menu.json",
+      "bytes": 178172,
+      "sha256": "3b5bfb4338599a1c6c0961e2d11e9fcc612fece3246e9cda7236ddf6fd1afe28"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-comparison.json",
+      "bytes": 322831,
+      "sha256": "4d042a5103e8d26daf8b711dd790b1faf6ab6ac4dff0ac6a870c59db98fe487d"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-contract.json",
+      "bytes": 13072,
+      "sha256": "ad341807ede1044b7a410c89cd82d682f0e90fe013c938f401387d6e5b7cb74d"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-experiments-baseline.py",
+      "bytes": 11323,
+      "sha256": "7bd518070b033add78633638f828be1709b1d337a235295b015c737b866b2582"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-experiments.py",
+      "bytes": 13472,
+      "sha256": "72fba4bac693560be89e7e9d0ce38cd7020d41f50210bce8cd3193b8dc598ac0"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-replay-receipt.json",
+      "bytes": 1742,
+      "sha256": "b5e2e048e0e85692e211743792eaec62cdbb4be0325798fe9977ddc2ff028ceb"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-report.py",
+      "bytes": 5763,
+      "sha256": "90dcaf4a2a04f7375e607e6dc1d689a3adf3e8f78847bac1f7adcb22882e2f14"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-research.md",
+      "bytes": 9898,
+      "sha256": "1a5f52864114a86e79c9fec2fcf9e52afd5bce0057eefcc03694ae217dc54be6"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-results-finite-history.json",
+      "bytes": 874331,
+      "sha256": "4c2eda21f8a1485df1e67e72068343b6d947cdcf82d31a2edce3198da12fdd1c"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-results.json",
+      "bytes": 862547,
+      "sha256": "71cf96144ce39f1371b835b7cac1e9e776a3eef7a4845acd723ea5f3b44ec736"
+    },
+    {
+      "path": "heston-nine-point-20261007/portfolio-verification.json",
+      "bytes": 1993,
+      "sha256": "e7abf4d806795002e5086364eb62af89ae540b5e9ab583835f7e1de93c2b47f3"
+    },
+    {
+      "path": "heston-nine-point-20261007/retain-time-envelopes.py",
+      "bytes": 2945,
+      "sha256": "6ca32949c80c29c242da56d81ac7f39596a9abf98fd98848b405139c8366f9e3"
+    },
+    {
+      "path": "heston-nine-point-20261007/run_evidence.py",
+      "bytes": 6272,
+      "sha256": "ef4334b7ba4fc2de63b70bdd435a32a52fde4b8ab19654b76dfd7432fa78234b"
+    },
+    {
+      "path": "heston-nine-point-20261007/theory-proof-gap-scan.json",
+      "bytes": 350,
+      "sha256": "840aceab66dcab591f16db460476602fcf546b032b1d268ae99175b5f79d1fd7"
+    },
+    {
+      "path": "heston-nine-point-20261007/theory-research.md",
+      "bytes": 25894,
+      "sha256": "e01fa5dd7f4e616b5fa646478ae5f224b2d773bb04e2f808e0668da16eb0c774"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-envelope-verification.json",
+      "bytes": 1876,
+      "sha256": "033d72ae61c06292121c74d05079b4e5508a2e2c362c6b99a746df697f512118"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-instrumentation.json",
+      "bytes": 1603,
+      "sha256": "ac4c7c4b7b047ca4280a480c46a54d20b4964a8c0c5df538f53749b8d8794449"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-local-contract.json",
+      "bytes": 2702,
+      "sha256": "72bd515e4e1cd7496d7ffab39f33b93b09b350f5055b2ad28aec95b45d4cb273"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-local-node-ledger.json",
+      "bytes": 3626035,
+      "sha256": "3d417473528ef560d90b400c8f460868040314689aa43686947bdc0c26c79a66"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-local-propagation.py",
+      "bytes": 10246,
+      "sha256": "3de42c0d8eccc87344cd36678b34e3ad4c9e0d012b64b8f22435d09a191727ab"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-local-results.json",
+      "bytes": 4251,
+      "sha256": "d512b19449fdd6b4109ec59b3ac94cdf907a32137a84e4d38dc91e09a86c70c9"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-local-weights.json",
+      "bytes": 22215,
+      "sha256": "f723c278779565d83f597abdab29a6e7ed483b31a14c08010a7a4147c859306c"
+    },
+    {
+      "path": "heston-nine-point-20261007/time-residual-alpha-13_25.npz",
+      "bytes": 32251218,
+      "sha256": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de"
+    },
+    {
+      "path": "heston-nine-point-20261007/verify-finite-history-independent.py",
+      "bytes": 11499,
+      "sha256": "d35a2d88efe34877845f931c8f42e9e365b81fbd1371b9ded249d588753ac796"
+    },
+    {
+      "path": "heston-nine-point-20261007/verify-portfolio-identities.py",
+      "bytes": 3849,
+      "sha256": "3b7c153204cfcf996d2e8410c668fcd967b9ebd30a8aa71275024785aaecb71f"
+    },
+    {
+      "path": "english-heston-release/code/DATA.md",
+      "bytes": 2842,
+      "sha256": "a3db573486ba4f58373fe89c861295300bb73bb8fc24adaef86a965306f32ce2"
+    },
+    {
+      "path": "english-heston-release/code/make-manifest.py",
+      "bytes": 1229,
+      "sha256": "30a4c201e4229d218f00107e311aa20852bf5f0b334845e21e7bd4ebe53e1e97"
+    },
+    {
+      "path": "english-heston-release/code/MANIFEST.json",
+      "bytes": 13692,
+      "sha256": "5668c4b56ad3590fe7ec8ef565ad38d39a19be2b86953eff7a9d5e142a40ce23"
+    },
+    {
+      "path": "english-heston-release/code/NOTICE.md",
+      "bytes": 1099,
+      "sha256": "dc05bb9874722f7c11db83799b800f7f4b48984cd0bb7e964359aacee00e783e"
+    },
+    {
+      "path": "english-heston-release/code/PROVENANCE.json",
+      "bytes": 30103,
+      "sha256": "14b01613065df9add7adcb719b885a849e0c68fcf4a6a19822d1d353b68416fb"
+    },
+    {
+      "path": "english-heston-release/code/QA-summary.json",
+      "bytes": 3099,
+      "sha256": "7119a1cd21f8d8a566f6257e8b1d7dae8a55dae77bad3cf7a11f2d8d0a0a11bb"
+    },
+    {
+      "path": "english-heston-release/code/README.md",
+      "bytes": 4487,
+      "sha256": "b5aac34c5c9d83978bbe2a6ce99dbdc851ef8600e97ce153aadc56e6970a3579"
+    },
+    {
+      "path": "english-heston-release/code/replay-semantic-check.py",
+      "bytes": 3069,
+      "sha256": "36b3dc8c515319c628652d3402813125dc0157f8cbccbdcddd2d5e3bb8cba131"
+    },
+    {
+      "path": "english-heston-release/code/requirements.txt",
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    {
+      "path": "english-heston-release/code/run.py",
+      "bytes": 18428,
+      "sha256": "991efdaffe71669bc06a99263260d0f8c82d95b7bf2fdeee4436631e76681fb4"
+    },
+    {
+      "path": "english-heston-release/code/SCOPE.md",
+      "bytes": 2223,
+      "sha256": "f16e173a431edcd66d4b74e393cead150839be1de2b9759554195f67a5682165"
+    },
+    {
+      "path": "english-heston-release/docs/proof-map.md",
+      "bytes": 6376,
+      "sha256": "5bb66a6a0176723488fb1fcd7f459f3c03702d0e870ec8f808ee97cc53fc5b2a"
+    },
+    {
+      "path": "english-heston-release/manuscript/rough-heston.md",
+      "bytes": 88266,
+      "sha256": "cd47607af6dd44304fed4b76a766c5d04198c3626689ee1dbf8e72fe2ed24870"
+    },
+    {
+      "path": "english-heston-release/code/classical/field-cell-integrals.json",
+      "bytes": 2511575,
+      "sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4"
+    },
+    {
+      "path": "english-heston-release/code/classical/field-independent-readback.json",
+      "bytes": 1616,
+      "sha256": "bebbfb5026c0da1d8c1cc498e348b946d53e99d2a6be1ad5d650e40bf395f7da"
+    },
+    {
+      "path": "english-heston-release/code/classical/field-result.json",
+      "bytes": 5403,
+      "sha256": "83ea632a837ea2caa1a2ac1f49ce72960726180d53a6dfbb08f988ce1c9b2003"
+    },
+    {
+      "path": "english-heston-release/code/classical/field-validation.json",
+      "bytes": 1340,
+      "sha256": "60f8e218636f59b7caf2c0e54ef8430926bcfc4bea481fef2ec263a245f06c4f"
+    },
+    {
+      "path": "english-heston-release/code/classical/input-validation.json",
+      "bytes": 622,
+      "sha256": "aaa7597d6b58f8fb58adf467fb299f4a83b62ac27cb727fd0d3f0a4621b35b38"
+    },
+    {
+      "path": "english-heston-release/code/classical/MANIFEST.json",
+      "bytes": 1907,
+      "sha256": "96b5e22c8a7861cf596bd4b97d3b47f92f9d19d77d5f82d22b62ca68b35fbfee"
+    },
+    {
+      "path": "english-heston-release/code/classical/model_bounds.py",
+      "bytes": 4814,
+      "sha256": "9b17bf2070fb8727f91baa8409080b11866d04fea99e29f402fc99b439e2d9cd"
+    },
+    {
+      "path": "english-heston-release/code/classical/provenance.json",
+      "bytes": 3205,
+      "sha256": "b6b9bd72f605ed3f50c0588b6bb2a277d4ec84e2ef545644dfa4ffd8c5c279c1"
+    },
+    {
+      "path": "english-heston-release/code/classical/terminal-validation.json",
+      "bytes": 9436,
+      "sha256": "f4616d40f331e991503f962ad9a971fb9330884416b1824018e6806882752d22"
+    },
+    {
+      "path": "english-heston-release/code/classical/terminal767-historical-review.json",
+      "bytes": 9785,
+      "sha256": "f3baa5a88d42561741d25ea8a293826fc965091cf97c399e6126b26625180e54"
+    },
+    {
+      "path": "english-heston-release/code/classical/terminal767-input.json",
+      "bytes": 312370,
+      "sha256": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18"
+    },
+    {
+      "path": "english-heston-release/code/classical/terminal767-result.json",
+      "bytes": 35194,
+      "sha256": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f"
+    },
+    {
+      "path": "english-heston-release/code/classical/verify_field_receipt.py",
+      "bytes": 4633,
+      "sha256": "486bd5a1b45ead98e4e9b65cda76664106e9c5e761dcfad7727687155a9571c5"
+    },
+    {
+      "path": "english-heston-release/code/classical/verify_input_bounds.py",
+      "bytes": 1965,
+      "sha256": "45dc5eb5390895d6f1be1460a58b043b5e988e21dc6dbc3ec9dd071bd04808f8"
+    },
+    {
+      "path": "english-heston-release/code/classical/verify_package.py",
+      "bytes": 1375,
+      "sha256": "1b7a99046d4ebaf1322d679e3bef1f94a89d0bacdb9ea5724816598f49158dfb"
+    },
+    {
+      "path": "english-heston-release/code/classical/verify_terminal.py",
+      "bytes": 9919,
+      "sha256": "c287577591af425b51fe0343eb6dd2dee5c8d69edcb6586df1071e68682f33d5"
+    },
+    {
+      "path": "english-heston-release/code/frozen/calibration-contract-finite-T05.json",
+      "bytes": 4457,
+      "sha256": "2b7576dcc5b7cae9a3ae0aebe8413322e048da308c21f8efb07caad072aa0722"
+    },
+    {
+      "path": "english-heston-release/code/frozen/compact-rough-layer-certificate.json.gz",
+      "bytes": 36204343,
+      "sha256": "6a89ce3cf9db70f34140277c569f26b6ea251668543a9ae69318f379be022cb8"
+    },
+    {
+      "path": "english-heston-release/code/frozen/compact-rough-layer-independent-check.json",
+      "bytes": 1491,
+      "sha256": "121eccd9a216e18f30839560cd4b2a9451b0d233fba8a8ae71f519cce039b367"
+    },
+    {
+      "path": "english-heston-release/code/frozen/direct-tail-certificate.json",
+      "bytes": 719251,
+      "sha256": "bdbe6a73df03d90b68992763f98ce6927648e171b54bf46a308c8f867c30ab58"
+    },
+    {
+      "path": "english-heston-release/code/frozen/f8-price-betap9-u64-v3.json",
+      "bytes": 560075,
+      "sha256": "1789e1e9372b1b11f38c64a9d398518caba9886b02fce291d45d2c92718ab05b"
+    },
+    {
+      "path": "english-heston-release/code/frozen/f8-price-point052-v3-u64.json",
+      "bytes": 562416,
+      "sha256": "d9b5247734e9d03a52f875c94651c85baaf155989a4a40c211854ad4b4216e6f"
+    },
+    {
+      "path": "english-heston-release/code/frozen/f8-price-point06-v3-u64.json",
+      "bytes": 561794,
+      "sha256": "5294e2af94564bd66136c09e350d1de4b0f3f8f64497b6f1b9ad1dbb156ee2e8"
+    },
+    {
+      "path": "english-heston-release/code/frozen/field-input-guards-betap9-u80.json",
+      "bytes": 377,
+      "sha256": "441226a427abeeded2086a9d093a6801938f7facd95fa844d7b3ba946ef8bd28"
+    },
+    {
+      "path": "english-heston-release/code/frozen/field-residual-betap9-u64-v3.json",
+      "bytes": 121823,
+      "sha256": "d4872bea4adbce637e980aec4d4ddb1124f7f31af0c47b4e84ba3d1457dc9203"
+    },
+    {
+      "path": "english-heston-release/code/frozen/field-residual-certificate-point052-v3-u64.json",
+      "bytes": 120569,
+      "sha256": "5ff2ae7c766fca89ebeb98e4eaaf482ed183a6423a89ec943c1f867e9db562ed"
+    },
+    {
+      "path": "english-heston-release/code/frozen/field-residual-certificate-point06-v3-u64.json",
+      "bytes": 121084,
+      "sha256": "1d2161905c6e3a110e77822a4c6269734ceda9bc99d41f2917aa327d49165575"
+    },
+    {
+      "path": "english-heston-release/code/frozen/finance-usecase-calculations.json",
+      "bytes": 11180,
+      "sha256": "666439b6017d49b09dcc584183ab00e5b0f57ec6254fae05958e042ed4d77686"
+    },
+    {
+      "path": "english-heston-release/code/frozen/finite-candidate-calibration-result.json",
+      "bytes": 17934,
+      "sha256": "30d5304d7607a5532d9ddc84f4bf94544234428d5efa812768fd734120d70750"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap52-u128-exponent-certificate.json",
+      "bytes": 930295,
+      "sha256": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap52-u128-forward-weights.json",
+      "bytes": 297606,
+      "sha256": "2dc569bdfad4c5c0bad13511646ce1aa04f38d48a667bbd87d7eecbc09a54c04"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap52-u128.json",
+      "bytes": 1383,
+      "sha256": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap52-u128.npz",
+      "bytes": 32146571,
+      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
+      "bytes": 929758,
+      "sha256": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap6-u128-forward-weights.json",
+      "bytes": 297898,
+      "sha256": "7178d422841aeb591b52885cdf38b2466ff0ae41fea8576788310c7935620075"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap6-u128.json",
+      "bytes": 1381,
+      "sha256": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap6-u128.npz",
+      "bytes": 32139003,
+      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u128.json",
+      "bytes": 1381,
+      "sha256": "39d283ce1fb1ead09a09bae9c7a41a1d52af27069d8638646ebd90ff9dce6780"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u128.npz",
+      "bytes": 32105032,
+      "sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
+      "bytes": 582686,
+      "sha256": "80d9f25f579b9c9cffd5b07dabdb357c6a5636d2e2cb2ee79e3abdeb8a7ffb09"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u80-forward-weights.json",
+      "bytes": 150025,
+      "sha256": "a262cb14cc6d4b0fc027b3dd34deffd147a5ab69f700f247cd910299106d6500"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u80.json",
+      "bytes": 1375,
+      "sha256": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029"
+    },
+    {
+      "path": "english-heston-release/code/frozen/fixed-field-betap9-u80.npz",
+      "bytes": 10050564,
+      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8"
+    },
+    {
+      "path": "english-heston-release/code/frozen/frozen-field-input-validation.json",
+      "bytes": 598,
+      "sha256": "475af43fae1ace7e39b582adb406721b8a04ee13654c61cc208a7c70dc0196ad"
+    },
+    {
+      "path": "english-heston-release/code/frozen/frozen-pade-numeric-output.json",
+      "bytes": 8147,
+      "sha256": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039"
+    },
+    {
+      "path": "english-heston-release/code/frozen/normalized-quote-bands.json",
+      "bytes": 24870,
+      "sha256": "88601bc040b1b1445570108b236d9bba198c581e88e50e4cd554a4104ab1ffd7"
+    },
+    {
+      "path": "english-heston-release/code/frozen/residual-node-certificate-betap9-u64-v3.json",
+      "bytes": 130052,
+      "sha256": "f70d3f2efe063f1e800a909603be59b6e95701b882d4c721e308363d49489ed7"
+    },
+    {
+      "path": "english-heston-release/code/frozen/residual-node-certificate-point052-v3-u64.json",
+      "bytes": 129262,
+      "sha256": "0dba42c8bd05ca8581115e37d5a838d04ab1ac47f05e465154dd5865433eeba6"
+    },
+    {
+      "path": "english-heston-release/code/frozen/residual-node-certificate-point06-v3-u64.json",
+      "bytes": 129518,
+      "sha256": "91637f6ef315311737dc2d96fb317c416149f337db85af900866fd95c5a7764c"
+    },
+    {
+      "path": "english-heston-release/code/src/calibration-field-input-check.py",
+      "bytes": 1337,
+      "sha256": "35317d122e0cbc77300d3d1e6a0602d53d1f9dc3046ca0d91187d81704057a00"
+    },
+    {
+      "path": "english-heston-release/code/src/calibration-interval-aggregate.py",
+      "bytes": 8241,
+      "sha256": "77664106c45e31376c7e20425228ba08819df6eb223eb52ee440b4d0c6da4ee4"
+    },
+    {
+      "path": "english-heston-release/code/src/certify-field-residual-v3.py",
+      "bytes": 21226,
+      "sha256": "609a07b7a4104763a2a3a537e35b48e227518b0109436f22acef752512791507"
+    },
+    {
+      "path": "english-heston-release/code/src/combined-field-derivative.py",
+      "bytes": 3391,
+      "sha256": "0a21b2abfc4b68a0897cf99fdf8059607c114f04c7f431b3ae73768687221f57"
+    },
+    {
+      "path": "english-heston-release/code/src/compact-halfplane-certificate-v2-partial.py",
+      "bytes": 7497,
+      "sha256": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0"
+    },
+    {
+      "path": "english-heston-release/code/src/compute-finance-usecase.py",
+      "bytes": 6948,
+      "sha256": "979592646eea909677d539e6f5ad00cbd17b25a284bfdff6a84ba0f1d625b977"
+    },
+    {
+      "path": "english-heston-release/code/src/direct-tail-certificate.py",
+      "bytes": 3759,
+      "sha256": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5"
+    },
+    {
+      "path": "english-heston-release/code/src/exact-forward-moments.py",
+      "bytes": 5091,
+      "sha256": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1"
+    },
+    {
+      "path": "english-heston-release/code/src/exponent-field-certificate.py",
+      "bytes": 4608,
+      "sha256": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6"
+    },
+    {
+      "path": "english-heston-release/code/src/f8-node-price-aggregate.py",
+      "bytes": 21426,
+      "sha256": "fe39ac6f69ca9ca294ac43d1faade383d7866fde811dfaaf61a74cd2ea2b7a3a"
+    },
+    {
+      "path": "english-heston-release/code/src/field-residual-diagnostic.py",
+      "bytes": 4813,
+      "sha256": "e655b7feb700b6301859974f5a6cb8e030fe67c7982e57aa0e7316b1f1989d2e"
+    },
+    {
+      "path": "english-heston-release/code/src/finite-candidate-objective-aggregate.py",
+      "bytes": 13777,
+      "sha256": "529c4579f2c36c8f8b0a9ddfb8431139ee1f959f23e6c9649a26c47be146aab9"
+    },
+    {
+      "path": "english-heston-release/code/src/freeze-pade-output.py",
+      "bytes": 3314,
+      "sha256": "7d78ca16e474f49dec35a942876f2445172e450480c14e180a0ef53307a08c19"
+    },
+    {
+      "path": "english-heston-release/code/src/interval-pade-certificate.py",
+      "bytes": 9085,
+      "sha256": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2"
+    },
+    {
+      "path": "english-heston-release/code/src/price-profile-diagnostic.py",
+      "bytes": 6706,
+      "sha256": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b"
+    },
+    {
+      "path": "english-heston-release/code/src/residual-certificate-adapter.py",
+      "bytes": 6603,
+      "sha256": "dd3b3ff1af96d408351ba63e54adf31d1991202b3397fdfb85cf5ea1d70ab449"
+    },
+    {
+      "path": "english-heston-release/code/src/save-fixed-field.py",
+      "bytes": 3171,
+      "sha256": "5c8cf9c5b1d096b38cc5db3e2340efece72ce8f2be584258e092d2b016178f46"
+    },
+    {
+      "path": "english-heston-release/code/src/solver-diagnostic.py",
+      "bytes": 6659,
+      "sha256": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb"
+    },
+    {
+      "path": "english-heston-release/docs/classical-evidence.md",
+      "bytes": 29596,
+      "sha256": "e7a8e65fc6f65e731574a2cc872f51e97d1cc9116ac1edff003b15e82fb71f43"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+### Two proof chains and their meeting point
+
+| Chain | Inputs and implications | Scope of the conclusion |
+|---|---|---|
+| Production construction | Established six matching equations → raw determinant and numerator signs on a continuous compact parameter domain → Theorem 6.1 and the certified extension in Theorem 6.2 → well-defined Padé trajectory and recorded fast output | Structural validity of that specified construction. Pole freedom alone gives no model-price error radius. |
+| Independent pricing certificate | Probability model and transform assumptions → fixed independent reference field → complete continuous-history residual and real-part envelopes → Theorem 3.3 → characteristic-function disks → strip, omitted finite nodes, true infinite tail and outward arithmetic | Complete model-price error relative to the certified reference centre. This chain does not require that the reference field be the Padé trajectory. |
+| Meeting at the actual output | Certified reference centre minus the recorded production output → signed centre translation → shared Fourier disk image and complete remainder → directional and objective tests | Error and financial decisions for that actual output, with the same centre, disks and remainder in every matched comparison. |
+
+Theorem 6.1 is not an upstream premise of Theorem 3.3. The pricing certificate may use a distinct admissible field, including at a candidate outside the continuous Padé sign domain. That candidate's production output and its reference residual hypotheses are then checked separately. The deterministic centre translation is the explicit connection between the two chains.
+
+The direct-reference and centre-corrected alternatives are valid workloads, not objections to the error identity. A fully computed reference can be delivered as a price estimate with its own certificate. Adding the signed centre translation to a frozen fast output is another estimate and requires its own final outward arithmetic. Keeping the original output is useful when the research question is whether a previously delivered production value, a frozen library output or a repeated task is certifiable. Those workloads must be compared at a common model, maturity, task, tolerance and error scope; mathematical work counts identify reuse without a hardware-dependent speed claim.

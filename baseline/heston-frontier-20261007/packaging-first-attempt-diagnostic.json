@@ -1,0 +1,53 @@
+{
+  "status": "PASS_LOCAL_PACKAGING_DIAGNOSTIC_AFTER_ONLY_MISSING_DEPENDENCY_ADDED",
+  "scope": "Only the previously failed mutable frontier verification work copy was patched and executed. Fixed ZIP, stage, scientific inputs, code, papers, and numerical results were not modified.",
+  "original_archive_sha256": "d259f201c505ce2663c085ea1b03a1512a3fa50ac06b88a29baa9b016cc33f8a",
+  "required_dependency_closure_count": 49,
+  "missing_archive_dependencies": [
+    {
+      "path": "english-heston-release/manuscript/rough-heston.md",
+      "bytes": 88816,
+      "sha256": "cd47607af6dd44304fed4b76a766c5d04198c3626689ee1dbf8e72fe2ed24870",
+      "recorded_by": [
+        "transfer-preflight.json source_sha256",
+        "transfer-results.json input_sha256"
+      ],
+      "identity_verified_against_original_workspace": true
+    }
+  ],
+  "other_48_required_archive_files_match_workspace": true,
+  "initial_work_copy_required_input_drift": [],
+  "replays": [
+    {
+      "script": "independent-transfer.py",
+      "arguments": [
+        "--full"
+      ],
+      "status": "PASS_INDEPENDENT_COMPLETE_QUARTER_TRANSFER_READBACK",
+      "mode": "FULL_SOURCE_COMPONENT_AND_FAST_REPLAY",
+      "exact_field_nodes": 1539,
+      "actual_fast_candidates": 3,
+      "receipt_sha256": "9c8df86eb897b7765cf9773e3596f39d5648d103de89c34904f37cfbc3ddf27f"
+    },
+    {
+      "script": "independent-transfer-supplement.py",
+      "arguments": [
+        "--full"
+      ],
+      "status": "PASS_INDEPENDENT_QUARTER_FULL_REFERENCE128_COMPLETE_ACCOUNT",
+      "time_local_status": "PASS_INDEPENDENT_QUARTER_FULL128_128_BIN_COMPLETE_ACCOUNT",
+      "receipt_sha256": "5377bd75f917c6b60b3d343d11b4e73a5bc346a91d7aaaf20212b1a63360cf02"
+    }
+  ],
+  "repeat_omission_aggregate_check": {
+    "exit_code": 0,
+    "protected_file_count": 271,
+    "changed_protected_files": [],
+    "old_omission_results_sha256": "eb56c7f759d83f54b4a7e6ab3d3fae8863f7f616e1009116d564321f964a354a",
+    "new_omission_results_sha256": "3dca9b0f79011e25dceddeb3c3f4e6716ed921b4cc05618d5d88b28a70e0db2f",
+    "only_result_cost_metadata_changed": true,
+    "omission_node_ledger_byte_identity_preserved": true,
+    "reason_no_transfer_hash_block": "Neither transfer reader input/component maps use omission-results.json or omission-node-ledger.json. The old run_evidence mutates its nested verification-work, not the sibling frozen nine-point files used by the frontier."
+  },
+  "note": "Optional full high-frequency regeneration would create new cost/report identities and requires a separately rebuilt dependent certificate account; this diagnostic validates the default full acceptance path."
+}

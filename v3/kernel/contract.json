@@ -1,0 +1,99 @@
+{
+  "status": "FROZEN_BEFORE_NEW_RESOLVENT_RESULTS",
+  "scientific_baseline": "V2-N2048-alpha13_25-local128",
+  "alpha": "13/25",
+  "T": "1/2",
+  "nu": "2897/10000",
+  "rho": "-1489/2000",
+  "approximate_halfplane_allowance": "0",
+  "sigma": "1489/4000",
+  "physical_lambda": "4313633/40000000",
+  "curve": {
+    "alpha0": "2643/5000",
+    "lambda_xi": "5037/10000",
+    "V0": "131/5000",
+    "theta": "721/10000"
+  },
+  "reference_time_cells": 2048,
+  "propagation_bins": 128,
+  "propagation_edges": "j/256 for j=0,...,128",
+  "used_frequency_nodes": 513,
+  "finite_omitted_nodes": 512,
+  "full_finite_frequency_nodes": 1025,
+  "u_step": "1/8",
+  "u_max": "128",
+  "outer_resolvent_terms": 12,
+  "inner_curve_terms": 64,
+  "dyadic_bits": 100,
+  "tail_rule": "absolute remainder theta*t*x^M/(1-x), x=lambda*t^alpha<1; no ordinary-floating-point Mittag-Leffler values",
+  "curve_envelope_rule": "Use exact original all-intersecting-closed-cell local128 envelopes; no residual regeneration or history restart",
+  "comparators": [
+    "global_state_bound_when_legal",
+    "global_curve_bound",
+    "local_curve_bound",
+    "local_resolvent_bound"
+  ],
+  "price_task": {
+    "weights": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "-1",
+      "0",
+      "0",
+      "0"
+    ],
+    "strikes": [
+      "4400",
+      "4500"
+    ],
+    "index_point_scale": "211093/50",
+    "budgets": [
+      "1",
+      "1/2",
+      "1/4"
+    ],
+    "output": "exact V2 stored binary64 price vector; signed reference centre held fixed"
+  },
+  "invariants": [
+    "fixed reference exponents and all 12 centres",
+    "fixed actual fast prices",
+    "same finite omitted-node CF envelopes",
+    "same analytic-strip and true-infinite-tail remainder",
+    "same reference arithmetic remainder"
+  ],
+  "outcome_rule": "Retain all results and unresolved budgets; do not change alpha,T,sigma,bins,series lengths or output after looking at new results",
+  "scope": "One full declared point configuration. Kernel functional bounds, not observed errors or market calibration.",
+  "nonexpansive_control": "sigma=0 must reproduce the curve-kernel conclusion; not a negative-damping theorem",
+  "baseline_sha256": {
+    "experiments/N2048/candidate-13_25.json": "00a202ac0c8a3748912774d8b81c5e7243d8f8472fadf1605abfad522ad8c239",
+    "experiments/N2048/point-independent-13_25.json": "68353d8ed369b86d272306dba7e6c5288055d21bc817556a8ac8b157c6208659",
+    "experiments/N2048/field-13_25-residual-cells.npz": "68ab08fcfe72cdfeedc96ad5ac76b3700923cc447a836f17296736a41bd95c7b",
+    "experiments/N2048/residual-13_25.json": "9725db1a8d793d7f8021982bc03d3eb573ad98856f8df439d27e238c09c884de",
+    "experiments/N2048/exponents-13_25.json": "50813a59373073766a4f8a979ce4f8840efb174a049cb36ebc3aa005a31cc882",
+    "experiments/local128/candidate-13_25.json": "847f9188e4abfa797159b826db2c2dabfc4fe986ae9283b434afe8bdbb2c67ed",
+    "experiments/local128/weights-and-envelopes.json": "fdd12027c83c7100f64c7ac429349741ad7b743a7b02630c62302e0d1791db51",
+    "experiments/local128/independent.json": "b53039dbb88e40966b69ed6406052e1eb29e816a149d4c8c7963d3153af5ed41",
+    "experiments/local128/contract.json": "d134bef13f5fc401096896651db6340e4de2425a017b4a28f2d69295dc7364df",
+    "experiments/sdk/exact-forward-moments.py": "f3a714e0f0716313bf2017e51908c47bd40e89a0cdb2810c11663bd017b1864e",
+    "experiments/sdk/exponent-field-certificate.py": "3883673a799a9594889d2da37e993c77d077f0532234e216183db17f5a2b48e6",
+    "experiments/sdk/interval-pade-certificate.py": "62b3e470767ab8123ffe49c19d4059c5768aa8235866a7b95ecd821c229b5901",
+    "experiments/sdk/direct-tail-certificate.py": "df3e4482327764d0a452710aae0c05d6a8e7bd4e3eb120a644ea48706ae73baf"
+  },
+  "negative_controls": [
+    "negative_sigma",
+    "wrong_nu_scale",
+    "missing_initial_closed_cell",
+    "omitted_finite_node_removed",
+    "erased_true_infinite_tail",
+    "altered_signed_centre",
+    "understated_resolvent_eta",
+    "sigma_zero_not_curve"
+  ],
+  "privacy": "No host, environment, elapsed-clock or user-path fields collected"
+}

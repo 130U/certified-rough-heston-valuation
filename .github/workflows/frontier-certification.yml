@@ -1,0 +1,95 @@
+name: Frontier complete certification
+
+on:
+  pull_request:
+    paths:
+      - 'frontier-20261007/**'
+      - '.github/workflows/frontier-certification.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fixed-frontier:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the pinned numerical dependency
+        run: python -m pip install numpy==2.3.5
+      - name: Download fixed asset, match checkout, and run complete acceptance
+        shell: python {0}
+        run: |
+          from pathlib import Path
+          import hashlib,json,os,shutil,subprocess,sys,urllib.request,zipfile
+          expected='325f8b36649c0fcbf30b139d85be3fa3eaa5663bcdaac2c5cf0f9117d35789e5'
+          manifest_sha='f05f5602eac09b0a1464bb2c9356a20af4b5969f69f02058d8ca56aaa3fb0d02'
+          url='https://github.com/130U/certified-rough-heston-valuation/releases/download/v0.2.0-certification-20261007/Theodore-Ouyang-Heston-Frontier-Evidence-20261007-v2.zip'
+          archive=Path(os.environ['RUNNER_TEMP'])/'fixed-frontier.zip'
+          with urllib.request.urlopen(url,timeout=60) as response,archive.open('wb') as output:
+              shutil.copyfileobj(response,output)
+          assert hashlib.sha256(archive.read_bytes()).hexdigest()==expected
+          dest=Path(os.environ['RUNNER_TEMP'])/'fixed-frontier'
+          dest.mkdir()
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              manifest=z.read('FRONTIER-MANIFEST.json')
+              assert hashlib.sha256(manifest).hexdigest()==manifest_sha
+              rows=json.loads(manifest)['files']
+              assert set(z.namelist())=={'FRONTIER-MANIFEST.json'}|{r['path'] for r in rows}
+              for row in rows:
+                  blob=z.read(row['path'])
+                  assert len(blob)==row['bytes'] and hashlib.sha256(blob).hexdigest()==row['sha256'],row['path']
+              for name in z.namelist():
+                  assert (dest/name).resolve().is_relative_to(dest.resolve())
+              z.extractall(dest)
+          identities={r['path']:r for r in rows}
+          checkout=Path(os.environ['GITHUB_WORKSPACE'])/'frontier-20261007'
+          required=set()
+          for key in identities:
+              if not key.startswith('heston-frontier-20261007/'):continue
+              rel=key.removeprefix('heston-frontier-20261007/')
+              p=Path(rel)
+              if any(x in ['cold-acceptance-extracted','download-readback','verification-work','qa','.cache','__pycache__'] or x.startswith(('frontier-verification-work','bundle-')) for x in p.parts):continue
+              if p.name in ['publication-finite.json','publication-frontier.json','publish_revision.py']:continue
+              if p.suffix not in ['.py','.md','.json','.pdf','.txt','.cjs'] and p.name!='.gitattributes':continue
+              required.add(rel)
+          external={'frontier-bundle-receipt.json','public-frontier-download.json'}
+          actual={f.relative_to(checkout).as_posix() for f in checkout.rglob('*') if f.is_file()}
+          assert actual==required|external,{'missing':sorted((required|external)-actual),'unexpected':sorted(actual-(required|external))}
+          checked=0
+          for f in sorted(checkout.rglob('*')):
+              if not f.is_file():continue
+              rel=f.relative_to(checkout).as_posix()
+              if rel in ['frontier-bundle-receipt.json','public-frontier-download.json']:
+                  assert json.loads(f.read_text(encoding='utf-8'))['sha256']==expected
+                  continue
+              key='heston-frontier-20261007/'+rel
+              assert key in identities,key
+              row=identities[key]
+              assert f.stat().st_size==row['bytes'] and hashlib.sha256(f.read_bytes()).hexdigest()==row['sha256'],key
+              checked+=1
+          assert checked>50
+          print('Frozen source objects matched to checkout:',checked,flush=True)
+          subprocess.run([sys.executable,'-X','utf8','-B',str(dest/'heston-frontier-20261007/run_frontier.py'),'--full'],cwd=dest,check=True)
+      - name: Preserve exact execution receipt and complete logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontier-execution-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/fixed-frontier/frontier-execution-receipt.json
+            ${{ runner.temp }}/fixed-frontier/frontier-verification-work-*/**/*.log
+            ${{ runner.temp }}/fixed-frontier/frontier-verification-work-*/heston-frontier-20261007/independent-*.json
+          if-no-files-found: warn

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FIXED_FRONTIER_ZIP_ALL_BLOB_READBACK",
+  "archive": "Theodore-Ouyang-Heston-Frontier-Evidence-20261007-v2.zip",
+  "bytes": 231924758,
+  "sha256": "325f8b36649c0fcbf30b139d85be3fa3eaa5663bcdaac2c5cf0f9117d35789e5",
+  "files": 370,
+  "manifest_sha256": "f05f5602eac09b0a1464bb2c9356a20af4b5969f69f02058d8ca56aaa3fb0d02"
+}

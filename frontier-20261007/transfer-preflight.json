@@ -1,0 +1,65 @@
+{
+  "status": "PASS_TRANSFER_PREFLIGHT_BEFORE_NEW_VALUES",
+  "python": "3.12.14",
+  "contract_sha256": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d",
+  "records": [
+    {
+      "alpha": "13/25",
+      "field": "fixed-field-betap52-u128.npz",
+      "residual": "residual-node-certificate-point052-v3-u64.json",
+      "field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "source_horizon": "1/2",
+      "quarter_original_knot": false,
+      "terminal_cell_index": 1428,
+      "terminal_cell_exact": [
+        "562785088044139/2251799813685248",
+        "2254172925869787/9007199254740992"
+      ],
+      "terminal_interpolation_fraction": "659461508692/3032573693231",
+      "retained_time_nodes_with_new_terminal": 1430,
+      "used_frequencies": 513
+    },
+    {
+      "alpha": "3/5",
+      "field": "fixed-field-betap6-u128.npz",
+      "residual": "residual-node-certificate-point06-v3-u64.json",
+      "field_sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "source_horizon": "1/2",
+      "quarter_original_knot": false,
+      "terminal_cell_index": 1351,
+      "terminal_cell_exact": [
+        "9005242805386521/36028797018963968",
+        "4508177450370047/18014398509481984"
+      ],
+      "terminal_interpolation_fraction": "1956449354471/11112095353573",
+      "retained_time_nodes_with_new_terminal": 1353,
+      "used_frequencies": 513
+    },
+    {
+      "alpha": "9/10",
+      "field": "fixed-field-betap9-u80.npz",
+      "residual": "residual-node-certificate-betap9-u64-v3.json",
+      "field_sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "source_horizon": "1/2",
+      "quarter_original_knot": false,
+      "terminal_cell_index": 548,
+      "terminal_cell_exact": [
+        "8993558121930539/36028797018963968",
+        "4505897541688171/18014398509481984"
+      ],
+      "terminal_interpolation_fraction": "4547044270151/6078987148601",
+      "retained_time_nodes_with_new_terminal": 550,
+      "used_frequencies": 513
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\exact-forward-moments.py": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\exponent-field-certificate.py": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\direct-tail-certificate.py": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\price-profile-diagnostic.py": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\code\\src\\solver-diagnostic.py": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\english-heston-release\\manuscript\\rough-heston.md": "9ea6200ae8977c234cadc5eb849869df5e476a8d33260853dc564e187b9f8885",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\heston-nine-point-20261007\\theory-research.md": "e01fa5dd7f4e616b5fa646478ae5f224b2d773bb04e2f808e0668da16eb0c774"
+  },
+  "limitations": "No quarter-maturity output, exponent or tail has yet been computed. Residual and halfplane restriction are valid for the identical full-history field; new exponent and complete Fourier budget remain mandatory."
+}

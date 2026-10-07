@@ -1,0 +1,25 @@
+certified intervals 32 of 8188 seconds 0.7
+certified intervals 544 of 8188 seconds 15.8
+certified intervals 1056 of 8188 seconds 32.4
+certified intervals 1568 of 8188 seconds 50.6
+certified intervals 2080 of 8188 seconds 72.7
+certified intervals 2592 of 8188 seconds 98.3
+certified intervals 3104 of 8188 seconds 118.6
+certified intervals 3616 of 8188 seconds 142.8
+certified intervals 4128 of 8188 seconds 167.1
+certified intervals 4640 of 8188 seconds 204.4
+certified intervals 5152 of 8188 seconds 250.7
+certified intervals 5664 of 8188 seconds 292.1
+certified intervals 6176 of 8188 seconds 336.5
+certified intervals 6688 of 8188 seconds 392.8
+certified intervals 7200 of 8188 seconds 445.9
+certified intervals 7712 of 8188 seconds 512.5
+{
+  "status": "OUTWARD_BINARY64_INTERVAL_POINT_RESIDUAL_CERTIFICATE",
+  "mode": "full",
+  "frequency_nodes": 512,
+  "closed_time_cells": 8189,
+  "halfplane_certified": true,
+  "continuous_loop_phase_seconds": 573.9060000000754,
+  "worker_wall_seconds_after_numpy_import": 574.7060230000643
+}

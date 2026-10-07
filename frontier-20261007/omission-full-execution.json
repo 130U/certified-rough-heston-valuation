@@ -1,0 +1,26 @@
+{
+  "mode": "full",
+  "return_code": 0,
+  "parent_cold_wall_seconds": 575.0274200000567,
+  "peak_working_set_bytes": 318656512,
+  "peak_commit_bytes": 343187456,
+  "memory_monitor": "Windows OS cumulative PeakWorkingSetSize; no process-memory content read",
+  "command": [
+    "C:\\Users\\theod\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\theod\\OneDrive\\\u6587\u6863\\ChatGPT\\Finance\\research\\heston-frontier-20261007\\omission-run.py",
+    "--worker",
+    "full"
+  ],
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "stdout_file": "omission-full-output.txt",
+  "source_sha256": "c8574fef637be6b79424a29f483c5be7da3cfcb4250fe9677c1320b085ea0218",
+  "numpy_import_included_in_parent_wall": true
+}

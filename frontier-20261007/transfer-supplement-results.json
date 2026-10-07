@@ -1,0 +1,95 @@
+{
+  "status": "COMPLETE_QUARTER_SUPPLEMENT_FULL_REFERENCE128_SAME_ACTUAL_FAST_OUTPUT",
+  "T": "1/4",
+  "alpha": "13/25",
+  "bits": 100,
+  "used_nodes": 1025,
+  "omitted_finite_nodes": 0,
+  "true_infinite_tail_cutoff": "128",
+  "field_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+  "contract_sha256": "4b9e46a49c8b487642440cb67e298ae12a07482e770c605ef9581c3c16340451",
+  "source_sha256": "647a612e3dcf58b8de0b7e661092378199e0dfc8a63cc3f5fb7491d3993d38b7",
+  "input_sha256": {
+    "transfer-supplement-contract.json": "4b9e46a49c8b487642440cb67e298ae12a07482e770c605ef9581c3c16340451",
+    "transfer-contract.json": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d",
+    "transfer-fast-output.json": "25beb33b95603cd871ffe709ee35c5ff7a6c5a3541c839dddb25c7058efb4ff6",
+    "transfer-results.json": "084001184c78345b66f89363ae67c1aadaf5d85ca364ee917282a920b06cee93",
+    "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "fixed-field-betap52-u128.json": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579",
+    "residual-node-certificate-point052-v3-u64.json": "84005e144927320df23970658d57d0c774870182f497c55f5890b77862d8be20",
+    "omission-residual-high.json": "d2f0a7ae6ce3bbcdca0d141d8ee31e73f48599d81159d831889a02b734351f83",
+    "omission-residual-generator.py": "c8574fef637be6b79424a29f483c5be7da3cfcb4250fe9677c1320b085ea0218",
+    "exponent-field-certificate.py": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+    "exact-forward-moments.py": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+    "direct-tail-certificate.py": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+    "omission-time-high.npz": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db"
+  },
+  "component_sha256": {
+    "transfer-supplement-exponents.json": "8517311d7a521cc478589a19a073c32fac939a245ed48867b5d585b3bb8402f7",
+    "transfer-supplement-node-ledger.json": "d51638b67ea59e7391cb72c652ad6ccfb882a49ea667127a5c6bd8d36e2bc933"
+  },
+  "actual_fast_normalized_calls": [
+    "44680152654373/4503599627370496",
+    "4765854968151/1125899906842624"
+  ],
+  "reference_normalized_call_intervals": [
+    [
+      "1557517731980268601448860237/158456325028528675187087900672",
+      "6230070927921074471374110899/633825300114114700748351602688"
+    ],
+    [
+      "5294643897938689156215115227/1267650600228229401496703205376",
+      "1323660974484672318551207467/316912650057057350374175801344"
+    ]
+  ],
+  "signed_centre_exact": "-89942610496135404690502329/2535301200456458802993406410752",
+  "reference_arithmetic_radius": "249147054543/2535301200456458802993406410752",
+  "true_strip_upper": "2000791762722325396791/316912650057057350374175801344",
+  "true_infinite_tail_upper": "5713211476586204730991497/633825300114114700748351602688",
+  "new_quarter_tail_rate_lower": "11824453946172139229143697473/316912650057057350374175801344",
+  "full_remainder_exact": "22868852240446846674194859/2535301200456458802993406410752",
+  "joint_node_support_exact": "31108650120313629996554699069511840103710198293749759421/803469022129495137770981046170581301261101496891396417650688",
+  "signed_marginal_node_support_exact": "83903312059798793913702308744097195973259571806284942109/1606938044258990275541962092341162602522202993782792835301376",
+  "joint_full_radius_exact": "38356078687596913475155909451550790764828610946079849917/803469022129495137770981046170581301261101496891396417650688",
+  "signed_marginal_full_radius_exact": "98398169194365360870904729508175097295496397110945123101/1606938044258990275541962092341162602522202993782792835301376",
+  "joint_true_minus_actual_fast_interval_exact": [
+    "-66860029732976886375091452156293004291595206205553180093/803469022129495137770981046170581301261101496891396417650688",
+    "9852127642216940575220366746808577238062015686606519741/803469022129495137770981046170581301261101496891396417650688"
+  ],
+  "joint_absolute_bound_index_points_exact": "14113684256423289875577179910028359154925706863548837445371649/40173451106474756888549052308529065063055074844569820882534400",
+  "signed_marginal_absolute_bound_index_points_exact": "32805133805790956361054079098413501973409702741556746244444129/80346902212949513777098104617058130126110149689139641765068800",
+  "display_joint_bound_upper_9dp": "87829673/250000000",
+  "budget_decisions": [
+    {
+      "budget_index_points": "1/4",
+      "joint_status": "NOT_CERTIFIED",
+      "signed_marginal_status": "NOT_CERTIFIED"
+    },
+    {
+      "budget_index_points": "1/2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "1",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    }
+  ],
+  "cost_seconds": {
+    "quarter_moments_weights_seconds": 2.2052202000049874,
+    "all1025_new_reference_exponents_seconds": 64.5278805999551,
+    "new_quarter_true_CF_and_tail_seconds": 2.1566147999837995,
+    "new_coefficients_and_full_aggregate_seconds": 2.9809142999583855
+  },
+  "wall_seconds": 72.46783909993246,
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "scope": "Prespecified optional quarter pricing transfer supplement; new reference at previously omitted nodes and a newly recomputed centre. The actual new-quarter fast outputs are unchanged. This is not a calibration or a theorem that old/new CF discs are nested.",
+  "cost_scope": "Reused original field and all full-half-year continuous residual work are upstream costs; this measured supplementary wall charges all1025 quarter exponents, new tails, coefficients and complete aggregation. Original all-three pricing transfer results remain separately reported."
+}

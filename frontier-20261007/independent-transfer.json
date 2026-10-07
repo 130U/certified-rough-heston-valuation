@@ -1,0 +1,154 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_QUARTER_TRANSFER_READBACK",
+  "mode": "FULL_SOURCE_COMPONENT_AND_FAST_REPLAY",
+  "source_sha256": "08a9daacdab78f9b8b4c95bb4d58d5d78ce4b5c788050594dd089fe999ed915a",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "input_sha256": {
+    "transfer-fast-output.json": "25beb33b95603cd871ffe709ee35c5ff7a6c5a3541c839dddb25c7058efb4ff6",
+    "transfer-coefficients.json": "8b7471f6b540f3577f88ca966aa40042089c680c93a53964d5cee56e5ed668fc",
+    "transfer-tail-alpha-13_25.json": "822cd0791c44054489a4f208871e2777c55cebcd87cfb1ac0af514c2d68adea5",
+    "transfer-exponents-alpha-13_25.json": "671463d1b980b93c1560ad1cf13a7e1dbc536dbc9312e2281c331b685f0e82a4",
+    "transfer-node-ledger-alpha-13_25.json": "1ab082f366ec28aa324de91b26d377f9f3b1cda5b13f2e86613f282c354d494b",
+    "transfer-tail-alpha-3_5.json": "c122458c14886b0f3230c36d8adbbb01312be6014c7e237b90ef48891d114687",
+    "transfer-exponents-alpha-3_5.json": "74b1049ff37abeda2530fa6a2ba5008fc64b3a297d4423473ea9649782b1311b",
+    "transfer-node-ledger-alpha-3_5.json": "1a8578d6493babc3f50ff74ab6b7ab98104183bc65f7f3af3eda072355768b1f",
+    "transfer-tail-alpha-9_10.json": "474ff1da2a6763778ff718b8a67dbaf55f93e2a23da0b3a79071078fee67c039",
+    "transfer-exponents-alpha-9_10.json": "9d585e22cc4f5889b96f42072f021b55129bb2d2e6e8b074a01c5205e24e8a73",
+    "transfer-node-ledger-alpha-9_10.json": "9acaaf39dc8238a36608c715dda9ca6ec6223b9fa66cc96d82d53d8b56cf45fa",
+    "upstream-MANIFEST.json": "631f2a6d71fdecd771dff430c127790fe9c4907ab211d1f16352002939e24811",
+    "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "residual-node-certificate-point052-v3-u64.json": "84005e144927320df23970658d57d0c774870182f497c55f5890b77862d8be20",
+    "fixed-field-betap52-u128.json": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579",
+    "fixed-field-betap6-u128.npz": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+    "residual-node-certificate-point06-v3-u64.json": "d28b46c6ac78336eb4486182e78fedbc65dcf7260f9fb1cd05c5287d4a5b5a74",
+    "fixed-field-betap6-u128.json": "4f177fcb7bd192dab21f8faa83dd917be820e9c449af41b4d905c1f03bcaa969",
+    "fixed-field-betap9-u80.npz": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+    "residual-node-certificate-betap9-u64-v3.json": "77779e7b99324bbac962d3ea171d907c4033466f0047f269b571a4fa96d1451e",
+    "fixed-field-betap9-u80.json": "a06128bd7bf6658ccf23223a2d48792477441a65cc0490eb16049da4d0fbb1dc",
+    "transfer-contract.json": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d",
+    "transfer-preflight.json": "d7aa556034537e67f370864bcb506e18283ad02754c5a0ba0842a218e7591c50",
+    "exact-forward-moments.py": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+    "exponent-field-certificate.py": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+    "direct-tail-certificate.py": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+    "price-profile-diagnostic.py": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+    "solver-diagnostic.py": "3e206168cba027a298456720b50ec70310867a2cae534e7683ab39fbe48b5e5d",
+    "rough-heston.md": "9ea6200ae8977c234cadc5eb849869df5e476a8d33260853dc564e187b9f8885",
+    "theory-research.md": "e01fa5dd7f4e616b5fa646478ae5f224b2d773bb04e2f808e0668da16eb0c774",
+    "transfer-results.json": "084001184c78345b66f89363ae67c1aadaf5d85ca364ee917282a920b06cee93"
+  },
+  "full_exact_field_nodes_replayed": 1539,
+  "actual_fast_candidates_replayed": 3,
+  "all_true_CF_envelope_nodes_replayed": 3075,
+  "all_complete_financial_nodes_replayed": 3075,
+  "negative_controls": [
+    {
+      "name": "half-year-tail-is-not-new-quarter-tail",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "missing-omitted-finite-node",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "actual-recomputed-centre-replaced-by-zero",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "actual-infinite-tail-dropped",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "quarter-budget-failure-replaced-with-success",
+      "status": "PASS_REJECTED"
+    }
+  ],
+  "rows": [
+    {
+      "alpha": "13/25",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "19404707256018715896269242777120217851765896196561344621324099/16069380442589902755419620923411626025222029937827928353013760",
+      "signed_marginal_absolute_bound_index_points_exact": "3879729801737829960841720344328210509819969549365187336472599/2510840694154672305534315769283066566440942177785613805158400",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    },
+    {
+      "alpha": "3/5",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "64374106529552756594859493616381887398952540778072320860818643/80346902212949513777098104617058130126110149689139641765068800",
+      "signed_marginal_absolute_bound_index_points_exact": "84870408113541693311105801848678212893041709385794018084560259/80346902212949513777098104617058130126110149689139641765068800",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    },
+    {
+      "alpha": "9/10",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "39991770283211695413449632096760827636661291472254115571750243/80346902212949513777098104617058130126110149689139641765068800",
+      "signed_marginal_absolute_bound_index_points_exact": "49023868522303757998151590536675300155995938293865987282823309/80346902212949513777098104617058130126110149689139641765068800",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 75.12381100002676,
+  "independence": "Does not import transfer-pricing or its aggregation. Shares original rigorous moments, trig, true-tail comparison and dyadic primitives, and reruns the original fast implementation only in --full. Frozen residual validity is inherited from upstream continuous certificates; this reader does not regenerate those certificates."
+}

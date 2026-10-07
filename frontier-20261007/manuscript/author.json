@@ -1,0 +1,19 @@
+{
+  "author": "Theodore Ouyang",
+  "school": "Duke University",
+  "address": "2080 Duke University Road, Durham, NC 27708, USA",
+  "emails": [
+    "10@alumni.duke.edu",
+    "theodore.oy2025@gmail.com"
+  ],
+  "date": "October 7, 2026 (certification extension)",
+  "metadata_basis": "Author details reproduced from the user-supplied PDF template.",
+  "titles": {
+    "report": "Heston 模型的可验证联合定价误差",
+    "rough-heston": "Certified Joint Pricing Errors in Heston Models"
+  },
+  "subtitles": {
+    "report": "有限历史、共同误差与任务方向认证",
+    "rough-heston": "Finite History, Shared Errors, and Task Certificates"
+  }
+}

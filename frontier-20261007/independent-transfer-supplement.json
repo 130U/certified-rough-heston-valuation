@@ -1,0 +1,131 @@
+{
+  "status": "PASS_INDEPENDENT_QUARTER_FULL_REFERENCE128_COMPLETE_ACCOUNT",
+  "mode": "FULL_SOURCE_COMPONENT_REPLAY",
+  "source_sha256": "6e25cb187e75df35917ee5048f43f1b6104cd02792a2a731ca4e3f6238390631",
+  "input_sha256": {
+    "transfer-supplement-contract.json": "4b9e46a49c8b487642440cb67e298ae12a07482e770c605ef9581c3c16340451",
+    "transfer-contract.json": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d",
+    "transfer-fast-output.json": "25beb33b95603cd871ffe709ee35c5ff7a6c5a3541c839dddb25c7058efb4ff6",
+    "transfer-results.json": "084001184c78345b66f89363ae67c1aadaf5d85ca364ee917282a920b06cee93",
+    "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "fixed-field-betap52-u128.json": "aa8b35b02d1dc9b6b1cfd3777d427eb5b27b6b644e4bac36ae7cd00e52444579",
+    "residual-node-certificate-point052-v3-u64.json": "84005e144927320df23970658d57d0c774870182f497c55f5890b77862d8be20",
+    "omission-residual-high.json": "d2f0a7ae6ce3bbcdca0d141d8ee31e73f48599d81159d831889a02b734351f83",
+    "omission-residual-generator.py": "c8574fef637be6b79424a29f483c5be7da3cfcb4250fe9677c1320b085ea0218",
+    "exponent-field-certificate.py": "ca34ca5bfdd98413dbf88748be1541b4300edfb530c5e5cd07e19db83fdd5b65",
+    "exact-forward-moments.py": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+    "direct-tail-certificate.py": "ee71f6cbfb4db1b41c93da83769f88dd84713b222b240f769027c4d00656939e",
+    "omission-time-high.npz": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db",
+    "transfer-supplement-exponents.json": "8517311d7a521cc478589a19a073c32fac939a245ed48867b5d585b3bb8402f7",
+    "transfer-supplement-node-ledger.json": "d51638b67ea59e7391cb72c652ad6ccfb882a49ea667127a5c6bd8d36e2bc933"
+  },
+  "producer_result_sha256": "a2273b1ea14db9e3877adae7c7bd8866f11ef69ed0eb25660647cdd25430cc81",
+  "continuous_closed_cells_verified": 8189,
+  "high_frequency_nodes_verified": 512,
+  "closed_cell_node_pairs_verified": 4192768,
+  "exact_exponents_replayed": 1025,
+  "true_CF_and_financial_nodes_replayed": 1025,
+  "negative_controls": [
+    {
+      "name": "closed-high-frequency-cell-missing",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "old-used64-centre-reused-after-nonzero-reference",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "infinite-tail-dropped-after-full-finite-reference",
+      "status": "PASS_REJECTED"
+    }
+  ],
+  "joint_absolute_bound_index_points_exact": "14113684256423289875577179910028359154925706863548837445371649/40173451106474756888549052308529065063055074844569820882534400",
+  "signed_marginal_absolute_bound_index_points_exact": "32805133805790956361054079098413501973409702741556746244444129/80346902212949513777098104617058130126110149689139641765068800",
+  "budget_decisions": [
+    {
+      "budget_index_points": "1/4",
+      "joint_status": "NOT_CERTIFIED",
+      "signed_marginal_status": "NOT_CERTIFIED"
+    },
+    {
+      "budget_index_points": "1/2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "1",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    }
+  ],
+  "time_local_verification": {
+    "status": "PASS_INDEPENDENT_QUARTER_FULL128_128_BIN_COMPLETE_ACCOUNT",
+    "bins": 128,
+    "nodes": 1025,
+    "all_positive_weight_intervals_checked": 128,
+    "closed_source_cells_intersecting_quarter_per_file": [
+      5710,
+      5710
+    ],
+    "all_intersecting_closed_cell_bin_maxima_checked": 131200,
+    "joint_absolute_bound_index_points_exact": "18746446224468200646567892603392328766182957628607182976844237/80346902212949513777098104617058130126110149689139641765068800",
+    "signed_marginal_absolute_bound_index_points_exact": "20279071103474879058394665267930894593338789401665344747454157/80346902212949513777098104617058130126110149689139641765068800",
+    "budget_decisions": [
+      {
+        "budget_index_points": "1/4",
+        "joint_status": "CERTIFIED",
+        "signed_marginal_status": "NOT_CERTIFIED"
+      },
+      {
+        "budget_index_points": "1/2",
+        "joint_status": "CERTIFIED",
+        "signed_marginal_status": "CERTIFIED"
+      },
+      {
+        "budget_index_points": "1",
+        "joint_status": "CERTIFIED",
+        "signed_marginal_status": "CERTIFIED"
+      },
+      {
+        "budget_index_points": "2",
+        "joint_status": "CERTIFIED",
+        "signed_marginal_status": "CERTIFIED"
+      }
+    ],
+    "input_sha256": {
+      "transfer-time-local-contract.json": "555230d5930ff367508759d744a21972ca713bfb6b13c932dd8b1a88b2583585",
+      "transfer-supplement-results.json": "a2273b1ea14db9e3877adae7c7bd8866f11ef69ed0eb25660647cdd25430cc81",
+      "transfer-supplement-node-ledger.json": "d51638b67ea59e7391cb72c652ad6ccfb882a49ea667127a5c6bd8d36e2bc933",
+      "transfer-supplement-exponents.json": "8517311d7a521cc478589a19a073c32fac939a245ed48867b5d585b3bb8402f7",
+      "time-residual-alpha-13_25.npz": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de",
+      "omission-time-high.npz": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db",
+      "fresh-all-node-time-residual.json": "687842ac6c316e406bc96edca599c87a3d91707c87a9ea2f60da7634676340ef",
+      "omission-residual-high.json": "d2f0a7ae6ce3bbcdca0d141d8ee31e73f48599d81159d831889a02b734351f83",
+      "exact-forward-moments.py": "792470ce2fea184875bcb9dafbe68cef8723730517b30d1cbec7ce8bfdd4dca7",
+      "transfer-time-local-weights.json": "50ebef5b974ecdfe16fbf402cafd6b738a46edb3b59f0ccd20e071adf36f8f58",
+      "transfer-time-local-nodes.json": "60e0cc82268facc9af3523847a707e1fda5ed7142060f4bf02a648db18e839f8",
+      "transfer-time-local-results.json": "ffaf5a739ba98f74818686271c288935608290d21bec0596c7efd644a3bf54ef"
+    },
+    "negative_controls": [
+      {
+        "name": "quarter-bin-weight-removed",
+        "status": "PASS_REJECTED"
+      },
+      {
+        "name": "time-local-centre-replaced-by-zero",
+        "status": "PASS_REJECTED"
+      }
+    ],
+    "wall_seconds": 1.515574699966237,
+    "independence": "Independent searchsorted closed-intersection spans rather than producer masks. Independent exactFraction sums of freshly recomputed positive weight upper endpoints. Same rigorously enclosed quarter reference and full remainders were independently replayed earlier in this invocation."
+  },
+  "wall_seconds": 38.34588340006303,
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "independence": "No producer import. Uses independently written exponent and financial loops, shared original rigorous moment/trig/tail/dyadic primitives and only path/profile helpers from independent-transfer.py. Checks the complete new upstream cell ledger but does not regenerate its Caputo residual calculation. Original new-quarter actual fast output was separately fully replayed by independent-transfer.py --full."
+}

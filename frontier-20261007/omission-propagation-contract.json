@@ -1,0 +1,12 @@
+{
+  "parent_contract": "omission-contract.json",
+  "status": "FROZEN_BEFORE_FULL_HIGH_NODE_RESIDUAL_OR_FINANCIAL_RESULT_READBACK",
+  "propagation_scenarios": ["global-complete-history", "128-preselected-closed-time-bins"],
+  "time_bin_edges_exact": "j/256, j=0,...,128",
+  "bin_rule": "Use maximum physical residual over every source closed cell intersecting a bin, including shared endpoints. Never sample or restart history.",
+  "weight_rule": "Upper endpoint of J0(T-left)-J0(T-right), generated with the original 100-bit outward dyadic moment primitives.",
+  "low_node_rule": "Reuse the separately checked same-field time-local 0<=u<=64 CF radii, retaining their dependency hashes.",
+  "high_node_rule": "min(Btrue+|phi_reference|, min(1,|phi_reference|)*(exp(eta)-1)); use the second term only if full-history approximate real part and startup nonpositivity both certify.",
+  "price_rule": "Recompute all nonzero reference nodes, signed ref-fast centre, full reference arithmetic, strip grid and genuine infinite tail beyond128. Old/new complete error intervals may be intersected only after distinct centres are retained.",
+  "cost_rule": "Both scenarios reuse one fresh full512-node residual reconstruction. Report that cold parent wall and peak memory once; later interval/budget computation is supplementary cost, not zero-cost residual generation."
+}

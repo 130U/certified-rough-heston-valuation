@@ -1,0 +1,10 @@
+certified intervals 32 of 64 seconds 0.7
+{
+  "status": "PREFLIGHT_PARTIAL_TIME_NONCERTIFICATE",
+  "mode": "preflight",
+  "frequency_nodes": 512,
+  "closed_time_cells": 65,
+  "halfplane_certified": true,
+  "continuous_loop_phase_seconds": 1.5,
+  "worker_wall_seconds_after_numpy_import": 2.3182467999868095
+}

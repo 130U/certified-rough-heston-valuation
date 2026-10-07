@@ -1,0 +1,148 @@
+{
+  "status": "PASS_COLD_FULL_ACCEPTANCE",
+  "archive_sha256": "edc25d2ad86c1526f404ec1a46a02a283f0726602f259beaa97eb1219d22d299",
+  "archive_bytes": 187393093,
+  "tested_manifest_sha256": "fcd4c4eab33541aeded52bd2e10d57d8bac71350466bfba129d8e51fcb8307d1",
+  "return_code": 0,
+  "commands_passed": 18,
+  "end_to_end_parent_wall_seconds": 221.0177727000555,
+  "zip_crc_hash_and_extraction_seconds_separate": 1.5932157000061125,
+  "peak_job_committed_memory_bytes": 697569280,
+  "peak_single_process_committed_memory_bytes": 686497792,
+  "job_memory_measurement_assignment_error": null,
+  "memory_scope": "Windows job committed-memory peak of assigned acceptance process and descendants; not peak RSS; job assigned immediately after launching interpreter.",
+  "cold_scope": "New interpreter; integrity checks, work copy, every --full subprocess, output verification included. ZIP validation/extraction measured separately; download excluded. Optional full residual regeneration excluded because retained generation evidence is checked.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel Core Ultra 7 155U",
+  "physical_cores": 12,
+  "logical_processors": 14,
+  "physical_memory_visible_kib": 16184696,
+  "thread_environment_for_this_run": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "historical_threads": "Not recorded; do not retroactively assign current single-thread settings to old timing observations.",
+  "concurrency": "Other research and PDF-authoring processes may run on this machine. This is an observed reproducibility cost, not an isolated speed benchmark.",
+  "log": "cold-acceptance.log",
+  "step_receipt": {
+    "status": "PASS_EXECUTED_FIXED_EVIDENCE_BUNDLE",
+    "tested_manifest_sha256": "fcd4c4eab33541aeded52bd2e10d57d8bac71350466bfba129d8e51fcb8307d1",
+    "full_structural_regeneration": true,
+    "fresh_continuous_regeneration": false,
+    "records": [
+      {
+        "label": "frozen-inputs-and-model-inclusions",
+        "return_code": 0,
+        "wall_seconds": 17.852567599969916,
+        "log": "verification-work/frozen-inputs-and-model-inclusions.log"
+      },
+      {
+        "label": "classical-verify_package",
+        "return_code": 0,
+        "wall_seconds": 0.15366239997092634,
+        "log": "verification-work/classical-verify_package.log"
+      },
+      {
+        "label": "classical-verify_input_bounds",
+        "return_code": 0,
+        "wall_seconds": 4.69089129997883,
+        "log": "verification-work/classical-verify_input_bounds.log"
+      },
+      {
+        "label": "classical-verify_terminal",
+        "return_code": 0,
+        "wall_seconds": 0.12374790001194924,
+        "log": "verification-work/classical-verify_terminal.log"
+      },
+      {
+        "label": "classical-verify_field_receipt",
+        "return_code": 0,
+        "wall_seconds": 0.14633999997749925,
+        "log": "verification-work/classical-verify_field_receipt.log"
+      },
+      {
+        "label": "startup_independent",
+        "return_code": 0,
+        "wall_seconds": 1.4451233999570832,
+        "log": "verification-work/startup_independent.log"
+      },
+      {
+        "label": "adversarial_checks",
+        "return_code": 0,
+        "wall_seconds": 9.75892249995377,
+        "log": "verification-work/adversarial_checks.log"
+      },
+      {
+        "label": "all-211241-structural-signs",
+        "return_code": 0,
+        "wall_seconds": 147.2482858999865,
+        "log": "verification-work/all-211241-structural-signs.log"
+      },
+      {
+        "label": "finite-history",
+        "return_code": 0,
+        "wall_seconds": 4.412303199991584,
+        "log": "verification-work/finite-history.log"
+      },
+      {
+        "label": "verify-finite-history-independent",
+        "return_code": 0,
+        "wall_seconds": 2.7917811000952497,
+        "log": "verification-work/verify-finite-history-independent.log"
+      },
+      {
+        "label": "check-time-envelope",
+        "return_code": 0,
+        "wall_seconds": 0.6823766999877989,
+        "log": "verification-work/check-time-envelope.log"
+      },
+      {
+        "label": "time-local-propagation",
+        "return_code": 0,
+        "wall_seconds": 2.0218137999763712,
+        "log": "verification-work/time-local-propagation.log"
+      },
+      {
+        "label": "literature-ledger-readback",
+        "return_code": 0,
+        "wall_seconds": 1.166672999970615,
+        "log": "verification-work/literature-ledger-readback.log"
+      },
+      {
+        "label": "independent-time-local",
+        "return_code": 0,
+        "wall_seconds": 2.0623532000463456,
+        "log": "verification-work/independent-time-local.log"
+      },
+      {
+        "label": "portfolio-baseline",
+        "return_code": 0,
+        "wall_seconds": 10.662421999964863,
+        "log": "verification-work/portfolio-baseline.log"
+      },
+      {
+        "label": "portfolio-finite-history",
+        "return_code": 0,
+        "wall_seconds": 11.573279000003822,
+        "log": "verification-work/portfolio-finite-history.log"
+      },
+      {
+        "label": "portfolio-report",
+        "return_code": 0,
+        "wall_seconds": 0.2010210999287665,
+        "log": "verification-work/portfolio-report.log"
+      },
+      {
+        "label": "portfolio-identities",
+        "return_code": 0,
+        "wall_seconds": 0.22383000003173947,
+        "log": "verification-work/portfolio-identities.log"
+      }
+    ],
+    "wall_seconds": 220.91467599989846,
+    "scope": "Saved model inclusions, all startup bounds, semantic negative controls, finite-history independent arithmetic, complete time-envelope identity/cover, time-local propagation, all systematic portfolios. Optional switches regenerate structural signs and all alpha=.52 continuous residuals. Other candidates retain their released continuous-time certificates."
+  }
+}

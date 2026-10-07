@@ -1,0 +1,42 @@
+{
+  "status": "ACTUAL_SECOND_MATURITY_PADÉ_OUTPUT_FROZEN_AS_EXACT_DYADICS",
+  "T": "1/4",
+  "contract_sha256": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d",
+  "source_sha256": "445f2d45ffaf249c8823bef5dc56ac832d6d3d96e3c10b2e808a7c940b8b2f19",
+  "fourier_legendre_order": 8,
+  "time_jacobi_order": 256,
+  "fourier_quadrature_nodes": 352,
+  "rows": [
+    {
+      "alpha": "13/25",
+      "T": "1/4",
+      "normalized_call_exact_stored_binary64": [
+        "44680152654373/4503599627370496",
+        "4765854968151/1125899906842624"
+      ],
+      "normalized_spread_exact": "25616732781769/4503599627370496",
+      "seconds": 0.039401100017130375
+    },
+    {
+      "alpha": "3/5",
+      "T": "1/4",
+      "normalized_call_exact_stored_binary64": [
+        "100876450536827/9007199254740992",
+        "22791264578475/4503599627370496"
+      ],
+      "normalized_spread_exact": "55293921379877/9007199254740992",
+      "seconds": 0.03338019992224872
+    },
+    {
+      "alpha": "9/10",
+      "T": "1/4",
+      "normalized_call_exact_stored_binary64": [
+        "69609775093913/4503599627370496",
+        "77209597516735/9007199254740992"
+      ],
+      "normalized_spread_exact": "62009952671091/9007199254740992",
+      "seconds": 0.03173130005598068
+    }
+  ],
+  "scope": "Finite returned binary64 outputs are exact pricing targets. No claim that these outputs are certified by their internal quadrature."
+}

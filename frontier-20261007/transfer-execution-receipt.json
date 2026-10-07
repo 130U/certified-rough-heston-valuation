@@ -1,0 +1,193 @@
+{
+  "status": "PASS_COMPLETED_SECOND_MATURITY_AND_ONE_FIXED_TIME_LOCAL_SUPPLEMENT",
+  "recorded_utc": "2026-10-07T07:41:06.366860+00:00",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "runtime_executable": "C:\\Users\\theod\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "producer_commands": [
+    "python transfer-pricing.py",
+    "python transfer-quarter-fullref.py",
+    "python transfer-quarter-time-local.py"
+  ],
+  "independent_default_acceptance_commands": [
+    "python independent-transfer.py --full",
+    "python independent-transfer-supplement.py --full"
+  ],
+  "producer_wall_seconds": {
+    "all_three_used64": 68.34563419991173,
+    "alpha052_full128_global": 72.46783909993246,
+    "alpha052_full128_128bins": 1.7741229999810457
+  },
+  "independent_wall_seconds": {
+    "all_three_full_replay": 75.12381100002676,
+    "alpha052_full128_and_time_full_replay": 38.34588340006303
+  },
+  "status_readback": {
+    "initial": "PASS_INDEPENDENT_COMPLETE_QUARTER_TRANSFER_READBACK",
+    "full128": "PASS_INDEPENDENT_QUARTER_FULL_REFERENCE128_COMPLETE_ACCOUNT",
+    "time128": "PASS_INDEPENDENT_QUARTER_FULL128_128_BIN_COMPLETE_ACCOUNT"
+  },
+  "scope": "All three new maturity candidates preserved, then prespecified alpha052 full128 phase, then one explicitly later fixed128-bin descriptive exploration after global result known. No extra variants and no retrospective2024 dating. Exact endpoints in result files; original half-year freezes unchanged. Shared original rigorous primitives are disclosed, continuous residuals reused with fullhistory restriction. New high-frequency generation is a separately charged upstream parent-process cost, not included in producer replay walls.",
+  "file_bytes_sha256": [
+    {
+      "name": "independent-transfer-supplement.json",
+      "bytes": 7219,
+      "sha256": "7ce55be823a2cf708d67f3c22142fdf0c0ffe003f6202f4e3ced8d795bfa3684"
+    },
+    {
+      "name": "independent-transfer-supplement.py",
+      "bytes": 19980,
+      "sha256": "6e25cb187e75df35917ee5048f43f1b6104cd02792a2a731ca4e3f6238390631"
+    },
+    {
+      "name": "independent-transfer.json",
+      "bytes": 8013,
+      "sha256": "fb4588d6a7126a10810135670dcc7b58098e3246d90517c0dc01bd7cc8c06c5f"
+    },
+    {
+      "name": "independent-transfer.py",
+      "bytes": 16639,
+      "sha256": "08a9daacdab78f9b8b4c95bb4d58d5d78ce4b5c788050594dd089fe999ed915a"
+    },
+    {
+      "name": "novelty-transfer-audit.md",
+      "bytes": 9876,
+      "sha256": "c93d128e9ea5e71fa6b1d729660b4d0427beba8db4e3ddca064c60c079ee28d6"
+    },
+    {
+      "name": "transfer-coefficients.json",
+      "bytes": 1056756,
+      "sha256": "8b7471f6b540f3577f88ca966aa40042089c680c93a53964d5cee56e5ed668fc"
+    },
+    {
+      "name": "transfer-contract.json",
+      "bytes": 4124,
+      "sha256": "582e98729beb9c14acf3a537b2d9825981dbf802c983222fd381066e373cb37d"
+    },
+    {
+      "name": "transfer-exponents-alpha-13_25.json",
+      "bytes": 754895,
+      "sha256": "671463d1b980b93c1560ad1cf13a7e1dbc536dbc9312e2281c331b685f0e82a4"
+    },
+    {
+      "name": "transfer-exponents-alpha-3_5.json",
+      "bytes": 740163,
+      "sha256": "74b1049ff37abeda2530fa6a2ba5008fc64b3a297d4423473ea9649782b1311b"
+    },
+    {
+      "name": "transfer-exponents-alpha-9_10.json",
+      "bytes": 585780,
+      "sha256": "9d585e22cc4f5889b96f42072f021b55129bb2d2e6e8b074a01c5205e24e8a73"
+    },
+    {
+      "name": "transfer-fast-output.json",
+      "bytes": 1473,
+      "sha256": "25beb33b95603cd871ffe709ee35c5ff7a6c5a3541c839dddb25c7058efb4ff6"
+    },
+    {
+      "name": "transfer-node-ledger-alpha-13_25.json",
+      "bytes": 820668,
+      "sha256": "1ab082f366ec28aa324de91b26d377f9f3b1cda5b13f2e86613f282c354d494b"
+    },
+    {
+      "name": "transfer-node-ledger-alpha-3_5.json",
+      "bytes": 819168,
+      "sha256": "1a8578d6493babc3f50ff74ab6b7ab98104183bc65f7f3af3eda072355768b1f"
+    },
+    {
+      "name": "transfer-node-ledger-alpha-9_10.json",
+      "bytes": 815319,
+      "sha256": "9acaaf39dc8238a36608c715dda9ca6ec6223b9fa66cc96d82d53d8b56cf45fa"
+    },
+    {
+      "name": "transfer-preflight.json",
+      "bytes": 3813,
+      "sha256": "d7aa556034537e67f370864bcb506e18283ad02754c5a0ba0842a218e7591c50"
+    },
+    {
+      "name": "transfer-pricing.py",
+      "bytes": 17103,
+      "sha256": "ad7da313a30222607a3633e6fa73f70a1b73f5add535f4799ef454def37cac8d"
+    },
+    {
+      "name": "transfer-quarter-fullref.py",
+      "bytes": 11107,
+      "sha256": "647a612e3dcf58b8de0b7e661092378199e0dfc8a63cc3f5fb7491d3993d38b7"
+    },
+    {
+      "name": "transfer-quarter-time-local.py",
+      "bytes": 6733,
+      "sha256": "b2fd7ad26f6d49564201529e5341215e7593eccc2dc58f75a5a31c9d7a3a4c7c"
+    },
+    {
+      "name": "transfer-results.json",
+      "bytes": 17141,
+      "sha256": "084001184c78345b66f89363ae67c1aadaf5d85ca364ee917282a920b06cee93"
+    },
+    {
+      "name": "transfer-section-en.md",
+      "bytes": 7555,
+      "sha256": "62b1bb27caf4338b37f8df6277089d92b0ce26b5ceed5e7cdd38c09187819a6b"
+    },
+    {
+      "name": "transfer-section-zh.md",
+      "bytes": 6284,
+      "sha256": "e905af6733b28563f2e3f69ea7d022ccce319c469a2f60c93a2ab8fccdf53a38"
+    },
+    {
+      "name": "transfer-supplement-contract.json",
+      "bytes": 2264,
+      "sha256": "4b9e46a49c8b487642440cb67e298ae12a07482e770c605ef9581c3c16340451"
+    },
+    {
+      "name": "transfer-supplement-exponents.json",
+      "bytes": 1232008,
+      "sha256": "8517311d7a521cc478589a19a073c32fac939a245ed48867b5d585b3bb8402f7"
+    },
+    {
+      "name": "transfer-supplement-node-ledger.json",
+      "bytes": 1413290,
+      "sha256": "d51638b67ea59e7391cb72c652ad6ccfb882a49ea667127a5c6bd8d36e2bc933"
+    },
+    {
+      "name": "transfer-supplement-results.json",
+      "bytes": 6031,
+      "sha256": "a2273b1ea14db9e3877adae7c7bd8866f11ef69ed0eb25660647cdd25430cc81"
+    },
+    {
+      "name": "transfer-tail-alpha-13_25.json",
+      "bytes": 351033,
+      "sha256": "822cd0791c44054489a4f208871e2777c55cebcd87cfb1ac0af514c2d68adea5"
+    },
+    {
+      "name": "transfer-tail-alpha-3_5.json",
+      "bytes": 351012,
+      "sha256": "c122458c14886b0f3230c36d8adbbb01312be6014c7e237b90ef48891d114687"
+    },
+    {
+      "name": "transfer-tail-alpha-9_10.json",
+      "bytes": 350771,
+      "sha256": "474ff1da2a6763778ff718b8a67dbaf55f93e2a23da0b3a79071078fee67c039"
+    },
+    {
+      "name": "transfer-time-local-contract.json",
+      "bytes": 1685,
+      "sha256": "555230d5930ff367508759d744a21972ca713bfb6b13c932dd8b1a88b2583585"
+    },
+    {
+      "name": "transfer-time-local-nodes.json",
+      "bytes": 824251,
+      "sha256": "60e0cc82268facc9af3523847a707e1fda5ed7142060f4bf02a648db18e839f8"
+    },
+    {
+      "name": "transfer-time-local-results.json",
+      "bytes": 4219,
+      "sha256": "ffaf5a739ba98f74818686271c288935608290d21bec0596c7efd644a3bf54ef"
+    },
+    {
+      "name": "transfer-time-local-weights.json",
+      "bytes": 24173,
+      "sha256": "50ebef5b974ecdfe16fbf402cafd6b738a46edb3b59f0ccd20e071adf36f8f58"
+    }
+  ]
+}

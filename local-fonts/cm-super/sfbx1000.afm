@@ -1,0 +1,4659 @@
+StartFontMetrics 2.0
+Comment CreationDate: Wed Sep 12 2001
+Comment UniqueID 5124584
+Comment Copyright (c) 2001 Vladimir Volovich <vvv@vsu.ru>.
+Comment See the file COPYING (GNU General Public License) for license conditions.
+Comment Converted from METAFONT EC/TC and LH fonts:
+Comment ecbx1000, tcbx1000, labx1000, lbbx1000, lcbx1000, rxbx1000.
+FontName SFBX1000
+FullName Computer Modern Bold Extended
+FamilyName Computer Modern
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+Version 0.3
+EncodingScheme AdobeStandardEncoding
+FontBBox -229 -316 1737 939
+StdHW 100
+StdVW 50
+Ascender 694.275
+Descender -194.397
+XHeight 444.336
+CapHeight 685.944
+Comment DesignSize 10 (pts)
+Comment Space 383.24 191.62 127.747
+Comment ExtraSpace 127.747
+Comment Quad 1149.719
+Comment AccCapHeight 894.226
+Comment MaxHeight 894.226
+Comment MaxDepth 249.939
+Comment DigitWidth 574.86
+Comment CapStem 141.632
+Comment BaselineSkip 1199.997
+StartCharMetrics 584
+C 32 ; WX 383.24 ; N space ; B 0 0 0 0 ;
+C 33 ; WX 349.915 ; N exclam ; B 97 1 253 707 ; L quoteleft exclamdown ;
+C 34 ; WX 574.86 ; N quotedbl ; B 127 359 447 711 ;
+C 35 ; WX 958.099 ; N numbersign ; B 64 -193 893 695 ;
+C 36 ; WX 574.86 ; N dollar ; B 64 -55 511 751 ;
+C 37 ; WX 958.099 ; N percent ; B 64 -56 893 751 ;
+C 38 ; WX 894.226 ; N ampersand ; B 48 -10 836 706 ;
+C 39 ; WX 319.366 ; N quoteright ; B 81 346 253 695 ; L quoteright quotedblright ;
+C 40 ; WX 447.113 ; N parenleft ; B 109 -250 382 751 ;
+C 41 ; WX 447.113 ; N parenright ; B 64 -250 338 751 ;
+C 42 ; WX 574.86 ; N asterisk ; B 74 307 500 751 ;
+C 43 ; WX 894.226 ; N plus ; B 64 -133 829 634 ;
+C 44 ; WX 319.366 ; N comma ; B 81 -192 250 157 ; L comma quotedblbase ;
+C 45 ; WX 383.24 ; N hyphen ; B 13 175 318 272 ; L hyphen endash ; L hyphen.alt hyphen.alt ;
+C 46 ; WX 319.366 ; N period ; B 81 1 237 157 ;
+C 47 ; WX 574.86 ; N slash ; B 65 -249 510 751 ;
+C 48 ; WX 574.86 ; N zero ; B 45 -10 529 657 ;
+C 49 ; WX 574.86 ; N one ; B 85 1 494 657 ;
+C 50 ; WX 574.86 ; N two ; B 57 1 517 656 ;
+C 51 ; WX 574.86 ; N three ; B 48 -10 526 656 ;
+C 52 ; WX 574.86 ; N four ; B 32 1 542 657 ;
+C 53 ; WX 574.86 ; N five ; B 56 -10 517 656 ;
+C 54 ; WX 574.86 ; N six ; B 48 -10 526 656 ;
+C 55 ; WX 574.86 ; N seven ; B 64 -11 559 677 ;
+C 56 ; WX 574.86 ; N eight ; B 47 -10 526 656 ;
+C 57 ; WX 574.86 ; N nine ; B 48 -10 526 656 ;
+C 58 ; WX 319.366 ; N colon ; B 81 1 237 445 ;
+C 59 ; WX 319.366 ; N semicolon ; B 81 -192 250 445 ;
+C 60 ; WX 894.226 ; N less ; B 96 -73 797 574 ; L less guillemotleft ;
+C 61 ; WX 894.226 ; N equal ; B 64 121 829 380 ;
+C 62 ; WX 894.226 ; N greater ; B 96 -73 797 574 ; L greater guillemotright ;
+C 63 ; WX 542.923 ; N question ; B 64 1 477 701 ; L quoteleft questiondown ;
+C 64 ; WX 894.226 ; N at ; B 64 -5 830 701 ;
+C 65 ; WX 869.232 ; N A ; B 41 1 827 699 ;
+C 66 ; WX 817.856 ; N B ; B 39 1 753 687 ;
+C 67 ; WX 830.353 ; N C ; B 64 -10 765 699 ;
+C 68 ; WX 881.729 ; N D ; B 39 0 817 688 ;
+C 69 ; WX 755.371 ; N E ; B 39 1 722 681 ;
+C 70 ; WX 723.434 ; N F ; B 39 1 674 681 ;
+C 71 ; WX 903.946 ; N G ; B 64 -11 845 698 ;
+C 72 ; WX 899.78 ; N H ; B 39 1 860 687 ;
+C 73 ; WX 436.005 ; N I ; B 33 1 403 687 ;
+C 74 ; WX 594.299 ; N J ; B 22 -10 527 687 ;
+C 75 ; WX 901.169 ; N K ; B 39 1 852 687 ;
+C 76 ; WX 691.498 ; N L ; B 39 1 642 687 ;
+C 77 ; WX 1091.4 ; N M ; B 40 1 1050 687 ;
+C 78 ; WX 899.78 ; N N ; B 39 1 860 687 ;
+C 79 ; WX 863.678 ; N O ; B 64 -10 799 699 ;
+C 80 ; WX 785.919 ; N P ; B 39 1 721 687 ;
+C 81 ; WX 863.678 ; N Q ; B 64 -193 805 698 ;
+C 82 ; WX 862.289 ; N R ; B 39 -10 858 687 ;
+C 83 ; WX 638.733 ; N S ; B 64 -10 574 698 ;
+C 84 ; WX 799.805 ; N T ; B 41 1 758 676 ;
+C 85 ; WX 884.506 ; N U ; B 39 -10 845 687 ;
+C 86 ; WX 869.232 ; N V ; B 26 -7 842 687 ;
+C 87 ; WX 1188.599 ; N W ; B 24 -7 1164 687 ;
+C 88 ; WX 869.232 ; N X ; B 34 1 835 687 ;
+C 89 ; WX 869.232 ; N Y ; B 19 1 849 687 ;
+C 90 ; WX 702.606 ; N Z ; B 64 1 645 687 ;
+C 91 ; WX 319.366 ; N bracketleft ; B 104 -249 293 751 ;
+C 92 ; WX 574.86 ; N backslash ; B 65 -249 510 751 ;
+C 93 ; WX 319.366 ; N bracketright ; B 25 -249 214 751 ;
+C 94 ; WX 702.606 ; N asciicircum ; B 133 461 569 631 ;
+C 95 ; WX 894.226 ; N underscore ; B 96 -307 797 -246 ;
+C 96 ; WX 319.366 ; N quoteleft ; B 65 345 237 694 ; L quoteleft quotedblleft ;
+C 97 ; WX 558.891 ; N a ; B 32 -5 558 454 ;
+C 98 ; WX 638.733 ; N b ; B 37 -6 600 695 ;
+C 99 ; WX 510.986 ; N c ; B 38 -5 478 454 ;
+C 100 ; WX 638.733 ; N d ; B 38 -5 601 695 ;
+C 101 ; WX 526.955 ; N e ; B 32 -5 494 454 ;
+C 102 ; WX 351.303 ; N f ; B 42 1 437 701 ; L f ff ; L i fi ; L l fl ;
+C 103 ; WX 574.86 ; N g ; B 32 -200 558 457 ;
+C 104 ; WX 638.733 ; N h ; B 45 1 615 695 ;
+C 105 ; WX 319.366 ; N i ; B 47 1 286 696 ;
+C 106 ; WX 351.303 ; N j ; B -56 -199 267 696 ;
+C 107 ; WX 606.796 ; N k ; B 36 1 587 695 ;
+C 108 ; WX 319.366 ; N l ; B 47 1 293 695 ;
+C 109 ; WX 958.099 ; N m ; B 45 1 935 451 ;
+C 110 ; WX 638.733 ; N n ; B 45 1 615 451 ;
+C 111 ; WX 574.86 ; N o ; B 32 -5 543 454 ;
+C 112 ; WX 638.733 ; N p ; B 37 -193 600 451 ;
+C 113 ; WX 606.796 ; N q ; B 38 -193 601 451 ;
+C 114 ; WX 473.495 ; N r ; B 36 1 441 451 ;
+C 115 ; WX 453.501 ; N s ; B 38 -5 415 455 ;
+C 116 ; WX 447.113 ; N t ; B 21 -6 383 636 ;
+C 117 ; WX 638.733 ; N u ; B 45 -5 615 451 ;
+C 118 ; WX 606.796 ; N v ; B 26 -3 580 445 ;
+C 119 ; WX 830.353 ; N w ; B 25 -4 804 445 ;
+C 120 ; WX 606.796 ; N x ; B 22 1 585 445 ;
+C 121 ; WX 606.796 ; N y ; B 22 -199 580 445 ;
+C 122 ; WX 510.986 ; N z ; B 31 1 462 445 ;
+C 123 ; WX 574.86 ; N braceleft ; B 78 -250 496 751 ;
+C 124 ; WX 319.366 ; N bar ; B 129 -249 191 750 ;
+C 125 ; WX 574.86 ; N braceright ; B 78 -249 496 752 ;
+C 126 ; WX 702.606 ; N asciitilde ; B 96 587 606 695 ;
+C 161 ; WX 349.915 ; N exclamdown ; B 97 -204 254 501 ;
+C 162 ; WX 574.86 ; N cent ; B 38 -96 541 545 ;
+C 163 ; WX 734.543 ; N sterling ; B 64 -5 702 705 ;
+C 164 ; WX 574.86 ; N fraction ; B 64 -249 510 751 ;
+C 165 ; WX 869.232 ; N yen ; B 19 1 849 687 ;
+C 166 ; WX 351.303 ; N florin ; B 42 1 437 701 ;
+C 167 ; WX 529.037 ; N section ; B 79 -200 449 702 ;
+C 168 ; WX 773.31 ; N currency ; B 52 -47 720 621 ;
+C 169 ; WX 319.366 ; N quotesingle ; B 95 359 222 711 ;
+C 170 ; WX 411.011 ; N quotedblleft ; B -24 345 418 694 ;
+C 171 ; WX 638.733 ; N guillemotleft ; B 126 1 574 473 ;
+C 172 ; WX 510.986 ; N guilsinglleft ; B 129 1 382 473 ;
+C 173 ; WX 510.986 ; N guilsinglright ; B 128 1 381 473 ;
+C 174 ; WX 638.733 ; N fi ; B 31 1 601 701 ;
+C 175 ; WX 638.733 ; N fl ; B 31 1 601 701 ;
+C 177 ; WX 574.86 ; N endash ; B 0 257 574 293 ; L hyphen emdash ;
+C 178 ; WX 510.986 ; N dagger ; B 64 -205 446 701 ;
+C 179 ; WX 510.986 ; N daggerdbl ; B 64 -199 446 701 ;
+C 180 ; WX 274.933 ; N periodcentered ; B 59 159 215 315 ;
+C 182 ; WX 702.606 ; N paragraph ; B 64 -193 670 695 ;
+C 183 ; WX 574.86 ; N bullet ; B 64 27 509 475 ;
+C 184 ; WX 319.366 ; N quotesinglbase ; B 81 -192 250 157 ;
+C 185 ; WX 411.011 ; N quotedblbase ; B -8 -192 434 157 ;
+C 186 ; WX 411.011 ; N quotedblright ; B -8 346 434 695 ;
+C 187 ; WX 638.733 ; N guillemotright ; B 65 1 512 473 ;
+C 188 ; WX 1341.339 ; N ellipsis ; B 82 1 1260 157 ;
+C 189 ; WX 1341.339 ; N perthousand ; B 64 -56 1276 751 ;
+C 191 ; WX 542.923 ; N questiondown ; B 64 -199 478 501 ;
+C 193 ; WX 574.86 ; N grave ; B 113 494 329 663 ;
+C 194 ; WX 574.86 ; N acute ; B 245 494 461 663 ;
+C 195 ; WX 574.86 ; N circumflex ; B 129 479 447 658 ;
+C 196 ; WX 574.86 ; N tilde ; B 96 587 478 696 ;
+C 197 ; WX 574.86 ; N macron ; B 80 646 494 698 ;
+C 198 ; WX 574.86 ; N breve ; B 110 495 464 654 ;
+C 199 ; WX 319.366 ; N dotaccent ; B 97 540 253 696 ;
+C 200 ; WX 574.86 ; N dieresis ; B 97 531 477 687 ;
+C 202 ; WX 869.232 ; N ring ; B 315 488 553 663 ;
+C 203 ; WX 510.986 ; N cedilla ; B 102 -198 408 1 ;
+C 205 ; WX 574.86 ; N hungarumlaut ; B 149 494 557 663 ;
+C 206 ; WX 319.366 ; N ogonek ; B -6 -215 261 29 ;
+C 207 ; WX 574.86 ; N caron ; B 118 473 458 665 ;
+C 208 ; WX 1149.719 ; N emdash ; B 0 257 1149 293 ;
+C 225 ; WX 1041.412 ; N AE ; B 41 1 1008 687 ;
+C 227 ; WX 510.986 ; N ordfeminine ; B 32 278 494 760 ;
+C 232 ; WX 691.498 ; N Lslash ; B 39 1 642 687 ;
+C 233 ; WX 894.226 ; N Oslash ; B 64 -59 829 747 ;
+C 234 ; WX 1169.159 ; N OE ; B 83 -10 1136 698 ;
+C 235 ; WX 510.986 ; N ordmasculine ; B 32 278 479 760 ;
+C 241 ; WX 830.353 ; N ae ; B 37 -5 797 455 ;
+C 245 ; WX 319.366 ; N dotlessi ; B 47 1 286 451 ;
+C 248 ; WX 386.434 ; N lslash ; B 66 1 352 695 ;
+C 249 ; WX 574.86 ; N oslash ; B 32 -105 542 552 ;
+C 250 ; WX 894.226 ; N oe ; B 32 -5 862 454 ;
+C 251 ; WX 597.076 ; N germandbls ; B 36 -6 559 701 ;
+C -1 ; WX 869.232 ; N Aacute ; B 41 1 827 876 ;
+C -1 ; WX 869.232 ; N Abreve ; B 41 1 827 895 ;
+C -1 ; WX 869.232 ; N Acircumflex ; B 41 1 827 899 ;
+C -1 ; WX 574.86 ; N Acute ; B 232 492 458 634 ;
+C -1 ; WX 869.232 ; N Adieresis ; B 41 1 827 895 ;
+C -1 ; WX 869.232 ; N Agrave ; B 41 1 827 876 ;
+C -1 ; WX 869.232 ; N Aogonek ; B 41 -204 827 699 ;
+C -1 ; WX 869.232 ; N Aring ; B 41 1 827 903 ;
+C -1 ; WX 869.232 ; N Atilde ; B 41 1 827 895 ;
+C -1 ; WX 574.86 ; N Breve ; B 110 514 464 653 ;
+C -1 ; WX 608.185 ; N CYRDELTA ; B 18 -17 543 729 ;
+C -1 ; WX 702.606 ; N CYREPS ; B 48 -10 673 698 ;
+C -1 ; WX 691.498 ; N CYRGDSC ; B 39 -193 642 687 ;
+C -1 ; WX 691.498 ; N CYRGDSCHCRS ; B 21 -193 642 687 ;
+C -1 ; WX 869.232 ; N CYRHHCRS ; B 34 1 835 687 ;
+C -1 ; WX 869.232 ; N CYRHHK ; B 34 -199 786 687 ;
+C -1 ; WX 901.169 ; N CYRISHRTDSC ; B 39 -193 903 931 ;
+C -1 ; WX 901.169 ; N CYRLDSC ; B 31 -193 903 687 ;
+C -1 ; WX 901.169 ; N CYRLHK ; B 31 -199 861 687 ;
+C -1 ; WX 1091.4 ; N CYRMDSC ; B 40 -193 1092 687 ;
+C -1 ; WX 1091.4 ; N CYRMHK ; B 40 -199 1050 687 ;
+C -1 ; WX 901.169 ; N CYRNLHK ; B -2 -199 861 687 ;
+C -1 ; WX 863.678 ; N CYRQ ; B 64 -193 805 698 ;
+C -1 ; WX 785.919 ; N CYRRDSC ; B 39 -193 721 687 ;
+C -1 ; WX 785.919 ; N CYRRHK ; B 39 -199 721 687 ;
+C -1 ; WX 830.353 ; N CYRSACRS ; B -5 -10 765 698 ;
+C -1 ; WX 1188.599 ; N CYRW ; B 24 -7 1164 687 ;
+C -1 ; WX 830.353 ; N Cacute ; B 64 -10 765 876 ;
+C -1 ; WX 574.86 ; N Caron ; B 116 540 458 689 ;
+C -1 ; WX 830.353 ; N Ccaron ; B 64 -10 765 905 ;
+C -1 ; WX 830.353 ; N Ccedilla ; B 64 -199 765 698 ;
+C -1 ; WX 574.86 ; N Circumflex ; B 132 495 442 658 ;
+C -1 ; WX 881.729 ; N Dcaron ; B 39 0 817 905 ;
+C -1 ; WX 574.86 ; N Dieresis ; B 97 497 477 653 ;
+C -1 ; WX 319.366 ; N Dotaccent ; B 97 542 253 698 ;
+C -1 ; WX 755.371 ; N Eacute ; B 39 1 722 876 ;
+C -1 ; WX 755.371 ; N Ecaron ; B 39 1 722 905 ;
+C -1 ; WX 755.371 ; N Ecircumflex ; B 39 1 722 899 ;
+C -1 ; WX 755.371 ; N Edieresis ; B 39 1 722 895 ;
+C -1 ; WX 755.371 ; N Egrave ; B 39 1 722 876 ;
+C -1 ; WX 913.666 ; N Eng ; B 39 -10 849 707 ;
+C -1 ; WX 755.371 ; N Eogonek ; B 39 -204 722 681 ;
+C -1 ; WX 881.729 ; N Eth ; B 39 0 817 688 ;
+C -1 ; WX 894.226 ; N Euro ; B 49 1 828 688 ;
+C -1 ; WX 903.946 ; N Gbreve ; B 64 -11 845 895 ;
+C -1 ; WX 574.86 ; N Grave ; B 116 492 342 634 ;
+C -1 ; WX 574.86 ; N Hungarumlaut ; B 137 492 554 634 ;
+C -1 ; WX 1010.864 ; N IJ ; B 33 -10 944 687 ;
+C -1 ; WX 436.005 ; N Iacute ; B 33 1 403 876 ;
+C -1 ; WX 436.005 ; N Icircumflex ; B 33 1 403 899 ;
+C -1 ; WX 436.005 ; N Idieresis ; B 28 1 407 895 ;
+C -1 ; WX 436.005 ; N Idotaccent ; B 33 1 403 939 ;
+C -1 ; WX 436.005 ; N Igrave ; B 33 1 403 876 ;
+C -1 ; WX 691.498 ; N Lacute ; B 39 1 642 876 ;
+C -1 ; WX 691.498 ; N Lcaron ; B 39 1 642 825 ;
+C -1 ; WX 574.86 ; N Macron ; B 80 613 494 665 ;
+C -1 ; WX 899.78 ; N Nacute ; B 39 1 860 876 ;
+C -1 ; WX 899.78 ; N Ncaron ; B 39 1 860 905 ;
+C -1 ; WX 899.78 ; N Ntilde ; B 39 1 860 895 ;
+C -1 ; WX 863.678 ; N Oacute ; B 64 -10 799 876 ;
+C -1 ; WX 863.678 ; N Ocircumflex ; B 64 -10 799 899 ;
+C -1 ; WX 863.678 ; N Odieresis ; B 64 -10 799 895 ;
+C -1 ; WX 863.678 ; N Ograve ; B 64 -10 799 876 ;
+C -1 ; WX 863.678 ; N Ohungarumlaut ; B 64 -10 799 876 ;
+C -1 ; WX 830.353 ; N Omega ; B 51 1 778 698 ;
+C -1 ; WX 863.678 ; N Otilde ; B 64 -10 799 895 ;
+C -1 ; WX 862.289 ; N Racute ; B 39 -10 858 876 ;
+C -1 ; WX 862.289 ; N Rcaron ; B 39 -10 858 905 ;
+C -1 ; WX 884.506 ; N Ring ; B 323 478 561 662 ;
+C -1 ; WX 1277.466 ; N SS ; B 64 -10 1212 698 ;
+C -1 ; WX 638.733 ; N Sacute ; B 64 -10 574 876 ;
+C -1 ; WX 638.733 ; N Scaron ; B 64 -10 574 905 ;
+C -1 ; WX 638.733 ; N Scedilla ; B 63 -198 574 699 ;
+C -1 ; WX 799.805 ; N Tcaron ; B 41 1 758 905 ;
+C -1 ; WX 799.805 ; N Tcommaaccent ; B 41 -199 758 676 ;
+C -1 ; WX 722.046 ; N Thorn ; B 39 1 657 687 ;
+C -1 ; WX 574.86 ; N Tilde ; B 64 547 510 654 ;
+C -1 ; WX 884.506 ; N Uacute ; B 39 -10 845 876 ;
+C -1 ; WX 884.506 ; N Ucircumflex ; B 39 -10 845 899 ;
+C -1 ; WX 884.506 ; N Udieresis ; B 39 -10 845 895 ;
+C -1 ; WX 884.506 ; N Ugrave ; B 39 -10 845 876 ;
+C -1 ; WX 884.506 ; N Uhungarumlaut ; B 39 -10 845 876 ;
+C -1 ; WX 884.506 ; N Uring ; B 39 -10 845 904 ;
+C -1 ; WX 869.232 ; N Yacute ; B 19 1 849 876 ;
+C -1 ; WX 869.232 ; N Ydieresis ; B 19 1 849 895 ;
+C -1 ; WX 702.606 ; N Zacute ; B 64 1 645 876 ;
+C -1 ; WX 702.606 ; N Zcaron ; B 64 1 645 905 ;
+C -1 ; WX 702.606 ; N Zdotaccent ; B 64 1 645 939 ;
+C -1 ; WX 558.891 ; N aacute ; B 32 -5 558 663 ;
+C -1 ; WX 558.891 ; N abreve ; B 32 -5 558 654 ;
+C -1 ; WX 558.891 ; N acircumflex ; B 32 -5 558 658 ;
+C -1 ; WX 574.86 ; N acute.ts1 ; B 238 510 457 705 ;
+C -1 ; WX 558.891 ; N adieresis ; B 32 -5 558 687 ;
+C -1 ; WX 869.232 ; N afii10017 ; B 41 1 827 699 ;
+C -1 ; WX 817.856 ; N afii10018 ; B 39 0 753 687 ;
+C -1 ; WX 817.856 ; N afii10019 ; B 39 1 753 687 ;
+C -1 ; WX 691.498 ; N afii10020 ; B 39 1 642 687 ;
+C -1 ; WX 901.169 ; N afii10021 ; B -3 -193 903 687 ;
+C -1 ; WX 755.371 ; N afii10022 ; B 39 1 722 687 ;
+C -1 ; WX 755.371 ; N afii10023 ; B 39 1 722 895 ;
+C -1 ; WX 1366.333 ; N afii10024 ; B 48 1 1318 687 ;
+C -1 ; WX 702.606 ; N afii10025 ; B 57 -10 654 698 ;
+C -1 ; WX 901.169 ; N afii10026 ; B 39 1 861 687 ;
+C -1 ; WX 901.169 ; N afii10027 ; B 39 1 861 931 ;
+C -1 ; WX 901.169 ; N afii10028 ; B 39 1 852 687 ;
+C -1 ; WX 901.169 ; N afii10029 ; B 31 -11 861 687 ;
+C -1 ; WX 1091.4 ; N afii10030 ; B 40 1 1050 687 ;
+C -1 ; WX 901.169 ; N afii10031 ; B 39 1 861 687 ;
+C -1 ; WX 863.678 ; N afii10032 ; B 64 -10 799 699 ;
+C -1 ; WX 901.169 ; N afii10033 ; B 39 1 861 687 ;
+C -1 ; WX 785.919 ; N afii10034 ; B 39 1 721 687 ;
+C -1 ; WX 830.353 ; N afii10035 ; B 64 -10 765 699 ;
+C -1 ; WX 799.805 ; N afii10036 ; B 41 1 757 687 ;
+C -1 ; WX 869.232 ; N afii10037 ; B 32 -10 843 687 ;
+C -1 ; WX 958.099 ; N afii10038 ; B 65 1 894 687 ;
+C -1 ; WX 869.232 ; N afii10039 ; B 34 1 835 687 ;
+C -1 ; WX 901.169 ; N afii10040 ; B 39 -193 903 687 ;
+C -1 ; WX 901.169 ; N afii10041 ; B 39 1 861 687 ;
+C -1 ; WX 1330.925 ; N afii10042 ; B 40 1 1292 687 ;
+C -1 ; WX 1330.925 ; N afii10043 ; B 40 -193 1334 687 ;
+C -1 ; WX 1006.699 ; N afii10044 ; B 41 0 942 687 ;
+C -1 ; WX 1124.725 ; N afii10045 ; B 39 0 1078 687 ;
+C -1 ; WX 817.856 ; N afii10046 ; B 39 0 753 687 ;
+C -1 ; WX 830.353 ; N afii10047 ; B 64 -10 765 698 ;
+C -1 ; WX 1273.3 ; N afii10048 ; B 38 -10 1208 698 ;
+C -1 ; WX 901.169 ; N afii10049 ; B 48 1 861 687 ;
+C -1 ; WX 707.466 ; N afii10050 ; B 39 1 658 881 ;
+C -1 ; WX 959.488 ; N afii10051 ; B 41 -10 927 687 ;
+C -1 ; WX 830.353 ; N afii10053 ; B 64 -10 765 698 ;
+C -1 ; WX 638.733 ; N afii10054 ; B 64 -10 574 698 ;
+C -1 ; WX 436.005 ; N afii10055 ; B 33 1 403 687 ;
+C -1 ; WX 436.005 ; N afii10056 ; B 28 1 407 895 ;
+C -1 ; WX 594.299 ; N afii10057 ; B 22 -10 527 687 ;
+C -1 ; WX 1233.727 ; N afii10058 ; B 31 -11 1169 687 ;
+C -1 ; WX 1233.727 ; N afii10059 ; B 39 1 1169 687 ;
+C -1 ; WX 878.258 ; N afii10060 ; B 41 1 865 687 ;
+C -1 ; WX 869.232 ; N afii10062 ; B 32 -10 843 931 ;
+C -1 ; WX 558.891 ; N afii10065 ; B 32 -5 558 454 ;
+C -1 ; WX 574.86 ; N afii10066 ; B 32 -5 542 695 ;
+C -1 ; WX 574.86 ; N afii10067 ; B 36 1 536 445 ;
+C -1 ; WX 495.712 ; N afii10068 ; B 33 1 466 445 ;
+C -1 ; WX 638.733 ; N afii10069 ; B 4 -161 634 445 ;
+C -1 ; WX 526.955 ; N afii10070 ; B 32 -5 494 454 ;
+C -1 ; WX 526.955 ; N afii10071 ; B 32 -5 494 687 ;
+C -1 ; WX 958.099 ; N afii10072 ; B 19 1 939 445 ;
+C -1 ; WX 510.986 ; N afii10073 ; B 26 -5 472 454 ;
+C -1 ; WX 638.733 ; N afii10074 ; B 33 1 605 445 ;
+C -1 ; WX 638.733 ; N afii10075 ; B 33 1 605 689 ;
+C -1 ; WX 638.733 ; N afii10076 ; B 34 1 619 445 ;
+C -1 ; WX 638.733 ; N afii10077 ; B 22 -8 605 445 ;
+C -1 ; WX 766.479 ; N afii10078 ; B 42 1 723 445 ;
+C -1 ; WX 638.733 ; N afii10079 ; B 33 1 605 445 ;
+C -1 ; WX 574.86 ; N afii10080 ; B 32 -5 543 454 ;
+C -1 ; WX 638.733 ; N afii10081 ; B 33 1 605 445 ;
+C -1 ; WX 638.733 ; N afii10082 ; B 37 -193 600 451 ;
+C -1 ; WX 510.986 ; N afii10083 ; B 38 -5 478 454 ;
+C -1 ; WX 544.312 ; N afii10084 ; B 30 1 516 445 ;
+C -1 ; WX 606.796 ; N afii10085 ; B 22 -199 580 445 ;
+C -1 ; WX 894.226 ; N afii10086 ; B 38 -193 856 695 ;
+C -1 ; WX 606.796 ; N afii10087 ; B 22 1 585 445 ;
+C -1 ; WX 638.733 ; N afii10088 ; B 33 -161 634 445 ;
+C -1 ; WX 638.733 ; N afii10089 ; B 33 1 605 445 ;
+C -1 ; WX 941.437 ; N afii10090 ; B 33 1 907 445 ;
+C -1 ; WX 941.437 ; N afii10091 ; B 34 -161 937 445 ;
+C -1 ; WX 687.332 ; N afii10092 ; B 29 1 648 445 ;
+C -1 ; WX 830.353 ; N afii10093 ; B 33 1 796 445 ;
+C -1 ; WX 574.86 ; N afii10094 ; B 33 1 536 445 ;
+C -1 ; WX 510.986 ; N afii10095 ; B 32 -5 473 454 ;
+C -1 ; WX 862.289 ; N afii10096 ; B 33 -5 829 454 ;
+C -1 ; WX 607.491 ; N afii10097 ; B 19 1 570 445 ;
+C -1 ; WX 495.712 ; N afii10098 ; B 33 1 466 584 ;
+C -1 ; WX 606.796 ; N afii10099 ; B 32 -193 553 695 ;
+C -1 ; WX 504.599 ; N afii10101 ; B 32 -5 472 454 ;
+C -1 ; WX 453.501 ; N afii10102 ; B 38 -5 415 455 ;
+C -1 ; WX 319.366 ; N afii10103 ; B 47 1 286 696 ;
+C -1 ; WX 319.366 ; N afii10104 ; B -19 1 359 687 ;
+C -1 ; WX 351.303 ; N afii10105 ; B -56 -199 267 696 ;
+C -1 ; WX 862.984 ; N afii10106 ; B 22 -8 824 445 ;
+C -1 ; WX 862.984 ; N afii10107 ; B 33 1 824 445 ;
+C -1 ; WX 638.733 ; N afii10108 ; B 32 1 615 695 ;
+C -1 ; WX 606.796 ; N afii10110 ; B 22 -199 580 689 ;
+C -1 ; WX 901.169 ; N afii10145 ; B 39 -193 861 687 ;
+C -1 ; WX 945.602 ; N afii10146 ; B 61 0 881 751 ;
+C -1 ; WX 945.602 ; N afii10148 ; B 26 -7 913 698 ;
+C -1 ; WX 638.733 ; N afii10193 ; B 33 -161 605 445 ;
+C -1 ; WX 574.86 ; N afii10194 ; B 21 1 536 671 ;
+C -1 ; WX 685.249 ; N afii10196 ; B 26 -7 662 451 ;
+C -1 ; WX 526.955 ; N afii10846 ; B 32 -5 494 452 ;
+C -1 ; WX 1103.897 ; N afii61352 ; B 36 -5 1027 693 ;
+C -1 ; WX 0 ; N afii61664 ; B 0 0 0 0 ;
+C -1 ; WX 0 ; N afii61664.asc ; B 0 0 0 0 ;
+C -1 ; WX 0 ; N afii61664.cap ; B 0 0 0 0 ;
+C -1 ; WX 558.891 ; N agrave ; B 32 -5 558 663 ;
+C -1 ; WX 447.113 ; N angleleft ; B 126 -250 382 751 ;
+C -1 ; WX 447.113 ; N angleright ; B 64 -250 320 751 ;
+C -1 ; WX 558.891 ; N aogonek ; B 32 -204 560 454 ;
+C -1 ; WX 558.891 ; N aring ; B 32 -5 558 663 ;
+C -1 ; WX 574.86 ; N arrowdown ; B 32 -193 543 695 ;
+C -1 ; WX 1149.719 ; N arrowleft ; B 64 0 1085 500 ;
+C -1 ; WX 1149.719 ; N arrowright ; B 64 0 1085 500 ;
+C -1 ; WX 574.86 ; N arrowup ; B 32 -193 543 695 ;
+C -1 ; WX 574.86 ; N asteriskmath ; B 74 29 500 473 ;
+C -1 ; WX 558.891 ; N atilde ; B 32 -5 558 696 ;
+C -1 ; WX 574.86 ; N born ; B 25 0 549 503 ;
+C -1 ; WX 702.606 ; N breve.ts1 ; B 110 508 592 695 ;
+C -1 ; WX 191.62 ; N brokenbar ; B 65 -250 126 751 ;
+C -1 ; WX 510.986 ; N cacute ; B 38 -5 478 663 ;
+C -1 ; WX 702.606 ; N caron.ts1 ; B 134 551 568 716 ;
+C -1 ; WX 510.986 ; N ccaron ; B 38 -5 478 665 ;
+C -1 ; WX 510.986 ; N ccedilla ; B 37 -198 478 454 ;
+C -1 ; WX 574.86 ; N centoldstyle ; B 39 -105 542 552 ;
+C -1 ; WX 1277.466 ; N circle ; B 64 -261 1214 762 ;
+C -1 ; WX 830.353 ; N colonmonetary ; B 64 -55 765 751 ;
+C -1 ; WX 1277.466 ; N copyleft ; B 64 -261 1214 762 ;
+C -1 ; WX 1277.466 ; N copyright ; B 64 -261 1214 762 ;
+C -1 ; WX 574.86 ; N cyrbreve ; B 103 491 471 689 ;
+C -1 ; WX 510.986 ; N cyrdelta ; B 31 -9 446 719 ;
+C -1 ; WX 510.986 ; N cyreps ; B 38 -5 477 454 ;
+C -1 ; WX 574.86 ; N cyrflex ; B 110 515 464 660 ;
+C -1 ; WX 495.712 ; N cyrgdsc ; B 33 -161 466 445 ;
+C -1 ; WX 479.744 ; N cyrgdschcrs ; B 21 -161 466 445 ;
+C -1 ; WX 606.796 ; N cyrhhcrs ; B 21 1 585 445 ;
+C -1 ; WX 606.796 ; N cyrhhk ; B 22 -199 565 445 ;
+C -1 ; WX 638.733 ; N cyrishrtdsc ; B 33 -161 634 689 ;
+C -1 ; WX 638.733 ; N cyrldsc ; B 22 -161 634 445 ;
+C -1 ; WX 638.733 ; N cyrlhk ; B 22 -199 605 445 ;
+C -1 ; WX 766.479 ; N cyrmdsc ; B 42 -161 752 445 ;
+C -1 ; WX 766.479 ; N cyrmhk ; B 42 -199 723 445 ;
+C -1 ; WX 638.733 ; N cyrnlhk ; B -11 -199 605 445 ;
+C -1 ; WX 606.796 ; N cyrq ; B 38 -193 601 451 ;
+C -1 ; WX 638.733 ; N cyrrdsc ; B 37 -310 600 451 ;
+C -1 ; WX 638.733 ; N cyrrhk ; B 37 -316 600 451 ;
+C -1 ; WX 510.986 ; N cyrsacrs ; B -3 -5 478 454 ;
+C -1 ; WX 830.353 ; N cyrw ; B 25 -4 804 445 ;
+C -1 ; WX 574.86 ; N dblgrave ; B 17 495 425 664 ;
+C -1 ; WX 574.86 ; N dblgrave.ts1 ; B 84 518 433 711 ;
+C -1 ; WX 810.219 ; N dcaron ; B 38 -5 750 755 ;
+C -1 ; WX 638.733 ; N dcroat ; B 38 -5 601 695 ;
+C -1 ; WX 383.24 ; N degree ; B 64 431 320 688 ;
+C -1 ; WX 574.86 ; N died ; B 45 -24 529 608 ;
+C -1 ; WX 574.86 ; N dieresis.ts1 ; B 103 551 471 696 ;
+C -1 ; WX 574.86 ; N discount ; B 64 1 510 751 ;
+C -1 ; WX 894.226 ; N divide ; B 64 -88 829 589 ;
+C -1 ; WX 574.86 ; N divorced ; B -229 -113 803 615 ;
+C -1 ; WX 702.606 ; N dollaroldstyle ; B 64 -55 638 751 ;
+C -1 ; WX 638.733 ; N dong ; B 38 -61 613 751 ;
+C -1 ; WX 351.303 ; N dotlessj ; B -56 -199 267 451 ;
+C -1 ; WX 526.955 ; N eacute ; B 32 -5 494 663 ;
+C -1 ; WX 526.955 ; N ecaron ; B 32 -5 494 665 ;
+C -1 ; WX 526.955 ; N ecircumflex ; B 32 -5 494 658 ;
+C -1 ; WX 526.955 ; N edieresis ; B 32 -5 494 687 ;
+C -1 ; WX 526.955 ; N egrave ; B 32 -5 494 663 ;
+C -1 ; WX 574.86 ; N eightoldstyle ; B 47 -10 526 656 ;
+C -1 ; WX 926.163 ; N emdash.cyr ; B 16 257 909 293 ;
+C -1 ; WX 638.733 ; N eng ; B 45 -199 546 451 ;
+C -1 ; WX 526.955 ; N eogonek ; B 32 -204 494 454 ;
+C -1 ; WX 794.945 ; N estimated ; B 32 -5 762 696 ;
+C -1 ; WX 574.86 ; N eth ; B 32 -5 542 696 ;
+C -1 ; WX 670.67 ; N ff ; B 31 1 746 701 ; L i ffi ; L l ffl ;
+C -1 ; WX 958.099 ; N ffi ; B 31 1 920 701 ;
+C -1 ; WX 958.099 ; N ffl ; B 31 1 920 702 ;
+C -1 ; WX 574.86 ; N fiveoldstyle ; B 57 -204 517 456 ;
+C -1 ; WX 574.86 ; N fouroldstyle ; B 32 -193 542 457 ;
+C -1 ; WX 574.86 ; N gbreve ; B 32 -200 558 654 ;
+C -1 ; WX 597.076 ; N germandbls.alt ; B 36 -6 564 701 ;
+C -1 ; WX 542.923 ; N gnaborretni ; B 65 -204 478 501 ;
+C -1 ; WX 574.86 ; N grave.ts1 ; B 116 510 336 705 ;
+C -1 ; WX 903.946 ; N guarani ; B 64 -55 845 751 ;
+C -1 ; WX 638.733 ; N guillemotleft.cyr ; B 126 0 541 445 ;
+C -1 ; WX 638.733 ; N guillemotright.cyr ; B 98 1 512 445 ;
+C -1 ; WX 574.86 ; N hungarumlaut.ts1 ; B 141 518 490 710 ;
+C -1 ; WX 191.62 ; N hyphen.alt ; B 13 175 318 272 ;
+C -1 ; WX 383.24 ; N hyphendbl ; B 13 85 318 406 ; L hyphendbl.alt hyphendbl.alt ;
+C -1 ; WX 191.62 ; N hyphendbl.alt ; B 13 85 318 406 ;
+C -1 ; WX 319.366 ; N iacute ; B 47 1 312 663 ;
+C -1 ; WX 319.366 ; N icircumflex ; B 14 1 326 658 ;
+C -1 ; WX 383.24 ; N idieresis ; B 13 1 391 687 ;
+C -1 ; WX 319.366 ; N igrave ; B -4 1 286 663 ;
+C -1 ; WX 670.67 ; N ij ; B 67 -199 594 696 ;
+C -1 ; WX 319.366 ; N lacute ; B 47 1 341 876 ;
+C -1 ; WX 501.961 ; N lcaron ; B 47 1 442 755 ;
+C -1 ; WX 1149.719 ; N leaf ; B -18 -79 1167 775 ;
+C -1 ; WX 734.543 ; N lira ; B 64 -5 702 705 ;
+C -1 ; WX 766.479 ; N logicalnot ; B 64 62 702 373 ;
+C -1 ; WX 894.226 ; N macron.ts1 ; B 96 634 797 695 ;
+C -1 ; WX 574.86 ; N married ; B -100 28 675 474 ;
+C -1 ; WX 894.226 ; N minus ; B 64 233 829 269 ;
+C -1 ; WX 638.733 ; N mu ; B 45 -193 615 451 ;
+C -1 ; WX 894.226 ; N multiply ; B 167 -30 726 531 ;
+C -1 ; WX 702.606 ; N musicalnote ; B 64 -36 640 695 ;
+C -1 ; WX 638.733 ; N nacute ; B 45 1 615 663 ;
+C -1 ; WX 638.733 ; N ncaron ; B 45 1 615 665 ;
+C -1 ; WX 574.86 ; N nineoldstyle ; B 48 -204 526 456 ;
+C -1 ; WX 638.733 ; N ntilde ; B 45 1 615 696 ;
+C -1 ; WX 574.86 ; N oacute ; B 32 -5 543 663 ;
+C -1 ; WX 574.86 ; N ocircumflex ; B 32 -5 543 658 ;
+C -1 ; WX 574.86 ; N odieresis ; B 32 -5 543 687 ;
+C -1 ; WX 574.86 ; N ograve ; B 32 -5 543 663 ;
+C -1 ; WX 574.86 ; N ohungarumlaut ; B 32 -5 557 663 ;
+C -1 ; WX 510.986 ; N onehalf ; B 2 -193 508 762 ;
+C -1 ; WX 574.86 ; N oneoldstyle ; B 85 1 494 453 ;
+C -1 ; WX 510.986 ; N onequarter ; B 2 -193 508 762 ;
+C -1 ; WX 510.986 ; N onesuperior ; B 80 348 430 763 ;
+C -1 ; WX 574.86 ; N openbullet ; B 64 27 509 475 ;
+C -1 ; WX 574.86 ; N otilde ; B 32 -5 543 696 ;
+C -1 ; WX 542.923 ; N paragraph.alt ; B 64 -193 510 695 ;
+C -1 ; WX 447.113 ; N perthousandzero ; B 64 -56 382 349 ;
+C -1 ; WX 801.888 ; N peso ; B 17 1 737 687 ;
+C -1 ; WX 894.226 ; N plusminus ; B 64 -38 829 730 ;
+C -1 ; WX 574.86 ; N quotedblbase.ts1 ; B 127 -215 447 137 ;
+C -1 ; WX 447.113 ; N quotesinglbase.ts1 ; B 159 -215 287 137 ;
+C -1 ; WX 473.495 ; N racute ; B 36 1 441 662 ;
+C -1 ; WX 542.923 ; N radical ; B 28 -94 607 757 ;
+C -1 ; WX 473.495 ; N rcaron ; B 36 1 441 665 ;
+C -1 ; WX 862.289 ; N recipe ; B 39 -10 860 687 ;
+C -1 ; WX 1277.466 ; N registered ; B 64 -261 1214 762 ;
+C -1 ; WX 453.501 ; N sacute ; B 38 -5 415 663 ;
+C -1 ; WX 453.501 ; N scaron ; B 38 -5 415 665 ;
+C -1 ; WX 453.501 ; N scedilla ; B 37 -198 415 454 ;
+C -1 ; WX 574.86 ; N sevenoldstyle ; B 64 -204 559 477 ;
+C -1 ; WX 574.86 ; N sixoldstyle ; B 48 -10 526 656 ;
+C -1 ; WX 447.113 ; N tcaron ; B 21 -5 457 791 ;
+C -1 ; WX 447.113 ; N tcommaaccent ; B 21 -198 428 636 ;
+C -1 ; WX 638.733 ; N thorn ; B 37 -193 600 701 ;
+C -1 ; WX 574.86 ; N threeoldstyle ; B 48 -204 526 456 ;
+C -1 ; WX 510.986 ; N threequarters ; B 2 -193 508 762 ;
+C -1 ; WX 862.289 ; N threequartersemdash ; B 0 257 861 293 ;
+C -1 ; WX 510.986 ; N threesuperior ; B 48 342 462 762 ;
+C -1 ; WX 397.125 ; N tieaccentcapital ; B 175 499 706 654 ;
+C -1 ; WX 574.86 ; N tieaccentcapital.new ; B 46 499 528 653 ;
+C -1 ; WX 319.366 ; N tieaccentlowercase ; B 136 542 596 668 ;
+C -1 ; WX 574.86 ; N tieaccentlowercase.new ; B 110 541 464 667 ;
+C -1 ; WX 702.606 ; N tildelow ; B 96 1 606 128 ;
+C -1 ; WX 766.479 ; N trademark ; B 0 365 726 762 ;
+C -1 ; WX 766.479 ; N twelveudash ; B 0 257 765 293 ;
+C -1 ; WX 574.86 ; N twooldstyle ; B 51 1 517 456 ;
+C -1 ; WX 510.986 ; N twosuperior ; B 56 348 453 762 ;
+C -1 ; WX 638.733 ; N uacute ; B 45 -5 615 663 ;
+C -1 ; WX 638.733 ; N ucircumflex ; B 45 -5 615 658 ;
+C -1 ; WX 638.733 ; N udieresis ; B 45 -5 615 687 ;
+C -1 ; WX 638.733 ; N ugrave ; B 45 -5 615 663 ;
+C -1 ; WX 638.733 ; N uhungarumlaut ; B 45 -5 615 663 ;
+C -1 ; WX 319.366 ; N uni02CE ; B 9 128 296 356 ;
+C -1 ; WX 319.366 ; N uni02CF ; B 22 128 309 356 ;
+C -1 ; WX 319.366 ; N uni0335 ; B 22 229 296 262 ;
+C -1 ; WX 1188.599 ; N uni046A ; B 19 1 1169 688 ;
+C -1 ; WX 958.099 ; N uni046B ; B 19 1 939 445 ;
+C -1 ; WX 945.602 ; N uni048C ; B 61 0 881 687 ;
+C -1 ; WX 574.86 ; N uni048D ; B -35 1 536 654 ;
+C -1 ; WX 785.919 ; N uni048E ; B 39 1 726 687 ;
+C -1 ; WX 638.733 ; N uni048F ; B 37 -193 643 451 ;
+C -1 ; WX 691.498 ; N uni0492 ; B 21 1 642 687 ;
+C -1 ; WX 495.712 ; N uni0493 ; B 21 1 466 445 ;
+C -1 ; WX 848.404 ; N uni0494 ; B 39 -199 783 687 ;
+C -1 ; WX 638.733 ; N uni0495 ; B 34 -199 574 445 ;
+C -1 ; WX 1366.333 ; N uni0496 ; B 48 -193 1349 687 ;
+C -1 ; WX 958.099 ; N uni0497 ; B 19 -161 957 445 ;
+C -1 ; WX 702.606 ; N uni0498 ; B 57 -222 654 698 ;
+C -1 ; WX 510.986 ; N uni0499 ; B 26 -222 472 454 ;
+C -1 ; WX 901.169 ; N uni049A ; B 39 -193 883 687 ;
+C -1 ; WX 638.733 ; N uni049B ; B 34 -161 637 445 ;
+C -1 ; WX 996.979 ; N uni049C ; B 39 1 948 687 ;
+C -1 ; WX 734.543 ; N uni049D ; B 34 1 715 445 ;
+C -1 ; WX 901.169 ; N uni049E ; B 21 1 852 687 ;
+C -1 ; WX 638.733 ; N uni049F ; B 21 1 619 695 ;
+C -1 ; WX 1083.069 ; N uni04A0 ; B 42 1 1034 687 ;
+C -1 ; WX 751.205 ; N uni04A1 ; B 29 1 731 445 ;
+C -1 ; WX 901.169 ; N uni04A2 ; B 39 -193 903 687 ;
+C -1 ; WX 638.733 ; N uni04A3 ; B 33 -161 634 445 ;
+C -1 ; WX 1090.012 ; N uni04A4 ; B 39 1 1047 687 ;
+C -1 ; WX 751.205 ; N uni04A5 ; B 33 1 721 445 ;
+C -1 ; WX 1249.001 ; N uni04A6 ; B 39 -199 1216 687 ;
+C -1 ; WX 894.226 ; N uni04A7 ; B 33 -199 828 445 ;
+C -1 ; WX 894.226 ; N uni04A8 ; B 64 -82 861 698 ;
+C -1 ; WX 574.86 ; N uni04A9 ; B 32 -80 542 454 ;
+C -1 ; WX 830.353 ; N uni04AA ; B 64 -222 765 698 ;
+C -1 ; WX 510.986 ; N uni04AB ; B 37 -222 478 454 ;
+C -1 ; WX 799.805 ; N uni04AC ; B 41 -193 757 687 ;
+C -1 ; WX 544.312 ; N uni04AD ; B 29 -161 514 445 ;
+C -1 ; WX 869.232 ; N uni04AE ; B 19 1 849 687 ;
+C -1 ; WX 606.796 ; N uni04AF ; B 13 -193 593 445 ;
+C -1 ; WX 869.232 ; N uni04B0 ; B 19 1 849 687 ;
+C -1 ; WX 606.796 ; N uni04B1 ; B 13 -193 593 445 ;
+C -1 ; WX 869.232 ; N uni04B2 ; B 34 -193 874 687 ;
+C -1 ; WX 606.796 ; N uni04B3 ; B 22 -161 608 445 ;
+C -1 ; WX 1152.496 ; N uni04B4 ; B 6 -193 1154 687 ;
+C -1 ; WX 770.368 ; N uni04B5 ; B 29 -161 765 445 ;
+C -1 ; WX 901.169 ; N uni04B6 ; B 39 -193 903 687 ;
+C -1 ; WX 638.733 ; N uni04B7 ; B 33 -161 634 445 ;
+C -1 ; WX 901.169 ; N uni04B8 ; B 39 1 861 687 ;
+C -1 ; WX 638.733 ; N uni04B9 ; B 33 1 605 445 ;
+C -1 ; WX 901.169 ; N uni04BA ; B 39 1 861 687 ;
+C -1 ; WX 638.733 ; N uni04BB ; B 45 1 615 695 ;
+C -1 ; WX 992.119 ; N uni04BC ; B 31 -10 959 698 ;
+C -1 ; WX 721.352 ; N uni04BD ; B 31 -5 688 454 ;
+C -1 ; WX 992.119 ; N uni04BE ; B 31 -204 959 698 ;
+C -1 ; WX 721.352 ; N uni04BF ; B 31 -206 688 454 ;
+C -1 ; WX 436.005 ; N uni04C0 ; B 33 1 403 687 ;
+C -1 ; WX 901.169 ; N uni04C3 ; B 39 -199 836 687 ;
+C -1 ; WX 638.733 ; N uni04C4 ; B 34 -199 594 445 ;
+C -1 ; WX 901.169 ; N uni04C7 ; B 39 -199 861 687 ;
+C -1 ; WX 638.733 ; N uni04C8 ; B 33 -199 605 445 ;
+C -1 ; WX 901.169 ; N uni04CB ; B 39 -193 861 687 ;
+C -1 ; WX 638.733 ; N uni04CC ; B 33 -161 605 445 ;
+C -1 ; WX 1041.412 ; N uni04D4 ; B 41 1 1008 687 ;
+C -1 ; WX 830.353 ; N uni04D5 ; B 37 -5 797 455 ;
+C -1 ; WX 794.945 ; N uni04D8 ; B 32 -10 747 699 ;
+C -1 ; WX 638.733 ; N uni04E0 ; B 48 -11 589 687 ;
+C -1 ; WX 510.986 ; N uni04E1 ; B 48 -200 462 445 ;
+C -1 ; WX 863.678 ; N uni04E8 ; B 64 -10 799 699 ;
+C -1 ; WX 574.86 ; N uni04E9 ; B 32 -5 543 454 ;
+C -1 ; WX 817.856 ; N uni0E3F ; B 39 -55 753 751 ;
+C -1 ; WX 574.86 ; N uni2016 ; B 186 -250 389 751 ;
+C -1 ; WX 1802.338 ; N uni2031 ; B 64 -56 1737 751 ;
+C -1 ; WX 655.394 ; N uni203B ; B 64 1 590 529 ;
+C -1 ; WX 542.923 ; N uni203D ; B 64 1 478 706 ;
+C -1 ; WX 415.176 ; N uni2045 ; B 70 -257 336 751 ;
+C -1 ; WX 415.176 ; N uni2046 ; B 78 -250 344 751 ;
+C -1 ; WX 931.717 ; N uni20A6 ; B 17 1 914 687 ;
+C -1 ; WX 1188.599 ; N uni20A9 ; B 24 -7 1164 687 ;
+C -1 ; WX 1085.846 ; N uni2103 ; B 0 -10 1021 699 ;
+C -1 ; WX 1277.466 ; N uni2117 ; B 64 -261 1214 762 ;
+C -1 ; WX 766.479 ; N uni2120 ; B 40 365 726 762 ;
+C -1 ; WX 830.353 ; N uni2127 ; B 51 -10 778 687 ;
+C -1 ; WX 638.733 ; N uni2422 ; B 31 -6 600 709 ;
+C -1 ; WX 574.86 ; N uni2423 ; B 48 -97 526 113 ;
+C -1 ; WX 463.081 ; N uni301A ; B 128 -249 437 751 ;
+C -1 ; WX 463.081 ; N uni301B ; B 26 -249 334 751 ;
+C -1 ; WX 638.733 ; N uring ; B 45 -5 615 663 ;
+C -1 ; WX 606.796 ; N yacute ; B 22 -199 580 663 ;
+C -1 ; WX 606.796 ; N ydieresis ; B 22 -199 580 687 ;
+C -1 ; WX 510.986 ; N zacute ; B 31 1 462 663 ;
+C -1 ; WX 510.986 ; N zcaron ; B 31 1 462 665 ;
+C -1 ; WX 510.986 ; N zdotaccent ; B 31 1 462 696 ;
+C -1 ; WX 574.86 ; N zerooldstyle ; B 45 -10 529 456 ;
+EndCharMetrics
+StartKernData
+StartKernPairs 4036
+KPX A C -31.937
+KPX A Cacute -31.937
+KPX A Ccaron -31.937
+KPX A Ccedilla -31.937
+KPX A G -31.937
+KPX A Gbreve -31.937
+KPX A O -31.937
+KPX A OE -31.937
+KPX A Oacute -31.937
+KPX A Ocircumflex -31.937
+KPX A Odieresis -31.937
+KPX A Ograve -31.937
+KPX A Ohungarumlaut -31.937
+KPX A Oslash -31.937
+KPX A Otilde -31.937
+KPX A Q -31.937
+KPX A T -95.81
+KPX A Tcaron -95.81
+KPX A Tcommaaccent -95.81
+KPX A U -31.937
+KPX A Uacute -31.937
+KPX A Ucircumflex -31.937
+KPX A Udieresis -31.937
+KPX A Ugrave -31.937
+KPX A Uhungarumlaut -31.937
+KPX A Uring -31.937
+KPX A V -127.747
+KPX A W -127.747
+KPX A Y -95.81
+KPX A Yacute -95.81
+KPX A Ydieresis -95.81
+KPX A c -31.937
+KPX A cacute -31.937
+KPX A ccaron -31.937
+KPX A ccedilla -31.937
+KPX A d -31.937
+KPX A dcaron -31.937
+KPX A dcroat -31.937
+KPX A e -31.937
+KPX A eacute -31.937
+KPX A ecaron -31.937
+KPX A ecircumflex -31.937
+KPX A edieresis -31.937
+KPX A egrave -31.937
+KPX A eogonek -31.937
+KPX A eth -31.937
+KPX A o -31.937
+KPX A oacute -31.937
+KPX A ocircumflex -31.937
+KPX A odieresis -31.937
+KPX A oe -31.937
+KPX A ograve -31.937
+KPX A ohungarumlaut -31.937
+KPX A oslash -31.937
+KPX A otilde -31.937
+KPX A q -31.937
+KPX A t -31.937
+KPX A tcaron -31.937
+KPX A tcommaaccent -31.937
+KPX A v -127.747
+KPX A w -95.81
+KPX A y -95.81
+KPX A yacute -95.81
+KPX A ydieresis -95.81
+KPX Aacute C -31.937
+KPX Aacute Cacute -31.937
+KPX Aacute Ccaron -31.937
+KPX Aacute Ccedilla -31.937
+KPX Aacute G -31.937
+KPX Aacute Gbreve -31.937
+KPX Aacute O -31.937
+KPX Aacute OE -31.937
+KPX Aacute Oacute -31.937
+KPX Aacute Ocircumflex -31.937
+KPX Aacute Odieresis -31.937
+KPX Aacute Ograve -31.937
+KPX Aacute Ohungarumlaut -31.937
+KPX Aacute Oslash -31.937
+KPX Aacute Otilde -31.937
+KPX Aacute Q -31.937
+KPX Aacute T -95.81
+KPX Aacute Tcaron -95.81
+KPX Aacute Tcommaaccent -95.81
+KPX Aacute U -31.937
+KPX Aacute Uacute -31.937
+KPX Aacute Ucircumflex -31.937
+KPX Aacute Udieresis -31.937
+KPX Aacute Ugrave -31.937
+KPX Aacute Uhungarumlaut -31.937
+KPX Aacute Uring -31.937
+KPX Aacute V -127.747
+KPX Aacute W -127.747
+KPX Aacute Y -95.81
+KPX Aacute Yacute -95.81
+KPX Aacute Ydieresis -95.81
+KPX Aacute c -31.937
+KPX Aacute cacute -31.937
+KPX Aacute ccaron -31.937
+KPX Aacute ccedilla -31.937
+KPX Aacute d -31.937
+KPX Aacute dcaron -31.937
+KPX Aacute dcroat -31.937
+KPX Aacute e -31.937
+KPX Aacute eacute -31.937
+KPX Aacute ecaron -31.937
+KPX Aacute ecircumflex -31.937
+KPX Aacute edieresis -31.937
+KPX Aacute egrave -31.937
+KPX Aacute eogonek -31.937
+KPX Aacute eth -31.937
+KPX Aacute o -31.937
+KPX Aacute oacute -31.937
+KPX Aacute ocircumflex -31.937
+KPX Aacute odieresis -31.937
+KPX Aacute oe -31.937
+KPX Aacute ograve -31.937
+KPX Aacute ohungarumlaut -31.937
+KPX Aacute oslash -31.937
+KPX Aacute otilde -31.937
+KPX Aacute q -31.937
+KPX Aacute t -31.937
+KPX Aacute tcaron -31.937
+KPX Aacute tcommaaccent -31.937
+KPX Aacute v -127.747
+KPX Aacute w -95.81
+KPX Aacute y -95.81
+KPX Aacute yacute -95.81
+KPX Aacute ydieresis -95.81
+KPX Abreve C -31.937
+KPX Abreve Cacute -31.937
+KPX Abreve Ccaron -31.937
+KPX Abreve Ccedilla -31.937
+KPX Abreve G -31.937
+KPX Abreve Gbreve -31.937
+KPX Abreve O -31.937
+KPX Abreve OE -31.937
+KPX Abreve Oacute -31.937
+KPX Abreve Ocircumflex -31.937
+KPX Abreve Odieresis -31.937
+KPX Abreve Ograve -31.937
+KPX Abreve Ohungarumlaut -31.937
+KPX Abreve Oslash -31.937
+KPX Abreve Otilde -31.937
+KPX Abreve Q -31.937
+KPX Abreve T -95.81
+KPX Abreve Tcaron -95.81
+KPX Abreve Tcommaaccent -95.81
+KPX Abreve U -31.937
+KPX Abreve Uacute -31.937
+KPX Abreve Ucircumflex -31.937
+KPX Abreve Udieresis -31.937
+KPX Abreve Ugrave -31.937
+KPX Abreve Uhungarumlaut -31.937
+KPX Abreve Uring -31.937
+KPX Abreve V -127.747
+KPX Abreve W -127.747
+KPX Abreve Y -95.81
+KPX Abreve Yacute -95.81
+KPX Abreve Ydieresis -95.81
+KPX Abreve c -31.937
+KPX Abreve cacute -31.937
+KPX Abreve ccaron -31.937
+KPX Abreve ccedilla -31.937
+KPX Abreve d -31.937
+KPX Abreve dcaron -31.937
+KPX Abreve dcroat -31.937
+KPX Abreve e -31.937
+KPX Abreve eacute -31.937
+KPX Abreve ecaron -31.937
+KPX Abreve ecircumflex -31.937
+KPX Abreve edieresis -31.937
+KPX Abreve egrave -31.937
+KPX Abreve eogonek -31.937
+KPX Abreve eth -31.937
+KPX Abreve o -31.937
+KPX Abreve oacute -31.937
+KPX Abreve ocircumflex -31.937
+KPX Abreve odieresis -31.937
+KPX Abreve oe -31.937
+KPX Abreve ograve -31.937
+KPX Abreve ohungarumlaut -31.937
+KPX Abreve oslash -31.937
+KPX Abreve otilde -31.937
+KPX Abreve q -31.937
+KPX Abreve t -31.937
+KPX Abreve tcaron -31.937
+KPX Abreve tcommaaccent -31.937
+KPX Abreve v -127.747
+KPX Abreve w -95.81
+KPX Abreve y -95.81
+KPX Abreve yacute -95.81
+KPX Abreve ydieresis -95.81
+KPX Acircumflex C -31.937
+KPX Acircumflex Cacute -31.937
+KPX Acircumflex Ccaron -31.937
+KPX Acircumflex Ccedilla -31.937
+KPX Acircumflex G -31.937
+KPX Acircumflex Gbreve -31.937
+KPX Acircumflex O -31.937
+KPX Acircumflex OE -31.937
+KPX Acircumflex Oacute -31.937
+KPX Acircumflex Ocircumflex -31.937
+KPX Acircumflex Odieresis -31.937
+KPX Acircumflex Ograve -31.937
+KPX Acircumflex Ohungarumlaut -31.937
+KPX Acircumflex Oslash -31.937
+KPX Acircumflex Otilde -31.937
+KPX Acircumflex Q -31.937
+KPX Acircumflex T -95.81
+KPX Acircumflex Tcaron -95.81
+KPX Acircumflex Tcommaaccent -95.81
+KPX Acircumflex U -31.937
+KPX Acircumflex Uacute -31.937
+KPX Acircumflex Ucircumflex -31.937
+KPX Acircumflex Udieresis -31.937
+KPX Acircumflex Ugrave -31.937
+KPX Acircumflex Uhungarumlaut -31.937
+KPX Acircumflex Uring -31.937
+KPX Acircumflex V -127.747
+KPX Acircumflex W -127.747
+KPX Acircumflex Y -95.81
+KPX Acircumflex Yacute -95.81
+KPX Acircumflex Ydieresis -95.81
+KPX Acircumflex c -31.937
+KPX Acircumflex cacute -31.937
+KPX Acircumflex ccaron -31.937
+KPX Acircumflex ccedilla -31.937
+KPX Acircumflex d -31.937
+KPX Acircumflex dcaron -31.937
+KPX Acircumflex dcroat -31.937
+KPX Acircumflex e -31.937
+KPX Acircumflex eacute -31.937
+KPX Acircumflex ecaron -31.937
+KPX Acircumflex ecircumflex -31.937
+KPX Acircumflex edieresis -31.937
+KPX Acircumflex egrave -31.937
+KPX Acircumflex eogonek -31.937
+KPX Acircumflex eth -31.937
+KPX Acircumflex o -31.937
+KPX Acircumflex oacute -31.937
+KPX Acircumflex ocircumflex -31.937
+KPX Acircumflex odieresis -31.937
+KPX Acircumflex oe -31.937
+KPX Acircumflex ograve -31.937
+KPX Acircumflex ohungarumlaut -31.937
+KPX Acircumflex oslash -31.937
+KPX Acircumflex otilde -31.937
+KPX Acircumflex q -31.937
+KPX Acircumflex t -31.937
+KPX Acircumflex tcaron -31.937
+KPX Acircumflex tcommaaccent -31.937
+KPX Acircumflex v -127.747
+KPX Acircumflex w -95.81
+KPX Acircumflex y -95.81
+KPX Acircumflex yacute -95.81
+KPX Acircumflex ydieresis -95.81
+KPX Adieresis C -31.937
+KPX Adieresis Cacute -31.937
+KPX Adieresis Ccaron -31.937
+KPX Adieresis Ccedilla -31.937
+KPX Adieresis G -31.937
+KPX Adieresis Gbreve -31.937
+KPX Adieresis O -31.937
+KPX Adieresis OE -31.937
+KPX Adieresis Oacute -31.937
+KPX Adieresis Ocircumflex -31.937
+KPX Adieresis Odieresis -31.937
+KPX Adieresis Ograve -31.937
+KPX Adieresis Ohungarumlaut -31.937
+KPX Adieresis Oslash -31.937
+KPX Adieresis Otilde -31.937
+KPX Adieresis Q -31.937
+KPX Adieresis T -95.81
+KPX Adieresis Tcaron -95.81
+KPX Adieresis Tcommaaccent -95.81
+KPX Adieresis U -31.937
+KPX Adieresis Uacute -31.937
+KPX Adieresis Ucircumflex -31.937
+KPX Adieresis Udieresis -31.937
+KPX Adieresis Ugrave -31.937
+KPX Adieresis Uhungarumlaut -31.937
+KPX Adieresis Uring -31.937
+KPX Adieresis V -127.747
+KPX Adieresis W -127.747
+KPX Adieresis Y -95.81
+KPX Adieresis Yacute -95.81
+KPX Adieresis Ydieresis -95.81
+KPX Adieresis c -31.937
+KPX Adieresis cacute -31.937
+KPX Adieresis ccaron -31.937
+KPX Adieresis ccedilla -31.937
+KPX Adieresis d -31.937
+KPX Adieresis dcaron -31.937
+KPX Adieresis dcroat -31.937
+KPX Adieresis e -31.937
+KPX Adieresis eacute -31.937
+KPX Adieresis ecaron -31.937
+KPX Adieresis ecircumflex -31.937
+KPX Adieresis edieresis -31.937
+KPX Adieresis egrave -31.937
+KPX Adieresis eogonek -31.937
+KPX Adieresis eth -31.937
+KPX Adieresis o -31.937
+KPX Adieresis oacute -31.937
+KPX Adieresis ocircumflex -31.937
+KPX Adieresis odieresis -31.937
+KPX Adieresis oe -31.937
+KPX Adieresis ograve -31.937
+KPX Adieresis ohungarumlaut -31.937
+KPX Adieresis oslash -31.937
+KPX Adieresis otilde -31.937
+KPX Adieresis q -31.937
+KPX Adieresis t -31.937
+KPX Adieresis tcaron -31.937
+KPX Adieresis tcommaaccent -31.937
+KPX Adieresis v -127.747
+KPX Adieresis w -95.81
+KPX Adieresis y -95.81
+KPX Adieresis yacute -95.81
+KPX Adieresis ydieresis -95.81
+KPX Agrave C -31.937
+KPX Agrave Cacute -31.937
+KPX Agrave Ccaron -31.937
+KPX Agrave Ccedilla -31.937
+KPX Agrave G -31.937
+KPX Agrave Gbreve -31.937
+KPX Agrave O -31.937
+KPX Agrave OE -31.937
+KPX Agrave Oacute -31.937
+KPX Agrave Ocircumflex -31.937
+KPX Agrave Odieresis -31.937
+KPX Agrave Ograve -31.937
+KPX Agrave Ohungarumlaut -31.937
+KPX Agrave Oslash -31.937
+KPX Agrave Otilde -31.937
+KPX Agrave Q -31.937
+KPX Agrave T -95.81
+KPX Agrave Tcaron -95.81
+KPX Agrave Tcommaaccent -95.81
+KPX Agrave U -31.937
+KPX Agrave Uacute -31.937
+KPX Agrave Ucircumflex -31.937
+KPX Agrave Udieresis -31.937
+KPX Agrave Ugrave -31.937
+KPX Agrave Uhungarumlaut -31.937
+KPX Agrave Uring -31.937
+KPX Agrave V -127.747
+KPX Agrave W -127.747
+KPX Agrave Y -95.81
+KPX Agrave Yacute -95.81
+KPX Agrave Ydieresis -95.81
+KPX Agrave c -31.937
+KPX Agrave cacute -31.937
+KPX Agrave ccaron -31.937
+KPX Agrave ccedilla -31.937
+KPX Agrave d -31.937
+KPX Agrave dcaron -31.937
+KPX Agrave dcroat -31.937
+KPX Agrave e -31.937
+KPX Agrave eacute -31.937
+KPX Agrave ecaron -31.937
+KPX Agrave ecircumflex -31.937
+KPX Agrave edieresis -31.937
+KPX Agrave egrave -31.937
+KPX Agrave eogonek -31.937
+KPX Agrave eth -31.937
+KPX Agrave o -31.937
+KPX Agrave oacute -31.937
+KPX Agrave ocircumflex -31.937
+KPX Agrave odieresis -31.937
+KPX Agrave oe -31.937
+KPX Agrave ograve -31.937
+KPX Agrave ohungarumlaut -31.937
+KPX Agrave oslash -31.937
+KPX Agrave otilde -31.937
+KPX Agrave q -31.937
+KPX Agrave t -31.937
+KPX Agrave tcaron -31.937
+KPX Agrave tcommaaccent -31.937
+KPX Agrave v -127.747
+KPX Agrave w -95.81
+KPX Agrave y -95.81
+KPX Agrave yacute -95.81
+KPX Agrave ydieresis -95.81
+KPX Aring C -31.937
+KPX Aring Cacute -31.937
+KPX Aring Ccaron -31.937
+KPX Aring Ccedilla -31.937
+KPX Aring G -31.937
+KPX Aring Gbreve -31.937
+KPX Aring O -31.937
+KPX Aring OE -31.937
+KPX Aring Oacute -31.937
+KPX Aring Ocircumflex -31.937
+KPX Aring Odieresis -31.937
+KPX Aring Ograve -31.937
+KPX Aring Ohungarumlaut -31.937
+KPX Aring Oslash -31.937
+KPX Aring Otilde -31.937
+KPX Aring Q -31.937
+KPX Aring T -95.81
+KPX Aring Tcaron -95.81
+KPX Aring Tcommaaccent -95.81
+KPX Aring U -31.937
+KPX Aring Uacute -31.937
+KPX Aring Ucircumflex -31.937
+KPX Aring Udieresis -31.937
+KPX Aring Ugrave -31.937
+KPX Aring Uhungarumlaut -31.937
+KPX Aring Uring -31.937
+KPX Aring V -127.747
+KPX Aring W -127.747
+KPX Aring Y -95.81
+KPX Aring Yacute -95.81
+KPX Aring Ydieresis -95.81
+KPX Aring c -31.937
+KPX Aring cacute -31.937
+KPX Aring ccaron -31.937
+KPX Aring ccedilla -31.937
+KPX Aring d -31.937
+KPX Aring dcaron -31.937
+KPX Aring dcroat -31.937
+KPX Aring e -31.937
+KPX Aring eacute -31.937
+KPX Aring ecaron -31.937
+KPX Aring ecircumflex -31.937
+KPX Aring edieresis -31.937
+KPX Aring egrave -31.937
+KPX Aring eogonek -31.937
+KPX Aring eth -31.937
+KPX Aring o -31.937
+KPX Aring oacute -31.937
+KPX Aring ocircumflex -31.937
+KPX Aring odieresis -31.937
+KPX Aring oe -31.937
+KPX Aring ograve -31.937
+KPX Aring ohungarumlaut -31.937
+KPX Aring oslash -31.937
+KPX Aring otilde -31.937
+KPX Aring q -31.937
+KPX Aring t -31.937
+KPX Aring tcaron -31.937
+KPX Aring tcommaaccent -31.937
+KPX Aring v -127.747
+KPX Aring w -95.81
+KPX Aring y -95.81
+KPX Aring yacute -95.81
+KPX Aring ydieresis -95.81
+KPX Atilde C -31.937
+KPX Atilde Cacute -31.937
+KPX Atilde Ccaron -31.937
+KPX Atilde Ccedilla -31.937
+KPX Atilde G -31.937
+KPX Atilde Gbreve -31.937
+KPX Atilde O -31.937
+KPX Atilde OE -31.937
+KPX Atilde Oacute -31.937
+KPX Atilde Ocircumflex -31.937
+KPX Atilde Odieresis -31.937
+KPX Atilde Ograve -31.937
+KPX Atilde Ohungarumlaut -31.937
+KPX Atilde Oslash -31.937
+KPX Atilde Otilde -31.937
+KPX Atilde Q -31.937
+KPX Atilde T -95.81
+KPX Atilde Tcaron -95.81
+KPX Atilde Tcommaaccent -95.81
+KPX Atilde U -31.937
+KPX Atilde Uacute -31.937
+KPX Atilde Ucircumflex -31.937
+KPX Atilde Udieresis -31.937
+KPX Atilde Ugrave -31.937
+KPX Atilde Uhungarumlaut -31.937
+KPX Atilde Uring -31.937
+KPX Atilde V -127.747
+KPX Atilde W -127.747
+KPX Atilde Y -95.81
+KPX Atilde Yacute -95.81
+KPX Atilde Ydieresis -95.81
+KPX Atilde c -31.937
+KPX Atilde cacute -31.937
+KPX Atilde ccaron -31.937
+KPX Atilde ccedilla -31.937
+KPX Atilde d -31.937
+KPX Atilde dcaron -31.937
+KPX Atilde dcroat -31.937
+KPX Atilde e -31.937
+KPX Atilde eacute -31.937
+KPX Atilde ecaron -31.937
+KPX Atilde ecircumflex -31.937
+KPX Atilde edieresis -31.937
+KPX Atilde egrave -31.937
+KPX Atilde eogonek -31.937
+KPX Atilde eth -31.937
+KPX Atilde o -31.937
+KPX Atilde oacute -31.937
+KPX Atilde ocircumflex -31.937
+KPX Atilde odieresis -31.937
+KPX Atilde oe -31.937
+KPX Atilde ograve -31.937
+KPX Atilde ohungarumlaut -31.937
+KPX Atilde oslash -31.937
+KPX Atilde otilde -31.937
+KPX Atilde q -31.937
+KPX Atilde t -31.937
+KPX Atilde tcaron -31.937
+KPX Atilde tcommaaccent -31.937
+KPX Atilde v -127.747
+KPX Atilde w -95.81
+KPX Atilde y -95.81
+KPX Atilde yacute -95.81
+KPX Atilde ydieresis -95.81
+KPX CYRGDSC CYRLDSC -31.937
+KPX CYRGDSC CYRLHK -31.937
+KPX CYRGDSC afii10017 -95.81
+KPX CYRGDSC afii10021 -95.81
+KPX CYRGDSC afii10029 -31.937
+KPX CYRGDSC afii10049 -95.81
+KPX CYRGDSC afii10058 -31.937
+KPX CYRGDSC afii10065 -95.81
+KPX CYRGDSC afii10069 -95.81
+KPX CYRGDSC afii10070 -95.81
+KPX CYRGDSC afii10071 -95.81
+KPX CYRGDSC afii10077 -95.81
+KPX CYRGDSC afii10080 -95.81
+KPX CYRGDSC afii10083 -95.81
+KPX CYRGDSC afii10086 -95.81
+KPX CYRGDSC afii10097 -95.81
+KPX CYRGDSC afii10101 -95.81
+KPX CYRGDSC afii10106 -95.81
+KPX CYRGDSC colon -95.81
+KPX CYRGDSC comma -95.81
+KPX CYRGDSC cyrldsc -95.81
+KPX CYRGDSC cyrlhk -95.81
+KPX CYRGDSC cyrq -95.81
+KPX CYRGDSC period -95.81
+KPX CYRGDSC semicolon -95.81
+KPX CYRGDSC uni046A -95.81
+KPX CYRGDSC uni046B -95.81
+KPX CYRGDSC uni04A9 -95.81
+KPX CYRGDSC uni04AB -95.81
+KPX CYRGDSC uni04BD -95.81
+KPX CYRGDSC uni04BF -95.81
+KPX CYRGDSC uni04D4 -95.81
+KPX CYRGDSC uni04D5 -95.81
+KPX CYRGDSC uni04E9 -95.81
+KPX CYRGDSCHCRS CYRLDSC -31.937
+KPX CYRGDSCHCRS CYRLHK -31.937
+KPX CYRGDSCHCRS afii10017 -95.81
+KPX CYRGDSCHCRS afii10021 -95.81
+KPX CYRGDSCHCRS afii10029 -31.937
+KPX CYRGDSCHCRS afii10049 -95.81
+KPX CYRGDSCHCRS afii10058 -31.937
+KPX CYRGDSCHCRS afii10065 -95.81
+KPX CYRGDSCHCRS afii10069 -95.81
+KPX CYRGDSCHCRS afii10070 -95.81
+KPX CYRGDSCHCRS afii10071 -95.81
+KPX CYRGDSCHCRS afii10077 -95.81
+KPX CYRGDSCHCRS afii10080 -95.81
+KPX CYRGDSCHCRS afii10083 -95.81
+KPX CYRGDSCHCRS afii10086 -95.81
+KPX CYRGDSCHCRS afii10097 -95.81
+KPX CYRGDSCHCRS afii10106 -95.81
+KPX CYRGDSCHCRS colon -95.81
+KPX CYRGDSCHCRS comma -95.81
+KPX CYRGDSCHCRS cyrldsc -95.81
+KPX CYRGDSCHCRS cyrlhk -95.81
+KPX CYRGDSCHCRS period -95.81
+KPX CYRGDSCHCRS semicolon -95.81
+KPX CYRGDSCHCRS uni04E9 -95.81
+KPX CYRHHCRS afii10032 -31.937
+KPX CYRHHCRS afii10035 -31.937
+KPX CYRHHCRS afii10038 -31.937
+KPX CYRHHCRS afii10084 -31.937
+KPX CYRHHCRS afii10089 -31.937
+KPX CYRHHCRS afii10092 -31.937
+KPX CYRHHCRS uni04B7 -31.937
+KPX CYRHHCRS uni04CC -31.937
+KPX CYRHHCRS uni04E8 -31.937
+KPX CYRHHK CYRQ -31.937
+KPX CYRHHK afii10032 -31.937
+KPX CYRHHK afii10035 -31.937
+KPX CYRHHK afii10038 -31.937
+KPX CYRHHK afii10053 -31.937
+KPX CYRHHK afii10084 -31.937
+KPX CYRHHK afii10089 -31.937
+KPX CYRHHK afii10092 -31.937
+KPX CYRHHK afii10194 -31.937
+KPX CYRHHK uni04A1 -31.937
+KPX CYRHHK uni04A8 -31.937
+KPX CYRHHK uni04AA -31.937
+KPX CYRHHK uni04AD -31.937
+KPX CYRHHK uni04B5 -31.937
+KPX CYRHHK uni04B7 -31.937
+KPX CYRHHK uni04B9 -31.937
+KPX CYRHHK uni04BC -31.937
+KPX CYRHHK uni04BE -31.937
+KPX CYRHHK uni04CC -31.937
+KPX CYRHHK uni04E8 -31.937
+KPX CYRQ CYRHHK -31.937
+KPX CYRQ CYRW -31.937
+KPX CYRQ afii10017 -31.937
+KPX CYRQ afii10021 -31.937
+KPX CYRQ afii10024 -31.937
+KPX CYRQ afii10037 -31.937
+KPX CYRQ afii10039 -31.937
+KPX CYRQ afii10049 -31.937
+KPX CYRQ afii10062 -31.937
+KPX CYRQ afii10148 -31.937
+KPX CYRQ uni046A -31.937
+KPX CYRQ uni0496 -31.937
+KPX CYRQ uni04AE -31.937
+KPX CYRQ uni04B0 -31.937
+KPX CYRQ uni04B2 -31.937
+KPX CYRQ uni04D4 -31.937
+KPX CYRQ uni04D5 -31.937
+KPX CYRRDSC CYRLDSC -95.81
+KPX CYRRDSC CYRLHK -95.81
+KPX CYRRDSC afii10017 -95.81
+KPX CYRRDSC afii10021 -95.81
+KPX CYRRDSC afii10029 -95.81
+KPX CYRRDSC afii10049 -95.81
+KPX CYRRDSC afii10058 -95.81
+KPX CYRRDSC afii10065 -31.937
+KPX CYRRDSC afii10069 -95.81
+KPX CYRRDSC afii10070 -31.937
+KPX CYRRDSC afii10071 -31.937
+KPX CYRRDSC afii10077 -95.81
+KPX CYRRDSC afii10080 -31.937
+KPX CYRRDSC afii10106 -95.81
+KPX CYRRDSC colon -95.81
+KPX CYRRDSC comma -95.81
+KPX CYRRDSC cyrldsc -95.81
+KPX CYRRDSC cyrlhk -95.81
+KPX CYRRDSC period -95.81
+KPX CYRRDSC semicolon -95.81
+KPX CYRRDSC uni046A -95.81
+KPX CYRRDSC uni04A9 -31.937
+KPX CYRRDSC uni04BD -31.937
+KPX CYRRDSC uni04BF -31.937
+KPX CYRRDSC uni04D4 -95.81
+KPX CYRRDSC uni04E9 -31.937
+KPX CYRW CYRQ -31.937
+KPX CYRW afii10017 -127.747
+KPX CYRW afii10032 -31.937
+KPX CYRW afii10035 -31.937
+KPX CYRW afii10038 -31.937
+KPX CYRW afii10049 -127.747
+KPX CYRW afii10053 -31.937
+KPX CYRW afii10065 -95.81
+KPX CYRW afii10069 -127.747
+KPX CYRW afii10070 -95.81
+KPX CYRW afii10071 -95.81
+KPX CYRW afii10077 -127.747
+KPX CYRW afii10080 -95.81
+KPX CYRW afii10097 -127.747
+KPX CYRW afii10106 -127.747
+KPX CYRW colon -95.81
+KPX CYRW comma -95.81
+KPX CYRW cyrldsc -127.747
+KPX CYRW cyrlhk -127.747
+KPX CYRW period -95.81
+KPX CYRW semicolon -95.81
+KPX CYRW uni046A -127.747
+KPX CYRW uni046B -127.747
+KPX CYRW uni04A8 -31.937
+KPX CYRW uni04A9 -95.81
+KPX CYRW uni04AA -31.937
+KPX CYRW uni04BC -31.937
+KPX CYRW uni04BD -95.81
+KPX CYRW uni04BE -31.937
+KPX CYRW uni04BF -95.81
+KPX CYRW uni04D4 -127.747
+KPX CYRW uni04D5 -127.747
+KPX CYRW uni04E8 -31.937
+KPX CYRW uni04E9 -95.81
+KPX Cacute C -31.937
+KPX Cacute Cacute -31.937
+KPX Cacute Ccaron -31.937
+KPX Cacute Ccedilla -31.937
+KPX Cacute G -31.937
+KPX Cacute Gbreve -31.937
+KPX Cacute O -31.937
+KPX Cacute OE -31.937
+KPX Cacute Oacute -31.937
+KPX Cacute Ocircumflex -31.937
+KPX Cacute Odieresis -31.937
+KPX Cacute Ograve -31.937
+KPX Cacute Ohungarumlaut -31.937
+KPX Cacute Oslash -31.937
+KPX Cacute Otilde -31.937
+KPX Cacute Q -31.937
+KPX Cacute T -95.81
+KPX Cacute Tcaron -95.81
+KPX Cacute Tcommaaccent -95.81
+KPX Cacute U -31.937
+KPX Cacute Uacute -31.937
+KPX Cacute Ucircumflex -31.937
+KPX Cacute Udieresis -31.937
+KPX Cacute Ugrave -31.937
+KPX Cacute Uhungarumlaut -31.937
+KPX Cacute Uring -31.937
+KPX Cacute V -127.747
+KPX Cacute W -127.747
+KPX Cacute Y -95.81
+KPX Cacute Yacute -95.81
+KPX Cacute Ydieresis -95.81
+KPX Cacute c -31.937
+KPX Cacute cacute -31.937
+KPX Cacute ccaron -31.937
+KPX Cacute ccedilla -31.937
+KPX Cacute d -31.937
+KPX Cacute dcaron -31.937
+KPX Cacute dcroat -31.937
+KPX Cacute e -31.937
+KPX Cacute eacute -31.937
+KPX Cacute ecaron -31.937
+KPX Cacute ecircumflex -31.937
+KPX Cacute edieresis -31.937
+KPX Cacute egrave -31.937
+KPX Cacute eogonek -31.937
+KPX Cacute eth -31.937
+KPX Cacute o -31.937
+KPX Cacute oacute -31.937
+KPX Cacute ocircumflex -31.937
+KPX Cacute odieresis -31.937
+KPX Cacute oe -31.937
+KPX Cacute ograve -31.937
+KPX Cacute ohungarumlaut -31.937
+KPX Cacute oslash -31.937
+KPX Cacute otilde -31.937
+KPX Cacute q -31.937
+KPX Cacute t -31.937
+KPX Cacute tcaron -31.937
+KPX Cacute tcommaaccent -31.937
+KPX Cacute v -127.747
+KPX Cacute w -95.81
+KPX D A -31.937
+KPX D AE -31.937
+KPX D Aacute -31.937
+KPX D Abreve -31.937
+KPX D Acircumflex -31.937
+KPX D Adieresis -31.937
+KPX D Agrave -31.937
+KPX D Aogonek -31.937
+KPX D Aring -31.937
+KPX D Atilde -31.937
+KPX D V -31.937
+KPX D W -31.937
+KPX D X -31.937
+KPX D Y -31.937
+KPX D Yacute -31.937
+KPX D Ydieresis -31.937
+KPX Dcaron A -31.937
+KPX Dcaron AE -31.937
+KPX Dcaron Aacute -31.937
+KPX Dcaron Abreve -31.937
+KPX Dcaron Acircumflex -31.937
+KPX Dcaron Adieresis -31.937
+KPX Dcaron Agrave -31.937
+KPX Dcaron Aogonek -31.937
+KPX Dcaron Aring -31.937
+KPX Dcaron Atilde -31.937
+KPX Dcaron V -31.937
+KPX Dcaron W -31.937
+KPX Dcaron X -31.937
+KPX Dcaron Y -31.937
+KPX Dcaron Yacute -31.937
+KPX Dcaron Ydieresis -31.937
+KPX Eth A -31.937
+KPX Eth AE -31.937
+KPX Eth Aacute -31.937
+KPX Eth Abreve -31.937
+KPX Eth Acircumflex -31.937
+KPX Eth Adieresis -31.937
+KPX Eth Agrave -31.937
+KPX Eth Aogonek -31.937
+KPX Eth Aring -31.937
+KPX Eth Atilde -31.937
+KPX Eth V -31.937
+KPX Eth W -31.937
+KPX Eth X -31.937
+KPX Eth Y -31.937
+KPX Eth Yacute -31.937
+KPX Eth Ydieresis -31.937
+KPX F A -127.747
+KPX F AE -127.747
+KPX F Aacute -127.747
+KPX F Abreve -127.747
+KPX F Acircumflex -127.747
+KPX F Adieresis -127.747
+KPX F Agrave -127.747
+KPX F Aogonek -127.747
+KPX F Aring -127.747
+KPX F Atilde -127.747
+KPX F C -31.937
+KPX F Cacute -31.937
+KPX F Ccaron -31.937
+KPX F Ccedilla -31.937
+KPX F G -31.937
+KPX F Gbreve -31.937
+KPX F O -31.937
+KPX F OE -31.937
+KPX F Oacute -31.937
+KPX F Ocircumflex -31.937
+KPX F Odieresis -31.937
+KPX F Ograve -31.937
+KPX F Ohungarumlaut -31.937
+KPX F Oslash -31.937
+KPX F Otilde -31.937
+KPX F Q -31.937
+KPX F a -95.81
+KPX F ae -95.81
+KPX F c -95.81
+KPX F d -95.81
+KPX F e -95.81
+KPX F g -95.81
+KPX F m -95.81
+KPX F n -95.81
+KPX F o -95.81
+KPX F oslash -95.81
+KPX F p -95.81
+KPX F r -95.81
+KPX F s -95.81
+KPX F u -95.81
+KPX F v -95.81
+KPX F w -95.81
+KPX F y -95.81
+KPX F z -95.81
+KPX I I 31.937
+KPX K C -31.937
+KPX K Cacute -31.937
+KPX K Ccaron -31.937
+KPX K Ccedilla -31.937
+KPX K G -31.937
+KPX K Gbreve -31.937
+KPX K Q -31.937
+KPX K o -31.937
+KPX K oacute -31.937
+KPX K ocircumflex -31.937
+KPX K odieresis -31.937
+KPX K oe -31.937
+KPX K ograve -31.937
+KPX K ohungarumlaut -31.937
+KPX K oslash -31.937
+KPX K otilde -31.937
+KPX K v -95.81
+KPX K w -31.937
+KPX L T -95.81
+KPX L Tcaron -95.81
+KPX L Tcommaaccent -95.81
+KPX L V -127.747
+KPX L W -127.747
+KPX L Y -95.81
+KPX L Yacute -95.81
+KPX L Ydieresis -95.81
+KPX Lacute T -95.81
+KPX Lacute Tcaron -95.81
+KPX Lacute Tcommaaccent -95.81
+KPX Lacute V -127.747
+KPX Lacute W -127.747
+KPX Lacute Y -95.81
+KPX Lacute Yacute -95.81
+KPX Lacute Ydieresis -95.81
+KPX Lcaron T -95.81
+KPX Lcaron Tcaron -95.81
+KPX Lcaron Tcommaaccent -95.81
+KPX Lcaron V -127.747
+KPX Lcaron W -127.747
+KPX Lcaron Y -95.81
+KPX Lcaron Yacute -95.81
+KPX Lcaron Ydieresis -95.81
+KPX Lslash T -95.81
+KPX Lslash Tcaron -95.81
+KPX Lslash Tcommaaccent -95.81
+KPX Lslash V -127.747
+KPX Lslash W -127.747
+KPX Lslash Y -95.81
+KPX Lslash Yacute -95.81
+KPX Lslash Ydieresis -95.81
+KPX O A -31.937
+KPX O AE -31.937
+KPX O Aacute -31.937
+KPX O Abreve -31.937
+KPX O Acircumflex -31.937
+KPX O Adieresis -31.937
+KPX O Agrave -31.937
+KPX O Aogonek -31.937
+KPX O Aring -31.937
+KPX O Atilde -31.937
+KPX O V -31.937
+KPX O W -31.937
+KPX O X -31.937
+KPX O Y -31.937
+KPX O Yacute -31.937
+KPX O Ydieresis -31.937
+KPX Oacute A -31.937
+KPX Oacute AE -31.937
+KPX Oacute Aacute -31.937
+KPX Oacute Abreve -31.937
+KPX Oacute Acircumflex -31.937
+KPX Oacute Adieresis -31.937
+KPX Oacute Agrave -31.937
+KPX Oacute Aogonek -31.937
+KPX Oacute Aring -31.937
+KPX Oacute Atilde -31.937
+KPX Oacute V -31.937
+KPX Oacute W -31.937
+KPX Oacute X -31.937
+KPX Oacute Y -31.937
+KPX Oacute Yacute -31.937
+KPX Oacute Ydieresis -31.937
+KPX Ocircumflex A -31.937
+KPX Ocircumflex AE -31.937
+KPX Ocircumflex Aacute -31.937
+KPX Ocircumflex Abreve -31.937
+KPX Ocircumflex Acircumflex -31.937
+KPX Ocircumflex Adieresis -31.937
+KPX Ocircumflex Agrave -31.937
+KPX Ocircumflex Aogonek -31.937
+KPX Ocircumflex Aring -31.937
+KPX Ocircumflex Atilde -31.937
+KPX Ocircumflex V -31.937
+KPX Ocircumflex W -31.937
+KPX Ocircumflex X -31.937
+KPX Ocircumflex Y -31.937
+KPX Ocircumflex Yacute -31.937
+KPX Ocircumflex Ydieresis -31.937
+KPX Odieresis A -31.937
+KPX Odieresis AE -31.937
+KPX Odieresis Aacute -31.937
+KPX Odieresis Abreve -31.937
+KPX Odieresis Acircumflex -31.937
+KPX Odieresis Adieresis -31.937
+KPX Odieresis Agrave -31.937
+KPX Odieresis Aogonek -31.937
+KPX Odieresis Aring -31.937
+KPX Odieresis Atilde -31.937
+KPX Odieresis V -31.937
+KPX Odieresis W -31.937
+KPX Odieresis X -31.937
+KPX Odieresis Y -31.937
+KPX Odieresis Yacute -31.937
+KPX Odieresis Ydieresis -31.937
+KPX Ograve A -31.937
+KPX Ograve AE -31.937
+KPX Ograve Aacute -31.937
+KPX Ograve Abreve -31.937
+KPX Ograve Acircumflex -31.937
+KPX Ograve Adieresis -31.937
+KPX Ograve Agrave -31.937
+KPX Ograve Aogonek -31.937
+KPX Ograve Aring -31.937
+KPX Ograve Atilde -31.937
+KPX Ograve V -31.937
+KPX Ograve W -31.937
+KPX Ograve X -31.937
+KPX Ograve Y -31.937
+KPX Ograve Yacute -31.937
+KPX Ograve Ydieresis -31.937
+KPX Ohungarumlaut A -31.937
+KPX Ohungarumlaut AE -31.937
+KPX Ohungarumlaut Aacute -31.937
+KPX Ohungarumlaut Abreve -31.937
+KPX Ohungarumlaut Acircumflex -31.937
+KPX Ohungarumlaut Adieresis -31.937
+KPX Ohungarumlaut Agrave -31.937
+KPX Ohungarumlaut Aogonek -31.937
+KPX Ohungarumlaut Aring -31.937
+KPX Ohungarumlaut Atilde -31.937
+KPX Ohungarumlaut V -31.937
+KPX Ohungarumlaut W -31.937
+KPX Ohungarumlaut X -31.937
+KPX Ohungarumlaut Y -31.937
+KPX Ohungarumlaut Yacute -31.937
+KPX Ohungarumlaut Ydieresis -31.937
+KPX Oslash A -31.937
+KPX Oslash AE -31.937
+KPX Oslash Aacute -31.937
+KPX Oslash Abreve -31.937
+KPX Oslash Acircumflex -31.937
+KPX Oslash Adieresis -31.937
+KPX Oslash Agrave -31.937
+KPX Oslash Aogonek -31.937
+KPX Oslash Aring -31.937
+KPX Oslash Atilde -31.937
+KPX Oslash V -31.937
+KPX Oslash W -31.937
+KPX Oslash X -31.937
+KPX Oslash Y -31.937
+KPX Oslash Yacute -31.937
+KPX Oslash Ydieresis -31.937
+KPX Otilde A -31.937
+KPX Otilde AE -31.937
+KPX Otilde Aacute -31.937
+KPX Otilde Abreve -31.937
+KPX Otilde Acircumflex -31.937
+KPX Otilde Adieresis -31.937
+KPX Otilde Agrave -31.937
+KPX Otilde Aogonek -31.937
+KPX Otilde Aring -31.937
+KPX Otilde Atilde -31.937
+KPX Otilde V -31.937
+KPX Otilde W -31.937
+KPX Otilde X -31.937
+KPX Otilde Y -31.937
+KPX Otilde Yacute -31.937
+KPX Otilde Ydieresis -31.937
+KPX P A -95.81
+KPX P AE -95.81
+KPX P Aacute -95.81
+KPX P Abreve -95.81
+KPX P Acircumflex -95.81
+KPX P Adieresis -95.81
+KPX P Agrave -95.81
+KPX P Aogonek -95.81
+KPX P Aring -95.81
+KPX P Atilde -95.81
+KPX P a -31.937
+KPX P aacute -31.937
+KPX P abreve -31.937
+KPX P acircumflex -31.937
+KPX P adieresis -31.937
+KPX P ae -31.937
+KPX P agrave -31.937
+KPX P aogonek -31.937
+KPX P aring -31.937
+KPX P atilde -31.937
+KPX P comma -95.81
+KPX P e -31.937
+KPX P eacute -31.937
+KPX P ecaron -31.937
+KPX P ecircumflex -31.937
+KPX P edieresis -31.937
+KPX P egrave -31.937
+KPX P eogonek -31.937
+KPX P o -31.937
+KPX P oacute -31.937
+KPX P ocircumflex -31.937
+KPX P odieresis -31.937
+KPX P oe -31.937
+KPX P ograve -31.937
+KPX P ohungarumlaut -31.937
+KPX P oslash -31.937
+KPX P otilde -31.937
+KPX P period -95.81
+KPX R C -31.937
+KPX R Cacute -31.937
+KPX R Ccaron -31.937
+KPX R Ccedilla -31.937
+KPX R G -31.937
+KPX R Gbreve -31.937
+KPX R O -31.937
+KPX R OE -31.937
+KPX R Oacute -31.937
+KPX R Ocircumflex -31.937
+KPX R Odieresis -31.937
+KPX R Ograve -31.937
+KPX R Ohungarumlaut -31.937
+KPX R Oslash -31.937
+KPX R Otilde -31.937
+KPX R Q -31.937
+KPX R T -95.81
+KPX R Tcaron -95.81
+KPX R Tcommaaccent -95.81
+KPX R U -31.937
+KPX R Uacute -31.937
+KPX R Ucircumflex -31.937
+KPX R Udieresis -31.937
+KPX R Ugrave -31.937
+KPX R Uhungarumlaut -31.937
+KPX R Uring -31.937
+KPX R V -127.747
+KPX R W -127.747
+KPX R Y -95.81
+KPX R Yacute -95.81
+KPX R Ydieresis -95.81
+KPX R t -31.937
+KPX R tcaron -31.937
+KPX R tcommaaccent -31.937
+KPX Racute C -31.937
+KPX Racute Cacute -31.937
+KPX Racute Ccaron -31.937
+KPX Racute Ccedilla -31.937
+KPX Racute G -31.937
+KPX Racute Gbreve -31.937
+KPX Racute O -31.937
+KPX Racute OE -31.937
+KPX Racute Oacute -31.937
+KPX Racute Ocircumflex -31.937
+KPX Racute Odieresis -31.937
+KPX Racute Ograve -31.937
+KPX Racute Ohungarumlaut -31.937
+KPX Racute Oslash -31.937
+KPX Racute Otilde -31.937
+KPX Racute Q -31.937
+KPX Racute T -95.81
+KPX Racute Tcaron -95.81
+KPX Racute Tcommaaccent -95.81
+KPX Racute U -31.937
+KPX Racute Uacute -31.937
+KPX Racute Ucircumflex -31.937
+KPX Racute Udieresis -31.937
+KPX Racute Ugrave -31.937
+KPX Racute Uhungarumlaut -31.937
+KPX Racute Uring -31.937
+KPX Racute V -127.747
+KPX Racute W -127.747
+KPX Racute Y -95.81
+KPX Racute Yacute -95.81
+KPX Racute Ydieresis -95.81
+KPX Racute t -31.937
+KPX Racute tcaron -31.937
+KPX Racute tcommaaccent -31.937
+KPX T A -95.81
+KPX T AE -95.81
+KPX T Aacute -95.81
+KPX T Abreve -95.81
+KPX T Acircumflex -95.81
+KPX T Adieresis -95.81
+KPX T Agrave -95.81
+KPX T Aogonek -95.81
+KPX T Aring -95.81
+KPX T Atilde -95.81
+KPX T a -95.81
+KPX T c -95.81
+KPX T d -95.81
+KPX T dotlessi -95.81
+KPX T e -95.81
+KPX T g -95.81
+KPX T n -95.81
+KPX T o -95.81
+KPX T p -95.81
+KPX T r -95.81
+KPX T s -95.81
+KPX T u -95.81
+KPX T v -95.81
+KPX T w -95.81
+KPX T x -95.81
+KPX T y -31.937
+KPX T z -95.81
+KPX Tcaron A -95.81
+KPX Tcaron AE -95.81
+KPX Tcaron Aacute -95.81
+KPX Tcaron Abreve -95.81
+KPX Tcaron Acircumflex -95.81
+KPX Tcaron Adieresis -95.81
+KPX Tcaron Agrave -95.81
+KPX Tcaron Aogonek -95.81
+KPX Tcaron Aring -95.81
+KPX Tcaron Atilde -95.81
+KPX Tcaron a -95.81
+KPX Tcaron c -95.81
+KPX Tcaron d -95.81
+KPX Tcaron dotlessi -95.81
+KPX Tcaron e -95.81
+KPX Tcaron g -95.81
+KPX Tcaron n -95.81
+KPX Tcaron o -95.81
+KPX Tcaron p -95.81
+KPX Tcaron r -95.81
+KPX Tcaron s -95.81
+KPX Tcaron u -95.81
+KPX Tcaron v -95.81
+KPX Tcaron w -95.81
+KPX Tcaron x -95.81
+KPX Tcaron y -31.937
+KPX Tcaron z -95.81
+KPX Tcommaaccent A -95.81
+KPX Tcommaaccent AE -95.81
+KPX Tcommaaccent Aacute -95.81
+KPX Tcommaaccent Abreve -95.81
+KPX Tcommaaccent Acircumflex -95.81
+KPX Tcommaaccent Adieresis -95.81
+KPX Tcommaaccent Agrave -95.81
+KPX Tcommaaccent Aogonek -95.81
+KPX Tcommaaccent Aring -95.81
+KPX Tcommaaccent Atilde -95.81
+KPX Tcommaaccent a -95.81
+KPX Tcommaaccent c -95.81
+KPX Tcommaaccent d -95.81
+KPX Tcommaaccent dotlessi -95.81
+KPX Tcommaaccent e -95.81
+KPX Tcommaaccent g -95.81
+KPX Tcommaaccent n -95.81
+KPX Tcommaaccent o -95.81
+KPX Tcommaaccent p -95.81
+KPX Tcommaaccent r -95.81
+KPX Tcommaaccent s -95.81
+KPX Tcommaaccent u -95.81
+KPX Tcommaaccent v -95.81
+KPX Tcommaaccent w -95.81
+KPX Tcommaaccent x -95.81
+KPX Tcommaaccent y -31.937
+KPX Tcommaaccent z -95.81
+KPX V A -127.747
+KPX V AE -127.747
+KPX V Aacute -127.747
+KPX V Abreve -127.747
+KPX V Acircumflex -127.747
+KPX V Adieresis -127.747
+KPX V Agrave -127.747
+KPX V Aogonek -127.747
+KPX V Aring -127.747
+KPX V Atilde -127.747
+KPX V C -31.937
+KPX V Cacute -31.937
+KPX V Ccaron -31.937
+KPX V Ccedilla -31.937
+KPX V G -31.937
+KPX V Gbreve -31.937
+KPX V O -31.937
+KPX V OE -31.937
+KPX V Oacute -31.937
+KPX V Ocircumflex -31.937
+KPX V Odieresis -31.937
+KPX V Ograve -31.937
+KPX V Ohungarumlaut -31.937
+KPX V Oslash -31.937
+KPX V Otilde -31.937
+KPX V Q -31.937
+KPX V a -95.81
+KPX V ae -95.81
+KPX V c -95.81
+KPX V d -95.81
+KPX V e -95.81
+KPX V g -95.81
+KPX V m -95.81
+KPX V n -95.81
+KPX V o -95.81
+KPX V oslash -95.81
+KPX V p -95.81
+KPX V r -95.81
+KPX V s -95.81
+KPX V u -95.81
+KPX V v -95.81
+KPX V w -95.81
+KPX V y -95.81
+KPX V z -95.81
+KPX W A -127.747
+KPX W AE -127.747
+KPX W Aacute -127.747
+KPX W Abreve -127.747
+KPX W Acircumflex -127.747
+KPX W Adieresis -127.747
+KPX W Agrave -127.747
+KPX W Aogonek -127.747
+KPX W Aring -127.747
+KPX W Atilde -127.747
+KPX W C -31.937
+KPX W Cacute -31.937
+KPX W Ccaron -31.937
+KPX W Ccedilla -31.937
+KPX W G -31.937
+KPX W Gbreve -31.937
+KPX W O -31.937
+KPX W OE -31.937
+KPX W Oacute -31.937
+KPX W Ocircumflex -31.937
+KPX W Odieresis -31.937
+KPX W Ograve -31.937
+KPX W Ohungarumlaut -31.937
+KPX W Oslash -31.937
+KPX W Otilde -31.937
+KPX W Q -31.937
+KPX W a -95.81
+KPX W ae -95.81
+KPX W c -95.81
+KPX W d -95.81
+KPX W e -95.81
+KPX W g -95.81
+KPX W m -95.81
+KPX W n -95.81
+KPX W o -95.81
+KPX W oslash -95.81
+KPX W p -95.81
+KPX W r -95.81
+KPX W s -95.81
+KPX W u -95.81
+KPX W v -95.81
+KPX W w -95.81
+KPX W y -95.81
+KPX W z -95.81
+KPX X C -31.937
+KPX X Cacute -31.937
+KPX X Ccaron -31.937
+KPX X Ccedilla -31.937
+KPX X G -31.937
+KPX X Gbreve -31.937
+KPX X O -31.937
+KPX X OE -31.937
+KPX X Oacute -31.937
+KPX X Ocircumflex -31.937
+KPX X Odieresis -31.937
+KPX X Ograve -31.937
+KPX X Ohungarumlaut -31.937
+KPX X Oslash -31.937
+KPX X Otilde -31.937
+KPX X Q -31.937
+KPX Y A -95.81
+KPX Y AE -95.81
+KPX Y Aacute -95.81
+KPX Y Abreve -95.81
+KPX Y Acircumflex -95.81
+KPX Y Adieresis -95.81
+KPX Y Agrave -95.81
+KPX Y Aogonek -95.81
+KPX Y Aring -95.81
+KPX Y Atilde -95.81
+KPX Y a -95.81
+KPX Y c -95.81
+KPX Y d -95.81
+KPX Y dotlessi -95.81
+KPX Y e -95.81
+KPX Y g -95.81
+KPX Y n -95.81
+KPX Y o -95.81
+KPX Y p -95.81
+KPX Y r -95.81
+KPX Y s -95.81
+KPX Y u -95.81
+KPX Y v -95.81
+KPX Y w -95.81
+KPX Y x -95.81
+KPX Y z -95.81
+KPX Yacute A -95.81
+KPX Yacute AE -95.81
+KPX Yacute Aacute -95.81
+KPX Yacute Abreve -95.81
+KPX Yacute Acircumflex -95.81
+KPX Yacute Adieresis -95.81
+KPX Yacute Agrave -95.81
+KPX Yacute Aogonek -95.81
+KPX Yacute Aring -95.81
+KPX Yacute Atilde -95.81
+KPX Yacute a -95.81
+KPX Yacute c -95.81
+KPX Yacute d -95.81
+KPX Yacute dotlessi -95.81
+KPX Yacute e -95.81
+KPX Yacute g -95.81
+KPX Yacute n -95.81
+KPX Yacute o -95.81
+KPX Yacute p -95.81
+KPX Yacute r -95.81
+KPX Yacute s -95.81
+KPX Yacute u -95.81
+KPX Yacute v -95.81
+KPX Yacute w -95.81
+KPX Yacute x -95.81
+KPX Yacute z -95.81
+KPX Ydieresis A -95.81
+KPX Ydieresis AE -95.81
+KPX Ydieresis Aacute -95.81
+KPX Ydieresis Abreve -95.81
+KPX Ydieresis Acircumflex -95.81
+KPX Ydieresis Adieresis -95.81
+KPX Ydieresis Agrave -95.81
+KPX Ydieresis Aogonek -95.81
+KPX Ydieresis Aring -95.81
+KPX Ydieresis Atilde -95.81
+KPX Ydieresis a -95.81
+KPX Ydieresis c -95.81
+KPX Ydieresis d -95.81
+KPX Ydieresis dotlessi -95.81
+KPX Ydieresis e -95.81
+KPX Ydieresis g -95.81
+KPX Ydieresis n -95.81
+KPX Ydieresis o -95.81
+KPX Ydieresis p -95.81
+KPX Ydieresis r -95.81
+KPX Ydieresis s -95.81
+KPX Ydieresis u -95.81
+KPX Ydieresis v -95.81
+KPX Ydieresis w -95.81
+KPX Ydieresis x -95.81
+KPX Ydieresis z -95.81
+KPX a j 63.873
+KPX a v -31.937
+KPX a w -31.937
+KPX a y -31.937
+KPX a yacute -31.937
+KPX a ydieresis -31.937
+KPX aacute j 63.873
+KPX aacute v -31.937
+KPX aacute w -31.937
+KPX aacute y -31.937
+KPX aacute yacute -31.937
+KPX aacute ydieresis -31.937
+KPX abreve j 63.873
+KPX abreve v -31.937
+KPX abreve w -31.937
+KPX abreve y -31.937
+KPX abreve yacute -31.937
+KPX abreve ydieresis -31.937
+KPX acircumflex j 63.873
+KPX acircumflex v -31.937
+KPX acircumflex w -31.937
+KPX acircumflex y -31.937
+KPX acircumflex yacute -31.937
+KPX acircumflex ydieresis -31.937
+KPX adieresis j 63.873
+KPX adieresis v -31.937
+KPX adieresis w -31.937
+KPX adieresis y -31.937
+KPX adieresis yacute -31.937
+KPX adieresis ydieresis -31.937
+KPX afii10017 CYRQ -31.937
+KPX afii10017 CYRW -127.747
+KPX afii10017 afii10032 -31.937
+KPX afii10017 afii10035 -31.937
+KPX afii10017 afii10036 -95.81
+KPX afii10017 afii10037 -95.81
+KPX afii10017 afii10038 -31.937
+KPX afii10017 afii10041 -95.81
+KPX afii10017 afii10044 -95.81
+KPX afii10017 afii10051 -95.81
+KPX afii10017 afii10053 -31.937
+KPX afii10017 afii10060 -95.81
+KPX afii10017 afii10062 -95.81
+KPX afii10017 afii10084 -31.937
+KPX afii10017 afii10089 -95.81
+KPX afii10017 afii10092 -31.937
+KPX afii10017 afii10146 -95.81
+KPX afii10017 afii10148 -127.747
+KPX afii10017 afii10194 -31.937
+KPX afii10017 uni048C -95.81
+KPX afii10017 uni048D -31.937
+KPX afii10017 uni04A0 -95.81
+KPX afii10017 uni04A1 -31.937
+KPX afii10017 uni04A8 -31.937
+KPX afii10017 uni04AA -31.937
+KPX afii10017 uni04AC -95.81
+KPX afii10017 uni04AD -31.937
+KPX afii10017 uni04AE -95.81
+KPX afii10017 uni04B0 -95.81
+KPX afii10017 uni04B4 -95.81
+KPX afii10017 uni04B5 -31.937
+KPX afii10017 uni04B6 -95.81
+KPX afii10017 uni04B7 -95.81
+KPX afii10017 uni04B8 -95.81
+KPX afii10017 uni04B9 -95.81
+KPX afii10017 uni04BC -95.81
+KPX afii10017 uni04BE -95.81
+KPX afii10017 uni04CB -95.81
+KPX afii10017 uni04CC -95.81
+KPX afii10017 uni04E8 -31.937
+KPX afii10020 CYRLDSC -31.937
+KPX afii10020 CYRLHK -31.937
+KPX afii10020 afii10017 -95.81
+KPX afii10020 afii10021 -95.81
+KPX afii10020 afii10029 -31.937
+KPX afii10020 afii10049 -95.81
+KPX afii10020 afii10058 -31.937
+KPX afii10020 afii10065 -95.81
+KPX afii10020 afii10069 -95.81
+KPX afii10020 afii10070 -95.81
+KPX afii10020 afii10071 -95.81
+KPX afii10020 afii10077 -95.81
+KPX afii10020 afii10080 -95.81
+KPX afii10020 afii10083 -95.81
+KPX afii10020 afii10086 -95.81
+KPX afii10020 afii10097 -95.81
+KPX afii10020 afii10101 -95.81
+KPX afii10020 afii10106 -95.81
+KPX afii10020 colon -95.81
+KPX afii10020 comma -95.81
+KPX afii10020 cyrldsc -95.81
+KPX afii10020 cyrlhk -95.81
+KPX afii10020 cyrq -95.81
+KPX afii10020 period -95.81
+KPX afii10020 semicolon -95.81
+KPX afii10020 uni046A -95.81
+KPX afii10020 uni046B -95.81
+KPX afii10020 uni04A9 -95.81
+KPX afii10020 uni04AB -95.81
+KPX afii10020 uni04BD -95.81
+KPX afii10020 uni04BF -95.81
+KPX afii10020 uni04D4 -95.81
+KPX afii10020 uni04D5 -95.81
+KPX afii10020 uni04E9 -95.81
+KPX afii10024 CYRQ -31.937
+KPX afii10024 afii10032 -31.937
+KPX afii10024 afii10035 -31.937
+KPX afii10024 afii10038 -31.937
+KPX afii10024 afii10053 -31.937
+KPX afii10024 afii10084 -31.937
+KPX afii10024 afii10089 -31.937
+KPX afii10024 afii10092 -31.937
+KPX afii10024 afii10194 -31.937
+KPX afii10024 uni048D -31.937
+KPX afii10024 uni04A1 -31.937
+KPX afii10024 uni04A8 -31.937
+KPX afii10024 uni04AA -31.937
+KPX afii10024 uni04AD -31.937
+KPX afii10024 uni04B5 -31.937
+KPX afii10024 uni04B7 -31.937
+KPX afii10024 uni04B9 -31.937
+KPX afii10024 uni04BC -31.937
+KPX afii10024 uni04BE -31.937
+KPX afii10024 uni04CC -31.937
+KPX afii10024 uni04E8 -31.937
+KPX afii10028 CYRQ -31.937
+KPX afii10028 afii10032 -31.937
+KPX afii10028 afii10035 -31.937
+KPX afii10028 afii10038 -31.937
+KPX afii10028 afii10053 -31.937
+KPX afii10028 afii10084 -31.937
+KPX afii10028 afii10089 -31.937
+KPX afii10028 afii10092 -31.937
+KPX afii10028 afii10194 -31.937
+KPX afii10028 uni048D -31.937
+KPX afii10028 uni04A1 -31.937
+KPX afii10028 uni04A8 -31.937
+KPX afii10028 uni04AA -31.937
+KPX afii10028 uni04AD -31.937
+KPX afii10028 uni04B5 -31.937
+KPX afii10028 uni04B7 -31.937
+KPX afii10028 uni04B9 -31.937
+KPX afii10028 uni04BC -31.937
+KPX afii10028 uni04BE -31.937
+KPX afii10028 uni04CC -31.937
+KPX afii10028 uni04E8 -31.937
+KPX afii10032 CYRHHCRS -31.937
+KPX afii10032 CYRHHK -31.937
+KPX afii10032 CYRW -31.937
+KPX afii10032 afii10017 -31.937
+KPX afii10032 afii10021 -31.937
+KPX afii10032 afii10024 -31.937
+KPX afii10032 afii10037 -31.937
+KPX afii10032 afii10039 -31.937
+KPX afii10032 afii10049 -31.937
+KPX afii10032 afii10062 -31.937
+KPX afii10032 afii10148 -31.937
+KPX afii10032 uni046A -31.937
+KPX afii10032 uni0496 -31.937
+KPX afii10032 uni04AE -31.937
+KPX afii10032 uni04B0 -31.937
+KPX afii10032 uni04B2 -31.937
+KPX afii10032 uni04D4 -31.937
+KPX afii10032 uni04D5 -31.937
+KPX afii10034 CYRLDSC -95.81
+KPX afii10034 CYRLHK -95.81
+KPX afii10034 afii10017 -95.81
+KPX afii10034 afii10021 -95.81
+KPX afii10034 afii10029 -95.81
+KPX afii10034 afii10049 -95.81
+KPX afii10034 afii10058 -95.81
+KPX afii10034 afii10065 -31.937
+KPX afii10034 afii10069 -95.81
+KPX afii10034 afii10070 -31.937
+KPX afii10034 afii10071 -31.937
+KPX afii10034 afii10077 -95.81
+KPX afii10034 afii10080 -31.937
+KPX afii10034 afii10106 -95.81
+KPX afii10034 colon -95.81
+KPX afii10034 comma -95.81
+KPX afii10034 cyrldsc -95.81
+KPX afii10034 cyrlhk -95.81
+KPX afii10034 period -95.81
+KPX afii10034 semicolon -95.81
+KPX afii10034 uni046A -95.81
+KPX afii10034 uni04A9 -31.937
+KPX afii10034 uni04BD -31.937
+KPX afii10034 uni04BF -31.937
+KPX afii10034 uni04D4 -95.81
+KPX afii10034 uni04E9 -31.937
+KPX afii10036 CYRLDSC -31.937
+KPX afii10036 CYRLHK -31.937
+KPX afii10036 afii10017 -95.81
+KPX afii10036 afii10021 -95.81
+KPX afii10036 afii10029 -31.937
+KPX afii10036 afii10049 -95.81
+KPX afii10036 afii10058 -31.937
+KPX afii10036 afii10065 -95.81
+KPX afii10036 afii10069 -95.81
+KPX afii10036 afii10070 -95.81
+KPX afii10036 afii10071 -95.81
+KPX afii10036 afii10077 -95.81
+KPX afii10036 afii10080 -95.81
+KPX afii10036 afii10083 -95.81
+KPX afii10036 afii10086 -95.81
+KPX afii10036 afii10097 -95.81
+KPX afii10036 afii10101 -95.81
+KPX afii10036 afii10106 -95.81
+KPX afii10036 colon -95.81
+KPX afii10036 comma -95.81
+KPX afii10036 cyrldsc -95.81
+KPX afii10036 cyrlhk -95.81
+KPX afii10036 cyrq -95.81
+KPX afii10036 period -95.81
+KPX afii10036 semicolon -95.81
+KPX afii10036 uni046A -95.81
+KPX afii10036 uni046B -95.81
+KPX afii10036 uni04A9 -95.81
+KPX afii10036 uni04AB -95.81
+KPX afii10036 uni04BD -95.81
+KPX afii10036 uni04BF -95.81
+KPX afii10036 uni04D4 -95.81
+KPX afii10036 uni04D5 -95.81
+KPX afii10036 uni04E9 -95.81
+KPX afii10037 CYRLDSC -63.873
+KPX afii10037 CYRLHK -63.873
+KPX afii10037 CYRQ -31.937
+KPX afii10037 afii10017 -95.81
+KPX afii10037 afii10021 -63.873
+KPX afii10037 afii10029 -63.873
+KPX afii10037 afii10032 -31.937
+KPX afii10037 afii10035 -31.937
+KPX afii10037 afii10038 -31.937
+KPX afii10037 afii10049 -95.81
+KPX afii10037 afii10053 -31.937
+KPX afii10037 afii10058 -63.873
+KPX afii10037 afii10065 -95.81
+KPX afii10037 afii10069 -95.81
+KPX afii10037 afii10070 -95.81
+KPX afii10037 afii10071 -95.81
+KPX afii10037 afii10077 -95.81
+KPX afii10037 afii10080 -95.81
+KPX afii10037 afii10083 -95.81
+KPX afii10037 afii10097 -95.81
+KPX afii10037 afii10101 -95.81
+KPX afii10037 afii10106 -95.81
+KPX afii10037 colon -95.81
+KPX afii10037 comma -95.81
+KPX afii10037 cyrldsc -95.81
+KPX afii10037 cyrlhk -95.81
+KPX afii10037 period -95.81
+KPX afii10037 semicolon -95.81
+KPX afii10037 uni046A -95.81
+KPX afii10037 uni046B -95.81
+KPX afii10037 uni04A8 -31.937
+KPX afii10037 uni04A9 -95.81
+KPX afii10037 uni04AA -31.937
+KPX afii10037 uni04AB -95.81
+KPX afii10037 uni04BC -31.937
+KPX afii10037 uni04BD -95.81
+KPX afii10037 uni04BE -31.937
+KPX afii10037 uni04BF -95.81
+KPX afii10037 uni04D4 -95.81
+KPX afii10037 uni04D5 -95.81
+KPX afii10037 uni04E8 -31.937
+KPX afii10037 uni04E9 -95.81
+KPX afii10038 CYRHHCRS -31.937
+KPX afii10038 CYRHHK -31.937
+KPX afii10038 CYRW -31.937
+KPX afii10038 afii10017 -31.937
+KPX afii10038 afii10021 -31.937
+KPX afii10038 afii10024 -31.937
+KPX afii10038 afii10037 -31.937
+KPX afii10038 afii10039 -31.937
+KPX afii10038 afii10049 -31.937
+KPX afii10038 afii10062 -31.937
+KPX afii10038 afii10148 -31.937
+KPX afii10038 uni046A -31.937
+KPX afii10038 uni0496 -31.937
+KPX afii10038 uni04AE -31.937
+KPX afii10038 uni04B0 -31.937
+KPX afii10038 uni04B2 -31.937
+KPX afii10038 uni04D4 -31.937
+KPX afii10038 uni04D5 -31.937
+KPX afii10039 CYRQ -31.937
+KPX afii10039 afii10032 -31.937
+KPX afii10039 afii10035 -31.937
+KPX afii10039 afii10038 -31.937
+KPX afii10039 afii10053 -31.937
+KPX afii10039 afii10084 -31.937
+KPX afii10039 afii10089 -31.937
+KPX afii10039 afii10092 -31.937
+KPX afii10039 afii10194 -31.937
+KPX afii10039 uni048D -31.937
+KPX afii10039 uni04A1 -31.937
+KPX afii10039 uni04A8 -31.937
+KPX afii10039 uni04AA -31.937
+KPX afii10039 uni04AD -31.937
+KPX afii10039 uni04B5 -31.937
+KPX afii10039 uni04B7 -31.937
+KPX afii10039 uni04B9 -31.937
+KPX afii10039 uni04BC -31.937
+KPX afii10039 uni04BE -31.937
+KPX afii10039 uni04CC -31.937
+KPX afii10039 uni04E8 -31.937
+KPX afii10044 CYRHHCRS -31.937
+KPX afii10044 CYRHHK -31.937
+KPX afii10044 CYRQ -31.937
+KPX afii10044 CYRW -127.747
+KPX afii10044 afii10024 -31.937
+KPX afii10044 afii10032 -31.937
+KPX afii10044 afii10035 -31.937
+KPX afii10044 afii10036 -95.81
+KPX afii10044 afii10037 -95.81
+KPX afii10044 afii10038 -31.937
+KPX afii10044 afii10039 -31.937
+KPX afii10044 afii10041 -95.81
+KPX afii10044 afii10044 -95.81
+KPX afii10044 afii10051 -95.81
+KPX afii10044 afii10053 -31.937
+KPX afii10044 afii10060 -95.81
+KPX afii10044 afii10062 -95.81
+KPX afii10044 afii10084 -31.937
+KPX afii10044 afii10089 -95.81
+KPX afii10044 afii10092 -31.937
+KPX afii10044 afii10146 -95.81
+KPX afii10044 afii10148 -127.747
+KPX afii10044 afii10194 -31.937
+KPX afii10044 uni048C -95.81
+KPX afii10044 uni048D -31.937
+KPX afii10044 uni0496 -31.937
+KPX afii10044 uni04A0 -95.81
+KPX afii10044 uni04A1 -31.937
+KPX afii10044 uni04A8 -31.937
+KPX afii10044 uni04AA -31.937
+KPX afii10044 uni04AC -95.81
+KPX afii10044 uni04AD -31.937
+KPX afii10044 uni04AE -95.81
+KPX afii10044 uni04B0 -95.81
+KPX afii10044 uni04B2 -31.937
+KPX afii10044 uni04B4 -95.81
+KPX afii10044 uni04B5 -31.937
+KPX afii10044 uni04B6 -95.81
+KPX afii10044 uni04B7 -95.81
+KPX afii10044 uni04B8 -95.81
+KPX afii10044 uni04B9 -95.81
+KPX afii10044 uni04BC -95.81
+KPX afii10044 uni04BE -95.81
+KPX afii10044 uni04CB -95.81
+KPX afii10044 uni04CC -95.81
+KPX afii10044 uni04E8 -31.937
+KPX afii10046 CYRHHCRS -31.937
+KPX afii10046 CYRHHK -31.937
+KPX afii10046 CYRQ -31.937
+KPX afii10046 CYRW -127.747
+KPX afii10046 afii10024 -31.937
+KPX afii10046 afii10032 -31.937
+KPX afii10046 afii10035 -31.937
+KPX afii10046 afii10036 -95.81
+KPX afii10046 afii10037 -95.81
+KPX afii10046 afii10038 -31.937
+KPX afii10046 afii10039 -31.937
+KPX afii10046 afii10041 -95.81
+KPX afii10046 afii10044 -95.81
+KPX afii10046 afii10051 -95.81
+KPX afii10046 afii10053 -31.937
+KPX afii10046 afii10060 -95.81
+KPX afii10046 afii10062 -95.81
+KPX afii10046 afii10084 -31.937
+KPX afii10046 afii10089 -95.81
+KPX afii10046 afii10092 -31.937
+KPX afii10046 afii10146 -95.81
+KPX afii10046 afii10148 -127.747
+KPX afii10046 afii10194 -31.937
+KPX afii10046 uni048C -95.81
+KPX afii10046 uni048D -31.937
+KPX afii10046 uni0496 -31.937
+KPX afii10046 uni04A0 -95.81
+KPX afii10046 uni04A1 -31.937
+KPX afii10046 uni04A8 -31.937
+KPX afii10046 uni04AA -31.937
+KPX afii10046 uni04AC -95.81
+KPX afii10046 uni04AD -31.937
+KPX afii10046 uni04AE -95.81
+KPX afii10046 uni04B0 -95.81
+KPX afii10046 uni04B2 -31.937
+KPX afii10046 uni04B4 -95.81
+KPX afii10046 uni04B5 -31.937
+KPX afii10046 uni04B6 -95.81
+KPX afii10046 uni04B7 -95.81
+KPX afii10046 uni04B8 -95.81
+KPX afii10046 uni04B9 -95.81
+KPX afii10046 uni04BC -95.81
+KPX afii10046 uni04BE -95.81
+KPX afii10046 uni04CB -95.81
+KPX afii10046 uni04CC -95.81
+KPX afii10046 uni04E8 -31.937
+KPX afii10047 CYRHHCRS -31.937
+KPX afii10047 CYRHHK -31.937
+KPX afii10047 CYRW -31.937
+KPX afii10047 afii10017 -31.937
+KPX afii10047 afii10021 -31.937
+KPX afii10047 afii10024 -31.937
+KPX afii10047 afii10037 -31.937
+KPX afii10047 afii10039 -31.937
+KPX afii10047 afii10049 -31.937
+KPX afii10047 afii10062 -31.937
+KPX afii10047 afii10148 -31.937
+KPX afii10047 uni046A -31.937
+KPX afii10047 uni0496 -31.937
+KPX afii10047 uni04AE -31.937
+KPX afii10047 uni04B0 -31.937
+KPX afii10047 uni04B2 -31.937
+KPX afii10047 uni04D4 -31.937
+KPX afii10047 uni04D5 -31.937
+KPX afii10048 CYRHHCRS -31.937
+KPX afii10048 CYRHHK -31.937
+KPX afii10048 CYRW -31.937
+KPX afii10048 afii10017 -31.937
+KPX afii10048 afii10021 -31.937
+KPX afii10048 afii10024 -31.937
+KPX afii10048 afii10037 -31.937
+KPX afii10048 afii10039 -31.937
+KPX afii10048 afii10049 -31.937
+KPX afii10048 afii10062 -31.937
+KPX afii10048 afii10148 -31.937
+KPX afii10048 uni046A -31.937
+KPX afii10048 uni0496 -31.937
+KPX afii10048 uni04AE -31.937
+KPX afii10048 uni04B0 -31.937
+KPX afii10048 uni04B2 -31.937
+KPX afii10048 uni04D4 -31.937
+KPX afii10048 uni04D5 -31.937
+KPX afii10050 CYRLDSC -31.937
+KPX afii10050 CYRLHK -31.937
+KPX afii10050 CYRQ -31.937
+KPX afii10050 afii10017 -95.81
+KPX afii10050 afii10021 -95.81
+KPX afii10050 afii10029 -31.937
+KPX afii10050 afii10032 -31.937
+KPX afii10050 afii10035 -31.937
+KPX afii10050 afii10038 -31.937
+KPX afii10050 afii10049 -95.81
+KPX afii10050 afii10053 -31.937
+KPX afii10050 afii10058 -31.937
+KPX afii10050 afii10065 -95.81
+KPX afii10050 afii10069 -95.81
+KPX afii10050 afii10070 -95.81
+KPX afii10050 afii10071 -95.81
+KPX afii10050 afii10077 -95.81
+KPX afii10050 afii10080 -95.81
+KPX afii10050 afii10083 -95.81
+KPX afii10050 afii10086 -95.81
+KPX afii10050 afii10097 -95.81
+KPX afii10050 afii10101 -95.81
+KPX afii10050 afii10106 -95.81
+KPX afii10050 colon -95.81
+KPX afii10050 comma -95.81
+KPX afii10050 cyrldsc -95.81
+KPX afii10050 cyrlhk -95.81
+KPX afii10050 cyrq -95.81
+KPX afii10050 period -95.81
+KPX afii10050 semicolon -95.81
+KPX afii10050 uni046A -95.81
+KPX afii10050 uni046B -95.81
+KPX afii10050 uni04A8 -31.937
+KPX afii10050 uni04A9 -95.81
+KPX afii10050 uni04AA -31.937
+KPX afii10050 uni04AB -95.81
+KPX afii10050 uni04BD -95.81
+KPX afii10050 uni04BF -95.81
+KPX afii10050 uni04D4 -95.81
+KPX afii10050 uni04D5 -95.81
+KPX afii10050 uni04E8 -31.937
+KPX afii10050 uni04E9 -95.81
+KPX afii10051 CYRHHK -31.937
+KPX afii10051 CYRQ -31.937
+KPX afii10051 CYRW -127.747
+KPX afii10051 afii10024 -31.937
+KPX afii10051 afii10032 -31.937
+KPX afii10051 afii10035 -31.937
+KPX afii10051 afii10036 -95.81
+KPX afii10051 afii10037 -95.81
+KPX afii10051 afii10038 -31.937
+KPX afii10051 afii10039 -31.937
+KPX afii10051 afii10041 -95.81
+KPX afii10051 afii10044 -95.81
+KPX afii10051 afii10051 -95.81
+KPX afii10051 afii10053 -31.937
+KPX afii10051 afii10060 -95.81
+KPX afii10051 afii10062 -95.81
+KPX afii10051 afii10084 -31.937
+KPX afii10051 afii10089 -95.81
+KPX afii10051 afii10092 -31.937
+KPX afii10051 afii10146 -95.81
+KPX afii10051 afii10148 -127.747
+KPX afii10051 afii10194 -31.937
+KPX afii10051 uni0496 -31.937
+KPX afii10051 uni04A0 -95.81
+KPX afii10051 uni04A1 -31.937
+KPX afii10051 uni04A8 -31.937
+KPX afii10051 uni04AA -31.937
+KPX afii10051 uni04AC -95.81
+KPX afii10051 uni04AD -31.937
+KPX afii10051 uni04AE -95.81
+KPX afii10051 uni04B0 -95.81
+KPX afii10051 uni04B2 -31.937
+KPX afii10051 uni04B4 -95.81
+KPX afii10051 uni04B5 -31.937
+KPX afii10051 uni04B6 -95.81
+KPX afii10051 uni04B7 -95.81
+KPX afii10051 uni04B8 -95.81
+KPX afii10051 uni04B9 -95.81
+KPX afii10051 uni04BC -95.81
+KPX afii10051 uni04BE -95.81
+KPX afii10051 uni04CB -95.81
+KPX afii10051 uni04CC -95.81
+KPX afii10051 uni04E8 -31.937
+KPX afii10055 afii10055 31.937
+KPX afii10055 afii10056 31.937
+KPX afii10056 afii10055 31.937
+KPX afii10056 afii10056 31.937
+KPX afii10058 CYRHHCRS -31.937
+KPX afii10058 CYRHHK -31.937
+KPX afii10058 CYRQ -31.937
+KPX afii10058 CYRW -127.747
+KPX afii10058 afii10024 -31.937
+KPX afii10058 afii10032 -31.937
+KPX afii10058 afii10035 -31.937
+KPX afii10058 afii10036 -95.81
+KPX afii10058 afii10037 -95.81
+KPX afii10058 afii10038 -31.937
+KPX afii10058 afii10039 -31.937
+KPX afii10058 afii10041 -95.81
+KPX afii10058 afii10044 -95.81
+KPX afii10058 afii10051 -95.81
+KPX afii10058 afii10053 -31.937
+KPX afii10058 afii10060 -95.81
+KPX afii10058 afii10062 -95.81
+KPX afii10058 afii10084 -31.937
+KPX afii10058 afii10089 -95.81
+KPX afii10058 afii10092 -31.937
+KPX afii10058 afii10146 -95.81
+KPX afii10058 afii10148 -127.747
+KPX afii10058 afii10194 -31.937
+KPX afii10058 uni0496 -31.937
+KPX afii10058 uni04A0 -95.81
+KPX afii10058 uni04A1 -31.937
+KPX afii10058 uni04A8 -31.937
+KPX afii10058 uni04AA -31.937
+KPX afii10058 uni04AC -95.81
+KPX afii10058 uni04AD -31.937
+KPX afii10058 uni04AE -95.81
+KPX afii10058 uni04B0 -95.81
+KPX afii10058 uni04B2 -31.937
+KPX afii10058 uni04B4 -95.81
+KPX afii10058 uni04B5 -31.937
+KPX afii10058 uni04B6 -95.81
+KPX afii10058 uni04B7 -95.81
+KPX afii10058 uni04B8 -95.81
+KPX afii10058 uni04B9 -95.81
+KPX afii10058 uni04BC -95.81
+KPX afii10058 uni04BE -95.81
+KPX afii10058 uni04CB -95.81
+KPX afii10058 uni04CC -95.81
+KPX afii10058 uni04E8 -31.937
+KPX afii10059 CYRHHCRS -31.937
+KPX afii10059 CYRHHK -31.937
+KPX afii10059 CYRQ -31.937
+KPX afii10059 CYRW -127.747
+KPX afii10059 afii10024 -31.937
+KPX afii10059 afii10032 -31.937
+KPX afii10059 afii10035 -31.937
+KPX afii10059 afii10036 -95.81
+KPX afii10059 afii10037 -95.81
+KPX afii10059 afii10038 -31.937
+KPX afii10059 afii10039 -31.937
+KPX afii10059 afii10041 -95.81
+KPX afii10059 afii10044 -95.81
+KPX afii10059 afii10051 -95.81
+KPX afii10059 afii10053 -31.937
+KPX afii10059 afii10060 -95.81
+KPX afii10059 afii10062 -95.81
+KPX afii10059 afii10084 -31.937
+KPX afii10059 afii10089 -95.81
+KPX afii10059 afii10092 -31.937
+KPX afii10059 afii10146 -95.81
+KPX afii10059 afii10148 -127.747
+KPX afii10059 afii10194 -31.937
+KPX afii10059 uni0496 -31.937
+KPX afii10059 uni04A0 -95.81
+KPX afii10059 uni04A1 -31.937
+KPX afii10059 uni04A8 -31.937
+KPX afii10059 uni04AA -31.937
+KPX afii10059 uni04AC -95.81
+KPX afii10059 uni04AD -31.937
+KPX afii10059 uni04AE -95.81
+KPX afii10059 uni04B0 -95.81
+KPX afii10059 uni04B2 -31.937
+KPX afii10059 uni04B4 -95.81
+KPX afii10059 uni04B5 -31.937
+KPX afii10059 uni04B6 -95.81
+KPX afii10059 uni04B7 -95.81
+KPX afii10059 uni04B8 -95.81
+KPX afii10059 uni04B9 -95.81
+KPX afii10059 uni04BC -95.81
+KPX afii10059 uni04BE -95.81
+KPX afii10059 uni04CB -95.81
+KPX afii10059 uni04CC -95.81
+KPX afii10059 uni04E8 -31.937
+KPX afii10062 CYRLDSC -63.873
+KPX afii10062 CYRLHK -63.873
+KPX afii10062 CYRQ -31.937
+KPX afii10062 afii10017 -95.81
+KPX afii10062 afii10021 -63.873
+KPX afii10062 afii10029 -63.873
+KPX afii10062 afii10032 -31.937
+KPX afii10062 afii10035 -31.937
+KPX afii10062 afii10038 -31.937
+KPX afii10062 afii10049 -95.81
+KPX afii10062 afii10053 -31.937
+KPX afii10062 afii10058 -63.873
+KPX afii10062 afii10065 -95.81
+KPX afii10062 afii10069 -95.81
+KPX afii10062 afii10070 -95.81
+KPX afii10062 afii10071 -95.81
+KPX afii10062 afii10077 -95.81
+KPX afii10062 afii10080 -95.81
+KPX afii10062 afii10083 -95.81
+KPX afii10062 afii10097 -95.81
+KPX afii10062 afii10101 -95.81
+KPX afii10062 afii10106 -95.81
+KPX afii10062 colon -95.81
+KPX afii10062 comma -95.81
+KPX afii10062 cyrldsc -95.81
+KPX afii10062 cyrlhk -95.81
+KPX afii10062 period -95.81
+KPX afii10062 semicolon -95.81
+KPX afii10062 uni046A -95.81
+KPX afii10062 uni046B -95.81
+KPX afii10062 uni04A8 -31.937
+KPX afii10062 uni04A9 -95.81
+KPX afii10062 uni04AA -31.937
+KPX afii10062 uni04AB -95.81
+KPX afii10062 uni04BC -31.937
+KPX afii10062 uni04BD -95.81
+KPX afii10062 uni04BE -31.937
+KPX afii10062 uni04BF -95.81
+KPX afii10062 uni04D4 -95.81
+KPX afii10062 uni04D5 -95.81
+KPX afii10062 uni04E8 -31.937
+KPX afii10062 uni04E9 -95.81
+KPX afii10065 afii10085 -31.937
+KPX afii10065 afii10089 -31.937
+KPX afii10065 afii10110 -31.937
+KPX afii10065 afii10196 -31.937
+KPX afii10065 cyrw -31.937
+KPX afii10065 uni04AF -31.937
+KPX afii10065 uni04B1 -31.937
+KPX afii10065 uni04B7 -31.937
+KPX afii10065 uni04B9 -31.937
+KPX afii10065 uni04CC -31.937
+KPX afii10066 afii10069 -31.937
+KPX afii10066 afii10072 -31.937
+KPX afii10066 afii10087 -31.937
+KPX afii10066 afii10097 -31.937
+KPX afii10066 cyrhhcrs -31.937
+KPX afii10066 cyrhhk -31.937
+KPX afii10066 uni046B -31.937
+KPX afii10066 uni0497 -31.937
+KPX afii10066 uni04B3 -31.937
+KPX afii10066 uni04D5 -31.937
+KPX afii10068 afii10065 -31.937
+KPX afii10068 afii10069 -31.937
+KPX afii10068 afii10077 -31.937
+KPX afii10068 afii10097 -31.937
+KPX afii10068 afii10106 -31.937
+KPX afii10068 comma -95.81
+KPX afii10068 cyrldsc -31.937
+KPX afii10068 cyrlhk -31.937
+KPX afii10068 period -95.81
+KPX afii10068 uni046B -31.937
+KPX afii10068 uni04BD -31.937
+KPX afii10068 uni04BF -31.937
+KPX afii10068 uni04D5 -31.937
+KPX afii10072 afii10065 -31.937
+KPX afii10072 afii10070 -31.937
+KPX afii10072 afii10071 -31.937
+KPX afii10072 afii10080 -31.937
+KPX afii10072 afii10083 -31.937
+KPX afii10072 afii10101 -31.937
+KPX afii10072 uni04A9 -31.937
+KPX afii10072 uni04AB -31.937
+KPX afii10072 uni04BD -31.937
+KPX afii10072 uni04BF -31.937
+KPX afii10072 uni04E9 -31.937
+KPX afii10076 afii10065 -31.937
+KPX afii10076 afii10070 -31.937
+KPX afii10076 afii10071 -31.937
+KPX afii10076 afii10080 -31.937
+KPX afii10076 afii10083 -31.937
+KPX afii10076 afii10101 -31.937
+KPX afii10076 uni04A9 -31.937
+KPX afii10076 uni04AB -31.937
+KPX afii10076 uni04BD -31.937
+KPX afii10076 uni04BF -31.937
+KPX afii10076 uni04E9 -31.937
+KPX afii10080 afii10069 -31.937
+KPX afii10080 afii10072 -31.937
+KPX afii10080 afii10087 -31.937
+KPX afii10080 afii10097 -31.937
+KPX afii10080 cyrhhcrs -31.937
+KPX afii10080 cyrhhk -31.937
+KPX afii10080 uni046B -31.937
+KPX afii10080 uni0497 -31.937
+KPX afii10080 uni04B3 -31.937
+KPX afii10080 uni04D5 -31.937
+KPX afii10082 afii10069 -31.937
+KPX afii10082 afii10072 -31.937
+KPX afii10082 afii10087 -31.937
+KPX afii10082 afii10097 -31.937
+KPX afii10082 cyrhhcrs -31.937
+KPX afii10082 cyrhhk -31.937
+KPX afii10082 uni046B -31.937
+KPX afii10082 uni0497 -31.937
+KPX afii10082 uni04B3 -31.937
+KPX afii10082 uni04D5 -31.937
+KPX afii10083 afii10069 -31.937
+KPX afii10083 afii10072 -31.937
+KPX afii10083 afii10087 -31.937
+KPX afii10083 afii10097 -31.937
+KPX afii10083 cyrhhcrs -31.937
+KPX afii10083 cyrhhk -31.937
+KPX afii10083 uni046B -31.937
+KPX afii10083 uni0497 -31.937
+KPX afii10083 uni04B3 -31.937
+KPX afii10083 uni04D5 -31.937
+KPX afii10084 afii10065 -31.937
+KPX afii10084 afii10069 -31.937
+KPX afii10084 afii10077 -31.937
+KPX afii10084 afii10097 -31.937
+KPX afii10084 afii10106 -31.937
+KPX afii10084 comma -95.81
+KPX afii10084 cyrldsc -31.937
+KPX afii10084 cyrlhk -31.937
+KPX afii10084 period -95.81
+KPX afii10084 uni046B -31.937
+KPX afii10084 uni04BD -31.937
+KPX afii10084 uni04BF -31.937
+KPX afii10084 uni04D5 -31.937
+KPX afii10085 afii10065 -31.937
+KPX afii10085 afii10069 -63.873
+KPX afii10085 afii10070 -31.937
+KPX afii10085 afii10071 -31.937
+KPX afii10085 afii10077 -63.873
+KPX afii10085 afii10080 -31.937
+KPX afii10085 afii10083 -31.937
+KPX afii10085 afii10097 -31.937
+KPX afii10085 afii10101 -31.937
+KPX afii10085 afii10106 -63.873
+KPX afii10085 comma -95.81
+KPX afii10085 cyrldsc -63.873
+KPX afii10085 cyrlhk -63.873
+KPX afii10085 period -95.81
+KPX afii10085 uni046B -31.937
+KPX afii10085 uni04A9 -31.937
+KPX afii10085 uni04AB -31.937
+KPX afii10085 uni04BD -31.937
+KPX afii10085 uni04BF -31.937
+KPX afii10085 uni04D5 -95.81
+KPX afii10085 uni04E9 -31.937
+KPX afii10086 afii10069 -31.937
+KPX afii10086 afii10072 -31.937
+KPX afii10086 afii10087 -31.937
+KPX afii10086 afii10097 -31.937
+KPX afii10086 cyrhhcrs -31.937
+KPX afii10086 cyrhhk -31.937
+KPX afii10086 uni046B -31.937
+KPX afii10086 uni0497 -31.937
+KPX afii10086 uni04B3 -31.937
+KPX afii10086 uni04D5 -31.937
+KPX afii10087 afii10065 -31.937
+KPX afii10087 afii10070 -31.937
+KPX afii10087 afii10071 -31.937
+KPX afii10087 afii10080 -31.937
+KPX afii10087 afii10083 -31.937
+KPX afii10087 afii10101 -31.937
+KPX afii10087 uni04A9 -31.937
+KPX afii10087 uni04AB -31.937
+KPX afii10087 uni04BD -31.937
+KPX afii10087 uni04BF -31.937
+KPX afii10087 uni04E9 -31.937
+KPX afii10092 afii10080 -31.937
+KPX afii10092 afii10084 -31.937
+KPX afii10092 afii10085 -63.873
+KPX afii10092 afii10086 -31.937
+KPX afii10092 afii10089 -95.81
+KPX afii10092 afii10092 -31.937
+KPX afii10092 afii10101 -31.937
+KPX afii10092 afii10110 -63.873
+KPX afii10092 afii10194 -31.937
+KPX afii10092 afii10196 -63.873
+KPX afii10092 cyrq -31.937
+KPX afii10092 cyrw -63.873
+KPX afii10092 uni048D -31.937
+KPX afii10092 uni04A1 -31.937
+KPX afii10092 uni04A9 -31.937
+KPX afii10092 uni04AB -31.937
+KPX afii10092 uni04AD -31.937
+KPX afii10092 uni04AF -63.873
+KPX afii10092 uni04B1 -63.873
+KPX afii10092 uni04B5 -31.937
+KPX afii10092 uni04B7 -95.81
+KPX afii10092 uni04B9 -95.81
+KPX afii10092 uni04BD -95.81
+KPX afii10092 uni04BF -95.81
+KPX afii10092 uni04CC -95.81
+KPX afii10092 uni04E9 -31.937
+KPX afii10094 afii10080 -31.937
+KPX afii10094 afii10084 -31.937
+KPX afii10094 afii10085 -63.873
+KPX afii10094 afii10086 -31.937
+KPX afii10094 afii10089 -95.81
+KPX afii10094 afii10092 -31.937
+KPX afii10094 afii10101 -31.937
+KPX afii10094 afii10110 -63.873
+KPX afii10094 afii10194 -31.937
+KPX afii10094 afii10196 -63.873
+KPX afii10094 cyrq -31.937
+KPX afii10094 cyrw -63.873
+KPX afii10094 uni048D -31.937
+KPX afii10094 uni04A1 -31.937
+KPX afii10094 uni04A9 -31.937
+KPX afii10094 uni04AB -31.937
+KPX afii10094 uni04AD -31.937
+KPX afii10094 uni04AF -63.873
+KPX afii10094 uni04B1 -63.873
+KPX afii10094 uni04B5 -31.937
+KPX afii10094 uni04B7 -95.81
+KPX afii10094 uni04B9 -95.81
+KPX afii10094 uni04BD -95.81
+KPX afii10094 uni04BF -95.81
+KPX afii10094 uni04CC -95.81
+KPX afii10094 uni04E9 -31.937
+KPX afii10095 afii10069 -31.937
+KPX afii10095 afii10072 -31.937
+KPX afii10095 afii10087 -31.937
+KPX afii10095 afii10097 -31.937
+KPX afii10095 cyrhhcrs -31.937
+KPX afii10095 cyrhhk -31.937
+KPX afii10095 uni046B -31.937
+KPX afii10095 uni0497 -31.937
+KPX afii10095 uni04B3 -31.937
+KPX afii10095 uni04D5 -31.937
+KPX afii10096 afii10069 -31.937
+KPX afii10096 afii10072 -31.937
+KPX afii10096 afii10087 -31.937
+KPX afii10096 afii10097 -31.937
+KPX afii10096 cyrhhcrs -31.937
+KPX afii10096 cyrhhk -31.937
+KPX afii10096 uni046B -31.937
+KPX afii10096 uni0497 -31.937
+KPX afii10096 uni04B3 -31.937
+KPX afii10096 uni04D5 -31.937
+KPX afii10098 afii10065 -31.937
+KPX afii10098 afii10069 -31.937
+KPX afii10098 afii10077 -31.937
+KPX afii10098 afii10097 -31.937
+KPX afii10098 afii10106 -31.937
+KPX afii10098 comma -95.81
+KPX afii10098 cyrldsc -31.937
+KPX afii10098 cyrlhk -31.937
+KPX afii10098 period -95.81
+KPX afii10098 uni046B -31.937
+KPX afii10098 uni04BD -31.937
+KPX afii10098 uni04BF -31.937
+KPX afii10098 uni04D5 -31.937
+KPX afii10103 afii10104 31.937
+KPX afii10104 afii10103 31.937
+KPX afii10104 afii10104 95.81
+KPX afii10106 afii10080 -31.937
+KPX afii10106 afii10084 -31.937
+KPX afii10106 afii10085 -63.873
+KPX afii10106 afii10086 -31.937
+KPX afii10106 afii10089 -95.81
+KPX afii10106 afii10092 -31.937
+KPX afii10106 afii10101 -31.937
+KPX afii10106 afii10110 -63.873
+KPX afii10106 afii10194 -31.937
+KPX afii10106 afii10196 -63.873
+KPX afii10106 cyrq -31.937
+KPX afii10106 cyrw -63.873
+KPX afii10106 uni04A1 -31.937
+KPX afii10106 uni04A9 -31.937
+KPX afii10106 uni04AB -31.937
+KPX afii10106 uni04AD -31.937
+KPX afii10106 uni04AF -63.873
+KPX afii10106 uni04B1 -63.873
+KPX afii10106 uni04B5 -31.937
+KPX afii10106 uni04B7 -95.81
+KPX afii10106 uni04B9 -95.81
+KPX afii10106 uni04BD -95.81
+KPX afii10106 uni04BF -95.81
+KPX afii10106 uni04CC -95.81
+KPX afii10106 uni04E9 -31.937
+KPX afii10107 afii10080 -31.937
+KPX afii10107 afii10084 -31.937
+KPX afii10107 afii10085 -63.873
+KPX afii10107 afii10086 -31.937
+KPX afii10107 afii10089 -95.81
+KPX afii10107 afii10092 -31.937
+KPX afii10107 afii10101 -31.937
+KPX afii10107 afii10110 -63.873
+KPX afii10107 afii10194 -31.937
+KPX afii10107 afii10196 -63.873
+KPX afii10107 cyrq -31.937
+KPX afii10107 cyrw -63.873
+KPX afii10107 uni04A1 -31.937
+KPX afii10107 uni04A9 -31.937
+KPX afii10107 uni04AB -31.937
+KPX afii10107 uni04AD -31.937
+KPX afii10107 uni04AF -63.873
+KPX afii10107 uni04B1 -63.873
+KPX afii10107 uni04B5 -31.937
+KPX afii10107 uni04B7 -95.81
+KPX afii10107 uni04B9 -95.81
+KPX afii10107 uni04BD -95.81
+KPX afii10107 uni04BF -95.81
+KPX afii10107 uni04CC -95.81
+KPX afii10107 uni04E9 -31.937
+KPX afii10110 afii10065 -31.937
+KPX afii10110 afii10069 -63.873
+KPX afii10110 afii10070 -31.937
+KPX afii10110 afii10071 -31.937
+KPX afii10110 afii10077 -63.873
+KPX afii10110 afii10080 -31.937
+KPX afii10110 afii10083 -31.937
+KPX afii10110 afii10097 -31.937
+KPX afii10110 afii10101 -31.937
+KPX afii10110 afii10106 -63.873
+KPX afii10110 comma -95.81
+KPX afii10110 cyrldsc -63.873
+KPX afii10110 cyrlhk -63.873
+KPX afii10110 period -95.81
+KPX afii10110 uni046B -31.937
+KPX afii10110 uni04A9 -31.937
+KPX afii10110 uni04AB -31.937
+KPX afii10110 uni04BD -31.937
+KPX afii10110 uni04BF -31.937
+KPX afii10110 uni04D5 -95.81
+KPX afii10110 uni04E9 -31.937
+KPX afii10146 CYRHHK -31.937
+KPX afii10146 CYRQ -31.937
+KPX afii10146 CYRW -127.747
+KPX afii10146 afii10024 -31.937
+KPX afii10146 afii10032 -31.937
+KPX afii10146 afii10035 -31.937
+KPX afii10146 afii10036 -95.81
+KPX afii10146 afii10037 -95.81
+KPX afii10146 afii10038 -31.937
+KPX afii10146 afii10039 -31.937
+KPX afii10146 afii10041 -95.81
+KPX afii10146 afii10044 -95.81
+KPX afii10146 afii10051 -95.81
+KPX afii10146 afii10053 -31.937
+KPX afii10146 afii10060 -95.81
+KPX afii10146 afii10062 -95.81
+KPX afii10146 afii10084 -31.937
+KPX afii10146 afii10089 -95.81
+KPX afii10146 afii10092 -31.937
+KPX afii10146 afii10146 -95.81
+KPX afii10146 afii10148 -127.747
+KPX afii10146 afii10194 -31.937
+KPX afii10146 uni0496 -31.937
+KPX afii10146 uni04A0 -95.81
+KPX afii10146 uni04A1 -31.937
+KPX afii10146 uni04A8 -31.937
+KPX afii10146 uni04AA -31.937
+KPX afii10146 uni04AC -95.81
+KPX afii10146 uni04AD -31.937
+KPX afii10146 uni04AE -95.81
+KPX afii10146 uni04B0 -95.81
+KPX afii10146 uni04B2 -31.937
+KPX afii10146 uni04B4 -95.81
+KPX afii10146 uni04B5 -31.937
+KPX afii10146 uni04B6 -95.81
+KPX afii10146 uni04B7 -95.81
+KPX afii10146 uni04B8 -95.81
+KPX afii10146 uni04B9 -95.81
+KPX afii10146 uni04BC -95.81
+KPX afii10146 uni04BE -95.81
+KPX afii10146 uni04CB -95.81
+KPX afii10146 uni04CC -95.81
+KPX afii10146 uni04E8 -31.937
+KPX afii10148 CYRQ -31.937
+KPX afii10148 afii10017 -127.747
+KPX afii10148 afii10032 -31.937
+KPX afii10148 afii10035 -31.937
+KPX afii10148 afii10038 -31.937
+KPX afii10148 afii10049 -127.747
+KPX afii10148 afii10053 -31.937
+KPX afii10148 afii10065 -95.81
+KPX afii10148 afii10069 -127.747
+KPX afii10148 afii10070 -95.81
+KPX afii10148 afii10071 -95.81
+KPX afii10148 afii10077 -127.747
+KPX afii10148 afii10080 -95.81
+KPX afii10148 afii10097 -127.747
+KPX afii10148 afii10106 -127.747
+KPX afii10148 colon -95.81
+KPX afii10148 comma -95.81
+KPX afii10148 cyrldsc -127.747
+KPX afii10148 cyrlhk -127.747
+KPX afii10148 period -95.81
+KPX afii10148 semicolon -95.81
+KPX afii10148 uni046A -127.747
+KPX afii10148 uni046B -127.747
+KPX afii10148 uni04A8 -31.937
+KPX afii10148 uni04A9 -95.81
+KPX afii10148 uni04AA -31.937
+KPX afii10148 uni04BC -31.937
+KPX afii10148 uni04BD -95.81
+KPX afii10148 uni04BE -31.937
+KPX afii10148 uni04BF -95.81
+KPX afii10148 uni04D4 -127.747
+KPX afii10148 uni04D5 -127.747
+KPX afii10148 uni04E8 -31.937
+KPX afii10148 uni04E9 -95.81
+KPX afii10194 afii10080 -31.937
+KPX afii10194 afii10084 -31.937
+KPX afii10194 afii10085 -63.873
+KPX afii10194 afii10086 -31.937
+KPX afii10194 afii10089 -95.81
+KPX afii10194 afii10092 -31.937
+KPX afii10194 afii10101 -31.937
+KPX afii10194 afii10110 -63.873
+KPX afii10194 afii10194 -31.937
+KPX afii10194 afii10196 -63.873
+KPX afii10194 cyrq -31.937
+KPX afii10194 cyrw -63.873
+KPX afii10194 uni04A1 -31.937
+KPX afii10194 uni04A9 -31.937
+KPX afii10194 uni04AB -31.937
+KPX afii10194 uni04AD -31.937
+KPX afii10194 uni04AF -63.873
+KPX afii10194 uni04B1 -63.873
+KPX afii10194 uni04B5 -31.937
+KPX afii10194 uni04B7 -95.81
+KPX afii10194 uni04B9 -95.81
+KPX afii10194 uni04BD -95.81
+KPX afii10194 uni04BF -95.81
+KPX afii10194 uni04CC -95.81
+KPX afii10194 uni04E9 -31.937
+KPX afii10196 afii10065 -31.937
+KPX afii10196 afii10069 -63.873
+KPX afii10196 afii10070 -31.937
+KPX afii10196 afii10071 -31.937
+KPX afii10196 afii10077 -63.873
+KPX afii10196 afii10080 -31.937
+KPX afii10196 afii10083 -31.937
+KPX afii10196 afii10097 -31.937
+KPX afii10196 afii10101 -31.937
+KPX afii10196 afii10106 -63.873
+KPX afii10196 comma -95.81
+KPX afii10196 cyrldsc -63.873
+KPX afii10196 cyrlhk -63.873
+KPX afii10196 period -95.81
+KPX afii10196 uni046B -31.937
+KPX afii10196 uni04A9 -31.937
+KPX afii10196 uni04AB -31.937
+KPX afii10196 uni04BD -31.937
+KPX afii10196 uni04BF -31.937
+KPX afii10196 uni04D5 -95.81
+KPX afii10196 uni04E9 -31.937
+KPX afii10846 afii10069 -31.937
+KPX afii10846 afii10072 -31.937
+KPX afii10846 afii10087 -31.937
+KPX afii10846 afii10097 -31.937
+KPX afii10846 cyrhhcrs -31.937
+KPX afii10846 cyrhhk -31.937
+KPX afii10846 uni046B -31.937
+KPX afii10846 uni0497 -31.937
+KPX afii10846 uni04B3 -31.937
+KPX afii10846 uni04D5 -31.937
+KPX afii61664 hyphen 95.81
+KPX afii61664 quotedblbase 95.81
+KPX afii61664 quotedblleft 95.81
+KPX afii61664 quotedblright 95.81
+KPX afii61664 quoteleft 95.81
+KPX afii61664 quoteright 95.81
+KPX agrave j 63.873
+KPX agrave v -31.937
+KPX agrave w -31.937
+KPX agrave y -31.937
+KPX agrave yacute -31.937
+KPX agrave ydieresis -31.937
+KPX aogonek g 31.937
+KPX aogonek p 31.937
+KPX aogonek w -31.937
+KPX aring j 63.873
+KPX aring v -31.937
+KPX aring w -31.937
+KPX aring y -31.937
+KPX aring yacute -31.937
+KPX aring ydieresis -31.937
+KPX atilde j 63.873
+KPX atilde v -31.937
+KPX atilde w -31.937
+KPX atilde y -31.937
+KPX atilde yacute -31.937
+KPX atilde ydieresis -31.937
+KPX b c 31.937
+KPX b cacute 31.937
+KPX b ccaron 31.937
+KPX b ccedilla 31.937
+KPX b d 31.937
+KPX b e 31.937
+KPX b eacute 31.937
+KPX b ecaron 31.937
+KPX b ecircumflex 31.937
+KPX b edieresis 31.937
+KPX b egrave 31.937
+KPX b eogonek 31.937
+KPX b j 63.873
+KPX b o 31.937
+KPX b oacute 31.937
+KPX b ocircumflex 31.937
+KPX b odieresis 31.937
+KPX b oe 31.937
+KPX b ograve 31.937
+KPX b ohungarumlaut 31.937
+KPX b oslash 31.937
+KPX b otilde 31.937
+KPX b q 31.937
+KPX b v -31.937
+KPX b w -31.937
+KPX b x -31.937
+KPX b y -31.937
+KPX b yacute -31.937
+KPX b ydieresis -31.937
+KPX c h -31.937
+KPX c k -31.937
+KPX cacute h -31.937
+KPX cacute k -31.937
+KPX ccaron h -31.937
+KPX ccaron k -31.937
+KPX ccedilla h -31.937
+KPX ccedilla k -31.937
+KPX cyrgdsc afii10065 -31.937
+KPX cyrgdsc afii10069 -31.937
+KPX cyrgdsc afii10077 -31.937
+KPX cyrgdsc afii10097 -31.937
+KPX cyrgdsc afii10106 -31.937
+KPX cyrgdsc comma -95.81
+KPX cyrgdsc cyrldsc -31.937
+KPX cyrgdsc cyrlhk -31.937
+KPX cyrgdsc period -95.81
+KPX cyrgdsc uni046B -31.937
+KPX cyrgdsc uni04BD -31.937
+KPX cyrgdsc uni04BF -31.937
+KPX cyrgdsc uni04D5 -31.937
+KPX cyrgdschcrs afii10065 -31.937
+KPX cyrgdschcrs afii10069 -31.937
+KPX cyrgdschcrs afii10077 -31.937
+KPX cyrgdschcrs afii10097 -31.937
+KPX cyrgdschcrs afii10106 -31.937
+KPX cyrgdschcrs comma -95.81
+KPX cyrgdschcrs cyrldsc -31.937
+KPX cyrgdschcrs cyrlhk -31.937
+KPX cyrgdschcrs period -95.81
+KPX cyrhhcrs afii10065 -31.937
+KPX cyrhhcrs afii10070 -31.937
+KPX cyrhhcrs afii10071 -31.937
+KPX cyrhhcrs afii10080 -31.937
+KPX cyrhhcrs afii10083 -31.937
+KPX cyrhhcrs uni04E9 -31.937
+KPX cyrhhk afii10065 -31.937
+KPX cyrhhk afii10070 -31.937
+KPX cyrhhk afii10071 -31.937
+KPX cyrhhk afii10080 -31.937
+KPX cyrhhk afii10083 -31.937
+KPX cyrhhk afii10101 -31.937
+KPX cyrhhk uni04A9 -31.937
+KPX cyrhhk uni04AB -31.937
+KPX cyrhhk uni04BD -31.937
+KPX cyrhhk uni04BF -31.937
+KPX cyrhhk uni04E9 -31.937
+KPX cyrw afii10065 -31.937
+KPX cyrw afii10069 -63.873
+KPX cyrw afii10070 -31.937
+KPX cyrw afii10071 -31.937
+KPX cyrw afii10077 -63.873
+KPX cyrw afii10080 -31.937
+KPX cyrw afii10083 -31.937
+KPX cyrw afii10097 -31.937
+KPX cyrw afii10101 -31.937
+KPX cyrw afii10106 -63.873
+KPX cyrw comma -95.81
+KPX cyrw cyrldsc -63.873
+KPX cyrw cyrlhk -63.873
+KPX cyrw period -95.81
+KPX cyrw uni046B -31.937
+KPX cyrw uni04A9 -31.937
+KPX cyrw uni04AB -31.937
+KPX cyrw uni04BD -31.937
+KPX cyrw uni04BF -31.937
+KPX cyrw uni04D5 -95.81
+KPX cyrw uni04E9 -31.937
+KPX e V -95.81
+KPX eng b -31.937
+KPX eng t -31.937
+KPX eng u -31.937
+KPX eng uacute -31.937
+KPX eng ucircumflex -31.937
+KPX eng udieresis -31.937
+KPX eng ugrave -31.937
+KPX eng uhungarumlaut -31.937
+KPX eng uring -31.937
+KPX eng v -31.937
+KPX eng w -31.937
+KPX eng y -31.937
+KPX f bracketright 109.001
+KPX f exclam 109.001
+KPX f parenright 109.001
+KPX f question 109.001
+KPX f quotedblleft 109.001
+KPX f quotedblright 109.001
+KPX f quoteleft 109.001
+KPX f quoteright 109.001
+KPX ff bracketright 109.001
+KPX ff exclam 109.001
+KPX ff parenright 109.001
+KPX ff question 109.001
+KPX ff quotedblleft 109.001
+KPX ff quotedblright 109.001
+KPX ff quoteleft 109.001
+KPX ff quoteright 109.001
+KPX g j 31.937
+KPX guillemotright comma -95.81
+KPX guillemotright period -95.81
+KPX guillemotright.cyr comma -95.81
+KPX guillemotright.cyr period -95.81
+KPX h V -95.81
+KPX h W -95.81
+KPX h b -31.937
+KPX h t -31.937
+KPX h u -31.937
+KPX h uacute -31.937
+KPX h ucircumflex -31.937
+KPX h udieresis -31.937
+KPX h ugrave -31.937
+KPX h uhungarumlaut -31.937
+KPX h uring -31.937
+KPX h v -31.937
+KPX h w -31.937
+KPX h y -31.937
+KPX k V -95.81
+KPX k W -95.81
+KPX k a -63.873
+KPX k aacute -63.873
+KPX k abreve -63.873
+KPX k acircumflex -63.873
+KPX k adieresis -63.873
+KPX k ae -63.873
+KPX k agrave -63.873
+KPX k aogonek -63.873
+KPX k aring -63.873
+KPX k atilde -63.873
+KPX k c -31.937
+KPX k cacute -31.937
+KPX k ccaron -31.937
+KPX k ccedilla -31.937
+KPX k e -31.937
+KPX k eacute -31.937
+KPX k ecaron -31.937
+KPX k ecircumflex -31.937
+KPX k edieresis -31.937
+KPX k egrave -31.937
+KPX k eogonek -31.937
+KPX k o -31.937
+KPX k oacute -31.937
+KPX k ocircumflex -31.937
+KPX k odieresis -31.937
+KPX k oe -31.937
+KPX k ograve -31.937
+KPX k ohungarumlaut -31.937
+KPX k oslash -31.937
+KPX k otilde -31.937
+KPX lslash quoteright 31.937
+KPX m V -95.81
+KPX m W -95.81
+KPX m b -31.937
+KPX m t -31.937
+KPX m u -31.937
+KPX m uacute -31.937
+KPX m ucircumflex -31.937
+KPX m udieresis -31.937
+KPX m ugrave -31.937
+KPX m uhungarumlaut -31.937
+KPX m uring -31.937
+KPX m v -31.937
+KPX m w -31.937
+KPX m y -31.937
+KPX n V -95.81
+KPX n W -95.81
+KPX n b -31.937
+KPX n t -31.937
+KPX n u -31.937
+KPX n uacute -31.937
+KPX n ucircumflex -31.937
+KPX n udieresis -31.937
+KPX n ugrave -31.937
+KPX n uhungarumlaut -31.937
+KPX n uring -31.937
+KPX n v -31.937
+KPX n w -31.937
+KPX n y -31.937
+KPX nacute b -31.937
+KPX nacute t -31.937
+KPX nacute u -31.937
+KPX nacute uacute -31.937
+KPX nacute ucircumflex -31.937
+KPX nacute udieresis -31.937
+KPX nacute ugrave -31.937
+KPX nacute uhungarumlaut -31.937
+KPX nacute uring -31.937
+KPX nacute v -31.937
+KPX nacute w -31.937
+KPX nacute y -31.937
+KPX ncaron b -31.937
+KPX ncaron t -31.937
+KPX ncaron u -31.937
+KPX ncaron uacute -31.937
+KPX ncaron ucircumflex -31.937
+KPX ncaron udieresis -31.937
+KPX ncaron ugrave -31.937
+KPX ncaron uhungarumlaut -31.937
+KPX ncaron uring -31.937
+KPX ncaron v -31.937
+KPX ncaron w -31.937
+KPX ncaron y -31.937
+KPX ntilde b -31.937
+KPX ntilde t -31.937
+KPX ntilde u -31.937
+KPX ntilde uacute -31.937
+KPX ntilde ucircumflex -31.937
+KPX ntilde udieresis -31.937
+KPX ntilde ugrave -31.937
+KPX ntilde uhungarumlaut -31.937
+KPX ntilde uring -31.937
+KPX ntilde v -31.937
+KPX ntilde w -31.937
+KPX ntilde y -31.937
+KPX o c 31.937
+KPX o cacute 31.937
+KPX o ccaron 31.937
+KPX o ccedilla 31.937
+KPX o d 31.937
+KPX o e 31.937
+KPX o eacute 31.937
+KPX o ecaron 31.937
+KPX o ecircumflex 31.937
+KPX o edieresis 31.937
+KPX o egrave 31.937
+KPX o eogonek 31.937
+KPX o j 63.873
+KPX o o 31.937
+KPX o oacute 31.937
+KPX o ocircumflex 31.937
+KPX o odieresis 31.937
+KPX o oe 31.937
+KPX o ograve 31.937
+KPX o ohungarumlaut 31.937
+KPX o oslash 31.937
+KPX o otilde 31.937
+KPX o q 31.937
+KPX o v -31.937
+KPX o w -31.937
+KPX o x -31.937
+KPX o y -31.937
+KPX o yacute -31.937
+KPX o ydieresis -31.937
+KPX oacute c 31.937
+KPX oacute cacute 31.937
+KPX oacute ccaron 31.937
+KPX oacute ccedilla 31.937
+KPX oacute d 31.937
+KPX oacute e 31.937
+KPX oacute eacute 31.937
+KPX oacute ecaron 31.937
+KPX oacute ecircumflex 31.937
+KPX oacute edieresis 31.937
+KPX oacute egrave 31.937
+KPX oacute eogonek 31.937
+KPX oacute j 63.873
+KPX oacute o 31.937
+KPX oacute oacute 31.937
+KPX oacute ocircumflex 31.937
+KPX oacute odieresis 31.937
+KPX oacute oe 31.937
+KPX oacute ograve 31.937
+KPX oacute ohungarumlaut 31.937
+KPX oacute oslash 31.937
+KPX oacute otilde 31.937
+KPX oacute q 31.937
+KPX oacute v -31.937
+KPX oacute w -31.937
+KPX oacute x -31.937
+KPX oacute y -31.937
+KPX oacute yacute -31.937
+KPX oacute ydieresis -31.937
+KPX ocircumflex c 31.937
+KPX ocircumflex cacute 31.937
+KPX ocircumflex ccaron 31.937
+KPX ocircumflex ccedilla 31.937
+KPX ocircumflex d 31.937
+KPX ocircumflex e 31.937
+KPX ocircumflex eacute 31.937
+KPX ocircumflex ecaron 31.937
+KPX ocircumflex ecircumflex 31.937
+KPX ocircumflex edieresis 31.937
+KPX ocircumflex egrave 31.937
+KPX ocircumflex eogonek 31.937
+KPX ocircumflex j 63.873
+KPX ocircumflex o 31.937
+KPX ocircumflex oacute 31.937
+KPX ocircumflex ocircumflex 31.937
+KPX ocircumflex odieresis 31.937
+KPX ocircumflex oe 31.937
+KPX ocircumflex ograve 31.937
+KPX ocircumflex ohungarumlaut 31.937
+KPX ocircumflex oslash 31.937
+KPX ocircumflex otilde 31.937
+KPX ocircumflex q 31.937
+KPX ocircumflex v -31.937
+KPX ocircumflex w -31.937
+KPX ocircumflex x -31.937
+KPX ocircumflex y -31.937
+KPX ocircumflex yacute -31.937
+KPX ocircumflex ydieresis -31.937
+KPX odieresis c 31.937
+KPX odieresis cacute 31.937
+KPX odieresis ccaron 31.937
+KPX odieresis ccedilla 31.937
+KPX odieresis d 31.937
+KPX odieresis e 31.937
+KPX odieresis eacute 31.937
+KPX odieresis ecaron 31.937
+KPX odieresis ecircumflex 31.937
+KPX odieresis edieresis 31.937
+KPX odieresis egrave 31.937
+KPX odieresis eogonek 31.937
+KPX odieresis j 63.873
+KPX odieresis o 31.937
+KPX odieresis oacute 31.937
+KPX odieresis ocircumflex 31.937
+KPX odieresis odieresis 31.937
+KPX odieresis oe 31.937
+KPX odieresis ograve 31.937
+KPX odieresis ohungarumlaut 31.937
+KPX odieresis oslash 31.937
+KPX odieresis otilde 31.937
+KPX odieresis q 31.937
+KPX odieresis v -31.937
+KPX odieresis w -31.937
+KPX odieresis x -31.937
+KPX odieresis y -31.937
+KPX odieresis yacute -31.937
+KPX odieresis ydieresis -31.937
+KPX ograve c 31.937
+KPX ograve cacute 31.937
+KPX ograve ccaron 31.937
+KPX ograve ccedilla 31.937
+KPX ograve d 31.937
+KPX ograve e 31.937
+KPX ograve eacute 31.937
+KPX ograve ecaron 31.937
+KPX ograve ecircumflex 31.937
+KPX ograve edieresis 31.937
+KPX ograve egrave 31.937
+KPX ograve eogonek 31.937
+KPX ograve j 63.873
+KPX ograve o 31.937
+KPX ograve oacute 31.937
+KPX ograve ocircumflex 31.937
+KPX ograve odieresis 31.937
+KPX ograve oe 31.937
+KPX ograve ograve 31.937
+KPX ograve ohungarumlaut 31.937
+KPX ograve oslash 31.937
+KPX ograve otilde 31.937
+KPX ograve q 31.937
+KPX ograve v -31.937
+KPX ograve w -31.937
+KPX ograve x -31.937
+KPX ograve y -31.937
+KPX ograve yacute -31.937
+KPX ograve ydieresis -31.937
+KPX ohungarumlaut c 31.937
+KPX ohungarumlaut cacute 31.937
+KPX ohungarumlaut ccaron 31.937
+KPX ohungarumlaut ccedilla 31.937
+KPX ohungarumlaut d 31.937
+KPX ohungarumlaut e 31.937
+KPX ohungarumlaut eacute 31.937
+KPX ohungarumlaut ecaron 31.937
+KPX ohungarumlaut ecircumflex 31.937
+KPX ohungarumlaut edieresis 31.937
+KPX ohungarumlaut egrave 31.937
+KPX ohungarumlaut eogonek 31.937
+KPX ohungarumlaut j 63.873
+KPX ohungarumlaut o 31.937
+KPX ohungarumlaut oacute 31.937
+KPX ohungarumlaut ocircumflex 31.937
+KPX ohungarumlaut odieresis 31.937
+KPX ohungarumlaut oe 31.937
+KPX ohungarumlaut ograve 31.937
+KPX ohungarumlaut ohungarumlaut 31.937
+KPX ohungarumlaut oslash 31.937
+KPX ohungarumlaut otilde 31.937
+KPX ohungarumlaut q 31.937
+KPX ohungarumlaut v -31.937
+KPX ohungarumlaut w -31.937
+KPX ohungarumlaut x -31.937
+KPX ohungarumlaut y -31.937
+KPX ohungarumlaut yacute -31.937
+KPX ohungarumlaut ydieresis -31.937
+KPX oslash c 31.937
+KPX oslash cacute 31.937
+KPX oslash ccaron 31.937
+KPX oslash ccedilla 31.937
+KPX oslash d 31.937
+KPX oslash e 31.937
+KPX oslash eacute 31.937
+KPX oslash ecaron 31.937
+KPX oslash ecircumflex 31.937
+KPX oslash edieresis 31.937
+KPX oslash egrave 31.937
+KPX oslash eogonek 31.937
+KPX oslash j 63.873
+KPX oslash o 31.937
+KPX oslash oacute 31.937
+KPX oslash ocircumflex 31.937
+KPX oslash odieresis 31.937
+KPX oslash oe 31.937
+KPX oslash ograve 31.937
+KPX oslash ohungarumlaut 31.937
+KPX oslash oslash 31.937
+KPX oslash otilde 31.937
+KPX oslash q 31.937
+KPX oslash v -31.937
+KPX oslash w -31.937
+KPX oslash x -31.937
+KPX oslash y -31.937
+KPX oslash yacute -31.937
+KPX oslash ydieresis -31.937
+KPX otilde c 31.937
+KPX otilde cacute 31.937
+KPX otilde ccaron 31.937
+KPX otilde ccedilla 31.937
+KPX otilde d 31.937
+KPX otilde e 31.937
+KPX otilde eacute 31.937
+KPX otilde ecaron 31.937
+KPX otilde ecircumflex 31.937
+KPX otilde edieresis 31.937
+KPX otilde egrave 31.937
+KPX otilde eogonek 31.937
+KPX otilde j 63.873
+KPX otilde o 31.937
+KPX otilde oacute 31.937
+KPX otilde ocircumflex 31.937
+KPX otilde odieresis 31.937
+KPX otilde oe 31.937
+KPX otilde ograve 31.937
+KPX otilde ohungarumlaut 31.937
+KPX otilde oslash 31.937
+KPX otilde otilde 31.937
+KPX otilde q 31.937
+KPX otilde v -31.937
+KPX otilde w -31.937
+KPX otilde x -31.937
+KPX otilde y -31.937
+KPX otilde yacute -31.937
+KPX otilde ydieresis -31.937
+KPX p c 31.937
+KPX p cacute 31.937
+KPX p ccaron 31.937
+KPX p ccedilla 31.937
+KPX p d 31.937
+KPX p e 31.937
+KPX p eacute 31.937
+KPX p ecaron 31.937
+KPX p ecircumflex 31.937
+KPX p edieresis 31.937
+KPX p egrave 31.937
+KPX p eogonek 31.937
+KPX p j 63.873
+KPX p o 31.937
+KPX p oacute 31.937
+KPX p ocircumflex 31.937
+KPX p odieresis 31.937
+KPX p oe 31.937
+KPX p ograve 31.937
+KPX p ohungarumlaut 31.937
+KPX p oslash 31.937
+KPX p otilde 31.937
+KPX p q 31.937
+KPX p v -31.937
+KPX p w -31.937
+KPX p x -31.937
+KPX p y -31.937
+KPX p yacute -31.937
+KPX p ydieresis -31.937
+KPX quotedblbase C -31.937
+KPX quotedblbase CYRQ -31.937
+KPX quotedblbase CYRW -95.81
+KPX quotedblbase Cacute -31.937
+KPX quotedblbase Ccaron -31.937
+KPX quotedblbase Ccedilla -31.937
+KPX quotedblbase G -31.937
+KPX quotedblbase Gbreve -31.937
+KPX quotedblbase O -31.937
+KPX quotedblbase OE -31.937
+KPX quotedblbase Oacute -31.937
+KPX quotedblbase Ocircumflex -31.937
+KPX quotedblbase Odieresis -31.937
+KPX quotedblbase Ograve -31.937
+KPX quotedblbase Ohungarumlaut -31.937
+KPX quotedblbase Oslash -31.937
+KPX quotedblbase Otilde -31.937
+KPX quotedblbase Q -31.937
+KPX quotedblbase V -127.747
+KPX quotedblbase W -95.81
+KPX quotedblbase Y -95.81
+KPX quotedblbase Yacute -95.81
+KPX quotedblbase Ydieresis -95.81
+KPX quotedblbase afii10021 95.81
+KPX quotedblbase afii10032 -31.937
+KPX quotedblbase afii10035 -31.937
+KPX quotedblbase afii10037 -95.81
+KPX quotedblbase afii10038 -31.937
+KPX quotedblbase afii10053 -31.937
+KPX quotedblbase afii10060 -31.937
+KPX quotedblbase afii10062 -95.81
+KPX quotedblbase afii10069 95.81
+KPX quotedblbase afii10085 63.873
+KPX quotedblbase afii10105 127.747
+KPX quotedblbase afii10110 63.873
+KPX quotedblbase afii10148 -127.747
+KPX quotedblbase afii10196 -95.81
+KPX quotedblbase afii61664 95.81
+KPX quotedblbase comma 127.747
+KPX quotedblbase cyrw -63.873
+KPX quotedblbase dotlessj 127.747
+KPX quotedblbase g 63.873
+KPX quotedblbase gbreve 63.873
+KPX quotedblbase j 127.747
+KPX quotedblbase quotedblbase 127.747
+KPX quotedblbase quotesinglbase 127.747
+KPX quotedblbase uni046A -95.81
+KPX quotedblbase uni046B 63.873
+KPX quotedblbase uni049E -31.937
+KPX quotedblbase uni049F 63.873
+KPX quotedblbase uni04A6 -31.937
+KPX quotedblbase uni04A8 -31.937
+KPX quotedblbase uni04AA -31.937
+KPX quotedblbase uni04AE -95.81
+KPX quotedblbase uni04AF -95.81
+KPX quotedblbase uni04B0 -95.81
+KPX quotedblbase uni04B1 -95.81
+KPX quotedblbase uni04B8 -127.747
+KPX quotedblbase uni04B9 -95.81
+KPX quotedblbase uni04C0 127.747
+KPX quotedblbase uni04E8 -31.937
+KPX quotedblbase v -95.81
+KPX quotedblbase w -63.873
+KPX quotedblbase y 63.873
+KPX quotedblbase yacute 63.873
+KPX quotedblbase ydieresis 63.873
+KPX quotedblleft afii61664 95.81
+KPX quotedblleft quotedblleft 127.747
+KPX quotedblleft quoteleft 127.747
+KPX quotedblright afii61664 95.81
+KPX quotedblright quotedblright 127.747
+KPX quotedblright quoteright 127.747
+KPX quoteleft exclam 127.747
+KPX quoteleft question 127.747
+KPX quoteleft quotedblleft 127.747
+KPX quoteright exclam 127.747
+KPX quoteright question 127.747
+KPX quoteright quotedblright 127.747
+KPX quotesinglbase C -31.937
+KPX quotesinglbase Cacute -31.937
+KPX quotesinglbase Ccaron -31.937
+KPX quotesinglbase Ccedilla -31.937
+KPX quotesinglbase G -31.937
+KPX quotesinglbase Gbreve -31.937
+KPX quotesinglbase O -31.937
+KPX quotesinglbase OE -31.937
+KPX quotesinglbase Oacute -31.937
+KPX quotesinglbase Ocircumflex -31.937
+KPX quotesinglbase Odieresis -31.937
+KPX quotesinglbase Ograve -31.937
+KPX quotesinglbase Ohungarumlaut -31.937
+KPX quotesinglbase Oslash -31.937
+KPX quotesinglbase Otilde -31.937
+KPX quotesinglbase Q -31.937
+KPX quotesinglbase V -127.747
+KPX quotesinglbase W -95.81
+KPX quotesinglbase Y -95.81
+KPX quotesinglbase Yacute -95.81
+KPX quotesinglbase Ydieresis -95.81
+KPX quotesinglbase afii61664 95.81
+KPX quotesinglbase dotlessj 127.747
+KPX quotesinglbase g 63.873
+KPX quotesinglbase gbreve 63.873
+KPX quotesinglbase j 127.747
+KPX quotesinglbase quotedblbase 127.747
+KPX quotesinglbase v -95.81
+KPX quotesinglbase w -63.873
+KPX quotesinglbase y 63.873
+KPX quotesinglbase yacute 63.873
+KPX quotesinglbase ydieresis 63.873
+KPX t w -31.937
+KPX t y -31.937
+KPX t yacute -31.937
+KPX t ydieresis -31.937
+KPX tcaron w -31.937
+KPX tcaron y -31.937
+KPX tcaron yacute -31.937
+KPX tcaron ydieresis -31.937
+KPX tcommaaccent w -31.937
+KPX tcommaaccent y -31.937
+KPX tcommaaccent yacute -31.937
+KPX tcommaaccent ydieresis -31.937
+KPX u w -31.937
+KPX uacute w -31.937
+KPX ucircumflex w -31.937
+KPX udieresis w -31.937
+KPX ugrave w -31.937
+KPX uhungarumlaut w -31.937
+KPX uni046A CYRQ -31.937
+KPX uni046A CYRW -127.747
+KPX uni046A afii10032 -31.937
+KPX uni046A afii10035 -31.937
+KPX uni046A afii10036 -95.81
+KPX uni046A afii10037 -95.81
+KPX uni046A afii10038 -31.937
+KPX uni046A afii10041 -95.81
+KPX uni046A afii10044 -95.81
+KPX uni046A afii10051 -95.81
+KPX uni046A afii10053 -31.937
+KPX uni046A afii10060 -95.81
+KPX uni046A afii10062 -95.81
+KPX uni046A afii10084 -31.937
+KPX uni046A afii10089 -95.81
+KPX uni046A afii10092 -31.937
+KPX uni046A afii10146 -95.81
+KPX uni046A afii10148 -127.747
+KPX uni046A afii10194 -31.937
+KPX uni046A uni04A0 -95.81
+KPX uni046A uni04A1 -31.937
+KPX uni046A uni04A8 -31.937
+KPX uni046A uni04AA -31.937
+KPX uni046A uni04AC -95.81
+KPX uni046A uni04AD -31.937
+KPX uni046A uni04AE -95.81
+KPX uni046A uni04B0 -95.81
+KPX uni046A uni04B4 -95.81
+KPX uni046A uni04B5 -31.937
+KPX uni046A uni04B6 -95.81
+KPX uni046A uni04B7 -95.81
+KPX uni046A uni04B8 -95.81
+KPX uni046A uni04B9 -95.81
+KPX uni046A uni04BC -95.81
+KPX uni046A uni04BE -95.81
+KPX uni046A uni04CB -95.81
+KPX uni046A uni04CC -95.81
+KPX uni046A uni04E8 -31.937
+KPX uni046B afii10065 -31.937
+KPX uni046B afii10070 -31.937
+KPX uni046B afii10071 -31.937
+KPX uni046B afii10080 -31.937
+KPX uni046B afii10083 -31.937
+KPX uni046B afii10084 -31.937
+KPX uni046B afii10085 -31.937
+KPX uni046B afii10092 -31.937
+KPX uni046B afii10101 -31.937
+KPX uni046B afii10110 -31.937
+KPX uni046B afii10194 -31.937
+KPX uni046B afii10196 -31.937
+KPX uni046B cyrw -31.937
+KPX uni046B uni04A1 -31.937
+KPX uni046B uni04A9 -31.937
+KPX uni046B uni04AB -31.937
+KPX uni046B uni04AD -31.937
+KPX uni046B uni04AF -31.937
+KPX uni046B uni04B1 -31.937
+KPX uni046B uni04B5 -31.937
+KPX uni046B uni04BD -31.937
+KPX uni046B uni04BF -31.937
+KPX uni046B uni04E9 -31.937
+KPX uni048C afii10024 -31.937
+KPX uni048C afii10032 -31.937
+KPX uni048C afii10035 -31.937
+KPX uni048C afii10036 -95.81
+KPX uni048C afii10037 -95.81
+KPX uni048C afii10038 -31.937
+KPX uni048C afii10039 -31.937
+KPX uni048C afii10041 -95.81
+KPX uni048C afii10044 -95.81
+KPX uni048C afii10084 -31.937
+KPX uni048C afii10089 -95.81
+KPX uni048C afii10092 -31.937
+KPX uni048C uni048C -95.81
+KPX uni048C uni048D -31.937
+KPX uni048C uni04A8 -31.937
+KPX uni048C uni04AC -95.81
+KPX uni048C uni04AD -31.937
+KPX uni048C uni04B2 -31.937
+KPX uni048C uni04B4 -95.81
+KPX uni048C uni04B5 -31.937
+KPX uni048C uni04B6 -95.81
+KPX uni048C uni04B7 -95.81
+KPX uni048C uni04BC -95.81
+KPX uni048C uni04BE -95.81
+KPX uni048C uni04E8 -31.937
+KPX uni048D afii10080 -31.937
+KPX uni048D afii10084 -31.937
+KPX uni048D afii10085 -63.873
+KPX uni048D afii10086 -31.937
+KPX uni048D afii10089 -95.81
+KPX uni048D afii10092 -31.937
+KPX uni048D uni048D -31.937
+KPX uni048D uni04A9 -31.937
+KPX uni048D uni04AD -31.937
+KPX uni048D uni04B5 -31.937
+KPX uni048D uni04B7 -95.81
+KPX uni048D uni04BD -95.81
+KPX uni048D uni04BF -95.81
+KPX uni048D uni04E9 -31.937
+KPX uni048E CYRLDSC -95.81
+KPX uni048E CYRLHK -95.81
+KPX uni048E afii10017 -95.81
+KPX uni048E afii10021 -95.81
+KPX uni048E afii10029 -95.81
+KPX uni048E afii10049 -95.81
+KPX uni048E afii10065 -31.937
+KPX uni048E afii10069 -95.81
+KPX uni048E afii10070 -31.937
+KPX uni048E afii10071 -31.937
+KPX uni048E afii10077 -95.81
+KPX uni048E afii10080 -31.937
+KPX uni048E colon -95.81
+KPX uni048E comma -95.81
+KPX uni048E cyrldsc -95.81
+KPX uni048E cyrlhk -95.81
+KPX uni048E period -95.81
+KPX uni048E semicolon -95.81
+KPX uni048E uni04A9 -31.937
+KPX uni048E uni04BD -31.937
+KPX uni048E uni04BF -31.937
+KPX uni048E uni04E9 -31.937
+KPX uni0492 CYRLDSC -31.937
+KPX uni0492 CYRLHK -31.937
+KPX uni0492 afii10017 -95.81
+KPX uni0492 afii10021 -95.81
+KPX uni0492 afii10029 -31.937
+KPX uni0492 afii10049 -95.81
+KPX uni0492 afii10058 -31.937
+KPX uni0492 afii10065 -95.81
+KPX uni0492 afii10069 -95.81
+KPX uni0492 afii10070 -95.81
+KPX uni0492 afii10071 -95.81
+KPX uni0492 afii10077 -95.81
+KPX uni0492 afii10080 -95.81
+KPX uni0492 afii10083 -95.81
+KPX uni0492 afii10086 -95.81
+KPX uni0492 afii10097 -95.81
+KPX uni0492 afii10101 -95.81
+KPX uni0492 afii10106 -95.81
+KPX uni0492 colon -95.81
+KPX uni0492 comma -95.81
+KPX uni0492 cyrldsc -95.81
+KPX uni0492 cyrlhk -95.81
+KPX uni0492 cyrq -95.81
+KPX uni0492 period -95.81
+KPX uni0492 semicolon -95.81
+KPX uni0492 uni046A -95.81
+KPX uni0492 uni046B -95.81
+KPX uni0492 uni04A9 -95.81
+KPX uni0492 uni04AB -95.81
+KPX uni0492 uni04BD -95.81
+KPX uni0492 uni04BF -95.81
+KPX uni0492 uni04D4 -95.81
+KPX uni0492 uni04D5 -95.81
+KPX uni0492 uni04E9 -95.81
+KPX uni0493 afii10065 -31.937
+KPX uni0493 afii10069 -31.937
+KPX uni0493 afii10077 -31.937
+KPX uni0493 afii10097 -31.937
+KPX uni0493 afii10106 -31.937
+KPX uni0493 comma -95.81
+KPX uni0493 cyrldsc -31.937
+KPX uni0493 cyrlhk -31.937
+KPX uni0493 period -95.81
+KPX uni0493 uni046B -31.937
+KPX uni0493 uni04BD -31.937
+KPX uni0493 uni04BF -31.937
+KPX uni0493 uni04D5 -31.937
+KPX uni0496 CYRQ -31.937
+KPX uni0496 afii10032 -31.937
+KPX uni0496 afii10035 -31.937
+KPX uni0496 afii10038 -31.937
+KPX uni0496 afii10053 -31.937
+KPX uni0496 afii10084 -31.937
+KPX uni0496 afii10089 -31.937
+KPX uni0496 afii10092 -31.937
+KPX uni0496 afii10194 -31.937
+KPX uni0496 uni04A1 -31.937
+KPX uni0496 uni04A8 -31.937
+KPX uni0496 uni04AA -31.937
+KPX uni0496 uni04AD -31.937
+KPX uni0496 uni04B5 -31.937
+KPX uni0496 uni04B7 -31.937
+KPX uni0496 uni04B9 -31.937
+KPX uni0496 uni04BC -31.937
+KPX uni0496 uni04BE -31.937
+KPX uni0496 uni04CC -31.937
+KPX uni0496 uni04E8 -31.937
+KPX uni0497 afii10065 -31.937
+KPX uni0497 afii10070 -31.937
+KPX uni0497 afii10071 -31.937
+KPX uni0497 afii10080 -31.937
+KPX uni0497 afii10083 -31.937
+KPX uni0497 afii10101 -31.937
+KPX uni0497 uni04A9 -31.937
+KPX uni0497 uni04AB -31.937
+KPX uni0497 uni04BD -31.937
+KPX uni0497 uni04BF -31.937
+KPX uni0497 uni04E9 -31.937
+KPX uni049A CYRQ -31.937
+KPX uni049A afii10032 -31.937
+KPX uni049A afii10035 -31.937
+KPX uni049A afii10038 -31.937
+KPX uni049A afii10053 -31.937
+KPX uni049A afii10084 -31.937
+KPX uni049A afii10089 -31.937
+KPX uni049A afii10092 -31.937
+KPX uni049A afii10194 -31.937
+KPX uni049A uni048D -31.937
+KPX uni049A uni04A1 -31.937
+KPX uni049A uni04A8 -31.937
+KPX uni049A uni04AA -31.937
+KPX uni049A uni04AD -31.937
+KPX uni049A uni04B5 -31.937
+KPX uni049A uni04B7 -31.937
+KPX uni049A uni04B9 -31.937
+KPX uni049A uni04BC -31.937
+KPX uni049A uni04BE -31.937
+KPX uni049A uni04CC -31.937
+KPX uni049A uni04E8 -31.937
+KPX uni049B afii10065 -31.937
+KPX uni049B afii10070 -31.937
+KPX uni049B afii10071 -31.937
+KPX uni049B afii10080 -31.937
+KPX uni049B afii10083 -31.937
+KPX uni049B afii10101 -31.937
+KPX uni049B uni04A9 -31.937
+KPX uni049B uni04AB -31.937
+KPX uni049B uni04BD -31.937
+KPX uni049B uni04BF -31.937
+KPX uni049B uni04E9 -31.937
+KPX uni049C CYRQ -31.937
+KPX uni049C afii10032 -31.937
+KPX uni049C afii10035 -31.937
+KPX uni049C afii10038 -31.937
+KPX uni049C afii10053 -31.937
+KPX uni049C afii10084 -31.937
+KPX uni049C afii10089 -31.937
+KPX uni049C afii10092 -31.937
+KPX uni049C afii10194 -31.937
+KPX uni049C uni04A1 -31.937
+KPX uni049C uni04A8 -31.937
+KPX uni049C uni04AA -31.937
+KPX uni049C uni04AD -31.937
+KPX uni049C uni04B5 -31.937
+KPX uni049C uni04B7 -31.937
+KPX uni049C uni04B9 -31.937
+KPX uni049C uni04BC -31.937
+KPX uni049C uni04BE -31.937
+KPX uni049C uni04CC -31.937
+KPX uni049C uni04E8 -31.937
+KPX uni049D afii10065 -31.937
+KPX uni049D afii10070 -31.937
+KPX uni049D afii10071 -31.937
+KPX uni049D afii10080 -31.937
+KPX uni049D afii10083 -31.937
+KPX uni049D afii10101 -31.937
+KPX uni049D uni04A9 -31.937
+KPX uni049D uni04AB -31.937
+KPX uni049D uni04BD -31.937
+KPX uni049D uni04BF -31.937
+KPX uni049D uni04E9 -31.937
+KPX uni049E CYRQ -31.937
+KPX uni049E afii10032 -31.937
+KPX uni049E afii10035 -31.937
+KPX uni049E afii10038 -31.937
+KPX uni049E afii10053 -31.937
+KPX uni049E afii10084 -31.937
+KPX uni049E afii10089 -31.937
+KPX uni049E afii10092 -31.937
+KPX uni049E afii10194 -31.937
+KPX uni049E uni048D -31.937
+KPX uni049E uni04A1 -31.937
+KPX uni049E uni04A8 -31.937
+KPX uni049E uni04AA -31.937
+KPX uni049E uni04AD -31.937
+KPX uni049E uni04B5 -31.937
+KPX uni049E uni04B7 -31.937
+KPX uni049E uni04B9 -31.937
+KPX uni049E uni04BC -31.937
+KPX uni049E uni04BE -31.937
+KPX uni049E uni04CC -31.937
+KPX uni049E uni04E8 -31.937
+KPX uni049F afii10065 -31.937
+KPX uni049F afii10070 -31.937
+KPX uni049F afii10071 -31.937
+KPX uni049F afii10080 -31.937
+KPX uni049F afii10083 -31.937
+KPX uni049F afii10101 -31.937
+KPX uni049F uni04A9 -31.937
+KPX uni049F uni04AB -31.937
+KPX uni049F uni04BD -31.937
+KPX uni049F uni04BF -31.937
+KPX uni049F uni04E9 -31.937
+KPX uni04A0 CYRQ -31.937
+KPX uni04A0 afii10032 -31.937
+KPX uni04A0 afii10035 -31.937
+KPX uni04A0 afii10038 -31.937
+KPX uni04A0 afii10053 -31.937
+KPX uni04A0 afii10084 -31.937
+KPX uni04A0 afii10089 -31.937
+KPX uni04A0 afii10092 -31.937
+KPX uni04A0 afii10194 -31.937
+KPX uni04A0 uni04A1 -31.937
+KPX uni04A0 uni04A8 -31.937
+KPX uni04A0 uni04AA -31.937
+KPX uni04A0 uni04AD -31.937
+KPX uni04A0 uni04B5 -31.937
+KPX uni04A0 uni04B7 -31.937
+KPX uni04A0 uni04B9 -31.937
+KPX uni04A0 uni04BC -31.937
+KPX uni04A0 uni04BE -31.937
+KPX uni04A0 uni04CC -31.937
+KPX uni04A0 uni04E8 -31.937
+KPX uni04A1 afii10065 -31.937
+KPX uni04A1 afii10070 -31.937
+KPX uni04A1 afii10071 -31.937
+KPX uni04A1 afii10080 -31.937
+KPX uni04A1 afii10083 -31.937
+KPX uni04A1 afii10101 -31.937
+KPX uni04A1 uni04A9 -31.937
+KPX uni04A1 uni04AB -31.937
+KPX uni04A1 uni04BD -31.937
+KPX uni04A1 uni04BF -31.937
+KPX uni04A1 uni04E9 -31.937
+KPX uni04A4 CYRLDSC -31.937
+KPX uni04A4 CYRLHK -31.937
+KPX uni04A4 afii10017 -95.81
+KPX uni04A4 afii10021 -95.81
+KPX uni04A4 afii10029 -31.937
+KPX uni04A4 afii10049 -95.81
+KPX uni04A4 afii10058 -31.937
+KPX uni04A4 afii10065 -95.81
+KPX uni04A4 afii10069 -95.81
+KPX uni04A4 afii10070 -95.81
+KPX uni04A4 afii10071 -95.81
+KPX uni04A4 afii10077 -95.81
+KPX uni04A4 afii10080 -95.81
+KPX uni04A4 afii10083 -95.81
+KPX uni04A4 afii10086 -95.81
+KPX uni04A4 afii10097 -95.81
+KPX uni04A4 afii10101 -95.81
+KPX uni04A4 afii10106 -95.81
+KPX uni04A4 colon -95.81
+KPX uni04A4 comma -95.81
+KPX uni04A4 cyrldsc -95.81
+KPX uni04A4 cyrlhk -95.81
+KPX uni04A4 cyrq -95.81
+KPX uni04A4 period -95.81
+KPX uni04A4 semicolon -95.81
+KPX uni04A4 uni046A -95.81
+KPX uni04A4 uni046B -95.81
+KPX uni04A4 uni04A9 -95.81
+KPX uni04A4 uni04AB -95.81
+KPX uni04A4 uni04BD -95.81
+KPX uni04A4 uni04BF -95.81
+KPX uni04A4 uni04D4 -95.81
+KPX uni04A4 uni04D5 -95.81
+KPX uni04A4 uni04E9 -95.81
+KPX uni04A5 afii10065 -31.937
+KPX uni04A5 afii10069 -31.937
+KPX uni04A5 afii10077 -31.937
+KPX uni04A5 afii10097 -31.937
+KPX uni04A5 afii10106 -31.937
+KPX uni04A5 comma -95.81
+KPX uni04A5 cyrldsc -31.937
+KPX uni04A5 cyrlhk -31.937
+KPX uni04A5 period -95.81
+KPX uni04A5 uni046B -31.937
+KPX uni04A5 uni04BD -31.937
+KPX uni04A5 uni04BF -31.937
+KPX uni04A5 uni04D5 -31.937
+KPX uni04A6 CYRHHK -31.937
+KPX uni04A6 CYRQ -31.937
+KPX uni04A6 CYRW -127.747
+KPX uni04A6 afii10024 -31.937
+KPX uni04A6 afii10032 -31.937
+KPX uni04A6 afii10035 -31.937
+KPX uni04A6 afii10036 -95.81
+KPX uni04A6 afii10037 -95.81
+KPX uni04A6 afii10038 -31.937
+KPX uni04A6 afii10039 -31.937
+KPX uni04A6 afii10041 -95.81
+KPX uni04A6 afii10044 -95.81
+KPX uni04A6 afii10051 -95.81
+KPX uni04A6 afii10053 -31.937
+KPX uni04A6 afii10060 -95.81
+KPX uni04A6 afii10062 -95.81
+KPX uni04A6 afii10084 -31.937
+KPX uni04A6 afii10089 -95.81
+KPX uni04A6 afii10092 -31.937
+KPX uni04A6 afii10146 -95.81
+KPX uni04A6 afii10148 -127.747
+KPX uni04A6 afii10194 -31.937
+KPX uni04A6 uni048C -95.81
+KPX uni04A6 uni048D -31.937
+KPX uni04A6 uni0496 -31.937
+KPX uni04A6 uni04A0 -95.81
+KPX uni04A6 uni04A1 -31.937
+KPX uni04A6 uni04A8 -31.937
+KPX uni04A6 uni04AA -31.937
+KPX uni04A6 uni04AC -95.81
+KPX uni04A6 uni04AD -31.937
+KPX uni04A6 uni04AE -95.81
+KPX uni04A6 uni04B0 -95.81
+KPX uni04A6 uni04B2 -31.937
+KPX uni04A6 uni04B4 -95.81
+KPX uni04A6 uni04B5 -31.937
+KPX uni04A6 uni04B6 -95.81
+KPX uni04A6 uni04B7 -95.81
+KPX uni04A6 uni04B8 -95.81
+KPX uni04A6 uni04B9 -95.81
+KPX uni04A6 uni04BC -95.81
+KPX uni04A6 uni04BE -95.81
+KPX uni04A6 uni04CB -95.81
+KPX uni04A6 uni04CC -95.81
+KPX uni04A6 uni04E8 -31.937
+KPX uni04A7 afii10080 -31.937
+KPX uni04A7 afii10084 -31.937
+KPX uni04A7 afii10085 -63.873
+KPX uni04A7 afii10086 -31.937
+KPX uni04A7 afii10089 -95.81
+KPX uni04A7 afii10092 -31.937
+KPX uni04A7 afii10101 -31.937
+KPX uni04A7 afii10110 -63.873
+KPX uni04A7 afii10194 -31.937
+KPX uni04A7 afii10196 -63.873
+KPX uni04A7 cyrq -31.937
+KPX uni04A7 cyrw -63.873
+KPX uni04A7 uni048D -31.937
+KPX uni04A7 uni04A1 -31.937
+KPX uni04A7 uni04A9 -31.937
+KPX uni04A7 uni04AB -31.937
+KPX uni04A7 uni04AD -31.937
+KPX uni04A7 uni04AF -63.873
+KPX uni04A7 uni04B1 -63.873
+KPX uni04A7 uni04B5 -31.937
+KPX uni04A7 uni04B7 -95.81
+KPX uni04A7 uni04B9 -95.81
+KPX uni04A7 uni04BD -95.81
+KPX uni04A7 uni04BF -95.81
+KPX uni04A7 uni04CC -95.81
+KPX uni04A7 uni04E9 -31.937
+KPX uni04A8 CYRHHK -31.937
+KPX uni04A8 CYRW -31.937
+KPX uni04A8 afii10017 -31.937
+KPX uni04A8 afii10021 -31.937
+KPX uni04A8 afii10024 -31.937
+KPX uni04A8 afii10037 -31.937
+KPX uni04A8 afii10039 -31.937
+KPX uni04A8 afii10049 -31.937
+KPX uni04A8 afii10062 -31.937
+KPX uni04A8 afii10148 -31.937
+KPX uni04A8 uni046A -31.937
+KPX uni04A8 uni0496 -31.937
+KPX uni04A8 uni04AE -31.937
+KPX uni04A8 uni04B0 -31.937
+KPX uni04A8 uni04B2 -31.937
+KPX uni04A8 uni04D4 -31.937
+KPX uni04A8 uni04D5 -31.937
+KPX uni04A9 afii10069 -31.937
+KPX uni04A9 afii10072 -31.937
+KPX uni04A9 afii10087 -31.937
+KPX uni04A9 afii10097 -31.937
+KPX uni04A9 cyrhhk -31.937
+KPX uni04A9 uni046B -31.937
+KPX uni04A9 uni0497 -31.937
+KPX uni04A9 uni04B3 -31.937
+KPX uni04A9 uni04D5 -31.937
+KPX uni04AC CYRLDSC -31.937
+KPX uni04AC CYRLHK -31.937
+KPX uni04AC afii10017 -95.81
+KPX uni04AC afii10021 -95.81
+KPX uni04AC afii10029 -31.937
+KPX uni04AC afii10049 -95.81
+KPX uni04AC afii10058 -31.937
+KPX uni04AC afii10065 -95.81
+KPX uni04AC afii10069 -95.81
+KPX uni04AC afii10070 -95.81
+KPX uni04AC afii10071 -95.81
+KPX uni04AC afii10077 -95.81
+KPX uni04AC afii10080 -95.81
+KPX uni04AC afii10083 -95.81
+KPX uni04AC afii10086 -95.81
+KPX uni04AC afii10097 -95.81
+KPX uni04AC afii10101 -95.81
+KPX uni04AC afii10106 -95.81
+KPX uni04AC colon -95.81
+KPX uni04AC comma -95.81
+KPX uni04AC cyrldsc -95.81
+KPX uni04AC cyrlhk -95.81
+KPX uni04AC cyrq -95.81
+KPX uni04AC period -95.81
+KPX uni04AC semicolon -95.81
+KPX uni04AC uni046A -95.81
+KPX uni04AC uni046B -95.81
+KPX uni04AC uni04A9 -95.81
+KPX uni04AC uni04AB -95.81
+KPX uni04AC uni04BD -95.81
+KPX uni04AC uni04BF -95.81
+KPX uni04AC uni04D4 -95.81
+KPX uni04AC uni04D5 -95.81
+KPX uni04AC uni04E9 -95.81
+KPX uni04AD afii10065 -31.937
+KPX uni04AD afii10069 -31.937
+KPX uni04AD afii10077 -31.937
+KPX uni04AD afii10097 -31.937
+KPX uni04AD afii10106 -31.937
+KPX uni04AD comma -95.81
+KPX uni04AD cyrldsc -31.937
+KPX uni04AD cyrlhk -31.937
+KPX uni04AD period -95.81
+KPX uni04AD uni046B -31.937
+KPX uni04AD uni04BD -31.937
+KPX uni04AD uni04BF -31.937
+KPX uni04AD uni04D5 -31.937
+KPX uni04AE CYRLDSC -63.873
+KPX uni04AE CYRLHK -63.873
+KPX uni04AE afii10017 -95.81
+KPX uni04AE afii10021 -95.81
+KPX uni04AE afii10029 -63.873
+KPX uni04AE afii10049 -95.81
+KPX uni04AE afii10058 -63.873
+KPX uni04AE afii10065 -95.81
+KPX uni04AE afii10069 -127.747
+KPX uni04AE afii10070 -95.81
+KPX uni04AE afii10071 -95.81
+KPX uni04AE afii10077 -127.747
+KPX uni04AE afii10080 -95.81
+KPX uni04AE afii10097 -127.747
+KPX uni04AE afii10106 -127.747
+KPX uni04AE colon -95.81
+KPX uni04AE comma -95.81
+KPX uni04AE cyrldsc -127.747
+KPX uni04AE cyrlhk -127.747
+KPX uni04AE period -95.81
+KPX uni04AE semicolon -95.81
+KPX uni04AE uni046A -95.81
+KPX uni04AE uni046B -127.747
+KPX uni04AE uni04A9 -95.81
+KPX uni04AE uni04BD -95.81
+KPX uni04AE uni04BF -95.81
+KPX uni04AE uni04D4 -95.81
+KPX uni04AE uni04D5 -127.747
+KPX uni04AE uni04E9 -95.81
+KPX uni04AF afii10065 -31.937
+KPX uni04AF afii10069 -63.873
+KPX uni04AF afii10070 -31.937
+KPX uni04AF afii10071 -31.937
+KPX uni04AF afii10077 -63.873
+KPX uni04AF afii10080 -31.937
+KPX uni04AF afii10083 -31.937
+KPX uni04AF afii10097 -31.937
+KPX uni04AF afii10101 -31.937
+KPX uni04AF afii10106 -63.873
+KPX uni04AF comma -95.81
+KPX uni04AF cyrldsc -63.873
+KPX uni04AF cyrlhk -63.873
+KPX uni04AF period -95.81
+KPX uni04AF uni046B -31.937
+KPX uni04AF uni04A9 -31.937
+KPX uni04AF uni04AB -31.937
+KPX uni04AF uni04BD -31.937
+KPX uni04AF uni04BF -31.937
+KPX uni04AF uni04D5 -95.81
+KPX uni04AF uni04E9 -31.937
+KPX uni04B0 CYRLDSC -63.873
+KPX uni04B0 CYRLHK -63.873
+KPX uni04B0 afii10017 -95.81
+KPX uni04B0 afii10021 -95.81
+KPX uni04B0 afii10029 -63.873
+KPX uni04B0 afii10049 -95.81
+KPX uni04B0 afii10058 -63.873
+KPX uni04B0 afii10065 -95.81
+KPX uni04B0 afii10069 -127.747
+KPX uni04B0 afii10070 -95.81
+KPX uni04B0 afii10071 -95.81
+KPX uni04B0 afii10077 -127.747
+KPX uni04B0 afii10080 -95.81
+KPX uni04B0 afii10097 -127.747
+KPX uni04B0 afii10106 -127.747
+KPX uni04B0 colon -95.81
+KPX uni04B0 comma -95.81
+KPX uni04B0 cyrldsc -127.747
+KPX uni04B0 cyrlhk -127.747
+KPX uni04B0 period -95.81
+KPX uni04B0 semicolon -95.81
+KPX uni04B0 uni046A -95.81
+KPX uni04B0 uni046B -127.747
+KPX uni04B0 uni04A9 -95.81
+KPX uni04B0 uni04BD -95.81
+KPX uni04B0 uni04BF -95.81
+KPX uni04B0 uni04D4 -95.81
+KPX uni04B0 uni04D5 -127.747
+KPX uni04B0 uni04E9 -95.81
+KPX uni04B1 afii10065 -31.937
+KPX uni04B1 afii10069 -63.873
+KPX uni04B1 afii10070 -31.937
+KPX uni04B1 afii10071 -31.937
+KPX uni04B1 afii10077 -63.873
+KPX uni04B1 afii10080 -31.937
+KPX uni04B1 afii10083 -31.937
+KPX uni04B1 afii10097 -31.937
+KPX uni04B1 afii10101 -31.937
+KPX uni04B1 afii10106 -63.873
+KPX uni04B1 comma -95.81
+KPX uni04B1 cyrldsc -63.873
+KPX uni04B1 cyrlhk -63.873
+KPX uni04B1 period -95.81
+KPX uni04B1 uni046B -31.937
+KPX uni04B1 uni04A9 -31.937
+KPX uni04B1 uni04AB -31.937
+KPX uni04B1 uni04BD -31.937
+KPX uni04B1 uni04BF -31.937
+KPX uni04B1 uni04D5 -95.81
+KPX uni04B1 uni04E9 -31.937
+KPX uni04B2 CYRQ -31.937
+KPX uni04B2 afii10032 -31.937
+KPX uni04B2 afii10035 -31.937
+KPX uni04B2 afii10038 -31.937
+KPX uni04B2 afii10053 -31.937
+KPX uni04B2 afii10084 -31.937
+KPX uni04B2 afii10089 -31.937
+KPX uni04B2 afii10092 -31.937
+KPX uni04B2 afii10194 -31.937
+KPX uni04B2 uni048D -31.937
+KPX uni04B2 uni04A1 -31.937
+KPX uni04B2 uni04A8 -31.937
+KPX uni04B2 uni04AA -31.937
+KPX uni04B2 uni04AD -31.937
+KPX uni04B2 uni04B5 -31.937
+KPX uni04B2 uni04B7 -31.937
+KPX uni04B2 uni04B9 -31.937
+KPX uni04B2 uni04BC -31.937
+KPX uni04B2 uni04BE -31.937
+KPX uni04B2 uni04CC -31.937
+KPX uni04B2 uni04E8 -31.937
+KPX uni04B3 afii10065 -31.937
+KPX uni04B3 afii10070 -31.937
+KPX uni04B3 afii10071 -31.937
+KPX uni04B3 afii10080 -31.937
+KPX uni04B3 afii10083 -31.937
+KPX uni04B3 afii10101 -31.937
+KPX uni04B3 uni04A9 -31.937
+KPX uni04B3 uni04AB -31.937
+KPX uni04B3 uni04BD -31.937
+KPX uni04B3 uni04BF -31.937
+KPX uni04B3 uni04E9 -31.937
+KPX uni04BA CYRHHCRS -31.937
+KPX uni04BA CYRHHK -31.937
+KPX uni04BA CYRQ -31.937
+KPX uni04BA CYRW -127.747
+KPX uni04BA afii10024 -31.937
+KPX uni04BA afii10032 -31.937
+KPX uni04BA afii10035 -31.937
+KPX uni04BA afii10036 -95.81
+KPX uni04BA afii10037 -95.81
+KPX uni04BA afii10038 -31.937
+KPX uni04BA afii10039 -31.937
+KPX uni04BA afii10041 -95.81
+KPX uni04BA afii10044 -95.81
+KPX uni04BA afii10051 -95.81
+KPX uni04BA afii10053 -31.937
+KPX uni04BA afii10060 -95.81
+KPX uni04BA afii10062 -95.81
+KPX uni04BA afii10084 -31.937
+KPX uni04BA afii10089 -95.81
+KPX uni04BA afii10092 -31.937
+KPX uni04BA afii10146 -95.81
+KPX uni04BA afii10148 -127.747
+KPX uni04BA afii10194 -31.937
+KPX uni04BA uni048C -95.81
+KPX uni04BA uni048D -31.937
+KPX uni04BA uni0496 -31.937
+KPX uni04BA uni04A0 -95.81
+KPX uni04BA uni04A1 -31.937
+KPX uni04BA uni04A8 -31.937
+KPX uni04BA uni04AA -31.937
+KPX uni04BA uni04AC -95.81
+KPX uni04BA uni04AD -31.937
+KPX uni04BA uni04AE -95.81
+KPX uni04BA uni04B0 -95.81
+KPX uni04BA uni04B2 -31.937
+KPX uni04BA uni04B4 -95.81
+KPX uni04BA uni04B5 -31.937
+KPX uni04BA uni04B6 -95.81
+KPX uni04BA uni04B7 -95.81
+KPX uni04BA uni04B8 -95.81
+KPX uni04BA uni04B9 -95.81
+KPX uni04BA uni04BC -95.81
+KPX uni04BA uni04BE -95.81
+KPX uni04BA uni04CB -95.81
+KPX uni04BA uni04CC -95.81
+KPX uni04BA uni04E8 -31.937
+KPX uni04C0 C -31.937
+KPX uni04C0 G -31.937
+KPX uni04C0 O -31.937
+KPX uni04C0 Q -31.937
+KPX uni04C0 V -127.747
+KPX uni04C0 W -95.81
+KPX uni04C0 Y -95.81
+KPX uni04C0 afii10021 95.81
+KPX uni04C0 afii10032 -31.937
+KPX uni04C0 afii10035 -31.937
+KPX uni04C0 afii10037 -95.81
+KPX uni04C0 afii10038 -31.937
+KPX uni04C0 afii10053 -31.937
+KPX uni04C0 afii10062 -95.81
+KPX uni04C0 afii10069 95.81
+KPX uni04C0 afii10085 63.873
+KPX uni04C0 afii10110 63.873
+KPX uni04C0 afii61664 95.81
+KPX uni04C0 g 63.873
+KPX uni04C0 j 127.747
+KPX uni04C0 quotedblbase 127.747
+KPX uni04C0 uni04A8 -31.937
+KPX uni04C0 uni04AA -31.937
+KPX uni04C0 uni04AE -95.81
+KPX uni04C0 uni04AF -95.81
+KPX uni04C0 uni04B0 -95.81
+KPX uni04C0 uni04B1 -95.81
+KPX uni04C0 uni04E8 -31.937
+KPX uni04C0 v -95.81
+KPX uni04C0 w -63.873
+KPX uni04C0 y 63.873
+KPX uni04D8 CYRHHCRS -31.937
+KPX uni04D8 CYRHHK -31.937
+KPX uni04D8 CYRW -31.937
+KPX uni04D8 afii10017 -31.937
+KPX uni04D8 afii10021 -31.937
+KPX uni04D8 afii10024 -31.937
+KPX uni04D8 afii10037 -31.937
+KPX uni04D8 afii10039 -31.937
+KPX uni04D8 afii10049 -31.937
+KPX uni04D8 afii10062 -31.937
+KPX uni04D8 afii10148 -31.937
+KPX uni04D8 uni046A -31.937
+KPX uni04D8 uni0496 -31.937
+KPX uni04D8 uni04AE -31.937
+KPX uni04D8 uni04B0 -31.937
+KPX uni04D8 uni04B2 -31.937
+KPX uni04D8 uni04D4 -31.937
+KPX uni04D8 uni04D5 -31.937
+KPX uni04E8 CYRHHCRS -31.937
+KPX uni04E8 CYRHHK -31.937
+KPX uni04E8 CYRW -31.937
+KPX uni04E8 afii10017 -31.937
+KPX uni04E8 afii10021 -31.937
+KPX uni04E8 afii10024 -31.937
+KPX uni04E8 afii10037 -31.937
+KPX uni04E8 afii10039 -31.937
+KPX uni04E8 afii10049 -31.937
+KPX uni04E8 afii10062 -31.937
+KPX uni04E8 afii10148 -31.937
+KPX uni04E8 uni046A -31.937
+KPX uni04E8 uni0496 -31.937
+KPX uni04E8 uni04AE -31.937
+KPX uni04E8 uni04B0 -31.937
+KPX uni04E8 uni04B2 -31.937
+KPX uni04E8 uni04D4 -31.937
+KPX uni04E8 uni04D5 -31.937
+KPX uni04E9 afii10069 -31.937
+KPX uni04E9 afii10072 -31.937
+KPX uni04E9 afii10087 -31.937
+KPX uni04E9 afii10097 -31.937
+KPX uni04E9 cyrhhcrs -31.937
+KPX uni04E9 cyrhhk -31.937
+KPX uni04E9 uni046B -31.937
+KPX uni04E9 uni0497 -31.937
+KPX uni04E9 uni04B3 -31.937
+KPX uni04E9 uni04D5 -31.937
+KPX uring w -31.937
+KPX v a -63.873
+KPX v aacute -63.873
+KPX v abreve -63.873
+KPX v acircumflex -63.873
+KPX v adieresis -63.873
+KPX v ae -63.873
+KPX v agrave -63.873
+KPX v aogonek -63.873
+KPX v aring -63.873
+KPX v atilde -63.873
+KPX v c -31.937
+KPX v cacute -31.937
+KPX v ccaron -31.937
+KPX v ccedilla -31.937
+KPX v e -31.937
+KPX v eacute -31.937
+KPX v ecaron -31.937
+KPX v ecircumflex -31.937
+KPX v edieresis -31.937
+KPX v egrave -31.937
+KPX v eogonek -31.937
+KPX v o -31.937
+KPX v oacute -31.937
+KPX v ocircumflex -31.937
+KPX v odieresis -31.937
+KPX v oe -31.937
+KPX v ograve -31.937
+KPX v ohungarumlaut -31.937
+KPX v oslash -31.937
+KPX v otilde -31.937
+KPX w a -31.937
+KPX w aacute -31.937
+KPX w abreve -31.937
+KPX w acircumflex -31.937
+KPX w adieresis -31.937
+KPX w ae -31.937
+KPX w agrave -31.937
+KPX w aogonek -31.937
+KPX w aring -31.937
+KPX w atilde -31.937
+KPX w c -31.937
+KPX w cacute -31.937
+KPX w ccaron -31.937
+KPX w ccedilla -31.937
+KPX w e -31.937
+KPX w eacute -31.937
+KPX w ecaron -31.937
+KPX w ecircumflex -31.937
+KPX w edieresis -31.937
+KPX w egrave -31.937
+KPX w eogonek -31.937
+KPX w o -31.937
+KPX w oacute -31.937
+KPX w ocircumflex -31.937
+KPX w odieresis -31.937
+KPX w oe -31.937
+KPX w ograve -31.937
+KPX w ohungarumlaut -31.937
+KPX w oslash -31.937
+KPX w otilde -31.937
+KPX y a -31.937
+KPX y aacute -31.937
+KPX y abreve -31.937
+KPX y acircumflex -31.937
+KPX y adieresis -31.937
+KPX y ae -31.937
+KPX y agrave -31.937
+KPX y aogonek -31.937
+KPX y aring -31.937
+KPX y atilde -31.937
+KPX y comma -95.81
+KPX y e -31.937
+KPX y eacute -31.937
+KPX y ecaron -31.937
+KPX y ecircumflex -31.937
+KPX y edieresis -31.937
+KPX y egrave -31.937
+KPX y eogonek -31.937
+KPX y o -31.937
+KPX y oacute -31.937
+KPX y ocircumflex -31.937
+KPX y odieresis -31.937
+KPX y oe -31.937
+KPX y ograve -31.937
+KPX y ohungarumlaut -31.937
+KPX y oslash -31.937
+KPX y otilde -31.937
+KPX y period -95.81
+KPX yacute a -31.937
+KPX yacute aacute -31.937
+KPX yacute abreve -31.937
+KPX yacute acircumflex -31.937
+KPX yacute adieresis -31.937
+KPX yacute ae -31.937
+KPX yacute agrave -31.937
+KPX yacute aogonek -31.937
+KPX yacute aring -31.937
+KPX yacute atilde -31.937
+KPX yacute comma -95.81
+KPX yacute e -31.937
+KPX yacute eacute -31.937
+KPX yacute ecaron -31.937
+KPX yacute ecircumflex -31.937
+KPX yacute edieresis -31.937
+KPX yacute egrave -31.937
+KPX yacute eogonek -31.937
+KPX yacute o -31.937
+KPX yacute oacute -31.937
+KPX yacute ocircumflex -31.937
+KPX yacute odieresis -31.937
+KPX yacute oe -31.937
+KPX yacute ograve -31.937
+KPX yacute ohungarumlaut -31.937
+KPX yacute oslash -31.937
+KPX yacute otilde -31.937
+KPX yacute period -95.81
+KPX ydieresis a -31.937
+KPX ydieresis aacute -31.937
+KPX ydieresis abreve -31.937
+KPX ydieresis acircumflex -31.937
+KPX ydieresis adieresis -31.937
+KPX ydieresis ae -31.937
+KPX ydieresis agrave -31.937
+KPX ydieresis aogonek -31.937
+KPX ydieresis aring -31.937
+KPX ydieresis atilde -31.937
+KPX ydieresis comma -95.81
+KPX ydieresis e -31.937
+KPX ydieresis eacute -31.937
+KPX ydieresis ecaron -31.937
+KPX ydieresis ecircumflex -31.937
+KPX ydieresis edieresis -31.937
+KPX ydieresis egrave -31.937
+KPX ydieresis eogonek -31.937
+KPX ydieresis o -31.937
+KPX ydieresis oacute -31.937
+KPX ydieresis ocircumflex -31.937
+KPX ydieresis odieresis -31.937
+KPX ydieresis oe -31.937
+KPX ydieresis ograve -31.937
+KPX ydieresis ohungarumlaut -31.937
+KPX ydieresis oslash -31.937
+KPX ydieresis otilde -31.937
+KPX ydieresis period -95.81
+EndKernPairs
+EndKernData
+EndFontMetrics

@@ -1,0 +1,152 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_QUARTER_TRANSFER_READBACK",
+  "mode": "FULL_SOURCE_COMPONENT_AND_FAST_REPLAY",
+  "source_sha256": "af62f3d106ec8b24db38be07c4605f9efd9399209cbc6d3868e4769da10ce007",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "input_sha256": {
+    "transfer-fast-output.json": "38574e54728d6b7dd4755ec7ffb926fea2b83f4a4cb991992fe8ecc6c8b036cb",
+    "transfer-coefficients.json": "3c20b65a1503725b5bc43e125071ce1ee02b638b95cb221a5190d136b3b04fb2",
+    "transfer-tail-alpha-13_25.json": "ba988891c2d45d6eadbca71586caf002cbfa6d3d9f946430f284a1ade39e472a",
+    "transfer-exponents-alpha-13_25.json": "9ab2c61105fafa280a0b1f5d8fbd5793b5a49bcd834fca36aae27f8dc49db701",
+    "transfer-node-ledger-alpha-13_25.json": "e307d854962ace5900ff3557723e9fbfdf51916e6f69941bc652a15a161f945a",
+    "transfer-tail-alpha-3_5.json": "2501c654c0157281813abda88de29373bfbe8530917674e428f30aa2ba9b7d78",
+    "transfer-exponents-alpha-3_5.json": "ffde03ddfa7e7c57ef5a279c4b3ca763ddeef4127af08ce4c71ae374dae0450f",
+    "transfer-node-ledger-alpha-3_5.json": "ad8e7097c651019f56420ec8befd4bf1d210df8d51bb93ac632b85bdd31cd36c",
+    "transfer-tail-alpha-9_10.json": "0ea033ff015082c92e7f425742df70df4ea7b34b29bfaac0f2a459d1c024bf95",
+    "transfer-exponents-alpha-9_10.json": "443b4ac1d009734b13ee70689ae4daab81feb593dc55ce6af431b93839ec05fc",
+    "transfer-node-ledger-alpha-9_10.json": "f61153bb458f62acacafc18b57d1bc3b3103fa27a066425e45e0d18496c960c9",
+    "upstream-MANIFEST.json": "0c3dced7bae9a3768a3a489e009541d4577eb8f4861bde07e0cb4cf793bd157c",
+    "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "residual-node-certificate-point052-u64.json": "82f97fbc77bea669f4547ac6465aae0aa8baba006c106c0ba71a611d4d920f9b",
+    "fixed-field-betap52-u128.json": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b",
+    "fixed-field-betap6-u128.npz": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+    "residual-node-certificate-point06-u64.json": "5b498420752d7f532bb41649a43d357b790ca6cb81bf82b7b737589ad0e28f64",
+    "fixed-field-betap6-u128.json": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed",
+    "fixed-field-betap9-u80.npz": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+    "residual-node-certificate-betap9-u64-.json": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5",
+    "fixed-field-betap9-u80.json": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029",
+    "transfer-contract.json": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3",
+    "transfer-preflight.json": "35c4caebd081c4624f4daad4883874f6ff4b75436668912229957864e28d1104",
+    "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
+    "exponent-field-certificate.py": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
+    "direct-tail-certificate.py": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
+    "price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
+    "solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
+    "transfer-results.json": "0aa6eb416bf7ef80a389d4014b2eb292c4f97747df68c689176799310a00346f",
+    "merged-heston-en.md": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
+  },
+  "full_exact_field_nodes_replayed": 1539,
+  "actual_fast_candidates_replayed": 3,
+  "all_true_CF_envelope_nodes_replayed": 3075,
+  "all_complete_financial_nodes_replayed": 3075,
+  "negative_controls": [
+    {
+      "name": "half-year-tail-is-not-new-quarter-tail",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "missing-omitted-finite-node",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "actual-recomputed-centre-replaced-by-zero",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "actual-infinite-tail-dropped",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "name": "quarter-budget-failure-replaced-with-success",
+      "status": "PASS_REJECTED"
+    }
+  ],
+  "rows": [
+    {
+      "alpha": "13/25",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "19404707256018715896269242777120217851765896196561344621324099/16069380442589902755419620923411626025222029937827928353013760",
+      "signed_marginal_absolute_bound_index_points_exact": "3879729801737829960841720344328210509819969549365187336472599/2510840694154672305534315769283066566440942177785613805158400",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    },
+    {
+      "alpha": "3/5",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "64374106529552756594859493616381887398952540778072320860818643/80346902212949513777098104617058130126110149689139641765068800",
+      "signed_marginal_absolute_bound_index_points_exact": "84870408113541693311105801848678212893041709385794018084560259/80346902212949513777098104617058130126110149689139641765068800",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    },
+    {
+      "alpha": "9/10",
+      "nodes_checked": 1025,
+      "joint_absolute_bound_index_points_exact": "39991770283211695413449632096760827636661291472254115571750243/80346902212949513777098104617058130126110149689139641765068800",
+      "signed_marginal_absolute_bound_index_points_exact": "49023868522303757998151590536675300155995938293865987282823309/80346902212949513777098104617058130126110149689139641765068800",
+      "budget_decisions": [
+        {
+          "budget_index_points": "1/4",
+          "joint_status": "NOT_CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1/2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "NOT_CERTIFIED"
+        },
+        {
+          "budget_index_points": "1",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        },
+        {
+          "budget_index_points": "2",
+          "joint_status": "CERTIFIED",
+          "signed_marginal_status": "CERTIFIED"
+        }
+      ]
+    }
+  ],
+  "independence": "Does not import transfer-pricing or its aggregation. Shares original rigorous moments, trig, true-tail comparison and dyadic primitives, and reruns the original fast implementation only in --full. Frozen residual validity is inherited from upstream continuous certificates; this reader does not regenerate those certificates."
+}

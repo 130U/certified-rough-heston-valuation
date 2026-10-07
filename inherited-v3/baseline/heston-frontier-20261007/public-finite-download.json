@@ -1,7 +1,0 @@
-{
-  "status": "PASS_PUBLIC_UNAUTHENTICATED_DOWNLOAD_AND_ALL_BLOB_READBACK",
-  "url": "https://github.com/130U/certified-rough-heston-valuation/releases/download/v0.2.0-certification-20261007/Theodore-Ouyang-Heston-Finite-History-Evidence-20261007.zip",
-  "sha256": "edc25d2ad86c1526f404ec1a46a02a283f0726602f259beaa97eb1219d22d299",
-  "bytes": 187393093,
-  "files": 243
-}

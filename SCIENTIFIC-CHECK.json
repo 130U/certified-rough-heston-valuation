@@ -1,0 +1,61 @@
+{
+  "schema": "authors_saved_evidence_check",
+  "status": "PASS_SAVED_EVIDENCE_AND_DOWNSTREAM_RECONSTRUCTION",
+  "scope": "Authors' checks of saved evidence and downstream reconstruction, using the identified strict arithmetic dependencies. Continuous residual derivatives and the complete original structural-sign cover were not regenerated in this check.",
+  "scientific_manifest_sha256": "819a1c36b3b4c0c6f5b16796f4fc76635494573ba885b52a1add425f5852a369",
+  "saved_numerical_banks": 27,
+  "steps": [
+    {
+      "script": "science/baseline/frontier/run_frontier.py",
+      "status": "PASS",
+      "source_sha256": "5389538788a26b1d8decc4a62df93285d16c726bc7bb6440e0708136f6e03b07"
+    },
+    {
+      "script": "science/theory/rho-direct-check.py",
+      "status": "PASS",
+      "source_sha256": "fc3818629280b59da3b13a2c53b5b290b8f15ab9081f32f5e38e0f5c4c3d77fb"
+    },
+    {
+      "script": "science/theory/rho-direct-controls.py",
+      "status": "PASS",
+      "source_sha256": "82740f0e2f938032993b10e2a2d63ead7c488f2a0363a1b9b83d6806acd7fa5c"
+    },
+    {
+      "script": "science/experiments/run_experiments.py",
+      "status": "PASS",
+      "source_sha256": "34dcbd863969bf9d916b68dfd2b94f495c07246da789977ddccec7bd8d5d3d04"
+    },
+    {
+      "script": "science/analysis/kernel/independent.py",
+      "status": "PASS",
+      "source_sha256": "5d583b93b7818b7405fcd02f1b19727db1834a3661022e0b69e3c87808dd2e34"
+    },
+    {
+      "script": "science/analysis/audit/read_audit_independent.py",
+      "status": "PASS",
+      "source_sha256": "657ea556119ae7c81e75ddee95f5e78c6151205ca5ff0f8ce278eb53e50e30e7"
+    },
+    {
+      "script": "science/analysis/verify_extensions.py",
+      "status": "PASS",
+      "source_sha256": "093a6031e77df6051bfbf3ffc159cb3e450ea6a60b59debae9420d039c4b8cce"
+    }
+  ],
+  "additional_receipt_readback": [
+    {
+      "script": "science/baseline/finite-history/portfolio-report.py",
+      "status": "PASS",
+      "source_sha256": "90dcaf4a2a04f7375e607e6dc1d689a3adf3e8f78847bac1f7adcb22882e2f14"
+    },
+    {
+      "script": "science/baseline/finite-history/verify-portfolio-identities.py",
+      "status": "PASS",
+      "source_sha256": "b59de60efe8418e532f9dd26f415e3ea677ef9b0817621823b813b7b119863b3"
+    },
+    {
+      "script": "science/baseline/frontier/independent-omission.py",
+      "status": "PASS",
+      "source_sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
+    }
+  ]
+}

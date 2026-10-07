@@ -1,6 +1,5 @@
 {
   "author": "Theodore Ouyang",
-  "date": "V5 editorial edition · October 7, 2026",
   "titles": {
     "report": "Rough Heston 模型的可验证联合定价误差",
     "rough-heston": "Certified Joint Pricing Errors in Rough Heston"
@@ -8,5 +7,9 @@
   "subtitles": {
     "report": "有限历史、实际输出与金融任务",
     "rough-heston": "Finite History, Actual Outputs, and Financial Decisions"
-  }
+  },
+  "emails": [
+    "theodore.oy2025@gmail.com",
+    "10@alumni.duke.edu"
+  ]
 }

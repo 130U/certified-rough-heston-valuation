@@ -1,0 +1,90 @@
+{
+  "schema": "identified_component_inputs",
+  "files": [
+    {
+      "path": "audit_layout.py",
+      "bytes": 1555,
+      "sha256": "25f2861cf95ccb7be566feabe9fb9ad47de0a314452ac811f2075e4d6f292997"
+    },
+    {
+      "path": "check_figure.py",
+      "bytes": 914,
+      "sha256": "15f2303448eac526faeb597f62004f54c6feee2775043f054f4f3b887754e031"
+    },
+    {
+      "path": "configuration-registry.json",
+      "bytes": 14132,
+      "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
+    },
+    {
+      "path": "figure-check.json",
+      "bytes": 125,
+      "sha256": "6885479f6b327e3e2506590aaafc645d090a88fd7d6f277e24b7ad1770d2d2ba"
+    },
+    {
+      "path": "frozen-output-centre-account.json",
+      "bytes": 13167,
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "path": "independent-audit.json",
+      "bytes": 2727,
+      "sha256": "a8089c92f85a42cbe70281d61817fad98ab338dcc7616ac3fef9d08d2134dec4"
+    },
+    {
+      "path": "nearby-pair-resolution.json",
+      "bytes": 34473,
+      "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
+    },
+    {
+      "path": "plot_budget_counts.py",
+      "bytes": 4364,
+      "sha256": "aa2ccce51a0cb0866ee501bf785554c6dd10847f75e179019021297c87ffe85e"
+    },
+    {
+      "path": "portfolio-budget-counts.csv",
+      "bytes": 56889,
+      "sha256": "8857255755cda4e5914ef31f0f2fb1f3c520f9ba66b0e5cb42778798989c20a7"
+    },
+    {
+      "path": "portfolio-budget-counts.json",
+      "bytes": 299970,
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "path": "portfolio-exact-thresholds.csv",
+      "bytes": 67028,
+      "sha256": "0b5ca7910a1c52a0f4985b8dac06d80acdcdee860b4fafb1c7b3f2c25ceadbcc"
+    },
+    {
+      "path": "produce_audit.py",
+      "bytes": 18397,
+      "sha256": "4a268f6b48d471b1fa2f1ec52dcb2fb510f8a94cc534bd494bd53c2d3c42bcad"
+    },
+    {
+      "path": "proof-obligation-matrix.json",
+      "bytes": 14076,
+      "sha256": "32c2b41bf3b1454d90f8ec1a37bbde58d3ea32905ab76a83056ea1a2d7d3a8e0"
+    },
+    {
+      "path": "proof_matrix.py",
+      "bytes": 10906,
+      "sha256": "db32701c1384d197ae38dfb01d80799f6b1aeaa19c8e4e2ccc7aa8aeb47b37be"
+    },
+    {
+      "path": "quarter-exact-ledger.json",
+      "bytes": 5097,
+      "sha256": "b8de29065db875f59a78e44c3c339f0f2ff886f3338c12701a017269eb36e35e"
+    },
+    {
+      "path": "read_audit_independent.py",
+      "bytes": 16729,
+      "sha256": "657ea556119ae7c81e75ddee95f5e78c6151205ca5ff0f8ce278eb53e50e30e7"
+    },
+    {
+      "path": "source-identities.json",
+      "bytes": 10138,
+      "sha256": "4dde9c6f44577a37f645f1801d8dc93578404a2038a3acc47fefd505ba2a6d72"
+    }
+  ]
+}

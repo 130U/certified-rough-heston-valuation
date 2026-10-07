@@ -1,0 +1,13 @@
+{
+  "status": "DESCRIPTIVE_DESIGN_FROZEN_AFTER_GLOBAL_CONTROL_BEFORE_LOCAL_RESULT",
+  "alpha": "13/25",
+  "N": 2048,
+  "T": "1/2",
+  "bins": 128,
+  "edges": "T*j/128, j=0..128",
+  "source_candidate_sha256": "a75ef194938dc56d5edd6225b1ae3b8b316ba0c59d11b45b4041aea0a2e9983d",
+  "known_global_control_joint_reference_bound_points": "21035523486142881795376198753592043966745498968169505856601489/80346902212949513777098104617058130126110149689139641765068800",
+  "target": "same frozen Padé, binary64 reference/correction and modern BL core outputs; same model/task/quarter-point tolerance",
+  "rule": "maximum over ALL closed source cells intersecting each closed propagation bin, including crossed endpoints; unchanged full history from zero",
+  "independence": "separate descriptive control only; initial nearby-candidate N1024/N2048 objective experiment and its outcomes remain untouched"
+}

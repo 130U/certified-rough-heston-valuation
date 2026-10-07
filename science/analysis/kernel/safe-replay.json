@@ -1,0 +1,16 @@
+{
+  "status": "ACTUAL_FRESH_PASS_ON_PRIVACY_SANITIZED_BASELINE",
+  "contract_sha256": "cfddc01354b4dd1dadc806c47254038046ace7f44b4564a1e886852a1191d58a",
+  "scientific_result_sha256": "27018285e8f130c448d5be4a1dcb19a4863593a8fcf8501c16a5856ba2fdda00",
+  "independent_receipt_sha256": "e7fa9931c27a45574d5969dc8958278e381b90ebffb72d659a8789e84a09796a",
+  "matched_input_receipt_sha256": "9ed956f3d5477ee5fdd2f7f84f40733a0aa096dce16af5cdb73841bb588d1bee",
+  "source_identity_rule": "Original exact-byte protected inputs and primitives from contract; no hash bridge or bypass",
+  "bank_entries": 2100735,
+  "finite_nodes": 1025,
+  "price_rows": 12,
+  "radius_minima_checked": 513,
+  "zero_sigma_cumulative_points": 129,
+  "zero_sigma_cells": 128,
+  "negative_controls_rejected": 8,
+  "scope": "Independent direct double Gamma-series and certificate assembly; shares identified reference Gamma/log/exp and dyadic coefficient arithmetic. Inherits reference residual proof and reference exponents, rather than independently rederiving every residual derivative."
+}

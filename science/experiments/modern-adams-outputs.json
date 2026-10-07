@@ -1,0 +1,65 @@
+{
+  "status": "EXECUTED_MODERN_RICCATI_CORE_SAME_MODEL_NOMINAL_OUTPUTS",
+  "contract_sha256": "de2c2e75718d262a2720175bf572a48983ecada8f0d5ec4d6a68a66ec2b97b9d",
+  "executed_source_sha256": "e89d8c8837627c5755a2d251e2b30c7e40e1e120be9824506353c27e0927c0a5",
+  "rows": [
+    {
+      "N": 512,
+      "status": "FINITE_NOMINAL_OUTPUT_NOT_INTRINSIC_ACCURACY_CERTIFICATE",
+      "exact_stored_call_outputs": [
+        "1252901282966315/9007199254740992",
+        "1070630985491709/9007199254740992",
+        "895075063822657/9007199254740992",
+        "364060152941339/4503599627370496",
+        "572070373255841/9007199254740992",
+        "429578782084977/9007199254740992",
+        "304302702610495/9007199254740992",
+        "200839914020781/9007199254740992",
+        "122751092082275/9007199254740992",
+        "34993973240165/4503599627370496",
+        "38221836054207/9007199254740992",
+        "20785671370721/9007199254740992"
+      ],
+      "spread_points": "8242001844732523529/225179981368524800",
+      "workload": {
+        "Fourier_nodes": 513,
+        "time_steps": 512,
+        "history_scalar_vector_products": 67371264,
+        "transformed_Riccati_evaluations": 2626560,
+        "exponent_time_quadrature_evaluations": 4202496,
+        "Picard_corrections_per_step": 8
+      },
+      "max_node_real_H": "0"
+    },
+    {
+      "N": 1024,
+      "status": "FINITE_NOMINAL_OUTPUT_NOT_INTRINSIC_ACCURACY_CERTIFICATE",
+      "exact_stored_call_outputs": [
+        "78306381886599/562949953421312",
+        "535315942127677/4503599627370496",
+        "447537968701077/4503599627370496",
+        "728121042394995/9007199254740992",
+        "572070899158701/9007199254740992",
+        "429578871385319/9007199254740992",
+        "304301875206457/9007199254740992",
+        "200837765944953/9007199254740992",
+        "122747774710655/9007199254740992",
+        "17496054613891/2251799813685248",
+        "38218583547837/9007199254740992",
+        "5195842855807/2251799813685248"
+      ],
+      "spread_points": "8242125259810833857/225179981368524800",
+      "workload": {
+        "Fourier_nodes": 513,
+        "time_steps": 1024,
+        "history_scalar_vector_products": 269222400,
+        "transformed_Riccati_evaluations": 5253120,
+        "exponent_time_quadrature_evaluations": 8404992,
+        "Picard_corrections_per_step": 8
+      },
+      "max_node_real_H": "0"
+    }
+  ],
+  "empirical_512_1024_spread_refinement_difference_points": "15426884788791/28147497671065600",
+  "qualification": "This difference does not bound the true price error. Both strict translation comparisons are computed after the independent candidate certificate is complete."
+}

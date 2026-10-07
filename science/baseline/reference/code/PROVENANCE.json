@@ -1,0 +1,570 @@
+{
+  "status": "PORTABLE_SELECTION_WITH_EXPLICIT_RELOCATION_AND_ORIGINAL_DIGESTS",
+  "records": [
+    {
+      "original_filename": "compact-halfplane-certificate-partial.py",
+      "public_path": "code/src/compact-halfplane-certificate-partial.py",
+      "original_sha256": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0",
+      "public_sha256": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0",
+      "original_bytes": 7407,
+      "public_bytes": 7497,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "interval-pade-certificate.py",
+      "public_path": "code/src/interval-pade-certificate.py",
+      "original_sha256": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2",
+      "public_sha256": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2",
+      "original_bytes": 8944,
+      "public_bytes": 9085,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "certify-field-residual.py",
+      "public_path": "code/src/certify-field-residual.py",
+      "original_sha256": "609a07b7a4104763a2a3a537e35b48e227518b0109436f22acef752512791507",
+      "public_sha256": "609a07b7a4104763a2a3a537e35b48e227518b0109436f22acef752512791507",
+      "original_bytes": 20923,
+      "public_bytes": 21226,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "combined-field-derivative.py",
+      "public_path": "code/src/combined-field-derivative.py",
+      "original_sha256": "0a21b2abfc4b68a0897cf99fdf8059607c114f04c7f431b3ae73768687221f57",
+      "public_sha256": "0a21b2abfc4b68a0897cf99fdf8059607c114f04c7f431b3ae73768687221f57",
+      "original_bytes": 3325,
+      "public_bytes": 3391,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "exponent-field-certificate.py",
+      "public_path": "code/src/exponent-field-certificate.py",
+      "original_sha256": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
+      "public_sha256": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
+      "original_bytes": 4616,
+      "public_bytes": 4608,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "exact-forward-moments.py",
+      "public_path": "code/src/exact-forward-moments.py",
+      "original_sha256": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
+      "public_sha256": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
+      "original_bytes": 4966,
+      "public_bytes": 5091,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "direct-tail-certificate.py",
+      "public_path": "code/src/direct-tail-certificate.py",
+      "original_sha256": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
+      "public_sha256": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
+      "original_bytes": 3679,
+      "public_bytes": 3759,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "residual-certificate-adapter.py",
+      "public_path": "code/src/residual-certificate-adapter.py",
+      "original_sha256": "dd3b3ff1af96d408351ba63e54adf31d1991202b3397fdfb85cf5ea1d70ab449",
+      "public_sha256": "dd3b3ff1af96d408351ba63e54adf31d1991202b3397fdfb85cf5ea1d70ab449",
+      "original_bytes": 6496,
+      "public_bytes": 6603,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "calibration-field-input-check.py",
+      "public_path": "code/src/calibration-field-input-check.py",
+      "original_sha256": "35317d122e0cbc77300d3d1e6a0602d53d1f9dc3046ca0d91187d81704057a00",
+      "public_sha256": "35317d122e0cbc77300d3d1e6a0602d53d1f9dc3046ca0d91187d81704057a00",
+      "original_bytes": 1311,
+      "public_bytes": 1337,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "f8-node-price-aggregate.py",
+      "public_path": "code/src/f8-node-price-aggregate.py",
+      "original_sha256": "3dbe7e1735a01aec98036a9c4fe1a47a306052e0c514ad3f04ee8662da1393b4",
+      "public_sha256": "3dbe7e1735a01aec98036a9c4fe1a47a306052e0c514ad3f04ee8662da1393b4",
+      "original_bytes": 21192,
+      "public_bytes": 21433,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "finite-candidate-objective-aggregate.py",
+      "public_path": "code/src/finite-candidate-objective-aggregate.py",
+      "original_sha256": "529c4579f2c36c8f8b0a9ddfb8431139ee1f959f23e6c9649a26c47be146aab9",
+      "public_sha256": "529c4579f2c36c8f8b0a9ddfb8431139ee1f959f23e6c9649a26c47be146aab9",
+      "original_bytes": 13590,
+      "public_bytes": 13777,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "calibration-interval-aggregate.py",
+      "public_path": "code/src/calibration-interval-aggregate.py",
+      "original_sha256": "77664106c45e31376c7e20425228ba08819df6eb223eb52ee440b4d0c6da4ee4",
+      "public_sha256": "77664106c45e31376c7e20425228ba08819df6eb223eb52ee440b4d0c6da4ee4",
+      "original_bytes": 8079,
+      "public_bytes": 8241,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "freeze-pade-output.py",
+      "public_path": "code/src/freeze-pade-output.py",
+      "original_sha256": "7d78ca16e474f49dec35a942876f2445172e450480c14e180a0ef53307a08c19",
+      "public_sha256": "7d78ca16e474f49dec35a942876f2445172e450480c14e180a0ef53307a08c19",
+      "original_bytes": 3309,
+      "public_bytes": 3314,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "price-profile-diagnostic.py",
+      "public_path": "code/src/price-profile-diagnostic.py",
+      "original_sha256": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
+      "public_sha256": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
+      "original_bytes": 6645,
+      "public_bytes": 6706,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "solver-diagnostic.py",
+      "public_path": "code/src/solver-diagnostic.py",
+      "original_sha256": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
+      "public_sha256": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
+      "original_bytes": 6573,
+      "public_bytes": 6659,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "save-fixed-field.py",
+      "public_path": "code/src/save-fixed-field.py",
+      "original_sha256": "5c8cf9c5b1d096b38cc5db3e2340efece72ce8f2be584258e092d2b016178f46",
+      "public_sha256": "5c8cf9c5b1d096b38cc5db3e2340efece72ce8f2be584258e092d2b016178f46",
+      "original_bytes": 3125,
+      "public_bytes": 3171,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "field-residual-diagnostic.py",
+      "public_path": "code/src/field-residual-diagnostic.py",
+      "original_sha256": "e655b7feb700b6301859974f5a6cb8e030fe67c7982e57aa0e7316b1f1989d2e",
+      "public_sha256": "e655b7feb700b6301859974f5a6cb8e030fe67c7982e57aa0e7316b1f1989d2e",
+      "original_bytes": 4791,
+      "public_bytes": 4813,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "calibration-contract-finite-T05.json",
+      "public_path": "code/frozen/calibration-contract-finite-T05.json",
+      "original_sha256": "3b699721ccc449db08bbe172258a557c5607bbc45079347fad8c50ff3d534c0d",
+      "public_sha256": "1888859aded912419b7d777fb2037a867abfbcb728511a6a1dd16351a053414d",
+      "original_bytes": 4340,
+      "public_bytes": 4464,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "normalized-quote-bands.json",
+      "public_path": "code/frozen/normalized-quote-bands.json",
+      "original_sha256": "fe9975e53e392be874084f31f47d2f56bd1bc56d171cdfc3ef3b464d912be479",
+      "public_sha256": "2936539fa6e5a4d586a9f17f6f0b654ac2680b8b643dafa5630a32f6d0ad2249",
+      "original_bytes": 118760,
+      "public_bytes": 24870,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "frozen-pade-numeric-output.json",
+      "public_path": "code/frozen/frozen-pade-numeric-output.json",
+      "original_sha256": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039",
+      "public_sha256": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039",
+      "original_bytes": 8401,
+      "public_bytes": 8147,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "finite-candidate-calibration-result.json",
+      "public_path": "code/frozen/finite-candidate-calibration-result.json",
+      "original_sha256": "ebbe49acf53a9bdc1447c0a68023a519982e4c0bbb63c2607f3c21d87c2b115e",
+      "public_sha256": "73bb6d2d71a50850948d857fe1a6779c5bc1831d0658fc28ca58d2e634e9a761",
+      "original_bytes": 18274,
+      "public_bytes": 17933,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "f8-price-point052-u64.json",
+      "public_path": "code/frozen/f8-price-point052-u64.json",
+      "original_sha256": "bd87f20d0e7e773cb4b9899504f3a916ef85367da0cdbac03deca6701df6365d",
+      "public_sha256": "1386efc46940e572497d17543d87547846e05eeaaef883e83cb059490b695f40",
+      "original_bytes": 573573,
+      "public_bytes": 562417,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "f8-price-point06-u64.json",
+      "public_path": "code/frozen/f8-price-point06-u64.json",
+      "original_sha256": "58373a5668699b2375ec8a667f37e4448fa4294c387dd39458c40ec7500438c4",
+      "public_sha256": "561a36f00a1f99f0597853e131cd5c86b7f141fb66ce6f873a013a50e14a8375",
+      "original_bytes": 572951,
+      "public_bytes": 561795,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "f8-price-betap9-u64-.json",
+      "public_path": "code/frozen/f8-price-betap9-u64-.json",
+      "original_sha256": "c129195ac34bdf6f9d2c23b33d61a73ccdb3fa2bb85ca605ad868da5529db8d6",
+      "public_sha256": "bb95d01f5ba0ea7c8f76745ef26ca152519a4938b9e536715d5b447370664404",
+      "original_bytes": 571135,
+      "public_bytes": 560077,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128-exponent-certificate.json",
+      "original_sha256": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b",
+      "public_sha256": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b",
+      "original_bytes": 953907,
+      "public_bytes": 930295,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
+      "original_sha256": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359",
+      "public_sha256": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359",
+      "original_bytes": 953384,
+      "public_bytes": 929758,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80-exponent-certificate.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
+      "original_sha256": "80d9f25f579b9c9cffd5b07dabdb357c6a5636d2e2cb2ee79e3abdeb8a7ffb09",
+      "public_sha256": "80d9f25f579b9c9cffd5b07dabdb357c6a5636d2e2cb2ee79e3abdeb8a7ffb09",
+      "original_bytes": 597479,
+      "public_bytes": 582686,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128-forward-weights.json",
+      "original_sha256": "2dc569bdfad4c5c0bad13511646ce1aa04f38d48a667bbd87d7eecbc09a54c04",
+      "public_sha256": "2dc569bdfad4c5c0bad13511646ce1aa04f38d48a667bbd87d7eecbc09a54c04",
+      "original_bytes": 305808,
+      "public_bytes": 297606,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128-forward-weights.json",
+      "original_sha256": "7178d422841aeb591b52885cdf38b2466ff0ae41fea8576788310c7935620075",
+      "public_sha256": "7178d422841aeb591b52885cdf38b2466ff0ae41fea8576788310c7935620075",
+      "original_bytes": 306100,
+      "public_bytes": 297898,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80-forward-weights.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80-forward-weights.json",
+      "original_sha256": "a262cb14cc6d4b0fc027b3dd34deffd147a5ab69f700f247cd910299106d6500",
+      "public_sha256": "a262cb14cc6d4b0fc027b3dd34deffd147a5ab69f700f247cd910299106d6500",
+      "original_bytes": 154131,
+      "public_bytes": 150025,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "field-residual-certificate-point052-u64.json",
+      "public_path": "code/frozen/field-residual-certificate-point052-u64.json",
+      "original_sha256": "5ff2ae7c766fca89ebeb98e4eaaf482ed183a6423a89ec943c1f867e9db562ed",
+      "public_sha256": "5ff2ae7c766fca89ebeb98e4eaaf482ed183a6423a89ec943c1f867e9db562ed",
+      "original_bytes": 124215,
+      "public_bytes": 120569,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "field-residual-certificate-point06-u64.json",
+      "public_path": "code/frozen/field-residual-certificate-point06-u64.json",
+      "original_sha256": "1d2161905c6e3a110e77822a4c6269734ceda9bc99d41f2917aa327d49165575",
+      "public_sha256": "1d2161905c6e3a110e77822a4c6269734ceda9bc99d41f2917aa327d49165575",
+      "original_bytes": 124739,
+      "public_bytes": 121084,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "field-residual-betap9-u64-.json",
+      "public_path": "code/frozen/field-residual-betap9-u64-.json",
+      "original_sha256": "d4872bea4adbce637e980aec4d4ddb1124f7f31af0c47b4e84ba3d1457dc9203",
+      "public_sha256": "d4872bea4adbce637e980aec4d4ddb1124f7f31af0c47b4e84ba3d1457dc9203",
+      "original_bytes": 125480,
+      "public_bytes": 121823,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-point052-u64.json",
+      "public_path": "code/frozen/residual-node-certificate-point052-u64.json",
+      "original_sha256": "487d1f145421d273f225130b677b8ee0933ca20d7a0ae488ad0df7d1c7e77547",
+      "public_sha256": "82f97fbc77bea669f4547ac6465aae0aa8baba006c106c0ba71a611d4d920f9b",
+      "original_bytes": 132671,
+      "public_bytes": 129256,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-point06-u64.json",
+      "public_path": "code/frozen/residual-node-certificate-point06-u64.json",
+      "original_sha256": "96c28dee005cc6568af4fbb4c416180b2ec5cf4eec95c18afe1d80e7843a5e37",
+      "public_sha256": "5b498420752d7f532bb41649a43d357b790ca6cb81bf82b7b737589ad0e28f64",
+      "original_bytes": 132927,
+      "public_bytes": 129512,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "residual-node-certificate-betap9-u64-.json",
+      "public_path": "code/frozen/residual-node-certificate-betap9-u64-.json",
+      "original_sha256": "32f89284c6664393e80a848540ca23dee53e968d78155801b5c067a7d8dff338",
+      "public_sha256": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5",
+      "original_bytes": 133364,
+      "public_bytes": 130047,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "direct-tail-certificate.json",
+      "public_path": "code/frozen/direct-tail-certificate.json",
+      "original_sha256": "bdbe6a73df03d90b68992763f98ce6927648e171b54bf46a308c8f867c30ab58",
+      "public_sha256": "bdbe6a73df03d90b68992763f98ce6927648e171b54bf46a308c8f867c30ab58",
+      "original_bytes": 734805,
+      "public_bytes": 719251,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "frozen-field-input-validation.json",
+      "public_path": "code/frozen/frozen-field-input-validation.json",
+      "original_sha256": "475af43fae1ace7e39b582adb406721b8a04ee13654c61cc208a7c70dc0196ad",
+      "public_sha256": "475af43fae1ace7e39b582adb406721b8a04ee13654c61cc208a7c70dc0196ad",
+      "original_bytes": 618,
+      "public_bytes": 598,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "field-input-guards-betap9-u80.json",
+      "public_path": "code/frozen/field-input-guards-betap9-u80.json",
+      "original_sha256": "441226a427abeeded2086a9d093a6801938f7facd95fa844d7b3ba946ef8bd28",
+      "public_sha256": "441226a427abeeded2086a9d093a6801938f7facd95fa844d7b3ba946ef8bd28",
+      "original_bytes": 390,
+      "public_bytes": 377,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "compact-rough-layer-independent-check.json",
+      "public_path": "code/frozen/compact-rough-layer-independent-check.json",
+      "original_sha256": "121eccd9a216e18f30839560cd4b2a9451b0d233fba8a8ae71f519cce039b367",
+      "public_sha256": "121eccd9a216e18f30839560cd4b2a9451b0d233fba8a8ae71f519cce039b367",
+      "original_bytes": 1520,
+      "public_bytes": 1491,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128.json",
+      "public_path": "code/frozen/fixed-field-betap52-u128.json",
+      "original_sha256": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b",
+      "public_sha256": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b",
+      "original_bytes": 1424,
+      "public_bytes": 1383,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap52-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap52-u128.npz",
+      "original_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "public_sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+      "original_bytes": 32146571,
+      "public_bytes": 32146571,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128.json",
+      "public_path": "code/frozen/fixed-field-betap6-u128.json",
+      "original_sha256": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed",
+      "public_sha256": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed",
+      "original_bytes": 1422,
+      "public_bytes": 1381,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap6-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap6-u128.npz",
+      "original_sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "public_sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+      "original_bytes": 32139003,
+      "public_bytes": 32139003,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u128.json",
+      "public_path": "code/frozen/fixed-field-betap9-u128.json",
+      "original_sha256": "39d283ce1fb1ead09a09bae9c7a41a1d52af27069d8638646ebd90ff9dce6780",
+      "public_sha256": "39d283ce1fb1ead09a09bae9c7a41a1d52af27069d8638646ebd90ff9dce6780",
+      "original_bytes": 1422,
+      "public_bytes": 1381,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u128.npz",
+      "public_path": "code/frozen/fixed-field-betap9-u128.npz",
+      "original_sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02",
+      "public_sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02",
+      "original_bytes": 32105032,
+      "public_bytes": 32105032,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80.json",
+      "public_path": "code/frozen/fixed-field-betap9-u80.json",
+      "original_sha256": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029",
+      "public_sha256": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029",
+      "original_bytes": 1416,
+      "public_bytes": 1375,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "fixed-field-betap9-u80.npz",
+      "public_path": "code/frozen/fixed-field-betap9-u80.npz",
+      "original_sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "public_sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+      "original_bytes": 10050564,
+      "public_bytes": 10050564,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "compact-rough-layer-certificate.json",
+      "public_path": "code/frozen/compact-rough-layer-certificate.json.gz",
+      "original_sha256": "1563575f002ae6da17c8604062eaebeb3a7ca9252c401de270851d3a143efed6",
+      "public_sha256": "dab153c2d6f4fe9d0f9ca31a2bb136eb4e3b004799c8542489a785b4da5f61bf",
+      "original_bytes": 213982431,
+      "public_bytes": 36204342,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "compute-finance-usecase.py",
+      "public_path": "code/src/compute-finance-usecase.py",
+      "original_sha256": "a8aef1097d4ace1d2ab8a289ee700d61d146d415cc1eb9ed64436cf5299ae999",
+      "public_sha256": "df9f41f0861ae43488e960fda68d80948afd15f2d179e10cb7add17017cbbbde",
+      "original_bytes": 6863,
+      "public_bytes": 6940,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    },
+    {
+      "original_filename": "finance-usecase-calculations.json",
+      "public_path": "code/frozen/finance-usecase-calculations.json",
+      "original_sha256": "8e6d2ae0790b8adcea16969ca737d629373a4a5d7c15ab0b5d0c219666c3acb1",
+      "public_sha256": "2044a29f7dd6c8b4001dc2716c39bc66eeb886426f4f2fbb6e9cd9280079b1e9",
+      "original_bytes": 11180,
+      "public_bytes": 11172,
+      "changes": [
+        "relative path and descriptive metadata normalization; mathematical values retained"
+      ]
+    }
+  ],
+  "hash_semantics": "Public identities refer to distributed bytes; compressed certificate original_sha256 denotes its uncompressed payload. Saved-bank creation and current reading have distinct scopes.",
+  "field_semantics": "NPZ components retain their exact binary dyadic values; no field regeneration during packaging.",
+  "raw_third_party_files": "No paper PDF, author code, raw CSV, external MATLAB, or private transcript is redistributed.",
+  "privacy_edition_scope": "Scientific values and arithmetic dependencies are retained without personal execution measurements."
+}

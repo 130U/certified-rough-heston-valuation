@@ -1,0 +1,945 @@
+{
+  "schema": "baseline_dependencies",
+  "files": [
+    {
+      "path": "continuous/adversarial-checks.json",
+      "bytes": 3471,
+      "sha256": "ee445e86f27d317f0b9033efbe74ced4492fb06cd9f16d8cc1ba785a91d93d98"
+    },
+    {
+      "path": "continuous/adversarial_checks.py",
+      "bytes": 6239,
+      "sha256": "5755cbec6f6b342bd7adbc9875a4ef0a9a594df9cbcd679352ca386c381e7969"
+    },
+    {
+      "path": "continuous/assembly-check.json",
+      "bytes": 698,
+      "sha256": "d6873df8ebd45a7754ce725fe5cb9d396f9de2a2fd7ca71e1f56d86159c2a17d"
+    },
+    {
+      "path": "continuous/audit_paths.py",
+      "bytes": 1511,
+      "sha256": "5799ffe1e9bb334b7b412013b00718163575cef31f19cebea2635a1c6c04b1f8"
+    },
+    {
+      "path": "continuous/fresh-residual-alpha-13_25-u0125.json",
+      "bytes": 1632,
+      "sha256": "c2057abd09abdcc99594d6b21a6391869da121800b33d586c54eba20dc19adf2"
+    },
+    {
+      "path": "continuous/fresh-residual-alpha-3_5-u0125.json",
+      "bytes": 1628,
+      "sha256": "dde4a7402c47f285fbef051429e05ff40794dfa6561ab50c3de13e6822df9ed7"
+    },
+    {
+      "path": "continuous/fresh-residual-alpha-9_10-u0125.json",
+      "bytes": 1626,
+      "sha256": "d6abc33fb4d8c572746cfc9e4cbcf530e0071bcac28c921c3727fb3e12b4504b"
+    },
+    {
+      "path": "continuous/full-structure-verification.json",
+      "bytes": 780,
+      "sha256": "160f4299fc6dc5af9567eb0bf0744a4e0312a9314684c747b9db8f4c91ce323b"
+    },
+    {
+      "path": "continuous/full_structure_verify.py",
+      "bytes": 2734,
+      "sha256": "b7cc09648e7cdd38fa2fa012f442c0a8fa2dc946c1a22d3b51051541ab30de24"
+    },
+    {
+      "path": "continuous/residual-fresh-subset.json",
+      "bytes": 1833,
+      "sha256": "cbc60a170d4087c371775173963d617eba1f3fe603649af3a8b4f0696592888c"
+    },
+    {
+      "path": "continuous/residual-spotcheck.json",
+      "bytes": 1833,
+      "sha256": "cbc60a170d4087c371775173963d617eba1f3fe603649af3a8b4f0696592888c"
+    },
+    {
+      "path": "continuous/residual_spotcheck.py",
+      "bytes": 3061,
+      "sha256": "316c263ba1e6cc8700cf1f942293e5ab744d8c39983971ad9e3dd7e5cbb2841a"
+    },
+    {
+      "path": "continuous/shared-fourier-independent-verification.json",
+      "bytes": 2235,
+      "sha256": "7372c43a57e82b24683d128f8877bf78bcf4856a4230f41c34408c8b9cbaba1e"
+    },
+    {
+      "path": "continuous/shared-fourier-nodes-alpha-13_25.json",
+      "bytes": 629783,
+      "sha256": "15c106b66c5419849d39fe5f4b567ac08b2398fc540402f06994b6385be3866c"
+    },
+    {
+      "path": "continuous/shared-fourier-nodes-alpha-3_5.json",
+      "bytes": 628370,
+      "sha256": "a98fb2591fc450277d639c7c954a107c70c3a9371fa20db400087192092c1ae2"
+    },
+    {
+      "path": "continuous/shared-fourier-nodes-alpha-9_10.json",
+      "bytes": 624300,
+      "sha256": "286fe81344db29e2d253a2a45156cc3d7124ef8e81249367692e8e4d77b6e399"
+    },
+    {
+      "path": "continuous/shared-fourier-spread.json",
+      "bytes": 10356,
+      "sha256": "a9582ddba4c82b80cfe85ce790c7035658cff1fffbedae185880815d8c00c7ee"
+    },
+    {
+      "path": "continuous/shared_fourier_spread.py",
+      "bytes": 8050,
+      "sha256": "91becb71037eb323fe671251663050d9d351ff71ef3d42e6586dbde240dfad4e"
+    },
+    {
+      "path": "continuous/source-immutability-final.json",
+      "bytes": 156,
+      "sha256": "72479e60f27aca9bfb8ec128b0a6fede8e3996c8f81798a11575d6b4863cb387"
+    },
+    {
+      "path": "continuous/source-inventory.json",
+      "bytes": 1501,
+      "sha256": "356377d283de66449c53c4e7b0ffa8611fb78e5c22e5736132e3d6f0f76e1b6e"
+    },
+    {
+      "path": "continuous/spread-decision-contract.json",
+      "bytes": 909,
+      "sha256": "a379687bf1f1e708015be438069c50d7c4aaf909b290838fefd3073f94e963e9"
+    },
+    {
+      "path": "continuous/spread-decisions.json",
+      "bytes": 6651,
+      "sha256": "11cc4773e29453add71498db6f61d7c87a791ccb05d79913f1b99234ae065fa0"
+    },
+    {
+      "path": "continuous/spread_decisions.py",
+      "bytes": 2554,
+      "sha256": "94633bcc55167fc87c5d52e832ef7458e3977b0216ecd69f742d6d66e0229fb8"
+    },
+    {
+      "path": "continuous/startup-independent.json",
+      "bytes": 107516,
+      "sha256": "55eb8621e9d738fd8b9bbae36d5f01de000ee3df65e62a0cc964108548c4ef58"
+    },
+    {
+      "path": "continuous/startup_independent.py",
+      "bytes": 4999,
+      "sha256": "c4f597b20fcf4c7640c71c56f8d9b35804f1e60a331f9f8153cb0fbde09d89a3"
+    },
+    {
+      "path": "continuous/verification.json",
+      "bytes": 157514,
+      "sha256": "e663e0a0996c3724a71b9148a1736979bdac6701bb58f9888d935e2b6c25e870"
+    },
+    {
+      "path": "continuous/verify_shared_fourier.py",
+      "bytes": 5427,
+      "sha256": "382afc4828159337967ae100388151b8168c7d6bf84a756cd5506204b9e4ed4a"
+    },
+    {
+      "path": "finite-history/bundle-execution-receipt.json",
+      "bytes": 7066,
+      "sha256": "7e5e2d2629a9d4660c1b41a8440da3ca4e867444ff553313e82992f45fa4b936"
+    },
+    {
+      "path": "finite-history/check-time-envelope.py",
+      "bytes": 8127,
+      "sha256": "971167cef971835dbde0de0c1a895795e24467aae0a7ec96984ed8e3c3dc7346"
+    },
+    {
+      "path": "finite-history/continuous-residual-with-time.py",
+      "bytes": 21687,
+      "sha256": "e7842a8c4f714ca36fd6f20771b6a2cd7e33e6e54eced756952799c9f75393b3"
+    },
+    {
+      "path": "finite-history/experiment-contract.json",
+      "bytes": 2186,
+      "sha256": "68888ed463c50736b976c98d1da000f05ff39c7f099df4d36936df8e764290ea"
+    },
+    {
+      "path": "finite-history/finite-history-independent-verification.json",
+      "bytes": 4151,
+      "sha256": "381a20d89fe3416f89b2a6b5975e9a5641318a443ea9dd9fb33ecf36b2166bc4"
+    },
+    {
+      "path": "finite-history/finite-history-nodes-alpha-13_25.json",
+      "bytes": 352076,
+      "sha256": "a0b2df22264e111b177541383eecf01bba63f47aac6296c3428f832a0c5ceca7"
+    },
+    {
+      "path": "finite-history/finite-history-nodes-alpha-3_5.json",
+      "bytes": 350788,
+      "sha256": "a02e181c9f4be41a127dc282874889b80babd5f17dc6f7b78e1d95b2773089bd"
+    },
+    {
+      "path": "finite-history/finite-history-nodes-alpha-9_10.json",
+      "bytes": 347854,
+      "sha256": "e92374215fb47acdc92425697f1009b4084014ee174dd6b8c6b1db90cc3ea167"
+    },
+    {
+      "path": "finite-history/finite-history-results.json",
+      "bytes": 71762,
+      "sha256": "17ab19b8620296ff3f73ba5807ec58bb1139efa66f09fffb2b0ce995c01376ae"
+    },
+    {
+      "path": "finite-history/finite-history.py",
+      "bytes": 7823,
+      "sha256": "7ac69c47ee50a0ac31945dc8860fa51181c9a1e0e2a9aece41bba93c3dabd457"
+    },
+    {
+      "path": "finite-history/fresh-all-node-time-residual.json",
+      "bytes": 120720,
+      "sha256": "741955be812fdc2fef7ba0acdcedf3809f9e17484d9407917f189f8b40e8fd7e"
+    },
+    {
+      "path": "finite-history/independent-time-local.json",
+      "bytes": 728295,
+      "sha256": "1d959fec351cd3d0b1a5ae4fa2f38a531959d1cafb2bc1e5bd921358e56e1d0a"
+    },
+    {
+      "path": "finite-history/independent-time-local.py",
+      "bytes": 20649,
+      "sha256": "743072491f8d4c9c3e58e82dbc97c4c0c9b915ab30c4847ff6a2e63ecb56274e"
+    },
+    {
+      "path": "finite-history/literature-ledger-readback.json",
+      "bytes": 2033,
+      "sha256": "b288ddf88998cdb94c2fa0b912c286624161a764a127ca1bf5aaa52115c49cf8"
+    },
+    {
+      "path": "finite-history/literature-ledger-readback.py",
+      "bytes": 8318,
+      "sha256": "1780bf335b1261efc592b3993c8ce3add3eb9855363184b6c5a7c5721268e9cc"
+    },
+    {
+      "path": "finite-history/make_portfolio_contract.py",
+      "bytes": 3579,
+      "sha256": "8c98b1f7c6b745b35a90754b9e7ae1d1c7f04bb44ca3cd6a64e3967a9c88c5a0"
+    },
+    {
+      "path": "finite-history/new-menu-floor.json",
+      "bytes": 210517,
+      "sha256": "ffa4657d5e13a9f3d34e644b4e0b3b2101418e636878d81236d83d5718fb83bf"
+    },
+    {
+      "path": "finite-history/optimal-upgrade-menu.json",
+      "bytes": 178172,
+      "sha256": "3b5bfb4338599a1c6c0961e2d11e9fcc612fece3246e9cda7236ddf6fd1afe28"
+    },
+    {
+      "path": "finite-history/portfolio-comparison.json",
+      "bytes": 331235,
+      "sha256": "f10f6c11babc54132442015730e3d88fc8a9323fc506566ea95a6d40a750e10c"
+    },
+    {
+      "path": "finite-history/portfolio-contract.json",
+      "bytes": 13071,
+      "sha256": "f1157204815543bf3000a7f0dd693640632c0892c4b20e7aaac71f36db8d654c"
+    },
+    {
+      "path": "finite-history/portfolio-experiments-baseline.py",
+      "bytes": 11302,
+      "sha256": "d396da579e3ae8c0e2b8b394429576014896b04fd09fedc8710df2d9dda3e057"
+    },
+    {
+      "path": "finite-history/portfolio-experiments.py",
+      "bytes": 13451,
+      "sha256": "4a276ef6e4388138c46139fe3aed5f608a0120790cc4d3fcca29621ea2a4f913"
+    },
+    {
+      "path": "finite-history/portfolio-report.py",
+      "bytes": 5763,
+      "sha256": "90dcaf4a2a04f7375e607e6dc1d689a3adf3e8f78847bac1f7adcb22882e2f14"
+    },
+    {
+      "path": "finite-history/portfolio-results-finite-history.json",
+      "bytes": 899114,
+      "sha256": "c53ffee0504a6c3f971bee1582d1d5be7d726c7936414640c441c7320676b206"
+    },
+    {
+      "path": "finite-history/portfolio-results.json",
+      "bytes": 886965,
+      "sha256": "a86e06c1392fa451a1b7652518e83f3778be971f1dd3e69bbc19177c22c38599"
+    },
+    {
+      "path": "finite-history/portfolio-verification.json",
+      "bytes": 2021,
+      "sha256": "998d8a6a016ccfe6f040d1e5a5c8bab70167f0a8ce5919d6a643b8078f79ead1"
+    },
+    {
+      "path": "finite-history/retain-time-envelopes.py",
+      "bytes": 2916,
+      "sha256": "b66e953edf29b582ffb62ed6b5525344fff88b53592bde3c12728f3bf67dc67c"
+    },
+    {
+      "path": "finite-history/run_evidence.py",
+      "bytes": 6195,
+      "sha256": "e0e45a24aba191a6b55f91f997d7c72e76193bffc3bb771ce17b1ea75aa62888"
+    },
+    {
+      "path": "finite-history/time-envelope-verification.json",
+      "bytes": 1876,
+      "sha256": "3d6cfa8a5fd7cd910f119c2d57c0a743b948f9a41cdaf89d39a96aae396de709"
+    },
+    {
+      "path": "finite-history/time-instrumentation.json",
+      "bytes": 1590,
+      "sha256": "38ca760ccfc252212e17fedb974c388c151adfd386f551de95cc9d4c3c46f06b"
+    },
+    {
+      "path": "finite-history/time-local-contract.json",
+      "bytes": 2709,
+      "sha256": "fe265459bd0678fee092dd853899f527ae45e69e7d70cab1f3b6788900ccd1de"
+    },
+    {
+      "path": "finite-history/time-local-node-ledger.json",
+      "bytes": 3626035,
+      "sha256": "3d417473528ef560d90b400c8f460868040314689aa43686947bdc0c26c79a66"
+    },
+    {
+      "path": "finite-history/time-local-propagation.py",
+      "bytes": 10029,
+      "sha256": "048195414b4025910b51628025954738da4f77d502abdeb248177a239a59cbd4"
+    },
+    {
+      "path": "finite-history/time-local-results.json",
+      "bytes": 4069,
+      "sha256": "4581a1a516dbf9cee560068dfd2e26a7b22c98c5cd1c9d6c814d087bc3e446a9"
+    },
+    {
+      "path": "finite-history/time-local-weights.json",
+      "bytes": 22215,
+      "sha256": "45ca9692352c872cf18bdd6aaaeffc7331eb47636753fee830f42ad900446e37"
+    },
+    {
+      "path": "finite-history/time-residual-alpha-13_25.npz",
+      "bytes": 32251218,
+      "sha256": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de"
+    },
+    {
+      "path": "finite-history/verify-finite-history-independent.py",
+      "bytes": 11478,
+      "sha256": "b16f8624c670fabec6a7010e82150e27659bae66c051b1f9a066ba0c33ae7453"
+    },
+    {
+      "path": "finite-history/verify-portfolio-identities.py",
+      "bytes": 3828,
+      "sha256": "b59de60efe8418e532f9dd26f415e3ea677ef9b0817621823b813b7b119863b3"
+    },
+    {
+      "path": "frontier/independent-omission.json",
+      "bytes": 33667,
+      "sha256": "26738d4de4b74d310d4c5329a8442bd42124907dd24f285b06c2af420d1b702f"
+    },
+    {
+      "path": "frontier/independent-omission.py",
+      "bytes": 29520,
+      "sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
+    },
+    {
+      "path": "frontier/independent-transfer-supplement.json",
+      "bytes": 7009,
+      "sha256": "3c1d77eeb79c3084fa0298e919f341778a0f6f5a54d5a6b2bd379067d9f2306e"
+    },
+    {
+      "path": "frontier/independent-transfer-supplement.py",
+      "bytes": 20019,
+      "sha256": "b65d1b67fcb443eb5f3dc04d616e0c162d52d2616d9ee9403969aba047cf4171"
+    },
+    {
+      "path": "frontier/independent-transfer.json",
+      "bytes": 7724,
+      "sha256": "b35190dc7e380bf901ecea1cc87c4a217871b4569aac6b0739c51eb9625f4008"
+    },
+    {
+      "path": "frontier/independent-transfer.py",
+      "bytes": 16657,
+      "sha256": "af62f3d106ec8b24db38be07c4605f9efd9399209cbc6d3868e4769da10ce007"
+    },
+    {
+      "path": "frontier/omission-aggregate.py",
+      "bytes": 13357,
+      "sha256": "819da08d646f704009f133ea3180d60f7d240aa4a701ab84dd57ac8d4e9c52f4"
+    },
+    {
+      "path": "frontier/omission-contract.json",
+      "bytes": 2121,
+      "sha256": "5fcf46941221c42bc249efdaa551f5a718ffcd36db462acfb4c3d763ae55b017"
+    },
+    {
+      "path": "frontier/omission-full-execution.json",
+      "bytes": 273,
+      "sha256": "4e47119a3a9348cb29dacaa212f9ae7765fbb9a97f8acf3ce42ee89b30ef4864"
+    },
+    {
+      "path": "frontier/omission-instrumentation.json",
+      "bytes": 1951,
+      "sha256": "116fc9d3a2c3fa6d5e5f1aba249ae161237cf60f847a17f846cecaa1bc91fe29"
+    },
+    {
+      "path": "frontier/omission-node-ledger.json",
+      "bytes": 4730928,
+      "sha256": "221e92d0cb9aca8d96590b2a381a41941463001adb53da465a9b80a3348c43e9"
+    },
+    {
+      "path": "frontier/omission-preflight.json",
+      "bytes": 5838,
+      "sha256": "5d8a9a8bea039fe21d0cb3f5ba96aff4a1598a0e3285e92916c7d89b56f4f8bc"
+    },
+    {
+      "path": "frontier/omission-propagation-contract.json",
+      "bytes": 1143,
+      "sha256": "d7d0bf04930804608d4e140474c4f52fb6e5486bdecc80219de383f6be2849be"
+    },
+    {
+      "path": "frontier/omission-residual-generator.py",
+      "bytes": 21945,
+      "sha256": "d619cbb8c3a5772a9779e87a97ce4dbc30f6b249c5529686b46b511b3ff9002d"
+    },
+    {
+      "path": "frontier/omission-residual-high.json",
+      "bytes": 115744,
+      "sha256": "3d75579c087521dfa1612363c9a19621e6d6ec042c9accf5720f3712ffcb5b0d"
+    },
+    {
+      "path": "frontier/omission-residual-preflight.json",
+      "bytes": 119571,
+      "sha256": "14b6d77b5a010d82564178d840ac874cfab660ee3b306ee6d608eb2f8d6657d2"
+    },
+    {
+      "path": "frontier/omission-results.json",
+      "bytes": 10123,
+      "sha256": "3f9ce1f9f612619eaea0d974c7ccad172225c34b1120ada0d47e8a8844b8bbd5"
+    },
+    {
+      "path": "frontier/omission-run.py",
+      "bytes": 1299,
+      "sha256": "aced27318ccc2096293661e721524d2622a2603dd5664419366323e8fe438af8"
+    },
+    {
+      "path": "frontier/omission-time-high.npz",
+      "bytes": 32125455,
+      "sha256": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db"
+    },
+    {
+      "path": "frontier/omission-time-preflight.npz",
+      "bytes": 253745,
+      "sha256": "0d3c00492e072df24718bc1a273f8107cb24219323b579404892aa48c56b52b7"
+    },
+    {
+      "path": "frontier/omission-verification.json",
+      "bytes": 35674,
+      "sha256": "7e92a59a78c4cf6264a379e43c61910b0d7a08156991d38ed000102374494447"
+    },
+    {
+      "path": "frontier/omission-verify.py",
+      "bytes": 8064,
+      "sha256": "fd5bcf24f139104962fe8a68c7a4a5f4c6969dcd3d31d9bbdeb0a03b88342ad8"
+    },
+    {
+      "path": "frontier/run_frontier.py",
+      "bytes": 6234,
+      "sha256": "5389538788a26b1d8decc4a62df93285d16c726bc7bb6440e0708136f6e03b07"
+    },
+    {
+      "path": "frontier/theory-evidence-ledger.json",
+      "bytes": 3507,
+      "sha256": "28ced69873cec9b649353dd3f7ab114bed55ed6188c827f023f16a486f7bca15"
+    },
+    {
+      "path": "frontier/transfer-coefficients.json",
+      "bytes": 1029060,
+      "sha256": "3c20b65a1503725b5bc43e125071ce1ee02b638b95cb221a5190d136b3b04fb2"
+    },
+    {
+      "path": "frontier/transfer-contract.json",
+      "bytes": 4291,
+      "sha256": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3"
+    },
+    {
+      "path": "frontier/transfer-exponents-alpha-13_25.json",
+      "bytes": 735907,
+      "sha256": "9ab2c61105fafa280a0b1f5d8fbd5793b5a49bcd834fca36aae27f8dc49db701"
+    },
+    {
+      "path": "frontier/transfer-exponents-alpha-3_5.json",
+      "bytes": 721560,
+      "sha256": "ffde03ddfa7e7c57ef5a279c4b3ca763ddeef4127af08ce4c71ae374dae0450f"
+    },
+    {
+      "path": "frontier/transfer-exponents-alpha-9_10.json",
+      "bytes": 571192,
+      "sha256": "443b4ac1d009734b13ee70689ae4daab81feb593dc55ce6af431b93839ec05fc"
+    },
+    {
+      "path": "frontier/transfer-fast-output.json",
+      "bytes": 1316,
+      "sha256": "38574e54728d6b7dd4755ec7ffb926fea2b83f4a4cb991992fe8ecc6c8b036cb"
+    },
+    {
+      "path": "frontier/transfer-node-ledger-alpha-13_25.json",
+      "bytes": 809897,
+      "sha256": "e307d854962ace5900ff3557723e9fbfdf51916e6f69941bc652a15a161f945a"
+    },
+    {
+      "path": "frontier/transfer-node-ledger-alpha-3_5.json",
+      "bytes": 808397,
+      "sha256": "ad8e7097c651019f56420ec8befd4bf1d210df8d51bb93ac632b85bdd31cd36c"
+    },
+    {
+      "path": "frontier/transfer-node-ledger-alpha-9_10.json",
+      "bytes": 804548,
+      "sha256": "f61153bb458f62acacafc18b57d1bc3b3103fa27a066425e45e0d18496c960c9"
+    },
+    {
+      "path": "frontier/transfer-preflight.json",
+      "bytes": 3016,
+      "sha256": "35c4caebd081c4624f4daad4883874f6ff4b75436668912229957864e28d1104"
+    },
+    {
+      "path": "frontier/transfer-pricing.py",
+      "bytes": 16646,
+      "sha256": "7f829919cdcc6b680480473f4833b0df22d67e9156ba8869476f609bba4963f2"
+    },
+    {
+      "path": "frontier/transfer-quarter-fullref.py",
+      "bytes": 10754,
+      "sha256": "c95ba6899cbfb31df70c56218c09b180e115255ea345106c024a6147667ff496"
+    },
+    {
+      "path": "frontier/transfer-quarter-time-local.py",
+      "bytes": 6704,
+      "sha256": "94d906fbceadb55be831374e10f1472b0072a1e0ef7160cc7aaa39bf711b81da"
+    },
+    {
+      "path": "frontier/transfer-results.json",
+      "bytes": 15796,
+      "sha256": "0aa6eb416bf7ef80a389d4014b2eb292c4f97747df68c689176799310a00346f"
+    },
+    {
+      "path": "frontier/transfer-supplement-contract.json",
+      "bytes": 2300,
+      "sha256": "929d94d280e35a04a6692d428c5366eb42eba3b9a8a90c98c6745be56d471a95"
+    },
+    {
+      "path": "frontier/transfer-supplement-exponents.json",
+      "bytes": 1201252,
+      "sha256": "a7663f9119a66882369caef144b324c9d78a049fa4b270000c4c0322c6411389"
+    },
+    {
+      "path": "frontier/transfer-supplement-node-ledger.json",
+      "bytes": 1396883,
+      "sha256": "5631bd2f68bc578a7ad4192c423265673c66b71c918f1fcffdcd7d3b0daefe87"
+    },
+    {
+      "path": "frontier/transfer-supplement-results.json",
+      "bytes": 5613,
+      "sha256": "89453ea3d5f223bf01b67b2d92b96b1cffc56425b67311407d87668608bd0209"
+    },
+    {
+      "path": "frontier/transfer-tail-alpha-13_25.json",
+      "bytes": 342480,
+      "sha256": "ba988891c2d45d6eadbca71586caf002cbfa6d3d9f946430f284a1ade39e472a"
+    },
+    {
+      "path": "frontier/transfer-tail-alpha-3_5.json",
+      "bytes": 342459,
+      "sha256": "2501c654c0157281813abda88de29373bfbe8530917674e428f30aa2ba9b7d78"
+    },
+    {
+      "path": "frontier/transfer-tail-alpha-9_10.json",
+      "bytes": 342218,
+      "sha256": "0ea033ff015082c92e7f425742df70df4ea7b34b29bfaac0f2a459d1c024bf95"
+    },
+    {
+      "path": "frontier/transfer-time-local-contract.json",
+      "bytes": 1712,
+      "sha256": "6da8bb679d69b8eef7bf0bfb8cc7dce5499d85241827ff4ff46757019dc76973"
+    },
+    {
+      "path": "frontier/transfer-time-local-nodes.json",
+      "bytes": 815021,
+      "sha256": "2c0b6b15996577ed713ee316a7323ab70ff62b2615ccb4bed321ec0ac3d54016"
+    },
+    {
+      "path": "frontier/transfer-time-local-results.json",
+      "bytes": 4119,
+      "sha256": "d809ff1da6ae2e09960592c92233f40388d2b8ed05d3f073fd954e76b4e4a24c"
+    },
+    {
+      "path": "frontier/transfer-time-local-weights.json",
+      "bytes": 23261,
+      "sha256": "a06bde364488c942a275df6e3cea146f80d4ed26bd27ce8a333959a208dbf545"
+    },
+    {
+      "path": "reference/code/classical/field-cell-integrals.json",
+      "bytes": 2511575,
+      "sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4"
+    },
+    {
+      "path": "reference/code/classical/field-independent-readback.json",
+      "bytes": 1616,
+      "sha256": "bebbfb5026c0da1d8c1cc498e348b946d53e99d2a6be1ad5d650e40bf395f7da"
+    },
+    {
+      "path": "reference/code/classical/field-result.json",
+      "bytes": 5403,
+      "sha256": "83ea632a837ea2caa1a2ac1f49ce72960726180d53a6dfbb08f988ce1c9b2003"
+    },
+    {
+      "path": "reference/code/classical/field-validation.json",
+      "bytes": 1340,
+      "sha256": "a2077fc50599ebff7578040d75652f69e05024505f9fcf4ba362bbf48f5607f0"
+    },
+    {
+      "path": "reference/code/classical/input-validation.json",
+      "bytes": 622,
+      "sha256": "aaa7597d6b58f8fb58adf467fb299f4a83b62ac27cb727fd0d3f0a4621b35b38"
+    },
+    {
+      "path": "reference/code/classical/MANIFEST.json",
+      "bytes": 1932,
+      "sha256": "5d382fbd3246e076b21376f3abde88540a4e6a2fbaaf139e38f4e638606a9f46"
+    },
+    {
+      "path": "reference/code/classical/model_bounds.py",
+      "bytes": 4814,
+      "sha256": "9b17bf2070fb8727f91baa8409080b11866d04fea99e29f402fc99b439e2d9cd"
+    },
+    {
+      "path": "reference/code/classical/provenance.json",
+      "bytes": 3672,
+      "sha256": "131a0291c6f48316e7f9d85b95fcaa77ba8f9d916ae93848b5a1c39b9ae289cc"
+    },
+    {
+      "path": "reference/code/classical/terminal-validation.json",
+      "bytes": 9436,
+      "sha256": "ea4818bf549cf99fdd04024185882dd0434456d7b15df1fa5a672cd74f1d6705"
+    },
+    {
+      "path": "reference/code/classical/terminal767-historical-review.json",
+      "bytes": 9785,
+      "sha256": "50da30b21217ceed2986604d76341017fb219698d5a752fa1da88c830d572911"
+    },
+    {
+      "path": "reference/code/classical/terminal767-input.json",
+      "bytes": 312370,
+      "sha256": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18"
+    },
+    {
+      "path": "reference/code/classical/terminal767-result.json",
+      "bytes": 35194,
+      "sha256": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f"
+    },
+    {
+      "path": "reference/code/classical/verify_field_receipt.py",
+      "bytes": 4633,
+      "sha256": "486bd5a1b45ead98e4e9b65cda76664106e9c5e761dcfad7727687155a9571c5"
+    },
+    {
+      "path": "reference/code/classical/verify_input_bounds.py",
+      "bytes": 1965,
+      "sha256": "45dc5eb5390895d6f1be1460a58b043b5e988e21dc6dbc3ec9dd071bd04808f8"
+    },
+    {
+      "path": "reference/code/classical/verify_package.py",
+      "bytes": 1676,
+      "sha256": "f987469630ab72a6e0c8ae59fb9b599bfc091757ff0af0cb32f2cd618f89d00a"
+    },
+    {
+      "path": "reference/code/classical/verify_terminal.py",
+      "bytes": 9947,
+      "sha256": "ad6688c359026b85b5355d880d07254e6861dd84fa5978ae83d26b140a81d4a3"
+    },
+    {
+      "path": "reference/code/frozen/calibration-contract-finite-T05.json",
+      "bytes": 4464,
+      "sha256": "1888859aded912419b7d777fb2037a867abfbcb728511a6a1dd16351a053414d"
+    },
+    {
+      "path": "reference/code/frozen/compact-rough-layer-certificate.json.gz",
+      "bytes": 36204342,
+      "sha256": "dab153c2d6f4fe9d0f9ca31a2bb136eb4e3b004799c8542489a785b4da5f61bf"
+    },
+    {
+      "path": "reference/code/frozen/compact-rough-layer-independent-check.json",
+      "bytes": 1491,
+      "sha256": "121eccd9a216e18f30839560cd4b2a9451b0d233fba8a8ae71f519cce039b367"
+    },
+    {
+      "path": "reference/code/frozen/direct-tail-certificate.json",
+      "bytes": 719251,
+      "sha256": "bdbe6a73df03d90b68992763f98ce6927648e171b54bf46a308c8f867c30ab58"
+    },
+    {
+      "path": "reference/code/frozen/f8-price-betap9-u64-.json",
+      "bytes": 560077,
+      "sha256": "bb95d01f5ba0ea7c8f76745ef26ca152519a4938b9e536715d5b447370664404"
+    },
+    {
+      "path": "reference/code/frozen/f8-price-point052-u64.json",
+      "bytes": 562417,
+      "sha256": "1386efc46940e572497d17543d87547846e05eeaaef883e83cb059490b695f40"
+    },
+    {
+      "path": "reference/code/frozen/f8-price-point06-u64.json",
+      "bytes": 561795,
+      "sha256": "561a36f00a1f99f0597853e131cd5c86b7f141fb66ce6f873a013a50e14a8375"
+    },
+    {
+      "path": "reference/code/frozen/field-input-guards-betap9-u80.json",
+      "bytes": 377,
+      "sha256": "441226a427abeeded2086a9d093a6801938f7facd95fa844d7b3ba946ef8bd28"
+    },
+    {
+      "path": "reference/code/frozen/field-residual-betap9-u64-.json",
+      "bytes": 121823,
+      "sha256": "d4872bea4adbce637e980aec4d4ddb1124f7f31af0c47b4e84ba3d1457dc9203"
+    },
+    {
+      "path": "reference/code/frozen/field-residual-certificate-point052-u64.json",
+      "bytes": 120569,
+      "sha256": "5ff2ae7c766fca89ebeb98e4eaaf482ed183a6423a89ec943c1f867e9db562ed"
+    },
+    {
+      "path": "reference/code/frozen/field-residual-certificate-point06-u64.json",
+      "bytes": 121084,
+      "sha256": "1d2161905c6e3a110e77822a4c6269734ceda9bc99d41f2917aa327d49165575"
+    },
+    {
+      "path": "reference/code/frozen/finance-usecase-calculations.json",
+      "bytes": 11172,
+      "sha256": "2044a29f7dd6c8b4001dc2716c39bc66eeb886426f4f2fbb6e9cd9280079b1e9"
+    },
+    {
+      "path": "reference/code/frozen/finite-candidate-calibration-result.json",
+      "bytes": 17933,
+      "sha256": "73bb6d2d71a50850948d857fe1a6779c5bc1831d0658fc28ca58d2e634e9a761"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap52-u128-exponent-certificate.json",
+      "bytes": 930295,
+      "sha256": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap52-u128-forward-weights.json",
+      "bytes": 297606,
+      "sha256": "2dc569bdfad4c5c0bad13511646ce1aa04f38d48a667bbd87d7eecbc09a54c04"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap52-u128.json",
+      "bytes": 1383,
+      "sha256": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap52-u128.npz",
+      "bytes": 32146571,
+      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
+      "bytes": 929758,
+      "sha256": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap6-u128-forward-weights.json",
+      "bytes": 297898,
+      "sha256": "7178d422841aeb591b52885cdf38b2466ff0ae41fea8576788310c7935620075"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap6-u128.json",
+      "bytes": 1381,
+      "sha256": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap6-u128.npz",
+      "bytes": 32139003,
+      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u128.json",
+      "bytes": 1381,
+      "sha256": "39d283ce1fb1ead09a09bae9c7a41a1d52af27069d8638646ebd90ff9dce6780"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u128.npz",
+      "bytes": 32105032,
+      "sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
+      "bytes": 582686,
+      "sha256": "80d9f25f579b9c9cffd5b07dabdb357c6a5636d2e2cb2ee79e3abdeb8a7ffb09"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u80-forward-weights.json",
+      "bytes": 150025,
+      "sha256": "a262cb14cc6d4b0fc027b3dd34deffd147a5ab69f700f247cd910299106d6500"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u80.json",
+      "bytes": 1375,
+      "sha256": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029"
+    },
+    {
+      "path": "reference/code/frozen/fixed-field-betap9-u80.npz",
+      "bytes": 10050564,
+      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8"
+    },
+    {
+      "path": "reference/code/frozen/frozen-field-input-validation.json",
+      "bytes": 598,
+      "sha256": "475af43fae1ace7e39b582adb406721b8a04ee13654c61cc208a7c70dc0196ad"
+    },
+    {
+      "path": "reference/code/frozen/frozen-pade-numeric-output.json",
+      "bytes": 8147,
+      "sha256": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039"
+    },
+    {
+      "path": "reference/code/frozen/normalized-quote-bands.json",
+      "bytes": 24870,
+      "sha256": "2936539fa6e5a4d586a9f17f6f0b654ac2680b8b643dafa5630a32f6d0ad2249"
+    },
+    {
+      "path": "reference/code/frozen/residual-node-certificate-betap9-u64-.json",
+      "bytes": 130047,
+      "sha256": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5"
+    },
+    {
+      "path": "reference/code/frozen/residual-node-certificate-point052-u64.json",
+      "bytes": 129256,
+      "sha256": "82f97fbc77bea669f4547ac6465aae0aa8baba006c106c0ba71a611d4d920f9b"
+    },
+    {
+      "path": "reference/code/frozen/residual-node-certificate-point06-u64.json",
+      "bytes": 129512,
+      "sha256": "5b498420752d7f532bb41649a43d357b790ca6cb81bf82b7b737589ad0e28f64"
+    },
+    {
+      "path": "reference/code/make-manifest.py",
+      "bytes": 1229,
+      "sha256": "30a4c201e4229d218f00107e311aa20852bf5f0b334845e21e7bd4ebe53e1e97"
+    },
+    {
+      "path": "reference/code/MANIFEST.json",
+      "bytes": 13308,
+      "sha256": "cdeb49df0a11bc006068fcec92cfbd81358f93a3ec145c3af8e4ce6d02116f87"
+    },
+    {
+      "path": "reference/code/PROVENANCE.json",
+      "bytes": 27231,
+      "sha256": "722c51758a06273f7c0fa1b5b9f915ceca0ba9600f4e14ceeccd63f976b61d08"
+    },
+    {
+      "path": "reference/code/QA-summary.json",
+      "bytes": 3099,
+      "sha256": "ec6b5cc1073ba471414812de58efa16aa80648de0be11259ebcaaafb39788c91"
+    },
+    {
+      "path": "reference/code/replay-semantic-check.py",
+      "bytes": 3061,
+      "sha256": "2065efcb30448043ae0e870045ef144b318fec6d39c7140f9c0ab74a15101bdb"
+    },
+    {
+      "path": "reference/code/requirements.txt",
+      "bytes": 14,
+      "sha256": "b278f1339f69781eefd2f8fc58f11e4c07a5fbd9134324562c8c0f65599b34c5"
+    },
+    {
+      "path": "reference/code/run.py",
+      "bytes": 18392,
+      "sha256": "24119a1e37af3df9109e521903ac6e4f25916f9317596e3fedd45a1c9ed77a60"
+    },
+    {
+      "path": "reference/code/src/calibration-field-input-check.py",
+      "bytes": 1337,
+      "sha256": "35317d122e0cbc77300d3d1e6a0602d53d1f9dc3046ca0d91187d81704057a00"
+    },
+    {
+      "path": "reference/code/src/calibration-interval-aggregate.py",
+      "bytes": 8241,
+      "sha256": "77664106c45e31376c7e20425228ba08819df6eb223eb52ee440b4d0c6da4ee4"
+    },
+    {
+      "path": "reference/code/src/certify-field-residual.py",
+      "bytes": 21226,
+      "sha256": "609a07b7a4104763a2a3a537e35b48e227518b0109436f22acef752512791507"
+    },
+    {
+      "path": "reference/code/src/combined-field-derivative.py",
+      "bytes": 3391,
+      "sha256": "0a21b2abfc4b68a0897cf99fdf8059607c114f04c7f431b3ae73768687221f57"
+    },
+    {
+      "path": "reference/code/src/compact-halfplane-certificate-partial.py",
+      "bytes": 7497,
+      "sha256": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0"
+    },
+    {
+      "path": "reference/code/src/compute-finance-usecase.py",
+      "bytes": 6940,
+      "sha256": "df9f41f0861ae43488e960fda68d80948afd15f2d179e10cb7add17017cbbbde"
+    },
+    {
+      "path": "reference/code/src/direct-tail-certificate.py",
+      "bytes": 3759,
+      "sha256": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5"
+    },
+    {
+      "path": "reference/code/src/exact-forward-moments.py",
+      "bytes": 5091,
+      "sha256": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1"
+    },
+    {
+      "path": "reference/code/src/exponent-field-certificate.py",
+      "bytes": 4608,
+      "sha256": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6"
+    },
+    {
+      "path": "reference/code/src/f8-node-price-aggregate.py",
+      "bytes": 21433,
+      "sha256": "3dbe7e1735a01aec98036a9c4fe1a47a306052e0c514ad3f04ee8662da1393b4"
+    },
+    {
+      "path": "reference/code/src/field-residual-diagnostic.py",
+      "bytes": 4813,
+      "sha256": "e655b7feb700b6301859974f5a6cb8e030fe67c7982e57aa0e7316b1f1989d2e"
+    },
+    {
+      "path": "reference/code/src/finite-candidate-objective-aggregate.py",
+      "bytes": 13777,
+      "sha256": "529c4579f2c36c8f8b0a9ddfb8431139ee1f959f23e6c9649a26c47be146aab9"
+    },
+    {
+      "path": "reference/code/src/freeze-pade-output.py",
+      "bytes": 3314,
+      "sha256": "7d78ca16e474f49dec35a942876f2445172e450480c14e180a0ef53307a08c19"
+    },
+    {
+      "path": "reference/code/src/interval-pade-certificate.py",
+      "bytes": 9085,
+      "sha256": "090e37eccd449f7064f77c2eafebac42137ec240b5ae0f1632348077364b72c2"
+    },
+    {
+      "path": "reference/code/src/price-profile-diagnostic.py",
+      "bytes": 6706,
+      "sha256": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b"
+    },
+    {
+      "path": "reference/code/src/residual-certificate-adapter.py",
+      "bytes": 6603,
+      "sha256": "dd3b3ff1af96d408351ba63e54adf31d1991202b3397fdfb85cf5ea1d70ab449"
+    },
+    {
+      "path": "reference/code/src/save-fixed-field.py",
+      "bytes": 3171,
+      "sha256": "5c8cf9c5b1d096b38cc5db3e2340efece72ce8f2be584258e092d2b016178f46"
+    },
+    {
+      "path": "reference/code/src/solver-diagnostic.py",
+      "bytes": 6659,
+      "sha256": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb"
+    }
+  ]
+}

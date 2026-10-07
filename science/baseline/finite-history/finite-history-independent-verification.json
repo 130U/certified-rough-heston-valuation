@@ -1,0 +1,111 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_HISTORY_ARITHMETIC_AND_POLICY_AUDIT",
+  "records": [
+    {
+      "alpha": "13/25",
+      "independently_reconstructed_radii": 1025,
+      "eligible_nodes": 513,
+      "old_policy_receipts_and_primary_trace_exactly_match": true,
+      "alternative_coefficient_full_upper_confirmed": true,
+      "full_signed_endpoints_exactly_match": true
+    },
+    {
+      "alpha": "3/5",
+      "independently_reconstructed_radii": 1025,
+      "eligible_nodes": 513,
+      "old_policy_receipts_and_primary_trace_exactly_match": true,
+      "alternative_coefficient_full_upper_confirmed": true,
+      "full_signed_endpoints_exactly_match": true
+    },
+    {
+      "alpha": "9/10",
+      "independently_reconstructed_radii": 1025,
+      "eligible_nodes": 513,
+      "old_policy_receipts_and_primary_trace_exactly_match": true,
+      "alternative_coefficient_full_upper_confirmed": true,
+      "full_signed_endpoints_exactly_match": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "alpha": "13/25",
+      "corruption": "zero_centre",
+      "rejected": true
+    },
+    {
+      "alpha": "13/25",
+      "corruption": "remove_true_tail",
+      "rejected": true
+    },
+    {
+      "alpha": "13/25",
+      "corruption": "delete_node",
+      "rejected": true
+    },
+    {
+      "alpha": "13/25",
+      "corruption": "omit_nu",
+      "rejected": true
+    },
+    {
+      "alpha": "3/5",
+      "corruption": "zero_centre",
+      "rejected": true
+    },
+    {
+      "alpha": "3/5",
+      "corruption": "remove_true_tail",
+      "rejected": true
+    },
+    {
+      "alpha": "3/5",
+      "corruption": "delete_node",
+      "rejected": true
+    },
+    {
+      "alpha": "3/5",
+      "corruption": "omit_nu",
+      "rejected": true
+    },
+    {
+      "alpha": "9/10",
+      "corruption": "zero_centre",
+      "rejected": true
+    },
+    {
+      "alpha": "9/10",
+      "corruption": "remove_true_tail",
+      "rejected": true
+    },
+    {
+      "alpha": "9/10",
+      "corruption": "delete_node",
+      "rejected": true
+    },
+    {
+      "alpha": "9/10",
+      "corruption": "omit_nu",
+      "rejected": true
+    }
+  ],
+  "finite_history_theorem_still_external_proof_obligation": true,
+  "shared_dependencies": "Original exact moment/exponential/trigonometric/interval primitives and saved upstream field/residual certificates; no import of finite-history.py",
+  "input_sha256": {
+    "finite-history-results.json": "17ab19b8620296ff3f73ba5807ec58bb1139efa66f09fffb2b0ce995c01376ae",
+    "experiment-contract.json": "68888ed463c50736b976c98d1da000f05ff39c7f099df4d36936df8e764290ea",
+    "frozen-pade-numeric-output.json": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039",
+    "f8-price-point052-u64.json": "1386efc46940e572497d17543d87547846e05eeaaef883e83cb059490b695f40",
+    "fixed-field-betap52-u128-exponent-certificate.json": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b",
+    "finite-history-nodes-alpha-13_25.json": "a0b2df22264e111b177541383eecf01bba63f47aac6296c3428f832a0c5ceca7",
+    "shared-fourier-nodes-alpha-13_25.json": "15c106b66c5419849d39fe5f4b567ac08b2398fc540402f06994b6385be3866c",
+    "f8-price-point06-u64.json": "561a36f00a1f99f0597853e131cd5c86b7f141fb66ce6f873a013a50e14a8375",
+    "fixed-field-betap6-u128-exponent-certificate.json": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359",
+    "finite-history-nodes-alpha-3_5.json": "a02e181c9f4be41a127dc282874889b80babd5f17dc6f7b78e1d95b2773089bd",
+    "shared-fourier-nodes-alpha-3_5.json": "a98fb2591fc450277d639c7c954a107c70c3a9371fa20db400087192092c1ae2",
+    "f8-price-betap9-u64-.json": "bb95d01f5ba0ea7c8f76745ef26ca152519a4938b9e536715d5b447370664404",
+    "fixed-field-betap9-u80-exponent-certificate.json": "80d9f25f579b9c9cffd5b07dabdb357c6a5636d2e2cb2ee79e3abdeb8a7ffb09",
+    "finite-history-nodes-alpha-9_10.json": "e92374215fb47acdc92425697f1009b4084014ee174dd6b8c6b1db90cc3ea167",
+    "shared-fourier-nodes-alpha-9_10.json": "286fe81344db29e2d253a2a45156cc3d7124ef8e81249367692e8e4d77b6e399"
+  },
+  "implementation_sha256": "b16f8624c670fabec6a7010e82150e27659bae66c051b1f9a066ba0c33ae7453"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE_QUARTER_FULL128_TIME_LOCAL_SAME_CENTRE_ACCOUNT",
+  "T": "1/4",
+  "alpha": "13/25",
+  "bins": 128,
+  "used_nodes": 1025,
+  "contract_sha256": "6da8bb679d69b8eef7bf0bfb8cc7dce5499d85241827ff4ff46757019dc76973",
+  "source_sha256": "94d906fbceadb55be831374e10f1472b0072a1e0ef7160cc7aaa39bf711b81da",
+  "input_sha256": {
+    "transfer-time-local-contract.json": "6da8bb679d69b8eef7bf0bfb8cc7dce5499d85241827ff4ff46757019dc76973",
+    "transfer-supplement-results.json": "89453ea3d5f223bf01b67b2d92b96b1cffc56425b67311407d87668608bd0209",
+    "transfer-supplement-node-ledger.json": "5631bd2f68bc578a7ad4192c423265673c66b71c918f1fcffdcd7d3b0daefe87",
+    "transfer-supplement-exponents.json": "a7663f9119a66882369caef144b324c9d78a049fa4b270000c4c0322c6411389",
+    "time-residual-alpha-13_25.npz": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de",
+    "omission-time-high.npz": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db",
+    "fresh-all-node-time-residual.json": "741955be812fdc2fef7ba0acdcedf3809f9e17484d9407917f189f8b40e8fd7e",
+    "omission-residual-high.json": "3d75579c087521dfa1612363c9a19621e6d6ec042c9accf5720f3712ffcb5b0d",
+    "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1"
+  },
+  "component_sha256": {
+    "transfer-time-local-weights.json": "a06bde364488c942a275df6e3cea146f80d4ed26bd27ce8a333959a208dbf545",
+    "transfer-time-local-nodes.json": "2c0b6b15996577ed713ee316a7323ab70ff62b2615ccb4bed321ec0ac3d54016"
+  },
+  "unchanged_signed_centre_exact": "-89942610496135404690502329/2535301200456458802993406410752",
+  "unchanged_full_remainder_exact": "22868852240446846674194859/2535301200456458802993406410752",
+  "joint_node_support_exact": "17303815244069443748200911279372296487124337037962149465/1606938044258990275541962092341162602522202993782792835301376",
+  "signed_marginal_node_support_exact": "24564240170555297906447620855429133175957371639100802905/1606938044258990275541962092341162602522202993782792835301376",
+  "joint_full_radius_exact": "31798672378636010705403332043450197809361162342622330457/1606938044258990275541962092341162602522202993782792835301376",
+  "signed_marginal_full_radius_exact": "39059097305121864863650041619507034498194196943760983897/1606938044258990275541962092341162602522202993782792835301376",
+  "joint_true_minus_actual_fast_interval_exact": [
+    "-88806574469395956505274417452934624862894352861568990809/1606938044258990275541962092341162602522202993782792835301376",
+    "-25209229712123935094467753366034229244172028176324329895/1606938044258990275541962092341162602522202993782792835301376"
+  ],
+  "joint_absolute_bound_index_points_exact": "18746446224468200646567892603392328766182957628607182976844237/80346902212949513777098104617058130126110149689139641765068800",
+  "signed_marginal_absolute_bound_index_points_exact": "20279071103474879058394665267930894593338789401665344747454157/80346902212949513777098104617058130126110149689139641765068800",
+  "display_joint_bound_upper_9dp": "233318843/1000000000",
+  "budget_decisions": [
+    {
+      "budget_index_points": "1/4",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "NOT_CERTIFIED"
+    },
+    {
+      "budget_index_points": "1/2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "1",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    },
+    {
+      "budget_index_points": "2",
+      "joint_status": "CERTIFIED",
+      "signed_marginal_status": "CERTIFIED"
+    }
+  ],
+  "scope": "Single separately frozen descriptive exploration after global quarter results are known. Same actual fast output/full128 reference/centre/strip/infinite tail/arithmetic; exact128-bin positive full-history weights. No further variants.",
+  "cost_scope": "This replay charges the new quarter grouping, moment weights, time-local propagation and full aggregation only. Continuous residual generation and full quarter reference computation are separately recorded upstream costs."
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Classical supplement only; independent of the rough-Heston evidence manifest.",
+  "files": {
+    "code/classical/field-cell-integrals.json": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4",
+    "code/classical/field-independent-readback.json": "bebbfb5026c0da1d8c1cc498e348b946d53e99d2a6be1ad5d650e40bf395f7da",
+    "code/classical/field-result.json": "83ea632a837ea2caa1a2ac1f49ce72960726180d53a6dfbb08f988ce1c9b2003",
+    "code/classical/field-validation.json": "a2077fc50599ebff7578040d75652f69e05024505f9fcf4ba362bbf48f5607f0",
+    "code/classical/input-validation.json": "aaa7597d6b58f8fb58adf467fb299f4a83b62ac27cb727fd0d3f0a4621b35b38",
+    "code/classical/model_bounds.py": "9b17bf2070fb8727f91baa8409080b11866d04fea99e29f402fc99b439e2d9cd",
+    "code/classical/provenance.json": "131a0291c6f48316e7f9d85b95fcaa77ba8f9d916ae93848b5a1c39b9ae289cc",
+    "code/classical/terminal-validation.json": "ea4818bf549cf99fdd04024185882dd0434456d7b15df1fa5a672cd74f1d6705",
+    "code/classical/terminal767-historical-review.json": "50da30b21217ceed2986604d76341017fb219698d5a752fa1da88c830d572911",
+    "code/classical/terminal767-input.json": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18",
+    "code/classical/terminal767-result.json": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f",
+    "code/classical/verify_field_receipt.py": "486bd5a1b45ead98e4e9b65cda76664106e9c5e761dcfad7727687155a9571c5",
+    "code/classical/verify_input_bounds.py": "45dc5eb5390895d6f1be1460a58b043b5e988e21dc6dbc3ec9dd071bd04808f8",
+    "code/classical/verify_package.py": "f987469630ab72a6e0c8ae59fb9b599bfc091757ff0af0cb32f2cd618f89d00a",
+    "code/classical/verify_terminal.py": "ad6688c359026b85b5355d880d07254e6861dd84fa5978ae83d26b140a81d4a3",
+    "manuscript/merged-heston-en.md": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
+  }
+}

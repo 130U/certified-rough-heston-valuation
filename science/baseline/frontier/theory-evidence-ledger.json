@@ -1,0 +1,59 @@
+{
+  "scope": "Bounded primary-full-text checks for a conditional analytical extension; not a universal priority audit or a new numerical/model-existence certificate.",
+  "date": "2026-10-07",
+  "sources": [
+    {
+      "id": "LiLiu2018",
+      "primary_url": "https://arxiv.org/pdf/1612.05103",
+      "pages": 33,
+      "locations": [
+        "Proposition 3.11(ii), PDF page20 (zero-based19): convexity and mollified Caputo L1 convergence assumption",
+        "PDF page30 (zero-based29): extension to vector-valued functions"
+      ],
+      "what_is_prior": "Generalized Caputo definitions, convexity and vector extension",
+      "local_use": "AC and W1,1 approximation explicitly supply the convergence assumption",
+      "limitation": "Author-hosted SIAM PDF returned an internal browsing error in this run; primary arXiv full text was inspected instead."
+    },
+    {
+      "id": "Kopteva2021v2",
+      "primary_url": "https://arxiv.org/pdf/2105.05848v2",
+      "pages": 8,
+      "locations": [
+        "Equation (2.1), Remark 2.1 and Theorem 2.2, PDF p2",
+        "Lemma 2.8 and initial-value correction Corollary 2.5, PDF p3"
+      ],
+      "what_is_prior": "Positive fractional resolvent and pointwise residual comparison",
+      "local_use": "We supply the complex quadratic dissipation and derivative-based pricing composition, without claiming a new general inverse or comparison principle",
+      "limitation": "The paper's PDE hypotheses are not silently transplanted; our stated AC scalar/complex proof closes its own assumptions."
+    },
+    {
+      "id": "FranzKopteva2023",
+      "primary_url": "https://arxiv.org/pdf/2211.06272v2",
+      "pages": 29,
+      "locations": [
+        "Section 2: positive inverse",
+        "Section 2.2 and Corollary 2.12: semilinear divided-difference comparison",
+        "Sections 3-5: residual evaluation, implementation and adaptive algorithm"
+      ],
+      "what_is_prior": "Semilinear residual comparison and reliable adaptive implementation",
+      "local_use": "No universal originality or optimal-runtime claim for adaptive certification",
+      "limitation": "The present proof does not reproduce their convergence rates or certify a new mesh algorithm."
+    },
+    {
+      "id": "ElEuchRosenbaum2017preprint",
+      "primary_url": "https://arxiv.org/pdf/1703.05049v1",
+      "pages": 37,
+      "locations": [
+        "Conditions (4)-(5), PDF p4",
+        "Proposition 3.1 and fractional curve relation (14), PDF pp11-12",
+        "Corollary 3.3 and realizable forward-curve class, PDF pp12-14"
+      ],
+      "what_is_prior": "Rough-Heston forward-variance representation and model-admissibility structure",
+      "local_use": "The q>=0 analytical extension and declining-affine example do not replace stochastic-model admissibility",
+      "limitation": "An affine curve on [0,T] alone is not a globally realized variance process or a martingale certificate."
+    }
+  ],
+  "local_proof": "manuscript/merged-heston-en.md",
+  "numerical_status": "No new numerical conclusion asserted by these theory files; upstream generation and full same-output verification remain separate obligations.",
+  "originality_boundary": "The precise conditional connection and interface are presented; general Caputo convexity, Mittag-Leffler positivity, fractional semigroup identities, support functions and recentering are established tools. Bounded source checking does not establish universal novelty."
+}

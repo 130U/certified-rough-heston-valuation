@@ -1,9 +1,0 @@
-{
-  "status": "EXACT_STORED_DYADIC_FIELD",
-  "beta_exact_decimal": "13/25",
-  "T": "1/2",
-  "sha256": "cc571645199d02c10ebc7c49775bfdfb8091035e7d303533cba15143ea0966d7",
-  "n": 2048,
-  "frequency_upper": 64,
-  "definition": "Gbar=nu*c+A1*t^alpha+A2*t^(2alpha)+LGlin; Hhat=I^alpha Gbar"
-}

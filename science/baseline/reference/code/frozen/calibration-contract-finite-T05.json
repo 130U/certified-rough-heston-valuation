@@ -1,0 +1,96 @@
+{
+  "contract_id": "SPX-IV-normalized-finite-alpha-3-T05-reference",
+  "status": "FROZEN_EXPERIMENT_DEFINITION_PRICE_CERTIFICATES_PENDING",
+  "language_label": "Normalized IV-defined experiment with fixed-parameter profile and three exact roughness candidates.",
+  "data_commit": "860049da2b7486fe8aa509061eff23cc28c2ef89",
+  "data_files": [
+    "https://github.com/WoonJeng/Dataset-for-SPX-Calibration-of-Option-Approximations-under-Rough-Heston-model/blob/860049da2b7486fe8aa509061eff23cc28c2ef89/spx_pade_data.csv",
+    "https://github.com/WoonJeng/Dataset-for-SPX-Calibration-of-Option-Approximations-under-Rough-Heston-model/blob/860049da2b7486fe8aa509061eff23cc28c2ef89/spx_decomp.csv"
+  ],
+  "sample_rows": "First maturity T=0.5 only, twelve strikes; no inference for remaining three maturities",
+  "quote_conversion": {
+    "discount_D": "1",
+    "forward_F": "4221.86",
+    "normalization": "C/(D F)",
+    "option_type": "synthetic normalized call defined by IV, irrespective of missing original call/put flag",
+    "T_interpretation": "Exact CSV decimal mathematical time; no inferred calendar expiry or day count",
+    "IV_interpretation": "Exact CSV decimal defines experiment; no inferred unrounded vendor quote",
+    "price_mid_target": "arithmetic mean of exact BS prices from bid-IV and ask-IV",
+    "reported_mid_IV": "preserved secondary diagnostic, never silently substituted for price-mid",
+    "band_target": "exact BS(bid-IV), exact BS(ask-IV)"
+  },
+  "profile_parameters": {
+    "vary": {
+      "alpha_finite_candidates": [
+        "0.52",
+        "0.6",
+        "0.9"
+      ]
+    },
+    "fixed": {
+      "rho": "-0.7445",
+      "nu": "0.2897",
+      "lambda_R": "0",
+      "kappa": "0"
+    },
+    "roughness_threshold": {
+      "alpha_c": "0.6",
+      "H_c": "0.1",
+      "H_equals": "alpha - 1/2"
+    },
+    "curve_frozen_as_function": "xi_star(t)=theta+(V0-theta)*E_alpha0(-lambda_xi*t^alpha0)",
+    "curve_parameters_fixed": {
+      "alpha0": "0.5286",
+      "V0": "0.0262",
+      "theta": "0.0721",
+      "lambda_xi": "0.5037"
+    },
+    "curve_rule": "xi_star is never recomputed with candidate alpha; lambda_xi is not inserted into Riccati lambda_R",
+    "Riccati": "D^alpha h=-(a^2+i*a)/2+i*a*rho*nu*h+nu^2*h^2/2, h(0)=0",
+    "transform": "phi(a,T)=exp(integral_0^T xi_star(T-s)*D^alpha h(a,s) ds)",
+    "published_parameter_origin": "Jeng-Kilicman 2021 Table 1 G-Pade; rounded author fitted values used only to freeze an explicit profile, not estimated true parameters"
+  },
+  "objectives": {
+    "primary": "J_mid(alpha)=1/(2*12)*sum_first_maturity_i (normalized_true_model_call_i(alpha)-price_mid_target_i)^2",
+    "secondary": "J_band(alpha)=1/(2*12)*sum_first_maturity_i distance(normalized_true_model_call_i(alpha),[BS_bid_i,BS_ask_i])^2",
+    "weights": "all w_i=1/12; nonnegative and sum to one",
+    "optimizer_scope": "global over three exact candidates only",
+    "no_silent_replacement": "Original author IV-RMSE and any first-maturity subset are distinct declared experiments"
+  },
+  "certification_outputs_required": [
+    "point true-price enclosures for every required finite candidate including Riccati, exponent, quadrature and Fourier tail errors",
+    "each finite candidate objective interval [L_j,U_j] and finite global objective range [min L_j,min U_j]",
+    "finite near-optimal alpha/H set and finite smooth-class exclusion only when strict objective gap is actually certified",
+    "all data, arithmetic, parameter and solver budgets stated; no stored author model-IV vector used as a true-model witness"
+  ],
+  "optional_second_contract_not_activated": {
+    "warning": "No optional continuous/2D inference transferred from finite result"
+  },
+  "real_market_metadata": "missing actual F,D,dividends,cash prices,timestamp,calendar expiry/day count and IV inversion convention are not imputed",
+  "reuse_boundary": "article CC BY 4.0 does not establish a repository/data license; preserve attribution and keep frozen raw inputs with provenance; redistribution license remains unverified",
+  "selected_row_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "scope_change": "Explicit finite-candidate first-maturity calibration; no continuous argmin/range/identification conclusion. Continuous contract preserved separately.",
+  "candidate_alpha_exact": [
+    "0.52",
+    "0.6",
+    "0.9"
+  ],
+  "candidate_H_exact": [
+    "0.02",
+    "0.1",
+    "0.4"
+  ]
+}

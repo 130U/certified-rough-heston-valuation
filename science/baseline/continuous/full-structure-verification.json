@@ -1,0 +1,13 @@
+{
+  "status": "PASS_ALL_211241_EXACT_STRUCTURAL_LEAF_RECOMPUTATIONS",
+  "required_leaves": 211241,
+  "signs_recomputed": 211241,
+  "source_sha256": {
+    "reference/code/frozen/compact-rough-layer-certificate.json.gz": "dab153c2d6f4fe9d0f9ca31a2bb136eb4e3b004799c8542489a785b4da5f61bf",
+    "reference/code/src/compact-halfplane-certificate-partial.py": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0"
+  },
+  "generator": "executed public raw-polynomial 100-bit outward dyadic interval generator",
+  "scope": "Each complete leaf alpha/eta rectangle, all 3 B margins, 6 negative-D margins, raw determinant margin, and R real margin. Not a different implementation of transcendental primitives.",
+  "all_regenerated_records_identical": true,
+  "return_code": 0
+}

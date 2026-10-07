@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SEPARATE_DESCRIPTIVE_128_BIN_ALL_CLOSED_CELL_CONTROL",
+  "bins": 128,
+  "source_closed_residual_entries": 2100735,
+  "weighted_residual_terms_checked": 65664,
+  "new_continuous_residual_entries_generated": 0,
+  "candidate_sha256": "b5ddd6dfe8cfbfa433cb9b84653f1e1c3186b9e1cd9b64f88bec39582a50305f",
+  "reader_sha256": "1ea3024d31ca7d22941b488c3a1490c17cfc5d93fea854d436c5c27f12ece2a4",
+  "main_grid_unchanged": true,
+  "sharing_boundary": "inherits the separately validated entire N2048 point proof; independently rebuilds all 128 bin masses, all intersecting closed-cell maxima, 513 tightened radii, all price and returned-output bounds; same rigorous primitives"
+}

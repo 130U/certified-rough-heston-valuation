@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_SECONDARY_SAVED_EVIDENCE_AUDIT",
+  "reader_sha256": "657ea556119ae7c81e75ddee95f5e78c6151205ca5ff0f8ce278eb53e50e30e7",
+  "source_identity_manifest_sha256": "4dde9c6f44577a37f645f1801d8dc93578404a2038a3acc47fefd505ba2a6d72",
+  "derived_objects": [
+    {
+      "path": "quarter-exact-ledger.json",
+      "sha256": "b8de29065db875f59a78e44c3c339f0f2ff886f3338c12701a017269eb36e35e"
+    },
+    {
+      "path": "nearby-pair-resolution.json",
+      "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
+    },
+    {
+      "path": "portfolio-budget-counts.json",
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "path": "configuration-registry.json",
+      "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
+    },
+    {
+      "path": "frozen-output-centre-account.json",
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "path": "proof-obligation-matrix.json",
+      "sha256": "32c2b41bf3b1454d90f8ec1a37bbde58d3ea32905ab76a83056ea1a2d7d3a8e0"
+    }
+  ],
+  "work_counts": {
+    "original_quarter_finite_support_nodes": 1025,
+    "nearby_pair_mode_decisions": 40,
+    "portfolio_complete_threshold_endpoints": 504,
+    "original_configurations": 11,
+    "deliberate_corruptions_rejected": 9
+  },
+  "negative_controls": [
+    {
+      "control": "manufacture_quarter_finite_omission",
+      "rejected": true
+    },
+    {
+      "control": "erase_paid_reference_arithmetic",
+      "rejected": true
+    },
+    {
+      "control": "delete_nearby_quadratic_gap_charge",
+      "rejected": true
+    },
+    {
+      "control": "claim_unresolved_pair_as_separated",
+      "rejected": true
+    },
+    {
+      "control": "lose_endpoint_equality_at_budget",
+      "rejected": true
+    },
+    {
+      "control": "relabel_new_bank_as_four_subcells",
+      "rejected": true
+    },
+    {
+      "control": "ignore_new_reference_centre_payment",
+      "rejected": true
+    },
+    {
+      "control": "erase_BL_reference_floor",
+      "rejected": true
+    },
+    {
+      "control": "misstate_full_as_continuous_generation",
+      "rejected": true
+    }
+  ],
+  "scope": "Separate exact secondary derivations from frozen reference evidence. Original continuous-bank derivative validity and strict elementary/moment libraries remain inherited; no new full original pipeline replay is claimed. Used/finite nearby linear supports and coordinate remainders are independently reassembled with the disclosed strict arithmetic primitive, which is not a separately implemented transcendental library."
+}

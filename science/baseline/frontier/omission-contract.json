@@ -1,0 +1,41 @@
+{
+  "contract_id": "same-fast-output-alpha052-extended-reference-u128-reference",
+  "written_utc": "2026-10-07T07:14:27.202826+00:00",
+  "frozen_before_new_high_frequency_financial_results": true,
+  "known_baseline": "Earlier u<=64 reference with deliberate finite omissions; finite-history/time-bin bounds and known 1/.5/.25-point budgets are disclosed prior evidence.",
+  "alpha": "13/25",
+  "T": "1/2",
+  "strikes": [
+    "4400",
+    "4500"
+  ],
+  "weights": [
+    "1",
+    "-1"
+  ],
+  "h": "1/8",
+  "fast_output": "Unchanged original saved actual Padé u<=64 output; no solver refit and no changed fast implementation.",
+  "reference": "Original exact stored fixed-field-betap52-u128 function, now nonzero reference transform at all 1025 nodes through128.",
+  "new_reference_requires_new_signed_center": true,
+  "old_omitted_CF_radius_not_reusable_as_new_reference_error": true,
+  "node_radius_rule": "At a newly nonzero node use certified exponent-to-CF error or B_true+|phi_reference|. The old true-minus-zero radius by itself is invalid.",
+  "retained_remainders": [
+    "original analytic strip",
+    "original true infinite tail beyond128",
+    "outward new reference arithmetic"
+  ],
+  "budgets_index_points": [
+    "1",
+    "1/2",
+    "1/4"
+  ],
+  "source_sha256": {
+    "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "fixed-field-betap52-u128.json": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b",
+    "fixed-field-betap52-u128-exponent-certificate.json": "432675f3e67fcbc4b8cf15ea0c9425668fe88712c25475720635dc320921699b",
+    "field-residual-certificate-point052-u64.json": "5ff2ae7c766fca89ebeb98e4eaaf482ed183a6423a89ec943c1f867e9db562ed",
+    "f8-price-point052-u64.json": "1386efc46940e572497d17543d87547846e05eeaaef883e83cb059490b695f40",
+    "frozen-pade-numeric-output.json": "7ec93f07283935ae0c6be68c561403dde8177040447a1ff05732055d0e99f039"
+  },
+  "failure_policy": "Retain failed budgets and half-plane/residual failures. No inferred true pricing bias, profitability, minimum runtime or zero-cost receipt generation."
+}

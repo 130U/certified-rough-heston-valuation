@@ -1,0 +1,504 @@
+{
+  "status": "CERTIFIED_QUOTE_CONVERSION_ONLY_NO_MODEL_PRICE_OR_CALIBRATION_CERTIFICATE",
+  "experiment": "Normalized calls defined by exact CSV IV decimals with D=1, F=4221.86",
+  "source_commit": "860049da2b7486fe8aa509061eff23cc28c2ef89",
+  "source_files": {
+    "README.md": {
+      "bytes": 2023,
+      "sha256": "9d14b58da8a3ad729751bc59cfeeabba68b35adfb17dabb76a6139616978e10c",
+      "git_blob_sha1": "743860130169fc577b1c963129e64520a8d73257"
+    },
+    "spx_pade_data.csv": {
+      "bytes": 5946,
+      "sha256": "f75e1077c4b99bc6b7aacf3b7451111cea14af4c97a14b1213042fbe825da0b3",
+      "git_blob_sha1": "a6bbc7e1f5111864855ad6c0ca9bb18dc471fc15"
+    },
+    "spx_decomp.csv": {
+      "bytes": 2615,
+      "sha256": "d2445a2583aa1ec9b123e230ebbbcba9b27e7a52628c3096a9c260e559c0bc27",
+      "git_blob_sha1": "c1d25f3e5f91f82c7eb665b949e001bc8b47b428"
+    },
+    "matlabplot.m": {
+      "bytes": 1898,
+      "sha256": "39865b2b40db5f3748cfba55d959f6dfb41dfa1f18aa6c90aebbd3b500998484",
+      "git_blob_sha1": "a8b39959979a1d0c2882bcf79b5b90a45078d11c"
+    }
+  },
+  "arithmetic": {
+    "binary_dyadic_bits": 80,
+    "log_terms": 16,
+    "cdf_terms": 30,
+    "pi": "Machin rational alternating-series enclosure",
+    "input_decimals": "exact rationals defining the declared experiment"
+  },
+  "rows": [
+    {
+      "row_id": 1,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "3700",
+      "moneyness_fraction": "185000/211093",
+      "bid_iv_decimal_input": "0.21588",
+      "ask_iv_decimal_input": "0.21887",
+      "reported_mid_iv_decimal_input": "0.21738",
+      "normalized_bid": {
+        "lower_fraction": "167915332651813249186783/1208925819614629174706176",
+        "upper_fraction": "167915332651813249186799/1208925819614629174706176",
+        "lower_decimal_outward": "0.138896307719972292363723077735",
+        "upper_decimal_outward": "0.138896307719972292363736312626"
+      },
+      "normalized_ask": {
+        "lower_fraction": "5267930576028633482245/37778931862957161709568",
+        "upper_fraction": "168573778432916271431855/1208925819614629174706176",
+        "lower_decimal_outward": "0.139440961304518047078791233894",
+        "upper_decimal_outward": "0.139440961304518047078803641604"
+      },
+      "price_mid_target": {
+        "lower_fraction": "168244555542364760309311/1208925819614629174706176",
+        "upper_fraction": "168244555542364760309327/1208925819614629174706176",
+        "lower_decimal_outward": "0.139168634512245169721256742224",
+        "upper_decimal_outward": "0.139168634512245169721269977115"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "21030603636668037736495/151115727451828646838272",
+        "upper_fraction": "168244829093344301891975/1208925819614629174706176",
+        "lower_decimal_outward": "0.139168860788311991408333965303",
+        "upper_decimal_outward": "0.139168860788311991408346373013"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "273550979541582633/1208925819614629174706176",
+        "upper_fraction": "34193872442697833/151115727451828646838272",
+        "lower_decimal_outward": "0.000000226276066821687063988189",
+        "upper_decimal_outward": "0.000000226276066821687089630789"
+      }
+    },
+    {
+      "row_id": 2,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "3800",
+      "moneyness_fraction": "190000/211093",
+      "bid_iv_decimal_input": "0.20618",
+      "ask_iv_decimal_input": "0.20894",
+      "reported_mid_iv_decimal_input": "0.20756",
+      "normalized_bid": {
+        "lower_fraction": "143774555404630727302991/1208925819614629174706176",
+        "upper_fraction": "143774555404630727303007/1208925819614629174706176",
+        "lower_decimal_outward": "0.118927524809141660725586662037",
+        "upper_decimal_outward": "0.118927524809141660725599896928"
+      },
+      "normalized_ask": {
+        "lower_fraction": "2257236295388571083011/18889465931478580854784",
+        "upper_fraction": "72231561452434274656361/604462909807314587353088",
+        "lower_decimal_outward": "0.119497094495772489364776672179",
+        "upper_decimal_outward": "0.119497094495772489364791561431"
+      },
+      "price_mid_target": {
+        "lower_fraction": "144118839154749638307847/1208925819614629174706176",
+        "upper_fraction": "144118839154749638307865/1208925819614629174706176",
+        "lower_decimal_outward": "0.119212309652457075045181253518",
+        "upper_decimal_outward": "0.119212309652457075045196142770"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "36029564108731301367581/302231454903657293676544",
+        "upper_fraction": "36029564108731301367585/302231454903657293676544",
+        "lower_decimal_outward": "0.119211827637915753897896474246",
+        "upper_decimal_outward": "0.119211827637915753897909709137"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "-582719824432837541/1208925819614629174706176",
+        "upper_fraction": "-582719824432837507/1208925819614629174706176",
+        "lower_decimal_outward": "-0.000000482014541321147299668523",
+        "upper_decimal_outward": "-0.000000482014541321147271544381"
+      }
+    },
+    {
+      "row_id": 3,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "3900",
+      "moneyness_fraction": "195000/211093",
+      "bid_iv_decimal_input": "0.19522",
+      "ask_iv_decimal_input": "0.19769",
+      "reported_mid_iv_decimal_input": "0.19646",
+      "normalized_bid": {
+        "lower_fraction": "120323828451347937446485/1208925819614629174706176",
+        "upper_fraction": "60161914225673968723251/604462909807314587353088",
+        "lower_decimal_outward": "0.099529538123111406201996381535",
+        "upper_decimal_outward": "0.099529538123111406202010443606"
+      },
+      "normalized_ask": {
+        "lower_fraction": "121010044079720383741587/1208925819614629174706176",
+        "upper_fraction": "121010044079720383741605/1208925819614629174706176",
+        "lower_decimal_outward": "0.100097162386931987125735223141",
+        "upper_decimal_outward": "0.100097162386931987125750112393"
+      },
+      "price_mid_target": {
+        "lower_fraction": "30166734066383540148509/302231454903657293676544",
+        "upper_fraction": "60333468132767080297027/604462909807314587353088",
+        "lower_decimal_outward": "0.099813350255021696663865802338",
+        "upper_decimal_outward": "0.099813350255021696663880691590"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "15083497391731770551263/151115727451828646838272",
+        "upper_fraction": "120667979133854164410119/1208925819614629174706176",
+        "lower_decimal_outward": "0.099814212895477449567325474774",
+        "upper_decimal_outward": "0.099814212895477449567337882484"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "521434160001908025/604462909807314587353088",
+        "upper_fraction": "1042868320003816083/1208925819614629174706176",
+        "lower_decimal_outward": "0.000000862640455752903444783185",
+        "upper_decimal_outward": "0.000000862640455752903472080146"
+      }
+    },
+    {
+      "row_id": 4,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4000",
+      "moneyness_fraction": "200000/211093",
+      "bid_iv_decimal_input": "0.18351",
+      "ask_iv_decimal_input": "0.18586",
+      "reported_mid_iv_decimal_input": "0.18469",
+      "normalized_bid": {
+        "lower_fraction": "97846107961030459927863/1208925819614629174706176",
+        "upper_fraction": "48923053980515229963941/604462909807314587353088",
+        "lower_decimal_outward": "0.080936403519134853574676699051",
+        "upper_decimal_outward": "0.080936403519134853574692415484"
+      },
+      "normalized_ask": {
+        "lower_fraction": "98560785846145373853057/1208925819614629174706176",
+        "upper_fraction": "98560785846145373853073/1208925819614629174706176",
+        "lower_decimal_outward": "0.081527571209922310414733110782",
+        "upper_decimal_outward": "0.081527571209922310414746345673"
+      },
+      "price_mid_target": {
+        "lower_fraction": "24550861725896979222615/302231454903657293676544",
+        "upper_fraction": "49101723451793958445239/604462909807314587353088",
+        "lower_decimal_outward": "0.081231987364528581994704904916",
+        "upper_decimal_outward": "0.081231987364528581994719794168"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "24551194528543526906067/302231454903657293676544",
+        "upper_fraction": "49102389057087053812143/604462909807314587353088",
+        "lower_decimal_outward": "0.081233088516116704320940180713",
+        "upper_decimal_outward": "0.081233088516116704320955069966"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "665605293095366895/604462909807314587353088",
+        "upper_fraction": "665605293095366913/604462909807314587353088",
+        "lower_decimal_outward": "0.000001101151588122326220386545",
+        "upper_decimal_outward": "0.000001101151588122326250165049"
+      }
+    },
+    {
+      "row_id": 5,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4100",
+      "moneyness_fraction": "205000/211093",
+      "bid_iv_decimal_input": "0.17137",
+      "ask_iv_decimal_input": "0.17348",
+      "reported_mid_iv_decimal_input": "0.17243",
+      "normalized_bid": {
+        "lower_fraction": "19170575177305775387657/302231454903657293676544",
+        "upper_fraction": "76682300709223101550647/1208925819614629174706176",
+        "lower_decimal_outward": "0.063430112472630633650198443587",
+        "upper_decimal_outward": "0.063430112472630633650214160020"
+      },
+      "normalized_ask": {
+        "lower_fraction": "77369968504372142068001/1208925819614629174706176",
+        "upper_fraction": "4835623031523258879251/75557863725914323419136",
+        "lower_decimal_outward": "0.063998937940655006938407060414",
+        "upper_decimal_outward": "0.063998937940655006938419468124"
+      },
+      "price_mid_target": {
+        "lower_fraction": "38513067303398810904657/604462909807314587353088",
+        "upper_fraction": "19256533651699405452333/302231454903657293676544",
+        "lower_decimal_outward": "0.063714525206642820294302338411",
+        "upper_decimal_outward": "0.063714525206642820294317227663"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "19256926839783059328479/302231454903657293676544",
+        "upper_fraction": "77027707359132237313931/1208925819614629174706176",
+        "lower_decimal_outward": "0.063715826156882361751750470579",
+        "upper_decimal_outward": "0.063715826156882361751762878289"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "196594041826938073/151115727451828646838272",
+        "upper_fraction": "1572752334615504617/1208925819614629174706176",
+        "lower_decimal_outward": "0.000001300950239541457433242917",
+        "upper_decimal_outward": "0.000001300950239541457460539878"
+      }
+    },
+    {
+      "row_id": 6,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4200",
+      "moneyness_fraction": "210000/211093",
+      "bid_iv_decimal_input": "0.15882",
+      "ask_iv_decimal_input": "0.16094",
+      "reported_mid_iv_decimal_input": "0.15988",
+      "normalized_bid": {
+        "lower_fraction": "57181466004028617318857/1208925819614629174706176",
+        "upper_fraction": "28590733002014308659435/604462909807314587353088",
+        "lower_decimal_outward": "0.047299400075892519329272379766",
+        "upper_decimal_outward": "0.047299400075892519329283133115"
+      },
+      "normalized_ask": {
+        "lower_fraction": "3618791822427677459423/75557863725914323419136",
+        "upper_fraction": "28950334579421419675391/604462909807314587353088",
+        "lower_decimal_outward": "0.047894310982041817504399495269",
+        "upper_decimal_outward": "0.047894310982041817504411075798"
+      },
+      "price_mid_target": {
+        "lower_fraction": "14385266895358932083703/302231454903657293676544",
+        "upper_fraction": "28770533790717864167413/604462909807314587353088",
+        "lower_decimal_outward": "0.047596855528967168416835523927",
+        "upper_decimal_outward": "0.047596855528967168416847104457"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "57541068876671503494137/1208925819614629174706176",
+        "upper_fraction": "57541068876671503494151/1208925819614629174706176",
+        "lower_decimal_outward": "0.047596856600361090313721604081",
+        "upper_decimal_outward": "0.047596856600361090313733184610"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "1295235775159311/1208925819614629174706176",
+        "upper_fraction": "1295235775159339/1208925819614629174706176",
+        "lower_decimal_outward": "0.000000001071393921896874499624",
+        "upper_decimal_outward": "0.000000001071393921896897660683"
+      }
+    },
+    {
+      "row_id": 7,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4300",
+      "moneyness_fraction": "215000/211093",
+      "bid_iv_decimal_input": "0.14676",
+      "ask_iv_decimal_input": "0.14803",
+      "reported_mid_iv_decimal_input": "0.14739",
+      "normalized_bid": {
+        "lower_fraction": "40088301228896837606103/1208925819614629174706176",
+        "upper_fraction": "40088301228896837606119/1208925819614629174706176",
+        "lower_decimal_outward": "0.033160265566729178234042348303",
+        "upper_decimal_outward": "0.033160265566729178234055583194"
+      },
+      "normalized_ask": {
+        "lower_fraction": "40518102455808635702313/1208925819614629174706176",
+        "upper_fraction": "40518102455808635702329/1208925819614629174706176",
+        "lower_decimal_outward": "0.033515788808882122226461681413",
+        "upper_decimal_outward": "0.033515788808882122226474916304"
+      },
+      "price_mid_target": {
+        "lower_fraction": "314868764393380755111/9444732965739290427392",
+        "upper_fraction": "2518950115147046040889/75557863725914323419136",
+        "lower_decimal_outward": "0.033338027187805650230252014858",
+        "upper_decimal_outward": "0.033338027187805650230265249749"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "20150748318042199231173/604462909807314587353088",
+        "upper_fraction": "40301496636084398462361/1208925819614629174706176",
+        "lower_decimal_outward": "0.033336616674240076982226877057",
+        "upper_decimal_outward": "0.033336616674240076982239284767"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "-852603134169095939/604462909807314587353088",
+        "upper_fraction": "-1705206268338191847/1208925819614629174706176",
+        "lower_decimal_outward": "-0.000001410513565573248038372691",
+        "upper_decimal_outward": "-0.000001410513565573248012730092"
+      }
+    },
+    {
+      "row_id": 8,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4400",
+      "moneyness_fraction": "220000/211093",
+      "bid_iv_decimal_input": "0.13584",
+      "ask_iv_decimal_input": "0.13701",
+      "reported_mid_iv_decimal_input": "0.13643",
+      "normalized_bid": {
+        "lower_fraction": "13043189201380911996445/604462909807314587353088",
+        "upper_fraction": "26086378402761823992909/1208925819614629174706176",
+        "lower_decimal_outward": "0.021578146466486597254570137432",
+        "upper_decimal_outward": "0.021578146466486597254585853864"
+      },
+      "normalized_ask": {
+        "lower_fraction": "13228782575206581308815/604462909807314587353088",
+        "upper_fraction": "26457565150413162617649/1208925819614629174706176",
+        "lower_decimal_outward": "0.021885184947780397644798509094",
+        "upper_decimal_outward": "0.021885184947780397644814225526"
+      },
+      "price_mid_target": {
+        "lower_fraction": "6567992944146873326315/302231454903657293676544",
+        "upper_fraction": "26271971776587493305279/1208925819614629174706176",
+        "lower_decimal_outward": "0.021731665707133497449684323263",
+        "upper_decimal_outward": "0.021731665707133497449700039695"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "13136742970162556554275/604462909807314587353088",
+        "upper_fraction": "13136742970162556554285/604462909807314587353088",
+        "lower_decimal_outward": "0.021732918194021487380444255558",
+        "upper_decimal_outward": "0.021732918194021487380460799171"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "1514163737619803271/1208925819614629174706176",
+        "upper_fraction": "757081868809901655/604462909807314587353088",
+        "lower_decimal_outward": "0.000001252486887989930744215863",
+        "upper_decimal_outward": "0.000001252486887989930776475908"
+      }
+    },
+    {
+      "row_id": 9,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4500",
+      "moneyness_fraction": "225000/211093",
+      "bid_iv_decimal_input": "0.12709",
+      "ask_iv_decimal_input": "0.12835",
+      "reported_mid_iv_decimal_input": "0.12772",
+      "normalized_bid": {
+        "lower_fraction": "15748145542162785764845/1208925819614629174706176",
+        "upper_fraction": "1968518192770348220609/151115727451828646838272",
+        "lower_decimal_outward": "0.013026560676140445245308200435",
+        "upper_decimal_outward": "0.013026560676140445245330534312"
+      },
+      "normalized_ask": {
+        "lower_fraction": "8046723922295380657757/604462909807314587353088",
+        "upper_fraction": "16093447844590761315537/1208925819614629174706176",
+        "lower_decimal_outward": "0.013312188046178788876671108163",
+        "upper_decimal_outward": "0.013312188046178788876690133319"
+      },
+      "price_mid_target": {
+        "lower_fraction": "15920796693376773540179/1208925819614629174706176",
+        "upper_fraction": "15920796693376773540205/1208925819614629174706176",
+        "lower_decimal_outward": "0.013169374361159617060989240709",
+        "upper_decimal_outward": "0.013169374361159617061010747406"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "7960292519405980677099/604462909807314587353088",
+        "upper_fraction": "3980146259702990338555/302231454903657293676544",
+        "lower_decimal_outward": "0.013169199284607046072492565305",
+        "upper_decimal_outward": "0.013169199284607046072510763280"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "-211654564812186007/1208925819614629174706176",
+        "upper_fraction": "-211654564812185959/1208925819614629174706176",
+        "lower_decimal_outward": "-0.000000175076552570988518182100",
+        "upper_decimal_outward": "-0.000000175076552570988478477429"
+      }
+    },
+    {
+      "row_id": 10,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4600",
+      "moneyness_fraction": "230000/211093",
+      "bid_iv_decimal_input": "0.12148",
+      "ask_iv_decimal_input": "0.12279",
+      "reported_mid_iv_decimal_input": "0.12213",
+      "normalized_bid": {
+        "lower_fraction": "9049646123360500899661/1208925819614629174706176",
+        "upper_fraction": "9049646123360500899683/1208925819614629174706176",
+        "lower_decimal_outward": "0.007485691823709471384819251740",
+        "upper_decimal_outward": "0.007485691823709471384837449715"
+      },
+      "normalized_ask": {
+        "lower_fraction": "9334127251404132403807/1208925819614629174706176",
+        "upper_fraction": "9334127251404132403829/1208925819614629174706176",
+        "lower_decimal_outward": "0.007721009097464378791907985586",
+        "upper_decimal_outward": "0.007721009097464378791926183561"
+      },
+      "price_mid_target": {
+        "lower_fraction": "4595943343691158325867/604462909807314587353088",
+        "upper_fraction": "2297971671845579162939/302231454903657293676544",
+        "lower_decimal_outward": "0.007603350460586925088363618663",
+        "upper_decimal_outward": "0.007603350460586925088381816638"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "9190425307866708423351/1208925819614629174706176",
+        "upper_fraction": "9190425307866708423379/1208925819614629174706176",
+        "lower_decimal_outward": "0.007602141635784031827141911429",
+        "upper_decimal_outward": "0.007602141635784031827165072487"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "-1461379515608228405/1208925819614629174706176",
+        "upper_fraction": "-1461379515608228355/1208925819614629174706176",
+        "lower_decimal_outward": "-0.000001208824802893261239905208",
+        "upper_decimal_outward": "-0.000001208824802893261198546177"
+      }
+    },
+    {
+      "row_id": 11,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4700",
+      "moneyness_fraction": "235000/211093",
+      "bid_iv_decimal_input": "0.11885",
+      "ask_iv_decimal_input": "0.12046",
+      "reported_mid_iv_decimal_input": "0.11966",
+      "normalized_bid": {
+        "lower_fraction": "2562502286816555555925/604462909807314587353088",
+        "upper_fraction": "5125004573633111111871/1208925819614629174706176",
+        "lower_decimal_outward": "0.004239304422554905276025738152",
+        "upper_decimal_outward": "0.004239304422554905276043108945"
+      },
+      "normalized_ask": {
+        "lower_fraction": "5384046241755464184257/1208925819614629174706176",
+        "upper_fraction": "2692023120877732092139/604462909807314587353088",
+        "lower_decimal_outward": "0.004453578668269111392755956753",
+        "upper_decimal_outward": "0.004453578668269111392773327547"
+      },
+      "price_mid_target": {
+        "lower_fraction": "5254525407694287648053/1208925819614629174706176",
+        "upper_fraction": "5254525407694287648075/1208925819614629174706176",
+        "lower_decimal_outward": "0.004346441545412008334390433862",
+        "upper_decimal_outward": "0.004346441545412008334408631836"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "5254630149970469307947/1208925819614629174706176",
+        "upper_fraction": "5254630149970469307969/1208925819614629174706176",
+        "lower_decimal_outward": "0.004346528186192180478222186119",
+        "upper_decimal_outward": "0.004346528186192180478240384094"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "3273196130676871/37778931862957161709568",
+        "upper_fraction": "26185569045414979/302231454903657293676544",
+        "lower_decimal_outward": "0.000000086640780172143813554283",
+        "upper_decimal_outward": "0.000000086640780172143849950231"
+      }
+    },
+    {
+      "row_id": 12,
+      "T_decimal_input": "0.5",
+      "K_decimal_input": "4800",
+      "moneyness_fraction": "240000/211093",
+      "bid_iv_decimal_input": "0.11856",
+      "ask_iv_decimal_input": "0.12056",
+      "reported_mid_iv_decimal_input": "0.11957",
+      "normalized_bid": {
+        "lower_fraction": "2948874054000626039367/1208925819614629174706176",
+        "upper_fraction": "1474437027000313019693/604462909807314587353088",
+        "lower_decimal_outward": "0.002439251446329967857199322248",
+        "upper_decimal_outward": "0.002439251446329967857215038680"
+      },
+      "normalized_ask": {
+        "lower_fraction": "794605584203818850201/302231454903657293676544",
+        "upper_fraction": "397302792101909425103/151115727451828646838272",
+        "lower_decimal_outward": "0.002629129335519085151673899185",
+        "upper_decimal_outward": "0.002629129335519085151690442799"
+      },
+      "price_mid_target": {
+        "lower_fraction": "3063648195407950720085/1208925819614629174706176",
+        "upper_fraction": "3063648195407950720105/1208925819614629174706176",
+        "lower_decimal_outward": "0.002534190390924526504436197126",
+        "upper_decimal_outward": "0.002534190390924526504452740740"
+      },
+      "reported_mid_iv_defined_price_diagnostic_only": {
+        "lower_fraction": "1531845392466023206839/604462909807314587353088",
+        "upper_fraction": "1531845392466023206849/604462909807314587353088",
+        "lower_decimal_outward": "0.002534225620153156322194503866",
+        "upper_decimal_outward": "0.002534225620153156322211047480"
+      },
+      "reported_mid_iv_price_minus_price_mid": {
+        "lower_fraction": "42589524095693573/1208925819614629174706176",
+        "upper_fraction": "42589524095693613/1208925819614629174706176",
+        "lower_decimal_outward": "0.000000035229228629817741763127",
+        "upper_decimal_outward": "0.000000035229228629817774850353"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Typeset the complete English manuscripts in the supplied academic style.
+"""Typeset the English and Chinese manuscripts in the supplied academic style.
 
 Formulas are rendered by MathJax as SVG glyph outlines and embedded as native
 PDF paths. No formula is rasterized. Markdown remains the editable source.
@@ -10,7 +10,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
-from reportlab.lib.pagesizes import letter
+from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Flowable, Table, TableStyle, Preformatted, KeepTogether
 from reportlab.platypus import Image as PlotImage
@@ -30,9 +30,10 @@ from math_inputs import canonical
 
 ROOT=Path(__file__).resolve().parents[1]
 PAT=re.compile(r'\\\[(.*?)\\\]|\\\((.*?)\\\)|(?<!\\)\$\$(.*?)(?<!\\)\$\$|(?<!\\)\$(?!\$)([^\n$]*?)(?<!\\)\$',re.S)
-WIDTH=396; MARGIN=108; PAGE_W,PAGE_H=letter
-FONT=11.0; LEADING=12.1
-TOP=72; BOTTOM=72
+PAGE_W,PAGE_H=A4
+MARGIN=70.8661417323; WIDTH=PAGE_W-2*MARGIN
+FONT=10.9090909091; LEADING=13.549
+TOP=MARGIN; BOTTOM=MARGIN
 
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -48,37 +49,43 @@ def main():
         import matplotlib
         args.font_dir=Path(matplotlib.get_data_path())/'fonts/ttf'
     fonts=args.font_dir
-    nimbus=fonts/'nimbus-no9l'
-    for alias,file in [('TimesR','utmr8a'),('TimesB','utmb8a'),('TimesI','utmri8a'),('TimesBI','utmbi8a')]:
-        face=pdfmetrics.EmbeddedType1Face(str(nimbus/(file+'.afm')),str(nimbus/(file+'.pfb')))
+    family=fonts/'cm-super'
+    for alias,file in [('TimesR','sfrm1095'),('TimesB','sfbx1095'),('TimesI','sfti1095'),('TimesBI','sfbi1095'),('TitleR','sfrm1728'),('AuthorR','sfrm1200'),('SectionB','sfbx1440'),('SubsectionB','sfbx1200'),('SmallR','sfrm1000'),('SmallB','sfbx1000'),('Mono','sftt1095')]:
+        face=pdfmetrics.EmbeddedType1Face(str(family/(file+'.afm')),str(family/(file+'.pfb')))
+        # The AFM reader leaves decimal header metrics as strings.
+        # Keep the original values and normalize their in-memory numeric type.
+        for metric in ('ascent','descent','capHeight','xHeight','italicAngle','stemV'):
+            if hasattr(face,metric):setattr(face,metric,float(getattr(face,metric)))
         pdfmetrics.registerTypeFace(face)
         pdfmetrics.registerFont(pdfmetrics.Font(alias,face.name,'WinAnsiEncoding'))
-    pdfmetrics.registerFont(TTFont('Mono',str(fonts/'cmtt10.ttf')))
+        pdfmetrics.registerFontFamily(alias,normal=alias,bold=alias,italic=alias,boldItalic=alias)
     # Accented names and Greek letters in prose use a font with Unicode coverage.
     if args.document!='rough-heston' and args.cjk_font is None:
         raise ValueError('Supply --cjk-font for the Chinese manuscript')
     pdfmetrics.registerFont(TTFont('Accent',str(args.cjk_font)) if args.document!='rough-heston' else TTFont('Accent',str(fonts/'DejaVuSerif.ttf')))
     pdfmetrics.registerFont(TTFont('UnicodeFallback',str(fonts/'DejaVuSans.ttf')))
     pdfmetrics.registerFontFamily('TimesR',normal='TimesR',bold='TimesB',italic='TimesI',boldItalic='TimesBI')
+    pdfmetrics.registerFontFamily('TimesI',normal='TimesI',bold='TimesB',italic='TimesI',boldItalic='TimesBI')
+    pdfmetrics.registerFontFamily('SmallR',normal='SmallR',bold='SmallB',italic='TimesI',boldItalic='TimesBI')
     pdfmetrics.registerFontFamily('Mono',normal='Mono',bold='Mono',italic='Mono',boldItalic='Mono')
     def sty(name,**kw):
-        base=dict(fontName='TimesR',fontSize=FONT,leading=LEADING,wordWrap=('CJK' if args.document=='report' else None),textColor=colors.black,firstLineIndent=0,alignment=TA_JUSTIFY,allowWidows=0,allowOrphans=0,autoLeading='max',spaceAfter=5.5)
+        base=dict(fontName='TimesR',fontSize=FONT,leading=LEADING,wordWrap=('CJK' if args.document=='report' else None),textColor=colors.black,firstLineIndent=16.937,alignment=TA_JUSTIFY,allowWidows=0,allowOrphans=0,autoLeading='max',spaceAfter=0)
         base.update(kw);return ParagraphStyle(name,**base)
     styles={
       'body':sty('body'),
-      'h1':sty('h1',fontName='TimesB',fontSize=12,leading=14,firstLineIndent=0,spaceBefore=12,spaceAfter=6,alignment=TA_LEFT,keepWithNext=True),
-      'h2':sty('h2',fontName='TimesB',fontSize=11,leading=12.1,firstLineIndent=0,spaceBefore=10,spaceAfter=5,alignment=TA_LEFT,keepWithNext=True),
-      'h3':sty('h3',fontName='TimesB',fontSize=11,leading=12.1,firstLineIndent=0,spaceBefore=8,spaceAfter=4,alignment=TA_LEFT,keepWithNext=True),
-      'title':sty('title',fontName='TimesB',fontSize=17.215,leading=20,firstLineIndent=0,spaceAfter=10,alignment=TA_CENTER),
-      'subtitle':sty('subtitle',fontSize=9.963,leading=12,firstLineIndent=0,spaceAfter=5,alignment=TA_CENTER),
-      'author':sty('author',fontSize=11,leading=12.1,firstLineIndent=0,spaceAfter=1,alignment=TA_CENTER),
-      'meta':sty('meta',fontSize=9.963,leading=12,firstLineIndent=0,spaceAfter=1,alignment=TA_CENTER),
-      'abstract':sty('abstract',fontSize=10,leading=11.4,firstLineIndent=0,leftIndent=36,rightIndent=36,spaceAfter=5.5),
-      'keywords':sty('keywords',fontSize=9.5,leading=11.4,firstLineIndent=0,leftIndent=36,rightIndent=36,alignment=TA_LEFT,spaceAfter=5.5),
+      'h1':sty('h1',fontName='SectionB',fontSize=14.346,leading=17.2,firstLineIndent=0,spaceBefore=18.4,spaceAfter=12,alignment=TA_LEFT,keepWithNext=True),
+      'h2':sty('h2',fontName='SubsectionB',fontSize=11.955,leading=14.34,firstLineIndent=0,spaceBefore=16.5,spaceAfter=8.3,alignment=TA_LEFT,keepWithNext=True),
+      'h3':sty('h3',fontName='TimesB',fontSize=FONT,leading=LEADING,firstLineIndent=0,spaceBefore=14,spaceAfter=7,alignment=TA_LEFT,keepWithNext=True),
+      'title':sty('title',fontName='TitleR',fontSize=17.215,leading=20.66,firstLineIndent=0,spaceAfter=6.64,alignment=TA_CENTER),
+      'subtitle':sty('subtitle',fontName='AuthorR',fontSize=11.955,leading=14.34,firstLineIndent=0,spaceAfter=15.88,alignment=TA_CENTER),
+      'author':sty('author',fontName='AuthorR',fontSize=11.955,leading=14.34,firstLineIndent=0,spaceAfter=10.056,alignment=TA_CENTER),
+      'meta':sty('meta',fontName='AuthorR',fontSize=11.955,leading=14.34,firstLineIndent=0,spaceAfter=0,alignment=TA_CENTER),
+      'abstract':sty('abstract',fontName='SmallR',fontSize=9.963,leading=11.955,firstLineIndent=14.94,leftIndent=27.273,rightIndent=27.273,spaceAfter=0),
+      'keywords':sty('keywords',fontName='SmallR',fontSize=9.963,leading=11.955,firstLineIndent=0,leftIndent=27.273,rightIndent=27.273,alignment=TA_LEFT,spaceBefore=4,spaceAfter=0),
       'table':sty('table',fontSize=9,leading=10.2,firstLineIndent=0,alignment=TA_LEFT,spaceAfter=0,embeddedHyphenation=1),
       'tablehead':sty('tablehead',fontName='TimesB',fontSize=9,leading=10.2,firstLineIndent=0,alignment=TA_LEFT,spaceAfter=0,embeddedHyphenation=1),
-      'caption':sty('caption',fontSize=10,leading=11.4,firstLineIndent=0,alignment=TA_LEFT,spaceBefore=6,spaceAfter=5,keepWithNext=True),
-      'reference':sty('reference',fontSize=10,leading=11.4,alignment=TA_LEFT,leftIndent=23,firstLineIndent=-23,spaceAfter=5),
+      'caption':sty('caption',fontName='SmallR',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_LEFT,spaceBefore=6,spaceAfter=5,keepWithNext=True),
+      'reference':sty('reference',fontSize=FONT,leading=LEADING,alignment=TA_LEFT,leftIndent=22.331,firstLineIndent=-22.331,spaceAfter=7.8),
       'code':sty('code',fontName='Mono',fontSize=8.4,leading=11,firstLineIndent=0,alignment=TA_LEFT,spaceAfter=5),
       'list':sty('list',leftIndent=14,rightIndent=18,firstLineIndent=-14,spaceAfter=5),
     }
@@ -129,7 +136,7 @@ def main():
     for name,(path,src,protected,spans,source_identity) in documents.items():
         assert digest(path)==source_identity,'The source changed during formula preparation.'
         log={'document':name,'source_sha256':digest(path),'math_occurrences':[], 'displays':[], 'headings':[], 'contents':[], 'tables':[], 'paragraphs':[], 'math_rendering':{'status':summary['status'],'mathjax':summary['mathjax'],'errors':[]},'presentation_equivalences':{'H7':'The exact interval is printed as the same lower and upper inequalities on two lines.'} if name=='report' else {}}
-        log['typography']={'paper':'US Letter','page_pt':[PAGE_W,PAGE_H],'column_width_pt':WIDTH,'side_margin_pt':MARGIN,'top_margin_pt':TOP,'bottom_margin_pt':BOTTOM,'body_font':'NimbusRomNo9L-Regu','body_font_pt':FONT,'body_leading_pt':LEADING,'math_style':'MathJax TeX / Computer Modern style, native vector outlines','substitution':False,'explicit_page_breaks':False}
+        log['typography']={'paper':'A4','page_pt':[PAGE_W,PAGE_H],'column_width_pt':WIDTH,'side_margin_pt':MARGIN,'top_margin_pt':TOP,'bottom_margin_pt':BOTTOM,'body_font':'SFRM1095','body_font_pt':FONT,'body_leading_pt':LEADING,'paragraph_indent_pt':16.937,'math_style':'MathJax TeX / Computer Modern style, native vector outlines','substitution':False,'explicit_page_breaks':False}
         log['presentation_equivalences'].update({t:'Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.' for t in ['2.5','F.20','F.25','G.13']})
         def supported(font_name,cp):
             f=pdfmetrics.getFont(font_name)
@@ -163,7 +170,7 @@ def main():
                         key='LINKPLACEHOLDER'+str(len(links))+'Z'
                         label,url=m.groups()
                         if url.startswith(('https://','http://','mailto:')):
-                            links[key]='<link href="'+html.escape(url,quote=True)+'" color="#263A50">'+esc(label)+'</link>'
+                            links[key]='<link href="'+html.escape(url,quote=True)+'" color="#0000FF">'+esc(label)+'</link>'
                         else:
                             links[key]=esc(label)
                         return key
@@ -197,7 +204,7 @@ def main():
                 frame=Frame(MARGIN,BOTTOM,WIDTH,PAGE_H-BOTTOM-TOP,leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
                 self.addPageTemplates(PageTemplate(id='academic',frames=[frame],onPage=self.decorate))
             def decorate(self,c,doc):
-                c.saveState();c.setFont('TimesR',10);c.drawCentredString(MARGIN+WIDTH/2,40,str(doc.page));c.restoreState()
+                c.saveState();c.setFont('TimesR',FONT);c.drawCentredString(MARGIN+WIDTH/2,40.978,str(doc.page));c.restoreState()
             def beforeDocument(self):
                 # multiBuild repeats drawing to resolve the contents page.
                 # Retain diagnostics from the final pass only.
@@ -205,40 +212,42 @@ def main():
                 log['contents']=[]
             def afterFlowable(self,f):
                 if getattr(f,'heading_key',None):
-                    self.canv.bookmarkPage(f.heading_key);self.canv.addOutlineEntry(f.getPlainText(),f.heading_key,level=0,closed=False)
-                    self.notify('TOCEntry',(0,f.getPlainText(),self.page,f.heading_key))
+                    level=getattr(f,'toc_level',0)
+                    self.canv.bookmarkPage(f.heading_key);self.canv.addOutlineEntry(f.getPlainText(),f.heading_key,level=level,closed=False)
+                    self.notify('TOCEntry',(level,f.getPlainText(),self.page,f.heading_key))
                     log['contents'].append({'text':f.getPlainText(),'page':self.page,'key':f.heading_key})
-        class TitleRule(Flowable):
-            def __init__(self,before=False):
-                super().__init__();self.width=WIDTH;self.height=5;self.before=before;self.spaceAfter=10 if before else 9;self.spaceBefore=0 if before else 3
-            def draw(self):
-                self.canv.setLineWidth(4.0 if self.before else 1.0);self.canv.line(0,2,self.width,2)
-        story=[TitleRule(True),Paragraph(esc(meta['titles'][name]),styles['title']),Paragraph(esc(meta['subtitles'][name]),styles['subtitle']),TitleRule(),Paragraph(esc(meta['author']),styles['author'])]
-        for email in meta.get('emails',[]):
-            story.append(Paragraph('<font name="Mono">'+esc(email)+'</font>',styles['author']))
-        if meta.get('date'):story.append(Paragraph(esc(meta['date']),styles['meta']))
-        story += [Spacer(1,10),Paragraph(esc('摘要') if name=='report' else '<b>Abstract</b>',sty('abstract-title',fontName='TimesB',fontSize=12,leading=14,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=5,keepWithNext=True))]
+        story=[Spacer(1,37.35),Paragraph(esc(meta['titles'][name]),styles['title']),Paragraph(esc(meta['subtitles'][name]),styles['subtitle']),Paragraph(esc(meta['author']),styles['author'])]
+        emails=' &nbsp; '.join('<link href="mailto:'+html.escape(email,quote=True)+'" color="black">'+esc(email)+'</link>' for email in meta.get('emails',[]))
+        if emails:story.append(Paragraph(emails,styles['meta']))
+        story += [Spacer(1,27.83),Paragraph(esc('摘要') if name=='report' else '<b>Abstract</b>',sty('abstract-title',fontName='SmallB',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=6.22,keepWithNext=True))]
         lines=protected.splitlines();i=0;in_abstract=False;cover=True;in_refs=False
         toc=TableOfContents()
-        toc.levelStyles=[sty('contents-entry',fontName=('Accent' if name=='report' else 'TimesR'),fontSize=10,leading=11.4,firstLineIndent=0,leftIndent=0,rightIndent=0,alignment=TA_LEFT,spaceBefore=3,spaceAfter=0)]
-        toc.dotsMinLevel=0
+        toc.levelStyles=[sty('contents-main',fontName=('Accent' if name=='report' else 'TimesB'),fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=0,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=10.9,spaceAfter=0),sty('contents-sub',fontName=('Accent' if name=='report' else 'TimesR'),fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=16.937,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=0,spaceAfter=0)]
+        toc.dotsMinLevel=1
+        contents_added=False;after_heading=True
         def add_contents():
-            story.append(Paragraph(esc('目录' if name=='report' else 'Contents'),styles['h1']))
-            story.append(Paragraph(esc('主文与附录的阅读导航；页码对应本版。' if name=='report' else 'Navigation to the main text and integrated appendices; page numbers refer to this edition.'),styles['table']))
-            story.append(Spacer(1,5))
+            nonlocal contents_added
+            story.append(Paragraph(esc('目录' if name=='report' else 'Contents'),ParagraphStyle('contents-heading',parent=styles['h1'],keepWithNext=False)))
             story.append(toc)
+            contents_added=True
         # ReportLab's mixed text/inline-image justification can overrun the
         # measured line width. Reserve a small internal allowance only for
         # paragraphs containing vector formulas; the page column is unchanged.
         math_body=ParagraphStyle('body-with-vector-math',parent=styles['body'],rightIndent=18)
         def add_paragraph(buf,style_name):
+            nonlocal after_heading
             ps=math_body if style_name=='body' and 'MX' in buf else styles[style_name]
+            if style_name=='body' and re.match(r'^\*\*(?:Theorem|Lemma|Proposition|Corollary|定理|引理|命题|推论)\b',buf):
+                ps=ParagraphStyle('theorem-statement',parent=ps,fontName='TimesI',firstLineIndent=0,spaceBefore=6)
+            elif style_name=='body' and after_heading:
+                ps=ParagraphStyle('first-section-paragraph',parent=ps,firstLineIndent=0)
             if name=='rough-heston' and buf.startswith('The exact rational ') and 'coefficient enclosure' in buf:
-                ps=ParagraphStyle('terminal-witness-margin',parent=math_body,rightIndent=25)
+                ps=ParagraphStyle('terminal-witness-margin',parent=math_body,rightIndent=43)
             if name=='rough-heston' and buf.startswith('**Proof.** Convolving the constant derivative'):
                 ps=ParagraphStyle('analytical-curve-proof-margin',parent=math_body,rightIndent=32)
             story.append(Paragraph(markup(buf,ps.fontSize,WIDTH-ps.rightIndent),ps))
             log['paragraphs'].append(buf)
+            if style_name=='body':after_heading=False
         def add_prose(text,style_name='body'):
             bits=re.split(r'(MX\d{6}Z)',text);buf=''
             for bit in bits:
@@ -262,18 +271,20 @@ def main():
             if line.startswith('# '):i+=1;continue
             if line in ['## Abstract','## 摘要']:in_abstract=True;i+=1;continue
             if line.startswith(('**Keywords:','**关键词')):
-                add_prose(line,'keywords');cover=False;in_abstract=False;i+=1;continue
+                add_prose(line,'keywords');cover=False;in_abstract=False
+                if not contents_added:add_contents()
+                i+=1;continue
             if re.match(r'^\*\*(?:Table\s+[0-9A-Z]|表\s*[0-9A-Z])',line):
                 add_prose(line,'caption');i+=1;continue
             if line.startswith('#'):
                 if cover:cover=False;in_abstract=False
                 level=len(line)-len(line.lstrip('#'));label=line[level:].strip()
-                if level==2 and (label.startswith('Appendix A.') or label.startswith('附录 A.')):add_contents()
+                if not contents_added:add_contents()
                 in_refs=label in ['References','参考文献']
                 style_name='h1' if level==2 else 'h2' if level==3 else 'h3'
                 p=Paragraph(markup(label,styles[style_name].fontSize),styles[style_name])
-                if level==2:p.heading_key='heading-'+str(len(log['headings']))
-                story.append(p);log['headings'].append({'level':level,'text':label});i+=1;continue
+                if level in (2,3):p.heading_key='heading-'+str(len(log['headings']));p.toc_level=level-2
+                story.append(p);log['headings'].append({'level':level,'text':label});after_heading=True;i+=1;continue
             if line.startswith('|'):
                 rows=[]
                 while i<len(lines) and lines[i].strip().startswith('|'):
@@ -365,8 +376,8 @@ def main():
             paragraph=[line];i+=1
             while i<len(lines) and lines[i].strip() and not re.match(r'^(?:#|\||- |```)',lines[i].strip()):paragraph.append(lines[i].strip());i+=1
             add_prose(' '.join(paragraph),'abstract' if in_abstract else 'reference' if in_refs else 'body')
-        out=args.output_dir/('Theodore-Ouyang-Merged-Heston-ZH.pdf' if name=='report' else 'Theodore-Ouyang-Merged-Heston-EN.pdf')
-        doc=Manuscript(str(out),pagesize=letter,title=meta['titles'][name],author=meta['author'],subject=meta['subtitles'][name],pageCompression=1,initialFontName='TimesR',initialFontSize=FONT)
+        out=args.output_dir/('Theodore-Ouyang-Certified-Joint-Heston-ZH.pdf' if name=='report' else 'Theodore-Ouyang-Certified-Joint-Heston-EN.pdf')
+        doc=Manuscript(str(out),pagesize=A4,title=meta['titles'][name],author=meta['author'],subject=meta['subtitles'][name],pageCompression=1,initialFontName='TimesR',initialFontSize=FONT)
         doc.multiBuild(story,canvasmaker=MathCanvas,maxPasses=5)
         assert digest(path)==source_identity,'The source changed during typesetting.'
         assert len(log['math_occurrences'])==len(spans),(name,len(log['math_occurrences']),len(spans))

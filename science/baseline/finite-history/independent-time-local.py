@@ -346,7 +346,7 @@ def main():
         "negative_controls": negatives,
         "analytic_startup_counterexample": constant_curve_identity,
         
-        "limits": ['No import of math-agent propagation or time-envelope checker.', 'Original forward-moment and exponential interval primitives are shared.', 'Continuous residual inequalities depend on the identified unchanged generator mathematics.', 'This validates saved continuous-cell envelope coverage and propagation, not an independent transcendental residual implementation.', 'Only alpha=13/25, T=1/2, original fixed field and original actual Padé outputs.']
+        "limits": ['The reader does not import the propagation or time-envelope checker.', 'Original forward-moment and exponential interval primitives are shared.', 'Continuous residual inequalities depend on the identified unchanged generator mathematics.', 'This validates saved continuous-cell envelope coverage and propagation, not an independent transcendental residual implementation.', 'Only alpha=13/25, T=1/2, original fixed field and original actual Padé outputs.']
     }
     output = HERE / "independent-time-local.json"
     output.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

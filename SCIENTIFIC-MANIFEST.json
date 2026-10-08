@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
-      "bytes": 2851,
-      "sha256": "cc61ec9b2bdd3c3fc9ba6f1b06433639e8a444947b8f1a343cabe0b01704ff73"
+      "bytes": 2761,
+      "sha256": "57446959b149d7d1dd9c640b94c9c69fc7fc636e233af4a4503bda0b7c502606"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -69,8 +69,8 @@
     },
     {
       "path": "science/analysis/audit/proof-obligation-matrix.json",
-      "bytes": 14076,
-      "sha256": "32c2b41bf3b1454d90f8ec1a37bbde58d3ea32905ab76a83056ea1a2d7d3a8e0"
+      "bytes": 13845,
+      "sha256": "d28913347b1b223a7153aebb57b4b7e034b5cade731d853387e0f838a62bad47"
     },
     {
       "path": "science/analysis/audit/proof_matrix.py",
@@ -354,13 +354,13 @@
     },
     {
       "path": "science/baseline/finite-history/independent-time-local.json",
-      "bytes": 728295,
-      "sha256": "1d959fec351cd3d0b1a5ae4fa2f38a531959d1cafb2bc1e5bd921358e56e1d0a"
+      "bytes": 728302,
+      "sha256": "61cd4901007341bf8b0b94da93d7cdb14e1b7657988f516fbbb38290ff62a46f"
     },
     {
       "path": "science/baseline/finite-history/independent-time-local.py",
-      "bytes": 20649,
-      "sha256": "743072491f8d4c9c3e58e82dbc97c4c0c9b915ab30c4847ff6a2e63ecb56274e"
+      "bytes": 20656,
+      "sha256": "6db2baf5d0596d3b7e564b90734185c22fe3ff918eb9432eaf5e88fb63c98959"
     },
     {
       "path": "science/baseline/finite-history/literature-ledger-readback.json",
@@ -734,8 +734,8 @@
     },
     {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
-      "bytes": 34653,
-      "sha256": "30bdb62b40fc2a1544b51877d6a660506c917f2b111612a0cbb5293db1471b03"
+      "bytes": 33708,
+      "sha256": "787a7a7664c87f70c76d86b4306d6e7fc5bc9b413e596af787e8a73347e6814e"
     },
     {
       "path": "science/baseline/reference/code/classical/field-cell-integrals.json",

@@ -58,6 +58,6 @@
       "source_sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
     }
   ],
-  "public_manifest_note": "The scientific_manifest_sha256 above identifies the complete evidence copy used for the recorded author-side checks. The current public manifest updates only the English manuscript identity for timeline and delivery prose; mathematical inputs, scientific code and bank identities are unchanged. No new numerical run is claimed.",
-  "public_scientific_manifest_sha256": "90ed990bf42a18104a53439e58c4018823a65e8a462b572c94c54c5c9d5c14cf"
+  "public_manifest_note": "The scientific_manifest_sha256 above identifies the evidence copy used for the recorded author-side checks. The current public manifest includes the English manuscript timeline and delivery prose, and neutral descriptions of the propagation reader in its source and saved record. Only descriptive text and current file identities have changed; numerical inputs, algorithms, results and original execution hashes are retained. No new numerical run is claimed.",
+  "public_scientific_manifest_sha256": "3dd8ffc6200f813bddae3a7cb7f4b7359bbf24f93a59fd726f4d2a53dc7e2c4e"
 }

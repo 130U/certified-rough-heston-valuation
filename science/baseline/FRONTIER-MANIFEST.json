@@ -193,13 +193,13 @@
     },
     {
       "path": "finite-history/independent-time-local.json",
-      "bytes": 728295,
-      "sha256": "1d959fec351cd3d0b1a5ae4fa2f38a531959d1cafb2bc1e5bd921358e56e1d0a"
+      "bytes": 728302,
+      "sha256": "61cd4901007341bf8b0b94da93d7cdb14e1b7657988f516fbbb38290ff62a46f"
     },
     {
       "path": "finite-history/independent-time-local.py",
-      "bytes": 20649,
-      "sha256": "743072491f8d4c9c3e58e82dbc97c4c0c9b915ab30c4847ff6a2e63ecb56274e"
+      "bytes": 20656,
+      "sha256": "6db2baf5d0596d3b7e564b90734185c22fe3ff918eb9432eaf5e88fb63c98959"
     },
     {
       "path": "finite-history/literature-ledger-readback.json",

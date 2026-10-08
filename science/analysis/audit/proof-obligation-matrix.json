@@ -3,7 +3,7 @@
   "obligations": [
     {
       "id": "S1",
-      "proof_obligation": "Pad\u00e9 coefficient signs on the original parameter rectangle",
+      "proof_obligation": "Padé coefficient signs on the original parameter rectangle",
       "generation_command": "full_structure_verify.py assembles every delivered leaf",
       "verification_command": "python continuous/full_structure_verify.py",
       "recomputed_scope": "211241 structural sign leaves and rectangle cover",
@@ -73,7 +73,7 @@
       "inherited_scope": "continuous residual theorem/validity and identified stored field",
       "shared_dependencies": "strict forward-moment, exponent and true-tail primitives",
       "source": "baseline/finite-history/independent-time-local.py",
-      "source_sha256": "743072491f8d4c9c3e58e82dbc97c4c0c9b915ab30c4847ff6a2e63ecb56274e",
+      "source_sha256": "6db2baf5d0596d3b7e564b90734185c22fe3ff918eb9432eaf5e88fb63c98959",
       "source_anchors": [
         "import"
       ],

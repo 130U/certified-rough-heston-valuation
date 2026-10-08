@@ -13331,7 +13331,7 @@
     "eta0_if_startup_omitted": "0"
   },
   "limits": [
-    "No import of math-agent propagation or time-envelope checker.",
+    "The reader does not import the propagation or time-envelope checker.",
     "Original forward-moment and exponential interval primitives are shared.",
     "Continuous residual inequalities depend on the identified unchanged generator mathematics.",
     "This validates saved continuous-cell envelope coverage and propagation, not an independent transcendental residual implementation.",

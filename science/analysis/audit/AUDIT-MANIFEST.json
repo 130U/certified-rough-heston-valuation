@@ -63,8 +63,8 @@
     },
     {
       "path": "proof-obligation-matrix.json",
-      "bytes": 14076,
-      "sha256": "32c2b41bf3b1454d90f8ec1a37bbde58d3ea32905ab76a83056ea1a2d7d3a8e0"
+      "bytes": 13845,
+      "sha256": "d28913347b1b223a7153aebb57b4b7e034b5cade731d853387e0f838a62bad47"
     },
     {
       "path": "proof_matrix.py",

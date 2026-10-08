@@ -27,9 +27,11 @@ Let $`c^*`$ denote the model-price vector, $`c^{\rm fast}`$ the stored pricing o
 
 
 
-<p align="center">
-<img src="assets/math/display-8f2d2e2efd468ff85bfa.svg" width="382" alt="Equation (1.1): c^*-c^{\rm fast}=d+\mathop{\mathrm{Re}}\nolimits (A\delta)+r, \qquad d=\bar c-c^{\rm fast}. \tag{1.1}">
-</p>
+```math
+c^*-c^{\rm fast}=d+\mathop{\mathrm{Re}}\nolimits (A\delta)+r,
+\qquad d=\bar c-c^{\rm fast}.
+\tag{1.1}
+```
 
 
 
@@ -70,32 +72,40 @@ Appendices F–G give a separate classical Heston extension based on common occu
 Our conventions for the fractional integral and Caputo derivative are
 
 
-<p align="center">
-<img src="assets/math/display-de2b7e2f41c6322ac48c.svg" width="528" alt="Equation (2.1): I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds, \qquad D_C^\alpha v=I^{1-\alpha}v',\quad v\in AC. \tag{2.1}">
-</p>
+```math
+I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds,
+\qquad D_C^\alpha v=I^{1-\alpha}v',\quad v\in AC.
+\tag{2.1}
+```
 
 
 Under the regularity of the trajectories used below, $`I^\alpha f\in AC`$ with zero initial value, so $`D_C^\alpha I^\alpha f=f`$. The Caputo operator and all time scalings retain their fractional definitions. Set $`a=u-i/2`$. The physical Riccati state $`h`$ satisfies
 
 
-<p align="center">
-<img src="assets/math/display-22dc5b897856e2453d8c.svg" width="467" alt="Equation (2.2): D_{C,t}^\alpha h=-\frac{a^2+ia}{2} +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0. \tag{2.2}">
-</p>
+```math
+D_{C,t}^\alpha h=-\frac{a^2+ia}{2}
+ +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0.
+\tag{2.2}
+```
 
 
 Define
 
 
-<p align="center">
-<img src="assets/math/display-654d40a7f7e805085d10.svg" width="594" alt="Equation (2.3): x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad \kappa=\lambda_R/\nu, \tag{2.3}">
-</p>
+```math
+x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad
+H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad
+\kappa=\lambda_R/\nu,
+\tag{2.3}
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-1f2bbc1208356d21dc98.svg" width="536" alt="Mathematical expression: b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad F(z)=-b+dz+z^2/2.">
-</p>
+```math
+b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad
+F(z)=-b+dz+z^2/2.
+```
 
 
 Then $`D_{C,x}^\alpha H=F(H)`$ and $`D_{C,t}^\alpha Z=\nu F(Z)`$. Dividing the normalised state error by $`\nu`$ gives the physical $`h`$ error. Likewise, dividing the physical residual $`r_t=D_t^\alpha\widehat Z-\nu F(\widehat Z)`$ by $`\nu`$ gives the residual bound for the normalised equation.
@@ -103,17 +113,22 @@ Then $`D_{C,x}^\alpha H=F(H)`$ and $`D_{C,t}^\alpha Z=\nu F(Z)`$. Dividing the n
 For pricing and the numerical example, we fix $`\kappa=0`$ and the entire forward variance curve
 
 
-<p align="center">
-<img src="assets/math/display-eb4ba96e55411ee01a33.svg" width="609" alt="Equation (2.4): \xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}), \quad (\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037). \tag{2.4}">
-</p>
+```math
+\xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}),
+\quad
+(\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037).
+\tag{2.4}
+```
 
 
 The curve parameter $`\lambda_\xi`$ and Riccati parameter $`\lambda_R`$ are defined separately. Curve (2.4) remains fixed when the candidate $`\alpha`$ changes. The probability model is
 
 
-<p align="center">
-<img src="assets/math/display-841e4a7944c9ca47ce6f.svg" width="326" alt="Equation (2.5): \begin{gathered}V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\\ K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\\ dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt.\end{gathered}\tag{2.5}">
-</p>
+```math
+\begin{gathered}V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\\
+K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\\
+dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt.\end{gathered}\tag{2.5}
+```
 
 
 Equation (2.5) is the forward variance representation with zero Riccati mean reversion. Appendix A verifies the probability model and affine transform associated with this curve using Theorems 2.1 and 2.3 and Example 2.2 of Abi Jaber and El Euch.
@@ -121,17 +136,21 @@ Equation (2.5) is the forward variance representation with zero Riccati mean rev
 Let $`M_T=S_T/F_T`$ be the normalised positive martingale and write $`\phi_T(a)=\mathbb E M_T^{ia}`$. The exact characteristic exponent is
 
 
-<p align="center">
-<img src="assets/math/display-a6aa437bda3bf66de227.svg" width="478" alt="Equation (2.6): L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad \phi_T(u-i/2)=e^{L_T(u)}. \tag{2.6}">
-</p>
+```math
+L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad
+\phi_T(u-i/2)=e^{L_T(u)}.
+\tag{2.6}
+```
 
 
 With $`m=K/F_T,k=\log m,c=C/(DF_T)`$, the model European call price is
 
 
-<p align="center">
-<img src="assets/math/display-3eb92356d60c6c3c0197.svg" width="361" alt="Equation (2.7): c=1-\frac{\sqrt m}{\pi}\int_0^\infty \mathop{\mathrm{Re}}\nolimits \frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du. \tag{2.7}">
-</p>
+```math
+c=1-\frac{\sqrt m}{\pi}\int_0^\infty
+\mathop{\mathrm{Re}}\nolimits \frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du.
+\tag{2.7}
+```
 
 
 The model specification, decimal inputs, and normalisation jointly define the prices considered below.
@@ -172,9 +191,12 @@ For $`\beta>0`$, write $`g_\beta(t)=t^{\beta-1}/\Gamma(\beta)`$. Define $`k_\lam
 
 
 
-<p align="center">
-<img src="assets/math/display-67ed8be80dd86ae7e9cb.svg" width="559" alt="Equation (3.1): D_C^\alpha Z=\nu F(Z),\quad r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad |r|\le R\in L^\infty(0,T),\qquad R\ge0, \tag{3.1}">
-</p>
+```math
+D_C^\alpha Z=\nu F(Z),\quad
+r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad
+|r|\le R\in L^\infty(0,T),\qquad R\ge0,
+\tag{3.1}
+```
 
 
 
@@ -182,9 +204,11 @@ where $`F(z)=-b+dz+z^2/2`$, $`\Re d=-s_0`$, $`\Re Z\le0`$, $`\Re\widehat Z\le\ep
 
 
 
-<p align="center">
-<img src="assets/math/display-19c90a3e4c3c8cae0f8f.svg" width="373" alt="Equation (3.2): q_\alpha=(I^{1-\alpha}\xi)' =V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0\quad\text{a.e.} \tag{3.2}">
-</p>
+```math
+q_\alpha=(I^{1-\alpha}\xi)'
+=V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0\quad\text{a.e.}
+\tag{3.2}
+```
 
 
 
@@ -192,9 +216,14 @@ Define $`L_T`$ and $`\widehat L_T`$ from $`\nu^{-1}\int_0^T\xi(T-t)D_C^\alpha Z(
 
 
 
-<p align="center">
-<img src="assets/math/display-8ff7b4afb234571a5f7b.svg" width="571" alt="Equation (3.3): |Z-\widehat Z|\le k_\lambda*R, \qquad |L_T-\widehat L_T| \le\nu^{-1}(q_\alpha*k_\lambda*R)(T) \le\nu^{-1}(\xi*R)(T). \tag{3.3}">
-</p>
+```math
+|Z-\widehat Z|\le k_\lambda*R,
+\qquad
+|L_T-\widehat L_T|
+\le\nu^{-1}(q_\alpha*k_\lambda*R)(T)
+\le\nu^{-1}(\xi*R)(T).
+\tag{3.3}
+```
 
 
 
@@ -202,9 +231,10 @@ In particular, $`R/\nu\le\delta_F`$ implies
 
 
 
-<p align="center">
-<img src="assets/math/display-58154a55fa244d007496.svg" width="256" alt="Equation (3.4): |L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds. \tag{3.4}">
-</p>
+```math
+|L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds.
+\tag{3.4}
+```
 
 
 
@@ -217,9 +247,12 @@ For a full-history residual envelope $`R\le R_j`$ on each closed cell $`[a_j,b_j
 
 
 
-<p align="center">
-<img src="assets/math/display-c5e13f79c8c30bd336d2.svg" width="594" alt="Equation (3.5): |L_T-\widehat L_T| \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds. \tag{3.5}">
-</p>
+```math
+|L_T-\widehat L_T|
+\le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds
+\le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds.
+\tag{3.5}
+```
 
 
 
@@ -232,9 +265,12 @@ The positive kernel in Theorem 3.1 admits a direct interval calculation. For $`\
 
 
 
-<p align="center">
-<img src="assets/math/display-af8ea859d61a4e4f2dfa.svg" width="573" alt="Equation (3.6): K_\lambda=q_\alpha*k_\lambda,\qquad \eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad 0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi. \tag{3.6}">
-</p>
+```math
+K_\lambda=q_\alpha*k_\lambda,\qquad
+\eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad
+0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi.
+\tag{3.6}
+```
 
 
 
@@ -244,9 +280,11 @@ The assumptions and scaling are those of Theorem 3.1. The positive fractional in
 
 
 
-<p align="center">
-<img src="assets/math/display-3a6c7be180d016f96967.svg" width="438" alt="Equation (3.7): k_0=g_\alpha,\qquad K_0=\xi,\qquad |L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T). \tag{3.7}">
-</p>
+```math
+k_0=g_\alpha,\qquad K_0=\xi,\qquad
+|L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T).
+\tag{3.7}
+```
 
 
 
@@ -256,9 +294,16 @@ For the fixed curve in (2.4), write $`A_0=\alpha_0`$ and $`\lambda_\xi`$ for its
 
 
 
-<p align="center">
-<img src="assets/math/display-018ff3f78f0d9c87ff0a.svg" width="633" alt="Equation (3.8): W_\lambda(t)=\int_0^tK_\lambda(s)\,ds =\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)E_{A_0,2+n\alpha} (-\lambda_\xi t^{A_0}) \right]. \tag{3.8}">
-</p>
+```math
+W_\lambda(t)=\int_0^tK_\lambda(s)\,ds
+=\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha}
+\left[
+\frac{\theta}{\Gamma(2+n\alpha)}
++(V_0-\theta)E_{A_0,2+n\alpha}
+(-\lambda_\xi t^{A_0})
+\right].
+\tag{3.8}
+```
 
 
 
@@ -273,9 +318,9 @@ The derivative-based reference exponent is $`\widehat L_T=\nu^{-1}\int_0^T\xi(T-
 
 
 
-<p align="center">
-<img src="assets/math/display-d49dc44e857b1b6ea627.svg" width="302" alt="Equation (4.1): |\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.1}">
-</p>
+```math
+|\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.1}
+```
 
 
 
@@ -283,9 +328,12 @@ The derivative-based reference exponent is $`\widehat L_T=\nu^{-1}\int_0^T\xi(T-
 $`g(z)=e^{-ikz}\phi_T(z-i/2)/(z^2+1/4)`$. Replacing the integral in (2.7) by the infinite trapezoidal sum incurs a price error of at most
 
 
-<p align="center">
-<img src="assets/math/display-f1c7a35206d4e55b41a1.svg" width="289" alt="Equation (4.2): \epsilon_{\rm grid} =\frac{\sqrt m\,e^{a_*|k|}} {(1/2-a_*)(e^{2\pi a_*/h_*}-1)}. \tag{4.2}">
-</p>
+```math
+\epsilon_{\rm grid}
+=\frac{\sqrt m\,e^{a_*|k|}}
+{(1/2-a_*)(e^{2\pi a_*/h_*}-1)}.
+\tag{4.2}
+```
 
 
 
@@ -296,17 +344,26 @@ The strip proof and the exact-solution high-frequency comparison are in Appendix
 Suppose the node values $`\widehat\phi_n`$ have exact-error bounds $`\varepsilon_n`$. The finite price sum
 
 
-<p align="center">
-<img src="assets/math/display-6291604c63a4f0a58a3f.svg" width="409" alt="Equation (4.3): \widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi} \left(2\mathop{\mathrm{Re}}\nolimits \widehat\phi_0+ \sum_{n=1}^{N_u}\frac{\mathop{\mathrm{Re}}\nolimits (e^{-inh_*k}\widehat\phi_n)} {(nh_*)^2+1/4}\right) \tag{4.3}">
-</p>
+```math
+\widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi}
+\left(2\mathop{\mathrm{Re}}\nolimits \widehat\phi_0+
+\sum_{n=1}^{N_u}\frac{\mathop{\mathrm{Re}}\nolimits (e^{-inh_*k}\widehat\phi_n)}
+{(nh_*)^2+1/4}\right)
+\tag{4.3}
+```
 
 
 satisfies
 
 
-<p align="center">
-<img src="assets/math/display-5ddb10be25ffd14533bc.svg" width="561" alt="Equation (4.4): |c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail} +\frac{h_*\sqrt m}{\pi} \left(2\varepsilon_0+ \sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right) +\epsilon_{\rm arithmetic}. \tag{4.4}">
-</p>
+```math
+|c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail}
+ +\frac{h_*\sqrt m}{\pi}
+\left(2\varepsilon_0+
+\sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right)
+ +\epsilon_{\rm arithmetic}.
+\tag{4.4}
+```
 
 
 
@@ -321,17 +378,21 @@ Fix one model parameter, maturity, contour, and reference grid. Let $`c^*\in\mat
 For the Lewis rule in Section 4, set $`m_i=K_i/F`$, $`k_i=\log m_i`$, and
 
 
-<p align="center">
-<img src="assets/math/display-172dbdebb568df63bc90.svg" width="461" alt="Equation (5.1): a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n&gt;0),\qquad a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}. \tag{5.1}">
-</p>
+```math
+a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n>0),\qquad
+a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}.
+\tag{5.1}
+```
 
 
 The half weight at zero is already included in $`a_{i0}`$. The complete error is
 
 
-<p align="center">
-<img src="assets/math/display-0b5ddaf81054dc4a115f.svg" width="327" alt="Equation (5.2): c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R, \qquad R\in\mathcal R, \tag{5.2}">
-</p>
+```math
+c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R,
+\qquad R\in\mathcal R,
+\tag{5.2}
+```
 
 
 where $`\mathcal R`$ includes the true infinite-grid tail and analytic-strip discretisation error. A finite reference sum enclosed by interval arithmetic contributes its centre uncertainty when a numerical representative of $`\bar c`$ is used. Omitted finite nodes remain in (5.2); they are not also charged as an infinite tail. No stochastic covariance is used in this representation.
@@ -339,17 +400,21 @@ where $`\mathcal R`$ includes the true infinite-grid tail and analytic-strip dis
 **Theorem 5.1 (complete shared-node inclusion).** Suppose (5.2) holds, all radii are nonnegative, and $`\mathcal R`$ is a nonempty compact convex outer set. Define
 
 
-<p align="center">
-<img src="assets/math/display-4a876901a24b2b829485.svg" width="444" alt="Equation (5.3): \mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R, \qquad d=\bar c-c^{\rm fast}. \tag{5.3}">
-</p>
+```math
+\mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R,
+\qquad d=\bar c-c^{\rm fast}.
+\tag{5.3}
+```
 
 
 Then $`c^*-c^{\rm fast}\in d+\mathcal E_F`$, and, for real $`w`$,
 
 
-<p align="center">
-<img src="assets/math/display-43cb30a6259a8124ee2e.svg" width="386" alt="Equation (5.4): h_{d+\mathcal E_F}(w)=w^\top d+ \sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w). \tag{5.4}">
-</p>
+```math
+h_{d+\mathcal E_F}(w)=w^\top d+
+\sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w).
+\tag{5.4}
+```
 
 
 If the centre shift is supplied as a box $`d\in[d^-,d^+]`$, replace the first term by the support of that box. All numerical evaluations of (5.4) must be outward enclosures.
@@ -359,17 +424,21 @@ If the centre shift is supplied as a box $`d\in[d^-,d^+]`$, replace the first te
 If $`\mathcal R=\prod_i[-\rho_i,\rho_i]`$, the smallest coordinate box of this same set has support
 
 
-<p align="center">
-<img src="assets/math/display-468293a76ffac61a61b8.svg" width="351" alt="Equation (5.5): h_{\mathop{\mathrm{rect}}\nolimits (\mathcal E_F)}(w)= \sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right). \tag{5.5}">
-</p>
+```math
+h_{\mathop{\mathrm{rect}}\nolimits (\mathcal E_F)}(w)=
+\sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right).
+\tag{5.5}
+```
 
 
 Consequently its excess over (5.4), before translation, is
 
 
-<p align="center">
-<img src="assets/math/display-3c3019a7de3620b3530f.svg" width="400" alt="Equation (5.6): G_F(w)=\sum_n\epsilon_n\left( \sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0. \tag{5.6}">
-</p>
+```math
+G_F(w)=\sum_n\epsilon_n\left(
+\sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0.
+\tag{5.6}
+```
 
 
 It is strictly positive exactly when one positive-radius node has nonzero coefficients $`w_i a_{in}`$ that do not all lie on a common nonnegative complex ray. This follows from the equality case of the complex triangle inequality, node by node. Translation does not change widths. This criterion compares the constructed set with its own coordinate box, and does not assert strict improvement over every independently available signed price enclosure.
@@ -380,9 +449,11 @@ For any separately established signed model-price box $`\mathcal I`$, intersect 
 
 
 
-<p align="center">
-<img src="assets/math/display-34eecafc3901ebead34c.svg" width="355" alt="Equation (5.7): c^*-c^{\rm fast}\in d' +\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R. \tag{5.7}">
-</p>
+```math
+c^*-c^{\rm fast}\in d'
++\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R.
+\tag{5.7}
+```
 
 
 
@@ -390,9 +461,12 @@ For a symmetric remainder and direction $`w`$, the complete absolute budget uses
 
 
 
-<p align="center">
-<img src="assets/math/display-353ce488b38fe1dcd8f2.svg" width="400" alt="Equation (5.8): DF\left(|w^\top d'|+ \sum_n\rho_n\left|\sum_iw_ia_{in}\right| +h_{\mathcal R}(w)\right)\le\tau. \tag{5.8}">
-</p>
+```math
+DF\left(|w^\top d'|+
+\sum_n\rho_n\left|\sum_iw_ia_{in}\right|
++h_{\mathcal R}(w)\right)\le\tau.
+\tag{5.8}
+```
 
 
 
@@ -407,17 +481,21 @@ An old zero-centred certificate $`|\phi_n|\le\varepsilon_n^0`$ and a new certifi
 For $`w=e_i-e_j`$, the node coefficient is
 
 
-<p align="center">
-<img src="assets/math/display-06be79af9d8e4cfd805a.svg" width="505" alt="Equation (5.9): |a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)} \left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n&gt;0). \tag{5.9}">
-</p>
+```math
+|a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)}
+\left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n>0).
+\tag{5.9}
+```
 
 
 Combining the coefficients before taking their modulus preserves cancellation. With $`b_i=\sqrt{m_i}`$, an analytic bound is
 
 
-<p align="center">
-<img src="assets/math/display-b7aadc86afe711c3faf7.svg" width="513" alt="Equation (5.10): |b_ie^{-iuk_i}-b_je^{-iuk_j}| \le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}. \tag{5.10}">
-</p>
+```math
+|b_ie^{-iuk_i}-b_je^{-iuk_j}|
+\le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}.
+\tag{5.10}
+```
 
 
 To prove it, separate the difference in amplitudes from the phase difference using the smaller amplitude, then apply $`|e^{ix}-e^{iy}|\le\min(2,|x-y|)`$. At zero, the spread coefficient is $`2h|b_i-b_j|/\pi`$. Low-frequency error therefore cancels for nearby strikes even when the individual node radii are large. High-frequency and tail contributions are still retained.
@@ -429,9 +507,11 @@ If the target quote $`m^*`$ is enclosed around a stored centre $`\bar m`$ with $
 Let $`J(e)=(r+e)^\top W(r+e)/(2p)`$, where $`r=c^{\rm fast}-m`$, $`W\succeq0`$, and the complete output error belongs to a compact convex set $`\mathcal E`$. For any trial vector $`e_0`$, put $`g_0=W(r+e_0)/p`$. Convexity gives the certified lower bound
 
 
-<p align="center">
-<img src="assets/math/display-ca1dcb4953805386c552.svg" width="320" alt="Equation (5.11): \inf_{e\in\mathcal E}J(e)\ge J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0). \tag{5.11}">
-</p>
+```math
+\inf_{e\in\mathcal E}J(e)\ge
+J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0).
+\tag{5.11}
+```
 
 
 This follows by taking the infimum of the supporting affine function $`J(e_0)+g_0^\top(e-e_0)`$. Feasibility of $`e_0`$ is unnecessary for validity; it affects sharpness. A numerical primal minimizer becomes a lower-bound certificate only after its support or dual obligation has also been bounded correctly.
@@ -439,9 +519,11 @@ This follows by taking the infimum of the supporting affine function $`J(e_0)+g_
 If $`M^2\ge\sup_{e\in\mathcal E}e^\top We`$, expansion yields
 
 
-<p align="center">
-<img src="assets/math/display-6975edefb8b747af921a.svg" width="320" alt="Equation (5.12): \sup_{e\in\mathcal E}J(e)\le J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}. \tag{5.12}">
-</p>
+```math
+\sup_{e\in\mathcal E}J(e)\le
+J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}.
+\tag{5.12}
+```
 
 
 A safe choice is any valid coordinate box $`|e_i|\le b_i`$: with $`W`$ represented exactly, $`M^2=\sum_{ij}|W_{ij}|b_i b_j`$ is sufficient. Tighter validated norm bounds may replace it. Maximization of this convex quadratic is not certified by a local stationary point. A supporting function, norm bound, interval subdivision, or valid relaxation must establish the upper direction.
@@ -455,56 +537,71 @@ For Theorem 5.3 we specialize the preceding general objective to $`p=12,W=I_{12}
 **Theorem 5.3 (finite-objective intervals and selection stability).** For each $`\alpha_j\in\Theta_{\rm finite}`$, suppose all model prices have certified enclosures
 
 
-<p align="center">
-<img src="assets/math/display-f841af0514b66afb1dcc.svg" width="544" alt="Equation (5.13): c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad B_i\in[b_i^-,b_i^+],\quad A_i\in[a_i^-,a_i^+],\quad M_i\in[m_i^-,m_i^+]. \tag{5.13}">
-</p>
+```math
+c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad
+B_i\in[b_i^-,b_i^+],\quad
+A_i\in[a_i^-,a_i^+],\quad
+M_i\in[m_i^-,m_i^+].
+\tag{5.13}
+```
 
 
 Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 
 
-<p align="center">
-<img src="assets/math/display-f18bb387e8e66ad8fd34.svg" width="413" alt="Mathematical expression: \ell(x,y)= \begin{cases}0,&amp;x\le0\le y,\\ \min(x^2,y^2),&amp;\text{otherwise},\end{cases} \quad v(x,y)=\max(x^2,y^2).">
-</p>
+```math
+\ell(x,y)=
+\begin{cases}0,&x\le0\le y,\\
+\min(x^2,y^2),&\text{otherwise},\end{cases}
+\quad v(x,y)=\max(x^2,y^2).
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-6aae111bc88077d70a10.svg" width="600" alt="Equation (5.14): L_j=\frac1{24}\sum_i \ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad U_j=\frac1{24}\sum_i v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-). \tag{5.14}">
-</p>
+```math
+L_j=\frac1{24}\sum_i
+\ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad
+U_j=\frac1{24}\sum_i
+v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-).
+\tag{5.14}
+```
 
 
 Then $`J(\alpha_j)\in[L_j,U_j]`$. Writing $`L_*=\min_jL_j,U_*=\min_jU_j`$, the exact finite-set optimum satisfies
 
 
-<p align="center">
-<img src="assets/math/display-78925a3d8f9d846f73b9.svg" width="230" alt="Equation (5.15): J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*]. \tag{5.15}">
-</p>
+```math
+J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*].
+\tag{5.15}
+```
 
 
 For $`\varepsilon\ge0`$, every exact $`\varepsilon`$-near-optimal candidate belongs to
 
 
-<p align="center">
-<img src="assets/math/display-a00629add90d3632bd0b.svg" width="209" alt="Equation (5.16): \{\alpha_j:L_j\le U_*+\varepsilon\}; \tag{5.16}">
-</p>
+```math
+\{\alpha_j:L_j\le U_*+\varepsilon\};
+\tag{5.16}
+```
 
 
 The condition $`U_j-L_*\le\varepsilon`$ is sufficient for that candidate to be near-optimal for the exact objective. If
 
 
-<p align="center">
-<img src="assets/math/display-61ded22c44b842f7c7e5.svg" width="231" alt="Equation (5.17): g:=\min_{j\ne j_0}L_j-U_{j_0}&gt;0, \tag{5.17}">
-</p>
+```math
+g:=\min_{j\ne j_0}L_j-U_{j_0}>0,
+\tag{5.17}
+```
 
 
 then $`\alpha_{j_0}`$ is the unique minimiser of the model objective on the finite set. If
 
 
-<p align="center">
-<img src="assets/math/display-4b47c589e46d8aec3e88.svg" width="195" alt="Equation (5.18): \min_{\alpha_j\ge.6}L_j&gt;U_*+\varepsilon, \tag{5.18}">
-</p>
+```math
+\min_{\alpha_j\ge.6}L_j>U_*+\varepsilon,
+\tag{5.18}
+```
 
 
 then every exact near-optimal candidate in the finite set satisfies $`\alpha_j<.6`$.
@@ -521,17 +618,21 @@ The Gatheral–Radoicic third-order construction matches three startup and three
 **Theorem 6.1 (full-frequency structure).** For
 
 
-<p align="center">
-<img src="assets/math/display-7250086170f66ac6d6b2.svg" width="505" alt="Equation (6.1): \alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad u\in\mathbb R,\quad \nu&gt;0, \tag{6.1}">
-</p>
+```math
+\alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad
+u\in\mathbb R,\quad \nu>0,
+\tag{6.1}
+```
 
 
 the established matching system (B.4) is nonsingular. Its normalised denominator satisfies
 
 
-<p align="center">
-<img src="assets/math/display-8a2d771cbec6f808c9f0.svg" width="502" alt="Equation (6.2): \mathop{\mathrm{Re}}\nolimits q_j&gt;0\ (j=1,2,3),\qquad \mathop{\mathrm{Re}}\nolimits Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0). \tag{6.2}">
-</p>
+```math
+\mathop{\mathrm{Re}}\nolimits q_j>0\ (j=1,2,3),\qquad
+\mathop{\mathrm{Re}}\nolimits Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0).
+\tag{6.2}
+```
 
 
 Moreover, for $`y>0`$, $`\mathop{\mathrm{Re}}\nolimits \widehat H(y)<0`$. The result holds at every positive time and every finite real frequency. Its domain is the stated parameter set; $`\alpha>.6`$, a continuous $`\rho`$ domain, and nonzero $`\kappa`$ are outside the scope of this theorem.
@@ -542,9 +643,12 @@ Moreover, for $`y>0`$, $`\mathop{\mathrm{Re}}\nolimits \widehat H(y)<0`$. The re
 
 
 
-<p align="center">
-<img src="assets/math/display-7409b42a171333184364.svg" width="526" alt="Equation (6.3): \alpha\in[13/25,3/5],\qquad \rho\in[-744501/10^6,-744499/10^6],\qquad \kappa=0, \tag{6.3}">
-</p>
+```math
+\alpha\in[13/25,3/5],\qquad
+\rho\in[-744501/10^6,-744499/10^6],\qquad
+\kappa=0,
+\tag{6.3}
+```
 
 
 
@@ -812,24 +916,32 @@ For $`K_\alpha=t^{\alpha-1}/\Gamma(\alpha)`$,
 
 
 <p align="center">
-<img src="assets/math/display-1a5f908eeeed4dc60d1c.svg" width="728" alt="Equation (A.1): \int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-1a5f908eeeed4dc60d1c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-1a5f908eeeed4dc60d1c-light.svg">
+  <img src="assets/math/display-1a5f908eeeed4dc60d1c-light.svg" width="819" alt="Equation (A.1): \int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
+</picture>
 </p>
 
 
 The exponent in the latter integral is $`2\alpha-2>-1`$ at zero and $`2\alpha-4<-1`$ at infinity, so the integral is finite. The resolvent of the first kind,
 
 
-<p align="center">
-<img src="assets/math/display-06e5fd831dc2618e83b0.svg" width="352" alt="Equation (A.2): \mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad K_\alpha*\mathcal L_\alpha=1 \tag{A.2}">
-</p>
+```math
+\mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad
+K_\alpha*\mathcal L_\alpha=1
+\tag{A.2}
+```
 
 
 is verified by the Beta identity and is nonnegative and nonincreasing. The completely monotone spectral measure
 
 
-<p align="center">
-<img src="assets/math/display-750bee5bdf1df4bddc94.svg" width="293" alt="Equation (A.3): \mu_\alpha(dx)=x^{-\alpha}dx/ [\Gamma(\alpha)\Gamma(1-\alpha)] \tag{A.3}">
-</p>
+```math
+\mu_\alpha(dx)=x^{-\alpha}dx/
+[\Gamma(\alpha)\Gamma(1-\alpha)]
+\tag{A.3}
+```
 
 
 gives $`K_\alpha(t)=\int e^{-xt}\mu_\alpha(dx)`$. Under $`r=xh`$, the two spectral integrals in H2 become constants times $`h^{\alpha-1}`$ and $`h^{\alpha-1/2}`$, respectively. The remaining constants
@@ -840,7 +952,11 @@ Curve (2.4) is nondecreasing, has a nonnegative initial value, and is locally H�
 
 
 <p align="center">
-<img src="assets/math/display-646776be6c528844009b.svg" width="597" alt="Equation (A.4): b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*'(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-646776be6c528844009b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-646776be6c528844009b-light.svg">
+  <img src="assets/math/display-646776be6c528844009b-light.svg" width="672" alt="Equation (A.4): b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*'(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
+</picture>
 </p>
 
 
@@ -856,37 +972,51 @@ Set $`S=s_0-i\rho u=-d`$, take the principal square root in $`A=\sqrt{S^2+2b}`$,
 
 
 <p align="center">
-<img src="assets/math/display-dde1a3d072207fc58420.svg" width="542" alt="Equation (B.1): b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dde1a3d072207fc58420-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dde1a3d072207fc58420-light.svg">
+  <img src="assets/math/display-dde1a3d072207fc58420-light.svg" width="610" alt="Equation (B.1): b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
+</picture>
 </p>
 
 
 
 
-<p align="center">
-<img src="assets/math/display-b8cf720aa8e68aecd85e.svg" width="561" alt="Equation (B.2): g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad g_2=-\frac R{A^2\Gamma(1-2\alpha)} +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}. \tag{B.2}">
-</p>
+```math
+g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad
+g_2=-\frac R{A^2\Gamma(1-2\alpha)}
+       +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}.
+\tag{B.2}
+```
 
 
 For $`1/2<\alpha<1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fixed two-endpoint construction of Gatheral and Radoičić [GR2019] requires
 
 
-<p align="center">
-<img src="assets/math/display-e8fa1538ee9ed065c0dc.svg" width="338" alt="Mathematical expression: \widehat H(y)=P(y)/Q(y),\quad Q=1+q_1y+q_2y^2+q_3y^3,">
-</p>
+```math
+\widehat H(y)=P(y)/Q(y),\quad
+Q=1+q_1y+q_2y^2+q_3y^3,
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-5c8bacde899ef7910efb.svg" width="545" alt="Equation (B.3): \widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad \widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}). \tag{B.3}">
-</p>
+```math
+\widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad
+\widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}).
+\tag{B.3}
+```
 
 
 These six conditions give the linear system
 
 
 <p align="center">
-<img src="assets/math/display-13a56b406c90d51a1dd3.svg" width="607" alt="Equation (B.4): \begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-13a56b406c90d51a1dd3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-13a56b406c90d51a1dd3-light.svg">
+  <img src="assets/math/display-13a56b406c90d51a1dd3-light.svg" width="683" alt="Equation (B.4): \begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
+</picture>
 </p>
 
 
@@ -896,31 +1026,44 @@ To avoid division by the matching determinant before proving its nonvanishing, d
 
 
 <p align="center">
-<img src="assets/math/display-21d88b67484727172d0d.svg" width="653" alt="Mathematical expression: f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-21d88b67484727172d0d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-21d88b67484727172d0d-light.svg">
+  <img src="assets/math/display-21d88b67484727172d0d-light.svg" width="735" alt="Mathematical expression: f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
+</picture>
 </p>
 
 
 
 
-<p align="center">
-<img src="assets/math/display-b7be6003507691954274.svg" width="679" alt="Equation (B.5): \mathsf M_2=Sb/m_\alpha,\quad \mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3). \tag{B.5}">
-</p>
+```math
+\mathsf M_2=Sb/m_\alpha,\quad
+\mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad
+V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3).
+\tag{B.5}
+```
 
 
 The reflection formula and recurrence relations give $`b_1=-fb,b_2=f^2\mathsf M_2,b_3=f^3\mathsf c`$ and $`g_1=V/f,g_2=W/f^2`$. In the latter two expressions, the factors $`f,f^2`$ occur in the denominators. Direct expansion of the determinant and Cramer numerators of (B.4) gives
 
 
 <p align="center">
-<img src="assets/math/display-48c1076ac9c0ee66880c.svg" width="435" alt="Equation (B.6): \begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-48c1076ac9c0ee66880c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-48c1076ac9c0ee66880c-light.svg">
+  <img src="assets/math/display-48c1076ac9c0ee66880c-light.svg" width="490" alt="Equation (B.6): \begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
+</picture>
 </p>
 
 
 Here $`\Delta`$ is exactly the determinant of the original system, and the numerators are $`N_j=f^jF_j`$. After establishing $`\Delta\ne0`$, we may define $`q_j=N_j/\Delta`$, in which case
 
 
-<p align="center">
-<img src="assets/math/display-16acf4b53d85a11434de.svg" width="668" alt="Equation (B.7): \Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad \Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3. \tag{B.7}">
-</p>
+```math
+\Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad
+\Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3.
+\tag{B.7}
+```
 
 
 In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised coefficients $`q_j`$ retain their original definition.
@@ -930,32 +1073,38 @@ In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised 
 **Proof.** First take $`u\ge0`$. Set
 
 
-<p align="center">
-<img src="assets/math/display-0e40f3ae851e62d80a2d.svg" width="513" alt="Mathematical expression: \omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,">
-</p>
+```math
+\omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad
+j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-930480b93f70ef43fcbc.svg" width="484" alt="Equation (B.8): \bar S=s(1-\eta+2i\eta)/j(\eta),\quad \bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}. \tag{B.8}">
-</p>
+```math
+\bar S=s(1-\eta+2i\eta)/j(\eta),\quad
+\bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}.
+\tag{B.8}
+```
 
 
 Since $`j^2\ge1/5`$, these functions are defined on the closed interval $`\eta\in[0,1]`$. We have $`|\bar S|=|\rho|`$ and
 
 
-<p align="center">
-<img src="assets/math/display-38b0aabeafcfb4240611.svg" width="282" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \bar A^2 =1-\rho^2+2(\mathop{\mathrm{Re}}\nolimits \bar S)^2\ge1-\rho^2&gt;0.">
-</p>
+```math
+\mathop{\mathrm{Re}}\nolimits \bar A^2
+=1-\rho^2+2(\mathop{\mathrm{Re}}\nolimits \bar S)^2\ge1-\rho^2>0.
+```
 
 
 The principal square root is continuous and lies in the first quadrant; $`\mathop{\mathrm{Re}}\nolimits \bar A,|\bar A|>3/5`$. The real part of the Hermitian product of two first-quadrant numbers is nonnegative. Hence
 
 
-<p align="center">
-<img src="assets/math/display-896e51b3bc780776571e.svg" width="434" alt="Mathematical expression: |\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2 \ge|\bar A^2-\bar S^2|=1,\quad |\bar R|\le1,\quad\mathop{\mathrm{Re}}\nolimits \bar R&gt;0.">
-</p>
+```math
+|\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2
+\ge|\bar A^2-\bar S^2|=1,\quad
+|\bar R|\le1,\quad\mathop{\mathrm{Re}}\nolimits \bar R>0.
+```
 
 
 Equation (B.8) expresses $`\bar A-\bar S`$ in reciprocal form, with a denominator determined directly by the current parameters.
@@ -963,25 +1112,30 @@ Equation (B.8) expresses $`\bar A-\bar S`$ in reciprocal form, with a denominato
 Substitute $`\bar b=1/2`$ and (B.8) into (B.5)–(B.6) to obtain the barred original quantities. Homogeneity gives
 
 
-<p align="center">
-<img src="assets/math/display-2a7d3e839426efda1631.svg" width="264" alt="Equation (B.9): \Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j. \tag{B.9}">
-</p>
+```math
+\Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j.
+\tag{B.9}
+```
 
 
 Define three real functions
 
 
-<p align="center">
-<img src="assets/math/display-313484056c78d333efec.svg" width="184" alt="Equation (B.10): \bar B_j=\mathop{\mathrm{Re}}\nolimits (\bar F_j\overline{\bar\Delta}). \tag{B.10}">
-</p>
+```math
+\bar B_j=\mathop{\mathrm{Re}}\nolimits (\bar F_j\overline{\bar\Delta}).
+\tag{B.10}
+```
 
 
 The rigorous rational covering in Appendix B proves that, throughout the closed rectangle $`[13/25,3/5]\times[0,1]`$, $`\bar B_j>0`$ and
 
 
-<p align="center">
-<img src="assets/math/display-91432237fab2686009ae.svg" width="458" alt="Equation (B.11): |\bar\Delta|^2\ge \frac{88110801209184778874628745}{1267650600228229401496703205376} &gt;\frac1{14400}. \tag{B.11}">
-</p>
+```math
+|\bar\Delta|^2\ge
+\frac{88110801209184778874628745}{1267650600228229401496703205376}
+>\frac1{14400}.
+\tag{B.11}
+```
 
 
 This first establishes $`\Delta\ne0`$ and then yields
@@ -990,15 +1144,21 @@ $`\mathop{\mathrm{Re}}\nolimits q_j=(f\omega)^j\bar B_j/|\bar\Delta|^2>0`$, prov
 For the trajectory half-plane, the finite convolution in (B.7) gives
 
 
-<p align="center">
-<img src="assets/math/display-aa0b0b5b833606e99c9b.svg" width="274" alt="Equation (B.12): |\Delta|^2\mathop{\mathrm{Re}}\nolimits (P\overline Q) =\sum_{n=1}^6 f^nD_ny^n, \tag{B.12}">
-</p>
+```math
+|\Delta|^2\mathop{\mathrm{Re}}\nolimits (P\overline Q)
+=\sum_{n=1}^6 f^nD_ny^n,
+\tag{B.12}
+```
 
 
 
 
 <p align="center">
-<img src="assets/math/display-f88e0d6c1176c9d3d4c5.svg" width="406" alt="Equation (B.13): \begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\mathop{\mathrm{Re}}\nolimits (\mathsf M_2)|\Delta|^2-2b\mathop{\mathrm{Re}}\nolimits (F_1\overline\Delta),\\ D_3={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\mathop{\mathrm{Re}}\nolimits R\,|F_3|^2. \end{aligned} \tag{B.13}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f88e0d6c1176c9d3d4c5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f88e0d6c1176c9d3d4c5-light.svg">
+  <img src="assets/math/display-f88e0d6c1176c9d3d4c5-light.svg" width="457" alt="Equation (B.13): \begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\mathop{\mathrm{Re}}\nolimits (\mathsf M_2)|\Delta|^2-2b\mathop{\mathrm{Re}}\nolimits (F_1\overline\Delta),\\ D_3={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\mathop{\mathrm{Re}}\nolimits R\,|F_3|^2. \end{aligned} \tag{B.13}">
+</picture>
 </p>
 
 
@@ -1019,16 +1179,19 @@ The certificate domain is $`\mathcal B=[13/25,3/5]\times[0,1]`$. Every interval 
 The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 
 
-<p align="center">
-<img src="assets/math/display-db6737c848568b3e1d24.svg" width="414" alt="Mathematical expression: p'&lt;0,\quad v'&gt;0,\quad (\log m_\alpha)'=2[\psi(1+2\alpha)-\psi(1+\alpha)]&gt;0,">
-</p>
+```math
+p'<0,\quad v'>0,\quad
+(\log m_\alpha)'=2[\psi(1+2\alpha)-\psi(1+\alpha)]>0,
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-191789915023b5c7d32f.svg" width="531" alt="Equation (B.14): (\log\zeta)'=2[\psi(1+2\alpha)-\psi(1+3\alpha)] +[\psi(1+\alpha)-\psi(1+3\alpha)]&lt;0. \tag{B.14}">
-</p>
+```math
+(\log\zeta)'=2[\psi(1+2\alpha)-\psi(1+3\alpha)]
+ +[\psi(1+\alpha)-\psi(1+3\alpha)]<0.
+\tag{B.14}
+```
 
 
 We have $`\psi'(x)=\sum_{n\ge0}(x+n)^{-2}>0`$, and elementary trigonometric identities give the derivatives of $`p,v`$. Strict endpoint values therefore enclose each continuous $`\alpha`$ interval, without sampling $`\alpha`$ at grid points.
@@ -1036,9 +1199,10 @@ We have $`\psi'(x)=\sum_{n\ge0}(x+n)^{-2}>0`$, and elementary trigonometric iden
 The constant $`\pi`$ is certified by Machin's identity and one hundred terms of each alternating arctangent series. The logarithm is reduced to $`[1,2]`$ and evaluated with one hundred positive atanh-series terms and a geometric tail. The exponential is reduced to $`[0,1]`$, evaluated with one hundred Taylor terms and a geometric tail, and restored by repeated rigorous squaring. For positive real Gamma arguments, recurrence first shifts to $`z\ge20`$. Retaining $`B_2,\ldots,B_{20}`$ in log Gamma gives the positive-real remainder bound
 
 
-<p align="center">
-<img src="assets/math/display-909347bd9bf7efdb778b.svg" width="288" alt="Equation (B.15): 0&lt;R_{10}(z)&lt;B_{22}/(22\cdot21z^{21}). \tag{B.15}">
-</p>
+```math
+0<R_{10}(z)<B_{22}/(22\cdot21z^{21}).
+\tag{B.15}
+```
 
 
 In Binet's positive integral, the ten-term geometric remainder of arctangent is positive and bounded by the first omitted power. Integration gives (B.15), consistent with the positive-real Stirling remainder in NIST2010. After exponentiation, divide successively by the recurrence factors. Sine and cosine retain thirty-two terms, with absolute Lagrange tails $`M^{65}/65!,M^{64}/64!`$. Bernoulli numbers, factorials, and interval endpoints are exact rationals.
@@ -1066,9 +1230,11 @@ The proof consists of rigorous interval inclusion and a complete finite covering
 
 
 
-<p align="center">
-<img src="assets/math/display-9ad25788e32b6a9593fe.svg" width="589" alt="Equation (B.16): |A|^{-1}\le8/5,\quad |A'|\le6/5,\quad |(A^{-1})'|\le384/125,\quad |R|\le1,\quad |R'|\le11/5, \tag{B.16}">
-</p>
+```math
+|A|^{-1}\le8/5,\quad |A'|\le6/5,\quad
+|(A^{-1})'|\le384/125,\quad |R|\le1,\quad |R'|\le11/5,
+\tag{B.16}
+```
 
 
 
@@ -1078,9 +1244,11 @@ For the $`\alpha`$-dependent scalars of Theorem 6.1, exact outward endpoint encl
 
 
 
-<p align="center">
-<img src="assets/math/display-5d421648a35e7d72c4a0.svg" width="487" alt="Equation (B.17): 0&lt;p\le2/3,\quad0\le v\le1/3,\quad 1\le m\le3/2,\quad0&lt;\zeta\le2/3. \tag{B.17}">
-</p>
+```math
+0<p\le2/3,\quad0\le v\le1/3,\quad
+1\le m\le3/2,\quad0<\zeta\le2/3.
+\tag{B.17}
+```
 
 
 
@@ -1090,9 +1258,11 @@ Apply product-rule modulus bounds to the original polynomial formulas. For every
 
 
 
-<p align="center">
-<img src="assets/math/display-97e0a8046044dc62a3fa.svg" width="310" alt="Equation (B.18): |\partial_\rho B_j|\le L_{B,j},\qquad |\partial_\rho D_j|\le L_{D,j}. \tag{B.18}">
-</p>
+```math
+|\partial_\rho B_j|\le L_{B,j},\qquad
+|\partial_\rho D_j|\le L_{D,j}.
+\tag{B.18}
+```
 
 
 
@@ -1103,7 +1273,11 @@ Let $`m_{B,j}(C),m_{D,j}(C)`$ be the exact original sign lower bounds on a conti
 
 
 <p align="center">
-<img src="assets/math/display-4fc06f4f03e5f1b756ab.svg" width="449" alt="Equation (B.19): m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-4fc06f4f03e5f1b756ab-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-4fc06f4f03e5f1b756ab-light.svg">
+  <img src="assets/math/display-4fc06f4f03e5f1b756ab-light.svg" width="505" alt="Equation (B.19): m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
+</picture>
 </p>
 
 
@@ -1126,7 +1300,11 @@ If $`H=I^\alpha F(H)`$ is a bounded local continuous solution, then $`H,F(H)`$ a
 
 
 <p align="center">
-<img src="assets/math/display-988f0650aa1a7cecae14.svg" width="467" alt="Equation (C.1): H'(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-988f0650aa1a7cecae14-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-988f0650aa1a7cecae14-light.svg">
+  <img src="assets/math/display-988f0650aa1a7cecae14-light.svg" width="526" alt="Equation (C.1): H'(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
+</picture>
 </p>
 
 
@@ -1135,7 +1313,11 @@ The bound
 
 
 <p align="center">
-<img src="assets/math/display-729ca7c541052fc096e8.svg" width="370" alt="Equation (C.2): |H'(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-729ca7c541052fc096e8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-729ca7c541052fc096e8-light.svg">
+  <img src="assets/math/display-729ca7c541052fc096e8-light.svg" width="416" alt="Equation (C.2): |H'(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
+</picture>
 </p>
 
 
@@ -1144,16 +1326,21 @@ is integrable at zero. Positive-time continuity and the limit from truncated int
 
 
 <p align="center">
-<img src="assets/math/display-681a303de39028e356a7.svg" width="483" alt="Equation (C.3): D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-681a303de39028e356a7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-681a303de39028e356a7-light.svg">
+  <img src="assets/math/display-681a303de39028e356a7-light.svg" width="544" alt="Equation (C.3): D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
+</picture>
 </p>
 
 
 At a positive maximum over the full history, with zero initial value, this derivative is strictly positive. Consequently, $`D_C^\alpha v+s v\le D_C^\alpha w+s w`$, $`v(0)=w(0)`$, and $`s\ge0`$ imply $`v\le w`$. For a convex $`C^1`$ function $`\Phi`$ on the real plane, apply the supporting-hyperplane inequality to both terms in (C.3) to obtain
 
 
-<p align="center">
-<img src="assets/math/display-2eaffd19fa93deba319d.svg" width="240" alt="Equation (C.4): D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v. \tag{C.4}">
-</p>
+```math
+D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v.
+\tag{C.4}
+```
 
 
 This Caputo history-convexity inequality follows from the supporting-hyperplane inequality. Under the regularity assumptions of Proposition 3.11 of Li and Liu [LiLiu2018], we prove the form needed below.
@@ -1161,9 +1348,11 @@ This Caputo history-convexity inequality follows from the supporting-hyperplane 
 **Lemma C.1.** Suppose $`\alpha\in(1/2,1),|\rho|\le1,s_0\ge0`$. The normalised equation has a unique global solution, and $`\mathop{\mathrm{Re}}\nolimits H(x)<0`$ for $`x>0`$. If $`s_0>0`$, then
 
 
-<p align="center">
-<img src="assets/math/display-e6bc3366e81e23f34a3c.svg" width="471" alt="Equation (C.5): |H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)] \le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}. \tag{C.5}">
-</p>
+```math
+|H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)]
+\le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}.
+\tag{C.5}
+```
 
 
 When $`s_0=0`$, the latter time-dependent bound remains valid.
@@ -1171,9 +1360,12 @@ When $`s_0=0`$, the latter time-dependent bound remains valid.
 **Proof.** Write $`H=X+iY`$. Completing the square gives
 
 
-<p align="center">
-<img src="assets/math/display-f5bddb9c0676ccf25668.svg" width="478" alt="Equation (C.6): \mathop{\mathrm{Re}}\nolimits F(H) =-\frac18-\frac{1-\rho^2}{2}u^2 -\frac12(Y+\rho u)^2-s_0X+\frac12X^2. \tag{C.6}">
-</p>
+```math
+\mathop{\mathrm{Re}}\nolimits F(H)
+=-\frac18-\frac{1-\rho^2}{2}u^2
+-\frac12(Y+\rho u)^2-s_0X+\frac12X^2.
+\tag{C.6}
+```
 
 
 If $`X`$ first reaches a small positive level $`\varepsilon<1/2`$, the derivative in (C.3) is positive, whereas (C.6) is negative, a contradiction. Thus $`X\le0`$. Reaching zero at a positive time gives the same contradiction, proving strict negativity.
@@ -1181,9 +1373,11 @@ If $`X`$ first reaches a small positive level $`\varepsilon<1/2`$, the derivativ
 Let $`\psi_\epsilon(z)=\sqrt{|z|^2+\epsilon^2}-\epsilon`$. Equation (C.4), together with
 
 
-<p align="center">
-<img src="assets/math/display-750eaad42707e43841cb.svg" width="457" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits (\overline H F(H)) =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),">
-</p>
+```math
+\mathop{\mathrm{Re}}\nolimits (\overline H F(H))
+=-bX-s_0|H|^2+\tfrac12X|H|^2,\quad
+\frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),
+```
 
 
 gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the zero-initial-value linear scalar equation and let $`\epsilon\downarrow0`$ to obtain (C.5). The scalar solution is verified directly by the Mittag–Leffler series. If finite-time blow-up occurred, (C.5) would bound the trajectory, $`F(H)`$, and a uniform Hölder constant. The history integral would have a finite limit at that endpoint, and local contraction with the previously accumulated history as forcing would extend the solution, a contradiction. The Caputo history is not restarted. Successive Volterra contractions give uniqueness. ∎
@@ -1191,17 +1385,21 @@ gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the 
 **Theorem C.2 (dissipative residual bound).** Suppose $`s_0>0`$, $`\widehat H(0)=0`$, and $`\widehat H\in AC`$, with local Lipschitz regularity at positive times. Assume, for every $`x\in(0,X]`$, that
 
 
-<p align="center">
-<img src="assets/math/display-02455ab620feb2574826.svg" width="294" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \widehat H\le\epsilon_R&lt;2s_0,\qquad |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,">
-</p>
+```math
+\mathop{\mathrm{Re}}\nolimits \widehat H\le\epsilon_R<2s_0,\qquad
+|D_C^\alpha\widehat H-F(\widehat H)|\le\delta,
+```
 
 
 Set $`\sigma=s_0-\epsilon_R/2>0`$. Then
 
 
-<p align="center">
-<img src="assets/math/display-c4981b2b64015b7f39ae.svg" width="325" alt="Equation (C.7): |H-\widehat H| \le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)] \le\delta/\sigma. \tag{C.7}">
-</p>
+```math
+|H-\widehat H|
+\le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)]
+\le\delta/\sigma.
+\tag{C.7}
+```
 
 
 In particular, for a trajectory in the left half-plane, one may take $`\epsilon_R=0,\sigma=s_0`$. No smallness assumption on $`\delta`$ or $`u`$ is required.
@@ -1210,7 +1408,11 @@ In particular, for a trajectory in the left half-plane, one may take $`\epsilon_
 
 
 <p align="center">
-<img src="assets/math/display-5297ef67eee8eff35d9e.svg" width="476" alt="Mathematical expression: D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \mathop{\mathrm{Re}}\nolimits \left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5297ef67eee8eff35d9e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5297ef67eee8eff35d9e-light.svg">
+  <img src="assets/math/display-5297ef67eee8eff35d9e-light.svg" width="535" alt="Mathematical expression: D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \mathop{\mathrm{Re}}\nolimits \left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
+</picture>
 </p>
 
 
@@ -1221,9 +1423,11 @@ Comparison with the linear scalar solution, followed by $`\epsilon\downarrow0`$,
 If $`\widehat H`$ corresponds to the physical-time trajectory $`\widehat Z`$ and $`|r_t|/\nu\le\delta_F`$ has been certified, the same result gives
 
 
-<p align="center">
-<img src="assets/math/display-b0f6df8cf306ecbfe183.svg" width="307" alt="Equation (C.8): \sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0 \quad\text{if }\mathop{\mathrm{Re}}\nolimits \widehat Z\le0. \tag{C.8}">
-</p>
+```math
+\sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0
+\quad\text{if }\mathop{\mathrm{Re}}\nolimits \widehat Z\le0.
+\tag{C.8}
+```
 
 
 In the numerical example, $`s_0=1489/4000`$. This dissipation rate controls the complex error modulus; Appendix D.1 supplies the independent residual $`\delta_F`$. The estimate applies the established convexity tool to the specific error propagation considered here.
@@ -1238,9 +1442,11 @@ Li and Liu [LiLiu2018, Proposition 3.11(ii)] give Caputo convexity by regulariza
 
 
 
-<p align="center">
-<img src="assets/math/display-745ef3d0dcd424c3b099.svg" width="344" alt="Equation (C.9): D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v \quad\text{a.e. on }(0,T). \tag{C.9}">
-</p>
+```math
+D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v
+\quad\text{a.e. on }(0,T).
+\tag{C.9}
+```
 
 
 
@@ -1248,9 +1454,11 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 
 
-<p align="center">
-<img src="assets/math/display-beb64e6a1662f3f5e3fa.svg" width="501" alt="Equation (C.10): u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T, \quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha). \tag{C.10}">
-</p>
+```math
+u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T,
+\quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha).
+\tag{C.10}
+```
 
 
 
@@ -1259,7 +1467,11 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 
 <p align="center">
-<img src="assets/math/display-44fa96ed91f94fd2013d.svg" width="510" alt="Equation (C.11): \frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-44fa96ed91f94fd2013d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-44fa96ed91f94fd2013d-light.svg">
+  <img src="assets/math/display-44fa96ed91f94fd2013d-light.svg" width="573" alt="Equation (C.11): \frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
+</picture>
 </p>
 
 
@@ -1270,9 +1482,13 @@ All path ranges lie in one compact set. Continuity of $`\nabla\Phi`$ and the ord
 
 
 
-<p align="center">
-<img src="assets/math/display-012cf1b8ca2c26fd2770.svg" width="570" alt="Equation (C.12): \|\Phi(v_n)' - \Phi(v)'\|_1\to0, \qquad \|D_C^\alpha(v_n-v)\|_1 \le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n'-v'\|_1\to0. \tag{C.12}">
-</p>
+```math
+\|\Phi(v_n)' - \Phi(v)'\|_1\to0,
+\qquad
+\|D_C^\alpha(v_n-v)\|_1
+\le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n'-v'\|_1\to0.
+\tag{C.12}
+```
 
 
 
@@ -1286,9 +1502,10 @@ For (C.10), put $`f=D_C^\alpha u+\lambda u\in L^1(0,T)`$. The zero initial value
 
 
 
-<p align="center">
-<img src="assets/math/display-bccd8b18cdc4c193661c.svg" width="231" alt="Equation (C.13): D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.} \tag{C.13}">
-</p>
+```math
+D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.}
+\tag{C.13}
+```
 
 
 
@@ -1296,9 +1513,12 @@ Equation (C.10) and the limit $`\varepsilon\downarrow0`$ yield the first state i
 
 
 
-<p align="center">
-<img src="assets/math/display-14db971d45ee7a8823d0.svg" width="459" alt="Equation (C.14): L_T-\widehat L_T =\nu^{-1}\int_0^TA_\alpha(T-t)e'(t)\,dt =\nu^{-1}(q_\alpha*e)(T). \tag{C.14}">
-</p>
+```math
+L_T-\widehat L_T
+=\nu^{-1}\int_0^TA_\alpha(T-t)e'(t)\,dt
+=\nu^{-1}(q_\alpha*e)(T).
+\tag{C.14}
+```
 
 
 
@@ -1306,9 +1526,11 @@ The first Fubini integral is bounded by $`\|\xi\|_\infty T^{1-\alpha}\|e'\|_1/\G
 
 
 
-<p align="center">
-<img src="assets/math/display-87664a695a8a0719fcf4.svg" width="284" alt="Equation (C.15): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.15}">
-</p>
+```math
+0\le q_\alpha*k_\lambda
+=\xi-\lambda\xi*k_\lambda\le\xi.
+\tag{C.15}
+```
 
 
 
@@ -1325,9 +1547,11 @@ For a real curve $`\xi\in AC[0,T]`$ with $`\xi(0)=V_0\ge0`$, the precise suffici
 
 
 
-<p align="center">
-<img src="assets/math/display-5a39394b342415621137.svg" width="476" alt="Equation (C.16): q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0 \quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta). \tag{C.16}">
-</p>
+```math
+q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0
+\quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta).
+\tag{C.16}
+```
 
 
 
@@ -1335,9 +1559,12 @@ No sign is imposed on $`\xi'`$. Indeed, $`A_\alpha=I^{1-\alpha}\xi=V_0g_{2-\alph
 
 
 
-<p align="center">
-<img src="assets/math/display-9eb37a815fc809054ad0.svg" width="409" alt="Equation (C.17): \|q_\alpha\|_1\le \frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi'\|_1), \qquad g_\alpha*q_\alpha=\xi. \tag{C.17}">
-</p>
+```math
+\|q_\alpha\|_1\le
+\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi'\|_1),
+\qquad g_\alpha*q_\alpha=\xi.
+\tag{C.17}
+```
 
 
 
@@ -1345,9 +1572,11 @@ Absolute Fubini proves the second identity even for signed $`\xi'`$, using $`g_\
 
 
 
-<p align="center">
-<img src="assets/math/display-5dfffbf71442db9c290b.svg" width="284" alt="Equation (C.18): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.18}">
-</p>
+```math
+0\le q_\alpha*k_\lambda
+=\xi-\lambda\xi*k_\lambda\le\xi.
+\tag{C.18}
+```
 
 
 
@@ -1360,7 +1589,11 @@ This is a strict relaxation of a sufficient curve condition, not a necessary con
 
 
 <p align="center">
-<img src="assets/math/display-aefebe33c742949c5cdc.svg" width="303" alt="Equation (C.19): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-aefebe33c742949c5cdc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-aefebe33c742949c5cdc-light.svg">
+  <img src="assets/math/display-aefebe33c742949c5cdc-light.svg" width="340" alt="Equation (C.19): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
+</picture>
 </p>
 
 
@@ -1375,9 +1608,13 @@ The example illustrates the analytical propagation condition. Realizing it as a 
 
 
 
-<p align="center">
-<img src="assets/math/display-9a13924cb81e24cd9704.svg" width="586" alt="Equation (C.20): q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad |L_T-\widehat L_T|\le \frac{V_0}{\nu}\int_0^T E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds. \tag{C.20}">
-</p>
+```math
+q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad
+|L_T-\widehat L_T|\le
+\frac{V_0}{\nu}\int_0^T
+E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds.
+\tag{C.20}
+```
 
 
 
@@ -1386,7 +1623,11 @@ If $`R\le\nu\delta_F`$, a closed-form upper bound is
 
 
 <p align="center">
-<img src="assets/math/display-8f9a483662e292258931.svg" width="480" alt="Equation (C.21): \eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8f9a483662e292258931-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8f9a483662e292258931-light.svg">
+  <img src="assets/math/display-8f9a483662e292258931-light.svg" width="540" alt="Equation (C.21): \eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
+</picture>
 </p>
 
 
@@ -1398,9 +1639,12 @@ The explicit bound retains finite history and physical scaling. It may be inters
 **Proposition C.5 (an error radius without an assumed approximate half-plane).** Assume $`s_0>0`$, $`0\le\delta_F<s_0^2/2`$, $`D_C^\alpha Z=\nu F(Z)`$, $`\Re Z\le0`$, and $`|D_C^\alpha\widehat Z-\nu F(\widehat Z)|\le\nu\delta_F`$ almost everywhere. The exact and approximate trajectories are AC, locally Lipschitz at positive times, and have the same zero initial value. Then
 
 
-<p align="center">
-<img src="assets/math/display-09ad2e4432ad1bd6827c.svg" width="444" alt="Equation (C.22): |Z-\widehat Z|\le E_\delta =s_0-\sqrt{s_0^2-2\delta_F} =\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}. \tag{C.22}">
-</p>
+```math
+|Z-\widehat Z|\le E_\delta
+=s_0-\sqrt{s_0^2-2\delta_F}
+=\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}.
+\tag{C.22}
+```
 
 
 To prove this, rewrite the error terms as $`(d+Z)e-e^2/2`$. The exact-solution half-plane gives
@@ -1413,7 +1657,11 @@ For (2.4), $`\xi_*\in AC`$, $`\xi_*'\ge0`$, and $`V_0\le\xi_*\le\theta`$. Positi
 
 
 <p align="center">
-<img src="assets/math/display-c87723e13c65e22888d5.svg" width="537" alt="Equation (C.23): A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha'(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*'(t)\ge0. \tag{C.23}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c87723e13c65e22888d5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c87723e13c65e22888d5-light.svg">
+  <img src="assets/math/display-c87723e13c65e22888d5-light.svg" width="604" alt="Equation (C.23): A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha'(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*'(t)\ge0. \tag{C.23}">
+</picture>
 </p>
 
 
@@ -1421,14 +1669,22 @@ Both initial exponents $`-\alpha,\alpha_0-\alpha`$ exceed $`-1`$, so $`q_\alpha\
 
 
 <p align="center">
-<img src="assets/math/display-e1b6abae5448d07446a3.svg" width="464" alt="Equation (C.24): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e1b6abae5448d07446a3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e1b6abae5448d07446a3-light.svg">
+  <img src="assets/math/display-e1b6abae5448d07446a3-light.svg" width="522" alt="Equation (C.24): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
+</picture>
 </p>
 
 
 
 
 <p align="center">
-<img src="assets/math/display-7bc0b5ce68b3ac56affd.svg" width="516" alt="Equation (C.25): A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7bc0b5ce68b3ac56affd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7bc0b5ce68b3ac56affd-light.svg">
+  <img src="assets/math/display-7bc0b5ce68b3ac56affd-light.svg" width="581" alt="Equation (C.25): A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
+</picture>
 </p>
 
 
@@ -1437,25 +1693,29 @@ where $`E_{a,b}(z)=\sum_{n=0}^\infty z^n/\Gamma(an+b)`$.
 **Theorem C.6.** For a zero-initial-value AC trajectory $`Z,\widehat Z`$, use the derivative-based exponent
 
 
-<p align="center">
-<img src="assets/math/display-802435c04a827b472683.svg" width="486" alt="Mathematical expression: L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,">
-</p>
+```math
+L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad
+\bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,
+```
 
 
 Then
 
 
-<p align="center">
-<img src="assets/math/display-31efb2a68d7922c02de7.svg" width="376" alt="Equation (C.26): L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt. \tag{C.26}">
-</p>
+```math
+L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt.
+\tag{C.26}
+```
 
 
 In particular, if $`\sup|Z-\widehat Z|\le E`$, then
 
 
-<p align="center">
-<img src="assets/math/display-b1186029a691d2b61994.svg" width="374" alt="Equation (C.27): |L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu \le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}. \tag{C.27}">
-</p>
+```math
+|L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu
+\le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}.
+\tag{C.27}
+```
 
 
 
@@ -1469,7 +1729,11 @@ Using $`\mathop{\mathrm{Re}}\nolimits L_T\le0`$ and the integral identity for th
 
 
 <p align="center">
-<img src="assets/math/display-2925cb3dc4157c0ae12d.svg" width="330" alt="Equation (C.28): |e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\mathop{\mathrm{Re}}\nolimits \bar L_T}\}(e^\eta-1). \tag{C.28}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2925cb3dc4157c0ae12d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2925cb3dc4157c0ae12d-light.svg">
+  <img src="assets/math/display-2925cb3dc4157c0ae12d-light.svg" width="372" alt="Equation (C.28): |e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\mathop{\mathrm{Re}}\nolimits \bar L_T}\}(e^\eta-1). \tag{C.28}">
+</picture>
 </p>
 
 
@@ -1478,9 +1742,11 @@ The first estimate is based at the exact exponent; the second is based at the ap
 If a model-transform envelope $`B(u)`$ and an approximate-modulus bound $`\widehat B(u)`$ are also available, then
 
 
-<p align="center">
-<img src="assets/math/display-3ba91065deea93216336.svg" width="358" alt="Equation (C.29): |e^{L_T}-e^{\bar L_T}| \le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}. \tag{C.29}">
-</p>
+```math
+|e^{L_T}-e^{\bar L_T}|
+\le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}.
+\tag{C.29}
+```
 
 
 The first bound is the triangle inequality. The second follows from
@@ -1499,7 +1765,11 @@ $`\xi(t)=\theta+(V_0-\theta)E_{A_0}(-\lambda_\xi t^{A_0})`$, with $`\lambda_\xi\
 
 
 <p align="center">
-<img src="assets/math/display-9b9c2889afbda25031a6.svg" width="560" alt="Equation (C.30): \left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9b9c2889afbda25031a6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9b9c2889afbda25031a6-light.svg">
+  <img src="assets/math/display-9b9c2889afbda25031a6-light.svg" width="630" alt="Equation (C.30): \left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
+</picture>
 </p>
 
 
@@ -1512,9 +1782,12 @@ $`(- \lambda)^n(\xi*g_{n\alpha})`$. Since $`0\le\xi\le\theta`$,
 
 
 
-<p align="center">
-<img src="assets/math/display-73dc64be75777cff903f.svg" width="323" alt="Equation (C.31): 0\le W_n(t)\le \frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)} \le\theta t(t^\alpha)^n. \tag{C.31}">
-</p>
+```math
+0\le W_n(t)\le
+\frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)}
+\le\theta t(t^\alpha)^n.
+\tag{C.31}
+```
 
 
 
@@ -1527,7 +1800,11 @@ Expanding the curve Mittag–Leffler function, and using the beta convolution id
 
 
 <p align="center">
-<img src="assets/math/display-56206770333985a4e7de.svg" width="515" alt="Equation (C.32): W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-56206770333985a4e7de-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-56206770333985a4e7de-light.svg">
+  <img src="assets/math/display-56206770333985a4e7de-light.svg" width="580" alt="Equation (C.32): W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
+</picture>
 </p>
 
 
@@ -1537,7 +1814,11 @@ When $`w=\lambda_\xi t^{A_0}<1`$, every inner denominator also has argument at l
 
 
 <p align="center">
-<img src="assets/math/display-82d71e74a7fe25d4e8e2.svg" width="321" alt="Equation (C.33): \left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-82d71e74a7fe25d4e8e2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-82d71e74a7fe25d4e8e2-light.svg">
+  <img src="assets/math/display-82d71e74a7fe25d4e8e2-light.svg" width="361" alt="Equation (C.33): \left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
+</picture>
 </p>
 
 
@@ -1548,9 +1829,13 @@ For a residual envelope $`R\le R_j`$ on the complete cell $`[a_j,b_j]`$, evaluat
 
 
 
-<p align="center">
-<img src="assets/math/display-b325861e881dd61884dd.svg" width="486" alt="Equation (C.34): \left[ W^-(T-a_j)-W^+(T-b_j),\ W^+(T-a_j)-W^-(T-b_j) \right]. \tag{C.34}">
-</p>
+```math
+\left[
+W^-(T-a_j)-W^+(T-b_j),\
+W^+(T-a_j)-W^-(T-b_j)
+\right].
+\tag{C.34}
+```
 
 
 
@@ -1558,9 +1843,10 @@ Intersecting with nonnegativity and the independently proved upper curve weight 
 
 
 
-<p align="center">
-<img src="assets/math/display-a8666a671e86f0365b67.svg" width="220" alt="Equation (C.35): \eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+. \tag{C.35}">
-</p>
+```math
+\eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+.
+\tag{C.35}
+```
 
 
 
@@ -1576,17 +1862,21 @@ The producer evaluates $`W_n`$ through the strict power-field moment divided by 
 For each candidate $`\alpha=\beta\in\{.52,.6,.9\}`$ and each $`u=n/8,\ n=0,\ldots,512`$, we store
 
 
-<p align="center">
-<img src="assets/math/display-7b156d87e78ae6ad3660.svg" width="632" alt="Equation (D.1): \bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2. \tag{D.1}">
-</p>
+```math
+\bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad
+c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2.
+\tag{D.1}
+```
 
 
 Here $`\bar L`$ is the continuous piecewise-linear interpolation in physical time at nodes $`(t_j,L_j)`$, with $`L_0=0`$. Nodes and complex coefficients are interpreted as the exact dyadic rationals represented by their binary64 values. The following independent residual controls the continuous-time error of this reference trajectory:
 
 
-<p align="center">
-<img src="assets/math/display-f79b98ee7b109869899d.svg" width="336" alt="Equation (D.2): r_t=\bar G-\nu F(\widehat Z),\quad \delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|. \tag{D.2}">
-</p>
+```math
+r_t=\bar G-\nu F(\widehat Z),\quad
+\delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|.
+\tag{D.2}
+```
 
 
 Equation (D.1) defines an entire absolutely continuous reference trajectory. Its independent residual gives the model-price intervals, which are then used to bound the output error of the selected [3/3] implementation.
@@ -1594,15 +1884,20 @@ Equation (D.1) defines an entire absolutely continuous reference trajectory. Its
 Write
 
 
-<p align="center">
-<img src="assets/math/display-9a2b3ce2b6ca3da6cf12.svg" width="411" alt="Mathematical expression: \widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},">
-</p>
+```math
+\widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad
+H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},
+```
 
 
 
 
 <p align="center">
-<img src="assets/math/display-a5f7b2787304ea0dd214.svg" width="511" alt="Equation (D.3): B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a5f7b2787304ea0dd214-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a5f7b2787304ea0dd214-light.svg">
+  <img src="assets/math/display-a5f7b2787304ea0dd214-light.svg" width="575" alt="Equation (D.3): B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
+</picture>
 </p>
 
 
@@ -1611,16 +1906,19 @@ The initial interval is $`J=L_1t^{\alpha+1}/[t_1\Gamma(2+\alpha)]`$. Substitute 
 On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral weights for the linear hat functions are
 
 
-<p align="center">
-<img src="assets/math/display-436ddc63c546d8a942e4.svg" width="427" alt="Mathematical expression: I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),">
-</p>
+```math
+I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad
+I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-e77d40b5aeeb55479cd7.svg" width="411" alt="Equation (D.4): w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad w_L=I_0/\Gamma(\alpha)-w_R. \tag{D.4}">
-</p>
+```math
+w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad
+w_L=I_0/\Gamma(\alpha)-w_R.
+\tag{D.4}
+```
 
 
 These weights are nonnegative. For a truncated interval, recover the endpoints by affine interpolation within the original interval. On the final interval, $`b=q`$ can be evaluated directly using
@@ -1629,7 +1927,11 @@ For $`h/\tau<.01`$, retain eight positive-series terms, using respectively
 
 
 <p align="center">
-<img src="assets/math/display-06557eea3b038da55354.svg" width="564" alt="Equation (D.5): w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-06557eea3b038da55354-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-06557eea3b038da55354-light.svg">
+  <img src="assets/math/display-06557eea3b038da55354-light.svg" width="635" alt="Equation (D.5): w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
+</picture>
 </p>
 
 
@@ -1638,31 +1940,36 @@ The unscaled tails are each bounded by $`z^8/(1-z)`$ because $`0<(1-\alpha)_k/k!
 Partition each nonstartup source interval into closed subintervals $`[a,b]`$: H/Q banks use four subintervals, and nearby-candidate banks use two. Choose the recorded dyadic centre $`m`$ of each subinterval. Given a derivative bound on that full subinterval,
 
 
-<p align="center">
-<img src="assets/math/display-c5b3b848576958f091c9.svg" width="397" alt="Equation (D.6): \sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t'|. \tag{D.6}">
-</p>
+```math
+\sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t'|.
+\tag{D.6}
+```
 
 
 The ordinary residual derivative may be discontinuous at original nodes. The derivative bounds below hold almost everywhere; absolute continuity of the residual and the fundamental theorem of calculus still imply (D.6). Each of the following three identities provides a derivative bound, and we take their minimum:
 
 
-<p align="center">
-<img src="assets/math/display-0dc8b7b81660b9eefe19.svg" width="153" alt="Mathematical expression: r_t'=\bar G'-\nu(d+\widehat Z)\widehat Z',">
-</p>
+```math
+r_t'=\bar G'-\nu(d+\widehat Z)\widehat Z',
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-b7bc523c83d84ec7942f.svg" width="513" alt="Mathematical expression: P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,">
-</p>
+```math
+P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad
+r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-0bc0ac7db24cb9c7aa32.svg" width="532" alt="Equation (D.7): r_t'=P_r'+\bar L'-\nu[(d+H_0+J)J'+H_0'J], \quad \widehat Z'=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G'. \tag{D.7}">
-</p>
+```math
+r_t'=P_r'+\bar L'-\nu[(d+H_0+J)J'+H_0'J],
+\quad
+\widehat Z'=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G'.
+\tag{D.7}
+```
 
 
 The constant-kernel weight of a past source interval decreases with the integration endpoint, whereas the weight of the current source interval increases while that endpoint lies within it. Endpoint bounds therefore enclose both types of weight. In the third identity, first combine
@@ -1672,7 +1979,11 @@ The singular terms from the initial source interval are handled directly by frac
 
 
 <p align="center">
-<img src="assets/math/display-7d72ccbfbcea2435a597.svg" width="668" alt="Equation (D.8): \frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7d72ccbfbcea2435a597-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7d72ccbfbcea2435a597-light.svg">
+  <img src="assets/math/display-7d72ccbfbcea2435a597-light.svg" width="751" alt="Equation (D.8): \frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
+</picture>
 </p>
 
 
@@ -1686,7 +1997,11 @@ For matrix multiplication with rigorous weight centres $`W_c`$, radii $`W_r`$, a
 
 
 <p align="center">
-<img src="assets/math/display-2e84d2cf956e471fc8c5.svg" width="495" alt="Equation (D.9): \left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2e84d2cf956e471fc8c5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2e84d2cf956e471fc8c5-light.svg">
+  <img src="assets/math/display-2e84d2cf956e471fc8c5-light.svg" width="556" alt="Equation (D.9): \left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
+</picture>
 </p>
 
 
@@ -1696,23 +2011,33 @@ For the fixed curve, define
 
 
 <p align="center">
-<img src="assets/math/display-506556cb5a7518afffde.svg" width="705" alt="Equation (D.10): J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-506556cb5a7518afffde-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-506556cb5a7518afffde-light.svg">
+  <img src="assets/math/display-506556cb5a7518afffde-light.svg" width="793" alt="Equation (D.10): J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
+</picture>
 </p>
 
 
 These quantities are respectively $`\int_0^z\xi_*(s)ds,\int_0^zs\xi_*(s)ds`$; termwise integration verifies the second formula. If a linear-trajectory interval is $`[a,b]`$ with $`A=T-b,B=T-a`$, its rigorous nonnegative exponent weights are
 
 
-<p align="center">
-<img src="assets/math/display-1bf8c1273101b9813c1f.svg" width="681" alt="Equation (D.11): w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}. \tag{D.11}">
-</p>
+```math
+w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad
+w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}.
+\tag{D.11}
+```
 
 
 The curve moment for the power component $`t^\beta`$ is
 
 
 <p align="center">
-<img src="assets/math/display-ba0b309b04eb4aaa6b5f.svg" width="558" alt="Equation (D.12): \int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ba0b309b04eb4aaa6b5f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ba0b309b04eb4aaa6b5f-light.svg">
+  <img src="assets/math/display-ba0b309b04eb4aaa6b5f-light.svg" width="628" alt="Equation (D.12): \int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
+</picture>
 </p>
 
 
@@ -1725,9 +2050,11 @@ $`|\phi_T(z-i/2)|\le\mathbb E M_T^{1/2-\mathop{\mathrm{Im}}\nolimits z}\le1`$.
 On compact substrips, $`x^q|\log x|^j\le C(1+x)`$, so the transform is analytic. The boundaries $`z=r\pm ia_*`$ satisfy
 
 
-<p align="center">
-<img src="assets/math/display-ccf1b6bc8c0a53c19a61.svg" width="476" alt="Mathematical expression: |z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad \int_{\mathbb R}|g(r\pm ia_*)|\,dr \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.">
-</p>
+```math
+|z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad
+\int_{\mathbb R}|g(r\pm ia_*)|\,dr
+\le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.
+```
 
 
 Shift the real-axis Fourier integration contour to the upper and lower boundaries. The vertical integrals vanish by quadratic decay, giving
@@ -1742,26 +2069,32 @@ This is a specific application of the analytic-strip trapezoidal theory of Trefe
 Fix $`\kappa=0,-1<\rho<0`$. Set $`X=-\mathop{\mathrm{Re}}\nolimits H\ge0`$. Equation (C.6) gives
 
 
-<p align="center">
-<img src="assets/math/display-e4afa60865cec25f2339.svg" width="453" alt="Equation (D.13): D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad \beta_u=(1-\rho^2)u^2/2+1/8. \tag{D.13}">
-</p>
+```math
+D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad
+\beta_u=(1-\rho^2)u^2/2+1/8.
+\tag{D.13}
+```
 
 
 Let $`w`$ be the scalar zero-initial-value solution satisfying equality. Comparison gives
 
 
-<p align="center">
-<img src="assets/math/display-8dc66693782467d78ae7.svg" width="527" alt="Mathematical expression: X\ge w,\quad 0\le w\le R_u,\quad R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.">
-</p>
+```math
+X\ge w,\quad 0\le w\le R_u,\quad
+R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad
+\ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.
+```
 
 
 Because the right-hand side satisfies $`(R_u-w)(s_0+(R_u+w)/2)\ge\ell_u(R_u-w)`$, linear comparison and the bound of Simon [Simon2014],
 $`E_\alpha(-z)\le(1+z/\Gamma(1+\alpha))^{-1}`$, give
 
 
-<p align="center">
-<img src="assets/math/display-ca39bdc81b4d9c63618e.svg" width="333" alt="Equation (D.14): -\mathop{\mathrm{Re}}\nolimits Z(t,u)\ge R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}. \tag{D.14}">
-</p>
+```math
+-\mathop{\mathrm{Re}}\nolimits Z(t,u)\ge
+R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}.
+\tag{D.14}
+```
 
 
 The comparison argument uses a positive maximum over the full history.
@@ -1769,24 +2102,28 @@ The comparison argument uses a positive maximum over the full history.
 Take $`V>s_0/\sqrt{1-\rho^2}`$ and define
 
 
-<p align="center">
-<img src="assets/math/display-07c1e3c0d7f34a8c33f3.svg" width="458" alt="Mathematical expression: a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V&gt;0,\quad f_\alpha(z)=z/(\Gamma(1+\alpha)+z).">
-</p>
+```math
+a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V>0,\quad
+f_\alpha(z)=z/(\Gamma(1+\alpha)+z).
+```
 
 
 For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition of $`J\ge2`$, denoted $`0=t_0<\cdots<t_J=T`$, the positive kernel in (C.26) and the monotonicity of $`f_\alpha`$ give
 
 
-<p align="center">
-<img src="assets/math/display-21c9cc1e34c2991ecd92.svg" width="415" alt="Mathematical expression: c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1} f_\alpha(a_\rho\nu Vt_j^\alpha/2) [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]&gt;0,">
-</p>
+```math
+c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1}
+ f_\alpha(a_\rho\nu Vt_j^\alpha/2)
+ [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]>0,
+```
 
 
 
 
-<p align="center">
-<img src="assets/math/display-de9778f517df55e8d732.svg" width="304" alt="Equation (D.15): |\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V). \tag{D.15}">
-</p>
+```math
+|\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V).
+\tag{D.15}
+```
 
 
 This envelope holds at every continuous high frequency. The time partition constructs a lower sum for the positive-measure integral. The example uses $`J=64`$ and rigorous intervals to obtain a positive rational lower bound for $`c_V`$. No singular evaluation is performed at $`A_\alpha(0)=0`$. The difference between bounds taken from the appropriate sides at distinct endpoints,
@@ -1797,7 +2134,11 @@ Using the right-endpoint sum of a positive decreasing function, for $`V=N_uh_*`$
 
 
 <p align="center">
-<img src="assets/math/display-7d39a237192622ca9faf.svg" width="210" alt="Equation (D.16): \epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7d39a237192622ca9faf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7d39a237192622ca9faf-light.svg">
+  <img src="assets/math/display-7d39a237192622ca9faf-light.svg" width="237" alt="Equation (D.16): \epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
+</picture>
 </p>
 
 
@@ -1810,9 +2151,12 @@ $`\bar G=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L`$, where $`\beta=\alpha_j`$. It
 The recorded exponent is derivative-based: $`\bar L_T=\nu^{-1}\int\xi_*(T-t)\bar G(t)dt`$. The positive kernel $`q_\alpha=(I^{1-\alpha}\xi_*)'\ge0`$ gives
 
 
-<p align="center">
-<img src="assets/math/display-b05914fa7ba7fed347f7.svg" width="497" alt="Equation (D.17): |L_T-\bar L_T| \le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu \le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)]. \tag{D.17}">
-</p>
+```math
+|L_T-\bar L_T|
+\le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu
+\le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)].
+\tag{D.17}
+```
 
 
 No residual integral is added a second time. Gamma and Mittag–Leffler curve moments, trajectory integrals, exponents, phases, and sums for the fixed curve use outward-rounded 100-bit rational intervals.
@@ -1827,9 +2171,11 @@ Here $`E_{\rm state}`$ is a certified state radius: $`E_\delta`$ in Proposition 
 
 
 
-<p align="center">
-<img src="assets/math/display-75d17569be4d7636fe06.svg" width="446" alt="Equation (D.18): B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0. \tag{D.18}">
-</p>
+```math
+B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad
+g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0.
+\tag{D.18}
+```
 
 
 
@@ -1849,9 +2195,11 @@ If $`p^+<b^-`$, then the exact price satisfies $`c<B`$; if $`p^->a^+`$, then $`c
 $`\sup_{\Theta_{\rm finite}}|\widetilde J-J|\le\delta_J`$, and its selected candidate is $`\varepsilon_{\rm alg}`$-near-optimal. Then
 
 
-<p align="center">
-<img src="assets/math/display-2f1ec294cbba72b584ee.svg" width="241" alt="Equation (D.19): J(\widehat\alpha)-J_* \le2\delta_J+\varepsilon_{\rm alg}. \tag{D.19}">
-</p>
+```math
+J(\widehat\alpha)-J_*
+\le2\delta_J+\varepsilon_{\rm alg}.
+\tag{D.19}
+```
 
 
 Indeed, $`J(\widehat\alpha)\le\widetilde J(\widehat\alpha)+\delta_J \le\min\widetilde J+\varepsilon_{\rm alg}+\delta_J \le J_*+2\delta_J+\varepsilon_{\rm alg}`$.
@@ -1875,9 +2223,11 @@ The experiment uses normalised call prices with $`D=1,F=4221.86`$. Decimal IV an
 Fix $`\rho=-.7445,\nu=.2897,\lambda_R=\kappa=0`$ and the entire forward variance function
 
 
-<p align="center">
-<img src="assets/math/display-a2bb19fe76126a9fcdb5.svg" width="423" alt="Equation (E.1): \xi_*(t)=.0721+(.0262-.0721) E_{.5286}(-.5037t^{.5286}). \tag{E.1}">
-</p>
+```math
+\xi_*(t)=.0721+(.0262-.0721)
+E_{.5286}(-.5037t^{.5286}).
+\tag{E.1}
+```
 
 
 The curve exponent .5286 and curve parameter .5037 remain fixed. Changing $`\alpha`$ neither recomputes the curve nor assigns .5037 to Riccati mean reversion. These values are the published rounded fitted parameters in [JK2021] and define a candidate comparison with the other inputs fixed.
@@ -1885,9 +2235,11 @@ The curve exponent .5286 and curve parameter .5037 remain fixed. Changing $`\alp
 The candidate set is
 
 
-<p align="center">
-<img src="assets/math/display-00f24ea0b0789a71e956.svg" width="475" alt="Equation (E.2): \Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad H=\alpha-\tfrac12\in\{.02,.1,.4\}. \tag{E.2}">
-</p>
+```math
+\Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad
+H=\alpha-\tfrac12\in\{.02,.1,.4\}.
+\tag{E.2}
+```
 
 
 This is a conditional objective profile with all other parameters and the complete curve held fixed. The threshold $`H_c=.1`$ distinguishes the lower- and higher-H candidates in this comparison. All three satisfy $`H<.5`$, so the classification is within the roughness candidates rather than between rough and classical Heston models. All assertions in this section concern the complete three-element set (E.2).
@@ -1896,7 +2248,11 @@ The model prices $`c_i(\alpha)=C_i(\alpha)/(DF)`$ arise from the admissible nonn
 
 
 <p align="center">
-<img src="assets/math/display-fd763249817e2a5c28f3.svg" width="577" alt="Equation (E.3): J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \mathop{\mathrm{dist}}\nolimits (c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-fd763249817e2a5c28f3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-fd763249817e2a5c28f3-light.svg">
+  <img src="assets/math/display-fd763249817e2a5c28f3-light.svg" width="649" alt="Equation (E.3): J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \mathop{\mathrm{dist}}\nolimits (c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
+</picture>
 </p>
 
 
@@ -1984,9 +2340,10 @@ Least-squares ordering and quote consistency are determined separately from obje
 The Padé procedure uses the six-condition GR [3/3] approximation, a 256-point Jacobi rule for the derivative-based exponent, and an eighth-order composite Gauss–Legendre rule for Fourier inversion through 200. The archived files identify the Python/NumPy implementation and source hashes. Each finite output $`c^P`$ is saved as an exact dyadic rational. The model-price reference interval gives
 
 
-<p align="center">
-<img src="assets/math/display-125caccfa1fbeba9a0c3.svg" width="326" alt="Equation (E.4): |c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}. \tag{E.4}">
-</p>
+```math
+|c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}.
+\tag{E.4}
+```
 
 
 This bound includes the implementation's state, exponent, quadrature, truncation, and floating-point errors. The saved outputs can therefore be compared directly without a separate certification of an infinite-integral analytic Padé price. The numerical objective uses the same quote-price midpoint intervals. We assert selection preservation only when both the numerical and model objectives are strictly separated on the finite set and have the same minimiser. The assertion concerns the specified implementation, candidates, and input setting.
@@ -2097,7 +2454,11 @@ Write $`s=S/100=e^Z`$, $`d=\kappa\bar v`$, $`r=1/100`$, $`h=1/768`$, and $`s_0=1
 
 
 <p align="center">
-<img src="assets/math/display-f1f811c59258d77b50fe.svg" width="412" alt="Equation (F.1): \begin{aligned} dZ_t&amp;=(r-V_t/2)dt+\sqrt{V_t}(\rho\,dW_t+\sqrt{1-\rho^2}\,dB_t),\\ dV_t&amp;=(d-\kappa V_t)dt+\xi\sqrt{V_t}\,dW_t,\\ Y&amp;=dh+(1-\kappa h)v+\xi\sqrt{hv}\,G,\qquad V'=Y^+,\\ Z'&amp;=z+rh-hv/2+\sqrt{hv}(\rho G+\sqrt{1-\rho^2}H). \end{aligned}\tag{F.1}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f1f811c59258d77b50fe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f1f811c59258d77b50fe-light.svg">
+  <img src="assets/math/display-f1f811c59258d77b50fe-light.svg" width="464" alt="Equation (F.1): \begin{aligned} dZ_t&amp;=(r-V_t/2)dt+\sqrt{V_t}(\rho\,dW_t+\sqrt{1-\rho^2}\,dB_t),\\ dV_t&amp;=(d-\kappa V_t)dt+\xi\sqrt{V_t}\,dW_t,\\ Y&amp;=dh+(1-\kappa h)v+\xi\sqrt{hv}\,G,\qquad V'=Y^+,\\ Z'&amp;=z+rh-hv/2+\sqrt{hv}(\rho G+\sqrt{1-\rho^2}H). \end{aligned}\tag{F.1}">
+</picture>
 </p>
 
 
@@ -2106,9 +2467,10 @@ Here $`G,H`$ are independent standard normal variables, and the same $`G`$ drive
 
 
 
-<p align="center">
-<img src="assets/math/display-82e4c700fac8e8ab9744.svg" width="574" alt="Equation (F.2): \kappa\in[2,4],\quad \bar v,v_0\in[3/100,3/50],\quad \xi\in[9/50,7/25],\quad \rho\in[-4/5,-3/10].\tag{F.2}">
-</p>
+```math
+\kappa\in[2,4],\quad \bar v,v_0\in[3/100,3/50],\quad
+\xi\in[9/50,7/25],\quad \rho\in[-4/5,-3/10].\tag{F.2}
+```
 
 
 
@@ -2116,9 +2478,9 @@ A finite multidate mode has loadings $`\alpha_{i,n}\in\mathbb C`$ satisfying
 
 
 
-<p align="center">
-<img src="assets/math/display-146f15f542ba624b23d7.svg" width="298" alt="Equation (F.3): \Re\alpha_{i,n}\le0,\qquad \sum_n|\Re\alpha_{i,n}|\le1/2.\tag{F.3}">
-</p>
+```math
+\Re\alpha_{i,n}\le0,\qquad \sum_n|\Re\alpha_{i,n}|\le1/2.\tag{F.3}
+```
 
 
 
@@ -2130,9 +2492,10 @@ The realized prefix is $`H_{ji}`$; the remaining stock loading is $`q_{ji}=p_{ji
 
 
 
-<p align="center">
-<img src="assets/math/display-58936fcc5211cc560321.svg" width="448" alt="Equation (F.4): b'=\tfrac12\xi^2b^2+(\rho\xi q-\kappa)b+\tfrac12(q^2-q), \qquad a'=rq+db.\tag{F.4}">
-</p>
+```math
+b'=\tfrac12\xi^2b^2+(\rho\xi q-\kappa)b+\tfrac12(q^2-q),
+\qquad a'=rq+db.\tag{F.4}
+```
 
 
 
@@ -2140,9 +2503,12 @@ At fixings $`q`$ changes and $`a,b`$ continue without resetting. To prove existe
 
 
 
-<p align="center">
-<img src="assets/math/display-ab1ea02d57d9226840f3.svg" width="691" alt="Equation (F.5): \tfrac12\xi^2-\kappa_p+\gamma_p -\tfrac12\{(\xi\Im b+\rho\omega)^2+(1-\rho^2)\omega^2\}&lt;0, \qquad \frac{d|b|}{dt}\le(\xi^2/2-\kappa_p)|b|+|q^2-q|/2.\tag{F.5}">
-</p>
+```math
+\tfrac12\xi^2-\kappa_p+\gamma_p
+-\tfrac12\{(\xi\Im b+\rho\omega)^2+(1-\rho^2)\omega^2\}<0,
+\qquad
+\frac{d|b|}{dt}\le(\xi^2/2-\kappa_p)|b|+|q^2-q|/2.\tag{F.5}
+```
 
 
 
@@ -2152,9 +2518,11 @@ The identification with an expectation requires more than formal Riccati algebra
 
 
 
-<p align="center">
-<img src="assets/math/display-e5f44f51bc4943593000.svg" width="525" alt="Equation (F.6): \mathcal Y_t=e^{L_*(t)+p_*(t)Z_t+4V_t-(24/25)t},\qquad |\mathcal M_\tau|^{5/4} \le e^{(5/4)(6/25)T+(24/25)T}\mathcal Y_\tau.\tag{F.6}">
-</p>
+```math
+\mathcal Y_t=e^{L_*(t)+p_*(t)Z_t+4V_t-(24/25)t},\qquad
+|\mathcal M_\tau|^{5/4}
+\le e^{(5/4)(6/25)T+(24/25)T}\mathcal Y_\tau.\tag{F.6}
+```
 
 
 
@@ -2165,7 +2533,11 @@ The actual one-step propagation retains the entire positive-part Gaussian kernel
 
 
 <p align="center">
-<img src="assets/math/display-6fc921e5b5eb8a7585e1.svg" width="573" alt="Equation (F.7): \frac{Q_hu(z,v)}{e^{qz}}= e^{a+qrh-qhv/2+q^2(1-\rho^2)hv/2} \int_{\mathbb R}\varphi(g) e^{q\rho\sqrt{hv}g+b[dh+(1-\kappa h)v+\xi\sqrt{hv}g]^+}\,dg.\tag{F.7}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6fc921e5b5eb8a7585e1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6fc921e5b5eb8a7585e1-light.svg">
+  <img src="assets/math/display-6fc921e5b5eb8a7585e1-light.svg" width="645" alt="Equation (F.7): \frac{Q_hu(z,v)}{e^{qz}}= e^{a+qrh-qhv/2+q^2(1-\rho^2)hv/2} \int_{\mathbb R}\varphi(g) e^{q\rho\sqrt{hv}g+b[dh+(1-\kappa h)v+\xi\sqrt{hv}g]^+}\,dg.\tag{F.7}">
+</picture>
 </p>
 
 
@@ -2177,7 +2549,11 @@ Let $`D_{ji}(v)`$ be this actual propagation minus the exact continuous continua
 
 
 <p align="center">
-<img src="assets/math/display-51091641d54423ac8002.svg" width="433" alt="Equation (F.8): \Phi_{Q,i}-\Phi_{P,i}=\sum_{j=0}^{N-1}r_{ji},\qquad r_{ji}=E_Q[H_{ji}e^{q_{ji}Z_j}D_{ji}(V_j)].\tag{F.8}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-51091641d54423ac8002-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-51091641d54423ac8002-light.svg">
+  <img src="assets/math/display-51091641d54423ac8002-light.svg" width="487" alt="Equation (F.8): \Phi_{Q,i}-\Phi_{P,i}=\sum_{j=0}^{N-1}r_{ji},\qquad r_{ji}=E_Q[H_{ji}e^{q_{ji}Z_j}D_{ji}(V_j)].\tag{F.8}">
+</picture>
 </p>
 
 
@@ -2190,9 +2566,10 @@ The integrability in the next subsection justifies every discrete expectation in
 
 
 
-<p align="center">
-<img src="assets/math/display-4865237b823da22a25cd.svg" width="410" alt="Equation (F.9): E_Q\exp\!\left\{\sum_{n\le j}\beta_n Z_n+4V_j\right\} \le K_j:=e^{6/25+(73/75)jh}.\tag{F.9}">
-</p>
+```math
+E_Q\exp\!\left\{\sum_{n\le j}\beta_n Z_n+4V_j\right\}
+\le K_j:=e^{6/25+(73/75)jh}.\tag{F.9}
+```
 
 
 
@@ -2201,7 +2578,11 @@ To prove it, complete the real stock square for $`p\in[-1,0]`$. The candidate me
 
 
 <p align="center">
-<img src="assets/math/display-12507b7f52d324d0b1c8.svg" width="586" alt="Equation (F.10): E(-Y_p)^+\le\frac{h}{25e} \exp\!\left\{-25d+\frac{[-25\eta_p+(625/2)\xi^2]v}{h}\right\} \le\frac{h}{25e^{5/2}}&lt;h/300.\tag{F.10}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-12507b7f52d324d0b1c8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-12507b7f52d324d0b1c8-light.svg">
+  <img src="assets/math/display-12507b7f52d324d0b1c8-light.svg" width="659" alt="Equation (F.10): E(-Y_p)^+\le\frac{h}{25e} \exp\!\left\{-25d+\frac{[-25\eta_p+(625/2)\xi^2]v}{h}\right\} \le\frac{h}{25e^{5/2}}&lt;h/300.\tag{F.10}">
+</picture>
 </p>
 
 
@@ -2211,7 +2592,11 @@ The parameter bounds imply $`d\ge3/50`$, the variance coefficient is at most $`-
 
 
 <p align="center">
-<img src="assets/math/display-76565e9c75f16064b9c7.svg" width="486" alt="Equation (F.11): \begin{aligned} E_Q[e^{pZ'+BV'}\mid z,v] &amp;\le e^{pz+prh}\{e^{Bdh+F_p(B)v}+Bh\,e^{\gamma_phv}/300\},\\ E_Q[e^{pZ'+4V'}\mid z,v] &amp;\le e^{pz+4v}(e^{4dh}+4h/300) \le e^{pz+4v+(73/75)h}. \end{aligned}\tag{F.11}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-76565e9c75f16064b9c7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-76565e9c75f16064b9c7-light.svg">
+  <img src="assets/math/display-76565e9c75f16064b9c7-light.svg" width="546" alt="Equation (F.11): \begin{aligned} E_Q[e^{pZ'+BV'}\mid z,v] &amp;\le e^{pz+prh}\{e^{Bdh+F_p(B)v}+Bh\,e^{\gamma_phv}/300\},\\ E_Q[e^{pZ'+4V'}\mid z,v] &amp;\le e^{pz+4v}(e^{4dh}+4h/300) \le e^{pz+4v+(73/75)h}. \end{aligned}\tag{F.11}">
+</picture>
 </p>
 
 
@@ -2223,7 +2608,11 @@ For a finite partition $`I_r`$ of $`[0,\infty`$), retain the zero atom and the u
 
 
 <p align="center">
-<img src="assets/math/display-7aff541dbc29d773f5fd.svg" width="623" alt="Equation (F.12): \pi_{jr}=Q(V_j\in I_r),\quad h_{jir}\ge\sup_{v\in I_r}|e^{-2v}D_{ji}(v)|^2,\quad |r_{ji}|^2\le K_j\sum_rh_{jir}\pi_{jr}=:\mathbf a_{ji}\cdot\pi_j.\tag{F.12}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7aff541dbc29d773f5fd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7aff541dbc29d773f5fd-light.svg">
+  <img src="assets/math/display-7aff541dbc29d773f5fd-light.svg" width="700" alt="Equation (F.12): \pi_{jr}=Q(V_j\in I_r),\quad h_{jir}\ge\sup_{v\in I_r}|e^{-2v}D_{ji}(v)|^2,\quad |r_{ji}|^2\le K_j\sum_rh_{jir}\pi_{jr}=:\mathbf a_{ji}\cdot\pi_j.\tag{F.12}">
+</picture>
 </p>
 
 
@@ -2236,9 +2625,10 @@ Fix $`\theta_*=(\kappa,\bar v,\xi,\rho,v_0)=(3,9/200,23/100,-11/20,9/200)`$, $`j
 
 
 
-<p align="center">
-<img src="assets/math/display-bc7f8e6badd76cdba205.svg" width="548" alt="Equation (F.13): I_0=\{0\},\quad I_r=((r-1)/100,r/100]\ (1\le r\le100), \quad I_{101}=(1,\infty).\tag{F.13}">
-</p>
+```math
+I_0=\{0\},\quad I_r=((r-1)/100,r/100]\ (1\le r\le100),
+\quad I_{101}=(1,\infty).\tag{F.13}
+```
 
 
 
@@ -2247,7 +2637,11 @@ For $`v>0`$ the next-step zero mass is $`\Phi(-(dh+\eta v)/(\xi\sqrt{hv}))`$; at
 
 
 <p align="center">
-<img src="assets/math/display-cadf93596f3489e8a2da.svg" width="656" alt="Equation (F.14): EV_n\le\mu:=7/150,\qquad M_{n+1}\le e^{4dh}M_n^{\beta}+h/50,\qquad Ee^{4V_n}\le5/4,\quad Ee^{-tV_n}\ge e^{-t\mu}.\tag{F.14}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-cadf93596f3489e8a2da-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-cadf93596f3489e8a2da-light.svg">
+  <img src="assets/math/display-cadf93596f3489e8a2da-light.svg" width="737" alt="Equation (F.14): EV_n\le\mu:=7/150,\qquad M_{n+1}\le e^{4dh}M_n^{\beta}+h/50,\qquad Ee^{4V_n}\le5/4,\quad Ee^{-tV_n}\ge e^{-t\mu}.\tag{F.14}">
+</picture>
 </p>
 
 
@@ -2258,9 +2652,10 @@ For $`t\in\mathcal T=\{1,4,16,64,256,(191/192)^2/[2(49/625)h]\}`$, define
 
 
 
-<p align="center">
-<img src="assets/math/display-7c4ca5ff3147c6764644.svg" width="560" alt="Equation (F.15): t_0=t,\quad t_{n+1}=\eta_*t_n-c_*t_n^2,\qquad L_{767}(t)=\exp\!\left[-d_*h\sum_{n=0}^{766}t_n-v_*t_{767}\right].\tag{F.15}">
-</p>
+```math
+t_0=t,\quad t_{n+1}=\eta_*t_n-c_*t_n^2,\qquad
+L_{767}(t)=\exp\!\left[-d_*h\sum_{n=0}^{766}t_n-v_*t_{767}\right].\tag{F.15}
+```
 
 
 
@@ -2271,7 +2666,11 @@ The true terminal probability vector satisfies
 
 
 <p align="center">
-<img src="assets/math/display-dd9b7c8f526f7e75da66.svg" width="538" alt="Equation (F.16): \begin{aligned} \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm ref}_{767}(t),&amp; \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm point}_{767}(t),\\ \sum_r\sup_{I_r}e^{-tv}\pi_r&amp;\ge e^{-t\mu},&amp; \sum_r\ell_r\pi_r&amp;\le\mu,\quad \sum_re^{4\ell_r}\pi_r\le5/4, \end{aligned}\tag{F.16}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dd9b7c8f526f7e75da66-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dd9b7c8f526f7e75da66-light.svg">
+  <img src="assets/math/display-dd9b7c8f526f7e75da66-light.svg" width="606" alt="Equation (F.16): \begin{aligned} \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm ref}_{767}(t),&amp; \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm point}_{767}(t),\\ \sum_r\sup_{I_r}e^{-tv}\pi_r&amp;\ge e^{-t\mu},&amp; \sum_r\ell_r\pi_r&amp;\le\mu,\quad \sum_re^{4\ell_r}\pi_r\le5/4, \end{aligned}\tag{F.16}">
+</picture>
 </p>
 
 
@@ -2284,9 +2683,10 @@ At the final step the future variance exponent is zero, so its positive-part cor
 
 
 
-<p align="center">
-<img src="assets/math/display-48b4ee8de1c32e51a8dc.svg" width="730" alt="Equation (F.17): D_q(v)=e^{rqh+hgv}-e^{a(h)+B(h)v},\quad B'=g+LB+cB^2,\ B(0)=0,\qquad a(h)=rqh+d\int_0^hB(t)dt.\tag{F.17}">
-</p>
+```math
+D_q(v)=e^{rqh+hgv}-e^{a(h)+B(h)v},\quad
+B'=g+LB+cB^2,\ B(0)=0,\qquad a(h)=rqh+d\int_0^hB(t)dt.\tag{F.17}
+```
 
 
 
@@ -2297,7 +2697,11 @@ Let $`P_3(t)=b_1t+b_2t^2+b_3t^3`$, where $`b_1=g`$, $`b_2=Lg/2`$, $`b_3=(L^2g+2c
 
 
 <p align="center">
-<img src="assets/math/display-d2573350d0bfe0101749.svg" width="484" alt="Equation (F.18): E_B=\sum_{k=3}^6|r_k|_+\frac{h^{k+1}}{k+1},\qquad E_A=d\sum_{k=3}^6|r_k|_+\frac{h^{k+2}}{(k+1)(k+2)}.\tag{F.18}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-d2573350d0bfe0101749-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-d2573350d0bfe0101749-light.svg">
+  <img src="assets/math/display-d2573350d0bfe0101749-light.svg" width="545" alt="Equation (F.18): E_B=\sum_{k=3}^6|r_k|_+\frac{h^{k+1}}{k+1},\qquad E_A=d\sum_{k=3}^6|r_k|_+\frac{h^{k+2}}{(k+1)(k+2)}.\tag{F.18}">
+</picture>
 </p>
 
 
@@ -2307,7 +2711,11 @@ The notation $`|\cdot|_+`$ denotes a certified upper modulus. Set
 
 
 <p align="center">
-<img src="assets/math/display-3446ccb357072b0413cb.svg" width="482" alt="Equation (F.19): \begin{aligned} A_q&amp;=\min\{|{-d\int_0^hP_3}|_++E_A,\ d|g|_+h^2/2\},\\ B_q&amp;=\min\{|hg-P_3(h)|_++E_B,\ (|L|_++\xi^2|g|_+h)|g|_+h^2/2\},\\ m_q&amp;=2-\max\{h\Re g,\min(0,\Re P_3(h)+E_B)\}&gt;0. \end{aligned}\tag{F.19}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3446ccb357072b0413cb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3446ccb357072b0413cb-light.svg">
+  <img src="assets/math/display-3446ccb357072b0413cb-light.svg" width="543" alt="Equation (F.19): \begin{aligned} A_q&amp;=\min\{|{-d\int_0^hP_3}|_++E_A,\ d|g|_+h^2/2\},\\ B_q&amp;=\min\{|hg-P_3(h)|_++E_B,\ (|L|_++\xi^2|g|_+h)|g|_+h^2/2\},\\ m_q&amp;=2-\max\{h\Re g,\min(0,\Re P_3(h)+E_B)\}&gt;0. \end{aligned}\tag{F.19}">
+</picture>
 </p>
 
 
@@ -2317,7 +2725,11 @@ The exponential-difference integral formula, and the coarse modulus bound for th
 
 
 <p align="center">
-<img src="assets/math/display-78e6d3b2b5c610e2e8b9.svg" width="532" alt="Equation (F.20): \begin{gathered}|e^{-2v}D_q(v)|\le e^{prh}(A_q+B_qv)e^{-m_qv},\\ h_{qr}=\min\{[4e^{2prh-4\ell_r}]_+,[e^{2prh}S_{qr}^2]_+\},\quad S_{qr}=\sup_{v\in I_r}(A_q+B_qv)e^{-m_qv}.\end{gathered}\tag{F.20}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-78e6d3b2b5c610e2e8b9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-78e6d3b2b5c610e2e8b9-light.svg">
+  <img src="assets/math/display-78e6d3b2b5c610e2e8b9-light.svg" width="598" alt="Equation (F.20): \begin{gathered}|e^{-2v}D_q(v)|\le e^{prh}(A_q+B_qv)e^{-m_qv},\\ h_{qr}=\min\{[4e^{2prh-4\ell_r}]_+,[e^{2prh}S_{qr}^2]_+\},\quad S_{qr}=\sup_{v\in I_r}(A_q+B_qv)e^{-m_qv}.\end{gathered}\tag{F.20}">
+</picture>
 </p>
 
 
@@ -2330,9 +2742,9 @@ Suppose the same finite mode catalog gives the complete discounted-price decompo
 
 
 
-<p align="center">
-<img src="assets/math/display-193b483067b81ad3df7d.svg" width="428" alt="Equation (F.21): e_k=p_{h,k}-p_{c,k}=\Re\sum_{j,i}c_{ki}r_{ji}+R_k,\qquad |R_k|\le\varrho_k.\tag{F.21}">
-</p>
+```math
+e_k=p_{h,k}-p_{c,k}=\Re\sum_{j,i}c_{ki}r_{ji}+R_k,\qquad |R_k|\le\varrho_k.\tag{F.21}
+```
 
 
 
@@ -2341,7 +2753,11 @@ The coefficients and the remainder bounds must include all required conversion, 
 
 
 <p align="center">
-<img src="assets/math/display-2de65e61c8d75cd4357c.svg" width="518" alt="Equation (F.22): \mathcal E=\left\{\left(\Re\sum_{j,i}c_{ki}z_{ji}\right)_k: \Pi\in\mathcal F,\ |z_{ji}|^2\le\mathbf a_{ji}\cdot\pi_j\right\} +\prod_k[-\varrho_k,\varrho_k].\tag{F.22}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2de65e61c8d75cd4357c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2de65e61c8d75cd4357c-light.svg">
+  <img src="assets/math/display-2de65e61c8d75cd4357c-light.svg" width="582" alt="Equation (F.22): \mathcal E=\left\{\left(\Re\sum_{j,i}c_{ki}z_{ji}\right)_k: \Pi\in\mathcal F,\ |z_{ji}|^2\le\mathbf a_{ji}\cdot\pi_j\right\} +\prod_k[-\varrho_k,\varrho_k].\tag{F.22}">
+</picture>
 </p>
 
 
@@ -2351,7 +2767,11 @@ The coefficients and the remainder bounds must include all required conversion, 
 
 
 <p align="center">
-<img src="assets/math/display-60ca071ed7d5daa27046.svg" width="422" alt="Equation (F.23): s_{\mathcal E}(w)=\max_{\Pi\in\mathcal F}\sum_{j,i} \left|\sum_kw_kc_{ki}\right|\sqrt{\mathbf a_{ji}\cdot\pi_j} +\sum_k|w_k|\varrho_k.\tag{F.23}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-60ca071ed7d5daa27046-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-60ca071ed7d5daa27046-light.svg">
+  <img src="assets/math/display-60ca071ed7d5daa27046-light.svg" width="475" alt="Equation (F.23): s_{\mathcal E}(w)=\max_{\Pi\in\mathcal F}\sum_{j,i} \left|\sum_kw_kc_{ki}\right|\sqrt{\mathbf a_{ji}\cdot\pi_j} +\sum_k|w_k|\varrho_k.\tag{F.23}">
+</picture>
 </p>
 
 
@@ -2363,7 +2783,11 @@ Put $`F_k(\Pi)=\sum_{j,i}|c_{ki}|\sqrt{\mathbf a_{ji}\cdot\pi_j}`$, $`m_k=\max_{
 
 
 <p align="center">
-<img src="assets/math/display-bcbbe5160386972915fe.svg" width="537" alt="Equation (F.24): \begin{aligned} s_{\mathcal B}(w)-s_{\mathcal E}(w) =\min_{\Pi\in\mathcal F}\Big\{ &amp;\sum_k|w_k|[m_k-F_k(\Pi)]\\ &amp;+\sum_{j,i}\big[\sum_k|w_kc_{ki}|-|\sum_kw_kc_{ki}|\big] \sqrt{\mathbf a_{ji}\cdot\pi_j}\Big\}. \end{aligned}\tag{F.24}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-bcbbe5160386972915fe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-bcbbe5160386972915fe-light.svg">
+  <img src="assets/math/display-bcbbe5160386972915fe-light.svg" width="604" alt="Equation (F.24): \begin{aligned} s_{\mathcal B}(w)-s_{\mathcal E}(w) =\min_{\Pi\in\mathcal F}\Big\{ &amp;\sum_k|w_k|[m_k-F_k(\Pi)]\\ &amp;+\sum_{j,i}\big[\sum_k|w_kc_{ki}|-|\sum_kw_kc_{ki}|\big] \sqrt{\mathbf a_{ji}\cdot\pi_j}\Big\}. \end{aligned}\tag{F.24}">
+</picture>
 </p>
 
 
@@ -2379,7 +2803,11 @@ After conjugate reduction, the complete terminal rows are
 
 
 <p align="center">
-<img src="assets/math/display-f61ca1de6935ce524e37.svg" width="534" alt="Equation (F.25): \begin{gathered}F_A(\pi)=C_A\sqrt{K_{767}}\sqrt{a\cdot\pi},\quad C_A&gt;0,\\ F_P(\pi)=\frac{1600e^{-.01}}{\pi_{\rm circ}}\sqrt{K_{767}} \sum_{\omega=8,24,\ldots,120} \frac{\sqrt{d_\omega\cdot\pi}} {\sqrt{(\omega^2+1/16)(\omega^2+25/16)}}.\end{gathered}\tag{F.25}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f61ca1de6935ce524e37-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f61ca1de6935ce524e37-light.svg">
+  <img src="assets/math/display-f61ca1de6935ce524e37-light.svg" width="600" alt="Equation (F.25): \begin{gathered}F_A(\pi)=C_A\sqrt{K_{767}}\sqrt{a\cdot\pi},\quad C_A&gt;0,\\ F_P(\pi)=\frac{1600e^{-.01}}{\pi_{\rm circ}}\sqrt{K_{767}} \sum_{\omega=8,24,\ldots,120} \frac{\sqrt{d_\omega\cdot\pi}} {\sqrt{(\omega^2+1/16)(\omega^2+25/16)}}.\end{gathered}\tag{F.25}">
+</picture>
 </p>
 
 
@@ -2391,7 +2819,11 @@ The exact Asian primal and dual satisfy $`\pi^A\ge0`$, $`A\pi^A\le b`$, $`y\ge0`
 
 
 <p align="center">
-<img src="assets/math/display-669af1c92f914e6607e6.svg" width="518" alt="Equation (F.26): \pi^A_{S}=A_{J,S}^{-1}b_J,\quad \pi^A_{S^c}=0,\qquad \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}&gt;0.\tag{F.26}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-669af1c92f914e6607e6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-669af1c92f914e6607e6-light.svg">
+  <img src="assets/math/display-669af1c92f914e6607e6-light.svg" width="583" alt="Equation (F.26): \pi^A_{S}=A_{J,S}^{-1}b_J,\quad \pi^A_{S^c}=0,\qquad \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}&gt;0.\tag{F.26}">
+</picture>
 </p>
 
 
@@ -2403,7 +2835,11 @@ The same polytope contains an exact $`\pi^B`$ supported on $`\{5,6\}`$. Let $`D_
 
 
 <p align="center">
-<img src="assets/math/display-073b04e232b09ed56a14.svg" width="599" alt="Equation (F.27): \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0} =\sum_\omega\frac{d_\omega\cdot(\pi^B-\pi^A)}{2\sqrt{D_\omega x_\omega}} \in[L,U],\qquad L&gt;3\cdot10^{-9}.\tag{F.27}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-073b04e232b09ed56a14-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-073b04e232b09ed56a14-light.svg">
+  <img src="assets/math/display-073b04e232b09ed56a14-light.svg" width="674" alt="Equation (F.27): \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0} =\sum_\omega\frac{d_\omega\cdot(\pi^B-\pi^A)}{2\sqrt{D_\omega x_\omega}} \in[L,U],\qquad L&gt;3\cdot10^{-9}.\tag{F.27}">
+</picture>
 </p>
 
 
@@ -2413,7 +2849,11 @@ The exact rational $`L,U`$ are the `put_direction.derivative` endpoints in `term
 
 
 <p align="center">
-<img src="assets/math/display-a402bbe401a59c923bbe.svg" width="646" alt="Equation (F.28): g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)&gt;0, \qquad s_{\mathcal B_{767}}(w)-s_{\mathcal E_{767}}(w)\ge g^{\rm row}_{767}&gt;0.\tag{F.28}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a402bbe401a59c923bbe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a402bbe401a59c923bbe-light.svg">
+  <img src="assets/math/display-a402bbe401a59c923bbe-light.svg" width="726" alt="Equation (F.28): g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)&gt;0, \qquad s_{\mathcal B_{767}}(w)-s_{\mathcal E_{767}}(w)\ge g^{\rm row}_{767}&gt;0.\tag{F.28}">
+</picture>
 </p>
 
 
@@ -2429,7 +2869,11 @@ For compact valid sets $`e=p_h-p_c\in\mathcal E`$ and $`n=p_h-\widehat p_h\in\ma
 
 
 <p align="center">
-<img src="assets/math/display-0aff32d9b7231c920382.svg" width="500" alt="Equation (F.29): \begin{aligned} w^Tp_h-s_{\mathcal E}(w)&amp;\le w^Tp_c\le w^Tp_h+s_{\mathcal E}(-w),\\ w^T\widehat p_h-s_{\mathcal N}(-w)-s_{\mathcal E}(w) &amp;\le w^Tp_c\le w^T\widehat p_h+s_{\mathcal N}(w)+s_{\mathcal E}(-w). \end{aligned}\tag{F.29}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0aff32d9b7231c920382-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0aff32d9b7231c920382-light.svg">
+  <img src="assets/math/display-0aff32d9b7231c920382-light.svg" width="563" alt="Equation (F.29): \begin{aligned} w^Tp_h-s_{\mathcal E}(w)&amp;\le w^Tp_c\le w^Tp_h+s_{\mathcal E}(-w),\\ w^T\widehat p_h-s_{\mathcal N}(-w)-s_{\mathcal E}(w) &amp;\le w^Tp_c\le w^T\widehat p_h+s_{\mathcal N}(w)+s_{\mathcal E}(-w). \end{aligned}\tag{F.29}">
+</picture>
 </p>
 
 
@@ -2439,7 +2883,11 @@ If the actual $`(n,e)`$ belongs to a common compact $`\mathcal K`$, replace the 
 
 
 <p align="center">
-<img src="assets/math/display-dbb3bec4cee530afb27e.svg" width="376" alt="Equation (F.30): \begin{aligned} \mathcal T_\theta&amp;=\{(n,e)\in\mathcal K_\theta: \widehat p_{h,\rm cal}+n_{\rm cal}-e_{\rm cal}\in\mathcal Y\},\\ \mathcal A_\theta&amp;=\{\widehat p_{h,10}+n_{10}-e_{10}:(n,e)\in\mathcal T_\theta\}. \end{aligned}\tag{F.30}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dbb3bec4cee530afb27e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dbb3bec4cee530afb27e-light.svg">
+  <img src="assets/math/display-dbb3bec4cee530afb27e-light.svg" width="423" alt="Equation (F.30): \begin{aligned} \mathcal T_\theta&amp;=\{(n,e)\in\mathcal K_\theta: \widehat p_{h,\rm cal}+n_{\rm cal}-e_{\rm cal}\in\mathcal Y\},\\ \mathcal A_\theta&amp;=\{\widehat p_{h,10}+n_{10}-e_{10}:(n,e)\in\mathcal T_\theta\}. \end{aligned}\tag{F.30}">
+</picture>
 </p>
 
 
@@ -2456,9 +2904,11 @@ Use the original laws $`P,Q`$, parameters, and correlated positive-part update o
 
 
 
-<p align="center">
-<img src="assets/math/display-af6cc76eadff53ad5629.svg" width="452" alt="Equation (G.1): \mathcal L=rs\partial_s+(d-\kappa v)\partial_v +\tfrac12vs^2\partial_{ss}+\rho\xi vs\partial_{sv} +\tfrac12\xi^2v\partial_{vv}.\tag{G.1}">
-</p>
+```math
+\mathcal L=rs\partial_s+(d-\kappa v)\partial_v
++\tfrac12vs^2\partial_{ss}+\rho\xi vs\partial_{sv}
++\tfrac12\xi^2v\partial_{vv}.\tag{G.1}
+```
 
 
 
@@ -2467,7 +2917,11 @@ Choose one fixed nonnegative weight for the entire horizon, for example
 
 
 <p align="center">
-<img src="assets/math/display-11b766105de9536e9e88.svg" width="668" alt="Equation (G.2): \begin{aligned} W&amp;=e^v\{s^{-1/2}+e^{-\ell_m/24}s^{-(12-m)/24}\},\\ W^{\rm nat}&amp;=e^v\{\mathfrak B_m^{-1/2}+\mathfrak G_m^{-1/2}\},\qquad \mathfrak B_m=(A_m+(12-m)s)/12,\quad \mathfrak G_m=e^{\ell_m/12}s^{(12-m)/12}. \end{aligned}\tag{G.2}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-11b766105de9536e9e88-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-11b766105de9536e9e88-light.svg">
+  <img src="assets/math/display-11b766105de9536e9e88-light.svg" width="751" alt="Equation (G.2): \begin{aligned} W&amp;=e^v\{s^{-1/2}+e^{-\ell_m/24}s^{-(12-m)/24}\},\\ W^{\rm nat}&amp;=e^v\{\mathfrak B_m^{-1/2}+\mathfrak G_m^{-1/2}\},\qquad \mathfrak B_m=(A_m+(12-m)s)/12,\quad \mathfrak G_m=e^{\ell_m/12}s^{(12-m)/12}. \end{aligned}\tag{G.2}">
+</picture>
 </p>
 
 
@@ -2478,9 +2932,10 @@ Both weights match exactly across the fixing map. Since the arithmetic mean is a
 
 
 
-<p align="center">
-<img src="assets/math/display-1122872b4997e8e409a6.svg" width="635" alt="Equation (G.3): \sup_tE_PW(t,X_t)&lt;5/2,\qquad \max_jE_QW(t_j,X_j)&lt;5/2, \qquad \sup_{\tau\le1}E_PW(\tau,X_\tau)^2&lt;\infty.\tag{G.3}">
-</p>
+```math
+\sup_tE_PW(t,X_t)<5/2,\qquad \max_jE_QW(t_j,X_j)<5/2,
+\qquad \sup_{\tau\le1}E_PW(\tau,X_\tau)^2<\infty.\tag{G.3}
+```
 
 
 
@@ -2492,9 +2947,14 @@ Let $`R`$ be the same terminal payoff, or the same exact finite conversion remai
 
 
 
-<p align="center">
-<img src="assets/math/display-594fca905c014eadea00.svg" width="562" alt="Equation (G.4): \begin{aligned} |\widetilde u|&amp;\le CW,&amp; |\mathfrak r(t,x)|&amp;\le\eta_c(t)W(t,x),&amp; \int_0^1\eta_c(t)dt&amp;&lt;\infty,\\ |d_i(x)|&amp;\le\eta_iW(t_i-,x),&amp; |\delta(x)|&amp;\le\eta_TW(1,x),&amp; C,\eta_i,\eta_T&amp;&lt;\infty. \end{aligned}\tag{G.4}">
-</p>
+```math
+\begin{aligned}
+|\widetilde u|&\le CW,&
+|\mathfrak r(t,x)|&\le\eta_c(t)W(t,x),& \int_0^1\eta_c(t)dt&<\infty,\\
+|d_i(x)|&\le\eta_iW(t_i-,x),&
+|\delta(x)|&\le\eta_TW(1,x),& C,\eta_i,\eta_T&<\infty.
+\end{aligned}\tag{G.4}
+```
 
 
 
@@ -2502,9 +2962,14 @@ Domination includes all states, $`v=0`$, and the unbounded tail. Define
 
 
 
-<p align="center">
-<img src="assets/math/display-c178a212edcdc881e768.svg" width="418" alt="Equation (G.5): \begin{aligned} \mathscr D_j&amp;=Q_j\widetilde u_{j+1}-\widetilde u_j,&amp; \mathfrak r&amp;=(\partial_t+\mathcal L)\widetilde u,\\ d_i(x)&amp;=\widetilde u(t_i-,x)-\widetilde u(t_i+,J_ix),&amp; \delta&amp;=R-\widetilde u_N. \end{aligned}\tag{G.5}">
-</p>
+```math
+\begin{aligned}
+\mathscr D_j&=Q_j\widetilde u_{j+1}-\widetilde u_j,&
+\mathfrak r&=(\partial_t+\mathcal L)\widetilde u,\\
+d_i(x)&=\widetilde u(t_i-,x)-\widetilde u(t_i+,J_ix),&
+\delta&=R-\widetilde u_N.
+\end{aligned}\tag{G.5}
+```
 
 
 
@@ -2518,9 +2983,11 @@ An exact future-value field belongs to this class after its regularity and domin
 
 
 
-<p align="center">
-<img src="assets/math/display-6445139172e62b9888a2.svg" width="575" alt="Equation (G.6): \boxed{E_QR-E_PR= \sum_jE_Q\mathscr D_j-E_P\int_0^1\mathfrak r(t,X_t)dt +\sum_iE_Pd_i+(E_Q-E_P)\delta.}\tag{G.6}">
-</p>
+```math
+\boxed{E_QR-E_PR=
+\sum_jE_Q\mathscr D_j-E_P\int_0^1\mathfrak r(t,X_t)dt
++\sum_iE_Pd_i+(E_Q-E_P)\delta.}\tag{G.6}
+```
 
 
 
@@ -2528,9 +2995,9 @@ An exact future-value field belongs to this class after its regularity and domin
 
 
 
-<p align="center">
-<img src="assets/math/display-03fe8a123b7f315f0fb0.svg" width="243" alt="Equation (G.7): E_Q\widetilde u_N-\widetilde u_0=\sum_jE_Q\mathscr D_j.\tag{G.7}">
-</p>
+```math
+E_Q\widetilde u_N-\widetilde u_0=\sum_jE_Q\mathscr D_j.\tag{G.7}
+```
 
 
 
@@ -2538,9 +3005,10 @@ For $`P`$, localize in compact state domains, on closed subintervals away from f
 
 
 
-<p align="center">
-<img src="assets/math/display-06dd93c3081facc55951.svg" width="371" alt="Equation (G.8): E_P\widetilde u_N-\widetilde u_0 =E_P\int_0^1\mathfrak r(t,X_t)dt-\sum_iE_Pd_i.\tag{G.8}">
-</p>
+```math
+E_P\widetilde u_N-\widetilde u_0
+=E_P\int_0^1\mathfrak r(t,X_t)dt-\sum_iE_Pd_i.\tag{G.8}
+```
 
 
 
@@ -2554,9 +3022,15 @@ At $`\theta_*`$, (G.6) and the moment lemma imply
 
 
 
-<p align="center">
-<img src="assets/math/display-476da896da405a933e22.svg" width="619" alt="Equation (G.9): \begin{aligned} |E_QR-E_PR|&amp;\le\max(|L_Q|,|U_Q|) +\tfrac52\left(\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T,\\ |E_QR-E_PR|&amp;\le\tfrac52\left(h\sum_j\eta_{Q,j} +\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T \quad\text{if }|\mathscr D_j|\le h\eta_{Q,j}W. \end{aligned}\tag{G.9}">
-</p>
+```math
+\begin{aligned}
+|E_QR-E_PR|&\le\max(|L_Q|,|U_Q|)
++\tfrac52\left(\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T,\\
+|E_QR-E_PR|&\le\tfrac52\left(h\sum_j\eta_{Q,j}
++\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T
+\quad\text{if }|\mathscr D_j|\le h\eta_{Q,j}W.
+\end{aligned}\tag{G.9}
+```
 
 
 
@@ -2568,9 +3042,11 @@ Fix $`T=1`$, $`\varepsilon>0`$, and $`R=s_T^{-1/2}`$. Consider
 
 
 
-<p align="center">
-<img src="assets/math/display-d7f4ab5a88be214d65a6.svg" width="602" alt="Equation (G.10): a_\varepsilon(t)=1+\varepsilon t(1-t),\qquad \widetilde u_\varepsilon(t,x)=a_\varepsilon(t)s^{-1/2},\qquad 1\le a_\varepsilon\le C_\varepsilon:=1+\varepsilon/4.\tag{G.10}">
-</p>
+```math
+a_\varepsilon(t)=1+\varepsilon t(1-t),\qquad
+\widetilde u_\varepsilon(t,x)=a_\varepsilon(t)s^{-1/2},\qquad
+1\le a_\varepsilon\le C_\varepsilon:=1+\varepsilon/4.\tag{G.10}
+```
 
 
 
@@ -2578,9 +3054,10 @@ Use $`W_A=s^{-1/2}e^v`$, which is a single branch of the preceding weight proof.
 
 
 
-<p align="center">
-<img src="assets/math/display-f2629f3ad7d91b9f91e6.svg" width="371" alt="Equation (G.11): \mathfrak r_\varepsilon=s^{-1/2} \{\varepsilon(1-2t)+a_\varepsilon(t)(3v/8-r/2)\}.\tag{G.11}">
-</p>
+```math
+\mathfrak r_\varepsilon=s^{-1/2}
+\{\varepsilon(1-2t)+a_\varepsilon(t)(3v/8-r/2)\}.\tag{G.11}
+```
 
 
 
@@ -2588,9 +3065,10 @@ Because $`ve^{-v}\le1/e`$, a global dominating function, constant in time, is
 
 
 
-<p align="center">
-<img src="assets/math/display-c780b7ec2419e9872684.svg" width="567" alt="Equation (G.12): \eta_c=\varepsilon+C_\varepsilon(r/2+3/(8e)),\qquad \int_0^1\eta_c(t)dt=\eta_c&lt;\infty,\qquad \eta_i=\eta_T=0.\tag{G.12}">
-</p>
+```math
+\eta_c=\varepsilon+C_\varepsilon(r/2+3/(8e)),\qquad
+\int_0^1\eta_c(t)dt=\eta_c<\infty,\qquad \eta_i=\eta_T=0.\tag{G.12}
+```
 
 
 
@@ -2599,7 +3077,11 @@ The original stock Gaussian integral is exact even though the stock and variance
 
 
 <p align="center">
-<img src="assets/math/display-b2635da50e5278fb5e12.svg" width="463" alt="Equation (G.13): \begin{gathered}\mathscr D_j=s^{-1/2}\{a_\varepsilon(t_{j+1})e^{h(3v/8-r/2)}-a_\varepsilon(t_j)\},\\ |\mathscr D_j|\le h\eta_QW_A,\quad \eta_Q=\varepsilon+C_\varepsilon\{r/2+3/[8e(1-3h/8)]\}.\end{gathered}\tag{G.13}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b2635da50e5278fb5e12-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b2635da50e5278fb5e12-light.svg">
+  <img src="assets/math/display-b2635da50e5278fb5e12-light.svg" width="521" alt="Equation (G.13): \begin{gathered}\mathscr D_j=s^{-1/2}\{a_\varepsilon(t_{j+1})e^{h(3v/8-r/2)}-a_\varepsilon(t_j)\},\\ |\mathscr D_j|\le h\eta_QW_A,\quad \eta_Q=\varepsilon+C_\varepsilon\{r/2+3/[8e(1-3h/8)]\}.\end{gathered}\tag{G.13}">
+</picture>
 </p>
 
 
@@ -2615,7 +3097,11 @@ The saved classical trial-field diagnostic has a distinct, conditional role. Wit
 
 
 <p align="center">
-<img src="assets/math/display-825f29aea17c32695cca.svg" width="482" alt="Equation (G.14): \begin{aligned} \mathcal L_qP={}&amp;-ry\beta P_y+dP_v-qr\beta P\\ &amp;+v\{\tfrac12y^2\beta^2P_{yy}-\rho\xi y\beta P_{yv} +\tfrac12\xi^2P_{vv}+(1+q)y\beta^2P_y\\ &amp;\hspace{12mm}-(\kappa+q\rho\xi\beta)P_v+\tfrac12q(q+1)\beta^2P\}. \end{aligned}\tag{G.14}">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-825f29aea17c32695cca-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-825f29aea17c32695cca-light.svg">
+  <img src="assets/math/display-825f29aea17c32695cca-light.svg" width="542" alt="Equation (G.14): \begin{aligned} \mathcal L_qP={}&amp;-ry\beta P_y+dP_v-qr\beta P\\ &amp;+v\{\tfrac12y^2\beta^2P_{yy}-\rho\xi y\beta P_{yv} +\tfrac12\xi^2P_{vv}+(1+q)y\beta^2P_y\\ &amp;\hspace{12mm}-(\kappa+q\rho\xi\beta)P_v+\tfrac12q(q+1)\beta^2P\}. \end{aligned}\tag{G.14}">
+</picture>
 </p>
 
 
@@ -2624,9 +3110,10 @@ The basis consists of $`\phi_{ij}=\beta y^iz^j`$, $`0\le i\le2,0\le j\le3`$, and
 
 
 
-<p align="center">
-<img src="assets/math/display-9c4386fc84362e1a577a.svg" width="406" alt="Equation (G.15): (T_nc)_{\ell j}=\gamma\sum_{i=\ell}^2\binom i\ell\gamma^\ell n^{-i+\ell}c_{ij}, \qquad T_n\psi=\gamma^2\psi.\tag{G.15}">
-</p>
+```math
+(T_nc)_{\ell j}=\gamma\sum_{i=\ell}^2\binom i\ell\gamma^\ell n^{-i+\ell}c_{ij},
+\qquad T_n\psi=\gamma^2\psi.\tag{G.15}
+```
 
 
 
@@ -2636,9 +3123,11 @@ For the saved first-month state $`m=0,y=0,v=9/200`$, let $`w=(1,z,z^2,z^3,0,\ldo
 
 
 
-<p align="center">
-<img src="assets/math/display-853a49384bc0e9edffcf.svg" width="473" alt="Equation (G.16): \int F_{A,q}dt= \left[w+\frac{h^2}{12}\ell K\right](c_R-c_L) +\frac h2\ell(c_L+c_R)+h\ell_0.\tag{G.16}">
-</p>
+```math
+\int F_{A,q}dt=
+\left[w+\frac{h^2}{12}\ell K\right](c_R-c_L)
++\frac h2\ell(c_L+c_R)+h\ell_0.\tag{G.16}
+```
 
 
 
@@ -2646,9 +3135,10 @@ Indeed $`\int c(t)dt=h(c_L+c_R)/2+h^2(s_L-s_R)/12`$, and $`s_L-s_R=K(c_R-c_L)`$.
 
 
 
-<p align="center">
-<img src="assets/math/display-02cec3367ad13fce2464.svg" width="475" alt="Equation (G.17): \int_0^{1/12}\eta_c(t)dt\ge L_*,\qquad L_*&gt;0.003407444052031154&gt;0.\tag{G.17}">
-</p>
+```math
+\int_0^{1/12}\eta_c(t)dt\ge L_*,\qquad
+L_*>0.003407444052031154>0.\tag{G.17}
+```
 
 
 

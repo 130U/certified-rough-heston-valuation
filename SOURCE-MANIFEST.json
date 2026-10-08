@@ -14,8 +14,8 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 206127,
-      "sha256": "3dc6c49d040df61b0ef31ee49aeecae037a3b577ae801190fb4c39fb67a5ca73"
+      "bytes": 204738,
+      "sha256": "d7ed9efd410dbe1a64f03b5781ac2d89f044ca1bb7988143996b84119f6cb6e7"
     },
     {
       "path": "COMMANDS.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "RENDERING.md",
-      "bytes": 1693,
-      "sha256": "d1af304d11af947efff439455a23a60326639020aa8ba837260540ff1805276a"
+      "bytes": 1859,
+      "sha256": "97cf7c3835a832b04e6a92be770f1faf1661f2b1e73f60b885b1133f278fe207"
     },
     {
       "path": "SCIENTIFIC-CHECK.json",
@@ -48,949 +48,534 @@
       "sha256": "90ed990bf42a18104a53439e58c4018823a65e8a462b572c94c54c5c9d5c14cf"
     },
     {
-      "path": "assets/math/display-00f24ea0b0789a71e956.svg",
-      "bytes": 21824,
-      "sha256": "7a64719ed837993bed95be3f970fc93838170a5db9ce67ef08e0498b84e5ebac"
+      "path": "assets/math/display-06557eea3b038da55354-dark.svg",
+      "bytes": 39998,
+      "sha256": "ae738a7681ab211c3625802c5d43d4f1c80c4f061258236c10c1187c2a88c91f"
     },
     {
-      "path": "assets/math/display-012cf1b8ca2c26fd2770.svg",
-      "bytes": 25380,
-      "sha256": "a417eaa90b1d2a2ddb0d5569b1d817fcf4fc0b784d8d03aaaabb721dc56fa5de"
+      "path": "assets/math/display-06557eea3b038da55354-light.svg",
+      "bytes": 39998,
+      "sha256": "4203f966e3710571d029f6f3b94a36909503ec0753936a70ea201177dc031946"
     },
     {
-      "path": "assets/math/display-018ff3f78f0d9c87ff0a.svg",
-      "bytes": 34189,
-      "sha256": "4af579486ced87bcb6ba8057db85f482c64991794ba27bdb4ca3286d8971dbd0"
+      "path": "assets/math/display-073b04e232b09ed56a14-dark.svg",
+      "bytes": 30438,
+      "sha256": "44a8546ec92164073fa3fd8c44240d5705c29a69afd9b7f4a3ed0ebf5073de14"
     },
     {
-      "path": "assets/math/display-02455ab620feb2574826.svg",
-      "bytes": 15696,
-      "sha256": "1d587af8ca6137eb8a6b5e29aa9dc8323406018b3e229ecc753c35afaa850ab3"
+      "path": "assets/math/display-073b04e232b09ed56a14-light.svg",
+      "bytes": 30438,
+      "sha256": "d53fb60602489355d144f93d017bff83d54573d8e34b90b26ebcbb679c53e8c2"
     },
     {
-      "path": "assets/math/display-02cec3367ad13fce2464.svg",
-      "bytes": 21742,
-      "sha256": "2b7b805bb1a4e6e90ec467aa5e590b1825f19d569c53f303e413414be29ffd68"
+      "path": "assets/math/display-0aff32d9b7231c920382-dark.svg",
+      "bytes": 43231,
+      "sha256": "1a552a7c8ae2de2375afdbdd93a1f3bb6af44e064906c3f919ba0c43578350f8"
     },
     {
-      "path": "assets/math/display-03fe8a123b7f315f0fb0.svg",
-      "bytes": 12714,
-      "sha256": "791a9f0c4b96ca88bab8a97318832a8ed4367447c43f519b38dbcebcbf20e07e"
+      "path": "assets/math/display-0aff32d9b7231c920382-light.svg",
+      "bytes": 43231,
+      "sha256": "ea04c2c333437ec69d5ea686df7cd67187afcfc291f25a5d3857defdbb7711a0"
     },
     {
-      "path": "assets/math/display-06557eea3b038da55354.svg",
-      "bytes": 40068,
-      "sha256": "83378ac14c63905b60073c6a64d6c71f342386fb4c416ca2a328fad7718540a9"
+      "path": "assets/math/display-11b766105de9536e9e88-dark.svg",
+      "bytes": 49951,
+      "sha256": "620061e2843808f16f0c8f9eb05f8848054b05c65404214daa473359db632562"
     },
     {
-      "path": "assets/math/display-06be79af9d8e4cfd805a.svg",
-      "bytes": 28216,
-      "sha256": "5b753a641437c26ebc15e85b72467d95d322ef046b984dc702192624c7260686"
+      "path": "assets/math/display-11b766105de9536e9e88-light.svg",
+      "bytes": 49951,
+      "sha256": "f3999db0adcf2391223aa4b373eeb33bcd6a683e7c3276b5df0963e2e25b49d4"
     },
     {
-      "path": "assets/math/display-06dd93c3081facc55951.svg",
-      "bytes": 20842,
-      "sha256": "f6a5a252ebd20258d5de6e7c5c5346219043f690a850805724a06a5db3457aa3"
+      "path": "assets/math/display-12507b7f52d324d0b1c8-dark.svg",
+      "bytes": 30943,
+      "sha256": "b6aa34d40ced9fef5cc95cf4678a9266d5d7d9cc3c081feb64ab82ca30251d94"
     },
     {
-      "path": "assets/math/display-06e5fd831dc2618e83b0.svg",
-      "bytes": 15426,
-      "sha256": "8a5ebf65c91234b1b8d8cb724566dc8cf3bb06003bfadce3a649b682ac1b6cce"
+      "path": "assets/math/display-12507b7f52d324d0b1c8-light.svg",
+      "bytes": 30943,
+      "sha256": "6971ee4611c66b67f7fcc8c64b075e8db1b7df0e6fffaefeefa31ef376fcd7b7"
     },
     {
-      "path": "assets/math/display-073b04e232b09ed56a14.svg",
-      "bytes": 30510,
-      "sha256": "18ac23105b6b99c89ea3143a80c393f35bcc467cd4b715729cccc6cf4b3d88cd"
+      "path": "assets/math/display-13a56b406c90d51a1dd3-dark.svg",
+      "bytes": 40496,
+      "sha256": "1402fa349d548298b723f1ed425ebad2aabbd5022d2f068d9527666f78563f95"
     },
     {
-      "path": "assets/math/display-07c1e3c0d7f34a8c33f3.svg",
-      "bytes": 18102,
-      "sha256": "a98301fd588beac7b9dea60b747e9627e4c59fdd79ba56c6e8d5c0c4056a3e39"
+      "path": "assets/math/display-13a56b406c90d51a1dd3-light.svg",
+      "bytes": 40496,
+      "sha256": "a0e5efb10610f7dea9bdcb0b64c3f8bea3ca6f5b4e004404dd0adc19f02d9930"
     },
     {
-      "path": "assets/math/display-09ad2e4432ad1bd6827c.svg",
-      "bytes": 20338,
-      "sha256": "64d25affdcfd3daac7ec25ce7e70954d6baa9eedc73dcb3581da6100560371be"
+      "path": "assets/math/display-1a5f908eeeed4dc60d1c-dark.svg",
+      "bytes": 40277,
+      "sha256": "3e25aade466dd4305032915943d103a045f1251ea161f583d64d85545366f682"
     },
     {
-      "path": "assets/math/display-0aff32d9b7231c920382.svg",
-      "bytes": 43303,
-      "sha256": "a2d8a70006c558c4ea4e066e885e855aadb4af3110e1bc939d890340f7fd94ed"
+      "path": "assets/math/display-1a5f908eeeed4dc60d1c-light.svg",
+      "bytes": 40277,
+      "sha256": "e77cd4d7210ea2d92cdabf5541c11894e7284d4506a3e1b959ef237ec4aef457"
     },
     {
-      "path": "assets/math/display-0b5ddaf81054dc4a115f.svg",
-      "bytes": 15527,
-      "sha256": "b53083a1bd38b812eb630e8d04264f84c2dfcf61209b37a4c81600eeb43562f3"
+      "path": "assets/math/display-21d88b67484727172d0d-dark.svg",
+      "bytes": 31613,
+      "sha256": "241abadbf8273297dd7a2235d322be3e8e7e56d0777856483a39466fa2a71b28"
     },
     {
-      "path": "assets/math/display-0bc0ac7db24cb9c7aa32.svg",
-      "bytes": 24673,
-      "sha256": "dcf7b0ad8e59bc3f1fc0de36bdf37dc3081789c515b34d1531c1602c8ec7118c"
+      "path": "assets/math/display-21d88b67484727172d0d-light.svg",
+      "bytes": 31613,
+      "sha256": "2b089d48d3e18be3a972f75ea8db07cf490229be0a6513d86e3791e5c8e8e3b9"
     },
     {
-      "path": "assets/math/display-0dc8b7b81660b9eefe19.svg",
-      "bytes": 7908,
-      "sha256": "11e27d9b69d8bbf6bbe06aebf1a595af51b30e57218c6deb6b7ca3b7c9d94c6b"
+      "path": "assets/math/display-2925cb3dc4157c0ae12d-dark.svg",
+      "bytes": 18121,
+      "sha256": "1a71fffb7ea2b66e29882d2589ff2771b3306959eec4c1f106679a6893706385"
     },
     {
-      "path": "assets/math/display-0e40f3ae851e62d80a2d.svg",
-      "bytes": 18684,
-      "sha256": "0261fde9f1d2a73eaa74cfa74013e8ce0090aadde42c83825075e0bdee9861d9"
+      "path": "assets/math/display-2925cb3dc4157c0ae12d-light.svg",
+      "bytes": 18121,
+      "sha256": "1112807f8d459c51809b76d2b2aaf9644a9a2202406695fb0398d7c99856fcf7"
     },
     {
-      "path": "assets/math/display-1122872b4997e8e409a6.svg",
-      "bytes": 35241,
-      "sha256": "014a55975d1f6469a927419dcf228fd736a55b8f0da594a3363ee4806aa1ef31"
+      "path": "assets/math/display-2de65e61c8d75cd4357c-dark.svg",
+      "bytes": 29255,
+      "sha256": "c480f80a23aeb3d4cd66b080b5bd3abbe140186bd504faf3e4abcea1e399bc42"
     },
     {
-      "path": "assets/math/display-11b766105de9536e9e88.svg",
-      "bytes": 50019,
-      "sha256": "3fd9b7f4b2d1eae65c21a4bf5473b648d5b00c8d6c8dddfbb709923ffeef1b83"
+      "path": "assets/math/display-2de65e61c8d75cd4357c-light.svg",
+      "bytes": 29255,
+      "sha256": "31fa10ca9cda2cf4c6f78385e596504fdda64c33e5f66a3c2ae6d38d35c41d95"
     },
     {
-      "path": "assets/math/display-12507b7f52d324d0b1c8.svg",
-      "bytes": 31015,
-      "sha256": "005f7a6361de1a4f35ece0e229d408026274e1a13908818c9e62b437f222bd4c"
+      "path": "assets/math/display-2e84d2cf956e471fc8c5-dark.svg",
+      "bytes": 30923,
+      "sha256": "52d5aa375f43eb929c2cee3de10e1ee0400514768cbda3f121d0ac89162e7d10"
     },
     {
-      "path": "assets/math/display-125caccfa1fbeba9a0c3.svg",
-      "bytes": 14347,
-      "sha256": "1923692ff7e2ba620e1680cd082b2ad0f7bc56fb10346ce4cc273a69d412f8aa"
+      "path": "assets/math/display-2e84d2cf956e471fc8c5-light.svg",
+      "bytes": 30923,
+      "sha256": "ef6c96586f54b1d48a20a2504b11a751744068cf3a56c58fad774984eed18d9d"
     },
     {
-      "path": "assets/math/display-13a56b406c90d51a1dd3.svg",
-      "bytes": 40564,
-      "sha256": "8386c0922414f0351db7ac623dbbd236cb2746057e77314cbc21a9794c026812"
+      "path": "assets/math/display-3446ccb357072b0413cb-dark.svg",
+      "bytes": 62047,
+      "sha256": "416b7ce71929d2e3f1e047fb0b4144789d3de2f4fb3b266c3e7c9c6982aca4a3"
     },
     {
-      "path": "assets/math/display-146f15f542ba624b23d7.svg",
-      "bytes": 14054,
-      "sha256": "4232180a35d1d4dd108640be998415b6c18c77edc429bd3b684bccf1665b9563"
+      "path": "assets/math/display-3446ccb357072b0413cb-light.svg",
+      "bytes": 62047,
+      "sha256": "5e78b57172262ba8a6335aed1960365efeb81ba002af6155df3f5229019f64c6"
     },
     {
-      "path": "assets/math/display-14db971d45ee7a8823d0.svg",
-      "bytes": 21266,
-      "sha256": "85f284d8e525f2d74e703f76d3192bb82c10f5000303cde588fd9c9692db9767"
+      "path": "assets/math/display-44fa96ed91f94fd2013d-dark.svg",
+      "bytes": 30117,
+      "sha256": "19bde6813bf9afd204883cd879b544f54b9dd4d23218c2befefb2d66b6e7d4ee"
     },
     {
-      "path": "assets/math/display-16acf4b53d85a11434de.svg",
-      "bytes": 33014,
-      "sha256": "04c365a01291d6e4d606fa2544755bb796c681e3e34dc49d9eaf21e6a2fff6c2"
+      "path": "assets/math/display-44fa96ed91f94fd2013d-light.svg",
+      "bytes": 30117,
+      "sha256": "e0dfd6f10ff5a5ef056df088c479547921a2a40f626409252c6d4f3101c6eb03"
     },
     {
-      "path": "assets/math/display-172dbdebb568df63bc90.svg",
-      "bytes": 24212,
-      "sha256": "a65f910e645a78671250342b8d9765401a4b357d35e1ce3e7c713422d1ca5615"
+      "path": "assets/math/display-48c1076ac9c0ee66880c-dark.svg",
+      "bytes": 62768,
+      "sha256": "007e154d816051f86a9af0e109ac53708eab91f0d5ca971285a7a41104017b44"
     },
     {
-      "path": "assets/math/display-191789915023b5c7d32f.svg",
-      "bytes": 20973,
-      "sha256": "ad73a99de6a1a3cb24f055a879c66b32b4784949902c880cb658131d4c1aa0ae"
+      "path": "assets/math/display-48c1076ac9c0ee66880c-light.svg",
+      "bytes": 62768,
+      "sha256": "a1bb3b3ac2c4edca52ee00c94755dc72be3819e5ff430640fa554b911997e1d1"
     },
     {
-      "path": "assets/math/display-193b483067b81ad3df7d.svg",
-      "bytes": 24251,
-      "sha256": "26a71dd3c4da29f2e13b3a750adbe507330fd607b6610f91a4ef01656f8ea6b6"
+      "path": "assets/math/display-4fc06f4f03e5f1b756ab-dark.svg",
+      "bytes": 20438,
+      "sha256": "d667f09d75f7f23b39e461985a0a490e87e1aadc11dae99dec9d66144d26f9ca"
     },
     {
-      "path": "assets/math/display-19c90a3e4c3c8cae0f8f.svg",
-      "bytes": 17040,
-      "sha256": "41c82ba0da0c52a0ebaaa25fa29ccd1cd01d733b877fb9952a2af9bae6d56b22"
+      "path": "assets/math/display-4fc06f4f03e5f1b756ab-light.svg",
+      "bytes": 20438,
+      "sha256": "ef4dc43def1dc26b39380a5674a8cd8f15666d80dc8725d73900c883a0e9e25f"
     },
     {
-      "path": "assets/math/display-1a5f908eeeed4dc60d1c.svg",
-      "bytes": 40349,
-      "sha256": "00ae99edf55e925b818296e8c9a8301473ab6b2b8bad3a9cf4f7f91087037168"
+      "path": "assets/math/display-506556cb5a7518afffde-dark.svg",
+      "bytes": 36632,
+      "sha256": "37aa772186f292b816717d1e17243fd087d4d386b991092b4f89964288fb3955"
     },
     {
-      "path": "assets/math/display-1bf8c1273101b9813c1f.svg",
-      "bytes": 30165,
-      "sha256": "09e262292319156575942056ae2884b5659277699866d07b947d6bda33f083e2"
+      "path": "assets/math/display-506556cb5a7518afffde-light.svg",
+      "bytes": 36632,
+      "sha256": "c43dc9656e78e43deb4a230deb60d55f1cd838a59746b625185ec9c6a08367be"
     },
     {
-      "path": "assets/math/display-1f2bbc1208356d21dc98.svg",
-      "bytes": 21371,
-      "sha256": "4fea251e755d61f42e5f1f6c541c61f9e4b590995df135a3a738e990b81a5a7f"
+      "path": "assets/math/display-51091641d54423ac8002-dark.svg",
+      "bytes": 27889,
+      "sha256": "dc088f01295fb66e835295394a54451ff401804d9bfe2ff82571f846104d68c4"
     },
     {
-      "path": "assets/math/display-21c9cc1e34c2991ecd92.svg",
-      "bytes": 23746,
-      "sha256": "b4c0e25f05d987549a169df12aa25adbfbbfd108b70fe572daeaa7fdb3c0cec3"
+      "path": "assets/math/display-51091641d54423ac8002-light.svg",
+      "bytes": 27889,
+      "sha256": "c3a3d6ea5cbe5e2575d0e6133d71499dbc97096e2e0a59db2a7fb70d7df91f40"
     },
     {
-      "path": "assets/math/display-21d88b67484727172d0d.svg",
-      "bytes": 31683,
-      "sha256": "5e799ba23ac1aba8999e6fb5aca2a105dfdf376be49553b76500df9279340fd1"
+      "path": "assets/math/display-5297ef67eee8eff35d9e-dark.svg",
+      "bytes": 20673,
+      "sha256": "37a3a58e8aedb85beb81922e10f08c5ac98b4e45de13aa358033969d268cc6f2"
     },
     {
-      "path": "assets/math/display-22dc5b897856e2453d8c.svg",
-      "bytes": 20715,
-      "sha256": "9c17fe27bc6596b5c338c78eef8279b83d3afce3aa574d14a582d82cebdb2c80"
+      "path": "assets/math/display-5297ef67eee8eff35d9e-light.svg",
+      "bytes": 20673,
+      "sha256": "add776d3802a9cf91da95ecc39edb4b564463e7edf33626f9bc744b8753277c4"
     },
     {
-      "path": "assets/math/display-2925cb3dc4157c0ae12d.svg",
-      "bytes": 18193,
-      "sha256": "ea2b23d4e431a372625ca476e9add2f8f6d67b62a202830790f436ff736c607e"
+      "path": "assets/math/display-56206770333985a4e7de-dark.svg",
+      "bytes": 28853,
+      "sha256": "6496b6530270b7a574cdcfff8975db6206c9942cc866ce87a0676b4b3bf1e239"
     },
     {
-      "path": "assets/math/display-2a7d3e839426efda1631.svg",
-      "bytes": 10957,
-      "sha256": "f80405caceb6a7306186360b6fbd35476e43488df8a988bbd7e2e33a2cfafec8"
+      "path": "assets/math/display-56206770333985a4e7de-light.svg",
+      "bytes": 28853,
+      "sha256": "f57aafa12183eb6ce3ccd5a9dca0b81cfcfb218a371d8ff8c797ff130a04480a"
     },
     {
-      "path": "assets/math/display-2de65e61c8d75cd4357c.svg",
-      "bytes": 29327,
-      "sha256": "204811f794c29ef4db81c883b08c07391d323c519e645141dcd3b4aab374411e"
+      "path": "assets/math/display-60ca071ed7d5daa27046-dark.svg",
+      "bytes": 28094,
+      "sha256": "7a1042b64c55822cf8622231fa6102b193e3ec7315565b9d3a9f7971b561c9f7"
     },
     {
-      "path": "assets/math/display-2e84d2cf956e471fc8c5.svg",
-      "bytes": 30995,
-      "sha256": "0cdeaf080d17dae4e7a58633cb38e1bd8964ff2b0d44c89898962d3758abe2f2"
+      "path": "assets/math/display-60ca071ed7d5daa27046-light.svg",
+      "bytes": 28094,
+      "sha256": "88be04316257514f2fe2fc60b1a80494bf041336d1b3dd41cffd0b137a8e751c"
     },
     {
-      "path": "assets/math/display-2eaffd19fa93deba319d.svg",
-      "bytes": 11246,
-      "sha256": "cfafc4174f72ae6016bf7e95b04095b2b6e44602f711d951c63262045aabc926"
+      "path": "assets/math/display-646776be6c528844009b-dark.svg",
+      "bytes": 32554,
+      "sha256": "b418dd1f17c03ff5fb7a8882efae743d3d0e5e1a6d10e46abc796741586f222c"
     },
     {
-      "path": "assets/math/display-2f1ec294cbba72b584ee.svg",
-      "bytes": 11103,
-      "sha256": "92213e1140e69da341b2f7f7c91388a7c3e73254b077ccf3b6a255168aeea866"
+      "path": "assets/math/display-646776be6c528844009b-light.svg",
+      "bytes": 32554,
+      "sha256": "7ada8d3dfca2374eff48f1be576f02ef2c665d787b319dcd9cf5151ea11327cd"
     },
     {
-      "path": "assets/math/display-313484056c78d333efec.svg",
-      "bytes": 9015,
-      "sha256": "77696cba3235e1a7c7ad60f16c006c4175b10045212fd76346ec7d7dc9605aa7"
+      "path": "assets/math/display-669af1c92f914e6607e6-dark.svg",
+      "bytes": 23726,
+      "sha256": "b809d299fdad0e95dc40e52ada7a1e52e388c76b059735cbba7de2f760e52b79"
     },
     {
-      "path": "assets/math/display-31efb2a68d7922c02de7.svg",
-      "bytes": 17370,
-      "sha256": "ff037116a4cde7fe2ab23b4d380342cc3556e392a36e8a6e08ee800f5cbbd3b7"
+      "path": "assets/math/display-669af1c92f914e6607e6-light.svg",
+      "bytes": 23726,
+      "sha256": "089b03b8aed3ca8166ec843e29d0ab45fc89466b9c0b252b0d76689dedf2c6ac"
     },
     {
-      "path": "assets/math/display-3446ccb357072b0413cb.svg",
-      "bytes": 62117,
-      "sha256": "2570e16bc77b6fc6ba75f8f8b1fa00ed162faa7fd3cbcd3182fbafeba7de3194"
+      "path": "assets/math/display-681a303de39028e356a7-dark.svg",
+      "bytes": 27815,
+      "sha256": "60c0366b117f36182714b573e523ac88fc26cbad8179899c3764504c3ed34b88"
     },
     {
-      "path": "assets/math/display-34eecafc3901ebead34c.svg",
-      "bytes": 17598,
-      "sha256": "7f1d86dce3345bfa1b213ceb01238c607447e856ef6294f7cacbcffb37dfe2a1"
+      "path": "assets/math/display-681a303de39028e356a7-light.svg",
+      "bytes": 27815,
+      "sha256": "4398f52d8db770f6e7062ce11849ed8dcd6c5dc0228f8c55ece42a8c2d96e9ae"
     },
     {
-      "path": "assets/math/display-353ce488b38fe1dcd8f2.svg",
-      "bytes": 19780,
-      "sha256": "c171ad5e030eba5802d0a3184c33e6b3e64e02e646b73c37a2004b3210d66217"
+      "path": "assets/math/display-6fc921e5b5eb8a7585e1-dark.svg",
+      "bytes": 39839,
+      "sha256": "29a4095574dd757a35589737017d7d5cbe27f05c84f834bf7b2b52c86e9a42cf"
     },
     {
-      "path": "assets/math/display-38b0aabeafcfb4240611.svg",
-      "bytes": 12200,
-      "sha256": "b6a97f6282ea6763f5aa1c3f784a0e1eb1399036f0ae2b6be8191835999bdf5a"
+      "path": "assets/math/display-6fc921e5b5eb8a7585e1-light.svg",
+      "bytes": 39839,
+      "sha256": "2440816e1bef0296ede615686fa2fa672c5ec908c143014f5f05cb8f45ba8f82"
     },
     {
-      "path": "assets/math/display-3a6c7be180d016f96967.svg",
-      "bytes": 18574,
-      "sha256": "a2a6eed4978eb16d13b799ece8844fd042705ad21ccc5aac0fead8ef3b76f824"
+      "path": "assets/math/display-729ca7c541052fc096e8-dark.svg",
+      "bytes": 22755,
+      "sha256": "a39f61261d94eaee872453247f5c9ed2d3e50bb60206aa33611df085c43a112f"
     },
     {
-      "path": "assets/math/display-3ba91065deea93216336.svg",
-      "bytes": 18287,
-      "sha256": "947909860552736f488e556915717264c6a6f72c6aba92bf96deaa07f74e6100"
+      "path": "assets/math/display-729ca7c541052fc096e8-light.svg",
+      "bytes": 22755,
+      "sha256": "db3fc7658708d5859e04663f9443db83abadcfaa27a7ab1743ea9271421d4dd9"
     },
     {
-      "path": "assets/math/display-3c3019a7de3620b3530f.svg",
-      "bytes": 20826,
-      "sha256": "159747c221cd9da82a00c6f9f24ff90b44fd996b80367101a92796203e6493d5"
+      "path": "assets/math/display-76565e9c75f16064b9c7-dark.svg",
+      "bytes": 54931,
+      "sha256": "605dfc3f181bd942a032ce8225cc83221a467ac86ddbeeb0b7989b9c3c8231da"
     },
     {
-      "path": "assets/math/display-3eb92356d60c6c3c0197.svg",
-      "bytes": 20280,
-      "sha256": "d14241b72f8f4784f1ac689374ba5bc8d147ef27b0a0693e086dfc0b14d586d3"
+      "path": "assets/math/display-76565e9c75f16064b9c7-light.svg",
+      "bytes": 54931,
+      "sha256": "ece8c043f2893f5996ed5a1adff8bf6584cbf64b2f47770823de7f03bfa57d53"
     },
     {
-      "path": "assets/math/display-436ddc63c546d8a942e4.svg",
-      "bytes": 18011,
-      "sha256": "db5e32a20b100c8bc7b2bfb6f54f24277b2585d92b614219e2fa2d4c7dd8dd79"
+      "path": "assets/math/display-78e6d3b2b5c610e2e8b9-dark.svg",
+      "bytes": 50300,
+      "sha256": "cd46955258c306634a539ecb8c2136c0bc6a5b74c1d366ee3394ea767f467745"
     },
     {
-      "path": "assets/math/display-43cb30a6259a8124ee2e.svg",
-      "bytes": 20474,
-      "sha256": "bc8970f2340c43a945e96e7d85dad3a74b8feb9fe36f3b5b2fcfebcca4849b14"
+      "path": "assets/math/display-78e6d3b2b5c610e2e8b9-light.svg",
+      "bytes": 50300,
+      "sha256": "178f969f86c01f4bce8a05b0af7674c984882f0819e1564297fb22756ecd79e7"
     },
     {
-      "path": "assets/math/display-44fa96ed91f94fd2013d.svg",
-      "bytes": 30189,
-      "sha256": "216275f870a01cd26a41f78284017d174dff647ab2d532ca08787be0fba3deb8"
+      "path": "assets/math/display-7aff541dbc29d773f5fd-dark.svg",
+      "bytes": 37614,
+      "sha256": "53cec4c0367e1ab181cd5638dd84340e81723df568520a560636396b9a80adb2"
     },
     {
-      "path": "assets/math/display-468293a76ffac61a61b8.svg",
-      "bytes": 19528,
-      "sha256": "eaa9a1427f6cef645968694fda03d18a409eee9ab01d9c34981dd966692fd90b"
+      "path": "assets/math/display-7aff541dbc29d773f5fd-light.svg",
+      "bytes": 37614,
+      "sha256": "df95ae0910e6424c5aefc18a47f708adb853e29676d315831ffc03f6c9351fc0"
     },
     {
-      "path": "assets/math/display-476da896da405a933e22.svg",
-      "bytes": 60315,
-      "sha256": "ecd50633051ab17e0f27cf38cb6691be99a7c4a2b01cffb64648d70a72c21428"
+      "path": "assets/math/display-7bc0b5ce68b3ac56affd-dark.svg",
+      "bytes": 25706,
+      "sha256": "2db89805b36a3f257be8fc9342519247ee5e9ac564a6fde4a47295db3a574ae7"
     },
     {
-      "path": "assets/math/display-4865237b823da22a25cd.svg",
-      "bytes": 24514,
-      "sha256": "bbd7aedce3a2bf02a3ef2dc09e368c7f1e3f3f0d14cf2f00ccbd06670e4e7ab9"
+      "path": "assets/math/display-7bc0b5ce68b3ac56affd-light.svg",
+      "bytes": 25706,
+      "sha256": "b8e88e31ee4f529335692d8de3fb01db6fb90f137275ea3666dbcf548cd2a8a2"
     },
     {
-      "path": "assets/math/display-48b4ee8de1c32e51a8dc.svg",
-      "bytes": 34742,
-      "sha256": "b157a83dea04da7722a11bba5a3f4016bf415229e470e270270c8bebffc77336"
+      "path": "assets/math/display-7d39a237192622ca9faf-dark.svg",
+      "bytes": 12563,
+      "sha256": "08a0c4908088d934d3aea70f72d035f0a452024002b1866e8a55aa499396c4f1"
     },
     {
-      "path": "assets/math/display-48c1076ac9c0ee66880c.svg",
-      "bytes": 62840,
-      "sha256": "454a09af0d28a8e44f6f33ba510b6c3d16c35c3c1edf839aece567c4a9d644b1"
+      "path": "assets/math/display-7d39a237192622ca9faf-light.svg",
+      "bytes": 12563,
+      "sha256": "fd1c495dd4e59e684fa1c0b30b31245043f0a9a48f81f74c32ec65439e29f3d7"
     },
     {
-      "path": "assets/math/display-4a876901a24b2b829485.svg",
-      "bytes": 21120,
-      "sha256": "b35651f07b366d493fe424f402dea4c489c1f1a3628ee3c967b385e0465a81aa"
+      "path": "assets/math/display-7d72ccbfbcea2435a597-dark.svg",
+      "bytes": 45806,
+      "sha256": "2e39103bf3557336a3b289850efceef89e5218bd2e35f4afd6ba45172f6b0e0e"
     },
     {
-      "path": "assets/math/display-4b47c589e46d8aec3e88.svg",
-      "bytes": 11700,
-      "sha256": "cf3ccca3c7a75524e0a5a9473de371fdd1663c14e73e6c9dbd58a1c9e92cca90"
+      "path": "assets/math/display-7d72ccbfbcea2435a597-light.svg",
+      "bytes": 45806,
+      "sha256": "d98a12cd1b9874286a5b23cd5e516a342196c014d05e1f16f58e29ea4aaa72db"
     },
     {
-      "path": "assets/math/display-4fc06f4f03e5f1b756ab.svg",
-      "bytes": 20507,
-      "sha256": "843bfe865687ff9c7f465963d260f0e5d73949104e9d2cd047810fc5fa7c5cfc"
+      "path": "assets/math/display-825f29aea17c32695cca-dark.svg",
+      "bytes": 50718,
+      "sha256": "a0e91d15d260ee79e9d3c0b09f730c396ee5d2abf0d818c7a4187c846dc4e905"
     },
     {
-      "path": "assets/math/display-506556cb5a7518afffde.svg",
-      "bytes": 36701,
-      "sha256": "05cd851264cab9fcb61ed654adb32a1918ab29b2deb9ef60721e1a67084560a0"
+      "path": "assets/math/display-825f29aea17c32695cca-light.svg",
+      "bytes": 50718,
+      "sha256": "36a870ba52fefdaffcab880a868e88779723ba06958d8c864ea845f7f4f31b64"
     },
     {
-      "path": "assets/math/display-51091641d54423ac8002.svg",
-      "bytes": 27959,
-      "sha256": "47f95a03e0d7e8fe1ff2babaa381e5f20660655d6cacff720080164a386e3595"
+      "path": "assets/math/display-82d71e74a7fe25d4e8e2-dark.svg",
+      "bytes": 18524,
+      "sha256": "d431883cf30ddbaf0db4ed355877fabde331f65fac0ba35a0ef3bb0c300610f2"
     },
     {
-      "path": "assets/math/display-5297ef67eee8eff35d9e.svg",
-      "bytes": 20743,
-      "sha256": "8d88b8c635cf0cb5f6b3469b389640a31156de34480d12efaa117b036c32356e"
+      "path": "assets/math/display-82d71e74a7fe25d4e8e2-light.svg",
+      "bytes": 18524,
+      "sha256": "1ca02d8dfe976d4f1f384b802dcdebf2109ea9f25d5568d4444033ef7177b9ea"
     },
     {
-      "path": "assets/math/display-56206770333985a4e7de.svg",
-      "bytes": 28923,
-      "sha256": "b7cb82a6f51bb653960719371cd47e02dfe60bdad17d3312cd5ebecbaa4afae8"
+      "path": "assets/math/display-8f9a483662e292258931-dark.svg",
+      "bytes": 28674,
+      "sha256": "c0de414a7a38b69290159d52c0c1413b93282c1377cba79f44e2487c7efc83dc"
     },
     {
-      "path": "assets/math/display-58154a55fa244d007496.svg",
-      "bytes": 13332,
-      "sha256": "0e74a62ce4727b8fbe14266284382f8cc57fc05d93614536d1dbebc73f0f3a96"
+      "path": "assets/math/display-8f9a483662e292258931-light.svg",
+      "bytes": 28674,
+      "sha256": "1bd5a3c12d6251a2722ef0ba95c0345e8182fae3be3e3d3efaaaea628a6791cc"
     },
     {
-      "path": "assets/math/display-58936fcc5211cc560321.svg",
-      "bytes": 19759,
-      "sha256": "3b681e31bc67dce5a11c0c92134ff89a578624fc5f4bec815df369c583350eb1"
+      "path": "assets/math/display-988f0650aa1a7cecae14-dark.svg",
+      "bytes": 25391,
+      "sha256": "01e06bf81a48d9b15817a57c207775684a2c1ca9d44c2f7a6e6f95c0549d5ef1"
     },
     {
-      "path": "assets/math/display-594fca905c014eadea00.svg",
-      "bytes": 44839,
-      "sha256": "de2b56c00bc04b8b8be5b3b28837a9797d77960ceeddbeb390e4a1b23efc6d48"
+      "path": "assets/math/display-988f0650aa1a7cecae14-light.svg",
+      "bytes": 25391,
+      "sha256": "ce93592cc43e4bc5f8ac1717a67a70da64abc06acaea01737159d5d07bcc48cd"
     },
     {
-      "path": "assets/math/display-5a39394b342415621137.svg",
-      "bytes": 20760,
-      "sha256": "dbdba785a206889c072ae3004d84c0440b8dca7978cebfe9390e10fbe9ea8279"
+      "path": "assets/math/display-9b9c2889afbda25031a6-dark.svg",
+      "bytes": 34513,
+      "sha256": "3e7ac987ad33f27b2dae10035abdf0e70e9871f2c60154fec0d860b2be4cdc2d"
     },
     {
-      "path": "assets/math/display-5c8bacde899ef7910efb.svg",
-      "bytes": 27080,
-      "sha256": "2d1a2f1aecf6f5f7edd0cad807a76de619006568a7cca67e8029908fcd9c096d"
+      "path": "assets/math/display-9b9c2889afbda25031a6-light.svg",
+      "bytes": 34513,
+      "sha256": "6c6b4f4db6b4c025d529daca5d9481ce7f4cd22169f030846576de89d5c386ca"
     },
     {
-      "path": "assets/math/display-5d421648a35e7d72c4a0.svg",
-      "bytes": 17350,
-      "sha256": "35e2290d0e2f8a94eb0826f4096afeeb175e111f703d1c9d7bb5e9b4adb4145f"
+      "path": "assets/math/display-a402bbe401a59c923bbe-dark.svg",
+      "bytes": 37594,
+      "sha256": "d46ea0f4272fabf86672452f6c4e93309cc323f924a882b46423d9cb2aa3657c"
     },
     {
-      "path": "assets/math/display-5ddb10be25ffd14533bc.svg",
-      "bytes": 33191,
-      "sha256": "f90a2e358eb1cc261dabb04cf817a412bb56cb5bd768796138a0b7434444a6de"
+      "path": "assets/math/display-a402bbe401a59c923bbe-light.svg",
+      "bytes": 37594,
+      "sha256": "c608e11b1703a401426463df915f08d0c42f51b1058bf586ab338c5855bb569a"
     },
     {
-      "path": "assets/math/display-5dfffbf71442db9c290b.svg",
-      "bytes": 12924,
-      "sha256": "cb6069180fc5c20535fe2e1d00b0605cb45f6582e1e9c9cfddbd756c278363fd"
+      "path": "assets/math/display-a5f7b2787304ea0dd214-dark.svg",
+      "bytes": 26417,
+      "sha256": "0829e177097dc25874f3ddb37f0ab4f58039cf1e89d42c8e9928c896a796c44a"
     },
     {
-      "path": "assets/math/display-60ca071ed7d5daa27046.svg",
-      "bytes": 28166,
-      "sha256": "440fd07c7f021100eb7efe8e117b6ced0e7a41e1b80c3d6ad2d0445a87648586"
+      "path": "assets/math/display-a5f7b2787304ea0dd214-light.svg",
+      "bytes": 26417,
+      "sha256": "548b9e3f8162f5b0381a5b828d96d2bb454032755aa64789e24ac22992f7cc84"
     },
     {
-      "path": "assets/math/display-61ded22c44b842f7c7e5.svg",
-      "bytes": 12620,
-      "sha256": "45baa188e4c343bf2006c72386066d84572c6b4ee13879534aded363d4fcc98f"
+      "path": "assets/math/display-aefebe33c742949c5cdc-dark.svg",
+      "bytes": 14063,
+      "sha256": "4fdbbbf6646aad9af5b95a9697686ad1524802ebd9a299949f51795507cd32c9"
     },
     {
-      "path": "assets/math/display-6291604c63a4f0a58a3f.svg",
-      "bytes": 29446,
-      "sha256": "2efb435eb550ca8e5d47544e6973795cc648e7703f41454485691fee4089b2a2"
+      "path": "assets/math/display-aefebe33c742949c5cdc-light.svg",
+      "bytes": 14063,
+      "sha256": "840a89b872098ee5a76c1e7453bc8c5e34570d8bd73eaff5e4adecbada2d94dc"
     },
     {
-      "path": "assets/math/display-6445139172e62b9888a2.svg",
-      "bytes": 31184,
-      "sha256": "fe28910187bab2192f00f1462c845eecbf114e658bb83c22513fad743d167179"
+      "path": "assets/math/display-b2635da50e5278fb5e12-dark.svg",
+      "bytes": 41103,
+      "sha256": "e4c05ddd028d8eba0796ea717cf75b81165d5de0a957c30f35e6e4c1746ab2a8"
     },
     {
-      "path": "assets/math/display-646776be6c528844009b.svg",
-      "bytes": 32622,
-      "sha256": "5ac490474638065152be0cf75b9886a6a0072f67d3ca7df20c99fa2c3e2c1d83"
+      "path": "assets/math/display-b2635da50e5278fb5e12-light.svg",
+      "bytes": 41103,
+      "sha256": "2876e2fcc7749a7aa9c67408531a06511db4e4d2a8923041e9ec1f7acd336921"
     },
     {
-      "path": "assets/math/display-654d40a7f7e805085d10.svg",
-      "bytes": 26383,
-      "sha256": "5fef3de01b5da52ad1bb69147009f6c2680e07d2199d8dd0553727585f9606cb"
+      "path": "assets/math/display-ba0b309b04eb4aaa6b5f-dark.svg",
+      "bytes": 30044,
+      "sha256": "bf76a1dfdc669a52085c68d44fe8a3552185e82a896aa95950d0e3804c7df5aa"
     },
     {
-      "path": "assets/math/display-669af1c92f914e6607e6.svg",
-      "bytes": 23795,
-      "sha256": "e09cb8e3f3f6e5dfc5d6f764820d042647fc27451f2d04eca7c84632264a9d72"
+      "path": "assets/math/display-ba0b309b04eb4aaa6b5f-light.svg",
+      "bytes": 30044,
+      "sha256": "b6311ff2b3012d3f87fe91d767c83f943af086411c9693877672dd3d631f1d7e"
     },
     {
-      "path": "assets/math/display-67ed8be80dd86ae7e9cb.svg",
-      "bytes": 23198,
-      "sha256": "e57603e4dc14ef60383c8ab91fa15a8acddfd38ba4fe35e5d7a8dbdd48ba4f0d"
+      "path": "assets/math/display-bcbbe5160386972915fe-dark.svg",
+      "bytes": 42531,
+      "sha256": "f9968101f0a3ae2c459a65897063601a2d423f6e53438a5d4a08212b6e21bb0d"
     },
     {
-      "path": "assets/math/display-681a303de39028e356a7.svg",
-      "bytes": 27885,
-      "sha256": "c3dc0cc7023de5b80a200cbc09f87867fa88dfff5d8d17ea9c3cf13bd9043532"
+      "path": "assets/math/display-bcbbe5160386972915fe-light.svg",
+      "bytes": 42531,
+      "sha256": "b8fec5805250df93cbf666b49f946e9324de364a546fb7afcc77a912fb04654a"
     },
     {
-      "path": "assets/math/display-6975edefb8b747af921a.svg",
-      "bytes": 18166,
-      "sha256": "0867f79842dcfed83611aef1f5e50c29bc404a6a5dc21d808a4118167b28bd60"
+      "path": "assets/math/display-c87723e13c65e22888d5-dark.svg",
+      "bytes": 27954,
+      "sha256": "c117c88ea8f7d3905b74e88100dfbf951eef2a495d2d16f796db9bd9e5af1486"
     },
     {
-      "path": "assets/math/display-6aae111bc88077d70a10.svg",
-      "bytes": 31899,
-      "sha256": "17ef59824ec3b719ba6094a598f5dc0db1b5aa0f72a2d213f1086538d40418a0"
+      "path": "assets/math/display-c87723e13c65e22888d5-light.svg",
+      "bytes": 27954,
+      "sha256": "1a906cc09eebe19057a068b4e9cf2ed2f241d94455700bedfea21bdc400bf8d2"
     },
     {
-      "path": "assets/math/display-6fc921e5b5eb8a7585e1.svg",
-      "bytes": 39909,
-      "sha256": "4af18d4f17330c95ac2007becb98555d56207051554d254aea810c0471ab5f89"
+      "path": "assets/math/display-cadf93596f3489e8a2da-dark.svg",
+      "bytes": 29915,
+      "sha256": "8fe6e7f751730413111f9a641247983f365f7712912d7e67c1f537dc0d7b5b8b"
     },
     {
-      "path": "assets/math/display-7250086170f66ac6d6b2.svg",
-      "bytes": 19265,
-      "sha256": "90d464c9c27f052cf6fd816dfa041fd651e2c0d484b35308bfa4b25fe164fd42"
+      "path": "assets/math/display-cadf93596f3489e8a2da-light.svg",
+      "bytes": 29915,
+      "sha256": "74a4119a10f41d634c6a344d20bd2392535ecbf3e4a9bee0311b2410a09397b0"
     },
     {
-      "path": "assets/math/display-729ca7c541052fc096e8.svg",
-      "bytes": 22827,
-      "sha256": "8967d62022d974129a9751e2f7affd46d12589bd14939ec755c81944426d8f2d"
+      "path": "assets/math/display-d2573350d0bfe0101749-dark.svg",
+      "bytes": 29336,
+      "sha256": "5b01b40c3c915d2ef893d000a5c483f7f056d2d32b13c534bbe7822fb5219e7f"
     },
     {
-      "path": "assets/math/display-73dc64be75777cff903f.svg",
-      "bytes": 17288,
-      "sha256": "789aa8f596b14ba2796faaeed2ddfaf450e2d3305edc827cc4910c12851e5969"
+      "path": "assets/math/display-d2573350d0bfe0101749-light.svg",
+      "bytes": 29336,
+      "sha256": "9b396499f177e1792beb51dadd3734ae1a60bddd755dce2f89c9c2a2375d32f3"
     },
     {
-      "path": "assets/math/display-7409b42a171333184364.svg",
-      "bytes": 20589,
-      "sha256": "a2be773e51d5099894caa2b2912f042c4d9ebb0274114a7efce2ac5963804959"
+      "path": "assets/math/display-dbb3bec4cee530afb27e-dark.svg",
+      "bytes": 32946,
+      "sha256": "30752cdd5c6915d56c5e3547bb9cc96ec8d3ffd8e10bdd1777e2184f0145a920"
     },
     {
-      "path": "assets/math/display-745ef3d0dcd424c3b099.svg",
-      "bytes": 16209,
-      "sha256": "c59a092a9446d43e4959c9423c3b8f3b64940f8bfba817ec78c1d2d9bdf5bc3b"
+      "path": "assets/math/display-dbb3bec4cee530afb27e-light.svg",
+      "bytes": 32946,
+      "sha256": "97e4d55f84923c789ddd9e9c526cab576008b620fa1267d2cc4dd231f03ac428"
     },
     {
-      "path": "assets/math/display-750bee5bdf1df4bddc94.svg",
-      "bytes": 13466,
-      "sha256": "6085041a5956e59471d32f083348eb094eda2cb58ed25dd72eed3cb518887d38"
+      "path": "assets/math/display-dd9b7c8f526f7e75da66-dark.svg",
+      "bytes": 50986,
+      "sha256": "e49da51a42702206db5b10c87906e309673ca917a678f61cfa2eb8893fb380ba"
     },
     {
-      "path": "assets/math/display-750eaad42707e43841cb.svg",
-      "bytes": 27235,
-      "sha256": "57aa7ba5322113af341b656dc4688de373c3c1fa8fe1ffe20a01cc6ec1734039"
+      "path": "assets/math/display-dd9b7c8f526f7e75da66-light.svg",
+      "bytes": 50986,
+      "sha256": "dbd5b4a551ee85c28557ea2c976f85169c96f7a8b648acfc577516a4ae7ee2f1"
     },
     {
-      "path": "assets/math/display-75d17569be4d7636fe06.svg",
-      "bytes": 20633,
-      "sha256": "71434d055efe5c918b193b7b2f19a1556d91d345a4a3e16192fa36b6c1097c67"
+      "path": "assets/math/display-dde1a3d072207fc58420-dark.svg",
+      "bytes": 25855,
+      "sha256": "9c60a9286bd28f43d9ef47331f53f17d89b641081086466199066bf7831ceacd"
     },
     {
-      "path": "assets/math/display-76565e9c75f16064b9c7.svg",
-      "bytes": 55003,
-      "sha256": "c04f5c970f9d69ac4a81af507d3187d4ae38f3b30ec89836662f28f609f58a27"
+      "path": "assets/math/display-dde1a3d072207fc58420-light.svg",
+      "bytes": 25855,
+      "sha256": "5464765d32144a51ac267601525ce4ed0dfd959a7b0d92152671de15e6d3b12b"
     },
     {
-      "path": "assets/math/display-78925a3d8f9d846f73b9.svg",
-      "bytes": 14292,
-      "sha256": "6fed4dafc740a6922d641be93ef378b50dfc13b5327d11df839190271efa20bd"
+      "path": "assets/math/display-e1b6abae5448d07446a3-dark.svg",
+      "bytes": 25615,
+      "sha256": "61130d340a340eefc770c3cfc2eb7b6cc1a8520c022db22e0aa769b4f1ff4f7c"
     },
     {
-      "path": "assets/math/display-78e6d3b2b5c610e2e8b9.svg",
-      "bytes": 50370,
-      "sha256": "ae777bbb7b88dd3d29e90c0d6490a024670f2a62e6cac0cc95683c5ce12b068b"
+      "path": "assets/math/display-e1b6abae5448d07446a3-light.svg",
+      "bytes": 25615,
+      "sha256": "2ca2ed7f395fb2149ffc3bd05d961d45eaac502f44eadaf568dc302b6e15a4cd"
     },
     {
-      "path": "assets/math/display-7aff541dbc29d773f5fd.svg",
-      "bytes": 37683,
-      "sha256": "4c22ab2958179e200db667c1c5f008e893f0954389b09e470b2fac6941bbe78b"
+      "path": "assets/math/display-f1f811c59258d77b50fe-dark.svg",
+      "bytes": 58538,
+      "sha256": "923857c6c3565ca89164e04761e290041a198099678b3f99ce9a6effe8c6aeb3"
     },
     {
-      "path": "assets/math/display-7b156d87e78ae6ad3660.svg",
-      "bytes": 26349,
-      "sha256": "34aeaa88df5bf3d51bd1cd7e143853bdf96cb73b3986d6e0855494d84d24db68"
+      "path": "assets/math/display-f1f811c59258d77b50fe-light.svg",
+      "bytes": 58538,
+      "sha256": "3726032b53fb22257bb84460f2addcfb15fc71223cb63138a4afb261072d9135"
     },
     {
-      "path": "assets/math/display-7bc0b5ce68b3ac56affd.svg",
-      "bytes": 25776,
-      "sha256": "4e48104082626973c48c9b729fba08c5aef6933b8b49da9e12a15f10100556b8"
+      "path": "assets/math/display-f61ca1de6935ce524e37-dark.svg",
+      "bytes": 43728,
+      "sha256": "13911aaddac7d83b1674321e97b99805dc9b5cf155d5eb3738cd443da969e6fd"
     },
     {
-      "path": "assets/math/display-7c4ca5ff3147c6764644.svg",
-      "bytes": 29882,
-      "sha256": "72ec0df8237e71cf450f462e8015fa5a72a4365cd91524a8c66448b4199e50bd"
+      "path": "assets/math/display-f61ca1de6935ce524e37-light.svg",
+      "bytes": 43728,
+      "sha256": "d939cc87cbbf7e7f148f5e20c713e619bee33b4bf614672fbf73399089842390"
     },
     {
-      "path": "assets/math/display-7d39a237192622ca9faf.svg",
-      "bytes": 12633,
-      "sha256": "f7990887f72840a4b67c85a6b8bd14fe198a76ec453e5ba6c3209e38ce5b9f9a"
+      "path": "assets/math/display-f88e0d6c1176c9d3d4c5-dark.svg",
+      "bytes": 73112,
+      "sha256": "397e854fae8792da66a9eb07ca04fa8eb7c7768ce95ea9bf53770428bcf93ce6"
     },
     {
-      "path": "assets/math/display-7d72ccbfbcea2435a597.svg",
-      "bytes": 45876,
-      "sha256": "d8bc69e2fdae9199ec50d4b9897da205882ddc24c3f078db56a9e7419a89cdbf"
+      "path": "assets/math/display-f88e0d6c1176c9d3d4c5-light.svg",
+      "bytes": 73112,
+      "sha256": "f3eae4246619f89b8a5b298a069be5dc6b10d2ec451ec1c2e42cec8abb23970b"
     },
     {
-      "path": "assets/math/display-802435c04a827b472683.svg",
-      "bytes": 27856,
-      "sha256": "23981444d7094f978cf5410faa0ebbcec6514149fd9207e3ae1328efe2146e3a"
+      "path": "assets/math/display-fd763249817e2a5c28f3-dark.svg",
+      "bytes": 32092,
+      "sha256": "437fa438472e15bf95d74e63f38e0acd8bcc204a07f1cdf665a4b240234aafb4"
     },
     {
-      "path": "assets/math/display-825f29aea17c32695cca.svg",
-      "bytes": 50790,
-      "sha256": "9360f2e633db71421e7c6e72b6e046bb01b124b03417933901be2c59f01e1541"
-    },
-    {
-      "path": "assets/math/display-82d71e74a7fe25d4e8e2.svg",
-      "bytes": 18596,
-      "sha256": "9b648db7807484c838431ee2b20e98570ece30140434d56371b9b9359e214267"
-    },
-    {
-      "path": "assets/math/display-82e4c700fac8e8ab9744.svg",
-      "bytes": 23835,
-      "sha256": "61f7b35543af4263a82b119065be04112f8b4bbd28d735e7fb585fb26bc4d6a0"
-    },
-    {
-      "path": "assets/math/display-841e4a7944c9ca47ce6f.svg",
-      "bytes": 39421,
-      "sha256": "3b2676a6b8a8d2fe919e1aa5ca092b35b8fc0cc4396fa3c728d66229de173614"
-    },
-    {
-      "path": "assets/math/display-853a49384bc0e9edffcf.svg",
-      "bytes": 23924,
-      "sha256": "8d9efe4c20b5997cb5f1f4f26a4c83bd6c567b240a709d40f5cdfefa70f535b5"
-    },
-    {
-      "path": "assets/math/display-87664a695a8a0719fcf4.svg",
-      "bytes": 12788,
-      "sha256": "9a38b36e540d3eeadb9ae3abcd8a1b72b02f867c593ef95ba9f1ad68d2c63c1c"
-    },
-    {
-      "path": "assets/math/display-896e51b3bc780776571e.svg",
-      "bytes": 19586,
-      "sha256": "b4190c3e33665b5d4e85fbf382007bb2b8f1205d8dee2e24d3e9a959fdced2b5"
-    },
-    {
-      "path": "assets/math/display-8a2d771cbec6f808c9f0.svg",
-      "bytes": 21035,
-      "sha256": "27269f633472f69d52396ecd18e9a6ba6a10c06c74239fe539c6005df529df35"
-    },
-    {
-      "path": "assets/math/display-8dc66693782467d78ae7.svg",
-      "bytes": 23945,
-      "sha256": "bf1efda183d0d16a750e7e42d155e6fc3e37c9887a5edbb5d8c82e2e8d291e5c"
-    },
-    {
-      "path": "assets/math/display-8f2d2e2efd468ff85bfa.svg",
-      "bytes": 16095,
-      "sha256": "76f7f16330162111c9920ca33638e559dda7076705584a13548c5f49c7190524"
-    },
-    {
-      "path": "assets/math/display-8f9a483662e292258931.svg",
-      "bytes": 28746,
-      "sha256": "c22517545d81c49e132da51aee6867a6aa63a5ad27871351703032eac9f2ebd5"
-    },
-    {
-      "path": "assets/math/display-8ff7b4afb234571a5f7b.svg",
-      "bytes": 26646,
-      "sha256": "9f344f0b7dbf37641cdcf9c69ef3631e4f082fab0228665a99cf51d0c95b4911"
-    },
-    {
-      "path": "assets/math/display-909347bd9bf7efdb778b.svg",
-      "bytes": 13500,
-      "sha256": "a6a332c6e67ce8d2d9c1ee5030eba2187ab66166a1f74887f4bb24918bec45c3"
-    },
-    {
-      "path": "assets/math/display-91432237fab2686009ae.svg",
-      "bytes": 35066,
-      "sha256": "705679f5aaa414bca71416522c8cd3fc2c4e10d0485281ac02b341276302bb61"
-    },
-    {
-      "path": "assets/math/display-930480b93f70ef43fcbc.svg",
-      "bytes": 19749,
-      "sha256": "227e432cee243311762a4b54a13c6c0a7f27a50204bbb3aa1b7977eb6b5b29cd"
-    },
-    {
-      "path": "assets/math/display-97e0a8046044dc62a3fa.svg",
-      "bytes": 14774,
-      "sha256": "2a3d8654edc6c680dbf74cc6440a4d7f63f9af4f7c64c84eb53e2fdd492b277b"
-    },
-    {
-      "path": "assets/math/display-988f0650aa1a7cecae14.svg",
-      "bytes": 25463,
-      "sha256": "8fe62fd4e22ac4c88b407a8ba6fd7407e0db1250c55110b610847cc1fb2cc455"
-    },
-    {
-      "path": "assets/math/display-9a13924cb81e24cd9704.svg",
-      "bytes": 28700,
-      "sha256": "cee847f0fcebf84f7b36adcf5ee17117ec20f73aaa5b4ecf4f6aa940fcbba732"
-    },
-    {
-      "path": "assets/math/display-9a2b3ce2b6ca3da6cf12.svg",
-      "bytes": 20374,
-      "sha256": "dc054ce12bb8d9efb087912140c378a099acea2baa9f6d1e4503a7428c32da88"
-    },
-    {
-      "path": "assets/math/display-9ad25788e32b6a9593fe.svg",
-      "bytes": 23862,
-      "sha256": "d9a17d28efe042eded9b0c9832595baf30d1bd74cb189bf66631bbdbdcd56269"
-    },
-    {
-      "path": "assets/math/display-9b9c2889afbda25031a6.svg",
-      "bytes": 34585,
-      "sha256": "f7697f5602f04367c21448dd810d585799a5e969b3358f213272e1ab223f6976"
-    },
-    {
-      "path": "assets/math/display-9c4386fc84362e1a577a.svg",
-      "bytes": 22592,
-      "sha256": "858d9c8dc55018bbb40276e5f5881f4a3e65566d1c04dc52fc1a65dc47c958c1"
-    },
-    {
-      "path": "assets/math/display-9eb37a815fc809054ad0.svg",
-      "bytes": 19061,
-      "sha256": "24ff7741881ab9fb2d90fbefc3225c9b4efe7c25e04202475aa8b5a3d27968fa"
-    },
-    {
-      "path": "assets/math/display-a00629add90d3632bd0b.svg",
-      "bytes": 9854,
-      "sha256": "df9cdb6af6e76aecdd70d82b6c9398c696afbc32273534d97a09800de7293bc4"
-    },
-    {
-      "path": "assets/math/display-a2bb19fe76126a9fcdb5.svg",
-      "bytes": 21954,
-      "sha256": "93462d5cd36e3acdfed2163126723082a03d840641833354f9fd2679bb07af99"
-    },
-    {
-      "path": "assets/math/display-a402bbe401a59c923bbe.svg",
-      "bytes": 37663,
-      "sha256": "95cb50c38ec382791cb5a3ec0b52aa091798c8e7971aa7c710e69b5cc95b0fc0"
-    },
-    {
-      "path": "assets/math/display-a5f7b2787304ea0dd214.svg",
-      "bytes": 26485,
-      "sha256": "fc2555706fc928f174474b08e7c02534be0b240eaaef90120975e28c1dff49b0"
-    },
-    {
-      "path": "assets/math/display-a6aa437bda3bf66de227.svg",
-      "bytes": 24994,
-      "sha256": "7b6ce799ca44f8b04f36c9ac3afb73b1c17cbf1b519faa3e4e0a814b944b1d7e"
-    },
-    {
-      "path": "assets/math/display-a8666a671e86f0365b67.svg",
-      "bytes": 11299,
-      "sha256": "21919545889f6d85b590e3d573771d49d57d5fbbc47853c2b42847d5b2850de6"
-    },
-    {
-      "path": "assets/math/display-aa0b0b5b833606e99c9b.svg",
-      "bytes": 15032,
-      "sha256": "16f5b4dd2c15f68e5dc460d0d856b6f5bf1e14231f32e0cc8ebb58e170fd3c18"
-    },
-    {
-      "path": "assets/math/display-ab1ea02d57d9226840f3.svg",
-      "bytes": 33550,
-      "sha256": "20b215112e725e38c6a50290234e8f4fb34ad127243bb13a10968534825efb24"
-    },
-    {
-      "path": "assets/math/display-aefebe33c742949c5cdc.svg",
-      "bytes": 14135,
-      "sha256": "ba9e4ead67e6f4bd78766ff4e4a6617a022c5dd373e7807db14bb9d12ac547aa"
-    },
-    {
-      "path": "assets/math/display-af6cc76eadff53ad5629.svg",
-      "bytes": 24962,
-      "sha256": "0c73d1fc22c18e94a527d2180cfe9039e7116d8eca760686ce2304849e2dfc66"
-    },
-    {
-      "path": "assets/math/display-af8ea859d61a4e4f2dfa.svg",
-      "bytes": 25853,
-      "sha256": "fe215b2a63bd96e6fe575848cfee104282c43800ac1445e3c15dcf37534976ea"
-    },
-    {
-      "path": "assets/math/display-b05914fa7ba7fed347f7.svg",
-      "bytes": 25316,
-      "sha256": "6f462e0e705e0cf12dc166860f2efecc6224ffdbd2822960e3e5f819778de5bc"
-    },
-    {
-      "path": "assets/math/display-b0f6df8cf306ecbfe183.svg",
-      "bytes": 15386,
-      "sha256": "45ffadec11f58f2066208fdda3d715ca3e51d4a9e5e3f91354ce3d8733f2921f"
-    },
-    {
-      "path": "assets/math/display-b1186029a691d2b61994.svg",
-      "bytes": 18274,
-      "sha256": "9b7343fb59b7b1a6b9da488c2f7246ea7bfd3d986573b003a3dc427806d9fb0e"
-    },
-    {
-      "path": "assets/math/display-b2635da50e5278fb5e12.svg",
-      "bytes": 41175,
-      "sha256": "421c8d48b7191127360207859432c847a503748a9d5a9376daf93150d3192712"
-    },
-    {
-      "path": "assets/math/display-b325861e881dd61884dd.svg",
-      "bytes": 20360,
-      "sha256": "835bba7bcff7ebac3024c2b76e92920fae77a1b8ffc270cf6a34572b0af012fd"
-    },
-    {
-      "path": "assets/math/display-b7aadc86afe711c3faf7.svg",
-      "bytes": 31935,
-      "sha256": "d1215398d27233a16d432234f04cf7e42f13713cf9639afebc0cbff7fecd2c6a"
-    },
-    {
-      "path": "assets/math/display-b7bc523c83d84ec7942f.svg",
-      "bytes": 24260,
-      "sha256": "0f8d44aa07028241b6d3d6b8f2f2541986f78604bbac55207f952abad5162f4b"
-    },
-    {
-      "path": "assets/math/display-b7be6003507691954274.svg",
-      "bytes": 32453,
-      "sha256": "559bfddaa2906dc5a13e590fdb40c19d4333d3e816c08636a836dfe68eb30ae3"
-    },
-    {
-      "path": "assets/math/display-b8cf720aa8e68aecd85e.svg",
-      "bytes": 23995,
-      "sha256": "2db7544ea532be6a590705cf1367967d83a27ffb772aa6f585c6c3d3f78340c7"
-    },
-    {
-      "path": "assets/math/display-ba0b309b04eb4aaa6b5f.svg",
-      "bytes": 30116,
-      "sha256": "367503b2dddea82a410c1557de3f196bb2e7cd45ad788176779fbbdc6cd15c8f"
-    },
-    {
-      "path": "assets/math/display-bc7f8e6badd76cdba205.svg",
-      "bytes": 21348,
-      "sha256": "37726a57bc7ca789bf521a2799d417ebce81c30f6aeb76f68c559402a29c7cdc"
-    },
-    {
-      "path": "assets/math/display-bcbbe5160386972915fe.svg",
-      "bytes": 42603,
-      "sha256": "fa52fc866d0d8984e5d30ee0f844aded7614f56fc6e76b4f244d81bfd4e5f15b"
-    },
-    {
-      "path": "assets/math/display-bccd8b18cdc4c193661c.svg",
-      "bytes": 10311,
-      "sha256": "6d52bcbebde7b46f9d11b2f665946915e2560578d8184c7cbc3a3fa631d2b245"
-    },
-    {
-      "path": "assets/math/display-beb64e6a1662f3f5e3fa.svg",
-      "bytes": 22496,
-      "sha256": "5c860e93c07130b5f0c99b599f7942366669632061a1ce20ad6b943265c9ac51"
-    },
-    {
-      "path": "assets/math/display-c178a212edcdc881e768.svg",
-      "bytes": 33371,
-      "sha256": "17e67b04e97b307d45a52efc8c811c318c9d10d5ef73a4c6aeb143d6398e137e"
-    },
-    {
-      "path": "assets/math/display-c4981b2b64015b7f39ae.svg",
-      "bytes": 13777,
-      "sha256": "034ddbdc6831a493bd09119cee6a5ce0c94fb49ceb07fc5b01292db34e65428b"
-    },
-    {
-      "path": "assets/math/display-c5b3b848576958f091c9.svg",
-      "bytes": 24030,
-      "sha256": "8b152091b58cf792e4da7efe8d160f5508f0b6c829ababc833063f2cf3b9297a"
-    },
-    {
-      "path": "assets/math/display-c5e13f79c8c30bd336d2.svg",
-      "bytes": 33822,
-      "sha256": "3efe38136c6e870cd424df72d8dce71bf63fd58be6a54a248c426fe0e570cd07"
-    },
-    {
-      "path": "assets/math/display-c780b7ec2419e9872684.svg",
-      "bytes": 22953,
-      "sha256": "a5cf66f71b189faf976fb3034ee22b1d52491bca494e9b8b153cd21fd73c95ef"
-    },
-    {
-      "path": "assets/math/display-c87723e13c65e22888d5.svg",
-      "bytes": 28026,
-      "sha256": "796a8adb3a4a4e1d0ac69913da3f274787e5898d826bb0aae697cbf1fad80b46"
-    },
-    {
-      "path": "assets/math/display-ca1dcb4953805386c552.svg",
-      "bytes": 16085,
-      "sha256": "d28c5eeee71497aa57f0341c8fc89842bbd80ff45d367fd23e4bc3402dfe9ac2"
-    },
-    {
-      "path": "assets/math/display-ca39bdc81b4d9c63618e.svg",
-      "bytes": 17448,
-      "sha256": "27322ec3de2f44256831bed263b664944a498a63ee1b925dc8d07963608853c5"
-    },
-    {
-      "path": "assets/math/display-cadf93596f3489e8a2da.svg",
-      "bytes": 29986,
-      "sha256": "ebe70fd26c151027885d8513cf049d82b4f9c34e0f3321bac5c382ac04073a7c"
-    },
-    {
-      "path": "assets/math/display-ccf1b6bc8c0a53c19a61.svg",
-      "bytes": 26560,
-      "sha256": "7cb81d63164634ca9044aa3570c9de999a4ba04d5c457c46f5e0f93870341866"
-    },
-    {
-      "path": "assets/math/display-d2573350d0bfe0101749.svg",
-      "bytes": 29408,
-      "sha256": "f5b22e7035fc4a1b9c456708afb630e3aa577fff1b9f6704231fa8e86cb1ac26"
-    },
-    {
-      "path": "assets/math/display-d49dc44e857b1b6ea627.svg",
-      "bytes": 15935,
-      "sha256": "754cf404813f11ab4a280796db06858ed3bfccea5bc1adad2863ede54a6485f2"
-    },
-    {
-      "path": "assets/math/display-d7f4ab5a88be214d65a6.svg",
-      "bytes": 24114,
-      "sha256": "f7cc7be1269c1e322c4040a9cb098134cd1a8592f774afb5f7e5e19f527598ac"
-    },
-    {
-      "path": "assets/math/display-db6737c848568b3e1d24.svg",
-      "bytes": 16753,
-      "sha256": "a63c3130dbaed4ebe79b9c01795be99a8e5fd0a719d683b51df627fa2ae0559d"
-    },
-    {
-      "path": "assets/math/display-dbb3bec4cee530afb27e.svg",
-      "bytes": 33018,
-      "sha256": "2fd2dde81af5fcb25ba7ae6bff220038cc79be5f13f7ff54d7080a313261f88c"
-    },
-    {
-      "path": "assets/math/display-dd9b7c8f526f7e75da66.svg",
-      "bytes": 51056,
-      "sha256": "8f8fb1f5b2d1641707f6261ad41e747e8a9ddb26b8ef075a65bdc012788ea0df"
-    },
-    {
-      "path": "assets/math/display-dde1a3d072207fc58420.svg",
-      "bytes": 25923,
-      "sha256": "bd75ebb5d70e85cdde4ac903885eae44430beb1e90024581d8d213c0d8eee6a4"
-    },
-    {
-      "path": "assets/math/display-de2b7e2f41c6322ac48c.svg",
-      "bytes": 24448,
-      "sha256": "ed3b0db2cc5778c27c4e620495f06e2098578a35987a1bc429a1d36f417e7774"
-    },
-    {
-      "path": "assets/math/display-de9778f517df55e8d732.svg",
-      "bytes": 13096,
-      "sha256": "083f9270d782f8e9e8e6e674382150d785c660218d159779509825f47ed966cd"
-    },
-    {
-      "path": "assets/math/display-e1b6abae5448d07446a3.svg",
-      "bytes": 25687,
-      "sha256": "6722833c97d1d1790498fcd8346b1dc4f1b865134fca7716913f6bbfe390574e"
-    },
-    {
-      "path": "assets/math/display-e4afa60865cec25f2339.svg",
-      "bytes": 20571,
-      "sha256": "9858a8d32c9818a0fc922d2cfa7b698d2e367f6946072db095972ad09f2b8573"
-    },
-    {
-      "path": "assets/math/display-e5f44f51bc4943593000.svg",
-      "bytes": 31626,
-      "sha256": "2f101b43ae89576bc327dc2e4bb4e584c866939723c5564c117e66389c646348"
-    },
-    {
-      "path": "assets/math/display-e6bc3366e81e23f34a3c.svg",
-      "bytes": 23844,
-      "sha256": "7adff81c13f60d64a5e2dcdf90411373a559034b40956bfc6ad858e178978877"
-    },
-    {
-      "path": "assets/math/display-e77d40b5aeeb55479cd7.svg",
-      "bytes": 17676,
-      "sha256": "bdd39a9d6cb28f7167d7116f522f8f12dc710e899a9622baff0b935f525539ac"
-    },
-    {
-      "path": "assets/math/display-e8fa1538ee9ed065c0dc.svg",
-      "bytes": 18791,
-      "sha256": "38e04fb05d95088f0ab8175fa4ffc3cde706e2f4347309551d6437c717697576"
-    },
-    {
-      "path": "assets/math/display-eb4ba96e55411ee01a33.svg",
-      "bytes": 31005,
-      "sha256": "25b3783c6e95b764ecc09d69f048fc616104d7990e2d0454d4f5f8cef7b162bc"
-    },
-    {
-      "path": "assets/math/display-f18bb387e8e66ad8fd34.svg",
-      "bytes": 29492,
-      "sha256": "a5cfaffad66ea7c37c7a34c2725dc10411f9d1585face56a9d23a0d86959de45"
-    },
-    {
-      "path": "assets/math/display-f1c7a35206d4e55b41a1.svg",
-      "bytes": 19539,
-      "sha256": "e95ccb5aeb0b5ff36c00775c1213b509dcfae04d750f71f979faa295e8356db0"
-    },
-    {
-      "path": "assets/math/display-f1f811c59258d77b50fe.svg",
-      "bytes": 58610,
-      "sha256": "8c273605a2972277991b8886986fbe9283b0f5ae38e3f465821f9967b97e70ba"
-    },
-    {
-      "path": "assets/math/display-f2629f3ad7d91b9f91e6.svg",
-      "bytes": 17578,
-      "sha256": "fcf722acac697a78f3bc768c5b42203925b20c18fc274dda20d133c941e26f68"
-    },
-    {
-      "path": "assets/math/display-f5bddb9c0676ccf25668.svg",
-      "bytes": 21644,
-      "sha256": "790dcf9ee384d5a125247e08c64150a06e530c594df2c6643437a77beb656e0e"
-    },
-    {
-      "path": "assets/math/display-f61ca1de6935ce524e37.svg",
-      "bytes": 43800,
-      "sha256": "e159afc3dd3fdb38d4f3b062a054541017a2ef2353b9089e892152315a088866"
-    },
-    {
-      "path": "assets/math/display-f79b98ee7b109869899d.svg",
-      "bytes": 16837,
-      "sha256": "b6140a0977ba2fee9888ff54655592d4a58e8e2a525464c1bec8963bf3634192"
-    },
-    {
-      "path": "assets/math/display-f841af0514b66afb1dcc.svg",
-      "bytes": 29889,
-      "sha256": "1bd0ce6609748061b1a1f21f18da87980fa97e3d04cb2e4b86d5a69d686fba3d"
-    },
-    {
-      "path": "assets/math/display-f88e0d6c1176c9d3d4c5.svg",
-      "bytes": 73184,
-      "sha256": "23333c4e66d76dccb8b41bca4db7876c21c2abad7386c46b57c83525e2ee05d3"
-    },
-    {
-      "path": "assets/math/display-fd763249817e2a5c28f3.svg",
-      "bytes": 32164,
-      "sha256": "b52844c479173ee9725260332ce573ae695cc873472694f75ca7cbed0c1973a4"
+      "path": "assets/math/display-fd763249817e2a5c28f3-light.svg",
+      "bytes": 32092,
+      "sha256": "8370de9a35cd3dbdbb3c3cc40d81a71d2673dd89fc6554f2e5a0b0a0b12abaf2"
     },
     {
       "path": "audit-experiments/plot_budget_counts.py",

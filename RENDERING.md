@@ -1,6 +1,6 @@
 # Typesetting
 
-The online article uses native inline mathematics and pre-rendered vector displays. This keeps the complete paper within GitHub's single-page mathematics limit. The SVG displays retain every equation number; the original TeX remains in the manuscript sources. The display assets are in `assets/math/`.
+The online article uses GitHub's native mathematics for every formula in the main text and most appendix formulas. The remaining complex appendix displays use transparent vector images with separate light and dark colours. This keeps the complete paper within GitHub's single-page mathematics limit. Formula content, order and equation numbers are preserved; the original TeX remains in the manuscript sources. The theme-specific display assets are in `assets/math/`.
 
 The English and Chinese papers use A4 pages, a single column and 25 mm margins. The layout follows the supplied reference paper: regular-weight title, centred author and contact line, inset abstract, blue contents links, indented paragraphs and centred page numbers.
 

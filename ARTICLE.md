@@ -3,7 +3,7 @@
 **Theodore Ouyang**  
 [theodore.oy2025@gmail.com](mailto:theodore.oy2025@gmail.com) · [10@alumni.duke.edu](mailto:10@alumni.duke.edu)
 
-[Project overview](README.md)
+[Project overview](README.md) · [Code and evidence](EVIDENCE.md)
 
 ## Contents
 

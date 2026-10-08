@@ -2,7 +2,7 @@
 
 Mathematical finance research by **Theodore Ouyang**.
 
-**[Read the article](ARTICLE.md)**
+**[English PDF](paper/paper.pdf) · [Read online](ARTICLE.md)**
 
 I carry a continuous fractional Riccati residual through the pricing exponent to a complete rough Heston price certificate. The bounds retain the initial curve term and full fractional history, then preserve the Fourier errors shared by different strikes. Finite omitted frequencies, strip quadrature, the true infinite tail and outward rounding remain in the same price-unit error budget.
 

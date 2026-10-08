@@ -29,8 +29,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3735,
-      "sha256": "34b3f087ea4a0aae2dd51785c47b050ad2d474c174a277b1ae9814a1624e5f22"
+      "bytes": 3764,
+      "sha256": "3f9782c4dd1bfbf4530733b16cbab87303a3e3914b7da0dcbd8c3229c852e0a6"
     },
     {
       "path": "RENDERING.md",
@@ -2111,6 +2111,11 @@
       "path": "manuscript/merged-heston-zh.md",
       "bytes": 152672,
       "sha256": "78fea9b8344b3901d359f85c5bb9e48c813f19dfcfd8dd6e30fc3db39f914214"
+    },
+    {
+      "path": "paper/paper.pdf",
+      "bytes": 8234095,
+      "sha256": "90f4dd67719cc5d1e419d216bb10115596dff8653ceb97825c5d5899662baf09"
     },
     {
       "path": "reproduce.py",

@@ -1,5 +1,7 @@
 # Typesetting
 
+The online article uses native inline mathematics and pre-rendered vector displays. This keeps the complete paper within GitHub's single-page mathematics limit. The SVG displays retain every equation number; the original TeX remains in the manuscript sources. The display assets are in `assets/math/`.
+
 The English and Chinese papers use A4 pages, a single column and 25 mm margins. The layout follows the supplied reference paper: regular-weight title, centred author and contact line, inset abstract, blue contents links, indented paragraphs and centred page numbers.
 
 Latin text uses the complete CM-Super Type 1 fonts: SFRM1095 at 10.909 pt for the body and the corresponding optical sizes for the title, headings and abstract. Chinese text uses an embedded Song font; the Latin text and formulas retain the same design in both papers. Formulas are drawn as vector outlines in the Computer Modern style.

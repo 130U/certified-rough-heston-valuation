@@ -2358,7 +2358,7 @@ The files in `science/baseline/reference/code/classical/` are `field-cell-integr
 
 ## Appendix H. Research timeline
 
-Research began in the second half of 2023, and the main writing took place in the first half of 2024. Final work was completed in 2026, when the paper and code were uploaded to GitHub.
+Research began in the second half of 2023, and the main writing took place in the first half of 2024. Some final work was completed in 2026, when the paper and code were uploaded to GitHub.
 
 ## References
 

@@ -32,7 +32,7 @@ The paper combines fractional analysis, validated numerics and financial task de
 
 ## Research timeline
 
-Research began in the second half of 2023, and the main writing took place in the first half of 2024. Final work was completed in 2026, when the paper and code were uploaded to GitHub.
+Research began in the second half of 2023, and the main writing took place in the first half of 2024. Some final work was completed in 2026, when the paper and code were uploaded to GitHub.
 
 研究始于2023年下半年，主要写作在2024年上半年完成。部分收尾工作于2026年完成，论文与代码于同年上传GitHub。
 

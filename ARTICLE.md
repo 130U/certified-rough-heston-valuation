@@ -29,9 +29,9 @@ Let $`c^*`$ denote the model-price vector, $`c^{\rm fast}`$ the stored pricing o
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8f2d2e2efd468ff85bfa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8f2d2e2efd468ff85bfa-light.svg">
-  <img src="assets/math/display-8f2d2e2efd468ff85bfa-light.svg" width="429" alt="Equation (1.1): c^*-c^{\rm fast}=d+\mathop{\mathrm{Re}}\nolimits (A\delta)+r, \qquad d=\bar c-c^{\rm fast}. \tag{1.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f2d2e2efd468ff85bfa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f2d2e2efd468ff85bfa-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f2d2e2efd468ff85bfa-light.svg" width="429" alt="Equation (1.1): c^*-c^{\rm fast}=d+\mathop{\mathrm{Re}}\nolimits (A\delta)+r, \qquad d=\bar c-c^{\rm fast}. \tag{1.1}">
 </picture>
 </p>
 
@@ -76,9 +76,9 @@ Our conventions for the fractional integral and Caputo derivative are
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-de2b7e2f41c6322ac48c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-de2b7e2f41c6322ac48c-light.svg">
-  <img src="assets/math/display-de2b7e2f41c6322ac48c-light.svg" width="594" alt="Equation (2.1): I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds, \qquad D_C^\alpha v=I^{1-\alpha}v',\quad v\in AC. \tag{2.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de2b7e2f41c6322ac48c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de2b7e2f41c6322ac48c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de2b7e2f41c6322ac48c-light.svg" width="594" alt="Equation (2.1): I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds, \qquad D_C^\alpha v=I^{1-\alpha}v',\quad v\in AC. \tag{2.1}">
 </picture>
 </p>
 
@@ -88,9 +88,9 @@ Under the regularity of the trajectories used below, $`I^\alpha f\in AC`$ with z
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-22dc5b897856e2453d8c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-22dc5b897856e2453d8c-light.svg">
-  <img src="assets/math/display-22dc5b897856e2453d8c-light.svg" width="526" alt="Equation (2.2): D_{C,t}^\alpha h=-\frac{a^2+ia}{2} +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0. \tag{2.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-22dc5b897856e2453d8c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-22dc5b897856e2453d8c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-22dc5b897856e2453d8c-light.svg" width="526" alt="Equation (2.2): D_{C,t}^\alpha h=-\frac{a^2+ia}{2} +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0. \tag{2.2}">
 </picture>
 </p>
 
@@ -100,9 +100,9 @@ Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-654d40a7f7e805085d10-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-654d40a7f7e805085d10-light.svg">
-  <img src="assets/math/display-654d40a7f7e805085d10-light.svg" width="668" alt="Equation (2.3): x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad \kappa=\lambda_R/\nu, \tag{2.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-654d40a7f7e805085d10-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-654d40a7f7e805085d10-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-654d40a7f7e805085d10-light.svg" width="668" alt="Equation (2.3): x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad \kappa=\lambda_R/\nu, \tag{2.3}">
 </picture>
 </p>
 
@@ -111,9 +111,9 @@ Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-1f2bbc1208356d21dc98-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-1f2bbc1208356d21dc98-light.svg">
-  <img src="assets/math/display-1f2bbc1208356d21dc98-light.svg" width="603" alt="Mathematical expression: b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad F(z)=-b+dz+z^2/2.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1f2bbc1208356d21dc98-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1f2bbc1208356d21dc98-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1f2bbc1208356d21dc98-light.svg" width="603" alt="Mathematical expression: b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad F(z)=-b+dz+z^2/2.">
 </picture>
 </p>
 
@@ -125,9 +125,9 @@ For pricing and the numerical example, we fix $`\kappa=0`$ and the entire forwar
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-eb4ba96e55411ee01a33-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-eb4ba96e55411ee01a33-light.svg">
-  <img src="assets/math/display-eb4ba96e55411ee01a33-light.svg" width="685" alt="Equation (2.4): \xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}), \quad (\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037). \tag{2.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-eb4ba96e55411ee01a33-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-eb4ba96e55411ee01a33-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-eb4ba96e55411ee01a33-light.svg" width="685" alt="Equation (2.4): \xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}), \quad (\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037). \tag{2.4}">
 </picture>
 </p>
 
@@ -137,9 +137,9 @@ The curve parameter $`\lambda_\xi`$ and Riccati parameter $`\lambda_R`$ are defi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-841e4a7944c9ca47ce6f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-841e4a7944c9ca47ce6f-light.svg">
-  <img src="assets/math/display-841e4a7944c9ca47ce6f-light.svg" width="366" alt="Equation (2.5): \begin{gathered}V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\\ K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\\ dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt.\end{gathered}\tag{2.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-841e4a7944c9ca47ce6f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-841e4a7944c9ca47ce6f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-841e4a7944c9ca47ce6f-light.svg" width="366" alt="Equation (2.5): \begin{gathered}V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\\ K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\\ dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt.\end{gathered}\tag{2.5}">
 </picture>
 </p>
 
@@ -151,9 +151,9 @@ Let $`M_T=S_T/F_T`$ be the normalised positive martingale and write $`\phi_T(a)=
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a6aa437bda3bf66de227-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a6aa437bda3bf66de227-light.svg">
-  <img src="assets/math/display-a6aa437bda3bf66de227-light.svg" width="538" alt="Equation (2.6): L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad \phi_T(u-i/2)=e^{L_T(u)}. \tag{2.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a6aa437bda3bf66de227-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a6aa437bda3bf66de227-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a6aa437bda3bf66de227-light.svg" width="538" alt="Equation (2.6): L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad \phi_T(u-i/2)=e^{L_T(u)}. \tag{2.6}">
 </picture>
 </p>
 
@@ -163,9 +163,9 @@ With $`m=K/F_T,k=\log m,c=C/(DF_T)`$, the model European call price is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3eb92356d60c6c3c0197-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3eb92356d60c6c3c0197-light.svg">
-  <img src="assets/math/display-3eb92356d60c6c3c0197-light.svg" width="406" alt="Equation (2.7): c=1-\frac{\sqrt m}{\pi}\int_0^\infty \mathop{\mathrm{Re}}\nolimits \frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du. \tag{2.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3eb92356d60c6c3c0197-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3eb92356d60c6c3c0197-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3eb92356d60c6c3c0197-light.svg" width="406" alt="Equation (2.7): c=1-\frac{\sqrt m}{\pi}\int_0^\infty \mathop{\mathrm{Re}}\nolimits \frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du. \tag{2.7}">
 </picture>
 </p>
 
@@ -210,9 +210,9 @@ For $`\beta>0`$, write $`g_\beta(t)=t^{\beta-1}/\Gamma(\beta)`$. Define $`k_\lam
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-67ed8be80dd86ae7e9cb-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-67ed8be80dd86ae7e9cb-light.svg">
-  <img src="assets/math/display-67ed8be80dd86ae7e9cb-light.svg" width="629" alt="Equation (3.1): D_C^\alpha Z=\nu F(Z),\quad r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad |r|\le R\in L^\infty(0,T),\qquad R\ge0, \tag{3.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-67ed8be80dd86ae7e9cb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-67ed8be80dd86ae7e9cb-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-67ed8be80dd86ae7e9cb-light.svg" width="629" alt="Equation (3.1): D_C^\alpha Z=\nu F(Z),\quad r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad |r|\le R\in L^\infty(0,T),\qquad R\ge0, \tag{3.1}">
 </picture>
 </p>
 
@@ -224,9 +224,9 @@ where $`F(z)=-b+dz+z^2/2`$, $`\Re d=-s_0`$, $`\Re Z\le0`$, $`\Re\widehat Z\le\ep
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-19c90a3e4c3c8cae0f8f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-19c90a3e4c3c8cae0f8f-light.svg">
-  <img src="assets/math/display-19c90a3e4c3c8cae0f8f-light.svg" width="419" alt="Equation (3.2): q_\alpha=(I^{1-\alpha}\xi)' =V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0\quad\text{a.e.} \tag{3.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-19c90a3e4c3c8cae0f8f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-19c90a3e4c3c8cae0f8f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-19c90a3e4c3c8cae0f8f-light.svg" width="419" alt="Equation (3.2): q_\alpha=(I^{1-\alpha}\xi)' =V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0\quad\text{a.e.} \tag{3.2}">
 </picture>
 </p>
 
@@ -238,9 +238,9 @@ Define $`L_T`$ and $`\widehat L_T`$ from $`\nu^{-1}\int_0^T\xi(T-t)D_C^\alpha Z(
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8ff7b4afb234571a5f7b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8ff7b4afb234571a5f7b-light.svg">
-  <img src="assets/math/display-8ff7b4afb234571a5f7b-light.svg" width="642" alt="Equation (3.3): |Z-\widehat Z|\le k_\lambda*R, \qquad |L_T-\widehat L_T| \le\nu^{-1}(q_\alpha*k_\lambda*R)(T) \le\nu^{-1}(\xi*R)(T). \tag{3.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8ff7b4afb234571a5f7b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8ff7b4afb234571a5f7b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8ff7b4afb234571a5f7b-light.svg" width="642" alt="Equation (3.3): |Z-\widehat Z|\le k_\lambda*R, \qquad |L_T-\widehat L_T| \le\nu^{-1}(q_\alpha*k_\lambda*R)(T) \le\nu^{-1}(\xi*R)(T). \tag{3.3}">
 </picture>
 </p>
 
@@ -252,9 +252,9 @@ In particular, $`R/\nu\le\delta_F`$ implies
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-58154a55fa244d007496-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-58154a55fa244d007496-light.svg">
-  <img src="assets/math/display-58154a55fa244d007496-light.svg" width="288" alt="Equation (3.4): |L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds. \tag{3.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58154a55fa244d007496-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58154a55fa244d007496-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58154a55fa244d007496-light.svg" width="288" alt="Equation (3.4): |L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds. \tag{3.4}">
 </picture>
 </p>
 
@@ -271,9 +271,9 @@ For a full-history residual envelope $`R\le R_j`$ on each closed cell $`[a_j,b_j
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c5e13f79c8c30bd336d2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c5e13f79c8c30bd336d2-light.svg">
-  <img src="assets/math/display-c5e13f79c8c30bd336d2-light.svg" width="668" alt="Equation (3.5): |L_T-\widehat L_T| \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds. \tag{3.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5e13f79c8c30bd336d2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5e13f79c8c30bd336d2-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5e13f79c8c30bd336d2-light.svg" width="668" alt="Equation (3.5): |L_T-\widehat L_T| \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds. \tag{3.5}">
 </picture>
 </p>
 
@@ -290,9 +290,9 @@ The positive kernel in Theorem 3.1 admits a direct interval calculation. For $`\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-af8ea859d61a4e4f2dfa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-af8ea859d61a4e4f2dfa-light.svg">
-  <img src="assets/math/display-af8ea859d61a4e4f2dfa-light.svg" width="644" alt="Equation (3.6): K_\lambda=q_\alpha*k_\lambda,\qquad \eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad 0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi. \tag{3.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af8ea859d61a4e4f2dfa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af8ea859d61a4e4f2dfa-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af8ea859d61a4e4f2dfa-light.svg" width="644" alt="Equation (3.6): K_\lambda=q_\alpha*k_\lambda,\qquad \eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad 0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi. \tag{3.6}">
 </picture>
 </p>
 
@@ -306,9 +306,9 @@ The assumptions and scaling are those of Theorem 3.1. The positive fractional in
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3a6c7be180d016f96967-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3a6c7be180d016f96967-light.svg">
-  <img src="assets/math/display-3a6c7be180d016f96967-light.svg" width="493" alt="Equation (3.7): k_0=g_\alpha,\qquad K_0=\xi,\qquad |L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T). \tag{3.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3a6c7be180d016f96967-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3a6c7be180d016f96967-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3a6c7be180d016f96967-light.svg" width="493" alt="Equation (3.7): k_0=g_\alpha,\qquad K_0=\xi,\qquad |L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T). \tag{3.7}">
 </picture>
 </p>
 
@@ -322,9 +322,9 @@ For the fixed curve in (2.4), write $`A_0=\alpha_0`$ and $`\lambda_\xi`$ for its
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-018ff3f78f0d9c87ff0a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-018ff3f78f0d9c87ff0a-light.svg">
-  <img src="assets/math/display-018ff3f78f0d9c87ff0a-light.svg" width="712" alt="Equation (3.8): W_\lambda(t)=\int_0^tK_\lambda(s)\,ds =\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)E_{A_0,2+n\alpha} (-\lambda_\xi t^{A_0}) \right]. \tag{3.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-018ff3f78f0d9c87ff0a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-018ff3f78f0d9c87ff0a-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-018ff3f78f0d9c87ff0a-light.svg" width="712" alt="Equation (3.8): W_\lambda(t)=\int_0^tK_\lambda(s)\,ds =\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)E_{A_0,2+n\alpha} (-\lambda_\xi t^{A_0}) \right]. \tag{3.8}">
 </picture>
 </p>
 
@@ -343,9 +343,9 @@ The derivative-based reference exponent is $`\widehat L_T=\nu^{-1}\int_0^T\xi(T-
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-d49dc44e857b1b6ea627-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-d49dc44e857b1b6ea627-light.svg">
-  <img src="assets/math/display-d49dc44e857b1b6ea627-light.svg" width="340" alt="Equation (4.1): |\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d49dc44e857b1b6ea627-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d49dc44e857b1b6ea627-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d49dc44e857b1b6ea627-light.svg" width="340" alt="Equation (4.1): |\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.1}">
 </picture>
 </p>
 
@@ -357,9 +357,9 @@ $`g(z)=e^{-ikz}\phi_T(z-i/2)/(z^2+1/4)`$. Replacing the integral in (2.7) by the
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f1c7a35206d4e55b41a1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f1c7a35206d4e55b41a1-light.svg">
-  <img src="assets/math/display-f1c7a35206d4e55b41a1-light.svg" width="325" alt="Equation (4.2): \epsilon_{\rm grid} =\frac{\sqrt m\,e^{a_*|k|}} {(1/2-a_*)(e^{2\pi a_*/h_*}-1)}. \tag{4.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1c7a35206d4e55b41a1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1c7a35206d4e55b41a1-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1c7a35206d4e55b41a1-light.svg" width="325" alt="Equation (4.2): \epsilon_{\rm grid} =\frac{\sqrt m\,e^{a_*|k|}} {(1/2-a_*)(e^{2\pi a_*/h_*}-1)}. \tag{4.2}">
 </picture>
 </p>
 
@@ -374,9 +374,9 @@ Suppose the node values $`\widehat\phi_n`$ have exact-error bounds $`\varepsilon
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6291604c63a4f0a58a3f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6291604c63a4f0a58a3f-light.svg">
-  <img src="assets/math/display-6291604c63a4f0a58a3f-light.svg" width="460" alt="Equation (4.3): \widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi} \left(2\mathop{\mathrm{Re}}\nolimits \widehat\phi_0+ \sum_{n=1}^{N_u}\frac{\mathop{\mathrm{Re}}\nolimits (e^{-inh_*k}\widehat\phi_n)} {(nh_*)^2+1/4}\right) \tag{4.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6291604c63a4f0a58a3f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6291604c63a4f0a58a3f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6291604c63a4f0a58a3f-light.svg" width="460" alt="Equation (4.3): \widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi} \left(2\mathop{\mathrm{Re}}\nolimits \widehat\phi_0+ \sum_{n=1}^{N_u}\frac{\mathop{\mathrm{Re}}\nolimits (e^{-inh_*k}\widehat\phi_n)} {(nh_*)^2+1/4}\right) \tag{4.3}">
 </picture>
 </p>
 
@@ -386,9 +386,9 @@ satisfies
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5ddb10be25ffd14533bc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5ddb10be25ffd14533bc-light.svg">
-  <img src="assets/math/display-5ddb10be25ffd14533bc-light.svg" width="631" alt="Equation (4.4): |c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail} +\frac{h_*\sqrt m}{\pi} \left(2\varepsilon_0+ \sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right) +\epsilon_{\rm arithmetic}. \tag{4.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5ddb10be25ffd14533bc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5ddb10be25ffd14533bc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5ddb10be25ffd14533bc-light.svg" width="631" alt="Equation (4.4): |c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail} +\frac{h_*\sqrt m}{\pi} \left(2\varepsilon_0+ \sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right) +\epsilon_{\rm arithmetic}. \tag{4.4}">
 </picture>
 </p>
 
@@ -407,9 +407,9 @@ For the Lewis rule in Section 4, set $`m_i=K_i/F`$, $`k_i=\log m_i`$, and
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-172dbdebb568df63bc90-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-172dbdebb568df63bc90-light.svg">
-  <img src="assets/math/display-172dbdebb568df63bc90-light.svg" width="518" alt="Equation (5.1): a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n&gt;0),\qquad a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}. \tag{5.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-172dbdebb568df63bc90-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-172dbdebb568df63bc90-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-172dbdebb568df63bc90-light.svg" width="518" alt="Equation (5.1): a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n&gt;0),\qquad a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}. \tag{5.1}">
 </picture>
 </p>
 
@@ -419,9 +419,9 @@ The half weight at zero is already included in $`a_{i0}`$. The complete error is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0b5ddaf81054dc4a115f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0b5ddaf81054dc4a115f-light.svg">
-  <img src="assets/math/display-0b5ddaf81054dc4a115f-light.svg" width="368" alt="Equation (5.2): c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R, \qquad R\in\mathcal R, \tag{5.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0b5ddaf81054dc4a115f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0b5ddaf81054dc4a115f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0b5ddaf81054dc4a115f-light.svg" width="368" alt="Equation (5.2): c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R, \qquad R\in\mathcal R, \tag{5.2}">
 </picture>
 </p>
 
@@ -433,9 +433,9 @@ where $`\mathcal R`$ includes the true infinite-grid tail and analytic-strip dis
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-4a876901a24b2b829485-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-4a876901a24b2b829485-light.svg">
-  <img src="assets/math/display-4a876901a24b2b829485-light.svg" width="499" alt="Equation (5.3): \mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R, \qquad d=\bar c-c^{\rm fast}. \tag{5.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4a876901a24b2b829485-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4a876901a24b2b829485-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4a876901a24b2b829485-light.svg" width="499" alt="Equation (5.3): \mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R, \qquad d=\bar c-c^{\rm fast}. \tag{5.3}">
 </picture>
 </p>
 
@@ -445,9 +445,9 @@ Then $`c^*-c^{\rm fast}\in d+\mathcal E_F`$, and, for real $`w`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-43cb30a6259a8124ee2e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-43cb30a6259a8124ee2e-light.svg">
-  <img src="assets/math/display-43cb30a6259a8124ee2e-light.svg" width="434" alt="Equation (5.4): h_{d+\mathcal E_F}(w)=w^\top d+ \sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w). \tag{5.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-43cb30a6259a8124ee2e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-43cb30a6259a8124ee2e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-43cb30a6259a8124ee2e-light.svg" width="434" alt="Equation (5.4): h_{d+\mathcal E_F}(w)=w^\top d+ \sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w). \tag{5.4}">
 </picture>
 </p>
 
@@ -461,9 +461,9 @@ If $`\mathcal R=\prod_i[-\rho_i,\rho_i]`$, the smallest coordinate box of this s
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-468293a76ffac61a61b8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-468293a76ffac61a61b8-light.svg">
-  <img src="assets/math/display-468293a76ffac61a61b8-light.svg" width="395" alt="Equation (5.5): h_{\mathop{\mathrm{rect}}\nolimits (\mathcal E_F)}(w)= \sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right). \tag{5.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-468293a76ffac61a61b8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-468293a76ffac61a61b8-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-468293a76ffac61a61b8-light.svg" width="395" alt="Equation (5.5): h_{\mathop{\mathrm{rect}}\nolimits (\mathcal E_F)}(w)= \sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right). \tag{5.5}">
 </picture>
 </p>
 
@@ -473,9 +473,9 @@ Consequently its excess over (5.4), before translation, is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3c3019a7de3620b3530f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3c3019a7de3620b3530f-light.svg">
-  <img src="assets/math/display-3c3019a7de3620b3530f-light.svg" width="450" alt="Equation (5.6): G_F(w)=\sum_n\epsilon_n\left( \sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0. \tag{5.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3c3019a7de3620b3530f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3c3019a7de3620b3530f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3c3019a7de3620b3530f-light.svg" width="450" alt="Equation (5.6): G_F(w)=\sum_n\epsilon_n\left( \sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0. \tag{5.6}">
 </picture>
 </p>
 
@@ -490,9 +490,9 @@ For any separately established signed model-price box $`\mathcal I`$, intersect 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-34eecafc3901ebead34c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-34eecafc3901ebead34c-light.svg">
-  <img src="assets/math/display-34eecafc3901ebead34c-light.svg" width="399" alt="Equation (5.7): c^*-c^{\rm fast}\in d' +\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R. \tag{5.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-34eecafc3901ebead34c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-34eecafc3901ebead34c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-34eecafc3901ebead34c-light.svg" width="399" alt="Equation (5.7): c^*-c^{\rm fast}\in d' +\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R. \tag{5.7}">
 </picture>
 </p>
 
@@ -504,9 +504,9 @@ For a symmetric remainder and direction $`w`$, the complete absolute budget uses
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-353ce488b38fe1dcd8f2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-353ce488b38fe1dcd8f2-light.svg">
-  <img src="assets/math/display-353ce488b38fe1dcd8f2-light.svg" width="450" alt="Equation (5.8): DF\left(|w^\top d'|+ \sum_n\rho_n\left|\sum_iw_ia_{in}\right| +h_{\mathcal R}(w)\right)\le\tau. \tag{5.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-353ce488b38fe1dcd8f2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-353ce488b38fe1dcd8f2-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-353ce488b38fe1dcd8f2-light.svg" width="450" alt="Equation (5.8): DF\left(|w^\top d'|+ \sum_n\rho_n\left|\sum_iw_ia_{in}\right| +h_{\mathcal R}(w)\right)\le\tau. \tag{5.8}">
 </picture>
 </p>
 
@@ -525,9 +525,9 @@ For $`w=e_i-e_j`$, the node coefficient is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-06be79af9d8e4cfd805a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-06be79af9d8e4cfd805a-light.svg">
-  <img src="assets/math/display-06be79af9d8e4cfd805a-light.svg" width="568" alt="Equation (5.9): |a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)} \left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n&gt;0). \tag{5.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06be79af9d8e4cfd805a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06be79af9d8e4cfd805a-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06be79af9d8e4cfd805a-light.svg" width="568" alt="Equation (5.9): |a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)} \left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n&gt;0). \tag{5.9}">
 </picture>
 </p>
 
@@ -537,9 +537,9 @@ Combining the coefficients before taking their modulus preserves cancellation. W
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b7aadc86afe711c3faf7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b7aadc86afe711c3faf7-light.svg">
-  <img src="assets/math/display-b7aadc86afe711c3faf7-light.svg" width="577" alt="Equation (5.10): |b_ie^{-iuk_i}-b_je^{-iuk_j}| \le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}. \tag{5.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7aadc86afe711c3faf7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7aadc86afe711c3faf7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7aadc86afe711c3faf7-light.svg" width="577" alt="Equation (5.10): |b_ie^{-iuk_i}-b_je^{-iuk_j}| \le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}. \tag{5.10}">
 </picture>
 </p>
 
@@ -555,9 +555,9 @@ Let $`J(e)=(r+e)^\top W(r+e)/(2p)`$, where $`r=c^{\rm fast}-m`$, $`W\succeq0`$, 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ca1dcb4953805386c552-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ca1dcb4953805386c552-light.svg">
-  <img src="assets/math/display-ca1dcb4953805386c552-light.svg" width="360" alt="Equation (5.11): \inf_{e\in\mathcal E}J(e)\ge J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0). \tag{5.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca1dcb4953805386c552-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca1dcb4953805386c552-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca1dcb4953805386c552-light.svg" width="360" alt="Equation (5.11): \inf_{e\in\mathcal E}J(e)\ge J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0). \tag{5.11}">
 </picture>
 </p>
 
@@ -569,9 +569,9 @@ If $`M^2\ge\sup_{e\in\mathcal E}e^\top We`$, expansion yields
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6975edefb8b747af921a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6975edefb8b747af921a-light.svg">
-  <img src="assets/math/display-6975edefb8b747af921a-light.svg" width="360" alt="Equation (5.12): \sup_{e\in\mathcal E}J(e)\le J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}. \tag{5.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6975edefb8b747af921a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6975edefb8b747af921a-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6975edefb8b747af921a-light.svg" width="360" alt="Equation (5.12): \sup_{e\in\mathcal E}J(e)\le J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}. \tag{5.12}">
 </picture>
 </p>
 
@@ -589,9 +589,9 @@ For Theorem 5.3 we specialize the preceding general objective to $`p=12,W=I_{12}
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f841af0514b66afb1dcc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f841af0514b66afb1dcc-light.svg">
-  <img src="assets/math/display-f841af0514b66afb1dcc-light.svg" width="612" alt="Equation (5.13): c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad B_i\in[b_i^-,b_i^+],\quad A_i\in[a_i^-,a_i^+],\quad M_i\in[m_i^-,m_i^+]. \tag{5.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f841af0514b66afb1dcc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f841af0514b66afb1dcc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f841af0514b66afb1dcc-light.svg" width="612" alt="Equation (5.13): c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad B_i\in[b_i^-,b_i^+],\quad A_i\in[a_i^-,a_i^+],\quad M_i\in[m_i^-,m_i^+]. \tag{5.13}">
 </picture>
 </p>
 
@@ -601,9 +601,9 @@ Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f18bb387e8e66ad8fd34-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f18bb387e8e66ad8fd34-light.svg">
-  <img src="assets/math/display-f18bb387e8e66ad8fd34-light.svg" width="465" alt="Mathematical expression: \ell(x,y)= \begin{cases}0,&amp;x\le0\le y,\\ \min(x^2,y^2),&amp;\text{otherwise},\end{cases} \quad v(x,y)=\max(x^2,y^2).">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f18bb387e8e66ad8fd34-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f18bb387e8e66ad8fd34-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f18bb387e8e66ad8fd34-light.svg" width="465" alt="Mathematical expression: \ell(x,y)= \begin{cases}0,&amp;x\le0\le y,\\ \min(x^2,y^2),&amp;\text{otherwise},\end{cases} \quad v(x,y)=\max(x^2,y^2).">
 </picture>
 </p>
 
@@ -612,9 +612,9 @@ Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6aae111bc88077d70a10-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6aae111bc88077d70a10-light.svg">
-  <img src="assets/math/display-6aae111bc88077d70a10-light.svg" width="675" alt="Equation (5.14): L_j=\frac1{24}\sum_i \ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad U_j=\frac1{24}\sum_i v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-). \tag{5.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6aae111bc88077d70a10-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6aae111bc88077d70a10-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6aae111bc88077d70a10-light.svg" width="675" alt="Equation (5.14): L_j=\frac1{24}\sum_i \ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad U_j=\frac1{24}\sum_i v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-). \tag{5.14}">
 </picture>
 </p>
 
@@ -624,9 +624,9 @@ Then $`J(\alpha_j)\in[L_j,U_j]`$. Writing $`L_*=\min_jL_j,U_*=\min_jU_j`$, the e
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-78925a3d8f9d846f73b9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-78925a3d8f9d846f73b9-light.svg">
-  <img src="assets/math/display-78925a3d8f9d846f73b9-light.svg" width="259" alt="Equation (5.15): J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*]. \tag{5.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78925a3d8f9d846f73b9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78925a3d8f9d846f73b9-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78925a3d8f9d846f73b9-light.svg" width="259" alt="Equation (5.15): J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*]. \tag{5.15}">
 </picture>
 </p>
 
@@ -636,9 +636,9 @@ For $`\varepsilon\ge0`$, every exact $`\varepsilon`$-near-optimal candidate belo
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a00629add90d3632bd0b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a00629add90d3632bd0b-light.svg">
-  <img src="assets/math/display-a00629add90d3632bd0b-light.svg" width="235" alt="Equation (5.16): \{\alpha_j:L_j\le U_*+\varepsilon\}; \tag{5.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a00629add90d3632bd0b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a00629add90d3632bd0b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a00629add90d3632bd0b-light.svg" width="235" alt="Equation (5.16): \{\alpha_j:L_j\le U_*+\varepsilon\}; \tag{5.16}">
 </picture>
 </p>
 
@@ -648,9 +648,9 @@ The condition $`U_j-L_*\le\varepsilon`$ is sufficient for that candidate to be n
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-61ded22c44b842f7c7e5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-61ded22c44b842f7c7e5-light.svg">
-  <img src="assets/math/display-61ded22c44b842f7c7e5-light.svg" width="260" alt="Equation (5.17): g:=\min_{j\ne j_0}L_j-U_{j_0}&gt;0, \tag{5.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-61ded22c44b842f7c7e5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-61ded22c44b842f7c7e5-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-61ded22c44b842f7c7e5-light.svg" width="260" alt="Equation (5.17): g:=\min_{j\ne j_0}L_j-U_{j_0}&gt;0, \tag{5.17}">
 </picture>
 </p>
 
@@ -660,9 +660,9 @@ then $`\alpha_{j_0}`$ is the unique minimiser of the model objective on the fini
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-4b47c589e46d8aec3e88-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-4b47c589e46d8aec3e88-light.svg">
-  <img src="assets/math/display-4b47c589e46d8aec3e88-light.svg" width="220" alt="Equation (5.18): \min_{\alpha_j\ge.6}L_j&gt;U_*+\varepsilon, \tag{5.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4b47c589e46d8aec3e88-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4b47c589e46d8aec3e88-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4b47c589e46d8aec3e88-light.svg" width="220" alt="Equation (5.18): \min_{\alpha_j\ge.6}L_j&gt;U_*+\varepsilon, \tag{5.18}">
 </picture>
 </p>
 
@@ -683,9 +683,9 @@ The Gatheral–Radoicic third-order construction matches three startup and three
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7250086170f66ac6d6b2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7250086170f66ac6d6b2-light.svg">
-  <img src="assets/math/display-7250086170f66ac6d6b2-light.svg" width="569" alt="Equation (6.1): \alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad u\in\mathbb R,\quad \nu&gt;0, \tag{6.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7250086170f66ac6d6b2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7250086170f66ac6d6b2-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7250086170f66ac6d6b2-light.svg" width="569" alt="Equation (6.1): \alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad u\in\mathbb R,\quad \nu&gt;0, \tag{6.1}">
 </picture>
 </p>
 
@@ -695,9 +695,9 @@ the established matching system (B.4) is nonsingular. Its normalised denominator
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8a2d771cbec6f808c9f0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8a2d771cbec6f808c9f0-light.svg">
-  <img src="assets/math/display-8a2d771cbec6f808c9f0-light.svg" width="565" alt="Equation (6.2): \mathop{\mathrm{Re}}\nolimits q_j&gt;0\ (j=1,2,3),\qquad \mathop{\mathrm{Re}}\nolimits Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0). \tag{6.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8a2d771cbec6f808c9f0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8a2d771cbec6f808c9f0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8a2d771cbec6f808c9f0-light.svg" width="565" alt="Equation (6.2): \mathop{\mathrm{Re}}\nolimits q_j&gt;0\ (j=1,2,3),\qquad \mathop{\mathrm{Re}}\nolimits Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0). \tag{6.2}">
 </picture>
 </p>
 
@@ -712,9 +712,9 @@ Moreover, for $`y>0`$, $`\mathop{\mathrm{Re}}\nolimits \widehat H(y)<0`$. The re
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7409b42a171333184364-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7409b42a171333184364-light.svg">
-  <img src="assets/math/display-7409b42a171333184364-light.svg" width="591" alt="Equation (6.3): \alpha\in[13/25,3/5],\qquad \rho\in[-744501/10^6,-744499/10^6],\qquad \kappa=0, \tag{6.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7409b42a171333184364-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7409b42a171333184364-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7409b42a171333184364-light.svg" width="591" alt="Equation (6.3): \alpha\in[13/25,3/5],\qquad \rho\in[-744501/10^6,-744499/10^6],\qquad \kappa=0, \tag{6.3}">
 </picture>
 </p>
 
@@ -985,9 +985,9 @@ For $`K_\alpha=t^{\alpha-1}/\Gamma(\alpha)`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-1a5f908eeeed4dc60d1c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-1a5f908eeeed4dc60d1c-light.svg">
-  <img src="assets/math/display-1a5f908eeeed4dc60d1c-light.svg" width="819" alt="Equation (A.1): \int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1a5f908eeeed4dc60d1c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1a5f908eeeed4dc60d1c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1a5f908eeeed4dc60d1c-light.svg" width="819" alt="Equation (A.1): \int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
 </picture>
 </p>
 
@@ -997,9 +997,9 @@ The exponent in the latter integral is $`2\alpha-2>-1`$ at zero and $`2\alpha-4<
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-06e5fd831dc2618e83b0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-06e5fd831dc2618e83b0-light.svg">
-  <img src="assets/math/display-06e5fd831dc2618e83b0-light.svg" width="396" alt="Equation (A.2): \mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad K_\alpha*\mathcal L_\alpha=1 \tag{A.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06e5fd831dc2618e83b0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06e5fd831dc2618e83b0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06e5fd831dc2618e83b0-light.svg" width="396" alt="Equation (A.2): \mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad K_\alpha*\mathcal L_\alpha=1 \tag{A.2}">
 </picture>
 </p>
 
@@ -1009,9 +1009,9 @@ is verified by the Beta identity and is nonnegative and nonincreasing. The compl
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-750bee5bdf1df4bddc94-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-750bee5bdf1df4bddc94-light.svg">
-  <img src="assets/math/display-750bee5bdf1df4bddc94-light.svg" width="329" alt="Equation (A.3): \mu_\alpha(dx)=x^{-\alpha}dx/ [\Gamma(\alpha)\Gamma(1-\alpha)] \tag{A.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750bee5bdf1df4bddc94-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750bee5bdf1df4bddc94-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750bee5bdf1df4bddc94-light.svg" width="329" alt="Equation (A.3): \mu_\alpha(dx)=x^{-\alpha}dx/ [\Gamma(\alpha)\Gamma(1-\alpha)] \tag{A.3}">
 </picture>
 </p>
 
@@ -1025,9 +1025,9 @@ Curve (2.4) is nondecreasing, has a nonnegative initial value, and is locally H�
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-646776be6c528844009b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-646776be6c528844009b-light.svg">
-  <img src="assets/math/display-646776be6c528844009b-light.svg" width="672" alt="Equation (A.4): b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*'(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-646776be6c528844009b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-646776be6c528844009b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-646776be6c528844009b-light.svg" width="672" alt="Equation (A.4): b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*'(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
 </picture>
 </p>
 
@@ -1045,9 +1045,9 @@ Set $`S=s_0-i\rho u=-d`$, take the principal square root in $`A=\sqrt{S^2+2b}`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dde1a3d072207fc58420-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dde1a3d072207fc58420-light.svg">
-  <img src="assets/math/display-dde1a3d072207fc58420-light.svg" width="610" alt="Equation (B.1): b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dde1a3d072207fc58420-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dde1a3d072207fc58420-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dde1a3d072207fc58420-light.svg" width="610" alt="Equation (B.1): b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
 </picture>
 </p>
 
@@ -1056,9 +1056,9 @@ Set $`S=s_0-i\rho u=-d`$, take the principal square root in $`A=\sqrt{S^2+2b}`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b8cf720aa8e68aecd85e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b8cf720aa8e68aecd85e-light.svg">
-  <img src="assets/math/display-b8cf720aa8e68aecd85e-light.svg" width="631" alt="Equation (B.2): g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad g_2=-\frac R{A^2\Gamma(1-2\alpha)} +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}. \tag{B.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b8cf720aa8e68aecd85e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b8cf720aa8e68aecd85e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b8cf720aa8e68aecd85e-light.svg" width="631" alt="Equation (B.2): g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad g_2=-\frac R{A^2\Gamma(1-2\alpha)} +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}. \tag{B.2}">
 </picture>
 </p>
 
@@ -1068,9 +1068,9 @@ For $`1/2<\alpha<1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fixed tw
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e8fa1538ee9ed065c0dc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e8fa1538ee9ed065c0dc-light.svg">
-  <img src="assets/math/display-e8fa1538ee9ed065c0dc-light.svg" width="380" alt="Mathematical expression: \widehat H(y)=P(y)/Q(y),\quad Q=1+q_1y+q_2y^2+q_3y^3,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e8fa1538ee9ed065c0dc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e8fa1538ee9ed065c0dc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e8fa1538ee9ed065c0dc-light.svg" width="380" alt="Mathematical expression: \widehat H(y)=P(y)/Q(y),\quad Q=1+q_1y+q_2y^2+q_3y^3,">
 </picture>
 </p>
 
@@ -1079,9 +1079,9 @@ For $`1/2<\alpha<1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fixed tw
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5c8bacde899ef7910efb-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5c8bacde899ef7910efb-light.svg">
-  <img src="assets/math/display-5c8bacde899ef7910efb-light.svg" width="613" alt="Equation (B.3): \widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad \widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}). \tag{B.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5c8bacde899ef7910efb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5c8bacde899ef7910efb-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5c8bacde899ef7910efb-light.svg" width="613" alt="Equation (B.3): \widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad \widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}). \tag{B.3}">
 </picture>
 </p>
 
@@ -1091,9 +1091,9 @@ These six conditions give the linear system
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-13a56b406c90d51a1dd3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-13a56b406c90d51a1dd3-light.svg">
-  <img src="assets/math/display-13a56b406c90d51a1dd3-light.svg" width="683" alt="Equation (B.4): \begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-13a56b406c90d51a1dd3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-13a56b406c90d51a1dd3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-13a56b406c90d51a1dd3-light.svg" width="683" alt="Equation (B.4): \begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
 </picture>
 </p>
 
@@ -1105,9 +1105,9 @@ To avoid division by the matching determinant before proving its nonvanishing, d
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-21d88b67484727172d0d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-21d88b67484727172d0d-light.svg">
-  <img src="assets/math/display-21d88b67484727172d0d-light.svg" width="735" alt="Mathematical expression: f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21d88b67484727172d0d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21d88b67484727172d0d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21d88b67484727172d0d-light.svg" width="735" alt="Mathematical expression: f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
 </picture>
 </p>
 
@@ -1116,9 +1116,9 @@ To avoid division by the matching determinant before proving its nonvanishing, d
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b7be6003507691954274-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b7be6003507691954274-light.svg">
-  <img src="assets/math/display-b7be6003507691954274-light.svg" width="764" alt="Equation (B.5): \mathsf M_2=Sb/m_\alpha,\quad \mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3). \tag{B.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7be6003507691954274-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7be6003507691954274-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7be6003507691954274-light.svg" width="764" alt="Equation (B.5): \mathsf M_2=Sb/m_\alpha,\quad \mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3). \tag{B.5}">
 </picture>
 </p>
 
@@ -1128,9 +1128,9 @@ The reflection formula and recurrence relations give $`b_1=-fb,b_2=f^2\mathsf M_
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-48c1076ac9c0ee66880c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-48c1076ac9c0ee66880c-light.svg">
-  <img src="assets/math/display-48c1076ac9c0ee66880c-light.svg" width="490" alt="Equation (B.6): \begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48c1076ac9c0ee66880c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48c1076ac9c0ee66880c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48c1076ac9c0ee66880c-light.svg" width="490" alt="Equation (B.6): \begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
 </picture>
 </p>
 
@@ -1140,9 +1140,9 @@ Here $`\Delta`$ is exactly the determinant of the original system, and the numer
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-16acf4b53d85a11434de-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-16acf4b53d85a11434de-light.svg">
-  <img src="assets/math/display-16acf4b53d85a11434de-light.svg" width="751" alt="Equation (B.7): \Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad \Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3. \tag{B.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-16acf4b53d85a11434de-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-16acf4b53d85a11434de-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-16acf4b53d85a11434de-light.svg" width="751" alt="Equation (B.7): \Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad \Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3. \tag{B.7}">
 </picture>
 </p>
 
@@ -1156,9 +1156,9 @@ In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0e40f3ae851e62d80a2d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0e40f3ae851e62d80a2d-light.svg">
-  <img src="assets/math/display-0e40f3ae851e62d80a2d-light.svg" width="577" alt="Mathematical expression: \omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0e40f3ae851e62d80a2d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0e40f3ae851e62d80a2d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0e40f3ae851e62d80a2d-light.svg" width="577" alt="Mathematical expression: \omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,">
 </picture>
 </p>
 
@@ -1167,9 +1167,9 @@ In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-930480b93f70ef43fcbc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-930480b93f70ef43fcbc-light.svg">
-  <img src="assets/math/display-930480b93f70ef43fcbc-light.svg" width="545" alt="Equation (B.8): \bar S=s(1-\eta+2i\eta)/j(\eta),\quad \bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}. \tag{B.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-930480b93f70ef43fcbc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-930480b93f70ef43fcbc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-930480b93f70ef43fcbc-light.svg" width="545" alt="Equation (B.8): \bar S=s(1-\eta+2i\eta)/j(\eta),\quad \bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}. \tag{B.8}">
 </picture>
 </p>
 
@@ -1179,9 +1179,9 @@ Since $`j^2\ge1/5`$, these functions are defined on the closed interval $`\eta\i
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-38b0aabeafcfb4240611-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-38b0aabeafcfb4240611-light.svg">
-  <img src="assets/math/display-38b0aabeafcfb4240611-light.svg" width="317" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \bar A^2 =1-\rho^2+2(\mathop{\mathrm{Re}}\nolimits \bar S)^2\ge1-\rho^2&gt;0.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-38b0aabeafcfb4240611-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-38b0aabeafcfb4240611-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-38b0aabeafcfb4240611-light.svg" width="317" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \bar A^2 =1-\rho^2+2(\mathop{\mathrm{Re}}\nolimits \bar S)^2\ge1-\rho^2&gt;0.">
 </picture>
 </p>
 
@@ -1191,9 +1191,9 @@ The principal square root is continuous and lies in the first quadrant; $`\matho
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-896e51b3bc780776571e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-896e51b3bc780776571e-light.svg">
-  <img src="assets/math/display-896e51b3bc780776571e-light.svg" width="488" alt="Mathematical expression: |\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2 \ge|\bar A^2-\bar S^2|=1,\quad |\bar R|\le1,\quad\mathop{\mathrm{Re}}\nolimits \bar R&gt;0.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-896e51b3bc780776571e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-896e51b3bc780776571e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-896e51b3bc780776571e-light.svg" width="488" alt="Mathematical expression: |\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2 \ge|\bar A^2-\bar S^2|=1,\quad |\bar R|\le1,\quad\mathop{\mathrm{Re}}\nolimits \bar R&gt;0.">
 </picture>
 </p>
 
@@ -1205,9 +1205,9 @@ Substitute $`\bar b=1/2`$ and (B.8) into (B.5)–(B.6) to obtain the barred orig
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2a7d3e839426efda1631-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2a7d3e839426efda1631-light.svg">
-  <img src="assets/math/display-2a7d3e839426efda1631-light.svg" width="297" alt="Equation (B.9): \Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j. \tag{B.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2a7d3e839426efda1631-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2a7d3e839426efda1631-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2a7d3e839426efda1631-light.svg" width="297" alt="Equation (B.9): \Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j. \tag{B.9}">
 </picture>
 </p>
 
@@ -1217,9 +1217,9 @@ Define three real functions
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-313484056c78d333efec-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-313484056c78d333efec-light.svg">
-  <img src="assets/math/display-313484056c78d333efec-light.svg" width="207" alt="Equation (B.10): \bar B_j=\mathop{\mathrm{Re}}\nolimits (\bar F_j\overline{\bar\Delta}). \tag{B.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-313484056c78d333efec-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-313484056c78d333efec-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-313484056c78d333efec-light.svg" width="207" alt="Equation (B.10): \bar B_j=\mathop{\mathrm{Re}}\nolimits (\bar F_j\overline{\bar\Delta}). \tag{B.10}">
 </picture>
 </p>
 
@@ -1229,9 +1229,9 @@ The rigorous rational covering in Appendix B proves that, throughout the closed 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-91432237fab2686009ae-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-91432237fab2686009ae-light.svg">
-  <img src="assets/math/display-91432237fab2686009ae-light.svg" width="515" alt="Equation (B.11): |\bar\Delta|^2\ge \frac{88110801209184778874628745}{1267650600228229401496703205376} &gt;\frac1{14400}. \tag{B.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-91432237fab2686009ae-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-91432237fab2686009ae-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-91432237fab2686009ae-light.svg" width="515" alt="Equation (B.11): |\bar\Delta|^2\ge \frac{88110801209184778874628745}{1267650600228229401496703205376} &gt;\frac1{14400}. \tag{B.11}">
 </picture>
 </p>
 
@@ -1244,9 +1244,9 @@ For the trajectory half-plane, the finite convolution in (B.7) gives
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-aa0b0b5b833606e99c9b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-aa0b0b5b833606e99c9b-light.svg">
-  <img src="assets/math/display-aa0b0b5b833606e99c9b-light.svg" width="308" alt="Equation (B.12): |\Delta|^2\mathop{\mathrm{Re}}\nolimits (P\overline Q) =\sum_{n=1}^6 f^nD_ny^n, \tag{B.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aa0b0b5b833606e99c9b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aa0b0b5b833606e99c9b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aa0b0b5b833606e99c9b-light.svg" width="308" alt="Equation (B.12): |\Delta|^2\mathop{\mathrm{Re}}\nolimits (P\overline Q) =\sum_{n=1}^6 f^nD_ny^n, \tag{B.12}">
 </picture>
 </p>
 
@@ -1255,9 +1255,9 @@ For the trajectory half-plane, the finite convolution in (B.7) gives
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f88e0d6c1176c9d3d4c5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f88e0d6c1176c9d3d4c5-light.svg">
-  <img src="assets/math/display-f88e0d6c1176c9d3d4c5-light.svg" width="457" alt="Equation (B.13): \begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\mathop{\mathrm{Re}}\nolimits (\mathsf M_2)|\Delta|^2-2b\mathop{\mathrm{Re}}\nolimits (F_1\overline\Delta),\\ D_3={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\mathop{\mathrm{Re}}\nolimits R\,|F_3|^2. \end{aligned} \tag{B.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f88e0d6c1176c9d3d4c5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f88e0d6c1176c9d3d4c5-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f88e0d6c1176c9d3d4c5-light.svg" width="457" alt="Equation (B.13): \begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\mathop{\mathrm{Re}}\nolimits (\mathsf M_2)|\Delta|^2-2b\mathop{\mathrm{Re}}\nolimits (F_1\overline\Delta),\\ D_3={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\mathop{\mathrm{Re}}\nolimits \{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\mathop{\mathrm{Re}}\nolimits R\,|F_3|^2. \end{aligned} \tag{B.13}">
 </picture>
 </p>
 
@@ -1281,9 +1281,9 @@ The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-db6737c848568b3e1d24-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-db6737c848568b3e1d24-light.svg">
-  <img src="assets/math/display-db6737c848568b3e1d24-light.svg" width="465" alt="Mathematical expression: p'&lt;0,\quad v'&gt;0,\quad (\log m_\alpha)'=2[\psi(1+2\alpha)-\psi(1+\alpha)]&gt;0,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-db6737c848568b3e1d24-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-db6737c848568b3e1d24-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-db6737c848568b3e1d24-light.svg" width="465" alt="Mathematical expression: p'&lt;0,\quad v'&gt;0,\quad (\log m_\alpha)'=2[\psi(1+2\alpha)-\psi(1+\alpha)]&gt;0,">
 </picture>
 </p>
 
@@ -1292,9 +1292,9 @@ The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-191789915023b5c7d32f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-191789915023b5c7d32f-light.svg">
-  <img src="assets/math/display-191789915023b5c7d32f-light.svg" width="597" alt="Equation (B.14): (\log\zeta)'=2[\psi(1+2\alpha)-\psi(1+3\alpha)] +[\psi(1+\alpha)-\psi(1+3\alpha)]&lt;0. \tag{B.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-191789915023b5c7d32f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-191789915023b5c7d32f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-191789915023b5c7d32f-light.svg" width="597" alt="Equation (B.14): (\log\zeta)'=2[\psi(1+2\alpha)-\psi(1+3\alpha)] +[\psi(1+\alpha)-\psi(1+3\alpha)]&lt;0. \tag{B.14}">
 </picture>
 </p>
 
@@ -1306,9 +1306,9 @@ The constant $`\pi`$ is certified by Machin's identity and one hundred terms of 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-909347bd9bf7efdb778b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-909347bd9bf7efdb778b-light.svg">
-  <img src="assets/math/display-909347bd9bf7efdb778b-light.svg" width="324" alt="Equation (B.15): 0&lt;R_{10}(z)&lt;B_{22}/(22\cdot21z^{21}). \tag{B.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-909347bd9bf7efdb778b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-909347bd9bf7efdb778b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-909347bd9bf7efdb778b-light.svg" width="324" alt="Equation (B.15): 0&lt;R_{10}(z)&lt;B_{22}/(22\cdot21z^{21}). \tag{B.15}">
 </picture>
 </p>
 
@@ -1340,9 +1340,9 @@ The proof consists of rigorous interval inclusion and a complete finite covering
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9ad25788e32b6a9593fe-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9ad25788e32b6a9593fe-light.svg">
-  <img src="assets/math/display-9ad25788e32b6a9593fe-light.svg" width="663" alt="Equation (B.16): |A|^{-1}\le8/5,\quad |A'|\le6/5,\quad |(A^{-1})'|\le384/125,\quad |R|\le1,\quad |R'|\le11/5, \tag{B.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9ad25788e32b6a9593fe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9ad25788e32b6a9593fe-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9ad25788e32b6a9593fe-light.svg" width="663" alt="Equation (B.16): |A|^{-1}\le8/5,\quad |A'|\le6/5,\quad |(A^{-1})'|\le384/125,\quad |R|\le1,\quad |R'|\le11/5, \tag{B.16}">
 </picture>
 </p>
 
@@ -1356,9 +1356,9 @@ For the $`\alpha`$-dependent scalars of Theorem 6.1, exact outward endpoint encl
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5d421648a35e7d72c4a0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5d421648a35e7d72c4a0-light.svg">
-  <img src="assets/math/display-5d421648a35e7d72c4a0-light.svg" width="547" alt="Equation (B.17): 0&lt;p\le2/3,\quad0\le v\le1/3,\quad 1\le m\le3/2,\quad0&lt;\zeta\le2/3. \tag{B.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5d421648a35e7d72c4a0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5d421648a35e7d72c4a0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5d421648a35e7d72c4a0-light.svg" width="547" alt="Equation (B.17): 0&lt;p\le2/3,\quad0\le v\le1/3,\quad 1\le m\le3/2,\quad0&lt;\zeta\le2/3. \tag{B.17}">
 </picture>
 </p>
 
@@ -1372,9 +1372,9 @@ Apply product-rule modulus bounds to the original polynomial formulas. For every
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-97e0a8046044dc62a3fa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-97e0a8046044dc62a3fa-light.svg">
-  <img src="assets/math/display-97e0a8046044dc62a3fa-light.svg" width="349" alt="Equation (B.18): |\partial_\rho B_j|\le L_{B,j},\qquad |\partial_\rho D_j|\le L_{D,j}. \tag{B.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-97e0a8046044dc62a3fa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-97e0a8046044dc62a3fa-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-97e0a8046044dc62a3fa-light.svg" width="349" alt="Equation (B.18): |\partial_\rho B_j|\le L_{B,j},\qquad |\partial_\rho D_j|\le L_{D,j}. \tag{B.18}">
 </picture>
 </p>
 
@@ -1388,9 +1388,9 @@ Let $`m_{B,j}(C),m_{D,j}(C)`$ be the exact original sign lower bounds on a conti
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-4fc06f4f03e5f1b756ab-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-4fc06f4f03e5f1b756ab-light.svg">
-  <img src="assets/math/display-4fc06f4f03e5f1b756ab-light.svg" width="505" alt="Equation (B.19): m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4fc06f4f03e5f1b756ab-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4fc06f4f03e5f1b756ab-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4fc06f4f03e5f1b756ab-light.svg" width="505" alt="Equation (B.19): m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
 </picture>
 </p>
 
@@ -1415,9 +1415,9 @@ If $`H=I^\alpha F(H)`$ is a bounded local continuous solution, then $`H,F(H)`$ a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-988f0650aa1a7cecae14-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-988f0650aa1a7cecae14-light.svg">
-  <img src="assets/math/display-988f0650aa1a7cecae14-light.svg" width="526" alt="Equation (C.1): H'(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-988f0650aa1a7cecae14-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-988f0650aa1a7cecae14-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-988f0650aa1a7cecae14-light.svg" width="526" alt="Equation (C.1): H'(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
 </picture>
 </p>
 
@@ -1428,9 +1428,9 @@ The bound
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-729ca7c541052fc096e8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-729ca7c541052fc096e8-light.svg">
-  <img src="assets/math/display-729ca7c541052fc096e8-light.svg" width="416" alt="Equation (C.2): |H'(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-729ca7c541052fc096e8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-729ca7c541052fc096e8-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-729ca7c541052fc096e8-light.svg" width="416" alt="Equation (C.2): |H'(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
 </picture>
 </p>
 
@@ -1441,9 +1441,9 @@ is integrable at zero. Positive-time continuity and the limit from truncated int
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-681a303de39028e356a7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-681a303de39028e356a7-light.svg">
-  <img src="assets/math/display-681a303de39028e356a7-light.svg" width="544" alt="Equation (C.3): D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-681a303de39028e356a7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-681a303de39028e356a7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-681a303de39028e356a7-light.svg" width="544" alt="Equation (C.3): D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
 </picture>
 </p>
 
@@ -1453,9 +1453,9 @@ At a positive maximum over the full history, with zero initial value, this deriv
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2eaffd19fa93deba319d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2eaffd19fa93deba319d-light.svg">
-  <img src="assets/math/display-2eaffd19fa93deba319d-light.svg" width="270" alt="Equation (C.4): D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v. \tag{C.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2eaffd19fa93deba319d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2eaffd19fa93deba319d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2eaffd19fa93deba319d-light.svg" width="270" alt="Equation (C.4): D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v. \tag{C.4}">
 </picture>
 </p>
 
@@ -1467,9 +1467,9 @@ This Caputo history-convexity inequality follows from the supporting-hyperplane 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e6bc3366e81e23f34a3c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e6bc3366e81e23f34a3c-light.svg">
-  <img src="assets/math/display-e6bc3366e81e23f34a3c-light.svg" width="530" alt="Equation (C.5): |H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)] \le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}. \tag{C.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e6bc3366e81e23f34a3c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e6bc3366e81e23f34a3c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e6bc3366e81e23f34a3c-light.svg" width="530" alt="Equation (C.5): |H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)] \le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}. \tag{C.5}">
 </picture>
 </p>
 
@@ -1481,9 +1481,9 @@ When $`s_0=0`$, the latter time-dependent bound remains valid.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f5bddb9c0676ccf25668-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f5bddb9c0676ccf25668-light.svg">
-  <img src="assets/math/display-f5bddb9c0676ccf25668-light.svg" width="537" alt="Equation (C.6): \mathop{\mathrm{Re}}\nolimits F(H) =-\frac18-\frac{1-\rho^2}{2}u^2 -\frac12(Y+\rho u)^2-s_0X+\frac12X^2. \tag{C.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f5bddb9c0676ccf25668-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f5bddb9c0676ccf25668-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f5bddb9c0676ccf25668-light.svg" width="537" alt="Equation (C.6): \mathop{\mathrm{Re}}\nolimits F(H) =-\frac18-\frac{1-\rho^2}{2}u^2 -\frac12(Y+\rho u)^2-s_0X+\frac12X^2. \tag{C.6}">
 </picture>
 </p>
 
@@ -1495,9 +1495,9 @@ Let $`\psi_\epsilon(z)=\sqrt{|z|^2+\epsilon^2}-\epsilon`$. Equation (C.4), toget
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-750eaad42707e43841cb-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-750eaad42707e43841cb-light.svg">
-  <img src="assets/math/display-750eaad42707e43841cb-light.svg" width="515" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits (\overline H F(H)) =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750eaad42707e43841cb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750eaad42707e43841cb-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-750eaad42707e43841cb-light.svg" width="515" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits (\overline H F(H)) =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),">
 </picture>
 </p>
 
@@ -1509,9 +1509,9 @@ gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-02455ab620feb2574826-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-02455ab620feb2574826-light.svg">
-  <img src="assets/math/display-02455ab620feb2574826-light.svg" width="331" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \widehat H\le\epsilon_R&lt;2s_0,\qquad |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02455ab620feb2574826-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02455ab620feb2574826-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02455ab620feb2574826-light.svg" width="331" alt="Mathematical expression: \mathop{\mathrm{Re}}\nolimits \widehat H\le\epsilon_R&lt;2s_0,\qquad |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,">
 </picture>
 </p>
 
@@ -1521,9 +1521,9 @@ Set $`\sigma=s_0-\epsilon_R/2>0`$. Then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c4981b2b64015b7f39ae-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c4981b2b64015b7f39ae-light.svg">
-  <img src="assets/math/display-c4981b2b64015b7f39ae-light.svg" width="365" alt="Equation (C.7): |H-\widehat H| \le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)] \le\delta/\sigma. \tag{C.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c4981b2b64015b7f39ae-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c4981b2b64015b7f39ae-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c4981b2b64015b7f39ae-light.svg" width="365" alt="Equation (C.7): |H-\widehat H| \le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)] \le\delta/\sigma. \tag{C.7}">
 </picture>
 </p>
 
@@ -1535,9 +1535,9 @@ In particular, for a trajectory in the left half-plane, one may take $`\epsilon_
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5297ef67eee8eff35d9e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5297ef67eee8eff35d9e-light.svg">
-  <img src="assets/math/display-5297ef67eee8eff35d9e-light.svg" width="535" alt="Mathematical expression: D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \mathop{\mathrm{Re}}\nolimits \left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5297ef67eee8eff35d9e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5297ef67eee8eff35d9e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5297ef67eee8eff35d9e-light.svg" width="535" alt="Mathematical expression: D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \mathop{\mathrm{Re}}\nolimits \left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
 </picture>
 </p>
 
@@ -1551,9 +1551,9 @@ If $`\widehat H`$ corresponds to the physical-time trajectory $`\widehat Z`$ and
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b0f6df8cf306ecbfe183-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b0f6df8cf306ecbfe183-light.svg">
-  <img src="assets/math/display-b0f6df8cf306ecbfe183-light.svg" width="345" alt="Equation (C.8): \sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0 \quad\text{if }\mathop{\mathrm{Re}}\nolimits \widehat Z\le0. \tag{C.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b0f6df8cf306ecbfe183-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b0f6df8cf306ecbfe183-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b0f6df8cf306ecbfe183-light.svg" width="345" alt="Equation (C.8): \sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0 \quad\text{if }\mathop{\mathrm{Re}}\nolimits \widehat Z\le0. \tag{C.8}">
 </picture>
 </p>
 
@@ -1572,9 +1572,9 @@ Li and Liu [LiLiu2018, Proposition 3.11(ii)] give Caputo convexity by regulariza
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-745ef3d0dcd424c3b099-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-745ef3d0dcd424c3b099-light.svg">
-  <img src="assets/math/display-745ef3d0dcd424c3b099-light.svg" width="387" alt="Equation (C.9): D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v \quad\text{a.e. on }(0,T). \tag{C.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-745ef3d0dcd424c3b099-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-745ef3d0dcd424c3b099-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-745ef3d0dcd424c3b099-light.svg" width="387" alt="Equation (C.9): D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v \quad\text{a.e. on }(0,T). \tag{C.9}">
 </picture>
 </p>
 
@@ -1586,9 +1586,9 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-beb64e6a1662f3f5e3fa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-beb64e6a1662f3f5e3fa-light.svg">
-  <img src="assets/math/display-beb64e6a1662f3f5e3fa-light.svg" width="563" alt="Equation (C.10): u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T, \quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha). \tag{C.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-beb64e6a1662f3f5e3fa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-beb64e6a1662f3f5e3fa-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-beb64e6a1662f3f5e3fa-light.svg" width="563" alt="Equation (C.10): u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T, \quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha). \tag{C.10}">
 </picture>
 </p>
 
@@ -1600,9 +1600,9 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-44fa96ed91f94fd2013d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-44fa96ed91f94fd2013d-light.svg">
-  <img src="assets/math/display-44fa96ed91f94fd2013d-light.svg" width="573" alt="Equation (C.11): \frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-44fa96ed91f94fd2013d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-44fa96ed91f94fd2013d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-44fa96ed91f94fd2013d-light.svg" width="573" alt="Equation (C.11): \frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
 </picture>
 </p>
 
@@ -1616,9 +1616,9 @@ All path ranges lie in one compact set. Continuity of $`\nabla\Phi`$ and the ord
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-012cf1b8ca2c26fd2770-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-012cf1b8ca2c26fd2770-light.svg">
-  <img src="assets/math/display-012cf1b8ca2c26fd2770-light.svg" width="642" alt="Equation (C.12): \|\Phi(v_n)' - \Phi(v)'\|_1\to0, \qquad \|D_C^\alpha(v_n-v)\|_1 \le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n'-v'\|_1\to0. \tag{C.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-012cf1b8ca2c26fd2770-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-012cf1b8ca2c26fd2770-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-012cf1b8ca2c26fd2770-light.svg" width="642" alt="Equation (C.12): \|\Phi(v_n)' - \Phi(v)'\|_1\to0, \qquad \|D_C^\alpha(v_n-v)\|_1 \le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n'-v'\|_1\to0. \tag{C.12}">
 </picture>
 </p>
 
@@ -1636,9 +1636,9 @@ For (C.10), put $`f=D_C^\alpha u+\lambda u\in L^1(0,T)`$. The zero initial value
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-bccd8b18cdc4c193661c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-bccd8b18cdc4c193661c-light.svg">
-  <img src="assets/math/display-bccd8b18cdc4c193661c-light.svg" width="260" alt="Equation (C.13): D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.} \tag{C.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bccd8b18cdc4c193661c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bccd8b18cdc4c193661c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bccd8b18cdc4c193661c-light.svg" width="260" alt="Equation (C.13): D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.} \tag{C.13}">
 </picture>
 </p>
 
@@ -1650,9 +1650,9 @@ Equation (C.10) and the limit $`\varepsilon\downarrow0`$ yield the first state i
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-14db971d45ee7a8823d0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-14db971d45ee7a8823d0-light.svg">
-  <img src="assets/math/display-14db971d45ee7a8823d0-light.svg" width="516" alt="Equation (C.14): L_T-\widehat L_T =\nu^{-1}\int_0^TA_\alpha(T-t)e'(t)\,dt =\nu^{-1}(q_\alpha*e)(T). \tag{C.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-14db971d45ee7a8823d0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-14db971d45ee7a8823d0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-14db971d45ee7a8823d0-light.svg" width="516" alt="Equation (C.14): L_T-\widehat L_T =\nu^{-1}\int_0^TA_\alpha(T-t)e'(t)\,dt =\nu^{-1}(q_\alpha*e)(T). \tag{C.14}">
 </picture>
 </p>
 
@@ -1664,9 +1664,9 @@ The first Fubini integral is bounded by $`\|\xi\|_\infty T^{1-\alpha}\|e'\|_1/\G
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-87664a695a8a0719fcf4-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-87664a695a8a0719fcf4-light.svg">
-  <img src="assets/math/display-87664a695a8a0719fcf4-light.svg" width="320" alt="Equation (C.15): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-87664a695a8a0719fcf4-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-87664a695a8a0719fcf4-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-87664a695a8a0719fcf4-light.svg" width="320" alt="Equation (C.15): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.15}">
 </picture>
 </p>
 
@@ -1687,9 +1687,9 @@ For a real curve $`\xi\in AC[0,T]`$ with $`\xi(0)=V_0\ge0`$, the precise suffici
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5a39394b342415621137-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5a39394b342415621137-light.svg">
-  <img src="assets/math/display-5a39394b342415621137-light.svg" width="535" alt="Equation (C.16): q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0 \quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta). \tag{C.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5a39394b342415621137-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5a39394b342415621137-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5a39394b342415621137-light.svg" width="535" alt="Equation (C.16): q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi'\ge0 \quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta). \tag{C.16}">
 </picture>
 </p>
 
@@ -1701,9 +1701,9 @@ No sign is imposed on $`\xi'`$. Indeed, $`A_\alpha=I^{1-\alpha}\xi=V_0g_{2-\alph
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9eb37a815fc809054ad0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9eb37a815fc809054ad0-light.svg">
-  <img src="assets/math/display-9eb37a815fc809054ad0-light.svg" width="460" alt="Equation (C.17): \|q_\alpha\|_1\le \frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi'\|_1), \qquad g_\alpha*q_\alpha=\xi. \tag{C.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9eb37a815fc809054ad0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9eb37a815fc809054ad0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9eb37a815fc809054ad0-light.svg" width="460" alt="Equation (C.17): \|q_\alpha\|_1\le \frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi'\|_1), \qquad g_\alpha*q_\alpha=\xi. \tag{C.17}">
 </picture>
 </p>
 
@@ -1715,9 +1715,9 @@ Absolute Fubini proves the second identity even for signed $`\xi'`$, using $`g_\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-5dfffbf71442db9c290b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-5dfffbf71442db9c290b-light.svg">
-  <img src="assets/math/display-5dfffbf71442db9c290b-light.svg" width="320" alt="Equation (C.18): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5dfffbf71442db9c290b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5dfffbf71442db9c290b-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-5dfffbf71442db9c290b-light.svg" width="320" alt="Equation (C.18): 0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.18}">
 </picture>
 </p>
 
@@ -1733,9 +1733,9 @@ This is a strict relaxation of a sufficient curve condition, not a necessary con
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-aefebe33c742949c5cdc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-aefebe33c742949c5cdc-light.svg">
-  <img src="assets/math/display-aefebe33c742949c5cdc-light.svg" width="340" alt="Equation (C.19): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aefebe33c742949c5cdc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aefebe33c742949c5cdc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-aefebe33c742949c5cdc-light.svg" width="340" alt="Equation (C.19): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
 </picture>
 </p>
 
@@ -1753,9 +1753,9 @@ The example illustrates the analytical propagation condition. Realizing it as a 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9a13924cb81e24cd9704-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9a13924cb81e24cd9704-light.svg">
-  <img src="assets/math/display-9a13924cb81e24cd9704-light.svg" width="659" alt="Equation (C.20): q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad |L_T-\widehat L_T|\le \frac{V_0}{\nu}\int_0^T E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds. \tag{C.20}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a13924cb81e24cd9704-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a13924cb81e24cd9704-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a13924cb81e24cd9704-light.svg" width="659" alt="Equation (C.20): q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad |L_T-\widehat L_T|\le \frac{V_0}{\nu}\int_0^T E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds. \tag{C.20}">
 </picture>
 </p>
 
@@ -1767,9 +1767,9 @@ If $`R\le\nu\delta_F`$, a closed-form upper bound is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8f9a483662e292258931-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8f9a483662e292258931-light.svg">
-  <img src="assets/math/display-8f9a483662e292258931-light.svg" width="540" alt="Equation (C.21): \eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f9a483662e292258931-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f9a483662e292258931-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8f9a483662e292258931-light.svg" width="540" alt="Equation (C.21): \eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
 </picture>
 </p>
 
@@ -1784,9 +1784,9 @@ The explicit bound retains finite history and physical scaling. It may be inters
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-09ad2e4432ad1bd6827c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-09ad2e4432ad1bd6827c-light.svg">
-  <img src="assets/math/display-09ad2e4432ad1bd6827c-light.svg" width="499" alt="Equation (C.22): |Z-\widehat Z|\le E_\delta =s_0-\sqrt{s_0^2-2\delta_F} =\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}. \tag{C.22}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-09ad2e4432ad1bd6827c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-09ad2e4432ad1bd6827c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-09ad2e4432ad1bd6827c-light.svg" width="499" alt="Equation (C.22): |Z-\widehat Z|\le E_\delta =s_0-\sqrt{s_0^2-2\delta_F} =\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}. \tag{C.22}">
 </picture>
 </p>
 
@@ -1802,9 +1802,9 @@ For (2.4), $`\xi_*\in AC`$, $`\xi_*'\ge0`$, and $`V_0\le\xi_*\le\theta`$. Positi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c87723e13c65e22888d5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c87723e13c65e22888d5-light.svg">
-  <img src="assets/math/display-c87723e13c65e22888d5-light.svg" width="604" alt="Equation (C.23): A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha'(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*'(t)\ge0. \tag{C.23}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c87723e13c65e22888d5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c87723e13c65e22888d5-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c87723e13c65e22888d5-light.svg" width="604" alt="Equation (C.23): A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha'(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*'(t)\ge0. \tag{C.23}">
 </picture>
 </p>
 
@@ -1814,9 +1814,9 @@ Both initial exponents $`-\alpha,\alpha_0-\alpha`$ exceed $`-1`$, so $`q_\alpha\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e1b6abae5448d07446a3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e1b6abae5448d07446a3-light.svg">
-  <img src="assets/math/display-e1b6abae5448d07446a3-light.svg" width="522" alt="Equation (C.24): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e1b6abae5448d07446a3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e1b6abae5448d07446a3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e1b6abae5448d07446a3-light.svg" width="522" alt="Equation (C.24): q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
 </picture>
 </p>
 
@@ -1825,9 +1825,9 @@ Both initial exponents $`-\alpha,\alpha_0-\alpha`$ exceed $`-1`$, so $`q_\alpha\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7bc0b5ce68b3ac56affd-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7bc0b5ce68b3ac56affd-light.svg">
-  <img src="assets/math/display-7bc0b5ce68b3ac56affd-light.svg" width="581" alt="Equation (C.25): A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7bc0b5ce68b3ac56affd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7bc0b5ce68b3ac56affd-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7bc0b5ce68b3ac56affd-light.svg" width="581" alt="Equation (C.25): A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
 </picture>
 </p>
 
@@ -1839,9 +1839,9 @@ where $`E_{a,b}(z)=\sum_{n=0}^\infty z^n/\Gamma(an+b)`$.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-802435c04a827b472683-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-802435c04a827b472683-light.svg">
-  <img src="assets/math/display-802435c04a827b472683-light.svg" width="546" alt="Mathematical expression: L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-802435c04a827b472683-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-802435c04a827b472683-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-802435c04a827b472683-light.svg" width="546" alt="Mathematical expression: L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,">
 </picture>
 </p>
 
@@ -1851,9 +1851,9 @@ Then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-31efb2a68d7922c02de7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-31efb2a68d7922c02de7-light.svg">
-  <img src="assets/math/display-31efb2a68d7922c02de7-light.svg" width="423" alt="Equation (C.26): L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt. \tag{C.26}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-31efb2a68d7922c02de7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-31efb2a68d7922c02de7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-31efb2a68d7922c02de7-light.svg" width="423" alt="Equation (C.26): L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt. \tag{C.26}">
 </picture>
 </p>
 
@@ -1863,9 +1863,9 @@ In particular, if $`\sup|Z-\widehat Z|\le E`$, then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b1186029a691d2b61994-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b1186029a691d2b61994-light.svg">
-  <img src="assets/math/display-b1186029a691d2b61994-light.svg" width="420" alt="Equation (C.27): |L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu \le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}. \tag{C.27}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b1186029a691d2b61994-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b1186029a691d2b61994-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b1186029a691d2b61994-light.svg" width="420" alt="Equation (C.27): |L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu \le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}. \tag{C.27}">
 </picture>
 </p>
 
@@ -1882,9 +1882,9 @@ Using $`\mathop{\mathrm{Re}}\nolimits L_T\le0`$ and the integral identity for th
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2925cb3dc4157c0ae12d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2925cb3dc4157c0ae12d-light.svg">
-  <img src="assets/math/display-2925cb3dc4157c0ae12d-light.svg" width="372" alt="Equation (C.28): |e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\mathop{\mathrm{Re}}\nolimits \bar L_T}\}(e^\eta-1). \tag{C.28}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2925cb3dc4157c0ae12d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2925cb3dc4157c0ae12d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2925cb3dc4157c0ae12d-light.svg" width="372" alt="Equation (C.28): |e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\mathop{\mathrm{Re}}\nolimits \bar L_T}\}(e^\eta-1). \tag{C.28}">
 </picture>
 </p>
 
@@ -1896,9 +1896,9 @@ If a model-transform envelope $`B(u)`$ and an approximate-modulus bound $`\wideh
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3ba91065deea93216336-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3ba91065deea93216336-light.svg">
-  <img src="assets/math/display-3ba91065deea93216336-light.svg" width="403" alt="Equation (C.29): |e^{L_T}-e^{\bar L_T}| \le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}. \tag{C.29}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3ba91065deea93216336-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3ba91065deea93216336-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3ba91065deea93216336-light.svg" width="403" alt="Equation (C.29): |e^{L_T}-e^{\bar L_T}| \le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}. \tag{C.29}">
 </picture>
 </p>
 
@@ -1920,9 +1920,9 @@ $`\xi(t)=\theta+(V_0-\theta)E_{A_0}(-\lambda_\xi t^{A_0})`$, with $`\lambda_\xi\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9b9c2889afbda25031a6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9b9c2889afbda25031a6-light.svg">
-  <img src="assets/math/display-9b9c2889afbda25031a6-light.svg" width="630" alt="Equation (C.30): \left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9b9c2889afbda25031a6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9b9c2889afbda25031a6-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9b9c2889afbda25031a6-light.svg" width="630" alt="Equation (C.30): \left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
 </picture>
 </p>
 
@@ -1938,9 +1938,9 @@ $`(- \lambda)^n(\xi*g_{n\alpha})`$. Since $`0\le\xi\le\theta`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-73dc64be75777cff903f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-73dc64be75777cff903f-light.svg">
-  <img src="assets/math/display-73dc64be75777cff903f-light.svg" width="363" alt="Equation (C.31): 0\le W_n(t)\le \frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)} \le\theta t(t^\alpha)^n. \tag{C.31}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-73dc64be75777cff903f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-73dc64be75777cff903f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-73dc64be75777cff903f-light.svg" width="363" alt="Equation (C.31): 0\le W_n(t)\le \frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)} \le\theta t(t^\alpha)^n. \tag{C.31}">
 </picture>
 </p>
 
@@ -1956,9 +1956,9 @@ Expanding the curve Mittag–Leffler function, and using the beta convolution id
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-56206770333985a4e7de-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-56206770333985a4e7de-light.svg">
-  <img src="assets/math/display-56206770333985a4e7de-light.svg" width="580" alt="Equation (C.32): W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-56206770333985a4e7de-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-56206770333985a4e7de-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-56206770333985a4e7de-light.svg" width="580" alt="Equation (C.32): W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
 </picture>
 </p>
 
@@ -1970,9 +1970,9 @@ When $`w=\lambda_\xi t^{A_0}<1`$, every inner denominator also has argument at l
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-82d71e74a7fe25d4e8e2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-82d71e74a7fe25d4e8e2-light.svg">
-  <img src="assets/math/display-82d71e74a7fe25d4e8e2-light.svg" width="361" alt="Equation (C.33): \left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82d71e74a7fe25d4e8e2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82d71e74a7fe25d4e8e2-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82d71e74a7fe25d4e8e2-light.svg" width="361" alt="Equation (C.33): \left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
 </picture>
 </p>
 
@@ -1986,9 +1986,9 @@ For a residual envelope $`R\le R_j`$ on the complete cell $`[a_j,b_j]`$, evaluat
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b325861e881dd61884dd-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b325861e881dd61884dd-light.svg">
-  <img src="assets/math/display-b325861e881dd61884dd-light.svg" width="547" alt="Equation (C.34): \left[ W^-(T-a_j)-W^+(T-b_j),\ W^+(T-a_j)-W^-(T-b_j) \right]. \tag{C.34}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b325861e881dd61884dd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b325861e881dd61884dd-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b325861e881dd61884dd-light.svg" width="547" alt="Equation (C.34): \left[ W^-(T-a_j)-W^+(T-b_j),\ W^+(T-a_j)-W^-(T-b_j) \right]. \tag{C.34}">
 </picture>
 </p>
 
@@ -2000,9 +2000,9 @@ Intersecting with nonnegativity and the independently proved upper curve weight 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a8666a671e86f0365b67-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a8666a671e86f0365b67-light.svg">
-  <img src="assets/math/display-a8666a671e86f0365b67-light.svg" width="248" alt="Equation (C.35): \eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+. \tag{C.35}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a8666a671e86f0365b67-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a8666a671e86f0365b67-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a8666a671e86f0365b67-light.svg" width="248" alt="Equation (C.35): \eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+. \tag{C.35}">
 </picture>
 </p>
 
@@ -2022,9 +2022,9 @@ For each candidate $`\alpha=\beta\in\{.52,.6,.9\}`$ and each $`u=n/8,\ n=0,\ldot
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7b156d87e78ae6ad3660-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7b156d87e78ae6ad3660-light.svg">
-  <img src="assets/math/display-7b156d87e78ae6ad3660-light.svg" width="711" alt="Equation (D.1): \bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2. \tag{D.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7b156d87e78ae6ad3660-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7b156d87e78ae6ad3660-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7b156d87e78ae6ad3660-light.svg" width="711" alt="Equation (D.1): \bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2. \tag{D.1}">
 </picture>
 </p>
 
@@ -2034,9 +2034,9 @@ Here $`\bar L`$ is the continuous piecewise-linear interpolation in physical tim
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f79b98ee7b109869899d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f79b98ee7b109869899d-light.svg">
-  <img src="assets/math/display-f79b98ee7b109869899d-light.svg" width="378" alt="Equation (D.2): r_t=\bar G-\nu F(\widehat Z),\quad \delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|. \tag{D.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f79b98ee7b109869899d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f79b98ee7b109869899d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f79b98ee7b109869899d-light.svg" width="378" alt="Equation (D.2): r_t=\bar G-\nu F(\widehat Z),\quad \delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|. \tag{D.2}">
 </picture>
 </p>
 
@@ -2048,9 +2048,9 @@ Write
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9a2b3ce2b6ca3da6cf12-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9a2b3ce2b6ca3da6cf12-light.svg">
-  <img src="assets/math/display-9a2b3ce2b6ca3da6cf12-light.svg" width="462" alt="Mathematical expression: \widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a2b3ce2b6ca3da6cf12-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a2b3ce2b6ca3da6cf12-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9a2b3ce2b6ca3da6cf12-light.svg" width="462" alt="Mathematical expression: \widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},">
 </picture>
 </p>
 
@@ -2059,9 +2059,9 @@ Write
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a5f7b2787304ea0dd214-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a5f7b2787304ea0dd214-light.svg">
-  <img src="assets/math/display-a5f7b2787304ea0dd214-light.svg" width="575" alt="Equation (D.3): B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a5f7b2787304ea0dd214-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a5f7b2787304ea0dd214-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a5f7b2787304ea0dd214-light.svg" width="575" alt="Equation (D.3): B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
 </picture>
 </p>
 
@@ -2073,9 +2073,9 @@ On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-436ddc63c546d8a942e4-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-436ddc63c546d8a942e4-light.svg">
-  <img src="assets/math/display-436ddc63c546d8a942e4-light.svg" width="480" alt="Mathematical expression: I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-436ddc63c546d8a942e4-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-436ddc63c546d8a942e4-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-436ddc63c546d8a942e4-light.svg" width="480" alt="Mathematical expression: I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),">
 </picture>
 </p>
 
@@ -2084,9 +2084,9 @@ On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e77d40b5aeeb55479cd7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e77d40b5aeeb55479cd7-light.svg">
-  <img src="assets/math/display-e77d40b5aeeb55479cd7-light.svg" width="462" alt="Equation (D.4): w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad w_L=I_0/\Gamma(\alpha)-w_R. \tag{D.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e77d40b5aeeb55479cd7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e77d40b5aeeb55479cd7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e77d40b5aeeb55479cd7-light.svg" width="462" alt="Equation (D.4): w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad w_L=I_0/\Gamma(\alpha)-w_R. \tag{D.4}">
 </picture>
 </p>
 
@@ -2098,9 +2098,9 @@ For $`h/\tau<.01`$, retain eight positive-series terms, using respectively
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-06557eea3b038da55354-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-06557eea3b038da55354-light.svg">
-  <img src="assets/math/display-06557eea3b038da55354-light.svg" width="635" alt="Equation (D.5): w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06557eea3b038da55354-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06557eea3b038da55354-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06557eea3b038da55354-light.svg" width="635" alt="Equation (D.5): w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
 </picture>
 </p>
 
@@ -2112,9 +2112,9 @@ Partition each nonstartup source interval into closed subintervals $`[a,b]`$: H/
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c5b3b848576958f091c9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c5b3b848576958f091c9-light.svg">
-  <img src="assets/math/display-c5b3b848576958f091c9-light.svg" width="446" alt="Equation (D.6): \sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t'|. \tag{D.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5b3b848576958f091c9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5b3b848576958f091c9-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c5b3b848576958f091c9-light.svg" width="446" alt="Equation (D.6): \sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t'|. \tag{D.6}">
 </picture>
 </p>
 
@@ -2124,9 +2124,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0dc8b7b81660b9eefe19-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0dc8b7b81660b9eefe19-light.svg">
-  <img src="assets/math/display-0dc8b7b81660b9eefe19-light.svg" width="172" alt="Mathematical expression: r_t'=\bar G'-\nu(d+\widehat Z)\widehat Z',">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0dc8b7b81660b9eefe19-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0dc8b7b81660b9eefe19-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0dc8b7b81660b9eefe19-light.svg" width="172" alt="Mathematical expression: r_t'=\bar G'-\nu(d+\widehat Z)\widehat Z',">
 </picture>
 </p>
 
@@ -2135,9 +2135,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b7bc523c83d84ec7942f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b7bc523c83d84ec7942f-light.svg">
-  <img src="assets/math/display-b7bc523c83d84ec7942f-light.svg" width="577" alt="Mathematical expression: P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7bc523c83d84ec7942f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7bc523c83d84ec7942f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b7bc523c83d84ec7942f-light.svg" width="577" alt="Mathematical expression: P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,">
 </picture>
 </p>
 
@@ -2146,9 +2146,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0bc0ac7db24cb9c7aa32-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0bc0ac7db24cb9c7aa32-light.svg">
-  <img src="assets/math/display-0bc0ac7db24cb9c7aa32-light.svg" width="598" alt="Equation (D.7): r_t'=P_r'+\bar L'-\nu[(d+H_0+J)J'+H_0'J], \quad \widehat Z'=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G'. \tag{D.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0bc0ac7db24cb9c7aa32-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0bc0ac7db24cb9c7aa32-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0bc0ac7db24cb9c7aa32-light.svg" width="598" alt="Equation (D.7): r_t'=P_r'+\bar L'-\nu[(d+H_0+J)J'+H_0'J], \quad \widehat Z'=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G'. \tag{D.7}">
 </picture>
 </p>
 
@@ -2161,9 +2161,9 @@ The singular terms from the initial source interval are handled directly by frac
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7d72ccbfbcea2435a597-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7d72ccbfbcea2435a597-light.svg">
-  <img src="assets/math/display-7d72ccbfbcea2435a597-light.svg" width="751" alt="Equation (D.8): \frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d72ccbfbcea2435a597-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d72ccbfbcea2435a597-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d72ccbfbcea2435a597-light.svg" width="751" alt="Equation (D.8): \frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
 </picture>
 </p>
 
@@ -2179,9 +2179,9 @@ For matrix multiplication with rigorous weight centres $`W_c`$, radii $`W_r`$, a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2e84d2cf956e471fc8c5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2e84d2cf956e471fc8c5-light.svg">
-  <img src="assets/math/display-2e84d2cf956e471fc8c5-light.svg" width="556" alt="Equation (D.9): \left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2e84d2cf956e471fc8c5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2e84d2cf956e471fc8c5-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2e84d2cf956e471fc8c5-light.svg" width="556" alt="Equation (D.9): \left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
 </picture>
 </p>
 
@@ -2193,9 +2193,9 @@ For the fixed curve, define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-506556cb5a7518afffde-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-506556cb5a7518afffde-light.svg">
-  <img src="assets/math/display-506556cb5a7518afffde-light.svg" width="793" alt="Equation (D.10): J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-506556cb5a7518afffde-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-506556cb5a7518afffde-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-506556cb5a7518afffde-light.svg" width="793" alt="Equation (D.10): J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
 </picture>
 </p>
 
@@ -2205,9 +2205,9 @@ These quantities are respectively $`\int_0^z\xi_*(s)ds,\int_0^zs\xi_*(s)ds`$; te
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-1bf8c1273101b9813c1f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-1bf8c1273101b9813c1f-light.svg">
-  <img src="assets/math/display-1bf8c1273101b9813c1f-light.svg" width="766" alt="Equation (D.11): w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}. \tag{D.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1bf8c1273101b9813c1f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1bf8c1273101b9813c1f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1bf8c1273101b9813c1f-light.svg" width="766" alt="Equation (D.11): w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}. \tag{D.11}">
 </picture>
 </p>
 
@@ -2217,9 +2217,9 @@ The curve moment for the power component $`t^\beta`$ is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ba0b309b04eb4aaa6b5f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ba0b309b04eb4aaa6b5f-light.svg">
-  <img src="assets/math/display-ba0b309b04eb4aaa6b5f-light.svg" width="628" alt="Equation (D.12): \int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ba0b309b04eb4aaa6b5f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ba0b309b04eb4aaa6b5f-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ba0b309b04eb4aaa6b5f-light.svg" width="628" alt="Equation (D.12): \int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
 </picture>
 </p>
 
@@ -2235,9 +2235,9 @@ On compact substrips, $`x^q|\log x|^j\le C(1+x)`$, so the transform is analytic.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ccf1b6bc8c0a53c19a61-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ccf1b6bc8c0a53c19a61-light.svg">
-  <img src="assets/math/display-ccf1b6bc8c0a53c19a61-light.svg" width="535" alt="Mathematical expression: |z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad \int_{\mathbb R}|g(r\pm ia_*)|\,dr \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ccf1b6bc8c0a53c19a61-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ccf1b6bc8c0a53c19a61-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ccf1b6bc8c0a53c19a61-light.svg" width="535" alt="Mathematical expression: |z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad \int_{\mathbb R}|g(r\pm ia_*)|\,dr \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.">
 </picture>
 </p>
 
@@ -2256,9 +2256,9 @@ Fix $`\kappa=0,-1<\rho<0`$. Set $`X=-\mathop{\mathrm{Re}}\nolimits H\ge0`$. Equa
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e4afa60865cec25f2339-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e4afa60865cec25f2339-light.svg">
-  <img src="assets/math/display-e4afa60865cec25f2339-light.svg" width="509" alt="Equation (D.13): D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad \beta_u=(1-\rho^2)u^2/2+1/8. \tag{D.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e4afa60865cec25f2339-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e4afa60865cec25f2339-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e4afa60865cec25f2339-light.svg" width="509" alt="Equation (D.13): D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad \beta_u=(1-\rho^2)u^2/2+1/8. \tag{D.13}">
 </picture>
 </p>
 
@@ -2268,9 +2268,9 @@ Let $`w`$ be the scalar zero-initial-value solution satisfying equality. Compari
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-8dc66693782467d78ae7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-8dc66693782467d78ae7-light.svg">
-  <img src="assets/math/display-8dc66693782467d78ae7-light.svg" width="593" alt="Mathematical expression: X\ge w,\quad 0\le w\le R_u,\quad R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8dc66693782467d78ae7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8dc66693782467d78ae7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-8dc66693782467d78ae7-light.svg" width="593" alt="Mathematical expression: X\ge w,\quad 0\le w\le R_u,\quad R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.">
 </picture>
 </p>
 
@@ -2281,9 +2281,9 @@ $`E_\alpha(-z)\le(1+z/\Gamma(1+\alpha))^{-1}`$, give
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ca39bdc81b4d9c63618e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ca39bdc81b4d9c63618e-light.svg">
-  <img src="assets/math/display-ca39bdc81b4d9c63618e-light.svg" width="374" alt="Equation (D.14): -\mathop{\mathrm{Re}}\nolimits Z(t,u)\ge R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}. \tag{D.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca39bdc81b4d9c63618e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca39bdc81b4d9c63618e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ca39bdc81b4d9c63618e-light.svg" width="374" alt="Equation (D.14): -\mathop{\mathrm{Re}}\nolimits Z(t,u)\ge R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}. \tag{D.14}">
 </picture>
 </p>
 
@@ -2295,9 +2295,9 @@ Take $`V>s_0/\sqrt{1-\rho^2}`$ and define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-07c1e3c0d7f34a8c33f3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-07c1e3c0d7f34a8c33f3-light.svg">
-  <img src="assets/math/display-07c1e3c0d7f34a8c33f3-light.svg" width="515" alt="Mathematical expression: a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V&gt;0,\quad f_\alpha(z)=z/(\Gamma(1+\alpha)+z).">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-07c1e3c0d7f34a8c33f3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-07c1e3c0d7f34a8c33f3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-07c1e3c0d7f34a8c33f3-light.svg" width="515" alt="Mathematical expression: a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V&gt;0,\quad f_\alpha(z)=z/(\Gamma(1+\alpha)+z).">
 </picture>
 </p>
 
@@ -2307,9 +2307,9 @@ For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-21c9cc1e34c2991ecd92-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-21c9cc1e34c2991ecd92-light.svg">
-  <img src="assets/math/display-21c9cc1e34c2991ecd92-light.svg" width="466" alt="Mathematical expression: c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1} f_\alpha(a_\rho\nu Vt_j^\alpha/2) [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]&gt;0,">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21c9cc1e34c2991ecd92-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21c9cc1e34c2991ecd92-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-21c9cc1e34c2991ecd92-light.svg" width="466" alt="Mathematical expression: c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1} f_\alpha(a_\rho\nu Vt_j^\alpha/2) [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]&gt;0,">
 </picture>
 </p>
 
@@ -2318,9 +2318,9 @@ For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-de9778f517df55e8d732-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-de9778f517df55e8d732-light.svg">
-  <img src="assets/math/display-de9778f517df55e8d732-light.svg" width="342" alt="Equation (D.15): |\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V). \tag{D.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de9778f517df55e8d732-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de9778f517df55e8d732-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-de9778f517df55e8d732-light.svg" width="342" alt="Equation (D.15): |\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V). \tag{D.15}">
 </picture>
 </p>
 
@@ -2334,9 +2334,9 @@ Using the right-endpoint sum of a positive decreasing function, for $`V=N_uh_*`$
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7d39a237192622ca9faf-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7d39a237192622ca9faf-light.svg">
-  <img src="assets/math/display-7d39a237192622ca9faf-light.svg" width="237" alt="Equation (D.16): \epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d39a237192622ca9faf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d39a237192622ca9faf-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7d39a237192622ca9faf-light.svg" width="237" alt="Equation (D.16): \epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
 </picture>
 </p>
 
@@ -2352,9 +2352,9 @@ The recorded exponent is derivative-based: $`\bar L_T=\nu^{-1}\int\xi_*(T-t)\bar
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b05914fa7ba7fed347f7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b05914fa7ba7fed347f7-light.svg">
-  <img src="assets/math/display-b05914fa7ba7fed347f7-light.svg" width="559" alt="Equation (D.17): |L_T-\bar L_T| \le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu \le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)]. \tag{D.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b05914fa7ba7fed347f7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b05914fa7ba7fed347f7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b05914fa7ba7fed347f7-light.svg" width="559" alt="Equation (D.17): |L_T-\bar L_T| \le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu \le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)]. \tag{D.17}">
 </picture>
 </p>
 
@@ -2373,9 +2373,9 @@ Here $`E_{\rm state}`$ is a certified state radius: $`E_\delta`$ in Proposition 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-75d17569be4d7636fe06-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-75d17569be4d7636fe06-light.svg">
-  <img src="assets/math/display-75d17569be4d7636fe06-light.svg" width="501" alt="Equation (D.18): B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0. \tag{D.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-75d17569be4d7636fe06-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-75d17569be4d7636fe06-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-75d17569be4d7636fe06-light.svg" width="501" alt="Equation (D.18): B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0. \tag{D.18}">
 </picture>
 </p>
 
@@ -2399,9 +2399,9 @@ $`\sup_{\Theta_{\rm finite}}|\widetilde J-J|\le\delta_J`$, and its selected cand
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2f1ec294cbba72b584ee-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2f1ec294cbba72b584ee-light.svg">
-  <img src="assets/math/display-2f1ec294cbba72b584ee-light.svg" width="271" alt="Equation (D.19): J(\widehat\alpha)-J_* \le2\delta_J+\varepsilon_{\rm alg}. \tag{D.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2f1ec294cbba72b584ee-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2f1ec294cbba72b584ee-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2f1ec294cbba72b584ee-light.svg" width="271" alt="Equation (D.19): J(\widehat\alpha)-J_* \le2\delta_J+\varepsilon_{\rm alg}. \tag{D.19}">
 </picture>
 </p>
 
@@ -2429,9 +2429,9 @@ Fix $`\rho=-.7445,\nu=.2897,\lambda_R=\kappa=0`$ and the entire forward variance
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a2bb19fe76126a9fcdb5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a2bb19fe76126a9fcdb5-light.svg">
-  <img src="assets/math/display-a2bb19fe76126a9fcdb5-light.svg" width="476" alt="Equation (E.1): \xi_*(t)=.0721+(.0262-.0721) E_{.5286}(-.5037t^{.5286}). \tag{E.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a2bb19fe76126a9fcdb5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a2bb19fe76126a9fcdb5-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a2bb19fe76126a9fcdb5-light.svg" width="476" alt="Equation (E.1): \xi_*(t)=.0721+(.0262-.0721) E_{.5286}(-.5037t^{.5286}). \tag{E.1}">
 </picture>
 </p>
 
@@ -2443,9 +2443,9 @@ The candidate set is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-00f24ea0b0789a71e956-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-00f24ea0b0789a71e956-light.svg">
-  <img src="assets/math/display-00f24ea0b0789a71e956-light.svg" width="535" alt="Equation (E.2): \Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad H=\alpha-\tfrac12\in\{.02,.1,.4\}. \tag{E.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-00f24ea0b0789a71e956-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-00f24ea0b0789a71e956-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-00f24ea0b0789a71e956-light.svg" width="535" alt="Equation (E.2): \Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad H=\alpha-\tfrac12\in\{.02,.1,.4\}. \tag{E.2}">
 </picture>
 </p>
 
@@ -2457,9 +2457,9 @@ The model prices $`c_i(\alpha)=C_i(\alpha)/(DF)`$ arise from the admissible nonn
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-fd763249817e2a5c28f3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-fd763249817e2a5c28f3-light.svg">
-  <img src="assets/math/display-fd763249817e2a5c28f3-light.svg" width="649" alt="Equation (E.3): J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \mathop{\mathrm{dist}}\nolimits (c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-fd763249817e2a5c28f3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-fd763249817e2a5c28f3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-fd763249817e2a5c28f3-light.svg" width="649" alt="Equation (E.3): J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \mathop{\mathrm{dist}}\nolimits (c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
 </picture>
 </p>
 
@@ -2550,9 +2550,9 @@ The Padé procedure uses the six-condition GR [3/3] approximation, a 256-point J
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-125caccfa1fbeba9a0c3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-125caccfa1fbeba9a0c3-light.svg">
-  <img src="assets/math/display-125caccfa1fbeba9a0c3-light.svg" width="367" alt="Equation (E.4): |c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}. \tag{E.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-125caccfa1fbeba9a0c3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-125caccfa1fbeba9a0c3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-125caccfa1fbeba9a0c3-light.svg" width="367" alt="Equation (E.4): |c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}. \tag{E.4}">
 </picture>
 </p>
 
@@ -2666,9 +2666,9 @@ Write $`s=S/100=e^Z`$, $`d=\kappa\bar v`$, $`r=1/100`$, $`h=1/768`$, and $`s_0=1
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f1f811c59258d77b50fe-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f1f811c59258d77b50fe-light.svg">
-  <img src="assets/math/display-f1f811c59258d77b50fe-light.svg" width="464" alt="Equation (F.1): \begin{aligned} dZ_t&amp;=(r-V_t/2)dt+\sqrt{V_t}(\rho\,dW_t+\sqrt{1-\rho^2}\,dB_t),\\ dV_t&amp;=(d-\kappa V_t)dt+\xi\sqrt{V_t}\,dW_t,\\ Y&amp;=dh+(1-\kappa h)v+\xi\sqrt{hv}\,G,\qquad V'=Y^+,\\ Z'&amp;=z+rh-hv/2+\sqrt{hv}(\rho G+\sqrt{1-\rho^2}H). \end{aligned}\tag{F.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1f811c59258d77b50fe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1f811c59258d77b50fe-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f1f811c59258d77b50fe-light.svg" width="464" alt="Equation (F.1): \begin{aligned} dZ_t&amp;=(r-V_t/2)dt+\sqrt{V_t}(\rho\,dW_t+\sqrt{1-\rho^2}\,dB_t),\\ dV_t&amp;=(d-\kappa V_t)dt+\xi\sqrt{V_t}\,dW_t,\\ Y&amp;=dh+(1-\kappa h)v+\xi\sqrt{hv}\,G,\qquad V'=Y^+,\\ Z'&amp;=z+rh-hv/2+\sqrt{hv}(\rho G+\sqrt{1-\rho^2}H). \end{aligned}\tag{F.1}">
 </picture>
 </p>
 
@@ -2680,9 +2680,9 @@ Here $`G,H`$ are independent standard normal variables, and the same $`G`$ drive
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-82e4c700fac8e8ab9744-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-82e4c700fac8e8ab9744-light.svg">
-  <img src="assets/math/display-82e4c700fac8e8ab9744-light.svg" width="645" alt="Equation (F.2): \kappa\in[2,4],\quad \bar v,v_0\in[3/100,3/50],\quad \xi\in[9/50,7/25],\quad \rho\in[-4/5,-3/10].\tag{F.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82e4c700fac8e8ab9744-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82e4c700fac8e8ab9744-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-82e4c700fac8e8ab9744-light.svg" width="645" alt="Equation (F.2): \kappa\in[2,4],\quad \bar v,v_0\in[3/100,3/50],\quad \xi\in[9/50,7/25],\quad \rho\in[-4/5,-3/10].\tag{F.2}">
 </picture>
 </p>
 
@@ -2694,9 +2694,9 @@ A finite multidate mode has loadings $`\alpha_{i,n}\in\mathbb C`$ satisfying
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-146f15f542ba624b23d7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-146f15f542ba624b23d7-light.svg">
-  <img src="assets/math/display-146f15f542ba624b23d7-light.svg" width="335" alt="Equation (F.3): \Re\alpha_{i,n}\le0,\qquad \sum_n|\Re\alpha_{i,n}|\le1/2.\tag{F.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-146f15f542ba624b23d7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-146f15f542ba624b23d7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-146f15f542ba624b23d7-light.svg" width="335" alt="Equation (F.3): \Re\alpha_{i,n}\le0,\qquad \sum_n|\Re\alpha_{i,n}|\le1/2.\tag{F.3}">
 </picture>
 </p>
 
@@ -2712,9 +2712,9 @@ The realized prefix is $`H_{ji}`$; the remaining stock loading is $`q_{ji}=p_{ji
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-58936fcc5211cc560321-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-58936fcc5211cc560321-light.svg">
-  <img src="assets/math/display-58936fcc5211cc560321-light.svg" width="504" alt="Equation (F.4): b'=\tfrac12\xi^2b^2+(\rho\xi q-\kappa)b+\tfrac12(q^2-q), \qquad a'=rq+db.\tag{F.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58936fcc5211cc560321-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58936fcc5211cc560321-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-58936fcc5211cc560321-light.svg" width="504" alt="Equation (F.4): b'=\tfrac12\xi^2b^2+(\rho\xi q-\kappa)b+\tfrac12(q^2-q), \qquad a'=rq+db.\tag{F.4}">
 </picture>
 </p>
 
@@ -2726,9 +2726,9 @@ At fixings $`q`$ changes and $`a,b`$ continue without resetting. To prove existe
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-ab1ea02d57d9226840f3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-ab1ea02d57d9226840f3-light.svg">
-  <img src="assets/math/display-ab1ea02d57d9226840f3-light.svg" width="777" alt="Equation (F.5): \tfrac12\xi^2-\kappa_p+\gamma_p -\tfrac12\{(\xi\Im b+\rho\omega)^2+(1-\rho^2)\omega^2\}&lt;0, \qquad \frac{d|b|}{dt}\le(\xi^2/2-\kappa_p)|b|+|q^2-q|/2.\tag{F.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ab1ea02d57d9226840f3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ab1ea02d57d9226840f3-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-ab1ea02d57d9226840f3-light.svg" width="777" alt="Equation (F.5): \tfrac12\xi^2-\kappa_p+\gamma_p -\tfrac12\{(\xi\Im b+\rho\omega)^2+(1-\rho^2)\omega^2\}&lt;0, \qquad \frac{d|b|}{dt}\le(\xi^2/2-\kappa_p)|b|+|q^2-q|/2.\tag{F.5}">
 </picture>
 </p>
 
@@ -2742,9 +2742,9 @@ The identification with an expectation requires more than formal Riccati algebra
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-e5f44f51bc4943593000-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-e5f44f51bc4943593000-light.svg">
-  <img src="assets/math/display-e5f44f51bc4943593000-light.svg" width="591" alt="Equation (F.6): \mathcal Y_t=e^{L_*(t)+p_*(t)Z_t+4V_t-(24/25)t},\qquad |\mathcal M_\tau|^{5/4} \le e^{(5/4)(6/25)T+(24/25)T}\mathcal Y_\tau.\tag{F.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e5f44f51bc4943593000-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e5f44f51bc4943593000-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-e5f44f51bc4943593000-light.svg" width="591" alt="Equation (F.6): \mathcal Y_t=e^{L_*(t)+p_*(t)Z_t+4V_t-(24/25)t},\qquad |\mathcal M_\tau|^{5/4} \le e^{(5/4)(6/25)T+(24/25)T}\mathcal Y_\tau.\tag{F.6}">
 </picture>
 </p>
 
@@ -2758,9 +2758,9 @@ The actual one-step propagation retains the entire positive-part Gaussian kernel
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6fc921e5b5eb8a7585e1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6fc921e5b5eb8a7585e1-light.svg">
-  <img src="assets/math/display-6fc921e5b5eb8a7585e1-light.svg" width="645" alt="Equation (F.7): \frac{Q_hu(z,v)}{e^{qz}}= e^{a+qrh-qhv/2+q^2(1-\rho^2)hv/2} \int_{\mathbb R}\varphi(g) e^{q\rho\sqrt{hv}g+b[dh+(1-\kappa h)v+\xi\sqrt{hv}g]^+}\,dg.\tag{F.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6fc921e5b5eb8a7585e1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6fc921e5b5eb8a7585e1-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6fc921e5b5eb8a7585e1-light.svg" width="645" alt="Equation (F.7): \frac{Q_hu(z,v)}{e^{qz}}= e^{a+qrh-qhv/2+q^2(1-\rho^2)hv/2} \int_{\mathbb R}\varphi(g) e^{q\rho\sqrt{hv}g+b[dh+(1-\kappa h)v+\xi\sqrt{hv}g]^+}\,dg.\tag{F.7}">
 </picture>
 </p>
 
@@ -2774,9 +2774,9 @@ Let $`D_{ji}(v)`$ be this actual propagation minus the exact continuous continua
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-51091641d54423ac8002-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-51091641d54423ac8002-light.svg">
-  <img src="assets/math/display-51091641d54423ac8002-light.svg" width="487" alt="Equation (F.8): \Phi_{Q,i}-\Phi_{P,i}=\sum_{j=0}^{N-1}r_{ji},\qquad r_{ji}=E_Q[H_{ji}e^{q_{ji}Z_j}D_{ji}(V_j)].\tag{F.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-51091641d54423ac8002-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-51091641d54423ac8002-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-51091641d54423ac8002-light.svg" width="487" alt="Equation (F.8): \Phi_{Q,i}-\Phi_{P,i}=\sum_{j=0}^{N-1}r_{ji},\qquad r_{ji}=E_Q[H_{ji}e^{q_{ji}Z_j}D_{ji}(V_j)].\tag{F.8}">
 </picture>
 </p>
 
@@ -2792,9 +2792,9 @@ The integrability in the next subsection justifies every discrete expectation in
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-4865237b823da22a25cd-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-4865237b823da22a25cd-light.svg">
-  <img src="assets/math/display-4865237b823da22a25cd-light.svg" width="461" alt="Equation (F.9): E_Q\exp\!\left\{\sum_{n\le j}\beta_n Z_n+4V_j\right\} \le K_j:=e^{6/25+(73/75)jh}.\tag{F.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4865237b823da22a25cd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4865237b823da22a25cd-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-4865237b823da22a25cd-light.svg" width="461" alt="Equation (F.9): E_Q\exp\!\left\{\sum_{n\le j}\beta_n Z_n+4V_j\right\} \le K_j:=e^{6/25+(73/75)jh}.\tag{F.9}">
 </picture>
 </p>
 
@@ -2806,9 +2806,9 @@ To prove it, complete the real stock square for $`p\in[-1,0]`$. The candidate me
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-12507b7f52d324d0b1c8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-12507b7f52d324d0b1c8-light.svg">
-  <img src="assets/math/display-12507b7f52d324d0b1c8-light.svg" width="659" alt="Equation (F.10): E(-Y_p)^+\le\frac{h}{25e} \exp\!\left\{-25d+\frac{[-25\eta_p+(625/2)\xi^2]v}{h}\right\} \le\frac{h}{25e^{5/2}}&lt;h/300.\tag{F.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-12507b7f52d324d0b1c8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-12507b7f52d324d0b1c8-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-12507b7f52d324d0b1c8-light.svg" width="659" alt="Equation (F.10): E(-Y_p)^+\le\frac{h}{25e} \exp\!\left\{-25d+\frac{[-25\eta_p+(625/2)\xi^2]v}{h}\right\} \le\frac{h}{25e^{5/2}}&lt;h/300.\tag{F.10}">
 </picture>
 </p>
 
@@ -2820,9 +2820,9 @@ The parameter bounds imply $`d\ge3/50`$, the variance coefficient is at most $`-
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-76565e9c75f16064b9c7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-76565e9c75f16064b9c7-light.svg">
-  <img src="assets/math/display-76565e9c75f16064b9c7-light.svg" width="546" alt="Equation (F.11): \begin{aligned} E_Q[e^{pZ'+BV'}\mid z,v] &amp;\le e^{pz+prh}\{e^{Bdh+F_p(B)v}+Bh\,e^{\gamma_phv}/300\},\\ E_Q[e^{pZ'+4V'}\mid z,v] &amp;\le e^{pz+4v}(e^{4dh}+4h/300) \le e^{pz+4v+(73/75)h}. \end{aligned}\tag{F.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-76565e9c75f16064b9c7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-76565e9c75f16064b9c7-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-76565e9c75f16064b9c7-light.svg" width="546" alt="Equation (F.11): \begin{aligned} E_Q[e^{pZ'+BV'}\mid z,v] &amp;\le e^{pz+prh}\{e^{Bdh+F_p(B)v}+Bh\,e^{\gamma_phv}/300\},\\ E_Q[e^{pZ'+4V'}\mid z,v] &amp;\le e^{pz+4v}(e^{4dh}+4h/300) \le e^{pz+4v+(73/75)h}. \end{aligned}\tag{F.11}">
 </picture>
 </p>
 
@@ -2836,9 +2836,9 @@ For a finite partition $`I_r`$ of $`[0,\infty`$), retain the zero atom and the u
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7aff541dbc29d773f5fd-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7aff541dbc29d773f5fd-light.svg">
-  <img src="assets/math/display-7aff541dbc29d773f5fd-light.svg" width="700" alt="Equation (F.12): \pi_{jr}=Q(V_j\in I_r),\quad h_{jir}\ge\sup_{v\in I_r}|e^{-2v}D_{ji}(v)|^2,\quad |r_{ji}|^2\le K_j\sum_rh_{jir}\pi_{jr}=:\mathbf a_{ji}\cdot\pi_j.\tag{F.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7aff541dbc29d773f5fd-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7aff541dbc29d773f5fd-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7aff541dbc29d773f5fd-light.svg" width="700" alt="Equation (F.12): \pi_{jr}=Q(V_j\in I_r),\quad h_{jir}\ge\sup_{v\in I_r}|e^{-2v}D_{ji}(v)|^2,\quad |r_{ji}|^2\le K_j\sum_rh_{jir}\pi_{jr}=:\mathbf a_{ji}\cdot\pi_j.\tag{F.12}">
 </picture>
 </p>
 
@@ -2854,9 +2854,9 @@ Fix $`\theta_*=(\kappa,\bar v,\xi,\rho,v_0)=(3,9/200,23/100,-11/20,9/200)`$, $`j
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-bc7f8e6badd76cdba205-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-bc7f8e6badd76cdba205-light.svg">
-  <img src="assets/math/display-bc7f8e6badd76cdba205-light.svg" width="617" alt="Equation (F.13): I_0=\{0\},\quad I_r=((r-1)/100,r/100]\ (1\le r\le100), \quad I_{101}=(1,\infty).\tag{F.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bc7f8e6badd76cdba205-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bc7f8e6badd76cdba205-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bc7f8e6badd76cdba205-light.svg" width="617" alt="Equation (F.13): I_0=\{0\},\quad I_r=((r-1)/100,r/100]\ (1\le r\le100), \quad I_{101}=(1,\infty).\tag{F.13}">
 </picture>
 </p>
 
@@ -2868,9 +2868,9 @@ For $`v>0`$ the next-step zero mass is $`\Phi(-(dh+\eta v)/(\xi\sqrt{hv}))`$; at
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-cadf93596f3489e8a2da-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-cadf93596f3489e8a2da-light.svg">
-  <img src="assets/math/display-cadf93596f3489e8a2da-light.svg" width="737" alt="Equation (F.14): EV_n\le\mu:=7/150,\qquad M_{n+1}\le e^{4dh}M_n^{\beta}+h/50,\qquad Ee^{4V_n}\le5/4,\quad Ee^{-tV_n}\ge e^{-t\mu}.\tag{F.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-cadf93596f3489e8a2da-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-cadf93596f3489e8a2da-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-cadf93596f3489e8a2da-light.svg" width="737" alt="Equation (F.14): EV_n\le\mu:=7/150,\qquad M_{n+1}\le e^{4dh}M_n^{\beta}+h/50,\qquad Ee^{4V_n}\le5/4,\quad Ee^{-tV_n}\ge e^{-t\mu}.\tag{F.14}">
 </picture>
 </p>
 
@@ -2884,9 +2884,9 @@ For $`t\in\mathcal T=\{1,4,16,64,256,(191/192)^2/[2(49/625)h]\}`$, define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-7c4ca5ff3147c6764644-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-7c4ca5ff3147c6764644-light.svg">
-  <img src="assets/math/display-7c4ca5ff3147c6764644-light.svg" width="630" alt="Equation (F.15): t_0=t,\quad t_{n+1}=\eta_*t_n-c_*t_n^2,\qquad L_{767}(t)=\exp\!\left[-d_*h\sum_{n=0}^{766}t_n-v_*t_{767}\right].\tag{F.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7c4ca5ff3147c6764644-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7c4ca5ff3147c6764644-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-7c4ca5ff3147c6764644-light.svg" width="630" alt="Equation (F.15): t_0=t,\quad t_{n+1}=\eta_*t_n-c_*t_n^2,\qquad L_{767}(t)=\exp\!\left[-d_*h\sum_{n=0}^{766}t_n-v_*t_{767}\right].\tag{F.15}">
 </picture>
 </p>
 
@@ -2900,9 +2900,9 @@ The true terminal probability vector satisfies
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dd9b7c8f526f7e75da66-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dd9b7c8f526f7e75da66-light.svg">
-  <img src="assets/math/display-dd9b7c8f526f7e75da66-light.svg" width="606" alt="Equation (F.16): \begin{aligned} \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm ref}_{767}(t),&amp; \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm point}_{767}(t),\\ \sum_r\sup_{I_r}e^{-tv}\pi_r&amp;\ge e^{-t\mu},&amp; \sum_r\ell_r\pi_r&amp;\le\mu,\quad \sum_re^{4\ell_r}\pi_r\le5/4, \end{aligned}\tag{F.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dd9b7c8f526f7e75da66-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dd9b7c8f526f7e75da66-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dd9b7c8f526f7e75da66-light.svg" width="606" alt="Equation (F.16): \begin{aligned} \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm ref}_{767}(t),&amp; \sum_r\inf_{I_r}e^{-tv}\pi_r&amp;\le L^{\rm point}_{767}(t),\\ \sum_r\sup_{I_r}e^{-tv}\pi_r&amp;\ge e^{-t\mu},&amp; \sum_r\ell_r\pi_r&amp;\le\mu,\quad \sum_re^{4\ell_r}\pi_r\le5/4, \end{aligned}\tag{F.16}">
 </picture>
 </p>
 
@@ -2918,9 +2918,9 @@ At the final step the future variance exponent is zero, so its positive-part cor
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-48b4ee8de1c32e51a8dc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-48b4ee8de1c32e51a8dc-light.svg">
-  <img src="assets/math/display-48b4ee8de1c32e51a8dc-light.svg" width="821" alt="Equation (F.17): D_q(v)=e^{rqh+hgv}-e^{a(h)+B(h)v},\quad B'=g+LB+cB^2,\ B(0)=0,\qquad a(h)=rqh+d\int_0^hB(t)dt.\tag{F.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48b4ee8de1c32e51a8dc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48b4ee8de1c32e51a8dc-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-48b4ee8de1c32e51a8dc-light.svg" width="821" alt="Equation (F.17): D_q(v)=e^{rqh+hgv}-e^{a(h)+B(h)v},\quad B'=g+LB+cB^2,\ B(0)=0,\qquad a(h)=rqh+d\int_0^hB(t)dt.\tag{F.17}">
 </picture>
 </p>
 
@@ -2934,9 +2934,9 @@ Let $`P_3(t)=b_1t+b_2t^2+b_3t^3`$, where $`b_1=g`$, $`b_2=Lg/2`$, $`b_3=(L^2g+2c
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-d2573350d0bfe0101749-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-d2573350d0bfe0101749-light.svg">
-  <img src="assets/math/display-d2573350d0bfe0101749-light.svg" width="545" alt="Equation (F.18): E_B=\sum_{k=3}^6|r_k|_+\frac{h^{k+1}}{k+1},\qquad E_A=d\sum_{k=3}^6|r_k|_+\frac{h^{k+2}}{(k+1)(k+2)}.\tag{F.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d2573350d0bfe0101749-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d2573350d0bfe0101749-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d2573350d0bfe0101749-light.svg" width="545" alt="Equation (F.18): E_B=\sum_{k=3}^6|r_k|_+\frac{h^{k+1}}{k+1},\qquad E_A=d\sum_{k=3}^6|r_k|_+\frac{h^{k+2}}{(k+1)(k+2)}.\tag{F.18}">
 </picture>
 </p>
 
@@ -2948,9 +2948,9 @@ The notation $`|\cdot|_+`$ denotes a certified upper modulus. Set
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-3446ccb357072b0413cb-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-3446ccb357072b0413cb-light.svg">
-  <img src="assets/math/display-3446ccb357072b0413cb-light.svg" width="543" alt="Equation (F.19): \begin{aligned} A_q&amp;=\min\{|{-d\int_0^hP_3}|_++E_A,\ d|g|_+h^2/2\},\\ B_q&amp;=\min\{|hg-P_3(h)|_++E_B,\ (|L|_++\xi^2|g|_+h)|g|_+h^2/2\},\\ m_q&amp;=2-\max\{h\Re g,\min(0,\Re P_3(h)+E_B)\}&gt;0. \end{aligned}\tag{F.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3446ccb357072b0413cb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3446ccb357072b0413cb-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-3446ccb357072b0413cb-light.svg" width="543" alt="Equation (F.19): \begin{aligned} A_q&amp;=\min\{|{-d\int_0^hP_3}|_++E_A,\ d|g|_+h^2/2\},\\ B_q&amp;=\min\{|hg-P_3(h)|_++E_B,\ (|L|_++\xi^2|g|_+h)|g|_+h^2/2\},\\ m_q&amp;=2-\max\{h\Re g,\min(0,\Re P_3(h)+E_B)\}&gt;0. \end{aligned}\tag{F.19}">
 </picture>
 </p>
 
@@ -2962,9 +2962,9 @@ The exponential-difference integral formula, and the coarse modulus bound for th
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-78e6d3b2b5c610e2e8b9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-78e6d3b2b5c610e2e8b9-light.svg">
-  <img src="assets/math/display-78e6d3b2b5c610e2e8b9-light.svg" width="598" alt="Equation (F.20): \begin{gathered}|e^{-2v}D_q(v)|\le e^{prh}(A_q+B_qv)e^{-m_qv},\\ h_{qr}=\min\{[4e^{2prh-4\ell_r}]_+,[e^{2prh}S_{qr}^2]_+\},\quad S_{qr}=\sup_{v\in I_r}(A_q+B_qv)e^{-m_qv}.\end{gathered}\tag{F.20}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78e6d3b2b5c610e2e8b9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78e6d3b2b5c610e2e8b9-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-78e6d3b2b5c610e2e8b9-light.svg" width="598" alt="Equation (F.20): \begin{gathered}|e^{-2v}D_q(v)|\le e^{prh}(A_q+B_qv)e^{-m_qv},\\ h_{qr}=\min\{[4e^{2prh-4\ell_r}]_+,[e^{2prh}S_{qr}^2]_+\},\quad S_{qr}=\sup_{v\in I_r}(A_q+B_qv)e^{-m_qv}.\end{gathered}\tag{F.20}">
 </picture>
 </p>
 
@@ -2980,9 +2980,9 @@ Suppose the same finite mode catalog gives the complete discounted-price decompo
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-193b483067b81ad3df7d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-193b483067b81ad3df7d-light.svg">
-  <img src="assets/math/display-193b483067b81ad3df7d-light.svg" width="482" alt="Equation (F.21): e_k=p_{h,k}-p_{c,k}=\Re\sum_{j,i}c_{ki}r_{ji}+R_k,\qquad |R_k|\le\varrho_k.\tag{F.21}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-193b483067b81ad3df7d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-193b483067b81ad3df7d-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-193b483067b81ad3df7d-light.svg" width="482" alt="Equation (F.21): e_k=p_{h,k}-p_{c,k}=\Re\sum_{j,i}c_{ki}r_{ji}+R_k,\qquad |R_k|\le\varrho_k.\tag{F.21}">
 </picture>
 </p>
 
@@ -2994,9 +2994,9 @@ The coefficients and the remainder bounds must include all required conversion, 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-2de65e61c8d75cd4357c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-2de65e61c8d75cd4357c-light.svg">
-  <img src="assets/math/display-2de65e61c8d75cd4357c-light.svg" width="582" alt="Equation (F.22): \mathcal E=\left\{\left(\Re\sum_{j,i}c_{ki}z_{ji}\right)_k: \Pi\in\mathcal F,\ |z_{ji}|^2\le\mathbf a_{ji}\cdot\pi_j\right\} +\prod_k[-\varrho_k,\varrho_k].\tag{F.22}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2de65e61c8d75cd4357c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2de65e61c8d75cd4357c-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-2de65e61c8d75cd4357c-light.svg" width="582" alt="Equation (F.22): \mathcal E=\left\{\left(\Re\sum_{j,i}c_{ki}z_{ji}\right)_k: \Pi\in\mathcal F,\ |z_{ji}|^2\le\mathbf a_{ji}\cdot\pi_j\right\} +\prod_k[-\varrho_k,\varrho_k].\tag{F.22}">
 </picture>
 </p>
 
@@ -3008,9 +3008,9 @@ The coefficients and the remainder bounds must include all required conversion, 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-60ca071ed7d5daa27046-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-60ca071ed7d5daa27046-light.svg">
-  <img src="assets/math/display-60ca071ed7d5daa27046-light.svg" width="475" alt="Equation (F.23): s_{\mathcal E}(w)=\max_{\Pi\in\mathcal F}\sum_{j,i} \left|\sum_kw_kc_{ki}\right|\sqrt{\mathbf a_{ji}\cdot\pi_j} +\sum_k|w_k|\varrho_k.\tag{F.23}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-60ca071ed7d5daa27046-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-60ca071ed7d5daa27046-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-60ca071ed7d5daa27046-light.svg" width="475" alt="Equation (F.23): s_{\mathcal E}(w)=\max_{\Pi\in\mathcal F}\sum_{j,i} \left|\sum_kw_kc_{ki}\right|\sqrt{\mathbf a_{ji}\cdot\pi_j} +\sum_k|w_k|\varrho_k.\tag{F.23}">
 </picture>
 </p>
 
@@ -3024,9 +3024,9 @@ Put $`F_k(\Pi)=\sum_{j,i}|c_{ki}|\sqrt{\mathbf a_{ji}\cdot\pi_j}`$, $`m_k=\max_{
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-bcbbe5160386972915fe-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-bcbbe5160386972915fe-light.svg">
-  <img src="assets/math/display-bcbbe5160386972915fe-light.svg" width="604" alt="Equation (F.24): \begin{aligned} s_{\mathcal B}(w)-s_{\mathcal E}(w) =\min_{\Pi\in\mathcal F}\Big\{ &amp;\sum_k|w_k|[m_k-F_k(\Pi)]\\ &amp;+\sum_{j,i}\big[\sum_k|w_kc_{ki}|-|\sum_kw_kc_{ki}|\big] \sqrt{\mathbf a_{ji}\cdot\pi_j}\Big\}. \end{aligned}\tag{F.24}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bcbbe5160386972915fe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bcbbe5160386972915fe-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-bcbbe5160386972915fe-light.svg" width="604" alt="Equation (F.24): \begin{aligned} s_{\mathcal B}(w)-s_{\mathcal E}(w) =\min_{\Pi\in\mathcal F}\Big\{ &amp;\sum_k|w_k|[m_k-F_k(\Pi)]\\ &amp;+\sum_{j,i}\big[\sum_k|w_kc_{ki}|-|\sum_kw_kc_{ki}|\big] \sqrt{\mathbf a_{ji}\cdot\pi_j}\Big\}. \end{aligned}\tag{F.24}">
 </picture>
 </p>
 
@@ -3044,9 +3044,9 @@ After conjugate reduction, the complete terminal rows are
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f61ca1de6935ce524e37-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f61ca1de6935ce524e37-light.svg">
-  <img src="assets/math/display-f61ca1de6935ce524e37-light.svg" width="600" alt="Equation (F.25): \begin{gathered}F_A(\pi)=C_A\sqrt{K_{767}}\sqrt{a\cdot\pi},\quad C_A&gt;0,\\ F_P(\pi)=\frac{1600e^{-.01}}{\pi_{\rm circ}}\sqrt{K_{767}} \sum_{\omega=8,24,\ldots,120} \frac{\sqrt{d_\omega\cdot\pi}} {\sqrt{(\omega^2+1/16)(\omega^2+25/16)}}.\end{gathered}\tag{F.25}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f61ca1de6935ce524e37-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f61ca1de6935ce524e37-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f61ca1de6935ce524e37-light.svg" width="600" alt="Equation (F.25): \begin{gathered}F_A(\pi)=C_A\sqrt{K_{767}}\sqrt{a\cdot\pi},\quad C_A&gt;0,\\ F_P(\pi)=\frac{1600e^{-.01}}{\pi_{\rm circ}}\sqrt{K_{767}} \sum_{\omega=8,24,\ldots,120} \frac{\sqrt{d_\omega\cdot\pi}} {\sqrt{(\omega^2+1/16)(\omega^2+25/16)}}.\end{gathered}\tag{F.25}">
 </picture>
 </p>
 
@@ -3060,9 +3060,9 @@ The exact Asian primal and dual satisfy $`\pi^A\ge0`$, $`A\pi^A\le b`$, $`y\ge0`
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-669af1c92f914e6607e6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-669af1c92f914e6607e6-light.svg">
-  <img src="assets/math/display-669af1c92f914e6607e6-light.svg" width="583" alt="Equation (F.26): \pi^A_{S}=A_{J,S}^{-1}b_J,\quad \pi^A_{S^c}=0,\qquad \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}&gt;0.\tag{F.26}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-669af1c92f914e6607e6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-669af1c92f914e6607e6-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-669af1c92f914e6607e6-light.svg" width="583" alt="Equation (F.26): \pi^A_{S}=A_{J,S}^{-1}b_J,\quad \pi^A_{S^c}=0,\qquad \det A_{J,S}\ne0,\qquad (A^Ty-a)_{S^c}&gt;0.\tag{F.26}">
 </picture>
 </p>
 
@@ -3076,9 +3076,9 @@ The same polytope contains an exact $`\pi^B`$ supported on $`\{5,6\}`$. Let $`D_
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-073b04e232b09ed56a14-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-073b04e232b09ed56a14-light.svg">
-  <img src="assets/math/display-073b04e232b09ed56a14-light.svg" width="674" alt="Equation (F.27): \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0} =\sum_\omega\frac{d_\omega\cdot(\pi^B-\pi^A)}{2\sqrt{D_\omega x_\omega}} \in[L,U],\qquad L&gt;3\cdot10^{-9}.\tag{F.27}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-073b04e232b09ed56a14-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-073b04e232b09ed56a14-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-073b04e232b09ed56a14-light.svg" width="674" alt="Equation (F.27): \left.\frac d{dt}\mathscr B((1-t)\pi^A+t\pi^B)\right|_{t=0} =\sum_\omega\frac{d_\omega\cdot(\pi^B-\pi^A)}{2\sqrt{D_\omega x_\omega}} \in[L,U],\qquad L&gt;3\cdot10^{-9}.\tag{F.27}">
 </picture>
 </p>
 
@@ -3090,9 +3090,9 @@ The exact rational $`L,U`$ are the `put_direction.derivative` endpoints in `term
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-a402bbe401a59c923bbe-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-a402bbe401a59c923bbe-light.svg">
-  <img src="assets/math/display-a402bbe401a59c923bbe-light.svg" width="726" alt="Equation (F.28): g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)&gt;0, \qquad s_{\mathcal B_{767}}(w)-s_{\mathcal E_{767}}(w)\ge g^{\rm row}_{767}&gt;0.\tag{F.28}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a402bbe401a59c923bbe-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a402bbe401a59c923bbe-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-a402bbe401a59c923bbe-light.svg" width="726" alt="Equation (F.28): g^{\rm row}_{767}=\max F_A+\max F_P-\max(F_A+F_P)&gt;0, \qquad s_{\mathcal B_{767}}(w)-s_{\mathcal E_{767}}(w)\ge g^{\rm row}_{767}&gt;0.\tag{F.28}">
 </picture>
 </p>
 
@@ -3110,9 +3110,9 @@ For compact valid sets $`e=p_h-p_c\in\mathcal E`$ and $`n=p_h-\widehat p_h\in\ma
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-0aff32d9b7231c920382-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-0aff32d9b7231c920382-light.svg">
-  <img src="assets/math/display-0aff32d9b7231c920382-light.svg" width="563" alt="Equation (F.29): \begin{aligned} w^Tp_h-s_{\mathcal E}(w)&amp;\le w^Tp_c\le w^Tp_h+s_{\mathcal E}(-w),\\ w^T\widehat p_h-s_{\mathcal N}(-w)-s_{\mathcal E}(w) &amp;\le w^Tp_c\le w^T\widehat p_h+s_{\mathcal N}(w)+s_{\mathcal E}(-w). \end{aligned}\tag{F.29}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0aff32d9b7231c920382-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0aff32d9b7231c920382-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-0aff32d9b7231c920382-light.svg" width="563" alt="Equation (F.29): \begin{aligned} w^Tp_h-s_{\mathcal E}(w)&amp;\le w^Tp_c\le w^Tp_h+s_{\mathcal E}(-w),\\ w^T\widehat p_h-s_{\mathcal N}(-w)-s_{\mathcal E}(w) &amp;\le w^Tp_c\le w^T\widehat p_h+s_{\mathcal N}(w)+s_{\mathcal E}(-w). \end{aligned}\tag{F.29}">
 </picture>
 </p>
 
@@ -3124,9 +3124,9 @@ If the actual $`(n,e)`$ belongs to a common compact $`\mathcal K`$, replace the 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-dbb3bec4cee530afb27e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-dbb3bec4cee530afb27e-light.svg">
-  <img src="assets/math/display-dbb3bec4cee530afb27e-light.svg" width="423" alt="Equation (F.30): \begin{aligned} \mathcal T_\theta&amp;=\{(n,e)\in\mathcal K_\theta: \widehat p_{h,\rm cal}+n_{\rm cal}-e_{\rm cal}\in\mathcal Y\},\\ \mathcal A_\theta&amp;=\{\widehat p_{h,10}+n_{10}-e_{10}:(n,e)\in\mathcal T_\theta\}. \end{aligned}\tag{F.30}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dbb3bec4cee530afb27e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dbb3bec4cee530afb27e-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-dbb3bec4cee530afb27e-light.svg" width="423" alt="Equation (F.30): \begin{aligned} \mathcal T_\theta&amp;=\{(n,e)\in\mathcal K_\theta: \widehat p_{h,\rm cal}+n_{\rm cal}-e_{\rm cal}\in\mathcal Y\},\\ \mathcal A_\theta&amp;=\{\widehat p_{h,10}+n_{10}-e_{10}:(n,e)\in\mathcal T_\theta\}. \end{aligned}\tag{F.30}">
 </picture>
 </p>
 
@@ -3146,9 +3146,9 @@ Use the original laws $`P,Q`$, parameters, and correlated positive-part update o
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-af6cc76eadff53ad5629-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-af6cc76eadff53ad5629-light.svg">
-  <img src="assets/math/display-af6cc76eadff53ad5629-light.svg" width="508" alt="Equation (G.1): \mathcal L=rs\partial_s+(d-\kappa v)\partial_v +\tfrac12vs^2\partial_{ss}+\rho\xi vs\partial_{sv} +\tfrac12\xi^2v\partial_{vv}.\tag{G.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af6cc76eadff53ad5629-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af6cc76eadff53ad5629-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-af6cc76eadff53ad5629-light.svg" width="508" alt="Equation (G.1): \mathcal L=rs\partial_s+(d-\kappa v)\partial_v +\tfrac12vs^2\partial_{ss}+\rho\xi vs\partial_{sv} +\tfrac12\xi^2v\partial_{vv}.\tag{G.1}">
 </picture>
 </p>
 
@@ -3160,9 +3160,9 @@ Choose one fixed nonnegative weight for the entire horizon, for example
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-11b766105de9536e9e88-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-11b766105de9536e9e88-light.svg">
-  <img src="assets/math/display-11b766105de9536e9e88-light.svg" width="751" alt="Equation (G.2): \begin{aligned} W&amp;=e^v\{s^{-1/2}+e^{-\ell_m/24}s^{-(12-m)/24}\},\\ W^{\rm nat}&amp;=e^v\{\mathfrak B_m^{-1/2}+\mathfrak G_m^{-1/2}\},\qquad \mathfrak B_m=(A_m+(12-m)s)/12,\quad \mathfrak G_m=e^{\ell_m/12}s^{(12-m)/12}. \end{aligned}\tag{G.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-11b766105de9536e9e88-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-11b766105de9536e9e88-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-11b766105de9536e9e88-light.svg" width="751" alt="Equation (G.2): \begin{aligned} W&amp;=e^v\{s^{-1/2}+e^{-\ell_m/24}s^{-(12-m)/24}\},\\ W^{\rm nat}&amp;=e^v\{\mathfrak B_m^{-1/2}+\mathfrak G_m^{-1/2}\},\qquad \mathfrak B_m=(A_m+(12-m)s)/12,\quad \mathfrak G_m=e^{\ell_m/12}s^{(12-m)/12}. \end{aligned}\tag{G.2}">
 </picture>
 </p>
 
@@ -3176,9 +3176,9 @@ Both weights match exactly across the fixing map. Since the arithmetic mean is a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-1122872b4997e8e409a6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-1122872b4997e8e409a6-light.svg">
-  <img src="assets/math/display-1122872b4997e8e409a6-light.svg" width="714" alt="Equation (G.3): \sup_tE_PW(t,X_t)&lt;5/2,\qquad \max_jE_QW(t_j,X_j)&lt;5/2, \qquad \sup_{\tau\le1}E_PW(\tau,X_\tau)^2&lt;\infty.\tag{G.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1122872b4997e8e409a6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1122872b4997e8e409a6-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-1122872b4997e8e409a6-light.svg" width="714" alt="Equation (G.3): \sup_tE_PW(t,X_t)&lt;5/2,\qquad \max_jE_QW(t_j,X_j)&lt;5/2, \qquad \sup_{\tau\le1}E_PW(\tau,X_\tau)^2&lt;\infty.\tag{G.3}">
 </picture>
 </p>
 
@@ -3194,9 +3194,9 @@ Let $`R`$ be the same terminal payoff, or the same exact finite conversion remai
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-594fca905c014eadea00-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-594fca905c014eadea00-light.svg">
-  <img src="assets/math/display-594fca905c014eadea00-light.svg" width="632" alt="Equation (G.4): \begin{aligned} |\widetilde u|&amp;\le CW,&amp; |\mathfrak r(t,x)|&amp;\le\eta_c(t)W(t,x),&amp; \int_0^1\eta_c(t)dt&amp;&lt;\infty,\\ |d_i(x)|&amp;\le\eta_iW(t_i-,x),&amp; |\delta(x)|&amp;\le\eta_TW(1,x),&amp; C,\eta_i,\eta_T&amp;&lt;\infty. \end{aligned}\tag{G.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-594fca905c014eadea00-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-594fca905c014eadea00-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-594fca905c014eadea00-light.svg" width="632" alt="Equation (G.4): \begin{aligned} |\widetilde u|&amp;\le CW,&amp; |\mathfrak r(t,x)|&amp;\le\eta_c(t)W(t,x),&amp; \int_0^1\eta_c(t)dt&amp;&lt;\infty,\\ |d_i(x)|&amp;\le\eta_iW(t_i-,x),&amp; |\delta(x)|&amp;\le\eta_TW(1,x),&amp; C,\eta_i,\eta_T&amp;&lt;\infty. \end{aligned}\tag{G.4}">
 </picture>
 </p>
 
@@ -3208,9 +3208,9 @@ Domination includes all states, $`v=0`$, and the unbounded tail. Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c178a212edcdc881e768-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c178a212edcdc881e768-light.svg">
-  <img src="assets/math/display-c178a212edcdc881e768-light.svg" width="470" alt="Equation (G.5): \begin{aligned} \mathscr D_j&amp;=Q_j\widetilde u_{j+1}-\widetilde u_j,&amp; \mathfrak r&amp;=(\partial_t+\mathcal L)\widetilde u,\\ d_i(x)&amp;=\widetilde u(t_i-,x)-\widetilde u(t_i+,J_ix),&amp; \delta&amp;=R-\widetilde u_N. \end{aligned}\tag{G.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c178a212edcdc881e768-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c178a212edcdc881e768-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c178a212edcdc881e768-light.svg" width="470" alt="Equation (G.5): \begin{aligned} \mathscr D_j&amp;=Q_j\widetilde u_{j+1}-\widetilde u_j,&amp; \mathfrak r&amp;=(\partial_t+\mathcal L)\widetilde u,\\ d_i(x)&amp;=\widetilde u(t_i-,x)-\widetilde u(t_i+,J_ix),&amp; \delta&amp;=R-\widetilde u_N. \end{aligned}\tag{G.5}">
 </picture>
 </p>
 
@@ -3228,9 +3228,9 @@ An exact future-value field belongs to this class after its regularity and domin
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-6445139172e62b9888a2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-6445139172e62b9888a2-light.svg">
-  <img src="assets/math/display-6445139172e62b9888a2-light.svg" width="647" alt="Equation (G.6): \boxed{E_QR-E_PR= \sum_jE_Q\mathscr D_j-E_P\int_0^1\mathfrak r(t,X_t)dt +\sum_iE_Pd_i+(E_Q-E_P)\delta.}\tag{G.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6445139172e62b9888a2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6445139172e62b9888a2-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-6445139172e62b9888a2-light.svg" width="647" alt="Equation (G.6): \boxed{E_QR-E_PR= \sum_jE_Q\mathscr D_j-E_P\int_0^1\mathfrak r(t,X_t)dt +\sum_iE_Pd_i+(E_Q-E_P)\delta.}\tag{G.6}">
 </picture>
 </p>
 
@@ -3242,9 +3242,9 @@ An exact future-value field belongs to this class after its regularity and domin
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-03fe8a123b7f315f0fb0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-03fe8a123b7f315f0fb0-light.svg">
-  <img src="assets/math/display-03fe8a123b7f315f0fb0-light.svg" width="273" alt="Equation (G.7): E_Q\widetilde u_N-\widetilde u_0=\sum_jE_Q\mathscr D_j.\tag{G.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-03fe8a123b7f315f0fb0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-03fe8a123b7f315f0fb0-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-03fe8a123b7f315f0fb0-light.svg" width="273" alt="Equation (G.7): E_Q\widetilde u_N-\widetilde u_0=\sum_jE_Q\mathscr D_j.\tag{G.7}">
 </picture>
 </p>
 
@@ -3256,9 +3256,9 @@ For $`P`$, localize in compact state domains, on closed subintervals away from f
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-06dd93c3081facc55951-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-06dd93c3081facc55951-light.svg">
-  <img src="assets/math/display-06dd93c3081facc55951-light.svg" width="418" alt="Equation (G.8): E_P\widetilde u_N-\widetilde u_0 =E_P\int_0^1\mathfrak r(t,X_t)dt-\sum_iE_Pd_i.\tag{G.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06dd93c3081facc55951-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06dd93c3081facc55951-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-06dd93c3081facc55951-light.svg" width="418" alt="Equation (G.8): E_P\widetilde u_N-\widetilde u_0 =E_P\int_0^1\mathfrak r(t,X_t)dt-\sum_iE_Pd_i.\tag{G.8}">
 </picture>
 </p>
 
@@ -3276,9 +3276,9 @@ At $`\theta_*`$, (G.6) and the moment lemma imply
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-476da896da405a933e22-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-476da896da405a933e22-light.svg">
-  <img src="assets/math/display-476da896da405a933e22-light.svg" width="696" alt="Equation (G.9): \begin{aligned} |E_QR-E_PR|&amp;\le\max(|L_Q|,|U_Q|) +\tfrac52\left(\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T,\\ |E_QR-E_PR|&amp;\le\tfrac52\left(h\sum_j\eta_{Q,j} +\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T \quad\text{if }|\mathscr D_j|\le h\eta_{Q,j}W. \end{aligned}\tag{G.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-476da896da405a933e22-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-476da896da405a933e22-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-476da896da405a933e22-light.svg" width="696" alt="Equation (G.9): \begin{aligned} |E_QR-E_PR|&amp;\le\max(|L_Q|,|U_Q|) +\tfrac52\left(\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T,\\ |E_QR-E_PR|&amp;\le\tfrac52\left(h\sum_j\eta_{Q,j} +\int_0^1\eta_c(t)dt+\sum_i\eta_i\right)+5\eta_T \quad\text{if }|\mathscr D_j|\le h\eta_{Q,j}W. \end{aligned}\tag{G.9}">
 </picture>
 </p>
 
@@ -3294,9 +3294,9 @@ Fix $`T=1`$, $`\varepsilon>0`$, and $`R=s_T^{-1/2}`$. Consider
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-d7f4ab5a88be214d65a6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-d7f4ab5a88be214d65a6-light.svg">
-  <img src="assets/math/display-d7f4ab5a88be214d65a6-light.svg" width="677" alt="Equation (G.10): a_\varepsilon(t)=1+\varepsilon t(1-t),\qquad \widetilde u_\varepsilon(t,x)=a_\varepsilon(t)s^{-1/2},\qquad 1\le a_\varepsilon\le C_\varepsilon:=1+\varepsilon/4.\tag{G.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d7f4ab5a88be214d65a6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d7f4ab5a88be214d65a6-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-d7f4ab5a88be214d65a6-light.svg" width="677" alt="Equation (G.10): a_\varepsilon(t)=1+\varepsilon t(1-t),\qquad \widetilde u_\varepsilon(t,x)=a_\varepsilon(t)s^{-1/2},\qquad 1\le a_\varepsilon\le C_\varepsilon:=1+\varepsilon/4.\tag{G.10}">
 </picture>
 </p>
 
@@ -3308,9 +3308,9 @@ Use $`W_A=s^{-1/2}e^v`$, which is a single branch of the preceding weight proof.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-f2629f3ad7d91b9f91e6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-f2629f3ad7d91b9f91e6-light.svg">
-  <img src="assets/math/display-f2629f3ad7d91b9f91e6-light.svg" width="417" alt="Equation (G.11): \mathfrak r_\varepsilon=s^{-1/2} \{\varepsilon(1-2t)+a_\varepsilon(t)(3v/8-r/2)\}.\tag{G.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f2629f3ad7d91b9f91e6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f2629f3ad7d91b9f91e6-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-f2629f3ad7d91b9f91e6-light.svg" width="417" alt="Equation (G.11): \mathfrak r_\varepsilon=s^{-1/2} \{\varepsilon(1-2t)+a_\varepsilon(t)(3v/8-r/2)\}.\tag{G.11}">
 </picture>
 </p>
 
@@ -3322,9 +3322,9 @@ Because $`ve^{-v}\le1/e`$, a global dominating function, constant in time, is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-c780b7ec2419e9872684-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-c780b7ec2419e9872684-light.svg">
-  <img src="assets/math/display-c780b7ec2419e9872684-light.svg" width="637" alt="Equation (G.12): \eta_c=\varepsilon+C_\varepsilon(r/2+3/(8e)),\qquad \int_0^1\eta_c(t)dt=\eta_c&lt;\infty,\qquad \eta_i=\eta_T=0.\tag{G.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c780b7ec2419e9872684-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c780b7ec2419e9872684-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-c780b7ec2419e9872684-light.svg" width="637" alt="Equation (G.12): \eta_c=\varepsilon+C_\varepsilon(r/2+3/(8e)),\qquad \int_0^1\eta_c(t)dt=\eta_c&lt;\infty,\qquad \eta_i=\eta_T=0.\tag{G.12}">
 </picture>
 </p>
 
@@ -3336,9 +3336,9 @@ The original stock Gaussian integral is exact even though the stock and variance
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-b2635da50e5278fb5e12-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-b2635da50e5278fb5e12-light.svg">
-  <img src="assets/math/display-b2635da50e5278fb5e12-light.svg" width="521" alt="Equation (G.13): \begin{gathered}\mathscr D_j=s^{-1/2}\{a_\varepsilon(t_{j+1})e^{h(3v/8-r/2)}-a_\varepsilon(t_j)\},\\ |\mathscr D_j|\le h\eta_QW_A,\quad \eta_Q=\varepsilon+C_\varepsilon\{r/2+3/[8e(1-3h/8)]\}.\end{gathered}\tag{G.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b2635da50e5278fb5e12-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b2635da50e5278fb5e12-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-b2635da50e5278fb5e12-light.svg" width="521" alt="Equation (G.13): \begin{gathered}\mathscr D_j=s^{-1/2}\{a_\varepsilon(t_{j+1})e^{h(3v/8-r/2)}-a_\varepsilon(t_j)\},\\ |\mathscr D_j|\le h\eta_QW_A,\quad \eta_Q=\varepsilon+C_\varepsilon\{r/2+3/[8e(1-3h/8)]\}.\end{gathered}\tag{G.13}">
 </picture>
 </p>
 
@@ -3356,9 +3356,9 @@ The saved classical trial-field diagnostic has a distinct, conditional role. Wit
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-825f29aea17c32695cca-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-825f29aea17c32695cca-light.svg">
-  <img src="assets/math/display-825f29aea17c32695cca-light.svg" width="542" alt="Equation (G.14): \begin{aligned} \mathcal L_qP={}&amp;-ry\beta P_y+dP_v-qr\beta P\\ &amp;+v\{\tfrac12y^2\beta^2P_{yy}-\rho\xi y\beta P_{yv} +\tfrac12\xi^2P_{vv}+(1+q)y\beta^2P_y\\ &amp;\hspace{12mm}-(\kappa+q\rho\xi\beta)P_v+\tfrac12q(q+1)\beta^2P\}. \end{aligned}\tag{G.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-825f29aea17c32695cca-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-825f29aea17c32695cca-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-825f29aea17c32695cca-light.svg" width="542" alt="Equation (G.14): \begin{aligned} \mathcal L_qP={}&amp;-ry\beta P_y+dP_v-qr\beta P\\ &amp;+v\{\tfrac12y^2\beta^2P_{yy}-\rho\xi y\beta P_{yv} +\tfrac12\xi^2P_{vv}+(1+q)y\beta^2P_y\\ &amp;\hspace{12mm}-(\kappa+q\rho\xi\beta)P_v+\tfrac12q(q+1)\beta^2P\}. \end{aligned}\tag{G.14}">
 </picture>
 </p>
 
@@ -3370,9 +3370,9 @@ The basis consists of $`\phi_{ij}=\beta y^iz^j`$, $`0\le i\le2,0\le j\le3`$, and
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-9c4386fc84362e1a577a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-9c4386fc84362e1a577a-light.svg">
-  <img src="assets/math/display-9c4386fc84362e1a577a-light.svg" width="457" alt="Equation (G.15): (T_nc)_{\ell j}=\gamma\sum_{i=\ell}^2\binom i\ell\gamma^\ell n^{-i+\ell}c_{ij}, \qquad T_n\psi=\gamma^2\psi.\tag{G.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9c4386fc84362e1a577a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9c4386fc84362e1a577a-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-9c4386fc84362e1a577a-light.svg" width="457" alt="Equation (G.15): (T_nc)_{\ell j}=\gamma\sum_{i=\ell}^2\binom i\ell\gamma^\ell n^{-i+\ell}c_{ij}, \qquad T_n\psi=\gamma^2\psi.\tag{G.15}">
 </picture>
 </p>
 
@@ -3386,9 +3386,9 @@ For the saved first-month state $`m=0,y=0,v=9/200`$, let $`w=(1,z,z^2,z^3,0,\ldo
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-853a49384bc0e9edffcf-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-853a49384bc0e9edffcf-light.svg">
-  <img src="assets/math/display-853a49384bc0e9edffcf-light.svg" width="532" alt="Equation (G.16): \int F_{A,q}dt= \left[w+\frac{h^2}{12}\ell K\right](c_R-c_L) +\frac h2\ell(c_L+c_R)+h\ell_0.\tag{G.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-853a49384bc0e9edffcf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-853a49384bc0e9edffcf-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-853a49384bc0e9edffcf-light.svg" width="532" alt="Equation (G.16): \int F_{A,q}dt= \left[w+\frac{h^2}{12}\ell K\right](c_R-c_L) +\frac h2\ell(c_L+c_R)+h\ell_0.\tag{G.16}">
 </picture>
 </p>
 
@@ -3400,9 +3400,9 @@ Indeed $`\int c(t)dt=h(c_L+c_R)/2+h^2(s_L-s_R)/12`$, and $`s_L-s_R=K(c_R-c_L)`$.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/display-02cec3367ad13fce2464-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/display-02cec3367ad13fce2464-light.svg">
-  <img src="assets/math/display-02cec3367ad13fce2464-light.svg" width="534" alt="Equation (G.17): \int_0^{1/12}\eta_c(t)dt\ge L_*,\qquad L_*&gt;0.003407444052031154&gt;0.\tag{G.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02cec3367ad13fce2464-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02cec3367ad13fce2464-light.svg">
+  <img src="https://raw.githubusercontent.com/130U/certified-rough-heston-valuation/9751c85e4690dca60044c901e38d0f6c8f3cd919/assets/math/display-02cec3367ad13fce2464-light.svg" width="534" alt="Equation (G.17): \int_0^{1/12}\eta_c(t)dt\ge L_*,\qquad L_*&gt;0.003407444052031154&gt;0.\tag{G.17}">
 </picture>
 </p>
 

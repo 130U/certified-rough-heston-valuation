@@ -1,6 +1,6 @@
 # Verification commands
 
-Each code-block line is a complete, copyable command. All paths below are relative to the root of the extracted complete evidence archive.
+Each code-block line is a complete, copyable command. Paths are relative to the project root. Full scientific checks require the complete numerical banks retained in the author's local evidence archive.
 
 ## Source identities
 
@@ -8,7 +8,7 @@ Each code-block line is a complete, copyable command. All paths below are relati
 python -B verify_source.py
 ```
 
-This checks publication-source identities. It does not execute the numerical banks. The source archive omits 27 large banks; complete scientific commands require the separately downloadable [evidence archive](https://github.com/130U/certified-rough-heston-valuation/releases/download/paper/Theodore-Ouyang-Heston-Evidence.zip).
+This checks the public source identities. It does not execute the numerical banks. The public checkout omits 27 large banks; the complete scientific commands below require the author's complete local evidence copy.
 
 ## Complete scientific check
 

@@ -705,7 +705,7 @@ H2扩至H3同时改变中心绝对值支出与付清后的参考半径；H3至H4
 
 证书采用所列模型、仿射变换、合法参考轨迹和向外包络；实验曲线的随机模型合法性见附录A。结构定理限定于所列狭窄参数域。未解决区间、失败预算和报价不兼容与成功证书一并报告。
 
-论文与证据统一提供于[公开发布](https://github.com/130U/certified-rough-heston-valuation/releases/tag/paper)。下载并解压 `Theodore-Ouyang-Heston-Evidence.zip`，在解压目录运行 `python reproduce.py --full`。源码位于 `science/`；数值库随证据归档提供，GitHub自动源码归档不含这些库。`python verify_source.py` 检查公开源码哈希。
+[在线论文](https://github.com/130U/certified-rough-heston-valuation/blob/paper/ARTICLE.md)、科学源码和验证程序见本仓库。完整数值库保留在作者本地证据归档中；`python reproduce.py --full` 需要这些数值库，仅凭公开仓库无法完整重放保存的证据。源码位于 `science/`，`python verify_source.py` 检查公开源码哈希。
 
 表E.6、E.7和E.10列出生成命令、读取命令、重算范围及共享依赖。`--full`读取所列银行、重建下游价格和目标，并增加完整结构覆盖检查；连续残差重生成使用专门命令。保存的导数界及共用严格原语仍是读取器的输入。所报告验收由作者执行。
 
@@ -2344,7 +2344,7 @@ L_*>0.003407444052031154>0.\tag{G.17}
 
 ## 附录 H. 研究时间线
 
-研究开展于2023至2024年，主要文章于2024年写成。部分收尾工作于2026年完成，论文与代码于同年上传GitHub。
+研究始于2023年下半年，主要写作在2024年上半年完成。部分收尾工作于2026年完成，论文与代码于同年上传GitHub。
 
 ## 参考文献
 

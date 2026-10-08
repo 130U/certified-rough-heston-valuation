@@ -716,7 +716,7 @@ The fixed refinement menu terminates reliably when the complete task radius meet
 
 The certificate uses the stated model, affine transform, regular reference and outward enclosures. Appendix A establishes stochastic admissibility for the experimental curve. The structural theorem covers its narrow parameter domain. Unresolved intervals, failed budgets and quote incompatibilities are reported alongside successful certificates.
 
-The [paper and evidence](https://github.com/130U/certified-rough-heston-valuation/releases/tag/paper) are supplied together. Download and extract `Theodore-Ouyang-Heston-Evidence.zip`, then run `python reproduce.py --full` in the extracted directory. The source is under `science/`; numerical banks are included in the evidence archive rather than GitHub's automatic source archive. `python verify_source.py` checks the published source hashes.
+The [online paper](https://github.com/130U/certified-rough-heston-valuation/blob/paper/ARTICLE.md), scientific source and verification procedures are available in this repository. The complete numerical banks are retained in the author's local evidence archive. `python reproduce.py --full` requires those banks; the public checkout alone does not provide a complete saved-bank replay. The source is under `science/`, and `python verify_source.py` checks the published source hashes.
 
 Tables E.6, E.7 and E.10 list the generation commands, reading commands, recomputation scope and shared dependencies. `--full` reads the specified banks, reconstructs downstream prices and objectives, and additionally checks the original structural cover. Continuous residual regeneration has separate commands. Saved derivative bounds and common rigorous primitives remain inputs to the readers. The reported acceptance runs were performed by the author.
 
@@ -2358,7 +2358,7 @@ The files in `science/baseline/reference/code/classical/` are `field-cell-integr
 
 ## Appendix H. Research timeline
 
-The research was carried out in 2023–2024, with the main articles written in 2024. Some final work was completed in 2026, when the paper and code were uploaded to GitHub.
+Research began in the second half of 2023, and the main writing took place in the first half of 2024. Final work was completed in 2026, when the paper and code were uploaded to GitHub.
 
 ## References
 

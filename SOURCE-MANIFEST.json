@@ -13,6 +13,36 @@
       "sha256": "ccc21d919d119fbc2398bf722dd6b9aeff07dc578ded72df6b6612765e311400"
     },
     {
+      "path": "ARTICLE.md",
+      "bytes": 185231,
+      "sha256": "2342fc11cdc78d8dac1565a08ad39991e616caa42d291cb54a8eb9d9bee832b0"
+    },
+    {
+      "path": "COMMANDS.md",
+      "bytes": 5025,
+      "sha256": "cffc4021b6e626b59373275c8036d1054aad370609bc7383af32a69e1b97a5c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3070,
+      "sha256": "802544d2d642fd8a6c0878866430d932540ac1237c8e7bd9046bb185d8f818ae"
+    },
+    {
+      "path": "RENDERING.md",
+      "bytes": 1390,
+      "sha256": "cea7d16a6349ea9fa0c2c09fbbda39aae6412143513debc2d361152bbf3dd1d6"
+    },
+    {
+      "path": "SCIENTIFIC-CHECK.json",
+      "bytes": 2916,
+      "sha256": "8b88a83a9b755ad1ac071aee689890a8fa49a9f82c6d736b00d9fe510e46a156"
+    },
+    {
+      "path": "SCIENTIFIC-MANIFEST.json",
+      "bytes": 65774,
+      "sha256": "0af1e5e5abd818a9fa4cbeb266a867fd43b127f998e19b46c3d8f280c61b09de"
+    },
+    {
       "path": "audit-experiments/plot_budget_counts.py",
       "bytes": 4451,
       "sha256": "b446ecf8fe8058fd409c16319068faa7bfdc9c0f58aff611388e40ad5f8660b4"
@@ -38,9 +68,19 @@
       "sha256": "2c6af880039475cbaa002bbaa7408d86f75ff977bf6a53231280a97883252ca8"
     },
     {
-      "path": "COMMANDS.md",
-      "bytes": 5221,
-      "sha256": "362f97a3e4fec46b6aab1469f01771b45ad189246fb88691004d088a428f9ff2"
+      "path": "local-fonts/DejaVu-LICENSE.txt",
+      "bytes": 8817,
+      "sha256": "b2be899f9dd286da6715a2ac74c36011d8a76511e75ef71aa8920ac7bc8457fc"
+    },
+    {
+      "path": "local-fonts/DejaVuSans.ttf",
+      "bytes": 756072,
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    {
+      "path": "local-fonts/DejaVuSerif.ttf",
+      "bytes": 379740,
+      "sha256": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa"
     },
     {
       "path": "local-fonts/cm-super/COPYING",
@@ -163,54 +203,19 @@
       "sha256": "4cb1a499fede8a234ad9a0b377a2f45530bbca1ada3dd7a0ac827336a866c6a1"
     },
     {
-      "path": "local-fonts/DejaVu-LICENSE.txt",
-      "bytes": 8817,
-      "sha256": "b2be899f9dd286da6715a2ac74c36011d8a76511e75ef71aa8920ac7bc8457fc"
-    },
-    {
-      "path": "local-fonts/DejaVuSans.ttf",
-      "bytes": 756072,
-      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
-    },
-    {
-      "path": "local-fonts/DejaVuSerif.ttf",
-      "bytes": 379740,
-      "sha256": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa"
-    },
-    {
       "path": "manuscript/author.json",
       "bytes": 441,
       "sha256": "f9d4c0e793c97969890e63b32f72247d68aa20241ab7776bd87bd24f47ed6ca5"
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 184603,
-      "sha256": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
+      "bytes": 182257,
+      "sha256": "ff70d342c1015811166968cb9216c31c39028e22907e88ecfb23590c118d513c"
     },
     {
       "path": "manuscript/merged-heston-zh.md",
-      "bytes": 155055,
-      "sha256": "e7bdad2b0cc4d5c199cb17bc614c772af6dde25d1bd4ebe148455d3b3649da7f"
-    },
-    {
-      "path": "paper/Theodore-Ouyang-Certified-Joint-Heston-EN.pdf",
-      "bytes": 8234082,
-      "sha256": "a1c78529d92ca5e524f1decfde9b393cdf9dbdc9501bb4455407278db1585556"
-    },
-    {
-      "path": "paper/Theodore-Ouyang-Certified-Joint-Heston-ZH.pdf",
-      "bytes": 8372570,
-      "sha256": "534fa688e0132a5435e593e12e6996b1e2ec47cc194250eb0ca77db2e7079774"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2023,
-      "sha256": "9d14b58da8a3ad729751bc59cfeeabba68b35adfb17dabb76a6139616978e10c"
-    },
-    {
-      "path": "RENDERING.md",
-      "bytes": 1390,
-      "sha256": "cea7d16a6349ea9fa0c2c09fbbda39aae6412143513debc2d361152bbf3dd1d6"
+      "bytes": 152672,
+      "sha256": "78fea9b8344b3901d359f85c5bb9e48c813f19dfcfd8dd6e30fc3db39f914214"
     },
     {
       "path": "reproduce.py",
@@ -381,6 +386,11 @@
       "path": "science/analysis/verify_extensions.py",
       "bytes": 483,
       "sha256": "093a6031e77df6051bfbf3ffc159cb3e450ea6a60b59debae9420d039c4b8cce"
+    },
+    {
+      "path": "science/baseline/FRONTIER-MANIFEST.json",
+      "bytes": 34653,
+      "sha256": "30bdb62b40fc2a1544b51877d6a660506c917f2b111612a0cbb5293db1471b03"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
@@ -938,9 +948,24 @@
       "sha256": "a06bde364488c942a275df6e3cea146f80d4ed26bd27ce8a333959a208dbf545"
     },
     {
-      "path": "science/baseline/FRONTIER-MANIFEST.json",
-      "bytes": 34653,
-      "sha256": "30bdb62b40fc2a1544b51877d6a660506c917f2b111612a0cbb5293db1471b03"
+      "path": "science/baseline/reference/code/MANIFEST.json",
+      "bytes": 13308,
+      "sha256": "cdeb49df0a11bc006068fcec92cfbd81358f93a3ec145c3af8e4ce6d02116f87"
+    },
+    {
+      "path": "science/baseline/reference/code/PROVENANCE.json",
+      "bytes": 27231,
+      "sha256": "722c51758a06273f7c0fa1b5b9f915ceca0ba9600f4e14ceeccd63f976b61d08"
+    },
+    {
+      "path": "science/baseline/reference/code/QA-summary.json",
+      "bytes": 3099,
+      "sha256": "ec6b5cc1073ba471414812de58efa16aa80648de0be11259ebcaaafb39788c91"
+    },
+    {
+      "path": "science/baseline/reference/code/classical/MANIFEST.json",
+      "bytes": 1932,
+      "sha256": "5d382fbd3246e076b21376f3abde88540a4e6a2fbaaf139e38f4e638606a9f46"
     },
     {
       "path": "science/baseline/reference/code/classical/field-cell-integrals.json",
@@ -966,11 +991,6 @@
       "path": "science/baseline/reference/code/classical/input-validation.json",
       "bytes": 622,
       "sha256": "aaa7597d6b58f8fb58adf467fb299f4a83b62ac27cb727fd0d3f0a4621b35b38"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/MANIFEST.json",
-      "bytes": 1932,
-      "sha256": "5d382fbd3246e076b21376f3abde88540a4e6a2fbaaf139e38f4e638606a9f46"
     },
     {
       "path": "science/baseline/reference/code/classical/model_bounds.py",
@@ -1173,21 +1193,6 @@
       "sha256": "30a4c201e4229d218f00107e311aa20852bf5f0b334845e21e7bd4ebe53e1e97"
     },
     {
-      "path": "science/baseline/reference/code/MANIFEST.json",
-      "bytes": 13308,
-      "sha256": "cdeb49df0a11bc006068fcec92cfbd81358f93a3ec145c3af8e4ce6d02116f87"
-    },
-    {
-      "path": "science/baseline/reference/code/PROVENANCE.json",
-      "bytes": 27231,
-      "sha256": "722c51758a06273f7c0fa1b5b9f915ceca0ba9600f4e14ceeccd63f976b61d08"
-    },
-    {
-      "path": "science/baseline/reference/code/QA-summary.json",
-      "bytes": 3099,
-      "sha256": "ec6b5cc1073ba471414812de58efa16aa80648de0be11259ebcaaafb39788c91"
-    },
-    {
       "path": "science/baseline/reference/code/replay-semantic-check.py",
       "bytes": 3061,
       "sha256": "2065efcb30448043ae0e870045ef144b318fec6d39c7140f9c0ab74a15101bdb"
@@ -1291,71 +1296,6 @@
       "path": "science/baseline/reference/code/src/solver-diagnostic.py",
       "bytes": 6659,
       "sha256": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb"
-    },
-    {
-      "path": "science/experiments/add_actual_output_controls.py",
-      "bytes": 2601,
-      "sha256": "35a09ecbc9fa1b5af18afd2b01015941aa981d74f703af980236fe396626e9c2"
-    },
-    {
-      "path": "science/experiments/dependency-provenance-initial.json",
-      "bytes": 3634,
-      "sha256": "6f6a9c5bc47435d8c8dd65726a09e1409d4da512336f33f1c35ed7aa1fcc05b3"
-    },
-    {
-      "path": "science/experiments/dependency-provenance.json",
-      "bytes": 3634,
-      "sha256": "6f6a9c5bc47435d8c8dd65726a09e1409d4da512336f33f1c35ed7aa1fcc05b3"
-    },
-    {
-      "path": "science/experiments/experiment-paper-summary.json",
-      "bytes": 749,
-      "sha256": "47a008876a39c65a770ba31ea6ca672e9616072090df274cb49fecee675f76dc"
-    },
-    {
-      "path": "science/experiments/local128/candidate-13_25.json",
-      "bytes": 5278861,
-      "sha256": "b5ddd6dfe8cfbfa433cb9b84653f1e1c3186b9e1cd9b64f88bec39582a50305f"
-    },
-    {
-      "path": "science/experiments/local128/contract.json",
-      "bytes": 907,
-      "sha256": "77ea8f6cb05b2fa8c363deedd796a9a7f22e1cb840054a9354d12d0f848e830e"
-    },
-    {
-      "path": "science/experiments/local128/independent.json",
-      "bytes": 698,
-      "sha256": "3bab7616fd07831ac31329f95416aae6c1d738d86a121c54eba544dbae0f23b3"
-    },
-    {
-      "path": "science/experiments/local128/weights-and-envelopes.json",
-      "bytes": 3183339,
-      "sha256": "40ad139eaa0816738dfbbbd861e33937694ce697bf57dbcaebb9c242bd3fb0f1"
-    },
-    {
-      "path": "science/experiments/local_output_controls.py",
-      "bytes": 6492,
-      "sha256": "b93825b5af7af4d62c63bf82b46f4bde32a1a926453bb96b7d7e6c16b5023238"
-    },
-    {
-      "path": "science/experiments/local_output_independent.py",
-      "bytes": 6181,
-      "sha256": "1ea3024d31ca7d22941b488c3a1490c17cfc5d93fea854d436c5c27f12ece2a4"
-    },
-    {
-      "path": "science/experiments/modern-adams-contract.json",
-      "bytes": 791,
-      "sha256": "de2c2e75718d262a2720175bf572a48983ecada8f0d5ec4d6a68a66ec2b97b9d"
-    },
-    {
-      "path": "science/experiments/modern-adams-outputs.json",
-      "bytes": 2733,
-      "sha256": "838761fd5c888a6d242bdaced28b9f780dd687c8362349d7c6ae4e6b5e623423"
-    },
-    {
-      "path": "science/experiments/modern_adams_comparison.py",
-      "bytes": 5443,
-      "sha256": "e89d8c8837627c5755a2d251e2b30c7e40e1e120be9824506353c27e0927c0a5"
     },
     {
       "path": "science/experiments/N1024/candidate-11_20.json",
@@ -1583,6 +1523,71 @@
       "sha256": "b44f73c55d6a8d1e2f8a82fbfe8d940123eee048938c30108ced74b73f4029e5"
     },
     {
+      "path": "science/experiments/add_actual_output_controls.py",
+      "bytes": 2601,
+      "sha256": "35a09ecbc9fa1b5af18afd2b01015941aa981d74f703af980236fe396626e9c2"
+    },
+    {
+      "path": "science/experiments/dependency-provenance-initial.json",
+      "bytes": 3634,
+      "sha256": "6f6a9c5bc47435d8c8dd65726a09e1409d4da512336f33f1c35ed7aa1fcc05b3"
+    },
+    {
+      "path": "science/experiments/dependency-provenance.json",
+      "bytes": 3634,
+      "sha256": "6f6a9c5bc47435d8c8dd65726a09e1409d4da512336f33f1c35ed7aa1fcc05b3"
+    },
+    {
+      "path": "science/experiments/experiment-paper-summary.json",
+      "bytes": 749,
+      "sha256": "47a008876a39c65a770ba31ea6ca672e9616072090df274cb49fecee675f76dc"
+    },
+    {
+      "path": "science/experiments/local128/candidate-13_25.json",
+      "bytes": 5278861,
+      "sha256": "b5ddd6dfe8cfbfa433cb9b84653f1e1c3186b9e1cd9b64f88bec39582a50305f"
+    },
+    {
+      "path": "science/experiments/local128/contract.json",
+      "bytes": 907,
+      "sha256": "77ea8f6cb05b2fa8c363deedd796a9a7f22e1cb840054a9354d12d0f848e830e"
+    },
+    {
+      "path": "science/experiments/local128/independent.json",
+      "bytes": 698,
+      "sha256": "3bab7616fd07831ac31329f95416aae6c1d738d86a121c54eba544dbae0f23b3"
+    },
+    {
+      "path": "science/experiments/local128/weights-and-envelopes.json",
+      "bytes": 3183339,
+      "sha256": "40ad139eaa0816738dfbbbd861e33937694ce697bf57dbcaebb9c242bd3fb0f1"
+    },
+    {
+      "path": "science/experiments/local_output_controls.py",
+      "bytes": 6492,
+      "sha256": "b93825b5af7af4d62c63bf82b46f4bde32a1a926453bb96b7d7e6c16b5023238"
+    },
+    {
+      "path": "science/experiments/local_output_independent.py",
+      "bytes": 6181,
+      "sha256": "1ea3024d31ca7d22941b488c3a1490c17cfc5d93fea854d436c5c27f12ece2a4"
+    },
+    {
+      "path": "science/experiments/modern-adams-contract.json",
+      "bytes": 791,
+      "sha256": "de2c2e75718d262a2720175bf572a48983ecada8f0d5ec4d6a68a66ec2b97b9d"
+    },
+    {
+      "path": "science/experiments/modern-adams-outputs.json",
+      "bytes": 2733,
+      "sha256": "838761fd5c888a6d242bdaced28b9f780dd687c8362349d7c6ae4e6b5e623423"
+    },
+    {
+      "path": "science/experiments/modern_adams_comparison.py",
+      "bytes": 5443,
+      "sha256": "e89d8c8837627c5755a2d251e2b30c7e40e1e120be9824506353c27e0927c0a5"
+    },
+    {
       "path": "science/experiments/nearby-contract-execution.json",
       "bytes": 2677,
       "sha256": "fc2ea9536d219d71fd6437e89ac8f822d3227868e4e2fc549a06e8b4c217c37d"
@@ -1698,21 +1703,6 @@
       "sha256": "cca8886c7ac9ab1b5fafe13d6ddd749488b4ab0a6edff42e594eb4177ba7a696"
     },
     {
-      "path": "science/experiments/workload-controls-independent-N1024.json",
-      "bytes": 601,
-      "sha256": "48ca590b017b74d4d3761cc4a9c825cd85aca7b41d3688b5640c89ab3c9c460b"
-    },
-    {
-      "path": "science/experiments/workload-controls-independent-N2048-local128.json",
-      "bytes": 601,
-      "sha256": "3aea38c391aadae095168b32cad03bb96e9825099b3928b7c9d04367627894f1"
-    },
-    {
-      "path": "science/experiments/workload-controls-independent-N2048.json",
-      "bytes": 601,
-      "sha256": "13570d1bcb5d4b4ca09632b2ea43d9775e3b33e5d779835144a63bc3bfee35b0"
-    },
-    {
       "path": "science/experiments/workload-controls-N1024.json",
       "bytes": 30574,
       "sha256": "4eaff6d812c16370258332ae42f5e68844d2246b2860865d5a0baa9d51b1de81"
@@ -1726,6 +1716,21 @@
       "path": "science/experiments/workload-controls-N2048.json",
       "bytes": 30577,
       "sha256": "d2d5aec9d05c67b19ee42843e0573a7a7f79e2303c2c11cab8216d8bea64c996"
+    },
+    {
+      "path": "science/experiments/workload-controls-independent-N1024.json",
+      "bytes": 601,
+      "sha256": "48ca590b017b74d4d3761cc4a9c825cd85aca7b41d3688b5640c89ab3c9c460b"
+    },
+    {
+      "path": "science/experiments/workload-controls-independent-N2048-local128.json",
+      "bytes": 601,
+      "sha256": "3aea38c391aadae095168b32cad03bb96e9825099b3928b7c9d04367627894f1"
+    },
+    {
+      "path": "science/experiments/workload-controls-independent-N2048.json",
+      "bytes": 601,
+      "sha256": "13570d1bcb5d4b4ca09632b2ea43d9775e3b33e5d779835144a63bc3bfee35b0"
     },
     {
       "path": "science/experiments/workload_and_output_controls.py",
@@ -1813,16 +1818,6 @@
       "sha256": "05b37a769bf27058c464800f56c7ac3e1cf2c9b15989e4f0dafc518d1d8ac4b8"
     },
     {
-      "path": "SCIENTIFIC-CHECK.json",
-      "bytes": 2513,
-      "sha256": "4940b169747b2fb0c1ffb8a652238e3b47d3f13cf806ea8091a885b0c061a93b"
-    },
-    {
-      "path": "SCIENTIFIC-MANIFEST.json",
-      "bytes": 67515,
-      "sha256": "819a1c36b3b4c0c6f5b16796f4fc76635494573ba885b52a1add425f5852a369"
-    },
-    {
       "path": "scripts/build_pdf.py",
       "bytes": 29434,
       "sha256": "86a3e640a1255d97fee31d59a31bbbb59311183da46d8e66169759918527c47b"
@@ -1848,7 +1843,8 @@
       "sha256": "44952bffd739eb20a4f73096d3ac49112f1930fc8e5f35177c81fd575671b726"
     }
   ],
-  "release_only": [
+  "scope": "Public manuscript and source identities. Complete numerical banks are retained by the author; current public files do not include the full paper PDFs or those banks.",
+  "author_retained_banks": [
     {
       "path": "science/baseline/finite-history/time-residual-alpha-13_25.npz",
       "bytes": 32251218,
@@ -1984,6 +1980,5 @@
       "bytes": 16067990,
       "sha256": "1e38f46ec7bf78c59abf3bf5a27978126c3b1bdd60d080965244e959adb1ab7e"
     }
-  ],
-  "scope": "Source and paper identities. The complete evidence archive adds the identified numerical banks under the same root layout."
+  ]
 }

@@ -57,5 +57,7 @@
       "status": "PASS",
       "source_sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
     }
-  ]
+  ],
+  "public_manifest_note": "The scientific_manifest_sha256 above identifies the complete evidence copy used for the recorded author-side checks. The current public manifest updates only the English manuscript identity for timeline and delivery prose; mathematical inputs, scientific code and bank identities are unchanged. No new numerical run is claimed.",
+  "public_scientific_manifest_sha256": "0af1e5e5abd818a9fa4cbeb266a867fd43b127f998e19b46c3d8f280c61b09de"
 }

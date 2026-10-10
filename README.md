@@ -21,24 +21,26 @@ Both certificates use the same stored output, reference centre, 1,025 node radii
 
 The bounds concern numerical error relative to the specified model price. An unresolved budget does not establish that the actual error exceeds it.
 
-## Reconstruct the published results
+## Verify the published inputs
 
 The public repository and the [paper snapshot](https://github.com/130U/certified-rough-heston-valuation/tree/paper) include **all 27 numerical banks**, alongside the manuscript, scientific source and exact ledgers. [SCIENTIFIC-MANIFEST.json](SCIENTIFIC-MANIFEST.json) fixes their paths, byte sizes and SHA-256 hashes.
 
-Clone the paper snapshot, verify its inputs, install the pinned dependency and run the reconstruction from the repository root. On Windows, choose a short parent path: the driver creates a nested working copy.
+Clone the paper snapshot and verify its inputs from the repository root:
 
 ```text
 git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git rough-heston
 cd rough-heston
 python -X utf8 -B verify_source.py
 python -X utf8 -B reproduce.py --manifest-only
-python -m pip install -r requirements.txt
-python -X utf8 -B reproduce.py --full
 ```
 
-The first two Python commands check public-file and scientific-input identities. The final command reads the published banks, rebuilds downstream prices, objectives and certificate decisions, and recomputes the original structural-sign cover in an isolated working copy. It checks the input identities again before reporting `PASS_SAVED_BANK_AND_DOWNSTREAM_RECONSTRUCTION` and writes its step results to `SCIENTIFIC-REPLAY.json`.
+These commands check public-file and scientific-input identities, including all numerical banks. They do not execute the scientific calculations.
 
-For downstream reconstruction without the full structural-sign cover, run `python -X utf8 -B reproduce.py`. Fresh continuous-residual generation has separate commands in [COMMANDS.md](COMMANDS.md). Both reconstruction modes retain the identified arithmetic primitives and saved residual-generator bounds as dependencies; they do not regenerate every continuous derivative. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) specifies what each check recomputes and inherits. The paper's recorded acceptance runs were performed by the author.
+**Reconstruction status.** The current public inputs pass both root identity checks, but `reproduce.py --full` stops at the English-manuscript SHA-256 check in [the classical reference manifest](science/baseline/reference/code/classical/MANIFEST.json), which still identifies a different manuscript version. The complete driver has not passed on this public snapshot.
+
+The reconstruction driver is designed to read the banks and rebuild downstream prices, objectives and certificate decisions in an isolated working copy; `--full` also recomputes the original structural-sign cover. It records its steps in `SCIENTIFIC-REPLAY.json`. [COMMANDS.md](COMMANDS.md) gives the pinned dependency installation, reconstruction entry points and separate continuous-residual generation commands. On Windows, use a short checkout path for the nested working copy.
+
+Both reconstruction modes retain the identified arithmetic primitives and saved residual-generator bounds as dependencies; they do not regenerate every continuous derivative. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) specifies what each check recomputes and inherits. The paper's recorded acceptance runs were performed by the author.
 
 ## The proof and its applications
 
@@ -61,7 +63,7 @@ The five-point objective ranking establishes a finite-set comparison. Every cand
 <details>
 <summary>中文简介</summary>
 
-本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个数值银行已完整公开，可从公开快照校验输入并重建下游结果。连续残差重新生成的命令及各项检查的依赖见验证文档。
+本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个数值银行已完整公开，公开文件与科学输入身份校验通过。完整重建驱动目前仍受旧英文稿哈希失配阻塞；连续残差重新生成的命令及各项检查的依赖见验证文档。
 
 </details>
 

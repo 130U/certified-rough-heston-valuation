@@ -41,7 +41,7 @@ The five-point objective ranking establishes a finite-set comparison. Every cand
 
 ## Read and verify the evidence
 
-The public checkout contains the manuscript, scientific source, smaller ledgers and verification procedures. **The 27 complete numerical banks are retained in the author's local evidence archive.** Full saved-bank reconstruction requires those banks.
+The public checkout includes **all 27 complete numerical banks**, alongside the manuscript, scientific source, exact ledgers and verification procedures. Their paths, byte sizes and SHA-256 hashes are fixed in [SCIENTIFIC-MANIFEST.json](SCIENTIFIC-MANIFEST.json).
 
 To check the public identities, select the certified [paper release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/paper) and run from its root:
 
@@ -49,16 +49,17 @@ To check the public identities, select the certified [paper release](https://git
 git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git
 cd certified-rough-heston-valuation
 python -B verify_source.py
+python -B reproduce.py --manifest-only
 ```
 
-This verifies file identities. [COMMANDS.md](COMMANDS.md) separates saved-bank readers, downstream reconstruction and continuous-generation commands, with their input requirements. `reproduce.py --full` reads identified banks, rebuilds downstream results and also recomputes the original structural-sign cover; continuous residual derivatives have separate generation commands.
+These commands verify the public-file and scientific-input identities. [COMMANDS.md](COMMANDS.md) separates saved-bank readers, downstream reconstruction and continuous-generation commands. `reproduce.py --full` reads the published banks, rebuilds downstream results and also recomputes the original structural-sign cover; continuous residual derivatives have separate generation commands.
 
 The acceptance checks are author-side records. Readers share identified arithmetic primitives and residual-generator bounds. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) documents what each check recomputes and inherits.
 
 <details>
 <summary>中文简介</summary>
 
-本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；完整数值银行保存在作者的本地证据档案中。
+本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个完整数值银行已随仓库公开，文件身份由清单固定。
 
 </details>
 

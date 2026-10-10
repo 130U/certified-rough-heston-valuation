@@ -58,6 +58,6 @@
       "source_sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
     }
   ],
-  "public_manifest_note": "The scientific_manifest_sha256 above identifies the evidence copy used for the recorded author-side checks. The current public manifest includes the English manuscript timeline and delivery prose, and neutral descriptions of the propagation reader in its source and saved record. Only descriptive text and current file identities have changed; numerical inputs, algorithms, results and original execution hashes are retained. No new numerical run is claimed.",
-  "public_scientific_manifest_sha256": "3dd8ffc6200f813bddae3a7cb7f4b7359bbf24f93a59fd726f4d2a53dc7e2c4e"
+  "public_manifest_note": "The scientific_manifest_sha256 above identifies the evidence copy used for the recorded author-side checks. All 27 numerical banks are now included in the public checkout with their recorded identities. The current public manifest identifies the English manuscript delivery and timeline prose, and neutral descriptions of the propagation reader in its source and saved record. Numerical inputs, algorithms, results and original execution hashes are unchanged. This publication does not claim a new numerical run.",
+  "public_scientific_manifest_sha256": "a775679c219ed06e5d0e3a9904666139498c7103e4cdd2311fdf8a9dddc3ead2"
 }

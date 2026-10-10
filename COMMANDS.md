@@ -1,6 +1,6 @@
 # Verification commands
 
-Each code-block line is a complete, copyable command. Paths are relative to the project root. Full scientific checks require the complete numerical banks retained in the author's local evidence archive.
+Each code-block line is a complete, copyable command. Paths are relative to the project root. All 27 complete numerical banks are included in the public checkout.
 
 ## Source identities
 
@@ -8,7 +8,7 @@ Each code-block line is a complete, copyable command. Paths are relative to the 
 python -B verify_source.py
 ```
 
-This checks the public source identities. It does not execute the numerical banks. The public checkout omits 27 large banks; the complete scientific commands below require the author's complete local evidence copy.
+This checks the published file identities, including the numerical banks. It does not execute the scientific calculations.
 
 ## Complete scientific check
 

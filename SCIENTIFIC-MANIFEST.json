@@ -1729,8 +1729,8 @@
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 182262,
-      "sha256": "f43cd1b986b31771c0614dd2684337d58794e293f9f4554d49252a01107cb2ab"
+      "bytes": 182233,
+      "sha256": "8e964145f915f881e57569c8f563276b218227ffa9e548a49e8883c82ed13e03"
     },
     {
       "path": "audit-experiments/portfolio-pass-counts.png",

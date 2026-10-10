@@ -14,23 +14,23 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 316503,
-      "sha256": "cefd814d0369c628a563f9bc9b39c43e967577fffb5b104b85018b087bf8d148"
+      "bytes": 316474,
+      "sha256": "6b78e0a98175715464d437b7316d89eb1dd99dc80ec39c8b50ca826e6e660df1"
     },
     {
       "path": "COMMANDS.md",
-      "bytes": 5025,
-      "sha256": "cffc4021b6e626b59373275c8036d1054aad370609bc7383af32a69e1b97a5c5"
+      "bytes": 4893,
+      "sha256": "76ac25ebf07e3318c5a81f0e50279ccf4ff3d1eeb54df804a921a1bb1935b360"
     },
     {
       "path": "EVIDENCE.md",
-      "bytes": 2477,
-      "sha256": "96ff9674fb870c190d9f591c09331f5c45a29bc00ac7b36cbac98eded42eb1fc"
+      "bytes": 2883,
+      "sha256": "0b1cf412e37deb22f244d2d353be126e9bffa3b1c33d60defe40fc69701551a5"
     },
     {
       "path": "README.md",
-      "bytes": 5727,
-      "sha256": "61afd5aaf18c3120a7d33009d0729de2da8b0e8cc546667bebb153236b696766"
+      "bytes": 5806,
+      "sha256": "f18cbdaa81712b14219c973411d126fc9bbe15a441be758aedb8f86ca519eded"
     },
     {
       "path": "RENDERING.md",
@@ -39,13 +39,13 @@
     },
     {
       "path": "SCIENTIFIC-CHECK.json",
-      "bytes": 3047,
-      "sha256": "5150a29db51934d61364ebff79717db5d246e67bfec746fd807fdcebcb89f633"
+      "bytes": 3164,
+      "sha256": "fc03f2b4a4272d2d83bb47427ba9ae355a28957bd53a66854aa352ea273f799d"
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",
-      "bytes": 65774,
-      "sha256": "3dd8ffc6200f813bddae3a7cb7f4b7359bbf24f93a59fd726f4d2a53dc7e2c4e"
+      "bytes": 67515,
+      "sha256": "a775679c219ed06e5d0e3a9904666139498c7103e4cdd2311fdf8a9dddc3ead2"
     },
     {
       "path": "assets/math/display-00f24ea0b0789a71e956-dark.svg",
@@ -2104,18 +2104,18 @@
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 182262,
-      "sha256": "f43cd1b986b31771c0614dd2684337d58794e293f9f4554d49252a01107cb2ab"
+      "bytes": 182233,
+      "sha256": "8e964145f915f881e57569c8f563276b218227ffa9e548a49e8883c82ed13e03"
     },
     {
       "path": "manuscript/merged-heston-zh.md",
-      "bytes": 152672,
-      "sha256": "78fea9b8344b3901d359f85c5bb9e48c813f19dfcfd8dd6e30fc3db39f914214"
+      "bytes": 152664,
+      "sha256": "44bc95957a0d8475329d9a4adf9ef81491d5197696c90562ac22527eb1729fec"
     },
     {
       "path": "paper/paper.pdf",
-      "bytes": 8234095,
-      "sha256": "90f4dd67719cc5d1e419d216bb10115596dff8653ceb97825c5d5899662baf09"
+      "bytes": 8234100,
+      "sha256": "eb03c6ef97e3d5e2dd78b7344328e6d4130d3525a71d5850d04a40197b1d93b2"
     },
     {
       "path": "reproduce.py",
@@ -2603,6 +2603,11 @@
       "sha256": "45ca9692352c872cf18bdd6aaaeffc7331eb47636753fee830f42ad900446e37"
     },
     {
+      "path": "science/baseline/finite-history/time-residual-alpha-13_25.npz",
+      "bytes": 32251218,
+      "sha256": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de"
+    },
+    {
       "path": "science/baseline/finite-history/verify-finite-history-independent.py",
       "bytes": 11478,
       "sha256": "b16f8624c670fabec6a7010e82150e27659bae66c051b1f9a066ba0c33ae7453"
@@ -2701,6 +2706,16 @@
       "path": "science/baseline/frontier/omission-run.py",
       "bytes": 1299,
       "sha256": "aced27318ccc2096293661e721524d2622a2603dd5664419366323e8fe438af8"
+    },
+    {
+      "path": "science/baseline/frontier/omission-time-high.npz",
+      "bytes": 32125455,
+      "sha256": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db"
+    },
+    {
+      "path": "science/baseline/frontier/omission-time-preflight.npz",
+      "bytes": 253745,
+      "sha256": "0d3c00492e072df24718bc1a273f8107cb24219323b579404892aa48c56b52b7"
     },
     {
       "path": "science/baseline/frontier/omission-verification.json",
@@ -3023,6 +3038,11 @@
       "sha256": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b"
     },
     {
+      "path": "science/baseline/reference/code/frozen/fixed-field-betap52-u128.npz",
+      "bytes": 32146571,
+      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1"
+    },
+    {
       "path": "science/baseline/reference/code/frozen/fixed-field-betap6-u128-exponent-certificate.json",
       "bytes": 929758,
       "sha256": "d0e64310e7a2ee0b41ee9fc20cf1a0c182adf4664d71154e3330c234bcc75359"
@@ -3038,9 +3058,19 @@
       "sha256": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed"
     },
     {
+      "path": "science/baseline/reference/code/frozen/fixed-field-betap6-u128.npz",
+      "bytes": 32139003,
+      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467"
+    },
+    {
       "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u128.json",
       "bytes": 1381,
       "sha256": "39d283ce1fb1ead09a09bae9c7a41a1d52af27069d8638646ebd90ff9dce6780"
+    },
+    {
+      "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u128.npz",
+      "bytes": 32105032,
+      "sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02"
     },
     {
       "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u80-exponent-certificate.json",
@@ -3056,6 +3086,11 @@
       "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u80.json",
       "bytes": 1375,
       "sha256": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029"
+    },
+    {
+      "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u80.npz",
+      "bytes": 10050564,
+      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8"
     },
     {
       "path": "science/baseline/reference/code/frozen/frozen-field-input-validation.json",
@@ -3248,9 +3283,24 @@
       "sha256": "3271f9a31e4aaa4eebbcd5f67485f51a26c35b4739f67861d277f054461bddd0"
     },
     {
+      "path": "science/experiments/N1024/field-11_20-residual-cells.npz",
+      "bytes": 16053089,
+      "sha256": "426d6ef7558aabfe468b6c268e0051c68ecc5f13136b27cce81099ccd51a5d3d"
+    },
+    {
       "path": "science/experiments/N1024/field-11_20.json",
       "bytes": 288,
       "sha256": "3645c0da7b8fa3b53c59611974c58e176ba301f8961696ce4fe298e0a21d1fae"
+    },
+    {
+      "path": "science/experiments/N1024/field-11_20.npz",
+      "bytes": 8043514,
+      "sha256": "3c3608d2f8891317f383dc7bc8e17ca794a977632d47b47800ddd537b6b16cf2"
+    },
+    {
+      "path": "science/experiments/N1024/field-13_25-residual-cells.npz",
+      "bytes": 16060414,
+      "sha256": "a4b2cb7430cb4ac8bfa2dfbc649087d2019e8a3d9e807efb1fadb2d8b593143f"
     },
     {
       "path": "science/experiments/N1024/field-13_25.json",
@@ -3258,9 +3308,29 @@
       "sha256": "f4bcf29deba53c47c49a5f9134d0476760b38f05cc8d0b5cf956dbdda724c4d7"
     },
     {
+      "path": "science/experiments/N1024/field-13_25.npz",
+      "bytes": 8042509,
+      "sha256": "2384ff3b5b6bd907277c7ede0c4eb03c5c2db0863e800be06b4a97af92c08258"
+    },
+    {
+      "path": "science/experiments/N1024/field-21_40-residual-cells.npz",
+      "bytes": 16059155,
+      "sha256": "8f03da8ef3d6fc54bacae5a7c737f75d090f005ceea0ab85c9009085fa92f3ac"
+    },
+    {
       "path": "science/experiments/N1024/field-21_40.json",
       "bytes": 288,
       "sha256": "b5e9cfefc31e22241bdc24cbdf58475bd4539c4b91c0424c1a67f9dc8672f403"
+    },
+    {
+      "path": "science/experiments/N1024/field-21_40.npz",
+      "bytes": 8042693,
+      "sha256": "64389ecc070ac1703609e036079bae2e01dc4cecd33c3b1de56196562d04f175"
+    },
+    {
+      "path": "science/experiments/N1024/field-27_50-residual-cells.npz",
+      "bytes": 16055565,
+      "sha256": "4184d47a2c89643931cf42b0572eb17be403e01c3144bf50a039a6a92bb69d5e"
     },
     {
       "path": "science/experiments/N1024/field-27_50.json",
@@ -3268,9 +3338,24 @@
       "sha256": "1e051b9227ef5981d4510ef87b36cc80e2b969c85676c11cc3b5d3705696a310"
     },
     {
+      "path": "science/experiments/N1024/field-27_50.npz",
+      "bytes": 8043070,
+      "sha256": "bc5b522a13bb95b3734cfaca857f334262d1d7408a3350060794d5a433fe0754"
+    },
+    {
+      "path": "science/experiments/N1024/field-53_100-residual-cells.npz",
+      "bytes": 16058140,
+      "sha256": "2a63732ddb61b89eb30b5837aea0f39153ec8b7e73354f867a2b54e800452f59"
+    },
+    {
       "path": "science/experiments/N1024/field-53_100.json",
       "bytes": 289,
       "sha256": "d3cd23249db8adda73de9865b6217722043c26af8d2f7b4ebfd0a9010ad2ac1d"
+    },
+    {
+      "path": "science/experiments/N1024/field-53_100.npz",
+      "bytes": 8042748,
+      "sha256": "c40415ba5e2deb8131e67a2b37a28bc87a325aa5286a3215c7d21d26baeeee88"
     },
     {
       "path": "science/experiments/N1024/nearby-independent.json",
@@ -3358,9 +3443,24 @@
       "sha256": "00bcef75b69a394cb5a3c588eaa57c93df1c5da6214a66456f5d60a190e5440c"
     },
     {
+      "path": "science/experiments/N2048/field-11_20-residual-cells.npz",
+      "bytes": 32076999,
+      "sha256": "676c58bbc8f293069105e310e3de2fd9ae47784864e6dfcc3501f5ba7ca89711"
+    },
+    {
       "path": "science/experiments/N2048/field-11_20.json",
       "bytes": 288,
       "sha256": "f14b6ff25d31fbabc9d57cbeb59ab4461dcd29f7ab8cb197735cbca85cf5a0fd"
+    },
+    {
+      "path": "science/experiments/N2048/field-11_20.npz",
+      "bytes": 16068708,
+      "sha256": "ef439bb4ad4086296e565a4b247ae824e9bff5ba1f4d221872de7ff374abf393"
+    },
+    {
+      "path": "science/experiments/N2048/field-13_25-residual-cells.npz",
+      "bytes": 32086106,
+      "sha256": "68ab08fcfe72cdfeedc96ad5ac76b3700923cc447a836f17296736a41bd95c7b"
     },
     {
       "path": "science/experiments/N2048/field-13_25.json",
@@ -3368,9 +3468,29 @@
       "sha256": "a8b2a7beac5bfc623e2f499f92e539529d73b12d8b08b473dc638e3ee6b10fab"
     },
     {
+      "path": "science/experiments/N2048/field-13_25.npz",
+      "bytes": 16067555,
+      "sha256": "cc571645199d02c10ebc7c49775bfdfb8091035e7d303533cba15143ea0966d7"
+    },
+    {
+      "path": "science/experiments/N2048/field-21_40-residual-cells.npz",
+      "bytes": 32084581,
+      "sha256": "264c73536aad166fb334cc987c8c3c804339d6191b607cb0e8793519218fc415"
+    },
+    {
       "path": "science/experiments/N2048/field-21_40.json",
       "bytes": 288,
       "sha256": "cc294f0157d66e98f1bb2f15cec31fe97c144aad3baefffe571c860ea8e85f13"
+    },
+    {
+      "path": "science/experiments/N2048/field-21_40.npz",
+      "bytes": 16067547,
+      "sha256": "4ef4b2ed1bdc29725e3147586c8d0208961a72cd966dac5c81bc21289b8f1305"
+    },
+    {
+      "path": "science/experiments/N2048/field-27_50-residual-cells.npz",
+      "bytes": 32079372,
+      "sha256": "225bb60e35c8384a547a5554f92374dfe4a0e4d9661d2c92203f52aab0cffc13"
     },
     {
       "path": "science/experiments/N2048/field-27_50.json",
@@ -3378,9 +3498,24 @@
       "sha256": "83227963cb2e77bcaa092cd2cbeb8957ba6429f47aac3cc54d53ac6e932497f1"
     },
     {
+      "path": "science/experiments/N2048/field-27_50.npz",
+      "bytes": 16067962,
+      "sha256": "13eef3dd6a3677a1b389b8800fc9e534657af5cd84ed73c8def4320d7fab9e08"
+    },
+    {
+      "path": "science/experiments/N2048/field-53_100-residual-cells.npz",
+      "bytes": 32082230,
+      "sha256": "7946614eb61d8ae4b47efcfdb78295e34c074b45c93984648968eecb877b7dd2"
+    },
+    {
       "path": "science/experiments/N2048/field-53_100.json",
       "bytes": 289,
       "sha256": "4c25b23cb8c049177e594b8f4651953647c2b8265cb0b21f92b17df4d888453a"
+    },
+    {
+      "path": "science/experiments/N2048/field-53_100.npz",
+      "bytes": 16067990,
+      "sha256": "1e38f46ec7bf78c59abf3bf5a27978126c3b1bdd60d080965244e959adb1ab7e"
     },
     {
       "path": "science/experiments/N2048/nearby-independent.json",
@@ -3743,142 +3878,5 @@
       "sha256": "44952bffd739eb20a4f73096d3ac49112f1930fc8e5f35177c81fd575671b726"
     }
   ],
-  "scope": "Public manuscript and source identities. Complete numerical banks are retained by the author; current public files do not include the full paper PDFs or those banks.",
-  "author_retained_banks": [
-    {
-      "path": "science/baseline/finite-history/time-residual-alpha-13_25.npz",
-      "bytes": 32251218,
-      "sha256": "6a7bf494e1b08312be68a952351052a1b576e4b7d3a5cb3310f3851b441df3de"
-    },
-    {
-      "path": "science/baseline/frontier/omission-time-high.npz",
-      "bytes": 32125455,
-      "sha256": "21cab05c0199491f426264068184913c33fd2d08aa76abbe49876fd1b86369db"
-    },
-    {
-      "path": "science/baseline/frontier/omission-time-preflight.npz",
-      "bytes": 253745,
-      "sha256": "0d3c00492e072df24718bc1a273f8107cb24219323b579404892aa48c56b52b7"
-    },
-    {
-      "path": "science/baseline/reference/code/frozen/fixed-field-betap52-u128.npz",
-      "bytes": 32146571,
-      "sha256": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1"
-    },
-    {
-      "path": "science/baseline/reference/code/frozen/fixed-field-betap6-u128.npz",
-      "bytes": 32139003,
-      "sha256": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467"
-    },
-    {
-      "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u128.npz",
-      "bytes": 32105032,
-      "sha256": "231c850354f46274f8be36363fcdaa54d59cf00e49a17a953773e6cfba8e5e02"
-    },
-    {
-      "path": "science/baseline/reference/code/frozen/fixed-field-betap9-u80.npz",
-      "bytes": 10050564,
-      "sha256": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8"
-    },
-    {
-      "path": "science/experiments/N1024/field-11_20-residual-cells.npz",
-      "bytes": 16053089,
-      "sha256": "426d6ef7558aabfe468b6c268e0051c68ecc5f13136b27cce81099ccd51a5d3d"
-    },
-    {
-      "path": "science/experiments/N1024/field-11_20.npz",
-      "bytes": 8043514,
-      "sha256": "3c3608d2f8891317f383dc7bc8e17ca794a977632d47b47800ddd537b6b16cf2"
-    },
-    {
-      "path": "science/experiments/N1024/field-13_25-residual-cells.npz",
-      "bytes": 16060414,
-      "sha256": "a4b2cb7430cb4ac8bfa2dfbc649087d2019e8a3d9e807efb1fadb2d8b593143f"
-    },
-    {
-      "path": "science/experiments/N1024/field-13_25.npz",
-      "bytes": 8042509,
-      "sha256": "2384ff3b5b6bd907277c7ede0c4eb03c5c2db0863e800be06b4a97af92c08258"
-    },
-    {
-      "path": "science/experiments/N1024/field-21_40-residual-cells.npz",
-      "bytes": 16059155,
-      "sha256": "8f03da8ef3d6fc54bacae5a7c737f75d090f005ceea0ab85c9009085fa92f3ac"
-    },
-    {
-      "path": "science/experiments/N1024/field-21_40.npz",
-      "bytes": 8042693,
-      "sha256": "64389ecc070ac1703609e036079bae2e01dc4cecd33c3b1de56196562d04f175"
-    },
-    {
-      "path": "science/experiments/N1024/field-27_50-residual-cells.npz",
-      "bytes": 16055565,
-      "sha256": "4184d47a2c89643931cf42b0572eb17be403e01c3144bf50a039a6a92bb69d5e"
-    },
-    {
-      "path": "science/experiments/N1024/field-27_50.npz",
-      "bytes": 8043070,
-      "sha256": "bc5b522a13bb95b3734cfaca857f334262d1d7408a3350060794d5a433fe0754"
-    },
-    {
-      "path": "science/experiments/N1024/field-53_100-residual-cells.npz",
-      "bytes": 16058140,
-      "sha256": "2a63732ddb61b89eb30b5837aea0f39153ec8b7e73354f867a2b54e800452f59"
-    },
-    {
-      "path": "science/experiments/N1024/field-53_100.npz",
-      "bytes": 8042748,
-      "sha256": "c40415ba5e2deb8131e67a2b37a28bc87a325aa5286a3215c7d21d26baeeee88"
-    },
-    {
-      "path": "science/experiments/N2048/field-11_20-residual-cells.npz",
-      "bytes": 32076999,
-      "sha256": "676c58bbc8f293069105e310e3de2fd9ae47784864e6dfcc3501f5ba7ca89711"
-    },
-    {
-      "path": "science/experiments/N2048/field-11_20.npz",
-      "bytes": 16068708,
-      "sha256": "ef439bb4ad4086296e565a4b247ae824e9bff5ba1f4d221872de7ff374abf393"
-    },
-    {
-      "path": "science/experiments/N2048/field-13_25-residual-cells.npz",
-      "bytes": 32086106,
-      "sha256": "68ab08fcfe72cdfeedc96ad5ac76b3700923cc447a836f17296736a41bd95c7b"
-    },
-    {
-      "path": "science/experiments/N2048/field-13_25.npz",
-      "bytes": 16067555,
-      "sha256": "cc571645199d02c10ebc7c49775bfdfb8091035e7d303533cba15143ea0966d7"
-    },
-    {
-      "path": "science/experiments/N2048/field-21_40-residual-cells.npz",
-      "bytes": 32084581,
-      "sha256": "264c73536aad166fb334cc987c8c3c804339d6191b607cb0e8793519218fc415"
-    },
-    {
-      "path": "science/experiments/N2048/field-21_40.npz",
-      "bytes": 16067547,
-      "sha256": "4ef4b2ed1bdc29725e3147586c8d0208961a72cd966dac5c81bc21289b8f1305"
-    },
-    {
-      "path": "science/experiments/N2048/field-27_50-residual-cells.npz",
-      "bytes": 32079372,
-      "sha256": "225bb60e35c8384a547a5554f92374dfe4a0e4d9661d2c92203f52aab0cffc13"
-    },
-    {
-      "path": "science/experiments/N2048/field-27_50.npz",
-      "bytes": 16067962,
-      "sha256": "13eef3dd6a3677a1b389b8800fc9e534657af5cd84ed73c8def4320d7fab9e08"
-    },
-    {
-      "path": "science/experiments/N2048/field-53_100-residual-cells.npz",
-      "bytes": 32082230,
-      "sha256": "7946614eb61d8ae4b47efcfdb78295e34c074b45c93984648968eecb877b7dd2"
-    },
-    {
-      "path": "science/experiments/N2048/field-53_100.npz",
-      "bytes": 16067990,
-      "sha256": "1e38f46ec7bf78c59abf3bf5a27978126c3b1bdd60d080965244e959adb1ab7e"
-    }
-  ]
+  "scope": "Public manuscript, scientific source and complete numerical-bank identities."
 }

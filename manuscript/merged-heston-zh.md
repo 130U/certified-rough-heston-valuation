@@ -705,7 +705,7 @@ H2扩至H3同时改变中心绝对值支出与付清后的参考半径；H3至H4
 
 证书采用所列模型、仿射变换、合法参考轨迹和向外包络；实验曲线的随机模型合法性见附录A。结构定理限定于所列狭窄参数域。未解决区间、失败预算和报价不兼容与成功证书一并报告。
 
-[在线论文](https://github.com/130U/certified-rough-heston-valuation/blob/paper/ARTICLE.md)、科学源码和验证程序见本仓库。完整数值库保留在作者本地证据归档中；`python reproduce.py --full` 需要这些数值库，仅凭公开仓库无法完整重放保存的证据。源码位于 `science/`，`python verify_source.py` 检查公开源码哈希。
+[在线论文](https://github.com/130U/certified-rough-heston-valuation/blob/paper/ARTICLE.md)、科学源码和验证程序见本仓库。27 个完整数值银行已按 `SCIENTIFIC-MANIFEST.json` 记录的路径公开；`python reproduce.py --full` 读取这些银行并重建下游结果。源码位于 `science/`，`python verify_source.py` 检查公开文件哈希。
 
 表E.6、E.7和E.10列出生成命令、读取命令、重算范围及共享依赖。`--full`读取所列银行、重建下游价格和目标，并增加完整结构覆盖检查；连续残差重生成使用专门命令。保存的导数界及共用严格原语仍是读取器的输入。所报告验收由作者执行。
 

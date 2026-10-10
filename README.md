@@ -1,6 +1,6 @@
 # Certified Joint Pricing Errors in Rough Heston
 
-Deterministic certificates for stored rough Heston pricing outputs, preserving the Fourier errors shared across strikes.
+Deterministic certificates for rough Heston pricing outputs, preserving the Fourier errors shared across strikes.
 
 [Read the paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Code and evidence](EVIDENCE.md)
 
@@ -17,9 +17,28 @@ For the **quarter-year 4400–4500 call spread**, fractional order $`\alpha=.52`
 | Joint certificate | **0.233318843** | Yes |
 | Signed marginal certificate | 0.252393939 | Unresolved |
 
-Both columns use the same stored output, reference centre, 1,025 node radii and remainders. Only the aggregation of shared Fourier errors changes. The [exact rational ledger](science/analysis/audit/quarter-exact-ledger.json) records every contribution; [Section 7.6](ARTICLE.md#76-matched-ledgers-and-certificate-resolution) explains the matched comparison.
+Both certificates use the same stored output, reference centre, 1,025 node radii and remainders. Only the aggregation of shared Fourier errors changes. The [exact rational ledger](science/analysis/audit/quarter-exact-ledger.json) records every contribution; [Section 7.6](ARTICLE.md#76-matched-ledgers-and-certificate-resolution) explains the matched comparison.
 
 The bounds concern numerical error relative to the specified model price. An unresolved budget does not establish that the actual error exceeds it.
+
+## Reconstruct the published results
+
+The public repository and the [paper snapshot](https://github.com/130U/certified-rough-heston-valuation/tree/paper) include **all 27 numerical banks**, alongside the manuscript, scientific source and exact ledgers. [SCIENTIFIC-MANIFEST.json](SCIENTIFIC-MANIFEST.json) fixes their paths, byte sizes and SHA-256 hashes.
+
+Clone the paper snapshot, verify its inputs, install the pinned dependency and run the reconstruction from the repository root. On Windows, choose a short parent path: the driver creates a nested working copy.
+
+```text
+git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git rough-heston
+cd rough-heston
+python -X utf8 -B verify_source.py
+python -X utf8 -B reproduce.py --manifest-only
+python -m pip install -r requirements.txt
+python -X utf8 -B reproduce.py --full
+```
+
+The first two Python commands check public-file and scientific-input identities. The final command reads the published banks, rebuilds downstream prices, objectives and certificate decisions, and recomputes the original structural-sign cover in an isolated working copy. It checks the input identities again before reporting `PASS_SAVED_BANK_AND_DOWNSTREAM_RECONSTRUCTION` and writes its step results to `SCIENTIFIC-REPLAY.json`.
+
+For downstream reconstruction without the full structural-sign cover, run `python -X utf8 -B reproduce.py`. Fresh continuous-residual generation has separate commands in [COMMANDS.md](COMMANDS.md). Both reconstruction modes retain the identified arithmetic primitives and saved residual-generator bounds as dependencies; they do not regenerate every continuous derivative. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) specifies what each check recomputes and inherits. The paper's recorded acceptance runs were performed by the author.
 
 ## The proof and its applications
 
@@ -39,27 +58,10 @@ The rational approximation and endpoint-matching method come from **Gatheral–R
 
 The five-point objective ranking establishes a finite-set comparison. Every candidate remains incompatible with at least one original bid/ask row. The classical Heston appendices provide common-state and trial-field extensions; their terminal witness and thirteen-function diagnostic leave a complete annual monetary certificate open.
 
-## Read and verify the evidence
-
-The public checkout includes **all 27 complete numerical banks**, alongside the manuscript, scientific source, exact ledgers and verification procedures. Their paths, byte sizes and SHA-256 hashes are fixed in [SCIENTIFIC-MANIFEST.json](SCIENTIFIC-MANIFEST.json).
-
-To check the public identities, select the certified [paper release](https://github.com/130U/certified-rough-heston-valuation/releases/tag/paper) and run from its root:
-
-```text
-git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git
-cd certified-rough-heston-valuation
-python -B verify_source.py
-python -B reproduce.py --manifest-only
-```
-
-These commands verify the public-file and scientific-input identities. [COMMANDS.md](COMMANDS.md) separates saved-bank readers, downstream reconstruction and continuous-generation commands. `reproduce.py --full` reads the published banks, rebuilds downstream results and also recomputes the original structural-sign cover; continuous residual derivatives have separate generation commands.
-
-The acceptance checks are author-side records. Readers share identified arithmetic primitives and residual-generator bounds. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) documents what each check recomputes and inherits.
-
 <details>
 <summary>中文简介</summary>
 
-本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个完整数值银行已随仓库公开，文件身份由清单固定。
+本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个数值银行已完整公开，可从公开快照校验输入并重建下游结果。连续残差重新生成的命令及各项检查的依赖见验证文档。
 
 </details>
 
@@ -70,4 +72,3 @@ Research began in the second half of 2023. The main writing took place in the fi
 [theodore.oy2025@gmail.com](mailto:theodore.oy2025@gmail.com) · [10@alumni.duke.edu](mailto:10@alumni.duke.edu)
 
 © Theodore Ouyang. All rights reserved.
-

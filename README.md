@@ -1,31 +1,48 @@
 # Certified Joint Pricing Errors in Rough Heston
 
-Deterministic certificates for rough Heston pricing outputs, preserving the Fourier errors shared across strikes.
+**A mathematical framework that certifies rough Heston pricing outputs while preserving the errors shared across strikes.**
 
-[Read the paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Code and evidence](EVIDENCE.md)
+Research by **Theodore Ouyang** · [Paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Code and evidence](EVIDENCE.md)
 
-Research by **Theodore Ouyang**.
+Different strikes reuse the same Fourier transform. This research retains that shared structure throughout the certificate, connects a continuous fractional Riccati residual to the pricing exponent, and encloses the error of the actual stored output. In a matched quarter-year call-spread experiment, the joint certificate gives **0.233318843 index points**, passing a **0.25-point budget** that the signed marginal certificate cannot certify.
 
-Pricing several strikes reuses one Fourier transform. This project keeps the common complex perturbation in the error calculation, carries a continuous fractional Riccati residual through the pricing exponent, and certifies the resulting prices and portfolio directions. Every complete budget includes its reference centre, finite omitted frequencies, strip quadrature, true infinite tail and outward arithmetic.
+## A measurable decision improvement
 
-## When shared errors change a decision
+For the **4400–4500 call spread**, maturity $`T=1/4`$, fractional order $`\alpha=.52`$ ($`H=.02`$), and unit position:
 
-For the **quarter-year 4400–4500 call spread**, fractional order $`\alpha=.52`$ ($`H=.02`$), and position multiplier one:
-
-| Complete error upper bound | Index points | Meets the 0.25-point budget |
+| Complete error upper bound | Index points | Certifies the 0.25-point budget |
 | --- | ---: | :---: |
-| Joint certificate | **0.233318843** | Yes |
+| **Joint certificate** | **0.233318843** | **Yes** |
 | Signed marginal certificate | 0.252393939 | Unresolved |
 
-Both certificates use the same stored output, reference centre, 1,025 node radii and remainders. Only the aggregation of shared Fourier errors changes. The [exact rational ledger](science/analysis/audit/quarter-exact-ledger.json) records every contribution; [Section 7.6](ARTICLE.md#76-matched-ledgers-and-certificate-resolution) explains the matched comparison.
+The complete upper bound is approximately **7.56% lower**. Both columns use the same stored output, reference centre, **1,025 node radii** and remainders; only the aggregation of the shared Fourier errors changes. The [exact rational ledger](science/analysis/audit/quarter-exact-ledger.json) records every contribution and the threshold decision. [Section 7.6](ARTICLE.md#76-matched-ledgers-and-certificate-resolution) gives the matched comparison.
 
-The bounds concern numerical error relative to the specified model price. An unresolved budget does not establish that the actual error exceeds it.
+## Mathematical contributions
 
-## Verify the published inputs
+The proof chain is **continuous residual → finite-history exponent bound → shared transform disks → complete output-error set**.
 
-The public repository and the [paper snapshot](https://github.com/130U/certified-rough-heston-valuation/tree/paper) include **all 27 numerical banks**, alongside the manuscript, scientific source and exact ledgers. [SCIENTIFIC-MANIFEST.json](SCIENTIFIC-MANIFEST.json) fixes their paths, byte sizes and SHA-256 hashes.
+**Finite-history propagation into price units.** The central theorem connects the complex fractional Riccati residual to the model's pricing exponent, retaining the initial forward-variance curve term and physical scaling. It supplies a curve-weighted envelope under nonexpansion and a sharper positive-resolvent envelope under dissipation. Certified history weights make the result computable. [Theorem 3.1](ARTICLE.md#3-finite-history-propagation-nonexpansion-and-dissipation) and [Appendix C](ARTICLE.md#appendix-c-complete-propagation-proofs-and-analytic-variants) give the theorem and full propagation proofs.
 
-Clone the paper snapshot and verify its inputs from the repository root:
+**Joint certification of the actual output.** One common complex perturbation at each frequency produces a joint price-error set across strikes. Translating that set from the reference centre to the stored fast output yields complete certificates for prices, portfolio directions and finite-candidate objectives. The account includes the centre displacement, finite omitted frequencies, strip quadrature, true infinite tail and outward arithmetic. [Sections 4–5](ARTICLE.md#4-continuous-certificates-and-complete-fourier-prices) construct the certificate.
+
+**A full-frequency structural proof.** Exact matching-system and polynomial-sign certificates establish nonsingularity, denominator separation and left-half-plane structure for the specified Gatheral–Radoicic third-order rational construction. The continuous domain covers $`\alpha\in[.52,.60]`$, $`\rho\in[-.744501,-.744499]`$, zero Riccati mean reversion, all real frequencies and positive times. [Section 6](ARTICLE.md#6-structure-of-the-specified-rational-output) and [Appendix B](ARTICLE.md#appendix-b-exact-construction-and-structural-certificates) contain the algebraic proof and correlation extension.
+
+## Experiments and evidence
+
+| Research output | Scale and purpose | Reading path |
+| --- | --- | --- |
+| Portfolio certificates | **28 fixed directions** with exact thresholds and matched joint/marginal comparisons | [Portfolio study](ARTICLE.md#72-twenty-eight-portfolio-directions), [threshold ledger](science/analysis/audit/portfolio-exact-thresholds.csv) |
+| Nearby candidate comparison | **Five fractional orders**: .520, .525, .530, .540 and .550; two time grids with unchanged quotes and model inputs | [Candidate study](ARTICLE.md#73-prespecified-nearby-candidates-under-the-original-quotes), [source](science/experiments) |
+| Actual-output controls | Padé, direct-reference, corrected-output and modified-Adams calculations | [Matched controls](ARTICLE.md#74-why-certify-a-frozen-fast-output), [commands](COMMANDS.md#c1) |
+| Published numerical inputs | **27 complete banks**: 7 baseline, 10 at $`N_t=1024`$, 10 at $`N_t=2048`$ | [Evidence inventory](EVIDENCE.md), [scientific manifest](SCIENTIFIC-MANIFEST.json) |
+
+The recorded experiments separate the effects of history weighting, shared geometry, reference uncertainty and centre changes. Their numerical guarantees concern the specified model prices and outputs. Exact fractions, complete banks, source identities and author execution records provide a direct path from each reported decision to its inputs.
+
+The rational approximation and endpoint-matching method are due to **Gatheral–Radoicic**. This project's contributions are the finite-history pricing certificate, shared-output error geometry, matched decision experiments and certified structural domain. [Contributions and dependencies](ARTICLE.md#11-contributions-and-dependencies) identify how the proof chains fit together; [related work](ARTICLE.md#12-related-work) supplies the attribution.
+
+## Inspect the research package
+
+Read the [paper](ARTICLE.md) for the theory, [EVIDENCE.md](EVIDENCE.md) for the experiments, and [COMMANDS.md](COMMANDS.md) for calculation and verification entry points. To inspect the published snapshot and verify its file and scientific-input identities:
 
 ```text
 git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git rough-heston
@@ -34,38 +51,7 @@ python -X utf8 -B verify_source.py
 python -X utf8 -B reproduce.py --manifest-only
 ```
 
-These commands check public-file and scientific-input identities, including all numerical banks. They do not execute the scientific calculations.
-
-**Reconstruction status.** The current public inputs pass both root identity checks, but `reproduce.py --full` stops at the English-manuscript SHA-256 check in [the classical reference manifest](science/baseline/reference/code/classical/MANIFEST.json), which still identifies a different manuscript version. The complete driver has not passed on this public snapshot.
-
-The reconstruction driver is designed to read the banks and rebuild downstream prices, objectives and certificate decisions in an isolated working copy; `--full` also recomputes the original structural-sign cover. It records its steps in `SCIENTIFIC-REPLAY.json`. [COMMANDS.md](COMMANDS.md) gives the pinned dependency installation, reconstruction entry points and separate continuous-residual generation commands. On Windows, use a short checkout path for the nested working copy.
-
-Both reconstruction modes retain the identified arithmetic primitives and saved residual-generator bounds as dependencies; they do not regenerate every continuous derivative. [Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) specifies what each check recomputes and inherits. The paper's recorded acceptance runs were performed by the author.
-
-## The proof and its applications
-
-The central chain is **continuous residual → finite-history exponent bound → common transform disks → complete output-error set**. The propagation theorem retains the initial curve term and physical scaling. It gives a curve-weighted envelope under nonexpansion and a sharper resolvent envelope under positive dissipation.
-
-[Sections 2–5](ARTICLE.md#2-model-units-and-fixed-configurations) specify the model, assumptions and pricing construction. [Appendices C–D](ARTICLE.md#appendix-c-complete-propagation-proofs-and-analytic-variants) give the regularity, propagation and continuous-residual proofs.
-
-| Result | Certified scope |
-| --- | --- |
-| Finite-history pricing envelope | Full-time residual and regularity hypotheses; nonexpansive and dissipative cases with certified history weights. |
-| Shared Fourier error accounts | 28 specified portfolio directions with matched marginal comparisons and reported unresolved budgets. |
-| Nearby candidate comparison | Five fixed fractional orders: .520, .525, .530, .540 and .550, under unchanged quotes and model inputs. |
-| Actual-output controls | Stored Padé, direct-reference, corrected-output and modified-Adams calculations with identified reference banks. |
-| Rational-output structure | The specified construction at all real frequencies and positive times for $`\alpha\in[.52,.60]`$, $`\rho\in[-.744501,-.744499]`$ and zero Riccati mean reversion. |
-
-The rational approximation and endpoint-matching method come from **Gatheral–Radoicic**. The paper certifies their specified construction on the stated structural domain; a separately generated reference field supplies the price-error certificate. [Related work](ARTICLE.md#12-related-work) identifies the analytical and computational dependencies.
-
-The five-point objective ranking establishes a finite-set comparison. Every candidate remains incompatible with at least one original bid/ask row. The classical Heston appendices provide common-state and trial-field extensions; their terminal witness and thirteen-function diagnostic leave a complete annual monetary certificate open.
-
-<details>
-<summary>中文简介</summary>
-
-本研究将连续分数阶 Riccati 残差接到完整定价误差，并保留不同执行价共享的 Fourier 扰动。在季度价差的匹配比较中，联合证书通过 0.25 点预算，边际证书仍无法判定。论文给出证明链、精确误差分账与验证程序；27 个数值银行已完整公开，公开文件与科学输入身份校验通过。完整重建驱动目前仍受旧英文稿哈希失配阻塞；连续残差重新生成的命令及各项检查的依赖见验证文档。
-
-</details>
+[Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) maps the proof obligations, author-side acceptance records and computational dependencies. The command guide provides individual readers, downstream reconstruction and separate continuous-residual generation procedures.
 
 ## Research timeline
 

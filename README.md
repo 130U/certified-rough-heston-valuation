@@ -1,61 +1,26 @@
 # Certified Joint Pricing Errors in Rough Heston
 
-**A mathematical framework that certifies rough Heston pricing outputs while preserving the errors shared across strikes.**
+**Theodore Ouyang**
 
-Research by **Theodore Ouyang** · [Paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Code and evidence](EVIDENCE.md)
+Rough Heston captures volatility with memory through a fractional Volterra equation. Its option prices depend on a complex fractional Riccati solution, followed by Fourier integration. Turning an approximate solution into a rigorous price guarantee requires carrying its error through that entire chain. For a portfolio, there is a further mathematical opportunity: different strikes share the same transform errors, so their combined uncertainty has more structure than separate price intervals reveal.
 
-Different strikes reuse the same Fourier transform. This research retains that shared structure throughout the certificate, connects a continuous fractional Riccati residual to the pricing exponent, and encloses the error of the actual stored output. In a matched quarter-year call-spread experiment, the joint certificate gives **0.233318843 index points**, passing a **0.25-point budget** that the signed marginal certificate cannot certify.
+I develop a certificate that preserves both the time history of the Riccati error and the geometry shared across strikes. The continuous residual measures how closely an approximate trajectory satisfies the Riccati equation. My central theorem carries it through a finite-history envelope into the pricing exponent, retaining the initial forward-variance curve and physical scaling. Under positive dissipation, a resolvent kernel gives a sharper envelope by weighting each part of the residual history according to its effect on the final exponent. This connects fractional stability theory directly to a computable financial error bound.
 
-## A measurable decision improvement
+The second step is to treat each uncertain Fourier value as one common complex disk. I combine the strike coefficients before taking the support bound, preserving cancellation within a spread or portfolio. Translating this joint set to the actual stored pricing output gives a certificate for the numerical price someone would use. The centre displacement, quadrature remainder, omitted frequencies, infinite tail and arithmetic all enter the complete result.
 
-For the **4400–4500 call spread**, maturity $`T=1/4`$, fractional order $`\alpha=.52`$ ($`H=.02`$), and unit position:
+For the quarter-year **4400–4500 call spread**, with fractional order $`\alpha=.52`$ ($`H=.02`$) and unit position under the fixed model, retaining the shared geometry lowers the complete error upper bound from **0.252393939 to 0.233318843 index points**, approximately **7.56%**. The output, reference centre and error inputs stay fixed; only their joint aggregation changes.
 
-| Complete error upper bound | Index points | Certifies the 0.25-point budget |
-| --- | ---: | :---: |
-| **Joint certificate** | **0.233318843** | **Yes** |
-| Signed marginal certificate | 0.252393939 | Unresolved |
+That difference changes the decision at a **0.25-point accuracy budget**: the joint certificate proves that the output meets the budget, while the signed marginal certificate leaves it unresolved. The significance is that mathematical information already present in the pricing formula can turn an inconclusive numerical guarantee into a conclusive portfolio guarantee, without changing the pricing output.
 
-The complete upper bound is approximately **7.56% lower**. Both columns use the same stored output, reference centre, **1,025 node radii** and remainders; only the aggregation of the shared Fourier errors changes. The [exact rational ledger](science/analysis/audit/quarter-exact-ledger.json) records every contribution and the threshold decision. [Section 7.6](ARTICLE.md#76-matched-ledgers-and-certificate-resolution) gives the matched comparison.
+I also establish an exact structural theorem for the specified Gatheral–Radoicic third-order rational approximation. Matching-system determinants and polynomial-sign arguments prove nonsingularity, separation of the denominator from zero and left-half-plane structure over a continuous parameter domain: $`\alpha\in[.52,.60]`$, $`\rho\in[-.744501,-.744499]`$, zero Riccati mean reversion, all real frequencies and positive times. This replaces checks at selected frequencies with a theorem covering the stated domain.
 
-## Mathematical contributions
+The joint error set makes portfolio weights part of the mathematical certificate. It carries the common transform structure into the position being valued, and also supports certified comparisons of objectives across fixed candidate parameters.
 
-The proof chain is **continuous residual → finite-history exponent bound → shared transform disks → complete output-error set**.
-
-**Finite-history propagation into price units.** The central theorem connects the complex fractional Riccati residual to the model's pricing exponent, retaining the initial forward-variance curve term and physical scaling. It supplies a curve-weighted envelope under nonexpansion and a sharper positive-resolvent envelope under dissipation. Certified history weights make the result computable. [Theorem 3.1](ARTICLE.md#3-finite-history-propagation-nonexpansion-and-dissipation) and [Appendix C](ARTICLE.md#appendix-c-complete-propagation-proofs-and-analytic-variants) give the theorem and full propagation proofs.
-
-**Joint certification of the actual output.** One common complex perturbation at each frequency produces a joint price-error set across strikes. Translating that set from the reference centre to the stored fast output yields complete certificates for prices, portfolio directions and finite-candidate objectives. The account includes the centre displacement, finite omitted frequencies, strip quadrature, true infinite tail and outward arithmetic. [Sections 4–5](ARTICLE.md#4-continuous-certificates-and-complete-fourier-prices) construct the certificate.
-
-**A full-frequency structural proof.** Exact matching-system and polynomial-sign certificates establish nonsingularity, denominator separation and left-half-plane structure for the specified Gatheral–Radoicic third-order rational construction. The continuous domain covers $`\alpha\in[.52,.60]`$, $`\rho\in[-.744501,-.744499]`$, zero Riccati mean reversion, all real frequencies and positive times. [Section 6](ARTICLE.md#6-structure-of-the-specified-rational-output) and [Appendix B](ARTICLE.md#appendix-b-exact-construction-and-structural-certificates) contain the algebraic proof and correlation extension.
-
-## Experiments and evidence
-
-| Research output | Scale and purpose | Reading path |
-| --- | --- | --- |
-| Portfolio certificates | **28 fixed directions** with exact thresholds and matched joint/marginal comparisons | [Portfolio study](ARTICLE.md#72-twenty-eight-portfolio-directions), [threshold ledger](science/analysis/audit/portfolio-exact-thresholds.csv) |
-| Nearby candidate comparison | **Five fractional orders**: .520, .525, .530, .540 and .550; two time grids with unchanged quotes and model inputs | [Candidate study](ARTICLE.md#73-prespecified-nearby-candidates-under-the-original-quotes), [source](science/experiments) |
-| Actual-output controls | Padé, direct-reference, corrected-output and modified-Adams calculations | [Matched controls](ARTICLE.md#74-why-certify-a-frozen-fast-output), [commands](COMMANDS.md#c1) |
-| Published numerical inputs | **27 complete banks**: 7 baseline, 10 at $`N_t=1024`$, 10 at $`N_t=2048`$ | [Evidence inventory](EVIDENCE.md), [scientific manifest](SCIENTIFIC-MANIFEST.json) |
-
-The recorded experiments separate the effects of history weighting, shared geometry, reference uncertainty and centre changes. Their numerical guarantees concern the specified model prices and outputs. Exact fractions, complete banks, source identities and author execution records provide a direct path from each reported decision to its inputs.
-
-The rational approximation and endpoint-matching method are due to **Gatheral–Radoicic**. This project's contributions are the finite-history pricing certificate, shared-output error geometry, matched decision experiments and certified structural domain. [Contributions and dependencies](ARTICLE.md#11-contributions-and-dependencies) identify how the proof chains fit together; [related work](ARTICLE.md#12-related-work) supplies the attribution.
-
-## Inspect the research package
-
-Read the [paper](ARTICLE.md) for the theory, [EVIDENCE.md](EVIDENCE.md) for the experiments, and [COMMANDS.md](COMMANDS.md) for calculation and verification entry points. To inspect the published snapshot and verify its file and scientific-input identities:
-
-```text
-git clone --branch paper --depth 1 https://github.com/130U/certified-rough-heston-valuation.git rough-heston
-cd rough-heston
-python -X utf8 -B verify_source.py
-python -X utf8 -B reproduce.py --manifest-only
-```
-
-[Appendix E](ARTICLE.md#appendix-e-complete-experiments-and-verification-duties) maps the proof obligations, author-side acceptance records and computational dependencies. The command guide provides individual readers, downstream reconstruction and separate continuous-residual generation procedures.
-
-## Research timeline
+The rational approximation and endpoint-matching method are due to Gatheral–Radoicic. My contributions are the finite-history pricing envelope, its composition with shared complex-disk geometry, the resulting decision certificates and the exact structural domain proof.
 
 Research began in the second half of 2023. The main writing took place in the first half of 2024. The project was published on GitHub in 2026.
+
+[Paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Matched spread result](science/analysis/audit/quarter-exact-ledger.json) · [Code and evidence](EVIDENCE.md) · [Calculation guide](COMMANDS.md)
 
 [theodore.oy2025@gmail.com](mailto:theodore.oy2025@gmail.com) · [10@alumni.duke.edu](mailto:10@alumni.duke.edu)
 

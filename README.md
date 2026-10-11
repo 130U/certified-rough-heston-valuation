@@ -2,6 +2,8 @@
 
 **Theodore Ouyang**
 
+[Paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Results](science/analysis/audit/quarter-exact-ledger.json) · [Code and evidence](EVIDENCE.md)
+
 Rough Heston captures volatility with memory through a fractional Volterra equation. Its option prices depend on a complex fractional Riccati solution, followed by Fourier integration. Turning an approximate solution into a rigorous price guarantee requires carrying its error through that entire chain. For a portfolio, there is a further mathematical opportunity: different strikes share the same transform errors, so their combined uncertainty has more structure than separate price intervals reveal.
 
 I develop a certificate that preserves both the time history of the Riccati error and the geometry shared across strikes. The continuous residual measures how closely an approximate trajectory satisfies the Riccati equation. My central theorem carries it through a finite-history envelope into the pricing exponent, retaining the initial forward-variance curve and physical scaling. Under positive dissipation, a resolvent kernel gives a sharper envelope by weighting each part of the residual history according to its effect on the final exponent. This connects fractional stability theory directly to a computable financial error bound.
@@ -20,7 +22,7 @@ The rational approximation and endpoint-matching method are due to Gatheral–Ra
 
 Research began in the second half of 2023. The main writing took place in the first half of 2024. The project was published on GitHub in 2026.
 
-[Paper](ARTICLE.md) · [English PDF](paper/paper.pdf) · [Matched spread result](science/analysis/audit/quarter-exact-ledger.json) · [Code and evidence](EVIDENCE.md) · [Calculation guide](COMMANDS.md)
+[Calculation guide](COMMANDS.md)
 
 [theodore.oy2025@gmail.com](mailto:theodore.oy2025@gmail.com) · [10@alumni.duke.edu](mailto:10@alumni.duke.edu)
 

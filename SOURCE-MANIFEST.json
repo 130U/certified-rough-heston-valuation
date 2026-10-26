@@ -16,8 +16,8 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 216236,
-      "sha256": "9fc298b59d5ec67595a515ad072e22bed09aa89c3233dad8fa7da3ec3cdd7a7b"
+      "bytes": 217454,
+      "sha256": "e8901ae4d86c3b2f672b49d51268a549cb04731bb2113b9c46e009cede710929"
     },
     {
       "path": "COMMANDS.md",
@@ -3506,8 +3506,8 @@
     },
     {
       "path": "scripts/build_article.py",
-      "bytes": 5147,
-      "sha256": "864af8c60119e0c3c046dde4014492baefd7e6222248d7736c90654f440b2948"
+      "bytes": 5343,
+      "sha256": "a48700e005c4abafddd3225c6be2bca76e4148fdba3effe38180d33255f16221"
     },
     {
       "path": "scripts/build_pdf.py",
@@ -3547,7 +3547,7 @@
     {
       "path": "validation/article-check.json",
       "bytes": 81512,
-      "sha256": "cf7578fa638b9d58e5b6620924f51561e0058a7b5927c37c1f326ef6becb7e98"
+      "sha256": "22381c68b08f11e719749d611ee7f907e2d39ced3a7203709bea77788fe88a84"
     },
     {
       "path": "validation/pdf-check.json",

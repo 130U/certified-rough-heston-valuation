@@ -43,6 +43,9 @@ def main():
         rendered.append(source[cursor:row['start']]);cursor=row['end']
         if not row['display']:
             tex=re.sub(r'\s+',' ',row['tex']).strip().replace('<',r'\lt ').replace('>',r'\gt ')
+            line_start=source.rfind('\n',0,row['start'])+1
+            if source[line_start:row['start']].lstrip().startswith('|'):
+                tex=re.sub(r'(?<!\\)\|',r'\\vert ',tex)
             rendered.append('$`'+tex+'`$')
             continue
         mm=meta[row['id']]
@@ -57,11 +60,11 @@ def main():
             (assets/name).write_text(raw.replace('#000000',color),encoding='utf-8')
             names[theme]='assets/math/'+name
         alt=html.escape(re.sub(r'\s+',' ',row['tex']).strip(),quote=True)
-        rendered.append('<p align="center">\n<picture>\n'
+        rendered.append('\n\n<p align="center">\n<picture>\n'
             f'  <source media="(prefers-color-scheme: dark)" srcset="{names["dark"]}">\n'
             f'  <source media="(prefers-color-scheme: light)" srcset="{names["light"]}">\n'
             f'  <img src="{names["light"]}" width="{min(width,900)}" alt="{alt}">\n'
-            '</picture>\n</p>')
+            '</picture>\n</p>\n\n')
         ledger.append({**row,'paths':names,'width_px':width,'height_px':height})
     rendered.append(source[cursor:])
     used={Path(q).name for r in ledger for q in r['paths'].values()}

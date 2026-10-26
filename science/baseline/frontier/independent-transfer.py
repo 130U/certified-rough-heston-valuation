@@ -57,6 +57,8 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8');p=argparse.ArgumentParser(description=__doc__);p.add_argument('--full',action='store_true');args=p.parse_args()
     started=0;checks=[];inputs={}
     result=load(OUT/'transfer-results.json');contract=load(OUT/'transfer-contract.json');preflight=load(OUT/'transfer-preflight.json')
+    assert preflight['status']=='PASS_CURRENT_TRANSFER_INPUT_BINDING'
+    assert preflight['executed_checker_sha256']==sha(HERE/'transfer-preflight.py')
     assert result['status']=='COMPLETE_SECOND_MATURITY_PRICING_CERTIFICATE_WITH_REUSED_UPSTREAM_CONTINUOUS_RESIDUAL'
     assert result['T']=='1/4' and result['source_horizon']=='1/2' and result['bits']==100
     assert result['contract_sha256']==preflight['contract_sha256']==sha(OUT/'transfer-contract.json')

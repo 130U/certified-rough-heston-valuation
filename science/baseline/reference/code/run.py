@@ -219,7 +219,7 @@ def stage(out):
         if path.is_file() and not path.name.endswith('.gz'):shutil.copyfile(path,out/path.name)
     paper=next((ancestor/'manuscript/merged-heston-en.md' for ancestor in [ROOT,*ROOT.parents] if (ancestor/'manuscript/merged-heston-en.md').is_file()),None)
     if paper is None:raise FileNotFoundError('Current English manuscript must accompany scientific evidence.')
-    # Full paper copies, only in disposable work space; section mapping is in docs/proof-map.md.
+    # Current paper copies, only in disposable work space; proofs are in Appendices A-D.
     for alias in ['model-admissibility.md','fractional-exponent-linearization.md','direct-real-tail.md',
                   'complex-dissipativity.md','field-residual-proof.md']:
         shutil.copyfile(paper,out/alias)

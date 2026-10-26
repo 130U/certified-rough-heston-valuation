@@ -1,1576 +1,1559 @@
 {
   "schema": "publication_source_identities",
   "hash": "sha256",
-  "revision": "2026-10-26",
-  "baseline_commit": "183ec2587a10051884be05eac3bf9df8ea61adb1",
   "files": [
     {
       "path": ".github/workflows/verify-source.yml",
-      "bytes": 406,
-      "sha256": "0f5be7217cd12beb32697972086693dd8abe767c9c2d76c88c9e591768db2d9b"
+      "bytes": 415,
+      "sha256": "0d764d97546fc72a0b9ff94750106f8825aabb87a7c52350f324f36684be1467"
     },
     {
       "path": ".gitignore",
-      "bytes": 78,
-      "sha256": "ccc21d919d119fbc2398bf722dd6b9aeff07dc578ded72df6b6612765e311400"
+      "bytes": 64,
+      "sha256": "92396db1c9ca3a4721fb78afec028c586c1b62dbc13a2c295fdb2e9af1983e54"
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 217454,
-      "sha256": "e8901ae4d86c3b2f672b49d51268a549cb04731bb2113b9c46e009cede710929"
+      "bytes": 216126,
+      "sha256": "ba9bb4389a4207196976bf6cf3b425b70da1ff766f03fa0cbb4982864b292e35"
     },
     {
       "path": "COMMANDS.md",
-      "bytes": 6111,
-      "sha256": "713dba4140a8a69204bed324a75d3e4f4117511d2a8a7bd30d861d98e175c95d"
+      "bytes": 5768,
+      "sha256": "a16e31ac138655dd190fef4ed2440acdd5f27db9ca73e6fd9a9d068bc752049c"
     },
     {
       "path": "EVIDENCE.md",
-      "bytes": 5980,
-      "sha256": "13d3652d94009a8d981b1eb33650fe99394e67e1df4156f29b97eef33805c017"
-    },
-    {
-      "path": "PROVENANCE.md",
-      "bytes": 2116,
-      "sha256": "5a6f25ac6d86b25b89e88f7a8b839ae8213368a77259b37bd64e4d25b043db99"
+      "bytes": 5698,
+      "sha256": "1081cf0ee7e5cac51578ff9c5c9ff6fb99ffaa76501b137b0ded78a5b65cd3a1"
     },
     {
       "path": "README.md",
-      "bytes": 3577,
-      "sha256": "48902a7a455cbabc556916b962fae2dd033c140e7acf8ab30c1f11fa16f18235"
+      "bytes": 2100,
+      "sha256": "95a9d587338c1f6fb4a25c686cebc1c912742a80fb342fa660394c5229fce767"
     },
     {
       "path": "RENDERING.md",
-      "bytes": 2846,
-      "sha256": "373e999c9fef98669825dfa1dbabf0ee464ebbe020348cd5720f0e5a096825ca"
-    },
-    {
-      "path": "REVISION.md",
-      "bytes": 4958,
-      "sha256": "1b75c9235a70539426740c2b0592a2b32ed5a10e0f8255be51647fb3eabbbc3c"
-    },
-    {
-      "path": "SCIENTIFIC-CHECK.json",
-      "bytes": 3402,
-      "sha256": "0a7e2fad7164996a292f1f0fa0d4afb166680e6b656b01dc7176b89dfca8c4de"
+      "bytes": 2460,
+      "sha256": "a7330e5f01f1537b34ea990e34044f78bf31fe1e32634f802f0a737f88d73b44"
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",
-      "bytes": 67697,
-      "sha256": "b32c87e34ca5c6e2c4d4e5796d7a2369f22c3b88d3a511df86922063a5555fa1"
+      "bytes": 63308,
+      "sha256": "70a059d491e9b551f91d5884eb20eb78f80584cf6f8d364eb25530bcb1a3a803"
     },
     {
       "path": "SCIENTIFIC-REPLAY.json",
-      "bytes": 10748,
-      "sha256": "f5d390e8896bfa055273cd9205c0bf0fdc45bd3f216cc4434df7dd4a846a7342"
+      "bytes": 7801,
+      "sha256": "d29b937fe77b7bac690e1f26e5a04cf672bd80189505076077a9b7504ad66b45"
     },
     {
-      "path": "assets/math/revision-m000dadd9e5f2a6413da2-dark.svg",
+      "path": "assets/math/formula-m000dadd9e5f2a6413da2-dark.svg",
       "bytes": 20811,
       "sha256": "b176fcd93ffd1a9cb6c6f09f9ebaebefcd8b82d420154969059514a95caf6ea6"
     },
     {
-      "path": "assets/math/revision-m000dadd9e5f2a6413da2-light.svg",
+      "path": "assets/math/formula-m000dadd9e5f2a6413da2-light.svg",
       "bytes": 20811,
       "sha256": "f8b484b3fb4234dbad8ca99510a0b48f683535ab019e9d516b3e3bcea17b5eb9"
     },
     {
-      "path": "assets/math/revision-m039ca3c8e70b1a735f34-dark.svg",
+      "path": "assets/math/formula-m039ca3c8e70b1a735f34-dark.svg",
       "bytes": 32494,
       "sha256": "33f1a30cedf32cbc2caf44d7557d4a2e10de71ac9c5123e4305e24c13391fb87"
     },
     {
-      "path": "assets/math/revision-m039ca3c8e70b1a735f34-light.svg",
+      "path": "assets/math/formula-m039ca3c8e70b1a735f34-light.svg",
       "bytes": 32494,
       "sha256": "d9a75b9764ee4dee5dbde248cc8d5655d10a36cac80b18e93db9562275a94cb3"
     },
     {
-      "path": "assets/math/revision-m0701e89a47b29a34aa1f-dark.svg",
+      "path": "assets/math/formula-m0701e89a47b29a34aa1f-dark.svg",
       "bytes": 30233,
       "sha256": "b0de21b61427daf7e323dd747efad459ef203af024c677e9928ef4318047f7bd"
     },
     {
-      "path": "assets/math/revision-m0701e89a47b29a34aa1f-light.svg",
+      "path": "assets/math/formula-m0701e89a47b29a34aa1f-light.svg",
       "bytes": 30233,
       "sha256": "694d3289359f9e4fa4ce3c080fcb86b0934d38558f1ebbdfd2a84c5ded11c9f9"
     },
     {
-      "path": "assets/math/revision-m08dfe2c26d56b41c6ba1-dark.svg",
+      "path": "assets/math/formula-m08dfe2c26d56b41c6ba1-dark.svg",
       "bytes": 24036,
       "sha256": "0ced5debd538b87dbfe66854bc9f10c55aa3bf8a1cc8834a237d6936daf49bc3"
     },
     {
-      "path": "assets/math/revision-m08dfe2c26d56b41c6ba1-light.svg",
+      "path": "assets/math/formula-m08dfe2c26d56b41c6ba1-light.svg",
       "bytes": 24036,
       "sha256": "d4a568161a885fba29a363dbc25ef1189d5a76072de710be6344397ef300f8ed"
     },
     {
-      "path": "assets/math/revision-m08ff02db6eefbcb83ddf-dark.svg",
+      "path": "assets/math/formula-m08ff02db6eefbcb83ddf-dark.svg",
       "bytes": 7145,
       "sha256": "4b2c3f78ed9f82a42ba621aede6b2df35cf19d2d3413b473877fe28fbe35f5aa"
     },
     {
-      "path": "assets/math/revision-m08ff02db6eefbcb83ddf-light.svg",
+      "path": "assets/math/formula-m08ff02db6eefbcb83ddf-light.svg",
       "bytes": 7145,
       "sha256": "24b6ed594e2c95cebf24e20be9ad848fc0c62968146b61e6ffc1024003ed0564"
     },
     {
-      "path": "assets/math/revision-m11a418314f6e4997e2e0-dark.svg",
+      "path": "assets/math/formula-m11a418314f6e4997e2e0-dark.svg",
       "bytes": 19795,
       "sha256": "a6d0096c8e967cf8b9b9857e2d6de514680f9ca018bdd906c24289378238e53d"
     },
     {
-      "path": "assets/math/revision-m11a418314f6e4997e2e0-light.svg",
+      "path": "assets/math/formula-m11a418314f6e4997e2e0-light.svg",
       "bytes": 19795,
       "sha256": "46b4cad702c3e0c60ae239c23416a86e6d0c2e7008b1fc72b6c42f594640e0b1"
     },
     {
-      "path": "assets/math/revision-m11b0bf4f17035fc54d60-dark.svg",
+      "path": "assets/math/formula-m11b0bf4f17035fc54d60-dark.svg",
       "bytes": 21301,
       "sha256": "c7ecc7d3d4543b8d85c67e390b5ba3550f73c5532e7eb64c13cb4784fc7ffd15"
     },
     {
-      "path": "assets/math/revision-m11b0bf4f17035fc54d60-light.svg",
+      "path": "assets/math/formula-m11b0bf4f17035fc54d60-light.svg",
       "bytes": 21301,
       "sha256": "058769089e4015cca7439754724dbf58e50dde50c61112e5a6cc31f5da3d7c5a"
     },
     {
-      "path": "assets/math/revision-m11d0f7b2a53a3012122c-dark.svg",
+      "path": "assets/math/formula-m11d0f7b2a53a3012122c-dark.svg",
       "bytes": 17643,
       "sha256": "4404ae3781f07808b8874589287234a6b110d9a71c3356d2b83437a867e5476c"
     },
     {
-      "path": "assets/math/revision-m11d0f7b2a53a3012122c-light.svg",
+      "path": "assets/math/formula-m11d0f7b2a53a3012122c-light.svg",
       "bytes": 17643,
       "sha256": "1ef36b76c8c5fef3c68d836e2a91f125c8ee3607fbf405d9b875f8f207be6d0f"
     },
     {
-      "path": "assets/math/revision-m128959226a2e4a151bae-dark.svg",
+      "path": "assets/math/formula-m128959226a2e4a151bae-dark.svg",
       "bytes": 22867,
       "sha256": "44280739ef5386946b41c8e70e5b3aafb69b9c9e5681c5fa387a281b96deaa44"
     },
     {
-      "path": "assets/math/revision-m128959226a2e4a151bae-light.svg",
+      "path": "assets/math/formula-m128959226a2e4a151bae-light.svg",
       "bytes": 22867,
       "sha256": "37e8366a95f20e674b9ef1ef396e403b9963e0a942fca1ed88ca361c0300734c"
     },
     {
-      "path": "assets/math/revision-m17169fffdca79eb56e1d-dark.svg",
+      "path": "assets/math/formula-m17169fffdca79eb56e1d-dark.svg",
       "bytes": 39391,
       "sha256": "2cb151bff31754ab7ed4f58f97763a5a00f889a6b707d34dfbcf35fdd552143e"
     },
     {
-      "path": "assets/math/revision-m17169fffdca79eb56e1d-light.svg",
+      "path": "assets/math/formula-m17169fffdca79eb56e1d-light.svg",
       "bytes": 39391,
       "sha256": "c4da6cca7c3aaeb9ebe1b5317da7ec3bd06473246dcdc4dccf34ea9ef4e4933b"
     },
     {
-      "path": "assets/math/revision-m17fbdf4bc1fd3e99081e-dark.svg",
+      "path": "assets/math/formula-m17fbdf4bc1fd3e99081e-dark.svg",
       "bytes": 26493,
       "sha256": "3b51fe764d4992efb99d8dfb0b999cac775edb1800749e12311c17b83348d684"
     },
     {
-      "path": "assets/math/revision-m17fbdf4bc1fd3e99081e-light.svg",
+      "path": "assets/math/formula-m17fbdf4bc1fd3e99081e-light.svg",
       "bytes": 26493,
       "sha256": "2d17e68f7e8a37813cebcfd52860afc83efcb18c80c0b7d127199f31f2fc0f06"
     },
     {
-      "path": "assets/math/revision-m1ae8980e78160a8cb21d-dark.svg",
+      "path": "assets/math/formula-m1ae8980e78160a8cb21d-dark.svg",
       "bytes": 12802,
       "sha256": "b063a07f4e9a260225b1c2970999613ae7ef6fa3da0bcc8adcb26330d5e2b6d7"
     },
     {
-      "path": "assets/math/revision-m1ae8980e78160a8cb21d-light.svg",
+      "path": "assets/math/formula-m1ae8980e78160a8cb21d-light.svg",
       "bytes": 12802,
       "sha256": "840c9339e3c2d21c58d6b828ab01ea19951fcf2c1aa5ac83adb6b5e3c16ac53f"
     },
     {
-      "path": "assets/math/revision-m1c98122f571437e0f959-dark.svg",
+      "path": "assets/math/formula-m1c98122f571437e0f959-dark.svg",
       "bytes": 26428,
       "sha256": "a475298ded369466b9cdccfdff00a410c930abc7959bb8bac4fb6b4f627b2e3a"
     },
     {
-      "path": "assets/math/revision-m1c98122f571437e0f959-light.svg",
+      "path": "assets/math/formula-m1c98122f571437e0f959-light.svg",
       "bytes": 26428,
       "sha256": "e593914295e60a037b8b9e106c622e3e5b4a95965d697161e4a68573361ebc80"
     },
     {
-      "path": "assets/math/revision-m1fabc8cfb44d57abbbad-dark.svg",
+      "path": "assets/math/formula-m1fabc8cfb44d57abbbad-dark.svg",
       "bytes": 18250,
       "sha256": "45cf6c52af5761f633d04496d06ff4ce0c6530b6d6d00ae2c42f4621b69c37a3"
     },
     {
-      "path": "assets/math/revision-m1fabc8cfb44d57abbbad-light.svg",
+      "path": "assets/math/formula-m1fabc8cfb44d57abbbad-light.svg",
       "bytes": 18250,
       "sha256": "495502694ab78f727ea6fc8dcf4d8e1c3bdb6fc27d02ce77e1892624be877c45"
     },
     {
-      "path": "assets/math/revision-m210f69d59c8d43db5898-dark.svg",
+      "path": "assets/math/formula-m210f69d59c8d43db5898-dark.svg",
       "bytes": 27927,
       "sha256": "d911413c9e087fb1a503c612e7cdd0d79f3d3e4615f92230e10479495b9f349f"
     },
     {
-      "path": "assets/math/revision-m210f69d59c8d43db5898-light.svg",
+      "path": "assets/math/formula-m210f69d59c8d43db5898-light.svg",
       "bytes": 27927,
       "sha256": "768b2b91cb4d9315660b75b79ffc4b19cc6d923e8068d1350f3e2de99261fe27"
     },
     {
-      "path": "assets/math/revision-m21ff468558e2e41d8549-dark.svg",
+      "path": "assets/math/formula-m21ff468558e2e41d8549-dark.svg",
       "bytes": 27129,
       "sha256": "6124f2f80787131ae42642f1116f7561e4fbb38da97ceae579c10fc71bb82427"
     },
     {
-      "path": "assets/math/revision-m21ff468558e2e41d8549-light.svg",
+      "path": "assets/math/formula-m21ff468558e2e41d8549-light.svg",
       "bytes": 27129,
       "sha256": "210cc6b033f34c967bbdf8c89cd701e104cdfb64c5eef499864db962050c7a0f"
     },
     {
-      "path": "assets/math/revision-m239e8cd3cf4cb48b9df0-dark.svg",
+      "path": "assets/math/formula-m239e8cd3cf4cb48b9df0-dark.svg",
       "bytes": 18615,
       "sha256": "2fe3af02bfc5dad5f1aad1cf49d72ffc9a5356169377e735a51c1bae9272deb3"
     },
     {
-      "path": "assets/math/revision-m239e8cd3cf4cb48b9df0-light.svg",
+      "path": "assets/math/formula-m239e8cd3cf4cb48b9df0-light.svg",
       "bytes": 18615,
       "sha256": "503a0415bf0e171f6bbfc71efd9ee820fa3f577ab48a97be64e7f8484c77402f"
     },
     {
-      "path": "assets/math/revision-m248500d570ff051718a2-dark.svg",
+      "path": "assets/math/formula-m248500d570ff051718a2-dark.svg",
       "bytes": 31033,
       "sha256": "52f0823a9e7f2c074ff4aff6ade3a2221b71796178ea2b2d8ab4f0f2437cb1bd"
     },
     {
-      "path": "assets/math/revision-m248500d570ff051718a2-light.svg",
+      "path": "assets/math/formula-m248500d570ff051718a2-light.svg",
       "bytes": 31033,
       "sha256": "8872295a0df90dca193955a5ce63c05031f900d6562e0def7de280ed5cd5be67"
     },
     {
-      "path": "assets/math/revision-m258623a95c2e0f40158b-dark.svg",
+      "path": "assets/math/formula-m258623a95c2e0f40158b-dark.svg",
       "bytes": 7840,
       "sha256": "0491f96d83916928d173fd26f9082bf171cb63f4bda7c7bc8d1e99e799f90afd"
     },
     {
-      "path": "assets/math/revision-m258623a95c2e0f40158b-light.svg",
+      "path": "assets/math/formula-m258623a95c2e0f40158b-light.svg",
       "bytes": 7840,
       "sha256": "b9663bd161846cab3b646172765177025c95385c79ea6e84b0631e7918efd146"
     },
     {
-      "path": "assets/math/revision-m27d091677b936515e736-dark.svg",
+      "path": "assets/math/formula-m27d091677b936515e736-dark.svg",
       "bytes": 33496,
       "sha256": "c1a96502ebff2cb62b371fc1bfd5013caf27f734a7d3164312c2ebfa24c0761e"
     },
     {
-      "path": "assets/math/revision-m27d091677b936515e736-light.svg",
+      "path": "assets/math/formula-m27d091677b936515e736-light.svg",
       "bytes": 33496,
       "sha256": "1d542589cb4e261e61fe9373d432576ddab42604be54e7420de7f7d20aaeab56"
     },
     {
-      "path": "assets/math/revision-m27f8d15cf4861b181148-dark.svg",
+      "path": "assets/math/formula-m27f8d15cf4861b181148-dark.svg",
       "bytes": 13541,
       "sha256": "e08686c7aed7e56de2559bfe1b5c19530809c22b396be5598e0d7fbea5b8140e"
     },
     {
-      "path": "assets/math/revision-m27f8d15cf4861b181148-light.svg",
+      "path": "assets/math/formula-m27f8d15cf4861b181148-light.svg",
       "bytes": 13541,
       "sha256": "a7abc0eeee84c0d276b4653789b2a12b70595a2be608754239ddc1c8c7a8b798"
     },
     {
-      "path": "assets/math/revision-m299c90d217fa138ac77c-dark.svg",
+      "path": "assets/math/formula-m299c90d217fa138ac77c-dark.svg",
       "bytes": 28786,
       "sha256": "3cff66bd607d134e7e57def2c872dcf7b8db72bfd99f0e79b26a2888715b6265"
     },
     {
-      "path": "assets/math/revision-m299c90d217fa138ac77c-light.svg",
+      "path": "assets/math/formula-m299c90d217fa138ac77c-light.svg",
       "bytes": 28786,
       "sha256": "fbb9caf52915accc991c1f2a6d7a0550f09d797a2abeb2ab1ed608fda24abafa"
     },
     {
-      "path": "assets/math/revision-m2cfdf8ca572c9c4412c1-dark.svg",
+      "path": "assets/math/formula-m2cfdf8ca572c9c4412c1-dark.svg",
       "bytes": 24194,
       "sha256": "279646f567998e540726fb990e3f2775297f92ce79bd636aad2dc83d20626860"
     },
     {
-      "path": "assets/math/revision-m2cfdf8ca572c9c4412c1-light.svg",
+      "path": "assets/math/formula-m2cfdf8ca572c9c4412c1-light.svg",
       "bytes": 24194,
       "sha256": "fb06f4f725dd0f1f871650991ee4bc8cc6babaaca8966001d685b0576159fe43"
     },
     {
-      "path": "assets/math/revision-m2d01afa0ea860e1d58c8-dark.svg",
+      "path": "assets/math/formula-m2d01afa0ea860e1d58c8-dark.svg",
       "bytes": 13823,
       "sha256": "3a09fcc78d95fb58ee9717438920e93469c7d2ef45f87a027547259b8ea81607"
     },
     {
-      "path": "assets/math/revision-m2d01afa0ea860e1d58c8-light.svg",
+      "path": "assets/math/formula-m2d01afa0ea860e1d58c8-light.svg",
       "bytes": 13823,
       "sha256": "570647d3f801c4a778df2797eb4d04c8210b4173100511d90ea14575e66ac0c5"
     },
     {
-      "path": "assets/math/revision-m2f2497a9d2318bda5830-dark.svg",
+      "path": "assets/math/formula-m2f2497a9d2318bda5830-dark.svg",
       "bytes": 18807,
       "sha256": "758fb575be8f671e05a037d0fb0861b9e9e7abdfa9e5a08e9e640393d5f29ca3"
     },
     {
-      "path": "assets/math/revision-m2f2497a9d2318bda5830-light.svg",
+      "path": "assets/math/formula-m2f2497a9d2318bda5830-light.svg",
       "bytes": 18807,
       "sha256": "b0993a799c211d0ac4575903c8d2e95d97034dc649d2ec648f2229449fe8eff1"
     },
     {
-      "path": "assets/math/revision-m3131a33dc71a138d95c4-dark.svg",
+      "path": "assets/math/formula-m3131a33dc71a138d95c4-dark.svg",
       "bytes": 25369,
       "sha256": "668629ea08edee7c813c9b5ad40ed6d9aebdebde0ceb583426580bc07e085e2b"
     },
     {
-      "path": "assets/math/revision-m3131a33dc71a138d95c4-light.svg",
+      "path": "assets/math/formula-m3131a33dc71a138d95c4-light.svg",
       "bytes": 25369,
       "sha256": "8d0e9719c7a21b21e3d88f4672a998b8f18eed8cc2ffa1f12cdd0d0ebf7cf277"
     },
     {
-      "path": "assets/math/revision-m31cd36e3ce007e1ff8db-dark.svg",
+      "path": "assets/math/formula-m31cd36e3ce007e1ff8db-dark.svg",
       "bytes": 33055,
       "sha256": "1255a67ae3bd2b53129603a258e310c5e10066843d50c8decfade0aa5250aaa8"
     },
     {
-      "path": "assets/math/revision-m31cd36e3ce007e1ff8db-light.svg",
+      "path": "assets/math/formula-m31cd36e3ce007e1ff8db-light.svg",
       "bytes": 33055,
       "sha256": "43ed1d75210ee04a0e8a5d9fd467a3bce1134586dd7000807757e36927df9810"
     },
     {
-      "path": "assets/math/revision-m3335a3bf696783ece74c-dark.svg",
+      "path": "assets/math/formula-m3335a3bf696783ece74c-dark.svg",
       "bytes": 19283,
       "sha256": "45ae436feffdddf4c35b38a0c62d6aea1c8609e72cf394dfc91a02cfefe87d86"
     },
     {
-      "path": "assets/math/revision-m3335a3bf696783ece74c-light.svg",
+      "path": "assets/math/formula-m3335a3bf696783ece74c-light.svg",
       "bytes": 19283,
       "sha256": "0e9e85068c39cddbbae0777aa65ebcc474c1e2dfa662aacf14392edfcbd30888"
     },
     {
-      "path": "assets/math/revision-m333b7de783d758bd257c-dark.svg",
+      "path": "assets/math/formula-m333b7de783d758bd257c-dark.svg",
       "bytes": 28068,
       "sha256": "eca196db50c9c6100c3bb4c99eb920fa4c10d373180d0392a61ce7f0292c815b"
     },
     {
-      "path": "assets/math/revision-m333b7de783d758bd257c-light.svg",
+      "path": "assets/math/formula-m333b7de783d758bd257c-light.svg",
       "bytes": 28068,
       "sha256": "65c8aa7bd8ba5b0d31ee7c1c422115b1aeac3ce38af6975053ae632c23ec865d"
     },
     {
-      "path": "assets/math/revision-m3823f28bae53fd560c83-dark.svg",
+      "path": "assets/math/formula-m3823f28bae53fd560c83-dark.svg",
       "bytes": 20683,
       "sha256": "1afd2874f5ab312165e997de7842e3b023cdd91e94253840390d0b33aa41c80e"
     },
     {
-      "path": "assets/math/revision-m3823f28bae53fd560c83-light.svg",
+      "path": "assets/math/formula-m3823f28bae53fd560c83-light.svg",
       "bytes": 20683,
       "sha256": "300201daa1f3673fe5352c8698d55bbc6c97da99e5299c086be451a913900b7e"
     },
     {
-      "path": "assets/math/revision-m386e3d157e0003519668-dark.svg",
+      "path": "assets/math/formula-m386e3d157e0003519668-dark.svg",
       "bytes": 21365,
       "sha256": "37b6c87c0995395d8ac84081bfc7f882fb78562e63ebc24c4e6fedfeca66c2fd"
     },
     {
-      "path": "assets/math/revision-m386e3d157e0003519668-light.svg",
+      "path": "assets/math/formula-m386e3d157e0003519668-light.svg",
       "bytes": 21365,
       "sha256": "b56458936e3940a3b18456b47668f5640dc3669e519e71f8a28a41a4daac2609"
     },
     {
-      "path": "assets/math/revision-m399cf3699ac91031e000-dark.svg",
+      "path": "assets/math/formula-m399cf3699ac91031e000-dark.svg",
       "bytes": 26967,
       "sha256": "34d7e8aed64a075f547bc53a1612af13eccaf7c95acd9392c81254903cddd4c0"
     },
     {
-      "path": "assets/math/revision-m399cf3699ac91031e000-light.svg",
+      "path": "assets/math/formula-m399cf3699ac91031e000-light.svg",
       "bytes": 26967,
       "sha256": "43b78c87b77cb747bbc261d5f0d00fc236ff4346131ab22f0e248c860782a1f0"
     },
     {
-      "path": "assets/math/revision-m3a485e5e485cf0d48b79-dark.svg",
+      "path": "assets/math/formula-m3a485e5e485cf0d48b79-dark.svg",
       "bytes": 20372,
       "sha256": "21c15347ec1e8534ebc505be8e6bdb54c7b0006c3ecc1eab5875ff4247ddff44"
     },
     {
-      "path": "assets/math/revision-m3a485e5e485cf0d48b79-light.svg",
+      "path": "assets/math/formula-m3a485e5e485cf0d48b79-light.svg",
       "bytes": 20372,
       "sha256": "93396d12b8dce6c9fda7243c8486c933ea35f4109ed1f8136b1f3f15e1528df8"
     },
     {
-      "path": "assets/math/revision-m3acd87b6c6e0645aed71-dark.svg",
+      "path": "assets/math/formula-m3acd87b6c6e0645aed71-dark.svg",
       "bytes": 20125,
       "sha256": "ceb3bf3f15b52468093ef59e66ad4d438b3a396b064e4f4d950d7fbdaebc0a69"
     },
     {
-      "path": "assets/math/revision-m3acd87b6c6e0645aed71-light.svg",
+      "path": "assets/math/formula-m3acd87b6c6e0645aed71-light.svg",
       "bytes": 20125,
       "sha256": "713413bf37aa808bf1c2a6f5a8586f09e2872ec36f0df9bc82e5d316d647e207"
     },
     {
-      "path": "assets/math/revision-m3c265aa03ea50116803a-dark.svg",
+      "path": "assets/math/formula-m3c265aa03ea50116803a-dark.svg",
       "bytes": 30156,
       "sha256": "6212409f33ffba8a7b5d3d37063ebe44ca07dc8b45edcdf83c613ce2aeda060c"
     },
     {
-      "path": "assets/math/revision-m3c265aa03ea50116803a-light.svg",
+      "path": "assets/math/formula-m3c265aa03ea50116803a-light.svg",
       "bytes": 30156,
       "sha256": "f0105e46bfe6f65f60eaed0f899b8b0983fd26ef3a02ad0084bf50c73da613fc"
     },
     {
-      "path": "assets/math/revision-m3e16f06028e526e788e5-dark.svg",
+      "path": "assets/math/formula-m3e16f06028e526e788e5-dark.svg",
       "bytes": 8864,
       "sha256": "bbc1ebdee11e4335a45f929113930ef57003ca3409b41c9bf382e3e7975eab3b"
     },
     {
-      "path": "assets/math/revision-m3e16f06028e526e788e5-light.svg",
+      "path": "assets/math/formula-m3e16f06028e526e788e5-light.svg",
       "bytes": 8864,
       "sha256": "0160adc1a1071cdb0f2aa2d0d36bd4303bc7fd26a1b7bc792714fc3f0acfd268"
     },
     {
-      "path": "assets/math/revision-m406ee5b99ebe57f89d12-dark.svg",
+      "path": "assets/math/formula-m406ee5b99ebe57f89d12-dark.svg",
       "bytes": 20474,
       "sha256": "8aff5d239193c443d19ff832a880e5963c608cce4bc71b6004bfe5cbe32b84ec"
     },
     {
-      "path": "assets/math/revision-m406ee5b99ebe57f89d12-light.svg",
+      "path": "assets/math/formula-m406ee5b99ebe57f89d12-light.svg",
       "bytes": 20474,
       "sha256": "95fab271f9969128bd1867a75b4782cdcda849798f8c55a2325696f4677e98cc"
     },
     {
-      "path": "assets/math/revision-m40d60e0b6350ce988e4e-dark.svg",
+      "path": "assets/math/formula-m40d60e0b6350ce988e4e-dark.svg",
       "bytes": 13511,
       "sha256": "27d4496796698bd9d826707f0db211819e4c05fabb0ace1524f0dd932220862b"
     },
     {
-      "path": "assets/math/revision-m40d60e0b6350ce988e4e-light.svg",
+      "path": "assets/math/formula-m40d60e0b6350ce988e4e-light.svg",
       "bytes": 13511,
       "sha256": "11fa8db231a77d6ba0a6ea74da1da33ce9ac47ed958c66ed845f6697a1a4ee94"
     },
     {
-      "path": "assets/math/revision-m41b697f647dc9d741f8e-dark.svg",
+      "path": "assets/math/formula-m41b697f647dc9d741f8e-dark.svg",
       "bytes": 12938,
       "sha256": "c2b77ed504150bdf5510085d73103bd8276cd1bdf83b60e116c365b6a4d72dbf"
     },
     {
-      "path": "assets/math/revision-m41b697f647dc9d741f8e-light.svg",
+      "path": "assets/math/formula-m41b697f647dc9d741f8e-light.svg",
       "bytes": 12938,
       "sha256": "205d67497154f5c1a1a52a31dab6302a1b1d889363b05323cb5a2e77c03dcd49"
     },
     {
-      "path": "assets/math/revision-m4333ec4cc6a31c1a3963-dark.svg",
+      "path": "assets/math/formula-m4333ec4cc6a31c1a3963-dark.svg",
       "bytes": 34237,
       "sha256": "76e012427af613837f532df9ff220e5e16539d08931a817320c021bf2da97122"
     },
     {
-      "path": "assets/math/revision-m4333ec4cc6a31c1a3963-light.svg",
+      "path": "assets/math/formula-m4333ec4cc6a31c1a3963-light.svg",
       "bytes": 34237,
       "sha256": "abb8fe52c451460e0dda07944573061ca9b64da4c707c0870473f76e6d0a92fc"
     },
     {
-      "path": "assets/math/revision-m43558d199c7ad78930a0-dark.svg",
+      "path": "assets/math/formula-m43558d199c7ad78930a0-dark.svg",
       "bytes": 18609,
       "sha256": "a6e749f6b606b049247b3ddb5af527768e47cbc9824149273d23ede0849508c2"
     },
     {
-      "path": "assets/math/revision-m43558d199c7ad78930a0-light.svg",
+      "path": "assets/math/formula-m43558d199c7ad78930a0-light.svg",
       "bytes": 18609,
       "sha256": "87ac7367f8248e7c92b8618e04e7daa9b8919f6a9d265a1d0ff91045c454d580"
     },
     {
-      "path": "assets/math/revision-m449bed1346d6e237aadc-dark.svg",
+      "path": "assets/math/formula-m449bed1346d6e237aadc-dark.svg",
       "bytes": 28259,
       "sha256": "1d1ae9accd148ee7d920495ae060d61c79938a175d18f1013f96d5eb1fb5f7ec"
     },
     {
-      "path": "assets/math/revision-m449bed1346d6e237aadc-light.svg",
+      "path": "assets/math/formula-m449bed1346d6e237aadc-light.svg",
       "bytes": 28259,
       "sha256": "b21e999135fd0648d392df6a48f1b41f000468ad1f925ce985835f2572bb9766"
     },
     {
-      "path": "assets/math/revision-m4508e1802855dbd4ce41-dark.svg",
+      "path": "assets/math/formula-m4508e1802855dbd4ce41-dark.svg",
       "bytes": 18332,
       "sha256": "a3b6fb3d84566749cf92bf4ba4c575b3bb1be843e8572eff8ccfa9ae6107cc08"
     },
     {
-      "path": "assets/math/revision-m4508e1802855dbd4ce41-light.svg",
+      "path": "assets/math/formula-m4508e1802855dbd4ce41-light.svg",
       "bytes": 18332,
       "sha256": "b7f3770a01ea0a23d46b7ecfd50245b18504c3f0e51ae6dba7cdcbbebba1ad49"
     },
     {
-      "path": "assets/math/revision-m474f06f8f66469431d1d-dark.svg",
+      "path": "assets/math/formula-m474f06f8f66469431d1d-dark.svg",
       "bytes": 15941,
       "sha256": "ee4f22cc64ec443a1a73d7fafa9532e668f8cc65a2d6fd10849ed501c4a2d33d"
     },
     {
-      "path": "assets/math/revision-m474f06f8f66469431d1d-light.svg",
+      "path": "assets/math/formula-m474f06f8f66469431d1d-light.svg",
       "bytes": 15941,
       "sha256": "befe719a90f809492bbc5198cedc9b53de85b5f149671105977f1f40b1a78867"
     },
     {
-      "path": "assets/math/revision-m47662bf3dc5b2456c4d8-dark.svg",
+      "path": "assets/math/formula-m47662bf3dc5b2456c4d8-dark.svg",
       "bytes": 19101,
       "sha256": "fa93ef7ea5adbf14cf158f4f26690ea1edb9027d7c4ef886d4237ed51773347c"
     },
     {
-      "path": "assets/math/revision-m47662bf3dc5b2456c4d8-light.svg",
+      "path": "assets/math/formula-m47662bf3dc5b2456c4d8-light.svg",
       "bytes": 19101,
       "sha256": "8d4adcdcd3f7d5188e823d0c9816ff0daedb79246e32e4f68a93c3fb02e8a14f"
     },
     {
-      "path": "assets/math/revision-m47dc635010ff0b48de7e-dark.svg",
+      "path": "assets/math/formula-m47dc635010ff0b48de7e-dark.svg",
       "bytes": 19391,
       "sha256": "41e555c78ef84109d28c5d5d48540c7886b01cab9523518919e5a56250fdba43"
     },
     {
-      "path": "assets/math/revision-m47dc635010ff0b48de7e-light.svg",
+      "path": "assets/math/formula-m47dc635010ff0b48de7e-light.svg",
       "bytes": 19391,
       "sha256": "5f4b64647ebfcc50637e5649ee575057d61846ee845fd70a96100115019432fd"
     },
     {
-      "path": "assets/math/revision-m485ccbb6e2ae92543d21-dark.svg",
+      "path": "assets/math/formula-m485ccbb6e2ae92543d21-dark.svg",
       "bytes": 27132,
       "sha256": "cc33e8df076b0f27318a75ac7612cff4b0c0b9529820d225029d0d6eea412d68"
     },
     {
-      "path": "assets/math/revision-m485ccbb6e2ae92543d21-light.svg",
+      "path": "assets/math/formula-m485ccbb6e2ae92543d21-light.svg",
       "bytes": 27132,
       "sha256": "7acb17c040ad36cff0fa011a63aec77e45acfb83db9a36b599455f19d130ac10"
     },
     {
-      "path": "assets/math/revision-m48eca81c5b2870db1eb2-dark.svg",
+      "path": "assets/math/formula-m48eca81c5b2870db1eb2-dark.svg",
       "bytes": 20554,
       "sha256": "8486dbaa28d7fa073ab7109d83daad9ebdc64998f61fdadbe39aeb6333d54538"
     },
     {
-      "path": "assets/math/revision-m48eca81c5b2870db1eb2-light.svg",
+      "path": "assets/math/formula-m48eca81c5b2870db1eb2-light.svg",
       "bytes": 20554,
       "sha256": "56c5c9efee7eef800bcd03ab38a4fd2205040674597b21e71345dc77e099e46c"
     },
     {
-      "path": "assets/math/revision-m4cca14904f489e1bd23c-dark.svg",
+      "path": "assets/math/formula-m4cca14904f489e1bd23c-dark.svg",
       "bytes": 14876,
       "sha256": "8da59edef32b27f76161dd076318d414b6db0d9d289cb13c74be4ed7cfb71524"
     },
     {
-      "path": "assets/math/revision-m4cca14904f489e1bd23c-light.svg",
+      "path": "assets/math/formula-m4cca14904f489e1bd23c-light.svg",
       "bytes": 14876,
       "sha256": "75235f504dab50d555ddae3d8aedb6d26b72fecbd1c1236f283f79672c932363"
     },
     {
-      "path": "assets/math/revision-m4daabc90e549e2acb501-dark.svg",
+      "path": "assets/math/formula-m4daabc90e549e2acb501-dark.svg",
       "bytes": 40581,
       "sha256": "ceca08d9bcd756f6048a67c050bf092e4b6ea336bc8a2feb09692e7cf6498844"
     },
     {
-      "path": "assets/math/revision-m4daabc90e549e2acb501-light.svg",
+      "path": "assets/math/formula-m4daabc90e549e2acb501-light.svg",
       "bytes": 40581,
       "sha256": "f13b3d75542ffeb1735c454c1f10463dfab05d30dc99820f11cfa808bf525ce7"
     },
     {
-      "path": "assets/math/revision-m4e476aa8102dfa62ce52-dark.svg",
+      "path": "assets/math/formula-m4e476aa8102dfa62ce52-dark.svg",
       "bytes": 14356,
       "sha256": "c7c08d9cdd8638c96197f11e30403ab23b8124062f22fe5664d92304bb8b7920"
     },
     {
-      "path": "assets/math/revision-m4e476aa8102dfa62ce52-light.svg",
+      "path": "assets/math/formula-m4e476aa8102dfa62ce52-light.svg",
       "bytes": 14356,
       "sha256": "29f78d913102964f6b04bc15847a7c86dde6fe7c383a0e67ce1c2c0d54967f8e"
     },
     {
-      "path": "assets/math/revision-m503bad42005b5caced27-dark.svg",
+      "path": "assets/math/formula-m503bad42005b5caced27-dark.svg",
       "bytes": 18033,
       "sha256": "266fa958be0fc599fcb6eed6a33ee29e25dc909eb0b465e192aea6320e66c957"
     },
     {
-      "path": "assets/math/revision-m503bad42005b5caced27-light.svg",
+      "path": "assets/math/formula-m503bad42005b5caced27-light.svg",
       "bytes": 18033,
       "sha256": "fd74b43ad2c1a0f8efd9ba0ddbb60b4175122e9ef9cef1da2bdc08aceae50c3c"
     },
     {
-      "path": "assets/math/revision-m50a733feb125260a0500-dark.svg",
+      "path": "assets/math/formula-m50a733feb125260a0500-dark.svg",
       "bytes": 9743,
       "sha256": "699980391baf552b7a5869a10d64389f656c72f0b76f415b9bd0d3699d3a7429"
     },
     {
-      "path": "assets/math/revision-m50a733feb125260a0500-light.svg",
+      "path": "assets/math/formula-m50a733feb125260a0500-light.svg",
       "bytes": 9743,
       "sha256": "73d6bad1870c6ff0810c3618584b9db7e82abf69b15a940c72d83d452b19b778"
     },
     {
-      "path": "assets/math/revision-m51d06987f70433cf41a2-dark.svg",
+      "path": "assets/math/formula-m51d06987f70433cf41a2-dark.svg",
       "bytes": 17694,
       "sha256": "3aabe5c4a3c4ff6a6189c62362d7289a50043a70edab8c966ce76de932389d11"
     },
     {
-      "path": "assets/math/revision-m51d06987f70433cf41a2-light.svg",
+      "path": "assets/math/formula-m51d06987f70433cf41a2-light.svg",
       "bytes": 17694,
       "sha256": "a92950ad29aa5d26f032fa321ca9bfae0763914ca721653deaafce9e94cbba19"
     },
     {
-      "path": "assets/math/revision-m53b8245321f8b8cc6658-dark.svg",
+      "path": "assets/math/formula-m53b8245321f8b8cc6658-dark.svg",
       "bytes": 20616,
       "sha256": "591a364c00ab61abc224f2d555de2bd25f8cafbc186a4fc0759a231a545992d6"
     },
     {
-      "path": "assets/math/revision-m53b8245321f8b8cc6658-light.svg",
+      "path": "assets/math/formula-m53b8245321f8b8cc6658-light.svg",
       "bytes": 20616,
       "sha256": "3d6a60b7d8c779f9893bf0222a68d50b8d2856e0ead5e142485418a912e33df8"
     },
     {
-      "path": "assets/math/revision-m5497a0df5bc0ee01d357-dark.svg",
+      "path": "assets/math/formula-m5497a0df5bc0ee01d357-dark.svg",
       "bytes": 45891,
       "sha256": "9ed1b99d6b93f59d946f6b8780088952f0c26c797ce276bc08e28276bb16297b"
     },
     {
-      "path": "assets/math/revision-m5497a0df5bc0ee01d357-light.svg",
+      "path": "assets/math/formula-m5497a0df5bc0ee01d357-light.svg",
       "bytes": 45891,
       "sha256": "66c24e1ea538af1396634460fc612ee128dbb4e0d6c25be0524a6dd38d6a909a"
     },
     {
-      "path": "assets/math/revision-m57d1c2be2f9b254dedf3-dark.svg",
+      "path": "assets/math/formula-m57d1c2be2f9b254dedf3-dark.svg",
       "bytes": 16687,
       "sha256": "038fe3e8d42fd25e58025cce57e020f6e7cec91ca14d4801620f267b82175f90"
     },
     {
-      "path": "assets/math/revision-m57d1c2be2f9b254dedf3-light.svg",
+      "path": "assets/math/formula-m57d1c2be2f9b254dedf3-light.svg",
       "bytes": 16687,
       "sha256": "ac4e57586cafd9d4de1353da8d9629d513c3e177ae03434dbcd07e4562f5d197"
     },
     {
-      "path": "assets/math/revision-m5877bb2d3e684e942373-dark.svg",
+      "path": "assets/math/formula-m5877bb2d3e684e942373-dark.svg",
       "bytes": 18040,
       "sha256": "a234001652250d9f887c9e13599c2277a8ed649f2f3dcb70bf8680e59e9c16db"
     },
     {
-      "path": "assets/math/revision-m5877bb2d3e684e942373-light.svg",
+      "path": "assets/math/formula-m5877bb2d3e684e942373-light.svg",
       "bytes": 18040,
       "sha256": "bb2d251d98afa0bb9b34ca4f60432bb058a90d23f7cbef3d1fef23e9f2948c60"
     },
     {
-      "path": "assets/math/revision-m58b64dfb88a961863e8b-dark.svg",
+      "path": "assets/math/formula-m58b64dfb88a961863e8b-dark.svg",
       "bytes": 25940,
       "sha256": "b9a5405caa166e03495bd4814ae3f3a7f4f5de50b687cb3496a965681ce9e3f4"
     },
     {
-      "path": "assets/math/revision-m58b64dfb88a961863e8b-light.svg",
+      "path": "assets/math/formula-m58b64dfb88a961863e8b-light.svg",
       "bytes": 25940,
       "sha256": "e38f8a6edfdb9ad325c1c1690467311ac36f55a90b81d575ab405dea6053fcc5"
     },
     {
-      "path": "assets/math/revision-m5b1bea635df3c87ff5a9-dark.svg",
+      "path": "assets/math/formula-m5b1bea635df3c87ff5a9-dark.svg",
       "bytes": 14394,
       "sha256": "2b3435e7670bc40b4ca1707e9c01de9c7792a976e94b9ae0948984c66d78390b"
     },
     {
-      "path": "assets/math/revision-m5b1bea635df3c87ff5a9-light.svg",
+      "path": "assets/math/formula-m5b1bea635df3c87ff5a9-light.svg",
       "bytes": 14394,
       "sha256": "112faf2379d6215e472299180769c5208512a2f82a5baf8cab53ffdbd586eea6"
     },
     {
-      "path": "assets/math/revision-m5b8b8db55dfdad90beea-dark.svg",
+      "path": "assets/math/formula-m5b8b8db55dfdad90beea-dark.svg",
       "bytes": 23636,
       "sha256": "e0d78d08db99b0797d4c2ec1963c9ab9430b9b546a3a93f5a3fb108b4ae39f1c"
     },
     {
-      "path": "assets/math/revision-m5b8b8db55dfdad90beea-light.svg",
+      "path": "assets/math/formula-m5b8b8db55dfdad90beea-light.svg",
       "bytes": 23636,
       "sha256": "d7b9b069063332fcfe885319c037d62152298f0c51aae1a3306250f627e9ec50"
     },
     {
-      "path": "assets/math/revision-m5e138acf3da7b691fd4b-dark.svg",
+      "path": "assets/math/formula-m5e138acf3da7b691fd4b-dark.svg",
       "bytes": 29423,
       "sha256": "1f959f111d37bc9de5e8c9cc3ead9739cee04569fe0cc0f0cd229c77de0055cc"
     },
     {
-      "path": "assets/math/revision-m5e138acf3da7b691fd4b-light.svg",
+      "path": "assets/math/formula-m5e138acf3da7b691fd4b-light.svg",
       "bytes": 29423,
       "sha256": "a727cef39eab484b1ce2077433c7472b1c3381bd223fdfd1ec34a1133d8f678a"
     },
     {
-      "path": "assets/math/revision-m5e9f47c3c15bf72dcc07-dark.svg",
+      "path": "assets/math/formula-m5e9f47c3c15bf72dcc07-dark.svg",
       "bytes": 26553,
       "sha256": "e7b5df2582cb848128245442e22df94b0f831a52441be806d897ede185b3fba8"
     },
     {
-      "path": "assets/math/revision-m5e9f47c3c15bf72dcc07-light.svg",
+      "path": "assets/math/formula-m5e9f47c3c15bf72dcc07-light.svg",
       "bytes": 26553,
       "sha256": "ab74834c9225e79397c06ded98e64e0b8a622d0faae606bc3946ede934c4196a"
     },
     {
-      "path": "assets/math/revision-m618afda29f8a501d8002-dark.svg",
+      "path": "assets/math/formula-m618afda29f8a501d8002-dark.svg",
       "bytes": 22542,
       "sha256": "91de7981d4f378fcddcdd4767a8243c63b1eba18a943ce7e2fa398857380dc58"
     },
     {
-      "path": "assets/math/revision-m618afda29f8a501d8002-light.svg",
+      "path": "assets/math/formula-m618afda29f8a501d8002-light.svg",
       "bytes": 22542,
       "sha256": "adcc58c90d847e1e879d1cc93dc89770375811876243a6ba8b8934436a6cfcc5"
     },
     {
-      "path": "assets/math/revision-m652af7b362d9deccf3ac-dark.svg",
+      "path": "assets/math/formula-m652af7b362d9deccf3ac-dark.svg",
       "bytes": 12950,
       "sha256": "50eac9edad639cbcdd75a96828f62178c8140cbb8cc22cde8c48a0b2bcf878ee"
     },
     {
-      "path": "assets/math/revision-m652af7b362d9deccf3ac-light.svg",
+      "path": "assets/math/formula-m652af7b362d9deccf3ac-light.svg",
       "bytes": 12950,
       "sha256": "d9415188faf32a05dedf6a65487ee823f3457f348d26e443ed18e98701b2561f"
     },
     {
-      "path": "assets/math/revision-m653a2a0f5f991ab3f32a-dark.svg",
+      "path": "assets/math/formula-m653a2a0f5f991ab3f32a-dark.svg",
       "bytes": 27785,
       "sha256": "1a5e95056942cf094476a34653e0dfafc8d048b08c59ce5c4cb64c8f94b1a882"
     },
     {
-      "path": "assets/math/revision-m653a2a0f5f991ab3f32a-light.svg",
+      "path": "assets/math/formula-m653a2a0f5f991ab3f32a-light.svg",
       "bytes": 27785,
       "sha256": "8e14200b0e7fc56e13141ecdc0ce662c98edf5d904ed1401e99a4bbe2bab4942"
     },
     {
-      "path": "assets/math/revision-m68641a145d09dc819c92-dark.svg",
+      "path": "assets/math/formula-m68641a145d09dc819c92-dark.svg",
       "bytes": 26016,
       "sha256": "d21b60c900b14d26022a7375b8e02f197e0bf6d8655b3ede9275d726a53ee1b9"
     },
     {
-      "path": "assets/math/revision-m68641a145d09dc819c92-light.svg",
+      "path": "assets/math/formula-m68641a145d09dc819c92-light.svg",
       "bytes": 26016,
       "sha256": "7ba59b366e8cb3df80fff56e5edee94b71e365098e59066ea2c12b8b94bd482e"
     },
     {
-      "path": "assets/math/revision-m6c4a5a1ebe1c657fb70f-dark.svg",
+      "path": "assets/math/formula-m6c4a5a1ebe1c657fb70f-dark.svg",
       "bytes": 31979,
       "sha256": "02402493e8af0cc425934b00ee468272117f79b560354ab4dfeb03b2de39c40b"
     },
     {
-      "path": "assets/math/revision-m6c4a5a1ebe1c657fb70f-light.svg",
+      "path": "assets/math/formula-m6c4a5a1ebe1c657fb70f-light.svg",
       "bytes": 31979,
       "sha256": "b3f9d24a5ff677ac082e68e7ee9cd1dc32b7eda1aa53d0c653932e3bd2d084c4"
     },
     {
-      "path": "assets/math/revision-m6c7df98107c71b7cd077-dark.svg",
+      "path": "assets/math/formula-m6c7df98107c71b7cd077-dark.svg",
       "bytes": 21995,
       "sha256": "6035326015d96fb6902b7f47c1cc5018d123968e3d0c9ea4f1a029b1e5e6d64a"
     },
     {
-      "path": "assets/math/revision-m6c7df98107c71b7cd077-light.svg",
+      "path": "assets/math/formula-m6c7df98107c71b7cd077-light.svg",
       "bytes": 21995,
       "sha256": "ed47edc0e46d59c6df312bb3b01ccc326d1d1cee62a355a1b708469a85c70694"
     },
     {
-      "path": "assets/math/revision-m6cd9e52471857010251b-dark.svg",
+      "path": "assets/math/formula-m6cd9e52471857010251b-dark.svg",
       "bytes": 20394,
       "sha256": "0a079d4f1376519d87bd9f167667d72f7265131bd92e295ba9cf844a62ce258e"
     },
     {
-      "path": "assets/math/revision-m6cd9e52471857010251b-light.svg",
+      "path": "assets/math/formula-m6cd9e52471857010251b-light.svg",
       "bytes": 20394,
       "sha256": "5eefb01118c1739c5097a5c345ad34b592f3dc6b3aae2c21b9a48c38a599c6ed"
     },
     {
-      "path": "assets/math/revision-m6d6bbace82d7f9215077-dark.svg",
+      "path": "assets/math/formula-m6d6bbace82d7f9215077-dark.svg",
       "bytes": 72011,
       "sha256": "a75e8d172c26a810bdf4456dceb57051d498a6be36b305d4a76d1d7d3e346555"
     },
     {
-      "path": "assets/math/revision-m6d6bbace82d7f9215077-light.svg",
+      "path": "assets/math/formula-m6d6bbace82d7f9215077-light.svg",
       "bytes": 72011,
       "sha256": "642aa95718db49f3ddfa87b81fb72b1c536254e447f6d8e0e728c32fdcf4caac"
     },
     {
-      "path": "assets/math/revision-m6e285b379d2996a0a848-dark.svg",
+      "path": "assets/math/formula-m6e285b379d2996a0a848-dark.svg",
       "bytes": 20307,
       "sha256": "4686c621cfefbf5b5d8713ea0c386a0b7fa7db9b72edf7183d385a651c559db6"
     },
     {
-      "path": "assets/math/revision-m6e285b379d2996a0a848-light.svg",
+      "path": "assets/math/formula-m6e285b379d2996a0a848-light.svg",
       "bytes": 20307,
       "sha256": "1216f8f7e7b3f0e47c788c69330a2daba4f9000fa93e94d6e43d776354db6855"
     },
     {
-      "path": "assets/math/revision-m75d77794c6f31eb1f374-dark.svg",
+      "path": "assets/math/formula-m75d77794c6f31eb1f374-dark.svg",
       "bytes": 29543,
       "sha256": "3a0d1662698db5499a2312b4600b51efd69e74d186497bca75d01da1374e9282"
     },
     {
-      "path": "assets/math/revision-m75d77794c6f31eb1f374-light.svg",
+      "path": "assets/math/formula-m75d77794c6f31eb1f374-light.svg",
       "bytes": 29543,
       "sha256": "5b6c681c0c903d2d578b86948bd4be49630656aee22ba55ce1f7031657f1af65"
     },
     {
-      "path": "assets/math/revision-m76092ce1cd566e6bcd1f-dark.svg",
+      "path": "assets/math/formula-m76092ce1cd566e6bcd1f-dark.svg",
       "bytes": 28958,
       "sha256": "d3e812c59dc2d0b227a7b952e2f902dbb34be2fdf5f41062ad3543f4fc2627d7"
     },
     {
-      "path": "assets/math/revision-m76092ce1cd566e6bcd1f-light.svg",
+      "path": "assets/math/formula-m76092ce1cd566e6bcd1f-light.svg",
       "bytes": 28958,
       "sha256": "e1149ae0e00094fd231d0d45e714fe1229da6f30f0d3e852cb78e96d6678bc49"
     },
     {
-      "path": "assets/math/revision-m76298174044506b3f08e-dark.svg",
+      "path": "assets/math/formula-m76298174044506b3f08e-dark.svg",
       "bytes": 25038,
       "sha256": "e0ec79c35b1b8995b9371db11e0bec6547ac9c66a78f7a56cdf68cbefaa51da0"
     },
     {
-      "path": "assets/math/revision-m76298174044506b3f08e-light.svg",
+      "path": "assets/math/formula-m76298174044506b3f08e-light.svg",
       "bytes": 25038,
       "sha256": "f85f2b2c2219c3c2d72f386c78d660bae8fad6b9b75ed583caf1bfdb614a33f2"
     },
     {
-      "path": "assets/math/revision-m7692447cecfdb904bf89-dark.svg",
+      "path": "assets/math/formula-m7692447cecfdb904bf89-dark.svg",
       "bytes": 30211,
       "sha256": "477becc35bbcf14495daefd6ed3faba1b70d684b29da4d4521d8174c4209a87b"
     },
     {
-      "path": "assets/math/revision-m7692447cecfdb904bf89-light.svg",
+      "path": "assets/math/formula-m7692447cecfdb904bf89-light.svg",
       "bytes": 30211,
       "sha256": "5557e8bc9e702e042c1f9eb9a1d1cdc5df9d7c30efb6fd26a4aad46a8c85d260"
     },
     {
-      "path": "assets/math/revision-m7877ddc5e4e5e53bab99-dark.svg",
+      "path": "assets/math/formula-m7877ddc5e4e5e53bab99-dark.svg",
       "bytes": 17941,
       "sha256": "b46fa972f770e248968422febdd565133c729040343e55eb76cd0bef59df5fbd"
     },
     {
-      "path": "assets/math/revision-m7877ddc5e4e5e53bab99-light.svg",
+      "path": "assets/math/formula-m7877ddc5e4e5e53bab99-light.svg",
       "bytes": 17941,
       "sha256": "20524b3c5485617af999a15460fbe17b83b4465f28448385b43b1352deebefe9"
     },
     {
-      "path": "assets/math/revision-m7aaacc69d58af6fcfbed-dark.svg",
+      "path": "assets/math/formula-m7aaacc69d58af6fcfbed-dark.svg",
       "bytes": 18095,
       "sha256": "29eb27ece8b05d9a4dda15ff7b47268849b3bc0b8119f2d0e17efb80a9f5a4e1"
     },
     {
-      "path": "assets/math/revision-m7aaacc69d58af6fcfbed-light.svg",
+      "path": "assets/math/formula-m7aaacc69d58af6fcfbed-light.svg",
       "bytes": 18095,
       "sha256": "14ccaa184b837b22f3d79f4a47c9b47a787be59b3512118b75eae5a4324091f8"
     },
     {
-      "path": "assets/math/revision-m7c7e4751e9102470d3e9-dark.svg",
+      "path": "assets/math/formula-m7c7e4751e9102470d3e9-dark.svg",
       "bytes": 20686,
       "sha256": "7fa291fe39088b0414b9f1b27ec76a860725fede1e765ddef62b40311dee3375"
     },
     {
-      "path": "assets/math/revision-m7c7e4751e9102470d3e9-light.svg",
+      "path": "assets/math/formula-m7c7e4751e9102470d3e9-light.svg",
       "bytes": 20686,
       "sha256": "a456edd52e5c1547ca0f90e27af922c16bf0bddfaf6a9d0eb2320517d9d9571c"
     },
     {
-      "path": "assets/math/revision-m7e112db1217e3d71e848-dark.svg",
+      "path": "assets/math/formula-m7e112db1217e3d71e848-dark.svg",
       "bytes": 23876,
       "sha256": "73458cb27c8f9f5c18fc6f1a6a940bd16c20321feba58b51b026389de34f7f97"
     },
     {
-      "path": "assets/math/revision-m7e112db1217e3d71e848-light.svg",
+      "path": "assets/math/formula-m7e112db1217e3d71e848-light.svg",
       "bytes": 23876,
       "sha256": "8ce91527cc63a9ab4ca67ae9b4c6542c5e500f2fa3eed8566799244e02550307"
     },
     {
-      "path": "assets/math/revision-m7e9f527d48145b592234-dark.svg",
+      "path": "assets/math/formula-m7e9f527d48145b592234-dark.svg",
       "bytes": 18397,
       "sha256": "f1b1a907884f4980a401ec159cbb5e9f5e020d10598096bb7f71b7a31ad9da8a"
     },
     {
-      "path": "assets/math/revision-m7e9f527d48145b592234-light.svg",
+      "path": "assets/math/formula-m7e9f527d48145b592234-light.svg",
       "bytes": 18397,
       "sha256": "4852d245d8878bd696a0f83b89415ef3aef4709efeac1faf0328acd1c971292d"
     },
     {
-      "path": "assets/math/revision-m7f564591d6b1b4381e1b-dark.svg",
+      "path": "assets/math/formula-m7f564591d6b1b4381e1b-dark.svg",
       "bytes": 12932,
       "sha256": "0bddae4de378456548c27d18e77ce821769aa7eb5d719eb6bbad944972b2cf09"
     },
     {
-      "path": "assets/math/revision-m7f564591d6b1b4381e1b-light.svg",
+      "path": "assets/math/formula-m7f564591d6b1b4381e1b-light.svg",
       "bytes": 12932,
       "sha256": "76022bc205617fe8db5ff0712dd49095bab9025fa09f9b39cfc7a915ba60b0f2"
     },
     {
-      "path": "assets/math/revision-m7fa3a549663bb4be6d06-dark.svg",
+      "path": "assets/math/formula-m7fa3a549663bb4be6d06-dark.svg",
       "bytes": 25420,
       "sha256": "da788f71c5328f05a3a137321d1717cceeaa01eaf06502b640e906d8139234e6"
     },
     {
-      "path": "assets/math/revision-m7fa3a549663bb4be6d06-light.svg",
+      "path": "assets/math/formula-m7fa3a549663bb4be6d06-light.svg",
       "bytes": 25420,
       "sha256": "0bf1a0e027024e7bb16854568e344ece860e147ac3dd2fa5b102f66bfa988bbe"
     },
     {
-      "path": "assets/math/revision-m808104676f7deb0bc89e-dark.svg",
+      "path": "assets/math/formula-m808104676f7deb0bc89e-dark.svg",
       "bytes": 23677,
       "sha256": "ac946fe41fdb887e133320b77dad16c311fbad0e23e878d63578e9c12a4b4a25"
     },
     {
-      "path": "assets/math/revision-m808104676f7deb0bc89e-light.svg",
+      "path": "assets/math/formula-m808104676f7deb0bc89e-light.svg",
       "bytes": 23677,
       "sha256": "5b96a80ca6542a9d64b1134371d28fc5b77218e2ff0a9a3a8a6ce39eeacd8d74"
     },
     {
-      "path": "assets/math/revision-m80e0c2b9f0aec88d12de-dark.svg",
+      "path": "assets/math/formula-m80e0c2b9f0aec88d12de-dark.svg",
       "bytes": 16333,
       "sha256": "1cff9084a926afa8958d350668059d8f891c668e21d9f064ba37775045c14f24"
     },
     {
-      "path": "assets/math/revision-m80e0c2b9f0aec88d12de-light.svg",
+      "path": "assets/math/formula-m80e0c2b9f0aec88d12de-light.svg",
       "bytes": 16333,
       "sha256": "2986e5a02897431b2b97727efddea1d5461ecbefc97930d2074574692f8c25eb"
     },
     {
-      "path": "assets/math/revision-m836dadeedefbb5814399-dark.svg",
+      "path": "assets/math/formula-m836dadeedefbb5814399-dark.svg",
       "bytes": 23903,
       "sha256": "14df0eb631f3c7c6d446d43bc1996b2c881a8b8faf05e0775d45582591c0f5a8"
     },
     {
-      "path": "assets/math/revision-m836dadeedefbb5814399-light.svg",
+      "path": "assets/math/formula-m836dadeedefbb5814399-light.svg",
       "bytes": 23903,
       "sha256": "93a1d53b1e3dfd826f4e01ee0fe0fccf03720df6437ec4f5ec29e581f67bb6b5"
     },
     {
-      "path": "assets/math/revision-m842314507e1688db5bf3-dark.svg",
+      "path": "assets/math/formula-m842314507e1688db5bf3-dark.svg",
       "bytes": 11349,
       "sha256": "1f9169795857ed52d3c48c61ccd98aee57ef9acba005fe64f09f319d5fca7c9b"
     },
     {
-      "path": "assets/math/revision-m842314507e1688db5bf3-light.svg",
+      "path": "assets/math/formula-m842314507e1688db5bf3-light.svg",
       "bytes": 11349,
       "sha256": "39ba04394d584644485160761690c72afdac52cb130189fd7a557d72175aefc6"
     },
     {
-      "path": "assets/math/revision-m846e126ff1e1f0568ac7-dark.svg",
+      "path": "assets/math/formula-m846e126ff1e1f0568ac7-dark.svg",
       "bytes": 20841,
       "sha256": "1e5bf716a3db96697debd27e91f254e62aaa3c118e955faa31702064d60fea78"
     },
     {
-      "path": "assets/math/revision-m846e126ff1e1f0568ac7-light.svg",
+      "path": "assets/math/formula-m846e126ff1e1f0568ac7-light.svg",
       "bytes": 20841,
       "sha256": "d8e30e6cdcfcfe409005ec97049bf6783a1b8293228aeef2d95854ef341daa73"
     },
     {
-      "path": "assets/math/revision-m88669317cbca3d2ff13d-dark.svg",
+      "path": "assets/math/formula-m88669317cbca3d2ff13d-dark.svg",
       "bytes": 18724,
       "sha256": "b77767f5ac4d0aa4a2d70932c2833c137d4f750fb0c96c40650087727baf1fc5"
     },
     {
-      "path": "assets/math/revision-m88669317cbca3d2ff13d-light.svg",
+      "path": "assets/math/formula-m88669317cbca3d2ff13d-light.svg",
       "bytes": 18724,
       "sha256": "e1f57adff932e9915d694403e775d572e9516fbe0ad074e633c4102900ea4e7a"
     },
     {
-      "path": "assets/math/revision-m88a92ec169a415c2cce6-dark.svg",
+      "path": "assets/math/formula-m88a92ec169a415c2cce6-dark.svg",
       "bytes": 20758,
       "sha256": "cd17e64c3915f20de000961590cc1a5b0fe81fa5a9004c1a62973209f6be35c8"
     },
     {
-      "path": "assets/math/revision-m88a92ec169a415c2cce6-light.svg",
+      "path": "assets/math/formula-m88a92ec169a415c2cce6-light.svg",
       "bytes": 20758,
       "sha256": "3aefa44be7f9ebda138f7e9f6d5270238077332c54fc3b9effda7151af1e10cf"
     },
     {
-      "path": "assets/math/revision-m89ad26d186c202f1cc4c-dark.svg",
+      "path": "assets/math/formula-m89ad26d186c202f1cc4c-dark.svg",
       "bytes": 20483,
       "sha256": "eedb846cdab7a8f5fb8676433d8d4a73c49f92c9380c879737bd379f4a7de812"
     },
     {
-      "path": "assets/math/revision-m89ad26d186c202f1cc4c-light.svg",
+      "path": "assets/math/formula-m89ad26d186c202f1cc4c-light.svg",
       "bytes": 20483,
       "sha256": "3552dc9333983eef22fb2dd1defead5a9261c7cc6e5535d5515b7a31a86a2cd0"
     },
     {
-      "path": "assets/math/revision-m8a7e872c10331a590ccf-dark.svg",
+      "path": "assets/math/formula-m8a7e872c10331a590ccf-dark.svg",
       "bytes": 11293,
       "sha256": "efb31407993df0d886053ee9619db644e34c0361c227b61061d0ad32bebb0811"
     },
     {
-      "path": "assets/math/revision-m8a7e872c10331a590ccf-light.svg",
+      "path": "assets/math/formula-m8a7e872c10331a590ccf-light.svg",
       "bytes": 11293,
       "sha256": "45e53ccea6c03517a0120eb758c08e46aff6f6d82e5fffe787941ac86e830efd"
     },
     {
-      "path": "assets/math/revision-m8ced6d54ee3748bfcb06-dark.svg",
+      "path": "assets/math/formula-m8ced6d54ee3748bfcb06-dark.svg",
       "bytes": 11152,
       "sha256": "b500999a746ecc7ac1c96756bc154c9ceb08526675784c6cadba51ad403cde22"
     },
     {
-      "path": "assets/math/revision-m8ced6d54ee3748bfcb06-light.svg",
+      "path": "assets/math/formula-m8ced6d54ee3748bfcb06-light.svg",
       "bytes": 11152,
       "sha256": "1f6d19427b885bbf199e4d03a630235f2da9ec4c636c0b05ca08a0807f63519d"
     },
     {
-      "path": "assets/math/revision-m8f36a4d3d8a83c7b51b9-dark.svg",
+      "path": "assets/math/formula-m8f36a4d3d8a83c7b51b9-dark.svg",
       "bytes": 25041,
       "sha256": "a04596fcd5e84d6c79a6682adcc7cacc84a213637e0b04d119506af7345ae442"
     },
     {
-      "path": "assets/math/revision-m8f36a4d3d8a83c7b51b9-light.svg",
+      "path": "assets/math/formula-m8f36a4d3d8a83c7b51b9-light.svg",
       "bytes": 25041,
       "sha256": "147b89a82104ae1171dc6c03132075079dfd43382daca2f1a8126581698e4977"
     },
     {
-      "path": "assets/math/revision-m8fa4bb61b46bd5de010e-dark.svg",
+      "path": "assets/math/formula-m8fa4bb61b46bd5de010e-dark.svg",
       "bytes": 31614,
       "sha256": "fd323b89da3fbf89497273c78ae8a8e693d8c9c8e749a870d9e44edc6d58db8e"
     },
     {
-      "path": "assets/math/revision-m8fa4bb61b46bd5de010e-light.svg",
+      "path": "assets/math/formula-m8fa4bb61b46bd5de010e-light.svg",
       "bytes": 31614,
       "sha256": "979043cbb92a5c6db981acdbadfcefdd1d4cc0f80e732503b49c064853f5778b"
     },
     {
-      "path": "assets/math/revision-m9204e10f29df56c957e1-dark.svg",
+      "path": "assets/math/formula-m9204e10f29df56c957e1-dark.svg",
       "bytes": 40393,
       "sha256": "268efe43994d20d30b7113b9b996b7988095e20e42fe30c196f13de07a693be0"
     },
     {
-      "path": "assets/math/revision-m9204e10f29df56c957e1-light.svg",
+      "path": "assets/math/formula-m9204e10f29df56c957e1-light.svg",
       "bytes": 40393,
       "sha256": "f11dc535cb71f132dd27b3f5033eb9cccaafccab60271d6d9eb01ddcabd7c684"
     },
     {
-      "path": "assets/math/revision-m9aa8a0f94a1381758a86-dark.svg",
+      "path": "assets/math/formula-m9aa8a0f94a1381758a86-dark.svg",
       "bytes": 25818,
       "sha256": "b67fabd613d886d41ccef1fbea2b17d5d58d31194b93a027359e2dc13812ca66"
     },
     {
-      "path": "assets/math/revision-m9aa8a0f94a1381758a86-light.svg",
+      "path": "assets/math/formula-m9aa8a0f94a1381758a86-light.svg",
       "bytes": 25818,
       "sha256": "9eeb1b076c299a5d85f9459fa04734be54331313585d088212a60325f196a0c4"
     },
     {
-      "path": "assets/math/revision-m9be0785d6ecbe28567ca-dark.svg",
+      "path": "assets/math/formula-m9be0785d6ecbe28567ca-dark.svg",
       "bytes": 24086,
       "sha256": "98c7512273d8ff634eb62522c98bd07743cdf67688cd635edd780d5afa9f33e1"
     },
     {
-      "path": "assets/math/revision-m9be0785d6ecbe28567ca-light.svg",
+      "path": "assets/math/formula-m9be0785d6ecbe28567ca-light.svg",
       "bytes": 24086,
       "sha256": "6361999b7fb21cb85d6b7b439ec428301c9a898dba9340ddd3950ccdf1ebccf8"
     },
     {
-      "path": "assets/math/revision-m9cca676bf9e9392918d2-dark.svg",
+      "path": "assets/math/formula-m9cca676bf9e9392918d2-dark.svg",
       "bytes": 34598,
       "sha256": "5601fb3a25d279c5d6dd4d270b4dba5b3a85811f02ce327fde0bdabd5a914ee0"
     },
     {
-      "path": "assets/math/revision-m9cca676bf9e9392918d2-light.svg",
+      "path": "assets/math/formula-m9cca676bf9e9392918d2-light.svg",
       "bytes": 34598,
       "sha256": "94de689035d491bec64fc87f9a4f4b683eb78f580f9a2a8a745ec8b0b6955103"
     },
     {
-      "path": "assets/math/revision-m9e744ee7a70a6b212400-dark.svg",
+      "path": "assets/math/formula-m9e744ee7a70a6b212400-dark.svg",
       "bytes": 16367,
       "sha256": "3d9cb65965246c0584130f417ae9e671d5fb478445aa4199c7575c56b78c66ac"
     },
     {
-      "path": "assets/math/revision-m9e744ee7a70a6b212400-light.svg",
+      "path": "assets/math/formula-m9e744ee7a70a6b212400-light.svg",
       "bytes": 16367,
       "sha256": "86cf1227f2284dbe87076e6f9ba9e43df0f7489b6b8052d4b9e508275c2eaa8c"
     },
     {
-      "path": "assets/math/revision-m9ecbc4fa78b32b9cafa1-dark.svg",
+      "path": "assets/math/formula-m9ecbc4fa78b32b9cafa1-dark.svg",
       "bytes": 32672,
       "sha256": "e0b2716147b08c24c84932b50bf4ec4d74e2058f299cdac06428c31fdac3c52c"
     },
     {
-      "path": "assets/math/revision-m9ecbc4fa78b32b9cafa1-light.svg",
+      "path": "assets/math/formula-m9ecbc4fa78b32b9cafa1-light.svg",
       "bytes": 32672,
       "sha256": "733f3506cd8eae9ae04f0c8a399d1084b8e08747f612dd5b96dcf3db2414f385"
     },
     {
-      "path": "assets/math/revision-m9ed1db1b984acbc69b8b-dark.svg",
+      "path": "assets/math/formula-m9ed1db1b984acbc69b8b-dark.svg",
       "bytes": 17298,
       "sha256": "f0af70dc4a2f951e3f5bee5d4d1ce04f4e28338d7a63626e26fc14d22713390e"
     },
     {
-      "path": "assets/math/revision-m9ed1db1b984acbc69b8b-light.svg",
+      "path": "assets/math/formula-m9ed1db1b984acbc69b8b-light.svg",
       "bytes": 17298,
       "sha256": "2963e241f57199289e34d66649f64d3842d188fec1a64d1c1e8e9371e7e48f1e"
     },
     {
-      "path": "assets/math/revision-m9f06ced3624074b40e2b-dark.svg",
+      "path": "assets/math/formula-m9f06ced3624074b40e2b-dark.svg",
       "bytes": 20630,
       "sha256": "2b7cd744914d077b9147b2667b70a44c48b95859ebafddaaa49620488d5ed045"
     },
     {
-      "path": "assets/math/revision-m9f06ced3624074b40e2b-light.svg",
+      "path": "assets/math/formula-m9f06ced3624074b40e2b-light.svg",
       "bytes": 20630,
       "sha256": "e5c6810f4ed4228a8eaec9f080ebefae9d3621ddc05822ba396d7f340f7f1ece"
     },
     {
-      "path": "assets/math/revision-ma464ca556576e9b410ba-dark.svg",
+      "path": "assets/math/formula-ma464ca556576e9b410ba-dark.svg",
       "bytes": 26502,
       "sha256": "8864daa91dcf773a1da2285b665ffc906c4280f97d661ecd8c706ff3c77b6dee"
     },
     {
-      "path": "assets/math/revision-ma464ca556576e9b410ba-light.svg",
+      "path": "assets/math/formula-ma464ca556576e9b410ba-light.svg",
       "bytes": 26502,
       "sha256": "e8fbb22e2db265b7c82f1d2706b8738ad5c426a4eafd5adcba2ae2810cba500a"
     },
     {
-      "path": "assets/math/revision-ma4be53581ff8eff48d34-dark.svg",
+      "path": "assets/math/formula-ma4be53581ff8eff48d34-dark.svg",
       "bytes": 11738,
       "sha256": "7569f466603ac3c0883dd13da6bc99309d9068b20702d5be92ed858c6729e9b1"
     },
     {
-      "path": "assets/math/revision-ma4be53581ff8eff48d34-light.svg",
+      "path": "assets/math/formula-ma4be53581ff8eff48d34-light.svg",
       "bytes": 11738,
       "sha256": "44a91ad6d13b355dae2f90285dd529b98ad030c89427abff8afc7ff362934c07"
     },
     {
-      "path": "assets/math/revision-ma943b08339e173d79cc9-dark.svg",
+      "path": "assets/math/formula-ma943b08339e173d79cc9-dark.svg",
       "bytes": 15573,
       "sha256": "682e2e83ad382fd3eba87f1fcd3c6890337f5403b896d2280e1923b6efc91831"
     },
     {
-      "path": "assets/math/revision-ma943b08339e173d79cc9-light.svg",
+      "path": "assets/math/formula-ma943b08339e173d79cc9-light.svg",
       "bytes": 15573,
       "sha256": "9aefa208af943f249e822f75c885fca59cf6e6d3b43263633ae1a1c6960d72cc"
     },
     {
-      "path": "assets/math/revision-mad3868825617d3a25075-dark.svg",
+      "path": "assets/math/formula-mad3868825617d3a25075-dark.svg",
       "bytes": 36752,
       "sha256": "3e31716e28b11a202cc21aafd3eeef485701fac4421819ed3861abb7f0ac90b4"
     },
     {
-      "path": "assets/math/revision-mad3868825617d3a25075-light.svg",
+      "path": "assets/math/formula-mad3868825617d3a25075-light.svg",
       "bytes": 36752,
       "sha256": "44360e0acfd6f7690ce61ad1d695abbe7c1028f9812ee75500e0cda4b5ec6e0c"
     },
     {
-      "path": "assets/math/revision-mb19fec2ba1907af1706d-dark.svg",
+      "path": "assets/math/formula-mb19fec2ba1907af1706d-dark.svg",
       "bytes": 21488,
       "sha256": "89c4ba5845de7ca4818261e7f44751657752d0834f650f0384bc4b65954d365f"
     },
     {
-      "path": "assets/math/revision-mb19fec2ba1907af1706d-light.svg",
+      "path": "assets/math/formula-mb19fec2ba1907af1706d-light.svg",
       "bytes": 21488,
       "sha256": "1119a93713469ab2f56c91d5a1f288dca7b0c8f34a499d4f82693b23de762847"
     },
     {
-      "path": "assets/math/revision-mb231c4494686011dc9e2-dark.svg",
+      "path": "assets/math/formula-mb231c4494686011dc9e2-dark.svg",
       "bytes": 14177,
       "sha256": "05d8a2681202900e0fb7a5de061aef43c9d7d878b8432b63d458202d33c8ac79"
     },
     {
-      "path": "assets/math/revision-mb231c4494686011dc9e2-light.svg",
+      "path": "assets/math/formula-mb231c4494686011dc9e2-light.svg",
       "bytes": 14177,
       "sha256": "4175f9449bcd9d6583bc2d6f4550d44bb17a4784ea4f081c441f7621fd2bf04b"
     },
     {
-      "path": "assets/math/revision-mb2f584fc3c1fcf0ee307-dark.svg",
+      "path": "assets/math/formula-mb2f584fc3c1fcf0ee307-dark.svg",
       "bytes": 10358,
       "sha256": "6ce3bc5c61c4edfad59b8b93aa8989d4f4ed5899b2dcc99133811097e0edbbda"
     },
     {
-      "path": "assets/math/revision-mb2f584fc3c1fcf0ee307-light.svg",
+      "path": "assets/math/formula-mb2f584fc3c1fcf0ee307-light.svg",
       "bytes": 10358,
       "sha256": "6dbf4c509d70ca39db52a0d479b3a1e7c3fb07f263aaac4ffe6f7e6fa6418353"
     },
     {
-      "path": "assets/math/revision-mb38011ca3e5b26b5dbe6-dark.svg",
+      "path": "assets/math/formula-mb38011ca3e5b26b5dbe6-dark.svg",
       "bytes": 25503,
       "sha256": "0ed7d3797a07814b081fdda711007d1871c24a125c22fb3a5b02536f5b4618bf"
     },
     {
-      "path": "assets/math/revision-mb38011ca3e5b26b5dbe6-light.svg",
+      "path": "assets/math/formula-mb38011ca3e5b26b5dbe6-light.svg",
       "bytes": 25503,
       "sha256": "5ab005205ccc690917a967a5f450655bf57bc8b47258988ff7b4db9a502ee7cb"
     },
     {
-      "path": "assets/math/revision-mb5661525f2907607eaa6-dark.svg",
+      "path": "assets/math/formula-mb5661525f2907607eaa6-dark.svg",
       "bytes": 32007,
       "sha256": "f0c3a59d6e7eed2f5e751f4bf06674d83b5c2a3df3b9aa613361b1d3b5ed5a67"
     },
     {
-      "path": "assets/math/revision-mb5661525f2907607eaa6-light.svg",
+      "path": "assets/math/formula-mb5661525f2907607eaa6-light.svg",
       "bytes": 32007,
       "sha256": "803229afb6b7d150e0a5c9b93fd818b03d9f632c8008d1a8ae46835a8ed949b0"
     },
     {
-      "path": "assets/math/revision-mb6daf9390a8d71e0fb15-dark.svg",
+      "path": "assets/math/formula-mb6daf9390a8d71e0fb15-dark.svg",
       "bytes": 28938,
       "sha256": "1c7cb16cd06afa1d3b9c9284d9a2bd779bb99779b5362b84f7f7bd23000041e0"
     },
     {
-      "path": "assets/math/revision-mb6daf9390a8d71e0fb15-light.svg",
+      "path": "assets/math/formula-mb6daf9390a8d71e0fb15-light.svg",
       "bytes": 28938,
       "sha256": "2a411b4af87a0c3b385f6152664736a86e00717816ec83718865f070925fe1b2"
     },
     {
-      "path": "assets/math/revision-mbbd686ef0a289b95c036-dark.svg",
+      "path": "assets/math/formula-mbbd686ef0a289b95c036-dark.svg",
       "bytes": 11002,
       "sha256": "4f4e959c7b06eaddc5a3679b6ea4627ce7cde632ea3173b2a41c6739e39aadad"
     },
     {
-      "path": "assets/math/revision-mbbd686ef0a289b95c036-light.svg",
+      "path": "assets/math/formula-mbbd686ef0a289b95c036-light.svg",
       "bytes": 11002,
       "sha256": "c23df9699872a82f7d8b2346d2ff1dd0ccf9d9dbc56df87efe1f9268f11dec9d"
     },
     {
-      "path": "assets/math/revision-mbd87d8ca5e224289f9f6-dark.svg",
+      "path": "assets/math/formula-mbd87d8ca5e224289f9f6-dark.svg",
       "bytes": 27420,
       "sha256": "6f0872f835ebca93e827de984fd9c2224de3db710bbf1a1e01afd9e49e8b8704"
     },
     {
-      "path": "assets/math/revision-mbd87d8ca5e224289f9f6-light.svg",
+      "path": "assets/math/formula-mbd87d8ca5e224289f9f6-light.svg",
       "bytes": 27420,
       "sha256": "0abf9781847d7cbb2c1e54b4aa3afee5f8c74fb436ff7259d8c6573e17a25fca"
     },
     {
-      "path": "assets/math/revision-mbf880b7df623162daed1-dark.svg",
+      "path": "assets/math/formula-mbf880b7df623162daed1-dark.svg",
       "bytes": 31055,
       "sha256": "d5d024da4d5a8e886052d1cc8ff03bce04bdf01bbd592dde00a9fe43420c27df"
     },
     {
-      "path": "assets/math/revision-mbf880b7df623162daed1-light.svg",
+      "path": "assets/math/formula-mbf880b7df623162daed1-light.svg",
       "bytes": 31055,
       "sha256": "b02795069c8b973afc1b203df8655e062b9e10a87a9cfe8cbec641ccc984b68a"
     },
     {
-      "path": "assets/math/revision-mbfaa41faa41cc2703c78-dark.svg",
+      "path": "assets/math/formula-mbfaa41faa41cc2703c78-dark.svg",
       "bytes": 28750,
       "sha256": "d60e28fc1f3baf25fd21f271cba524c7371a987edd76f355dbd64dae410f0d9e"
     },
     {
-      "path": "assets/math/revision-mbfaa41faa41cc2703c78-light.svg",
+      "path": "assets/math/formula-mbfaa41faa41cc2703c78-light.svg",
       "bytes": 28750,
       "sha256": "8a67ed2fafc7300856641ec6ef1a42c896076c0317681004fafca34f8af98f01"
     },
     {
-      "path": "assets/math/revision-mc0b1bd59fa5ce1dcc307-dark.svg",
+      "path": "assets/math/formula-mc0b1bd59fa5ce1dcc307-dark.svg",
       "bytes": 21310,
       "sha256": "5b2345545222a510ddfab1048b7cacda5df37e49e5c0e572a5d7fee14483604d"
     },
     {
-      "path": "assets/math/revision-mc0b1bd59fa5ce1dcc307-light.svg",
+      "path": "assets/math/formula-mc0b1bd59fa5ce1dcc307-light.svg",
       "bytes": 21310,
       "sha256": "33d4e5c82d7f221317906b7ef5b045b36ec8db7c7144df1eb2fa0409e77045db"
     },
     {
-      "path": "assets/math/revision-mc2405a212920affde3bb-dark.svg",
+      "path": "assets/math/formula-mc2405a212920affde3bb-dark.svg",
       "bytes": 14822,
       "sha256": "ce5ad57013fad8b857ae6082700a97adf9587f6edf040b2c5f2ebef5c05e1316"
     },
     {
-      "path": "assets/math/revision-mc2405a212920affde3bb-light.svg",
+      "path": "assets/math/formula-mc2405a212920affde3bb-light.svg",
       "bytes": 14822,
       "sha256": "4162959ff9ea95536bc38a7257a87694845137d9b7fe1c76e48798f0c195ab54"
     },
     {
-      "path": "assets/math/revision-mc2b21b81d3d63050b285-dark.svg",
+      "path": "assets/math/formula-mc2b21b81d3d63050b285-dark.svg",
       "bytes": 62853,
       "sha256": "fde4f54c0ef363ab0110a409dd1d6ebc53c841fd82525e71ee7b2bc6baefef9f"
     },
     {
-      "path": "assets/math/revision-mc2b21b81d3d63050b285-light.svg",
+      "path": "assets/math/formula-mc2b21b81d3d63050b285-light.svg",
       "bytes": 62853,
       "sha256": "91778d9dfe8772f202e9f336b16e99f8e3132151dd3a87f86938b1f1480555e5"
     },
     {
-      "path": "assets/math/revision-mc2d8665208e78fa7bd6c-dark.svg",
+      "path": "assets/math/formula-mc2d8665208e78fa7bd6c-dark.svg",
       "bytes": 13147,
       "sha256": "91e853642512b580128346cf5da7ae9bcb3ad3c59cc0fb947504b88f8b1b0ba6"
     },
     {
-      "path": "assets/math/revision-mc2d8665208e78fa7bd6c-light.svg",
+      "path": "assets/math/formula-mc2d8665208e78fa7bd6c-light.svg",
       "bytes": 13147,
       "sha256": "bb69eaa359b4d5a44c577ad960db26f6669288ed1643d61e6807e22a590db0a7"
     },
     {
-      "path": "assets/math/revision-mc50e95ec60171b1804e1-dark.svg",
+      "path": "assets/math/formula-mc50e95ec60171b1804e1-dark.svg",
       "bytes": 24709,
       "sha256": "76dd5fdb0302731e70ffab89064bf5e233120000ab467cc6a2c3f9bc78de6e81"
     },
     {
-      "path": "assets/math/revision-mc50e95ec60171b1804e1-light.svg",
+      "path": "assets/math/formula-mc50e95ec60171b1804e1-light.svg",
       "bytes": 24709,
       "sha256": "bff48fe4511d34e729d5a31365a8ff8d5eaa7914e0887a682524eafa70062d3e"
     },
     {
-      "path": "assets/math/revision-mc72b2030a1749c18973c-dark.svg",
+      "path": "assets/math/formula-mc72b2030a1749c18973c-dark.svg",
       "bytes": 13638,
       "sha256": "ffd01e68259fefea18a08e538702ad16ac3d1ffb5153b3a992da5a8a10a18c1b"
     },
     {
-      "path": "assets/math/revision-mc72b2030a1749c18973c-light.svg",
+      "path": "assets/math/formula-mc72b2030a1749c18973c-light.svg",
       "bytes": 13638,
       "sha256": "9c6f19d80282636812421fdbbaf4faa3b11f75797a441c49ba949d53d3a79c26"
     },
     {
-      "path": "assets/math/revision-mc7af6f1933a394c1974b-dark.svg",
+      "path": "assets/math/formula-mc7af6f1933a394c1974b-dark.svg",
       "bytes": 33721,
       "sha256": "6e48a9f7a942385e44339749e01c1ca95cbdcef8060ef893aa3238cd8832a2f3"
     },
     {
-      "path": "assets/math/revision-mc7af6f1933a394c1974b-light.svg",
+      "path": "assets/math/formula-mc7af6f1933a394c1974b-light.svg",
       "bytes": 33721,
       "sha256": "7353b9273ec17870a75475f30ef73c953038fca5949ca0ec63e7981a5471afd5"
     },
     {
-      "path": "assets/math/revision-mca0074153349ee0c0dec-dark.svg",
+      "path": "assets/math/formula-mca0074153349ee0c0dec-dark.svg",
       "bytes": 23887,
       "sha256": "f8de42313b49ba7d1b33f9ba3d3b68098077d8d20d2c04ca36e43c9f488f062d"
     },
     {
-      "path": "assets/math/revision-mca0074153349ee0c0dec-light.svg",
+      "path": "assets/math/formula-mca0074153349ee0c0dec-light.svg",
       "bytes": 23887,
       "sha256": "39fac64c4a981a41a6671162d28424bdfd3dd1a2fb2f1b9ee27ca988389d3e12"
     },
     {
-      "path": "assets/math/revision-mcda9a9727e1d6ecf7967-dark.svg",
+      "path": "assets/math/formula-mcda9a9727e1d6ecf7967-dark.svg",
       "bytes": 21024,
       "sha256": "dd4a2414f16514682e098cfeadac6c211f087e7eca7b93b3ebf201bd9c720fed"
     },
     {
-      "path": "assets/math/revision-mcda9a9727e1d6ecf7967-light.svg",
+      "path": "assets/math/formula-mcda9a9727e1d6ecf7967-light.svg",
       "bytes": 21024,
       "sha256": "1091f3d7118202d9b4e99df874795f1d24ef05797406fcf2c4f44a6e41e57501"
     },
     {
-      "path": "assets/math/revision-md0300564bd679bbdc53d-dark.svg",
+      "path": "assets/math/formula-md0300564bd679bbdc53d-dark.svg",
       "bytes": 15430,
       "sha256": "ec75612165260415425ccbe2cbef6ceac8e68b56d3577e75693e7b4c07576f34"
     },
     {
-      "path": "assets/math/revision-md0300564bd679bbdc53d-light.svg",
+      "path": "assets/math/formula-md0300564bd679bbdc53d-light.svg",
       "bytes": 15430,
       "sha256": "1cd0bf392fa9ce0e62f06e99347cad4feb4d8a4ae070098438e1efd60891d59a"
     },
     {
-      "path": "assets/math/revision-md130dde47c3f06958df5-dark.svg",
+      "path": "assets/math/formula-md130dde47c3f06958df5-dark.svg",
       "bytes": 32195,
       "sha256": "f20415ce3c78a5d3bcf964ce3764d8460d8657e77b442b13a5bbcb15624a879e"
     },
     {
-      "path": "assets/math/revision-md130dde47c3f06958df5-light.svg",
+      "path": "assets/math/formula-md130dde47c3f06958df5-light.svg",
       "bytes": 32195,
       "sha256": "5361929162db49daa53a46d717b542f9409fbd99c10e066345fab24c0a34f6ee"
     },
     {
-      "path": "assets/math/revision-md24793bf1da5ee52d9c5-dark.svg",
+      "path": "assets/math/formula-md24793bf1da5ee52d9c5-dark.svg",
       "bytes": 19318,
       "sha256": "c72aceac3901b6b840f35a01674624867f4da857cb954df92a7763af8f6a98ad"
     },
     {
-      "path": "assets/math/revision-md24793bf1da5ee52d9c5-light.svg",
+      "path": "assets/math/formula-md24793bf1da5ee52d9c5-light.svg",
       "bytes": 19318,
       "sha256": "0a5dd31264d514200380f73c24dba50633ca31e1c391c37915d1cf9769141c97"
     },
     {
-      "path": "assets/math/revision-md501981bae002ecf5459-dark.svg",
+      "path": "assets/math/formula-md501981bae002ecf5459-dark.svg",
       "bytes": 9772,
       "sha256": "85263100f914a1c664e64a8b731ec64d617090be830f518c3fc783e1ce62598b"
     },
     {
-      "path": "assets/math/revision-md501981bae002ecf5459-light.svg",
+      "path": "assets/math/formula-md501981bae002ecf5459-light.svg",
       "bytes": 9772,
       "sha256": "832391d936f323ca26be755c6a572a89e308a04446a1aaf7c3174dca1cff85da"
     },
     {
-      "path": "assets/math/revision-md58cdb414ed30cf67add-dark.svg",
+      "path": "assets/math/formula-md58cdb414ed30cf67add-dark.svg",
       "bytes": 18314,
       "sha256": "8d8ac8a7390f6f262dea393b37e590d34f9bd261cdd7938d0b2b9425adc12f51"
     },
     {
-      "path": "assets/math/revision-md58cdb414ed30cf67add-light.svg",
+      "path": "assets/math/formula-md58cdb414ed30cf67add-light.svg",
       "bytes": 18314,
       "sha256": "28a04cf098c7b611ffe9376664b7238e4f972804e896d3509a1a750ae9320377"
     },
     {
-      "path": "assets/math/revision-md9555e2a7dfafa3650f3-dark.svg",
+      "path": "assets/math/formula-md9555e2a7dfafa3650f3-dark.svg",
       "bytes": 21135,
       "sha256": "cd3d4046af52515276e5bd57f0867adf842de176279ca3468bdca9839eba8ea7"
     },
     {
-      "path": "assets/math/revision-md9555e2a7dfafa3650f3-light.svg",
+      "path": "assets/math/formula-md9555e2a7dfafa3650f3-light.svg",
       "bytes": 21135,
       "sha256": "1c0f13d27cf057804e2c6476c23e8ad12b6a95f7c573b3d636ea8077a1fbe0ce"
     },
     {
-      "path": "assets/math/revision-md9ef3c34222709d52c26-dark.svg",
+      "path": "assets/math/formula-md9ef3c34222709d52c26-dark.svg",
       "bytes": 24256,
       "sha256": "0ccf2332e67d8f610a9167fe200c468fec2efe43e8147f73783292e9c13480ac"
     },
     {
-      "path": "assets/math/revision-md9ef3c34222709d52c26-light.svg",
+      "path": "assets/math/formula-md9ef3c34222709d52c26-light.svg",
       "bytes": 24256,
       "sha256": "6e3a78d955e84ab59d3202bb7e686a3629ab655ae536c339649d1c309396914a"
     },
     {
-      "path": "assets/math/revision-mdbe295dc4d7e9f536eb5-dark.svg",
+      "path": "assets/math/formula-mdbe295dc4d7e9f536eb5-dark.svg",
       "bytes": 16879,
       "sha256": "c9de074af3961ecc666f9c08d6a0dd96e9ac462aeb49609f38f3df81872c1cc2"
     },
     {
-      "path": "assets/math/revision-mdbe295dc4d7e9f536eb5-light.svg",
+      "path": "assets/math/formula-mdbe295dc4d7e9f536eb5-light.svg",
       "bytes": 16879,
       "sha256": "76ddc753c969c7ee7d31fd94ae65de140a0db5e9508557d73d61e439943ba44b"
     },
     {
-      "path": "assets/math/revision-mdd3d7b109602247b4589-dark.svg",
+      "path": "assets/math/formula-mdd3d7b109602247b4589-dark.svg",
       "bytes": 12681,
       "sha256": "98a7b89b3f8a7bfdb159b08bf731a3a08b3d90a68eea2d7989a21ae0d283f3fe"
     },
     {
-      "path": "assets/math/revision-mdd3d7b109602247b4589-light.svg",
+      "path": "assets/math/formula-mdd3d7b109602247b4589-light.svg",
       "bytes": 12681,
       "sha256": "10c0bd5ce033d6a7362030d47be776f04ef222bb0dd7f6267b2ef80b86d7eed3"
     },
     {
-      "path": "assets/math/revision-mddbf67a53b9f45aad43f-dark.svg",
+      "path": "assets/math/formula-mddbf67a53b9f45aad43f-dark.svg",
       "bytes": 11648,
       "sha256": "0d1ca930d0c06198699c6e10814a97bc4cb719328446de855cb7e9808f2db0fc"
     },
     {
-      "path": "assets/math/revision-mddbf67a53b9f45aad43f-light.svg",
+      "path": "assets/math/formula-mddbf67a53b9f45aad43f-light.svg",
       "bytes": 11648,
       "sha256": "9124fd2d01ee582353c4822069a125c10f2a6cd66cfc13f62339c97bc5098cbd"
     },
     {
-      "path": "assets/math/revision-me10ca71d807356654c7f-dark.svg",
+      "path": "assets/math/formula-me10ca71d807356654c7f-dark.svg",
       "bytes": 24488,
       "sha256": "f1fd7cdb42b3dd019596b55afabbe790ce712228132113c0bc5dd110552c39af"
     },
     {
-      "path": "assets/math/revision-me10ca71d807356654c7f-light.svg",
+      "path": "assets/math/formula-me10ca71d807356654c7f-light.svg",
       "bytes": 24488,
       "sha256": "fc8c56bccca9d4bde69cc3aa5b03b671f72593f83ae8f975fb6d0f0e0149cd56"
     },
     {
-      "path": "assets/math/revision-me4f037a0444fb2f4aab7-dark.svg",
+      "path": "assets/math/formula-me4f037a0444fb2f4aab7-dark.svg",
       "bytes": 17328,
       "sha256": "a95d782a244f1b6f66a620613b54f56e8ce75a71c12500707a546a9b14bb30e3"
     },
     {
-      "path": "assets/math/revision-me4f037a0444fb2f4aab7-light.svg",
+      "path": "assets/math/formula-me4f037a0444fb2f4aab7-light.svg",
       "bytes": 17328,
       "sha256": "69486faee1721be461cabf42e8f046f71817eacfc3a31674767e8ffa4ac2cf67"
     },
     {
-      "path": "assets/math/revision-me6020d90675aa3dfe784-dark.svg",
+      "path": "assets/math/formula-me6020d90675aa3dfe784-dark.svg",
       "bytes": 19794,
       "sha256": "bbe69eea8124e3f95060a95e2776ae62fe5c5dcbd5b9bc31872cc4fc39677a2f"
     },
     {
-      "path": "assets/math/revision-me6020d90675aa3dfe784-light.svg",
+      "path": "assets/math/formula-me6020d90675aa3dfe784-light.svg",
       "bytes": 19794,
       "sha256": "78c4a4fa8fef1bfc19ef6e1db4943e48e252fe0c0894f0048f9d89b04578b807"
     },
     {
-      "path": "assets/math/revision-me63134276a2187f30c50-dark.svg",
+      "path": "assets/math/formula-me63134276a2187f30c50-dark.svg",
       "bytes": 19346,
       "sha256": "aa1e5e5dfc1e308148e8b4aaaa4764924802d17b4073f9ffa55d3929a27540a9"
     },
     {
-      "path": "assets/math/revision-me63134276a2187f30c50-light.svg",
+      "path": "assets/math/formula-me63134276a2187f30c50-light.svg",
       "bytes": 19346,
       "sha256": "1750a81dfde20b42b8d23683ab9a467aea57d691a1c45e18b6d1eae851c7444f"
     },
     {
-      "path": "assets/math/revision-me6499f7e6169c88c8540-dark.svg",
+      "path": "assets/math/formula-me6499f7e6169c88c8540-dark.svg",
       "bytes": 35116,
       "sha256": "5d39b612a15dd8c4340be992216c440c71e526ef17bec6bc5fad29a909a18bcd"
     },
     {
-      "path": "assets/math/revision-me6499f7e6169c88c8540-light.svg",
+      "path": "assets/math/formula-me6499f7e6169c88c8540-light.svg",
       "bytes": 35116,
       "sha256": "3203cbd62647fbc9f58c633bf3c53ed9fff8cbe9bfa9bc939fdafd6bfe2c15b1"
     },
     {
-      "path": "assets/math/revision-mebd5a57c2c96e90f0680-dark.svg",
+      "path": "assets/math/formula-mebd5a57c2c96e90f0680-dark.svg",
       "bytes": 40113,
       "sha256": "678d3fa2ef6aea29de86810dd28e703b83a7e226fbd104c05a80ac835cf1e5de"
     },
     {
-      "path": "assets/math/revision-mebd5a57c2c96e90f0680-light.svg",
+      "path": "assets/math/formula-mebd5a57c2c96e90f0680-light.svg",
       "bytes": 40113,
       "sha256": "dcb3909b72c805b826fd0ea2c7f1e747a929a2895598fb640a3bd08e7c5af872"
     },
     {
-      "path": "assets/math/revision-medcdb2e6b197513ea682-dark.svg",
+      "path": "assets/math/formula-medcdb2e6b197513ea682-dark.svg",
       "bytes": 15234,
       "sha256": "7217bcc79b13ae764927dbaed6454df83876f0c7ba6c018d7869d8da64a2baf7"
     },
     {
-      "path": "assets/math/revision-medcdb2e6b197513ea682-light.svg",
+      "path": "assets/math/formula-medcdb2e6b197513ea682-light.svg",
       "bytes": 15234,
       "sha256": "ae0bae4c5fe3345c68e7422d8809ea7225be750f7b5c691c9a13cbe237fdd1df"
     },
     {
-      "path": "assets/math/revision-mee7d6236b87c4bf637f0-dark.svg",
+      "path": "assets/math/formula-mee7d6236b87c4bf637f0-dark.svg",
       "bytes": 16885,
       "sha256": "fc6749943bf9cf04988f51bf7f93d18bfc573e2aa72aee8c4d296ccc2b1451c9"
     },
     {
-      "path": "assets/math/revision-mee7d6236b87c4bf637f0-light.svg",
+      "path": "assets/math/formula-mee7d6236b87c4bf637f0-light.svg",
       "bytes": 16885,
       "sha256": "670813fe4dff880b2a59b230c40da8eb48e4ef1d037f117c3c307a21b1ad1be2"
     },
     {
-      "path": "assets/math/revision-mf4a0c2967f917be22491-dark.svg",
+      "path": "assets/math/formula-mf4a0c2967f917be22491-dark.svg",
       "bytes": 17368,
       "sha256": "1ba86da85c5043c332e53ac2e84c17a65e38350cf41656e42aa0abf46c150e58"
     },
     {
-      "path": "assets/math/revision-mf4a0c2967f917be22491-light.svg",
+      "path": "assets/math/formula-mf4a0c2967f917be22491-light.svg",
       "bytes": 17368,
       "sha256": "cd4f15b541a6897f141d41b048fca12708095842da372d6356a256a0b61b5346"
     },
     {
-      "path": "assets/math/revision-mf8fbfecb14d5bfec72fa-dark.svg",
+      "path": "assets/math/formula-mf8fbfecb14d5bfec72fa-dark.svg",
       "bytes": 15473,
       "sha256": "c8a4118175fdcae8d4086e51d55c053d22fce29aecba5d7e59a85fa8a14d68ed"
     },
     {
-      "path": "assets/math/revision-mf8fbfecb14d5bfec72fa-light.svg",
+      "path": "assets/math/formula-mf8fbfecb14d5bfec72fa-light.svg",
       "bytes": 15473,
       "sha256": "2c8d9c39d44f0ea0ed34f70206fe3b813722e0c8894834f59418fa90958a2f14"
     },
     {
-      "path": "assets/math/revision-mfa02c914b82bd730d5e3-dark.svg",
+      "path": "assets/math/formula-mfa02c914b82bd730d5e3-dark.svg",
       "bytes": 26398,
       "sha256": "58e0e2e3c3e2f0721b5206f23b711ad6a3c0db93a72cbf2eac72f6efde77302e"
     },
     {
-      "path": "assets/math/revision-mfa02c914b82bd730d5e3-light.svg",
+      "path": "assets/math/formula-mfa02c914b82bd730d5e3-light.svg",
       "bytes": 26398,
       "sha256": "cfca3e721d703dab70871aeda9783c8fd62f31e84d32186e4b85ed71c4de6c20"
     },
     {
-      "path": "assets/math/revision-mfb718000fa8bc184a407-dark.svg",
+      "path": "assets/math/formula-mfb718000fa8bc184a407-dark.svg",
       "bytes": 16256,
       "sha256": "e89103bc8a5c957ce9d1c1757e47cd37e837e27b13e9af628c52f2ea1aa82838"
     },
     {
-      "path": "assets/math/revision-mfb718000fa8bc184a407-light.svg",
+      "path": "assets/math/formula-mfb718000fa8bc184a407-light.svg",
       "bytes": 16256,
       "sha256": "04d7db60e34e98b74531c4a343ef941d78ef29b3ecbf998a012b27e54bcc801c"
     },
     {
-      "path": "assets/math/revision-mfc28dcd45827d7df4279-dark.svg",
+      "path": "assets/math/formula-mfc28dcd45827d7df4279-dark.svg",
       "bytes": 17414,
       "sha256": "453a7534c5f1740991af44ccff7094f9ef9313929a72b22a1f74a081acbc5f3d"
     },
     {
-      "path": "assets/math/revision-mfc28dcd45827d7df4279-light.svg",
+      "path": "assets/math/formula-mfc28dcd45827d7df4279-light.svg",
       "bytes": 17414,
       "sha256": "670ff89daa9719bb7e3014f08bac6d8ab303e603e48f82359907821de8a9ffd6"
     },
     {
-      "path": "assets/math/revision-mfd0fccf50e5ade102478-dark.svg",
+      "path": "assets/math/formula-mfd0fccf50e5ade102478-dark.svg",
       "bytes": 21871,
       "sha256": "f01739bc8bbfeda69bfc8e92ae94b12c4b637975645ba7e2bd111f4db4e96b67"
     },
     {
-      "path": "assets/math/revision-mfd0fccf50e5ade102478-light.svg",
+      "path": "assets/math/formula-mfd0fccf50e5ade102478-light.svg",
       "bytes": 21871,
       "sha256": "c31db117486c4778ab997944cb3bbc81e09d7ac542e7e8f5bffe37fb3eeb8a1a"
     },
     {
-      "path": "assets/math/revision-mff3b533dfb16d7c3fae8-dark.svg",
+      "path": "assets/math/formula-mff3b533dfb16d7c3fae8-dark.svg",
       "bytes": 25725,
       "sha256": "2d86681f4d5ab3d803a36d63d79640af5e778b474187e414f93cbb5b92610e9b"
     },
     {
-      "path": "assets/math/revision-mff3b533dfb16d7c3fae8-light.svg",
+      "path": "assets/math/formula-mff3b533dfb16d7c3fae8-light.svg",
       "bytes": 25725,
       "sha256": "d98da8f419b2b1db3eafd633885458dd59950f1a11218973df6a10f145cd7aae"
     },
@@ -1736,43 +1719,33 @@
     },
     {
       "path": "manuscript/author.json",
-      "bytes": 460,
-      "sha256": "c5363cb5f7cc6cb559df5d745536c55068a6d39635d9451b13fd4c4a1e5ca18e"
+      "bytes": 426,
+      "sha256": "8e12a4f209c0af33ab148c5753c55a53268865805af52ad9bd1549f47c146266"
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 161909,
-      "sha256": "2d8b369334594ccf1e4b9da71c1a360f5a0ab3ea688f6ac2e779e7ea69961998"
+      "bytes": 161067,
+      "sha256": "17d0575688ac4a5b4caaeaa3a171390cdd392958357c1aee887bcfc620f8e1f7"
     },
     {
       "path": "manuscript/merged-heston-zh.md",
-      "bytes": 134879,
-      "sha256": "e0b273bee73f2cad28070d55d3d431d1dbb1791aaa9d46f8a440f47f465b3b72"
-    },
-    {
-      "path": "paper/Theodore-Ouyang-Certified-Joint-Heston-EN.pdf",
-      "bytes": 6518960,
-      "sha256": "d4895ef751674ebfaef963cdb8f9f8411121fc6841fea36ea1c15f3fca3f70b8"
-    },
-    {
-      "path": "paper/Theodore-Ouyang-Certified-Joint-Heston-ZH.pdf",
-      "bytes": 6651962,
-      "sha256": "863521ccc81a5232a6df9e1db5c0f2592e6513695b640f078132a0a351227c49"
+      "bytes": 134223,
+      "sha256": "e6327dcf3b2c0f5bc422f723527b8167db9a643b342d3cb52b8b4bfa32d4892b"
     },
     {
       "path": "paper/paper-zh.pdf",
-      "bytes": 6651962,
-      "sha256": "863521ccc81a5232a6df9e1db5c0f2592e6513695b640f078132a0a351227c49"
+      "bytes": 6650225,
+      "sha256": "d560150c26d2137fb066266d579d9bcebf499aa53427288aaaa2980e135a0f6e"
     },
     {
       "path": "paper/paper.pdf",
-      "bytes": 6518960,
-      "sha256": "d4895ef751674ebfaef963cdb8f9f8411121fc6841fea36ea1c15f3fca3f70b8"
+      "bytes": 6518151,
+      "sha256": "eaff59215da4e3fa257afa2062337deb17e6b9d0f38d2c47ca0177c7b00fb967"
     },
     {
       "path": "reproduce.py",
-      "bytes": 4751,
-      "sha256": "99c86d165b717787eed021c7d7ef12e9893cd4d8fb8bcaebd05fbbfb29ebb86c"
+      "bytes": 4075,
+      "sha256": "758ad3d8fd8cf8cdf17eecf3d46d43c9457e2c3a3ca13b325a0552c4de0b9f0b"
     },
     {
       "path": "requirements.txt",
@@ -1781,8 +1754,8 @@
     },
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
-      "bytes": 2761,
-      "sha256": "57446959b149d7d1dd9c640b94c9c69fc7fc636e233af4a4503bda0b7c502606"
+      "bytes": 2851,
+      "sha256": "82f8275cf48d1153732592411c0000d62f33a76f0fc4784a514e6a196eea2e88"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -1812,7 +1785,7 @@
     {
       "path": "science/analysis/audit/independent-audit.json",
       "bytes": 2727,
-      "sha256": "a8089c92f85a42cbe70281d61817fad98ab338dcc7616ac3fef9d08d2134dec4"
+      "sha256": "d371aa47de17a94f91da95dcd01130c022af5871f9e3079e53144a5ed5554bb5"
     },
     {
       "path": "science/analysis/audit/nearby-pair-resolution.json",
@@ -1846,8 +1819,8 @@
     },
     {
       "path": "science/analysis/audit/proof-obligation-matrix.json",
-      "bytes": 13845,
-      "sha256": "d28913347b1b223a7153aebb57b4b7e034b5cade731d853387e0f838a62bad47"
+      "bytes": 14076,
+      "sha256": "13ca59066f192477ad4a773b1cdf219441ca56dad2bf41503805351ad7368146"
     },
     {
       "path": "science/analysis/audit/proof_matrix.py",
@@ -1867,7 +1840,7 @@
     {
       "path": "science/analysis/audit/source-identities.json",
       "bytes": 10138,
-      "sha256": "4dde9c6f44577a37f645f1801d8dc93578404a2038a3acc47fefd505ba2a6d72"
+      "sha256": "fa11fa9250e353cf65c5472d0eee89aefa9e77a498bf1c814e774a9a82d1fc31"
     },
     {
       "path": "science/analysis/kernel/common.py",
@@ -1935,34 +1908,24 @@
       "sha256": "10b0c3165bc34484396647e28c03a93fffdc8153d2b46992f484455392a31cc7"
     },
     {
-      "path": "science/analysis/verify_extensions.py",
-      "bytes": 483,
-      "sha256": "093a6031e77df6051bfbf3ffc159cb3e450ea6a60b59debae9420d039c4b8cce"
-    },
-    {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
-      "bytes": 33708,
-      "sha256": "787a7a7664c87f70c76d86b4306d6e7fc5bc9b413e596af787e8a73347e6814e"
+      "bytes": 30962,
+      "sha256": "30c25a2e15221872aba423f2b8b84a1d0983951e6984a6159c314f931ad99f0f"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
-      "bytes": 3471,
-      "sha256": "ee445e86f27d317f0b9033efbe74ced4492fb06cd9f16d8cc1ba785a91d93d98"
+      "bytes": 3029,
+      "sha256": "b7a02c3da19e74d9b34436b15dcf5c62a5d60a09b020157c403b0f9a4d53f522"
     },
     {
       "path": "science/baseline/continuous/adversarial_checks.py",
-      "bytes": 6239,
-      "sha256": "5755cbec6f6b342bd7adbc9875a4ef0a9a594df9cbcd679352ca386c381e7969"
-    },
-    {
-      "path": "science/baseline/continuous/assembly-check.json",
-      "bytes": 698,
-      "sha256": "d6873df8ebd45a7754ce725fe5cb9d396f9de2a2fd7ca71e1f56d86159c2a17d"
+      "bytes": 4733,
+      "sha256": "feeefa8a6db53c82669e93710a9cbb7adbcb85afd63be24cffd8c903a4b521b7"
     },
     {
       "path": "science/baseline/continuous/audit_paths.py",
-      "bytes": 1511,
-      "sha256": "5799ffe1e9bb334b7b412013b00718163575cef31f19cebea2635a1c6c04b1f8"
+      "bytes": 1347,
+      "sha256": "eeea8ee860f0d3392a1761bf485b9375eb77999cac6b49f462d61455d6a5cf11"
     },
     {
       "path": "science/baseline/continuous/fresh-residual-alpha-13_25-u0125.json",
@@ -2035,16 +1998,6 @@
       "sha256": "91becb71037eb323fe671251663050d9d351ff71ef3d42e6586dbde240dfad4e"
     },
     {
-      "path": "science/baseline/continuous/source-immutability-final.json",
-      "bytes": 156,
-      "sha256": "72479e60f27aca9bfb8ec128b0a6fede8e3996c8f81798a11575d6b4863cb387"
-    },
-    {
-      "path": "science/baseline/continuous/source-inventory.json",
-      "bytes": 1501,
-      "sha256": "356377d283de66449c53c4e7b0ffa8611fb78e5c22e5736132e3d6f0f76e1b6e"
-    },
-    {
       "path": "science/baseline/continuous/spread-decision-contract.json",
       "bytes": 909,
       "sha256": "a379687bf1f1e708015be438069c50d7c4aaf909b290838fefd3073f94e963e9"
@@ -2070,19 +2023,9 @@
       "sha256": "c4f597b20fcf4c7640c71c56f8d9b35804f1e60a331f9f8153cb0fbde09d89a3"
     },
     {
-      "path": "science/baseline/continuous/verification.json",
-      "bytes": 157514,
-      "sha256": "e663e0a0996c3724a71b9148a1736979bdac6701bb58f9888d935e2b6c25e870"
-    },
-    {
       "path": "science/baseline/continuous/verify_shared_fourier.py",
       "bytes": 5427,
       "sha256": "382afc4828159337967ae100388151b8168c7d6bf84a756cd5506204b9e4ed4a"
-    },
-    {
-      "path": "science/baseline/finite-history/bundle-execution-receipt.json",
-      "bytes": 7066,
-      "sha256": "7e5e2d2629a9d4660c1b41a8440da3ca4e867444ff553313e82992f45fa4b936"
     },
     {
       "path": "science/baseline/finite-history/check-time-envelope.py",
@@ -2216,8 +2159,8 @@
     },
     {
       "path": "science/baseline/finite-history/run_evidence.py",
-      "bytes": 6195,
-      "sha256": "e0e45a24aba191a6b55f91f997d7c72e76193bffc3bb771ce17b1ea75aa62888"
+      "bytes": 6077,
+      "sha256": "2cce4e5e9068b742776a83a2b3fab2e26bcb7168b38675ed6850c97fa27b6656"
     },
     {
       "path": "science/baseline/finite-history/time-envelope-verification.json",
@@ -2281,8 +2224,8 @@
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.json",
-      "bytes": 7009,
-      "sha256": "3c1d77eeb79c3084fa0298e919f341778a0f6f5a54d5a6b2bd379067d9f2306e"
+      "bytes": 7138,
+      "sha256": "7e16f79f54d6d87a6b327ca9e07c6975a817aa36f12f59d8b32ae8f5ef6f6291"
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.py",
@@ -2291,13 +2234,13 @@
     },
     {
       "path": "science/baseline/frontier/independent-transfer.json",
-      "bytes": 7724,
-      "sha256": "b35190dc7e380bf901ecea1cc87c4a217871b4569aac6b0739c51eb9625f4008"
+      "bytes": 7876,
+      "sha256": "ba02af89dc485577f039c05c9f807d53508d7ed887a5236e2057f5ed66e7b82a"
     },
     {
       "path": "science/baseline/frontier/independent-transfer.py",
-      "bytes": 16657,
-      "sha256": "af62f3d106ec8b24db38be07c4605f9efd9399209cbc6d3868e4769da10ce007"
+      "bytes": 16812,
+      "sha256": "72cdb86d0784161906aaae79900b67062af7549a63f2e17d0278148463f6d259"
     },
     {
       "path": "science/baseline/frontier/omission-aggregate.py",
@@ -2391,8 +2334,8 @@
     },
     {
       "path": "science/baseline/frontier/transfer-coefficients.json",
-      "bytes": 1029060,
-      "sha256": "3c20b65a1503725b5bc43e125071ce1ee02b638b95cb221a5190d136b3b04fb2"
+      "bytes": 1056756,
+      "sha256": "8b7471f6b540f3577f88ca966aa40042089c680c93a53964d5cee56e5ed668fc"
     },
     {
       "path": "science/baseline/frontier/transfer-contract.json",
@@ -2401,48 +2344,53 @@
     },
     {
       "path": "science/baseline/frontier/transfer-exponents-alpha-13_25.json",
-      "bytes": 735907,
-      "sha256": "9ab2c61105fafa280a0b1f5d8fbd5793b5a49bcd834fca36aae27f8dc49db701"
+      "bytes": 754895,
+      "sha256": "66604923b370819366f7a237567c4230b9f06b83d5682cd2d4fc37da81f085f0"
     },
     {
       "path": "science/baseline/frontier/transfer-exponents-alpha-3_5.json",
-      "bytes": 721560,
-      "sha256": "ffde03ddfa7e7c57ef5a279c4b3ca763ddeef4127af08ce4c71ae374dae0450f"
+      "bytes": 740163,
+      "sha256": "18f82f7a4d335c40a6067c918bb24b7d47827300abbfc138076db75a5cb92d9b"
     },
     {
       "path": "science/baseline/frontier/transfer-exponents-alpha-9_10.json",
-      "bytes": 571192,
-      "sha256": "443b4ac1d009734b13ee70689ae4daab81feb593dc55ce6af431b93839ec05fc"
+      "bytes": 585780,
+      "sha256": "472167f847aa4606027d770e517442c3aa06ee42698aeef69e2990eb1638d400"
     },
     {
       "path": "science/baseline/frontier/transfer-fast-output.json",
-      "bytes": 1316,
-      "sha256": "38574e54728d6b7dd4755ec7ffb926fea2b83f4a4cb991992fe8ecc6c8b036cb"
+      "bytes": 1355,
+      "sha256": "14342ce7529a9328a03a06cf7501a9a82b4807423b48b3af5e17426b447b8c93"
     },
     {
       "path": "science/baseline/frontier/transfer-node-ledger-alpha-13_25.json",
-      "bytes": 809897,
-      "sha256": "e307d854962ace5900ff3557723e9fbfdf51916e6f69941bc652a15a161f945a"
+      "bytes": 820668,
+      "sha256": "1ab082f366ec28aa324de91b26d377f9f3b1cda5b13f2e86613f282c354d494b"
     },
     {
       "path": "science/baseline/frontier/transfer-node-ledger-alpha-3_5.json",
-      "bytes": 808397,
-      "sha256": "ad8e7097c651019f56420ec8befd4bf1d210df8d51bb93ac632b85bdd31cd36c"
+      "bytes": 819168,
+      "sha256": "1a8578d6493babc3f50ff74ab6b7ab98104183bc65f7f3af3eda072355768b1f"
     },
     {
       "path": "science/baseline/frontier/transfer-node-ledger-alpha-9_10.json",
-      "bytes": 804548,
-      "sha256": "f61153bb458f62acacafc18b57d1bc3b3103fa27a066425e45e0d18496c960c9"
+      "bytes": 815319,
+      "sha256": "9acaaf39dc8238a36608c715dda9ca6ec6223b9fa66cc96d82d53d8b56cf45fa"
     },
     {
       "path": "science/baseline/frontier/transfer-preflight.json",
-      "bytes": 3016,
-      "sha256": "35c4caebd081c4624f4daad4883874f6ff4b75436668912229957864e28d1104"
+      "bytes": 4668,
+      "sha256": "9b72424a4e1a233a5f88ef1765590199f0cc61d4fd535e975bb4c2d8ef33ae67"
+    },
+    {
+      "path": "science/baseline/frontier/transfer-preflight.py",
+      "bytes": 5948,
+      "sha256": "23bb86293bce1dc24c1ce435129c6ffb1c6204cdceff1fd3ff18e9c50b6d354a"
     },
     {
       "path": "science/baseline/frontier/transfer-pricing.py",
-      "bytes": 16646,
-      "sha256": "7f829919cdcc6b680480473f4833b0df22d67e9156ba8869476f609bba4963f2"
+      "bytes": 16724,
+      "sha256": "0b32b38742785c3c0a00317f4134c98629564066c7894dcae3b0cb6ce82813da"
     },
     {
       "path": "science/baseline/frontier/transfer-quarter-fullref.py",
@@ -2456,8 +2404,8 @@
     },
     {
       "path": "science/baseline/frontier/transfer-results.json",
-      "bytes": 15796,
-      "sha256": "0aa6eb416bf7ef80a389d4014b2eb292c4f97747df68c689176799310a00346f"
+      "bytes": 16039,
+      "sha256": "12c2249840c6e18d3b1a57aec3247a07a04da80cc7b3c88091e3f6f33a728b40"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-contract.json",
@@ -2466,33 +2414,33 @@
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-exponents.json",
-      "bytes": 1201252,
-      "sha256": "a7663f9119a66882369caef144b324c9d78a049fa4b270000c4c0322c6411389"
+      "bytes": 1232008,
+      "sha256": "aaa63393d9a14730297a8f0f2a6877a7b3d6de3b5b233682cce770566a019d82"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-node-ledger.json",
-      "bytes": 1396883,
-      "sha256": "5631bd2f68bc578a7ad4192c423265673c66b71c918f1fcffdcd7d3b0daefe87"
+      "bytes": 1413290,
+      "sha256": "d51638b67ea59e7391cb72c652ad6ccfb882a49ea667127a5c6bd8d36e2bc933"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-results.json",
-      "bytes": 5613,
-      "sha256": "89453ea3d5f223bf01b67b2d92b96b1cffc56425b67311407d87668608bd0209"
+      "bytes": 5701,
+      "sha256": "60535f64b253d4613086c723630725f5afa5b2de3a90022a63446f000fca2dfe"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-13_25.json",
-      "bytes": 342480,
-      "sha256": "ba988891c2d45d6eadbca71586caf002cbfa6d3d9f946430f284a1ade39e472a"
+      "bytes": 351033,
+      "sha256": "01db02f184bd9ebb640acc6068c4b3b6df90311b885fcb57935ce4bfd4d90ff4"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-3_5.json",
-      "bytes": 342459,
-      "sha256": "2501c654c0157281813abda88de29373bfbe8530917674e428f30aa2ba9b7d78"
+      "bytes": 351012,
+      "sha256": "23520d31b67c41a0efe1a24c75a5d5b3a207ae99d4e6161c8ca65215d6bcd8f9"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-9_10.json",
-      "bytes": 342218,
-      "sha256": "0ea033ff015082c92e7f425742df70df4ea7b34b29bfaac0f2a459d1c024bf95"
+      "bytes": 350771,
+      "sha256": "c29490da712b350fc79be8b0e067a7f3c627119dfb22bd2c07ccf205cd5df4e6"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-contract.json",
@@ -2501,23 +2449,23 @@
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-nodes.json",
-      "bytes": 815021,
-      "sha256": "2c0b6b15996577ed713ee316a7323ab70ff62b2615ccb4bed321ec0ac3d54016"
+      "bytes": 824251,
+      "sha256": "60e0cc82268facc9af3523847a707e1fda5ed7142060f4bf02a648db18e839f8"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-results.json",
-      "bytes": 4119,
-      "sha256": "d809ff1da6ae2e09960592c92233f40388d2b8ed05d3f073fd954e76b4e4a24c"
+      "bytes": 4180,
+      "sha256": "093c3849fe682966afa8e749879af616ec95fd25ab257ef01ce3e28a3f428d01"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-weights.json",
-      "bytes": 23261,
-      "sha256": "a06bde364488c942a275df6e3cea146f80d4ed26bd27ce8a333959a208dbf545"
+      "bytes": 24173,
+      "sha256": "50ebef5b974ecdfe16fbf402cafd6b738a46edb3b59f0ccd20e071adf36f8f58"
     },
     {
       "path": "science/baseline/reference/code/MANIFEST.json",
-      "bytes": 13308,
-      "sha256": "cdeb49df0a11bc006068fcec92cfbd81358f93a3ec145c3af8e4ce6d02116f87"
+      "bytes": 10614,
+      "sha256": "aac5cacae82533b853a22fd37692623e040b62cc7d49e3a1e587a32e84b09961"
     },
     {
       "path": "science/baseline/reference/code/PROVENANCE.json",
@@ -2528,86 +2476,6 @@
       "path": "science/baseline/reference/code/QA-summary.json",
       "bytes": 3099,
       "sha256": "ec6b5cc1073ba471414812de58efa16aa80648de0be11259ebcaaafb39788c91"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/MANIFEST.json",
-      "bytes": 1932,
-      "sha256": "5d382fbd3246e076b21376f3abde88540a4e6a2fbaaf139e38f4e638606a9f46"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/field-cell-integrals.json",
-      "bytes": 2511575,
-      "sha256": "4cbb758454e9c7d26730003a0fa97a40456b8610bc88fb31a187ddf413f096a4"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/field-independent-readback.json",
-      "bytes": 1616,
-      "sha256": "bebbfb5026c0da1d8c1cc498e348b946d53e99d2a6be1ad5d650e40bf395f7da"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/field-result.json",
-      "bytes": 5403,
-      "sha256": "83ea632a837ea2caa1a2ac1f49ce72960726180d53a6dfbb08f988ce1c9b2003"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/field-validation.json",
-      "bytes": 1340,
-      "sha256": "a2077fc50599ebff7578040d75652f69e05024505f9fcf4ba362bbf48f5607f0"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/input-validation.json",
-      "bytes": 622,
-      "sha256": "aaa7597d6b58f8fb58adf467fb299f4a83b62ac27cb727fd0d3f0a4621b35b38"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/model_bounds.py",
-      "bytes": 4814,
-      "sha256": "9b17bf2070fb8727f91baa8409080b11866d04fea99e29f402fc99b439e2d9cd"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/provenance.json",
-      "bytes": 3672,
-      "sha256": "131a0291c6f48316e7f9d85b95fcaa77ba8f9d916ae93848b5a1c39b9ae289cc"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/terminal-validation.json",
-      "bytes": 9436,
-      "sha256": "ea4818bf549cf99fdd04024185882dd0434456d7b15df1fa5a672cd74f1d6705"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/terminal767-historical-review.json",
-      "bytes": 9785,
-      "sha256": "50da30b21217ceed2986604d76341017fb219698d5a752fa1da88c830d572911"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/terminal767-input.json",
-      "bytes": 312370,
-      "sha256": "c58ff864d39464bd6d46b24a6a0d34d7427af378cca0d9cefc00f04573bd9c18"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/terminal767-result.json",
-      "bytes": 35194,
-      "sha256": "0ef0a8e8ef11a288773cfef44a018734cadc5f0362cc32263aaa4ffd81a8759f"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/verify_field_receipt.py",
-      "bytes": 4633,
-      "sha256": "486bd5a1b45ead98e4e9b65cda76664106e9c5e761dcfad7727687155a9571c5"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/verify_input_bounds.py",
-      "bytes": 1965,
-      "sha256": "45dc5eb5390895d6f1be1460a58b043b5e988e21dc6dbc3ec9dd071bd04808f8"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/verify_package.py",
-      "bytes": 1676,
-      "sha256": "f987469630ab72a6e0c8ae59fb9b599bfc091757ff0af0cb32f2cd618f89d00a"
-    },
-    {
-      "path": "science/baseline/reference/code/classical/verify_terminal.py",
-      "bytes": 9947,
-      "sha256": "ad6688c359026b85b5355d880d07254e6861dd84fa5978ae83d26b140a81d4a3"
     },
     {
       "path": "science/baseline/reference/code/frozen/calibration-contract-finite-T05.json",
@@ -2776,8 +2644,8 @@
     },
     {
       "path": "science/baseline/reference/code/make-manifest.py",
-      "bytes": 1229,
-      "sha256": "30a4c201e4229d218f00107e311aa20852bf5f0b334845e21e7bd4ebe53e1e97"
+      "bytes": 1176,
+      "sha256": "49d9b830884a2e706370423ed7c90b1de05937a707deddd2fc67aa71681d9dd7"
     },
     {
       "path": "science/baseline/reference/code/replay-semantic-check.py",
@@ -2791,8 +2659,8 @@
     },
     {
       "path": "science/baseline/reference/code/run.py",
-      "bytes": 18392,
-      "sha256": "24119a1e37af3df9109e521903ac6e4f25916f9317596e3fedd45a1c9ed77a60"
+      "bytes": 18384,
+      "sha256": "de339d134969aaac0132faade6d5ddb99e50af2b4b98fa7c67b122f8791a842d"
     },
     {
       "path": "science/baseline/reference/code/src/calibration-field-input-check.py",
@@ -3506,13 +3374,13 @@
     },
     {
       "path": "scripts/build_article.py",
-      "bytes": 5343,
-      "sha256": "a48700e005c4abafddd3225c6be2bca76e4148fdba3effe38180d33255f16221"
+      "bytes": 5316,
+      "sha256": "0ef65b930af71700f95b9f31f5f10a71d741f990235696c1c24834ee4b59389d"
     },
     {
       "path": "scripts/build_pdf.py",
-      "bytes": 31261,
-      "sha256": "93df337ee0fca8ea7107392c7e1713dc7b820cf04b71aef9506b80caae162576"
+      "bytes": 30322,
+      "sha256": "1d8fa9580ae23f5518f91e751fa3d84902c75a523bcf8c85cf613ee78a85de4d"
     },
     {
       "path": "scripts/math_inputs.py",
@@ -3530,44 +3398,24 @@
       "sha256": "01efe4d6a21601b929f179313c4a12d729aea741ac90f11916fe93be5dabb2c9"
     },
     {
-      "path": "supplement/classical-heston-en.md",
-      "bytes": 38439,
-      "sha256": "8d05faf548d14b9fc6045fdbeb563d323883ca3dad3c2aa2f67415f1f704cefe"
-    },
-    {
-      "path": "supplement/classical-heston-zh.md",
-      "bytes": 34525,
-      "sha256": "b4de4835bad19948c0906cf4525265265711eb777972e89a759e825566af054a"
-    },
-    {
       "path": "validation/README.md",
-      "bytes": 1878,
-      "sha256": "67d09860bbbdc3292400e1af48ea48cb42bf76128e0da8c317f0a91b8b8ecc29"
+      "bytes": 2168,
+      "sha256": "d098ce70212bf1ccfc000fc14db529d0447a2b4d366ee56596015e5e1f9e33c1"
     },
     {
       "path": "validation/article-check.json",
-      "bytes": 81512,
-      "sha256": "22381c68b08f11e719749d611ee7f907e2d39ced3a7203709bea77788fe88a84"
+      "bytes": 81210,
+      "sha256": "84206cb6794b1fd40ece57125bd8b8a05177d91e159508bd471b98ce4b296c64"
     },
     {
       "path": "validation/pdf-check.json",
-      "bytes": 1822,
-      "sha256": "664936b951fa674c54e81da444cac9adf9e7d7c64d2e19c7ca35afd5a0dbab99"
-    },
-    {
-      "path": "validation/receipt-bound-proof-source.md",
-      "bytes": 184603,
-      "sha256": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
-    },
-    {
-      "path": "validation/revision-check.json",
-      "bytes": 41560,
-      "sha256": "e2f8b9757c4168b29d5bfeea51a9356ca1a5a42559f6dd69c9c5a09edcfa83f8"
+      "bytes": 1882,
+      "sha256": "bfad39b0c48a04fd4bb40299d0d337de8d297c71353225de4a379f1f9bdca7a0"
     },
     {
       "path": "verify_source.py",
-      "bytes": 1016,
-      "sha256": "44952bffd739eb20a4f73096d3ac49112f1930fc8e5f35177c81fd575671b726"
+      "bytes": 1734,
+      "sha256": "63e146515c26013cd935b97f5c391776de9a252012c2a469ca52ae0c9106a4ba"
     }
   ]
 }

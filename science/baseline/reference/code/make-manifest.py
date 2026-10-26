@@ -1,4 +1,4 @@
-"""Record the portable code and proof-map byte identities; no scientific rerun."""
+"""Record current portable code and saved-input identities; no scientific rerun."""
 from pathlib import Path
 import hashlib,json
 
@@ -12,13 +12,12 @@ def digest(path):
 
 files=[p for p in HERE.rglob('*') if p.is_file() and p.name!='MANIFEST.json'
        and '__pycache__' not in p.parts and p.suffix!='.pyc']
-files.append(ROOT/'docs'/'proof-map.md')
 records=[{'path':p.relative_to(ROOT).as_posix(),'bytes':p.stat().st_size,'sha256':digest(p)}
          for p in sorted(files)]
 assert all(r['bytes']<100*1024*1024 for r in records)
 out={'status':'PORTABLE_CODE_AND_FROZEN_INPUT_MANIFEST',
      'hash':'sha256','artifacts':records,
-     'scope':'Own-code and frozen release bytes plus the proof map; manuscript/PDF identity is recorded by the top-level release process.'}
+     'scope':'Current code and saved input bytes; manuscript/PDF identity is recorded by the top-level publication manifests.'}
 (HERE/'MANIFEST.json').write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'files':len(records),'bytes':sum(r['bytes'] for r in records),
                   'maximum_file_bytes':max(r['bytes'] for r in records)},indent=2))

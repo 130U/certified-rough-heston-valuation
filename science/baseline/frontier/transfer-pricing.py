@@ -45,7 +45,8 @@ def main():
     contract=load(OUT/'transfer-contract.json'); preflight=load(OUT/'transfer-preflight.json')
     contract_hash=sha(OUT/'transfer-contract.json')
     assert preflight['contract_sha256']==contract_hash
-    assert preflight['status']=='PASS_TRANSFER_PREFLIGHT_BEFORE_NEW_VALUES'
+    assert preflight['status']=='PASS_CURRENT_TRANSFER_INPUT_BINDING'
+    assert preflight['executed_checker_sha256']==sha(HERE/'transfer-preflight.py')
     input_hashes={'transfer-contract.json':contract_hash,'transfer-preflight.json':sha(OUT/'transfer-preflight.json')}
     for oldpath, expected in preflight['source_sha256'].items():
         name=Path(oldpath).name

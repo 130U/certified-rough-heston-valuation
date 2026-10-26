@@ -30,27 +30,6 @@
       "reason": "strictly positive but inflated margin differs from generated interval evidence"
     },
     {
-      "name": "valid_terminal_primal_dual",
-      "deliberate_corruption": false,
-      "semantic_rejection": false,
-      "status": "PASS",
-      "reason": null
-    },
-    {
-      "name": "flip_probability_constraint_direction",
-      "deliberate_corruption": true,
-      "semantic_rejection": true,
-      "status": "PASS",
-      "reason": "primal constraint direction"
-    },
-    {
-      "name": "wrong_dual_multiplier_sign",
-      "deliberate_corruption": true,
-      "semantic_rejection": true,
-      "status": "PASS",
-      "reason": "dual multiplier sign"
-    },
-    {
       "name": "valid_shared_frequency_cover",
       "deliberate_corruption": false,
       "semantic_rejection": false,

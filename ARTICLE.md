@@ -2,9 +2,7 @@
 
 **Theodore Ouyang**
 
-Revision: 26 October 2026.
-
-[English PDF](paper/paper.pdf) · [Chinese PDF](paper/paper-zh.pdf) · [Evidence](EVIDENCE.md) · [Revision record](REVISION.md)
+[English PDF](paper/paper.pdf) · [Chinese PDF](paper/paper-zh.pdf) · [Evidence](EVIDENCE.md) · [Verification](COMMANDS.md)
 
 ## Contents
 
@@ -41,9 +39,9 @@ Let $`c^*`$ be the vector of exact, normalized model prices, $`c^{\rm fast}`$ th
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md501981bae002ecf5459-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md501981bae002ecf5459-light.svg">
-  <img src="assets/math/revision-md501981bae002ecf5459-light.svg" width="197" alt="DF_T\left|w^\top(c^*-c^{\rm fast})\right|\le\tau.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md501981bae002ecf5459-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md501981bae002ecf5459-light.svg">
+  <img src="assets/math/formula-md501981bae002ecf5459-light.svg" width="197" alt="DF_T\left|w^\top(c^*-c^{\rm fast})\right|\le\tau.">
 </picture>
 </p>
 
@@ -55,9 +53,9 @@ The reference is useful only if its own uncertainty is controlled. Subtracting a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m474f06f8f66469431d1d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m474f06f8f66469431d1d-light.svg">
-  <img src="assets/math/revision-m474f06f8f66469431d1d-light.svg" width="426" alt="c^*-c^{\rm fast}=d+\operatorname{Re}(A\delta)+r, \qquad d=\bar c-c^{\rm fast}. \tag{1.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m474f06f8f66469431d1d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m474f06f8f66469431d1d-light.svg">
+  <img src="assets/math/formula-m474f06f8f66469431d1d-light.svg" width="426" alt="c^*-c^{\rm fast}=d+\operatorname{Re}(A\delta)+r, \qquad d=\bar c-c^{\rm fast}. \tag{1.1}">
 </picture>
 </p>
 
@@ -91,7 +89,7 @@ Abi Jaber and El Euch [AbiJaberElEuch2018] provide the Volterra model and affine
 
 Bayer and Breneis [BBWeak2023, BBSimulation2023] study Markovian kernel approximations and simulation methods. Boyarchenko, de Innocentis and Levendorskii [BL2025] study reliable rough Heston pricing and calibration; their modified Adams method is one of our numerical controls. Ben Hammouda et al. [BenHammouda2026] allocate time-discretization and Fourier-quadrature errors in single- and multilevel methods. Hager and Kreher [HK2026] study expansions in the Hurst parameter. Our question concerns a posteriori enclosure of a specified output, including its complete remainder. This scope differs from a complexity bound, an observed convergence rate, or a comparison between nominal solvers.
 
-Section 2 defines the exact problem. Sections 3 and 4 pass from the continuous residual to certified transform values. Section 5 derives the portfolio error set and its financial consequences. Section 6 records the rational output used in the experiments, and Section 7 presents the matched comparisons. Appendices A--E contain the model justification, detailed proofs and reproducibility record. Classical Heston extensions are retained separately as supplementary material.
+Section 2 defines the exact problem. Sections 3 and 4 pass from the continuous residual to certified transform values. Section 5 derives the portfolio error set and its financial consequences. Section 6 records the rational output used in the experiments, and Section 7 presents the matched comparisons. Appendices A--E contain the model justification, detailed proofs and reproducibility record.
 
 ## 2. The exact pricing problem
 
@@ -100,9 +98,9 @@ Our conventions for the fractional integral and Caputo derivative are
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-me10ca71d807356654c7f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-me10ca71d807356654c7f-light.svg">
-  <img src="assets/math/revision-me10ca71d807356654c7f-light.svg" width="591" alt="I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds, \qquad D_C^\alpha v=I^{1-\alpha}v&#x27;,\quad v\in AC. \tag{2.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me10ca71d807356654c7f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me10ca71d807356654c7f-light.svg">
+  <img src="assets/math/formula-me10ca71d807356654c7f-light.svg" width="591" alt="I^\alpha f(t)=\frac1{\Gamma(\alpha)}\int_0^t(t-s)^{\alpha-1}f(s)\,ds, \qquad D_C^\alpha v=I^{1-\alpha}v&#x27;,\quad v\in AC. \tag{2.1}">
 </picture>
 </p>
 
@@ -112,9 +110,9 @@ Under the regularity of the trajectories used below, $`I^\alpha f\in AC`$ with z
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m88a92ec169a415c2cce6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m88a92ec169a415c2cce6-light.svg">
-  <img src="assets/math/revision-m88a92ec169a415c2cce6-light.svg" width="526" alt="D_{C,t}^\alpha h=-\frac{a^2+ia}{2} +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0. \tag{2.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m88a92ec169a415c2cce6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m88a92ec169a415c2cce6-light.svg">
+  <img src="assets/math/formula-m88a92ec169a415c2cce6-light.svg" width="526" alt="D_{C,t}^\alpha h=-\frac{a^2+ia}{2} +(i\rho\nu a-\lambda_R)h+\frac{\nu^2}{2}h^2,\qquad h(0)=0. \tag{2.2}">
 </picture>
 </p>
 
@@ -124,9 +122,9 @@ Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m1c98122f571437e0f959-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m1c98122f571437e0f959-light.svg">
-  <img src="assets/math/revision-m1c98122f571437e0f959-light.svg" width="665" alt="x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad \kappa=\lambda_R/\nu, \tag{2.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m1c98122f571437e0f959-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m1c98122f571437e0f959-light.svg">
+  <img src="assets/math/formula-m1c98122f571437e0f959-light.svg" width="665" alt="x=\nu^{1/\alpha}t,\quad y=x^\alpha=\nu t^\alpha,\quad H(x)=\nu h(t),\quad Z(t)=H(\nu^{1/\alpha}t),\quad \kappa=\lambda_R/\nu, \tag{2.3}">
 </picture>
 </p>
 
@@ -135,9 +133,9 @@ Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m11b0bf4f17035fc54d60-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m11b0bf4f17035fc54d60-light.svg">
-  <img src="assets/math/revision-m11b0bf4f17035fc54d60-light.svg" width="603" alt="b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad F(z)=-b+dz+z^2/2.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m11b0bf4f17035fc54d60-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m11b0bf4f17035fc54d60-light.svg">
+  <img src="assets/math/formula-m11b0bf4f17035fc54d60-light.svg" width="603" alt="b=(u^2+1/4)/2,\quad s_0=\kappa-\rho/2,\quad d=-s_0+i\rho u,\quad F(z)=-b+dz+z^2/2.">
 </picture>
 </p>
 
@@ -149,9 +147,9 @@ For the probability model and the numerical examples, we fix $`\kappa=0`$ and th
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mbf880b7df623162daed1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mbf880b7df623162daed1-light.svg">
-  <img src="assets/math/revision-mbf880b7df623162daed1-light.svg" width="682" alt="\xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}), \quad (\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037). \tag{2.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mbf880b7df623162daed1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mbf880b7df623162daed1-light.svg">
+  <img src="assets/math/formula-mbf880b7df623162daed1-light.svg" width="682" alt="\xi_*(t)=\theta+(V_0-\theta)E_{\alpha_0}(-\lambda_\xi t^{\alpha_0}), \quad (\alpha_0,V_0,\theta,\lambda_\xi)=(.5286,.0262,.0721,.5037). \tag{2.4}">
 </picture>
 </p>
 
@@ -161,9 +159,9 @@ The curve parameter $`\lambda_\xi`$ and Riccati parameter $`\lambda_R`$ are defi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m17169fffdca79eb56e1d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m17169fffdca79eb56e1d-light.svg">
-  <img src="assets/math/revision-m17169fffdca79eb56e1d-light.svg" width="867" alt="V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\quad K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\qquad dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt. \tag{2.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m17169fffdca79eb56e1d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m17169fffdca79eb56e1d-light.svg">
+  <img src="assets/math/formula-m17169fffdca79eb56e1d-light.svg" width="867" alt="V_t=\xi_*(t)+\nu\int_0^tK_\alpha(t-s)\sqrt{V_s}\,dW_s,\quad K_\alpha(t)=t^{\alpha-1}/\Gamma(\alpha),\qquad dS_t=S_t\sqrt{V_t}\,dB_t,\quad d\langle B,W\rangle_t=\rho\,dt. \tag{2.5}">
 </picture>
 </p>
 
@@ -175,9 +173,9 @@ Let $`M_T=S_T/F_T`$ be the normalised positive martingale and write $`\phi_T(a)=
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m76298174044506b3f08e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m76298174044506b3f08e-light.svg">
-  <img src="assets/math/revision-m76298174044506b3f08e-light.svg" width="535" alt="L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad \phi_T(u-i/2)=e^{L_T(u)}. \tag{2.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m76298174044506b3f08e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m76298174044506b3f08e-light.svg">
+  <img src="assets/math/formula-m76298174044506b3f08e-light.svg" width="535" alt="L_T(u)=\int_0^T\xi_*(T-t)F(Z(t,u))\,dt,\quad \phi_T(u-i/2)=e^{L_T(u)}. \tag{2.6}">
 </picture>
 </p>
 
@@ -187,9 +185,9 @@ With $`m=K/F_T,k=\log m,c=C/(DF_T)`$, the model European call price is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3acd87b6c6e0645aed71-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3acd87b6c6e0645aed71-light.svg">
-  <img src="assets/math/revision-m3acd87b6c6e0645aed71-light.svg" width="403" alt="c=1-\frac{\sqrt m}{\pi}\int_0^\infty \operatorname{Re}\frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du. \tag{2.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3acd87b6c6e0645aed71-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3acd87b6c6e0645aed71-light.svg">
+  <img src="assets/math/formula-m3acd87b6c6e0645aed71-light.svg" width="403" alt="c=1-\frac{\sqrt m}{\pi}\int_0^\infty \operatorname{Re}\frac{e^{-iuk}\phi_T(u-i/2)}{u^2+1/4}\,du. \tag{2.7}">
 </picture>
 </p>
 
@@ -204,9 +202,9 @@ The exact object is the solution of the Volterra equation
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m1fabc8cfb44d57abbbad-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m1fabc8cfb44d57abbbad-light.svg">
-  <img src="assets/math/revision-m1fabc8cfb44d57abbbad-light.svg" width="385" alt="H(x)=\frac{1}{\Gamma(\alpha)}\int_0^x(x-s)^{\alpha-1}F(H(s))\,ds. \tag{2.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m1fabc8cfb44d57abbbad-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m1fabc8cfb44d57abbbad-light.svg">
+  <img src="assets/math/formula-m1fabc8cfb44d57abbbad-light.svg" width="385" alt="H(x)=\frac{1}{\Gamma(\alpha)}\int_0^x(x-s)^{\alpha-1}F(H(s))\,ds. \tag{2.8}">
 </picture>
 </p>
 
@@ -218,9 +216,9 @@ The exact object is the solution of the Volterra equation
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m8f36a4d3d8a83c7b51b9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m8f36a4d3d8a83c7b51b9-light.svg">
-  <img src="assets/math/revision-m8f36a4d3d8a83c7b51b9-light.svg" width="505" alt="|H(x)|\le\frac b{s_0}\{1-E_\alpha(-s_0x^\alpha)\} \le\min\left\{\frac b{s_0},\frac{bx^\alpha}{\Gamma(1+\alpha)}\right\}. \tag{2.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m8f36a4d3d8a83c7b51b9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m8f36a4d3d8a83c7b51b9-light.svg">
+  <img src="assets/math/formula-m8f36a4d3d8a83c7b51b9-light.svg" width="505" alt="|H(x)|\le\frac b{s_0}\{1-E_\alpha(-s_0x^\alpha)\} \le\min\left\{\frac b{s_0},\frac{bx^\alpha}{\Gamma(1+\alpha)}\right\}. \tag{2.9}">
 </picture>
 </p>
 
@@ -245,9 +243,9 @@ Let $`\widehat Z`$ be a zero-initial-value reference trajectory and define its p
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7f564591d6b1b4381e1b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7f564591d6b1b4381e1b-light.svg">
-  <img src="assets/math/revision-m7f564591d6b1b4381e1b-light.svg" width="405" alt="D_C^\alpha e=\nu\left[d+\frac{Z+\widehat Z}{2}\right]e-r, \qquad e(0)=0. \tag{3.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7f564591d6b1b4381e1b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7f564591d6b1b4381e1b-light.svg">
+  <img src="assets/math/formula-m7f564591d6b1b4381e1b-light.svg" width="405" alt="D_C^\alpha e=\nu\left[d+\frac{Z+\widehat Z}{2}\right]e-r, \qquad e(0)=0. \tag{3.1}">
 </picture>
 </p>
 
@@ -261,9 +259,9 @@ The second identity concerns the pricing functional. For $`\beta\gt 0`$, write $
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m386e3d157e0003519668-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m386e3d157e0003519668-light.svg">
-  <img src="assets/math/revision-m386e3d157e0003519668-light.svg" width="519" alt="L_T-\widehat L_T=\nu^{-1}(q_\alpha*e)(T), \qquad q_\alpha=\xi(0)g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;. \tag{3.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m386e3d157e0003519668-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m386e3d157e0003519668-light.svg">
+  <img src="assets/math/formula-m386e3d157e0003519668-light.svg" width="519" alt="L_T-\widehat L_T=\nu^{-1}(q_\alpha*e)(T), \qquad q_\alpha=\xi(0)g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;. \tag{3.2}">
 </picture>
 </p>
 
@@ -280,9 +278,9 @@ Define $`k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha)`$, with $
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5b8b8db55dfdad90beea-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5b8b8db55dfdad90beea-light.svg">
-  <img src="assets/math/revision-m5b8b8db55dfdad90beea-light.svg" width="626" alt="D_C^\alpha Z=\nu F(Z),\quad r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad |r|\le R\in L^\infty(0,T),\qquad R\ge0, \tag{3.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5b8b8db55dfdad90beea-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5b8b8db55dfdad90beea-light.svg">
+  <img src="assets/math/formula-m5b8b8db55dfdad90beea-light.svg" width="626" alt="D_C^\alpha Z=\nu F(Z),\quad r=D_C^\alpha\widehat Z-\nu F(\widehat Z),\quad |r|\le R\in L^\infty(0,T),\qquad R\ge0, \tag{3.3}">
 </picture>
 </p>
 
@@ -294,9 +292,9 @@ where $`F(z)=-b+dz+z^2/2`$, $`\Re d=-s_0`$, $`\Re Z\le0`$, $`\Re\widehat Z\le\ep
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mdbe295dc4d7e9f536eb5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mdbe295dc4d7e9f536eb5-light.svg">
-  <img src="assets/math/revision-mdbe295dc4d7e9f536eb5-light.svg" width="419" alt="q_\alpha=(I^{1-\alpha}\xi)&#x27; =V_0g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;\ge0\quad\text{a.e.} \tag{3.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mdbe295dc4d7e9f536eb5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mdbe295dc4d7e9f536eb5-light.svg">
+  <img src="assets/math/formula-mdbe295dc4d7e9f536eb5-light.svg" width="419" alt="q_\alpha=(I^{1-\alpha}\xi)&#x27; =V_0g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;\ge0\quad\text{a.e.} \tag{3.4}">
 </picture>
 </p>
 
@@ -308,9 +306,9 @@ Define $`L_T`$ and $`\widehat L_T`$ from $`\nu^{-1}\int_0^T\xi(T-t)D_C^\alpha Z(
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5e9f47c3c15bf72dcc07-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5e9f47c3c15bf72dcc07-light.svg">
-  <img src="assets/math/revision-m5e9f47c3c15bf72dcc07-light.svg" width="639" alt="|Z-\widehat Z|\le k_\lambda*R, \qquad |L_T-\widehat L_T| \le\nu^{-1}(q_\alpha*k_\lambda*R)(T) \le\nu^{-1}(\xi*R)(T). \tag{3.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5e9f47c3c15bf72dcc07-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5e9f47c3c15bf72dcc07-light.svg">
+  <img src="assets/math/formula-m5e9f47c3c15bf72dcc07-light.svg" width="639" alt="|Z-\widehat Z|\le k_\lambda*R, \qquad |L_T-\widehat L_T| \le\nu^{-1}(q_\alpha*k_\lambda*R)(T) \le\nu^{-1}(\xi*R)(T). \tag{3.5}">
 </picture>
 </p>
 
@@ -322,9 +320,9 @@ In particular, $`R/\nu\le\delta_F`$ implies
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc72b2030a1749c18973c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc72b2030a1749c18973c-light.svg">
-  <img src="assets/math/revision-mc72b2030a1749c18973c-light.svg" width="285" alt="|L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds. \tag{3.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc72b2030a1749c18973c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc72b2030a1749c18973c-light.svg">
+  <img src="assets/math/formula-mc72b2030a1749c18973c-light.svg" width="285" alt="|L_T-\widehat L_T|\le\delta_F\int_0^T\xi(s)\,ds. \tag{3.6}">
 </picture>
 </p>
 
@@ -341,9 +339,9 @@ For a full-history residual envelope $`R\le R_j`$ on each closed cell $`[a_j,b_j
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc7af6f1933a394c1974b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc7af6f1933a394c1974b-light.svg">
-  <img src="assets/math/revision-mc7af6f1933a394c1974b-light.svg" width="665" alt="|L_T-\widehat L_T| \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds. \tag{3.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc7af6f1933a394c1974b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc7af6f1933a394c1974b-light.svg">
+  <img src="assets/math/formula-mc7af6f1933a394c1974b-light.svg" width="665" alt="|L_T-\widehat L_T| \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}(q_\alpha*k_\lambda)(T-s)\,ds \le\nu^{-1}\sum_jR_j\int_{a_j}^{b_j}\xi(T-s)\,ds. \tag{3.7}">
 </picture>
 </p>
 
@@ -360,9 +358,9 @@ Theorem 3.1 determines the pricing kernel by convolution. Its dependence on the 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m68641a145d09dc819c92-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m68641a145d09dc819c92-light.svg">
-  <img src="assets/math/revision-m68641a145d09dc819c92-light.svg" width="641" alt="K_\lambda=q_\alpha*k_\lambda,\qquad \eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad 0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi. \tag{3.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m68641a145d09dc819c92-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m68641a145d09dc819c92-light.svg">
+  <img src="assets/math/formula-m68641a145d09dc819c92-light.svg" width="641" alt="K_\lambda=q_\alpha*k_\lambda,\qquad \eta_{\rm res}=\nu^{-1}(K_\lambda*R)(T),\qquad 0\le K_\lambda=\xi-\lambda\,\xi*k_\lambda\le\xi. \tag{3.8}">
 </picture>
 </p>
 
@@ -376,9 +374,9 @@ The assumptions and scaling are those of Theorem 3.1. The positive fractional in
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m2f2497a9d2318bda5830-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m2f2497a9d2318bda5830-light.svg">
-  <img src="assets/math/revision-m2f2497a9d2318bda5830-light.svg" width="490" alt="k_0=g_\alpha,\qquad K_0=\xi,\qquad |L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T). \tag{3.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m2f2497a9d2318bda5830-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m2f2497a9d2318bda5830-light.svg">
+  <img src="assets/math/formula-m2f2497a9d2318bda5830-light.svg" width="490" alt="k_0=g_\alpha,\qquad K_0=\xi,\qquad |L_T-\widehat L_T|\le\nu^{-1}(\xi*R)(T). \tag{3.9}">
 </picture>
 </p>
 
@@ -392,9 +390,9 @@ For the fixed curve in (2.4), write $`A_0=\alpha_0`$ and $`\lambda_\xi`$ for its
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m4333ec4cc6a31c1a3963-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m4333ec4cc6a31c1a3963-light.svg">
-  <img src="assets/math/revision-m4333ec4cc6a31c1a3963-light.svg" width="718" alt="W_\lambda(t)=\int_0^tK_\lambda(s)\,ds =\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)E_{A_0,2+n\alpha} (-\lambda_\xi t^{A_0}) \right]. \tag{3.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m4333ec4cc6a31c1a3963-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m4333ec4cc6a31c1a3963-light.svg">
+  <img src="assets/math/formula-m4333ec4cc6a31c1a3963-light.svg" width="718" alt="W_\lambda(t)=\int_0^tK_\lambda(s)\,ds =\sum_{n=0}^\infty(-\lambda)^n t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)E_{A_0,2+n\alpha} (-\lambda_\xi t^{A_0}) \right]. \tag{3.10}">
 </picture>
 </p>
 
@@ -414,9 +412,9 @@ Write $`G=\nu F(Z)`$, so that $`Z=I^\alpha G`$. For fixed model parameters and F
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7aaacc69d58af6fcfbed-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7aaacc69d58af6fcfbed-light.svg">
-  <img src="assets/math/revision-m7aaacc69d58af6fcfbed-light.svg" width="478" alt="G(t)=G_0+A_1t^\alpha+A_2t^{2\alpha}+O(t^{3\alpha}), \qquad G_0=-\nu b, \tag{4.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7aaacc69d58af6fcfbed-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7aaacc69d58af6fcfbed-light.svg">
+  <img src="assets/math/formula-m7aaacc69d58af6fcfbed-light.svg" width="478" alt="G(t)=G_0+A_1t^\alpha+A_2t^{2\alpha}+O(t^{3\alpha}), \qquad G_0=-\nu b, \tag{4.1}">
 </picture>
 </p>
 
@@ -428,9 +426,9 @@ where the coefficients are determined recursively by
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mbd87d8ca5e224289f9f6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mbd87d8ca5e224289f9f6-light.svg">
-  <img src="assets/math/revision-mbd87d8ca5e224289f9f6-light.svg" width="431" alt="\begin{aligned} B_1&amp;=\frac{G_0}{\Gamma(1+\alpha)},&amp; A_1&amp;=\nu d B_1,\\ B_2&amp;=\frac{A_1\Gamma(1+\alpha)}{\Gamma(1+2\alpha)},&amp; A_2&amp;=\nu\left(dB_2+\frac{B_1^2}{2}\right). \end{aligned} \tag{4.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mbd87d8ca5e224289f9f6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mbd87d8ca5e224289f9f6-light.svg">
+  <img src="assets/math/formula-mbd87d8ca5e224289f9f6-light.svg" width="431" alt="\begin{aligned} B_1&amp;=\frac{G_0}{\Gamma(1+\alpha)},&amp; A_1&amp;=\nu d B_1,\\ B_2&amp;=\frac{A_1\Gamma(1+\alpha)}{\Gamma(1+2\alpha)},&amp; A_2&amp;=\nu\left(dB_2+\frac{B_1^2}{2}\right). \end{aligned} \tag{4.2}">
 </picture>
 </p>
 
@@ -446,9 +444,9 @@ In the implementation, all saved nodes and coefficients, including the startup c
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m08ff02db6eefbcb83ddf-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m08ff02db6eefbcb83ddf-light.svg">
-  <img src="assets/math/revision-m08ff02db6eefbcb83ddf-light.svg" width="146" alt="r_t=\bar G-\nu F(I^\alpha\bar G)">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m08ff02db6eefbcb83ddf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m08ff02db6eefbcb83ddf-light.svg">
+  <img src="assets/math/formula-m08ff02db6eefbcb83ddf-light.svg" width="146" alt="r_t=\bar G-\nu F(I^\alpha\bar G)">
 </picture>
 </p>
 
@@ -464,9 +462,9 @@ The derivative-based reference exponent is $`\widehat L_T=\nu^{-1}\int_0^T\xi(T-
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9e744ee7a70a6b212400-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9e744ee7a70a6b212400-light.svg">
-  <img src="assets/math/revision-m9e744ee7a70a6b212400-light.svg" width="337" alt="|\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9e744ee7a70a6b212400-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9e744ee7a70a6b212400-light.svg">
+  <img src="assets/math/formula-m9e744ee7a70a6b212400-light.svg" width="337" alt="|\phi_n-\widehat\phi_n|\le \min\{1,|\widehat\phi_n|\}(e^{\eta_n}-1).\tag{4.3}">
 </picture>
 </p>
 
@@ -478,9 +476,9 @@ $`g(z)=e^{-ikz}\phi_T(z-i/2)/(z^2+1/4)`$. Replacing the integral in (2.7) by the
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m47dc635010ff0b48de7e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m47dc635010ff0b48de7e-light.svg">
-  <img src="assets/math/revision-m47dc635010ff0b48de7e-light.svg" width="322" alt="\epsilon_{\rm grid} =\frac{\sqrt m\,e^{a_*|k|}} {(1/2-a_*)(e^{2\pi a_*/h_*}-1)}. \tag{4.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m47dc635010ff0b48de7e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m47dc635010ff0b48de7e-light.svg">
+  <img src="assets/math/formula-m47dc635010ff0b48de7e-light.svg" width="322" alt="\epsilon_{\rm grid} =\frac{\sqrt m\,e^{a_*|k|}} {(1/2-a_*)(e^{2\pi a_*/h_*}-1)}. \tag{4.4}">
 </picture>
 </p>
 
@@ -495,9 +493,9 @@ Suppose the node values $`\widehat\phi_n`$ have exact-error bounds $`\varepsilon
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m76092ce1cd566e6bcd1f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m76092ce1cd566e6bcd1f-light.svg">
-  <img src="assets/math/revision-m76092ce1cd566e6bcd1f-light.svg" width="460" alt="\widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi} \left(2\operatorname{Re}\widehat\phi_0+ \sum_{n=1}^{N_u}\frac{\operatorname{Re}(e^{-inh_*k}\widehat\phi_n)} {(nh_*)^2+1/4}\right) \tag{4.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m76092ce1cd566e6bcd1f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m76092ce1cd566e6bcd1f-light.svg">
+  <img src="assets/math/formula-m76092ce1cd566e6bcd1f-light.svg" width="460" alt="\widehat c_{N_u}=1-\frac{h_*\sqrt m}{\pi} \left(2\operatorname{Re}\widehat\phi_0+ \sum_{n=1}^{N_u}\frac{\operatorname{Re}(e^{-inh_*k}\widehat\phi_n)} {(nh_*)^2+1/4}\right) \tag{4.5}">
 </picture>
 </p>
 
@@ -507,9 +505,9 @@ satisfies
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m27d091677b936515e736-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m27d091677b936515e736-light.svg">
-  <img src="assets/math/revision-m27d091677b936515e736-light.svg" width="628" alt="|c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail} +\frac{h_*\sqrt m}{\pi} \left(2\varepsilon_0+ \sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right) +\epsilon_{\rm arithmetic}. \tag{4.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m27d091677b936515e736-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m27d091677b936515e736-light.svg">
+  <img src="assets/math/formula-m27d091677b936515e736-light.svg" width="628" alt="|c-\widehat c_{N_u}|\le\epsilon_{\rm grid}+\epsilon_{\rm tail} +\frac{h_*\sqrt m}{\pi} \left(2\varepsilon_0+ \sum_{n=1}^{N_u}\frac{\varepsilon_n}{(nh_*)^2+1/4}\right) +\epsilon_{\rm arithmetic}. \tag{4.6}">
 </picture>
 </p>
 
@@ -528,9 +526,9 @@ For the Lewis rule in Section 4, set $`m_i=K_i/F`$, $`k_i=\log m_i`$, and
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md9ef3c34222709d52c26-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md9ef3c34222709d52c26-light.svg">
-  <img src="assets/math/revision-md9ef3c34222709d52c26-light.svg" width="515" alt="a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n&gt;0),\qquad a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}. \tag{5.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md9ef3c34222709d52c26-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md9ef3c34222709d52c26-light.svg">
+  <img src="assets/math/formula-md9ef3c34222709d52c26-light.svg" width="515" alt="a_{in}=-\frac{h\sqrt{m_i}}{\pi}\frac{e^{-iu_nk_i}}{u_n^2+1/4}\quad(n&gt;0),\qquad a_{i0}=-\frac{2h\sqrt{m_i}}{\pi}. \tag{5.1}">
 </picture>
 </p>
 
@@ -540,9 +538,9 @@ The half weight at zero is already included in $`a_{i0}`$. The complete error is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-ma943b08339e173d79cc9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-ma943b08339e173d79cc9-light.svg">
-  <img src="assets/math/revision-ma943b08339e173d79cc9-light.svg" width="365" alt="c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R, \qquad R\in\mathcal R, \tag{5.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-ma943b08339e173d79cc9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-ma943b08339e173d79cc9-light.svg">
+  <img src="assets/math/formula-ma943b08339e173d79cc9-light.svg" width="365" alt="c^*-\bar c=\Re\sum_{n=0}^{N}a_{\cdot n}z_n+R, \qquad R\in\mathcal R, \tag{5.2}">
 </picture>
 </p>
 
@@ -554,9 +552,9 @@ where $`\mathcal R`$ includes the true infinite-grid tail and analytic-strip dis
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md9555e2a7dfafa3650f3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md9555e2a7dfafa3650f3-light.svg">
-  <img src="assets/math/revision-md9555e2a7dfafa3650f3-light.svg" width="496" alt="\mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R, \qquad d=\bar c-c^{\rm fast}. \tag{5.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md9555e2a7dfafa3650f3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md9555e2a7dfafa3650f3-light.svg">
+  <img src="assets/math/formula-md9555e2a7dfafa3650f3-light.svg" width="496" alt="\mathcal E_F=\left\{\Re\sum_na_{\cdot n}z_n:|z_n|\le\epsilon_n\right\}+\mathcal R, \qquad d=\bar c-c^{\rm fast}. \tag{5.3}">
 </picture>
 </p>
 
@@ -566,9 +564,9 @@ Then $`c^*-c^{\rm fast}\in d+\mathcal E_F`$, and, for real $`w`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m89ad26d186c202f1cc4c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m89ad26d186c202f1cc4c-light.svg">
-  <img src="assets/math/revision-m89ad26d186c202f1cc4c-light.svg" width="431" alt="h_{d+\mathcal E_F}(w)=w^\top d+ \sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w). \tag{5.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m89ad26d186c202f1cc4c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m89ad26d186c202f1cc4c-light.svg">
+  <img src="assets/math/formula-m89ad26d186c202f1cc4c-light.svg" width="431" alt="h_{d+\mathcal E_F}(w)=w^\top d+ \sum_n\epsilon_n\left|\sum_iw_i a_{in}\right|+h_{\mathcal R}(w). \tag{5.4}">
 </picture>
 </p>
 
@@ -582,9 +580,9 @@ If $`\mathcal R=\prod_i[-\rho_i,\rho_i]`$, the smallest coordinate box of this s
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-me63134276a2187f30c50-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-me63134276a2187f30c50-light.svg">
-  <img src="assets/math/revision-me63134276a2187f30c50-light.svg" width="392" alt="h_{\operatorname{rect}(\mathcal E_F)}(w)= \sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right). \tag{5.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me63134276a2187f30c50-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me63134276a2187f30c50-light.svg">
+  <img src="assets/math/formula-me63134276a2187f30c50-light.svg" width="392" alt="h_{\operatorname{rect}(\mathcal E_F)}(w)= \sum_i|w_i|\left(\sum_n\epsilon_n|a_{in}|+\rho_i\right). \tag{5.5}">
 </picture>
 </p>
 
@@ -594,9 +592,9 @@ Consequently its excess over (5.4), before translation, is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m846e126ff1e1f0568ac7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m846e126ff1e1f0568ac7-light.svg">
-  <img src="assets/math/revision-m846e126ff1e1f0568ac7-light.svg" width="450" alt="G_F(w)=\sum_n\epsilon_n\left( \sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0. \tag{5.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m846e126ff1e1f0568ac7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m846e126ff1e1f0568ac7-light.svg">
+  <img src="assets/math/formula-m846e126ff1e1f0568ac7-light.svg" width="450" alt="G_F(w)=\sum_n\epsilon_n\left( \sum_i|w_i a_{in}|-\left|\sum_iw_i a_{in}\right|\right)\ge0. \tag{5.6}">
 </picture>
 </p>
 
@@ -611,9 +609,9 @@ For any separately established signed model-price box $`\mathcal I`$, intersect 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m11d0f7b2a53a3012122c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m11d0f7b2a53a3012122c-light.svg">
-  <img src="assets/math/revision-m11d0f7b2a53a3012122c-light.svg" width="396" alt="c^*-c^{\rm fast}\in d&#x27; +\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R. \tag{5.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m11d0f7b2a53a3012122c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m11d0f7b2a53a3012122c-light.svg">
+  <img src="assets/math/formula-m11d0f7b2a53a3012122c-light.svg" width="396" alt="c^*-c^{\rm fast}\in d&#x27; +\{\Re(Az):|z_n|\le\rho_n\}\oplus\mathcal R. \tag{5.7}">
 </picture>
 </p>
 
@@ -625,9 +623,9 @@ For a symmetric remainder and direction $`w`$, the complete absolute budget uses
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m11a418314f6e4997e2e0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m11a418314f6e4997e2e0-light.svg">
-  <img src="assets/math/revision-m11a418314f6e4997e2e0-light.svg" width="447" alt="DF\left(|w^\top d&#x27;|+ \sum_n\rho_n\left|\sum_iw_ia_{in}\right| +h_{\mathcal R}(w)\right)\le\tau. \tag{5.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m11a418314f6e4997e2e0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m11a418314f6e4997e2e0-light.svg">
+  <img src="assets/math/formula-m11a418314f6e4997e2e0-light.svg" width="447" alt="DF\left(|w^\top d&#x27;|+ \sum_n\rho_n\left|\sum_iw_ia_{in}\right| +h_{\mathcal R}(w)\right)\le\tau. \tag{5.8}">
 </picture>
 </p>
 
@@ -646,9 +644,9 @@ For $`w=e_i-e_j`$, the node coefficient is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m449bed1346d6e237aadc-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m449bed1346d6e237aadc-light.svg">
-  <img src="assets/math/revision-m449bed1346d6e237aadc-light.svg" width="565" alt="|a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)} \left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n&gt;0). \tag{5.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m449bed1346d6e237aadc-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m449bed1346d6e237aadc-light.svg">
+  <img src="assets/math/formula-m449bed1346d6e237aadc-light.svg" width="565" alt="|a_{in}-a_{jn}|=\frac{h}{\pi(u_n^2+1/4)} \left|\sqrt{m_i}e^{-iu_nk_i}-\sqrt{m_j}e^{-iu_nk_j}\right|\quad(n&gt;0). \tag{5.9}">
 </picture>
 </p>
 
@@ -658,9 +656,9 @@ Combining the coefficients before taking their modulus preserves cancellation. W
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m6c4a5a1ebe1c657fb70f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m6c4a5a1ebe1c657fb70f-light.svg">
-  <img src="assets/math/revision-m6c4a5a1ebe1c657fb70f-light.svg" width="574" alt="|b_ie^{-iuk_i}-b_je^{-iuk_j}| \le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}. \tag{5.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m6c4a5a1ebe1c657fb70f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m6c4a5a1ebe1c657fb70f-light.svg">
+  <img src="assets/math/formula-m6c4a5a1ebe1c657fb70f-light.svg" width="574" alt="|b_ie^{-iuk_i}-b_je^{-iuk_j}| \le |b_i-b_j|+\min(b_i,b_j)\min\{2,|u|\,|k_i-k_j|\}. \tag{5.10}">
 </picture>
 </p>
 
@@ -673,9 +671,9 @@ A simple limiting case explains the mechanism without a numerical fit. Fix the m
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m485ccbb6e2ae92543d21-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m485ccbb6e2ae92543d21-light.svg">
-  <img src="assets/math/revision-m485ccbb6e2ae92543d21-light.svg" width="553" alt="a_{jn}=a_{in}e^{(1/2-iu_n)\Delta k},\qquad |a_{in}-a_{jn}|=|a_{in}|\left|1-e^{(1/2-iu_n)\Delta k}\right|. \tag{5.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m485ccbb6e2ae92543d21-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m485ccbb6e2ae92543d21-light.svg">
+  <img src="assets/math/formula-m485ccbb6e2ae92543d21-light.svg" width="553" alt="a_{jn}=a_{in}e^{(1/2-iu_n)\Delta k},\qquad |a_{in}-a_{jn}|=|a_{in}|\left|1-e^{(1/2-iu_n)\Delta k}\right|. \tag{5.11}">
 </picture>
 </p>
 
@@ -692,9 +690,9 @@ Let $`J(e)=(r+e)^\top W(r+e)/(2p)`$, where $`r=c^{\rm fast}-m`$, $`W\succeq0`$, 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m80e0c2b9f0aec88d12de-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m80e0c2b9f0aec88d12de-light.svg">
-  <img src="assets/math/revision-m80e0c2b9f0aec88d12de-light.svg" width="357" alt="\inf_{e\in\mathcal E}J(e)\ge J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0). \tag{5.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m80e0c2b9f0aec88d12de-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m80e0c2b9f0aec88d12de-light.svg">
+  <img src="assets/math/formula-m80e0c2b9f0aec88d12de-light.svg" width="357" alt="\inf_{e\in\mathcal E}J(e)\ge J(e_0)-g_0^\top e_0-h_{\mathcal E}(-g_0). \tag{5.12}">
 </picture>
 </p>
 
@@ -706,9 +704,9 @@ If $`M^2\ge\sup_{e\in\mathcal E}e^\top We`$, expansion yields
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7e9f527d48145b592234-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7e9f527d48145b592234-light.svg">
-  <img src="assets/math/revision-m7e9f527d48145b592234-light.svg" width="357" alt="\sup_{e\in\mathcal E}J(e)\le J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}. \tag{5.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7e9f527d48145b592234-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7e9f527d48145b592234-light.svg">
+  <img src="assets/math/formula-m7e9f527d48145b592234-light.svg" width="357" alt="\sup_{e\in\mathcal E}J(e)\le J(0)+\frac{h_{\mathcal E}(Wr)}p+\frac{M^2}{2p}. \tag{5.13}">
 </picture>
 </p>
 
@@ -726,9 +724,9 @@ For Theorem 5.3 we specialize the preceding general objective to $`p=12,W=I_{12}
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m75d77794c6f31eb1f374-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m75d77794c6f31eb1f374-light.svg">
-  <img src="assets/math/revision-m75d77794c6f31eb1f374-light.svg" width="609" alt="c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad B_i\in[b_i^-,b_i^+],\quad A_i\in[a_i^-,a_i^+],\quad M_i\in[m_i^-,m_i^+]. \tag{5.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m75d77794c6f31eb1f374-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m75d77794c6f31eb1f374-light.svg">
+  <img src="assets/math/formula-m75d77794c6f31eb1f374-light.svg" width="609" alt="c_i(\alpha_j)\in[p^-_{ij},p^+_{ij}],\quad B_i\in[b_i^-,b_i^+],\quad A_i\in[a_i^-,a_i^+],\quad M_i\in[m_i^-,m_i^+]. \tag{5.14}">
 </picture>
 </p>
 
@@ -738,9 +736,9 @@ Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5e138acf3da7b691fd4b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5e138acf3da7b691fd4b-light.svg">
-  <img src="assets/math/revision-m5e138acf3da7b691fd4b-light.svg" width="465" alt="\ell(x,y)= \begin{cases}0,&amp;x\le0\le y,\\ \min(x^2,y^2),&amp;\text{otherwise},\end{cases} \quad v(x,y)=\max(x^2,y^2).">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5e138acf3da7b691fd4b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5e138acf3da7b691fd4b-light.svg">
+  <img src="assets/math/formula-m5e138acf3da7b691fd4b-light.svg" width="465" alt="\ell(x,y)= \begin{cases}0,&amp;x\le0\le y,\\ \min(x^2,y^2),&amp;\text{otherwise},\end{cases} \quad v(x,y)=\max(x^2,y^2).">
 </picture>
 </p>
 
@@ -749,9 +747,9 @@ Assume $`b_i^-\le b_i^+\le a_i^-\le a_i^+`$. Define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md130dde47c3f06958df5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md130dde47c3f06958df5-light.svg">
-  <img src="assets/math/revision-md130dde47c3f06958df5-light.svg" width="672" alt="L_j=\frac1{24}\sum_i \ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad U_j=\frac1{24}\sum_i v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-). \tag{5.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md130dde47c3f06958df5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md130dde47c3f06958df5-light.svg">
+  <img src="assets/math/formula-md130dde47c3f06958df5-light.svg" width="672" alt="L_j=\frac1{24}\sum_i \ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\qquad U_j=\frac1{24}\sum_i v(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-). \tag{5.15}">
 </picture>
 </p>
 
@@ -761,9 +759,9 @@ Then $`J(\alpha_j)\in[L_j,U_j]`$. Writing $`L_*=\min_jL_j,U_*=\min_jU_j`$, the e
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m4e476aa8102dfa62ce52-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m4e476aa8102dfa62ce52-light.svg">
-  <img src="assets/math/revision-m4e476aa8102dfa62ce52-light.svg" width="256" alt="J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*]. \tag{5.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m4e476aa8102dfa62ce52-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m4e476aa8102dfa62ce52-light.svg">
+  <img src="assets/math/formula-m4e476aa8102dfa62ce52-light.svg" width="256" alt="J_*=\min_{\Theta_{\rm finite}}J\in[L_*,U_*]. \tag{5.16}">
 </picture>
 </p>
 
@@ -773,9 +771,9 @@ For $`\varepsilon\ge0`$, every exact $`\varepsilon`$-near-optimal candidate belo
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m50a733feb125260a0500-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m50a733feb125260a0500-light.svg">
-  <img src="assets/math/revision-m50a733feb125260a0500-light.svg" width="232" alt="\{\alpha_j:L_j\le U_*+\varepsilon\}; \tag{5.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m50a733feb125260a0500-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m50a733feb125260a0500-light.svg">
+  <img src="assets/math/formula-m50a733feb125260a0500-light.svg" width="232" alt="\{\alpha_j:L_j\le U_*+\varepsilon\}; \tag{5.17}">
 </picture>
 </p>
 
@@ -785,9 +783,9 @@ The condition $`U_j-L_*\le\varepsilon`$ is sufficient for that candidate to be n
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m652af7b362d9deccf3ac-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m652af7b362d9deccf3ac-light.svg">
-  <img src="assets/math/revision-m652af7b362d9deccf3ac-light.svg" width="257" alt="g:=\min_{j\ne j_0}L_j-U_{j_0}&gt;0, \tag{5.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m652af7b362d9deccf3ac-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m652af7b362d9deccf3ac-light.svg">
+  <img src="assets/math/formula-m652af7b362d9deccf3ac-light.svg" width="257" alt="g:=\min_{j\ne j_0}L_j-U_{j_0}&gt;0, \tag{5.18}">
 </picture>
 </p>
 
@@ -797,9 +795,9 @@ then $`\alpha_{j_0}`$ is the unique minimiser of the model objective on the fini
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mddbf67a53b9f45aad43f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mddbf67a53b9f45aad43f-light.svg">
-  <img src="assets/math/revision-mddbf67a53b9f45aad43f-light.svg" width="217" alt="\min_{\alpha_j\ge.6}L_j&gt;U_*+\varepsilon, \tag{5.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mddbf67a53b9f45aad43f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mddbf67a53b9f45aad43f-light.svg">
+  <img src="assets/math/formula-mddbf67a53b9f45aad43f-light.svg" width="217" alt="\min_{\alpha_j\ge.6}L_j&gt;U_*+\varepsilon, \tag{5.19}">
 </picture>
 </p>
 
@@ -822,9 +820,9 @@ The construction matches three startup and three large-time coefficients. Write 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3335a3bf696783ece74c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3335a3bf696783ece74c-light.svg">
-  <img src="assets/math/revision-m3335a3bf696783ece74c-light.svg" width="566" alt="\alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad u\in\mathbb R,\quad \nu&gt;0, \tag{6.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3335a3bf696783ece74c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3335a3bf696783ece74c-light.svg">
+  <img src="assets/math/formula-m3335a3bf696783ece74c-light.svg" width="566" alt="\alpha\in[13/25,3/5],\quad \rho=-1489/2000,\quad \kappa=0,\quad u\in\mathbb R,\quad \nu&gt;0, \tag{6.1}">
 </picture>
 </p>
 
@@ -834,9 +832,9 @@ the established matching system (B.4) is nonsingular. Its normalised denominator
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7c7e4751e9102470d3e9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7c7e4751e9102470d3e9-light.svg">
-  <img src="assets/math/revision-m7c7e4751e9102470d3e9-light.svg" width="562" alt="\operatorname{Re}q_j&gt;0\ (j=1,2,3),\qquad \operatorname{Re}Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0). \tag{6.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7c7e4751e9102470d3e9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7c7e4751e9102470d3e9-light.svg">
+  <img src="assets/math/formula-m7c7e4751e9102470d3e9-light.svg" width="562" alt="\operatorname{Re}q_j&gt;0\ (j=1,2,3),\qquad \operatorname{Re}Q(y)\ge1,\quad |Q(y)|\ge1\quad(y\ge0). \tag{6.2}">
 </picture>
 </p>
 
@@ -851,9 +849,9 @@ Moreover, for $`y\gt 0`$, $`\operatorname{Re}\widehat H(y)\lt 0`$. The result ho
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9f06ced3624074b40e2b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9f06ced3624074b40e2b-light.svg">
-  <img src="assets/math/revision-m9f06ced3624074b40e2b-light.svg" width="588" alt="\alpha\in[13/25,3/5],\qquad \rho\in[-744501/10^6,-744499/10^6],\qquad \kappa=0, \tag{6.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9f06ced3624074b40e2b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9f06ced3624074b40e2b-light.svg">
+  <img src="assets/math/formula-m9f06ced3624074b40e2b-light.svg" width="588" alt="\alpha\in[13/25,3/5],\qquad \rho\in[-744501/10^6,-744499/10^6],\qquad \kappa=0, \tag{6.3}">
 </picture>
 </p>
 
@@ -1142,9 +1140,7 @@ The construction follows the valuation map. The Riccati equation determines the 
 
 The matched spread shows that retaining shared Fourier errors can change a complete tolerance decision without changing the stored prices. It does not show that every portfolio improves, that the upper bound is the actual error, or that a numerically certified model fits market quotes. The finite-candidate comparison is confined to its declared set, and the rational structural theorem is confined to its stated parameter domain. When output replacement is allowed, a certified reference is itself a valid pricing alternative.
 
-The [online article](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md), scientific source and verification commands accompany this version. All 27 numerical banks are identified by size and SHA-256 in `SCIENTIFIC-MANIFEST.json`. `verify_source.py` checks the publication identities. `reproduce.py` reads the saved banks and reconstructs downstream prices, objectives and decisions; `--full` additionally recomputes the original structural-sign cover. These modes do not regenerate every continuous residual derivative bound. Appendix E and `COMMANDS.md` distinguish the generators, readers and shared arithmetic dependencies.
-
-The classical Heston extensions from the earlier version are preserved in a separate supplement. They are not assumptions or evidence for the rough Heston price certificate. Their incomplete annual monetary calculation and thirteen-function diagnostic retain their original limitations. The source and verification map keep these supplementary results accessible without making them part of the present argument.
+The [online article](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md), scientific source and verification commands accompany the paper. All 27 numerical banks are identified by size and SHA-256 in `SCIENTIFIC-MANIFEST.json`. `verify_source.py` checks the publication identities. `reproduce.py` reads the saved banks and reconstructs downstream prices, objectives and decisions; `--full` additionally recomputes the original structural-sign cover. These modes do not regenerate every continuous residual derivative bound. Appendix E and `COMMANDS.md` distinguish the generators, readers and shared arithmetic dependencies.
 
 ## Appendix A. Probability model and strip transform
 
@@ -1155,9 +1151,9 @@ For $`K_\alpha=t^{\alpha-1}/\Gamma(\alpha)`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9204e10f29df56c957e1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9204e10f29df56c957e1-light.svg">
-  <img src="assets/math/revision-m9204e10f29df56c957e1-light.svg" width="816" alt="\int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9204e10f29df56c957e1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9204e10f29df56c957e1-light.svg">
+  <img src="assets/math/formula-m9204e10f29df56c957e1-light.svg" width="816" alt="\int_0^hK_\alpha^2dt= \frac{h^{2\alpha-1}}{(2\alpha-1)\Gamma(\alpha)^2},\quad \int_0^T(K_\alpha(t+h)-K_\alpha(t))^2dt \le\frac{h^{2\alpha-1}}{\Gamma(\alpha)^2} \int_0^\infty[(r+1)^{\alpha-1}-r^{\alpha-1}]^2dr. \tag{A.1}">
 </picture>
 </p>
 
@@ -1167,9 +1163,9 @@ The exponent in the latter integral is $`2\alpha-2\gt -1`$ at zero and $`2\alpha
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mf8fbfecb14d5bfec72fa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mf8fbfecb14d5bfec72fa-light.svg">
-  <img src="assets/math/revision-mf8fbfecb14d5bfec72fa-light.svg" width="396" alt="\mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad K_\alpha*\mathcal L_\alpha=1 \tag{A.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mf8fbfecb14d5bfec72fa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mf8fbfecb14d5bfec72fa-light.svg">
+  <img src="assets/math/formula-mf8fbfecb14d5bfec72fa-light.svg" width="396" alt="\mathcal L_\alpha(dt)=t^{-\alpha}dt/\Gamma(1-\alpha),\quad K_\alpha*\mathcal L_\alpha=1 \tag{A.2}">
 </picture>
 </p>
 
@@ -1179,9 +1175,9 @@ is verified by the Beta identity and is nonnegative and nonincreasing. The compl
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m40d60e0b6350ce988e4e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m40d60e0b6350ce988e4e-light.svg">
-  <img src="assets/math/revision-m40d60e0b6350ce988e4e-light.svg" width="329" alt="\mu_\alpha(dx)=x^{-\alpha}dx/ [\Gamma(\alpha)\Gamma(1-\alpha)] \tag{A.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m40d60e0b6350ce988e4e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m40d60e0b6350ce988e4e-light.svg">
+  <img src="assets/math/formula-m40d60e0b6350ce988e4e-light.svg" width="329" alt="\mu_\alpha(dx)=x^{-\alpha}dx/ [\Gamma(\alpha)\Gamma(1-\alpha)] \tag{A.3}">
 </picture>
 </p>
 
@@ -1195,9 +1191,9 @@ Curve (2.4) is nondecreasing, has a nonnegative initial value, and is locally H�
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9ecbc4fa78b32b9cafa1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9ecbc4fa78b32b9cafa1-light.svg">
-  <img src="assets/math/revision-m9ecbc4fa78b32b9cafa1-light.svg" width="672" alt="b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*&#x27;(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9ecbc4fa78b32b9cafa1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9ecbc4fa78b32b9cafa1-light.svg">
+  <img src="assets/math/formula-m9ecbc4fa78b32b9cafa1-light.svg" width="672" alt="b_\alpha(t)=D_C^\alpha\xi_*(t)=I^{1-\alpha}\xi_*&#x27;(t)\ge0,\quad b_\alpha(t)= \frac{(\theta-V_0)\lambda_\xi}{\Gamma(1+\alpha_0-\alpha)} t^{\alpha_0-\alpha}+O(t^{2\alpha_0-\alpha}) \tag{A.4}">
 </picture>
 </p>
 
@@ -1215,9 +1211,9 @@ Set $`S=s_0-i\rho u=-d`$, take the principal square root in $`A=\sqrt{S^2+2b}`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m58b64dfb88a961863e8b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m58b64dfb88a961863e8b-light.svg">
-  <img src="assets/math/revision-m58b64dfb88a961863e8b-light.svg" width="607" alt="b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m58b64dfb88a961863e8b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m58b64dfb88a961863e8b-light.svg">
+  <img src="assets/math/formula-m58b64dfb88a961863e8b-light.svg" width="607" alt="b_1=-\frac b{\Gamma(1+\alpha)},\quad b_2=\frac{Sb}{\Gamma(1+2\alpha)},\quad b_3=\frac{\Gamma(1+2\alpha)}{\Gamma(1+3\alpha)} (d b_2+b_1^2/2), \tag{B.1}">
 </picture>
 </p>
 
@@ -1226,9 +1222,9 @@ Set $`S=s_0-i\rho u=-d`$, take the principal square root in $`A=\sqrt{S^2+2b}`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m08dfe2c26d56b41c6ba1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m08dfe2c26d56b41c6ba1-light.svg">
-  <img src="assets/math/revision-m08dfe2c26d56b41c6ba1-light.svg" width="628" alt="g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad g_2=-\frac R{A^2\Gamma(1-2\alpha)} +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}. \tag{B.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m08dfe2c26d56b41c6ba1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m08dfe2c26d56b41c6ba1-light.svg">
+  <img src="assets/math/formula-m08dfe2c26d56b41c6ba1-light.svg" width="628" alt="g_0=-R,\quad g_1=\frac R{A\Gamma(1-\alpha)},\quad g_2=-\frac R{A^2\Gamma(1-2\alpha)} +\frac{R^2}{2A^3\Gamma(1-\alpha)^2}. \tag{B.2}">
 </picture>
 </p>
 
@@ -1238,9 +1234,9 @@ For $`1/2\lt \alpha\lt 1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m88669317cbca3d2ff13d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m88669317cbca3d2ff13d-light.svg">
-  <img src="assets/math/revision-m88669317cbca3d2ff13d-light.svg" width="380" alt="\widehat H(y)=P(y)/Q(y),\quad Q=1+q_1y+q_2y^2+q_3y^3,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m88669317cbca3d2ff13d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m88669317cbca3d2ff13d-light.svg">
+  <img src="assets/math/formula-m88669317cbca3d2ff13d-light.svg" width="380" alt="\widehat H(y)=P(y)/Q(y),\quad Q=1+q_1y+q_2y^2+q_3y^3,">
 </picture>
 </p>
 
@@ -1249,9 +1245,9 @@ For $`1/2\lt \alpha\lt 1`$, $`\Gamma(1-2\alpha)`$ is finite and negative. The fi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m21ff468558e2e41d8549-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m21ff468558e2e41d8549-light.svg">
-  <img src="assets/math/revision-m21ff468558e2e41d8549-light.svg" width="610" alt="\widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad \widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}). \tag{B.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m21ff468558e2e41d8549-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m21ff468558e2e41d8549-light.svg">
+  <img src="assets/math/formula-m21ff468558e2e41d8549-light.svg" width="610" alt="\widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\quad \widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}). \tag{B.3}">
 </picture>
 </p>
 
@@ -1261,9 +1257,9 @@ These six conditions give the linear system
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m4daabc90e549e2acb501-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m4daabc90e549e2acb501-light.svg">
-  <img src="assets/math/revision-m4daabc90e549e2acb501-light.svg" width="680" alt="\begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m4daabc90e549e2acb501-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m4daabc90e549e2acb501-light.svg">
+  <img src="assets/math/formula-m4daabc90e549e2acb501-light.svg" width="680" alt="\begin{pmatrix}g_0&amp;g_1&amp;g_2\\b_1&amp;-g_0&amp;-g_1\\ b_2&amp;b_1&amp;-g_0\end{pmatrix} \begin{pmatrix}q_1\\q_2\\q_3\end{pmatrix} =\begin{pmatrix}b_1\\-b_2\\-b_3\end{pmatrix}, \quad p_1=b_1,\quad p_2=b_2+b_1q_1,\quad p_3=g_0q_3. \tag{B.4}">
 </picture>
 </p>
 
@@ -1275,9 +1271,9 @@ To avoid division by the matching determinant before proving its nonvanishing, d
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m8fa4bb61b46bd5de010e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m8fa4bb61b46bd5de010e-light.svg">
-  <img src="assets/math/revision-m8fa4bb61b46bd5de010e-light.svg" width="735" alt="f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m8fa4bb61b46bd5de010e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m8fa4bb61b46bd5de010e-light.svg">
+  <img src="assets/math/formula-m8fa4bb61b46bd5de010e-light.svg" width="735" alt="f=\Gamma(1+\alpha)^{-1},\quad p=\frac{\sin\pi\alpha}{\pi\alpha}, \quad v=-\cos\pi\alpha,\quad m_\alpha=\frac{\Gamma(1+2\alpha)}{\Gamma(1+\alpha)^2},\quad \zeta=\frac{\Gamma(1+2\alpha)\Gamma(1+\alpha)}{\Gamma(1+3\alpha)},">
 </picture>
 </p>
 
@@ -1286,9 +1282,9 @@ To avoid division by the matching determinant before proving its nonvanishing, d
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m039ca3c8e70b1a735f34-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m039ca3c8e70b1a735f34-light.svg">
-  <img src="assets/math/revision-m039ca3c8e70b1a735f34-light.svg" width="761" alt="\mathsf M_2=Sb/m_\alpha,\quad \mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3). \tag{B.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m039ca3c8e70b1a735f34-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m039ca3c8e70b1a735f34-light.svg">
+  <img src="assets/math/formula-m039ca3c8e70b1a735f34-light.svg" width="761" alt="\mathsf M_2=Sb/m_\alpha,\quad \mathsf c=\zeta(b^2/2-S^2b/m_\alpha),\quad V=pR/A,\quad W=m_\alpha p v R/A^2+p^2R^2/(2A^3). \tag{B.5}">
 </picture>
 </p>
 
@@ -1298,9 +1294,9 @@ The reflection formula and recurrence relations give $`b_1=-fb,b_2=f^2\mathsf M_
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc2b21b81d3d63050b285-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc2b21b81d3d63050b285-light.svg">
-  <img src="assets/math/revision-mc2b21b81d3d63050b285-light.svg" width="490" alt="\begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc2b21b81d3d63050b285-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc2b21b81d3d63050b285-light.svg">
+  <img src="assets/math/formula-mc2b21b81d3d63050b285-light.svg" width="490" alt="\begin{aligned} \Delta={}&amp;b^2W+2bRV-\mathsf M_2RW-\mathsf M_2V^2-R^3,\\ F_1={}&amp;b^2V+b\mathsf M_2W-bR^2+\mathsf M_2RV+\mathsf cRW+\mathsf cV^2,\\ F_2={}&amp;-b^2R+b\mathsf M_2V+b\mathsf cW+\mathsf M_2^2W+\mathsf M_2R^2+\mathsf cRV,\\ F_3={}&amp;-b^3+2b\mathsf M_2R-b\mathsf cV-\mathsf M_2^2V+\mathsf cR^2. \end{aligned} \tag{B.6}">
 </picture>
 </p>
 
@@ -1310,9 +1306,9 @@ Here $`\Delta`$ is exactly the determinant of the original system, and the numer
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m31cd36e3ce007e1ff8db-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m31cd36e3ce007e1ff8db-light.svg">
-  <img src="assets/math/revision-m31cd36e3ce007e1ff8db-light.svg" width="748" alt="\Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad \Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3. \tag{B.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m31cd36e3ce007e1ff8db-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m31cd36e3ce007e1ff8db-light.svg">
+  <img src="assets/math/formula-m31cd36e3ce007e1ff8db-light.svg" width="748" alt="\Delta P=-fb\Delta y+f^2(\mathsf M_2\Delta-bF_1)y^2-f^3RF_3y^3,\quad \Delta Q=\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3. \tag{B.7}">
 </picture>
 </p>
 
@@ -1326,9 +1322,9 @@ In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m239e8cd3cf4cb48b9df0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m239e8cd3cf4cb48b9df0-light.svg">
-  <img src="assets/math/revision-m239e8cd3cf4cb48b9df0-light.svg" width="577" alt="\omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m239e8cd3cf4cb48b9df0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m239e8cd3cf4cb48b9df0-light.svg">
+  <img src="assets/math/formula-m239e8cd3cf4cb48b9df0-light.svg" width="577" alt="\omega=\sqrt{u^2+1/4},\quad \eta=u/(1+u),\quad j(\eta)=\sqrt{\eta^2+(1-\eta)^2/4},\quad s=-\rho/2,">
 </picture>
 </p>
 
@@ -1337,9 +1333,9 @@ In physical time, the denominator coefficients are $`\nu^jq_j`$; the normalised 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-me6020d90675aa3dfe784-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-me6020d90675aa3dfe784-light.svg">
-  <img src="assets/math/revision-me6020d90675aa3dfe784-light.svg" width="542" alt="\bar S=s(1-\eta+2i\eta)/j(\eta),\quad \bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}. \tag{B.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me6020d90675aa3dfe784-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me6020d90675aa3dfe784-light.svg">
+  <img src="assets/math/formula-me6020d90675aa3dfe784-light.svg" width="542" alt="\bar S=s(1-\eta+2i\eta)/j(\eta),\quad \bar A=\sqrt{1+\bar S^2},\quad \bar R=(\bar A+\bar S)^{-1}. \tag{B.8}">
 </picture>
 </p>
 
@@ -1349,9 +1345,9 @@ Since $`j^2\ge1/5`$, these functions are defined on the closed interval $`\eta\i
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-ma4be53581ff8eff48d34-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-ma4be53581ff8eff48d34-light.svg">
-  <img src="assets/math/revision-ma4be53581ff8eff48d34-light.svg" width="317" alt="\operatorname{Re}\bar A^2 =1-\rho^2+2(\operatorname{Re}\bar S)^2\ge1-\rho^2&gt;0.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-ma4be53581ff8eff48d34-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-ma4be53581ff8eff48d34-light.svg">
+  <img src="assets/math/formula-ma4be53581ff8eff48d34-light.svg" width="317" alt="\operatorname{Re}\bar A^2 =1-\rho^2+2(\operatorname{Re}\bar S)^2\ge1-\rho^2&gt;0.">
 </picture>
 </p>
 
@@ -1361,9 +1357,9 @@ The principal square root is continuous and lies in the first quadrant; $`\opera
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md24793bf1da5ee52d9c5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md24793bf1da5ee52d9c5-light.svg">
-  <img src="assets/math/revision-md24793bf1da5ee52d9c5-light.svg" width="488" alt="|\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2 \ge|\bar A^2-\bar S^2|=1,\quad |\bar R|\le1,\quad\operatorname{Re}\bar R&gt;0.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md24793bf1da5ee52d9c5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md24793bf1da5ee52d9c5-light.svg">
+  <img src="assets/math/formula-md24793bf1da5ee52d9c5-light.svg" width="488" alt="|\bar A+\bar S|^2\ge|\bar A|^2+|\bar S|^2 \ge|\bar A^2-\bar S^2|=1,\quad |\bar R|\le1,\quad\operatorname{Re}\bar R&gt;0.">
 </picture>
 </p>
 
@@ -1375,9 +1371,9 @@ Substitute $`\bar b=1/2`$ and (B.8) into (B.5)–(B.6) to obtain the barred orig
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mbbd686ef0a289b95c036-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mbbd686ef0a289b95c036-light.svg">
-  <img src="assets/math/revision-mbbd686ef0a289b95c036-light.svg" width="294" alt="\Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j. \tag{B.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mbbd686ef0a289b95c036-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mbbd686ef0a289b95c036-light.svg">
+  <img src="assets/math/formula-mbbd686ef0a289b95c036-light.svg" width="294" alt="\Delta=\omega^3\bar\Delta,\qquad F_j=\omega^{3+j}\bar F_j. \tag{B.9}">
 </picture>
 </p>
 
@@ -1387,9 +1383,9 @@ Define three real functions
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3e16f06028e526e788e5-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3e16f06028e526e788e5-light.svg">
-  <img src="assets/math/revision-m3e16f06028e526e788e5-light.svg" width="204" alt="\bar B_j=\operatorname{Re}(\bar F_j\overline{\bar\Delta}). \tag{B.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3e16f06028e526e788e5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3e16f06028e526e788e5-light.svg">
+  <img src="assets/math/formula-m3e16f06028e526e788e5-light.svg" width="204" alt="\bar B_j=\operatorname{Re}(\bar F_j\overline{\bar\Delta}). \tag{B.10}">
 </picture>
 </p>
 
@@ -1399,9 +1395,9 @@ The rigorous rational covering in Appendix B proves that, throughout the closed 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-me6499f7e6169c88c8540-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-me6499f7e6169c88c8540-light.svg">
-  <img src="assets/math/revision-me6499f7e6169c88c8540-light.svg" width="512" alt="|\bar\Delta|^2\ge \frac{88110801209184778874628745}{1267650600228229401496703205376} &gt;\frac1{14400}. \tag{B.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me6499f7e6169c88c8540-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me6499f7e6169c88c8540-light.svg">
+  <img src="assets/math/formula-me6499f7e6169c88c8540-light.svg" width="512" alt="|\bar\Delta|^2\ge \frac{88110801209184778874628745}{1267650600228229401496703205376} &gt;\frac1{14400}. \tag{B.11}">
 </picture>
 </p>
 
@@ -1414,9 +1410,9 @@ For the trajectory half-plane, the finite convolution in (B.7) gives
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m4cca14904f489e1bd23c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m4cca14904f489e1bd23c-light.svg">
-  <img src="assets/math/revision-m4cca14904f489e1bd23c-light.svg" width="305" alt="|\Delta|^2\operatorname{Re}(P\overline Q) =\sum_{n=1}^6 f^nD_ny^n, \tag{B.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m4cca14904f489e1bd23c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m4cca14904f489e1bd23c-light.svg">
+  <img src="assets/math/formula-m4cca14904f489e1bd23c-light.svg" width="305" alt="|\Delta|^2\operatorname{Re}(P\overline Q) =\sum_{n=1}^6 f^nD_ny^n, \tag{B.12}">
 </picture>
 </p>
 
@@ -1425,9 +1421,9 @@ For the trajectory half-plane, the finite convolution in (B.7) gives
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m6d6bbace82d7f9215077-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m6d6bbace82d7f9215077-light.svg">
-  <img src="assets/math/revision-m6d6bbace82d7f9215077-light.svg" width="457" alt="\begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\operatorname{Re}(\mathsf M_2)|\Delta|^2-2b\operatorname{Re}(F_1\overline\Delta),\\ D_3={}&amp;\operatorname{Re}\{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\operatorname{Re}\{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\operatorname{Re}\{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\operatorname{Re}R\,|F_3|^2. \end{aligned} \tag{B.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m6d6bbace82d7f9215077-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m6d6bbace82d7f9215077-light.svg">
+  <img src="assets/math/formula-m6d6bbace82d7f9215077-light.svg" width="457" alt="\begin{aligned} D_1={}&amp;-b|\Delta|^2,\\ D_2={}&amp;\operatorname{Re}(\mathsf M_2)|\Delta|^2-2b\operatorname{Re}(F_1\overline\Delta),\\ D_3={}&amp;\operatorname{Re}\{-RF_3\overline\Delta+ (\mathsf M_2\Delta-bF_1)\overline F_1-b\Delta\overline F_2\},\\ D_4={}&amp;\operatorname{Re}\{-RF_3\overline F_1+ (\mathsf M_2\Delta-bF_1)\overline F_2-b\Delta\overline F_3\},\\ D_5={}&amp;\operatorname{Re}\{-RF_3\overline F_2+ (\mathsf M_2\Delta-bF_1)\overline F_3\},\\ D_6={}&amp;-\operatorname{Re}R\,|F_3|^2. \end{aligned} \tag{B.13}">
 </picture>
 </p>
 
@@ -1451,9 +1447,9 @@ The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m57d1c2be2f9b254dedf3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m57d1c2be2f9b254dedf3-light.svg">
-  <img src="assets/math/revision-m57d1c2be2f9b254dedf3-light.svg" width="465" alt="p&#x27;&lt;0,\quad v&#x27;&gt;0,\quad (\log m_\alpha)&#x27;=2[\psi(1+2\alpha)-\psi(1+\alpha)]&gt;0,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m57d1c2be2f9b254dedf3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m57d1c2be2f9b254dedf3-light.svg">
+  <img src="assets/math/formula-m57d1c2be2f9b254dedf3-light.svg" width="465" alt="p&#x27;&lt;0,\quad v&#x27;&gt;0,\quad (\log m_\alpha)&#x27;=2[\psi(1+2\alpha)-\psi(1+\alpha)]&gt;0,">
 </picture>
 </p>
 
@@ -1462,9 +1458,9 @@ The four basic $`\alpha`$-dependent functions $`p,v,m_\alpha,\zeta`$ satisfy
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mcda9a9727e1d6ecf7967-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mcda9a9727e1d6ecf7967-light.svg">
-  <img src="assets/math/revision-mcda9a9727e1d6ecf7967-light.svg" width="597" alt="(\log\zeta)&#x27;=2[\psi(1+2\alpha)-\psi(1+3\alpha)] +[\psi(1+\alpha)-\psi(1+3\alpha)]&lt;0. \tag{B.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mcda9a9727e1d6ecf7967-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mcda9a9727e1d6ecf7967-light.svg">
+  <img src="assets/math/formula-mcda9a9727e1d6ecf7967-light.svg" width="597" alt="(\log\zeta)&#x27;=2[\psi(1+2\alpha)-\psi(1+3\alpha)] +[\psi(1+\alpha)-\psi(1+3\alpha)]&lt;0. \tag{B.14}">
 </picture>
 </p>
 
@@ -1476,9 +1472,9 @@ The constant $`\pi`$ is certified by Machin's identity and one hundred terms of 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m27f8d15cf4861b181148-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m27f8d15cf4861b181148-light.svg">
-  <img src="assets/math/revision-m27f8d15cf4861b181148-light.svg" width="321" alt="0&lt;R_{10}(z)&lt;B_{22}/(22\cdot21z^{21}). \tag{B.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m27f8d15cf4861b181148-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m27f8d15cf4861b181148-light.svg">
+  <img src="assets/math/formula-m27f8d15cf4861b181148-light.svg" width="321" alt="0&lt;R_{10}(z)&lt;B_{22}/(22\cdot21z^{21}). \tag{B.15}">
 </picture>
 </p>
 
@@ -1500,7 +1496,7 @@ The stronger rational margins in the complete certificate imply the following bo
 | $`-\bar D_4,-\bar D_5,-\bar D_6`$ | $`1/8000,\ 1/15000000,\ 1/100000`$ |
 | $`\vert \bar\Delta\vert ^2`$ | $`1/14400`$ |
 
-The proof consists of rigorous interval inclusion and a complete finite covering. The supplementary material provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.
+The proof consists of rigorous interval inclusion and a complete finite covering. The scientific source provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.
 
 ### B.2. Continuous correlation persistence
 
@@ -1510,9 +1506,9 @@ The proof consists of rigorous interval inclusion and a complete finite covering
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m836dadeedefbb5814399-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m836dadeedefbb5814399-light.svg">
-  <img src="assets/math/revision-m836dadeedefbb5814399-light.svg" width="660" alt="|A|^{-1}\le8/5,\quad |A&#x27;|\le6/5,\quad |(A^{-1})&#x27;|\le384/125,\quad |R|\le1,\quad |R&#x27;|\le11/5, \tag{B.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m836dadeedefbb5814399-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m836dadeedefbb5814399-light.svg">
+  <img src="assets/math/formula-m836dadeedefbb5814399-light.svg" width="660" alt="|A|^{-1}\le8/5,\quad |A&#x27;|\le6/5,\quad |(A^{-1})&#x27;|\le384/125,\quad |R|\le1,\quad |R&#x27;|\le11/5, \tag{B.16}">
 </picture>
 </p>
 
@@ -1526,9 +1522,9 @@ For the $`\alpha`$-dependent scalars of Theorem 6.1, exact outward endpoint encl
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mf4a0c2967f917be22491-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mf4a0c2967f917be22491-light.svg">
-  <img src="assets/math/revision-mf4a0c2967f917be22491-light.svg" width="547" alt="0&lt;p\le2/3,\quad0\le v\le1/3,\quad 1\le m\le3/2,\quad0&lt;\zeta\le2/3. \tag{B.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mf4a0c2967f917be22491-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mf4a0c2967f917be22491-light.svg">
+  <img src="assets/math/formula-mf4a0c2967f917be22491-light.svg" width="547" alt="0&lt;p\le2/3,\quad0\le v\le1/3,\quad 1\le m\le3/2,\quad0&lt;\zeta\le2/3. \tag{B.17}">
 </picture>
 </p>
 
@@ -1542,9 +1538,9 @@ Apply product-rule modulus bounds to the original polynomial formulas. For every
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc2405a212920affde3bb-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc2405a212920affde3bb-light.svg">
-  <img src="assets/math/revision-mc2405a212920affde3bb-light.svg" width="346" alt="|\partial_\rho B_j|\le L_{B,j},\qquad |\partial_\rho D_j|\le L_{D,j}. \tag{B.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc2405a212920affde3bb-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc2405a212920affde3bb-light.svg">
+  <img src="assets/math/formula-mc2405a212920affde3bb-light.svg" width="346" alt="|\partial_\rho B_j|\le L_{B,j},\qquad |\partial_\rho D_j|\le L_{D,j}. \tag{B.18}">
 </picture>
 </p>
 
@@ -1558,9 +1554,9 @@ Let $`m_{B,j}(C),m_{D,j}(C)`$ be the exact original sign lower bounds on a conti
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m48eca81c5b2870db1eb2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m48eca81c5b2870db1eb2-light.svg">
-  <img src="assets/math/revision-m48eca81c5b2870db1eb2-light.svg" width="505" alt="m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m48eca81c5b2870db1eb2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m48eca81c5b2870db1eb2-light.svg">
+  <img src="assets/math/formula-m48eca81c5b2870db1eb2-light.svg" width="505" alt="m_{B,j}(C)-10^{-6}L_{B,j}&gt;0,\qquad m_{D,j}(C)-10^{-6}L_{D,j}&gt;0 \tag{B.19}">
 </picture>
 </p>
 
@@ -1585,9 +1581,9 @@ If $`H=I^\alpha F(H)`$ is a bounded local continuous solution, then $`H,F(H)`$ a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb38011ca3e5b26b5dbe6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb38011ca3e5b26b5dbe6-light.svg">
-  <img src="assets/math/revision-mb38011ca3e5b26b5dbe6-light.svg" width="523" alt="H&#x27;(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb38011ca3e5b26b5dbe6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb38011ca3e5b26b5dbe6-light.svg">
+  <img src="assets/math/formula-mb38011ca3e5b26b5dbe6-light.svg" width="523" alt="H&#x27;(x)=\frac{q(x)x^{\alpha-1}}{\Gamma(\alpha)} +\frac{\alpha-1}{\Gamma(\alpha)} \int_0^x(x-t)^{\alpha-2}[q(t)-q(x)]\,dt. \tag{C.1}">
 </picture>
 </p>
 
@@ -1598,9 +1594,9 @@ The bound
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m128959226a2e4a151bae-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m128959226a2e4a151bae-light.svg">
-  <img src="assets/math/revision-m128959226a2e4a151bae-light.svg" width="413" alt="|H&#x27;(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m128959226a2e4a151bae-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m128959226a2e4a151bae-light.svg">
+  <img src="assets/math/formula-m128959226a2e4a151bae-light.svg" width="413" alt="|H&#x27;(x)|\le\frac{\|q\|_\infty x^{\alpha-1}}{\Gamma(\alpha)}+\frac{(1-\alpha)[q]_{C^\alpha}x^{2\alpha-1}}{\Gamma(\alpha)(2\alpha-1)}. \tag{C.2}">
 </picture>
 </p>
 
@@ -1611,9 +1607,9 @@ is integrable at zero. Positive-time continuity and the limit from truncated int
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m210f69d59c8d43db5898-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m210f69d59c8d43db5898-light.svg">
-  <img src="assets/math/revision-m210f69d59c8d43db5898-light.svg" width="541" alt="D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m210f69d59c8d43db5898-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m210f69d59c8d43db5898-light.svg">
+  <img src="assets/math/formula-m210f69d59c8d43db5898-light.svg" width="541" alt="D_C^\alpha v(x)=\frac1{\Gamma(1-\alpha)} \left\{\frac{v(x)-v(0)}{x^\alpha} +\alpha\int_0^x\frac{v(x)-v(t)}{(x-t)^{1+\alpha}}\,dt\right\}. \tag{C.3}">
 </picture>
 </p>
 
@@ -1623,9 +1619,9 @@ At a positive maximum over the full history, with zero initial value, this deriv
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m8a7e872c10331a590ccf-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m8a7e872c10331a590ccf-light.svg">
-  <img src="assets/math/revision-m8a7e872c10331a590ccf-light.svg" width="267" alt="D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v. \tag{C.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m8a7e872c10331a590ccf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m8a7e872c10331a590ccf-light.svg">
+  <img src="assets/math/formula-m8a7e872c10331a590ccf-light.svg" width="267" alt="D_C^\alpha\Phi(v)\le\nabla\Phi(v)\cdot D_C^\alpha v. \tag{C.4}">
 </picture>
 </p>
 
@@ -1637,9 +1633,9 @@ This Caputo history-convexity inequality follows from the supporting-hyperplane 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mca0074153349ee0c0dec-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mca0074153349ee0c0dec-light.svg">
-  <img src="assets/math/revision-mca0074153349ee0c0dec-light.svg" width="527" alt="|H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)] \le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}. \tag{C.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mca0074153349ee0c0dec-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mca0074153349ee0c0dec-light.svg">
+  <img src="assets/math/formula-mca0074153349ee0c0dec-light.svg" width="527" alt="|H(x)|\le\frac b{s_0}[1-E_\alpha(-s_0x^\alpha)] \le\min\{b/s_0,bx^\alpha/\Gamma(1+\alpha)\}. \tag{C.5}">
 </picture>
 </p>
 
@@ -1651,9 +1647,9 @@ When $`s_0=0`$, the latter time-dependent bound remains valid.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb19fec2ba1907af1706d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb19fec2ba1907af1706d-light.svg">
-  <img src="assets/math/revision-mb19fec2ba1907af1706d-light.svg" width="534" alt="\operatorname{Re}F(H) =-\frac18-\frac{1-\rho^2}{2}u^2 -\frac12(Y+\rho u)^2-s_0X+\frac12X^2. \tag{C.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb19fec2ba1907af1706d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb19fec2ba1907af1706d-light.svg">
+  <img src="assets/math/formula-mb19fec2ba1907af1706d-light.svg" width="534" alt="\operatorname{Re}F(H) =-\frac18-\frac{1-\rho^2}{2}u^2 -\frac12(Y+\rho u)^2-s_0X+\frac12X^2. \tag{C.6}">
 </picture>
 </p>
 
@@ -1665,9 +1661,9 @@ Let $`\psi_\epsilon(z)=\sqrt{|z|^2+\epsilon^2}-\epsilon`$. Equation (C.4), toget
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m399cf3699ac91031e000-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m399cf3699ac91031e000-light.svg">
-  <img src="assets/math/revision-m399cf3699ac91031e000-light.svg" width="515" alt="\operatorname{Re}(\overline H F(H)) =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m399cf3699ac91031e000-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m399cf3699ac91031e000-light.svg">
+  <img src="assets/math/formula-m399cf3699ac91031e000-light.svg" width="515" alt="\operatorname{Re}(\overline H F(H)) =-bX-s_0|H|^2+\tfrac12X|H|^2,\quad \frac{|H|^2}{\sqrt{|H|^2+\epsilon^2}}\ge\psi_\epsilon(H),">
 </picture>
 </p>
 
@@ -1679,9 +1675,9 @@ gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md0300564bd679bbdc53d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md0300564bd679bbdc53d-light.svg">
-  <img src="assets/math/revision-md0300564bd679bbdc53d-light.svg" width="331" alt="\operatorname{Re}\widehat H\le\epsilon_R&lt;2s_0,\qquad |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md0300564bd679bbdc53d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md0300564bd679bbdc53d-light.svg">
+  <img src="assets/math/formula-md0300564bd679bbdc53d-light.svg" width="331" alt="\operatorname{Re}\widehat H\le\epsilon_R&lt;2s_0,\qquad |D_C^\alpha\widehat H-F(\widehat H)|\le\delta,">
 </picture>
 </p>
 
@@ -1691,9 +1687,9 @@ Set $`\sigma=s_0-\epsilon_R/2\gt 0`$. Then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m2d01afa0ea860e1d58c8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m2d01afa0ea860e1d58c8-light.svg">
-  <img src="assets/math/revision-m2d01afa0ea860e1d58c8-light.svg" width="362" alt="|H-\widehat H| \le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)] \le\delta/\sigma. \tag{C.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m2d01afa0ea860e1d58c8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m2d01afa0ea860e1d58c8-light.svg">
+  <img src="assets/math/formula-m2d01afa0ea860e1d58c8-light.svg" width="362" alt="|H-\widehat H| \le\frac\delta\sigma[1-E_\alpha(-\sigma x^\alpha)] \le\delta/\sigma. \tag{C.7}">
 </picture>
 </p>
 
@@ -1705,9 +1701,9 @@ In particular, for a trajectory in the left half-plane, one may take $`\epsilon_
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m406ee5b99ebe57f89d12-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m406ee5b99ebe57f89d12-light.svg">
-  <img src="assets/math/revision-m406ee5b99ebe57f89d12-light.svg" width="535" alt="D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \operatorname{Re}\left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m406ee5b99ebe57f89d12-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m406ee5b99ebe57f89d12-light.svg">
+  <img src="assets/math/formula-m406ee5b99ebe57f89d12-light.svg" width="535" alt="D_C^\alpha e=\left(d+\frac{H+\widehat H}{2}\right)e-r,\quad e(0)=0,\quad \operatorname{Re}\left(d+\frac{H+\widehat H}{2}\right)\le-\sigma.">
 </picture>
 </p>
 
@@ -1721,9 +1717,9 @@ If $`\widehat H`$ corresponds to the physical-time trajectory $`\widehat Z`$ and
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-medcdb2e6b197513ea682-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-medcdb2e6b197513ea682-light.svg">
-  <img src="assets/math/revision-medcdb2e6b197513ea682-light.svg" width="345" alt="\sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0 \quad\text{if }\operatorname{Re}\widehat Z\le0. \tag{C.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-medcdb2e6b197513ea682-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-medcdb2e6b197513ea682-light.svg">
+  <img src="assets/math/formula-medcdb2e6b197513ea682-light.svg" width="345" alt="\sup_{t\le T}|Z-\widehat Z|\le\delta_F/s_0 \quad\text{if }\operatorname{Re}\widehat Z\le0. \tag{C.8}">
 </picture>
 </p>
 
@@ -1742,9 +1738,9 @@ Li and Liu [LiLiu2018, Proposition 3.11(ii)] give Caputo convexity by regulariza
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mfb718000fa8bc184a407-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mfb718000fa8bc184a407-light.svg">
-  <img src="assets/math/revision-mfb718000fa8bc184a407-light.svg" width="384" alt="D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v \quad\text{a.e. on }(0,T). \tag{C.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mfb718000fa8bc184a407-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mfb718000fa8bc184a407-light.svg">
+  <img src="assets/math/formula-mfb718000fa8bc184a407-light.svg" width="384" alt="D_C^\alpha\Phi(v)\le \nabla\Phi(v)\cdot D_C^\alpha v \quad\text{a.e. on }(0,T). \tag{C.9}">
 </picture>
 </p>
 
@@ -1756,9 +1752,9 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m618afda29f8a501d8002-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m618afda29f8a501d8002-light.svg">
-  <img src="assets/math/revision-m618afda29f8a501d8002-light.svg" width="560" alt="u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T, \quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha). \tag{C.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m618afda29f8a501d8002-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m618afda29f8a501d8002-light.svg">
+  <img src="assets/math/formula-m618afda29f8a501d8002-light.svg" width="560" alt="u(t)\le(k_\lambda*R)(t),\qquad 0\le t\le T, \quad k_\lambda(t)=t^{\alpha-1}E_{\alpha,\alpha}(-\lambda t^\alpha). \tag{C.10}">
 </picture>
 </p>
 
@@ -1770,9 +1766,9 @@ Let $`u\in AC[0,T]`$, $`u(0)=0`$, $`\lambda\ge0`$, and $`R\in L^\infty(0,T)`$ be
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m0701e89a47b29a34aa1f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m0701e89a47b29a34aa1f-light.svg">
-  <img src="assets/math/revision-m0701e89a47b29a34aa1f-light.svg" width="570" alt="\frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m0701e89a47b29a34aa1f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m0701e89a47b29a34aa1f-light.svg">
+  <img src="assets/math/formula-m0701e89a47b29a34aa1f-light.svg" width="570" alt="\frac{1}{\Gamma(1-\alpha)}\left[ \frac{B_\Phi(v_n(0),v_n(t))}{t^\alpha} +\alpha\int_0^t\frac{B_\Phi(v_n(s),v_n(t))}{(t-s)^{1+\alpha}}\,ds \right]\ge0, \tag{C.11}">
 </picture>
 </p>
 
@@ -1786,9 +1782,9 @@ All path ranges lie in one compact set. Continuity of $`\nabla\Phi`$ and the ord
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7fa3a549663bb4be6d06-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7fa3a549663bb4be6d06-light.svg">
-  <img src="assets/math/revision-m7fa3a549663bb4be6d06-light.svg" width="642" alt="\|\Phi(v_n)&#x27; - \Phi(v)&#x27;\|_1\to0, \qquad \|D_C^\alpha(v_n-v)\|_1 \le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n&#x27;-v&#x27;\|_1\to0. \tag{C.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7fa3a549663bb4be6d06-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7fa3a549663bb4be6d06-light.svg">
+  <img src="assets/math/formula-m7fa3a549663bb4be6d06-light.svg" width="642" alt="\|\Phi(v_n)&#x27; - \Phi(v)&#x27;\|_1\to0, \qquad \|D_C^\alpha(v_n-v)\|_1 \le\frac{T^{1-\alpha}}{\Gamma(2-\alpha)}\|v_n&#x27;-v&#x27;\|_1\to0. \tag{C.12}">
 </picture>
 </p>
 
@@ -1806,9 +1802,9 @@ For (C.10), put $`f=D_C^\alpha u+\lambda u\in L^1(0,T)`$. The zero initial value
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb2f584fc3c1fcf0ee307-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb2f584fc3c1fcf0ee307-light.svg">
-  <img src="assets/math/revision-mb2f584fc3c1fcf0ee307-light.svg" width="260" alt="D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.} \tag{C.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb2f584fc3c1fcf0ee307-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb2f584fc3c1fcf0ee307-light.svg">
+  <img src="assets/math/formula-mb2f584fc3c1fcf0ee307-light.svg" width="260" alt="D_C^\alpha v_\varepsilon+\lambda v_\varepsilon\le R\quad\text{a.e.} \tag{C.13}">
 </picture>
 </p>
 
@@ -1820,9 +1816,9 @@ Equation (C.10) and the limit $`\varepsilon\downarrow0`$ yield the first state i
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc0b1bd59fa5ce1dcc307-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc0b1bd59fa5ce1dcc307-light.svg">
-  <img src="assets/math/revision-mc0b1bd59fa5ce1dcc307-light.svg" width="513" alt="L_T-\widehat L_T =\nu^{-1}\int_0^TA_\alpha(T-t)e&#x27;(t)\,dt =\nu^{-1}(q_\alpha*e)(T). \tag{C.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc0b1bd59fa5ce1dcc307-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc0b1bd59fa5ce1dcc307-light.svg">
+  <img src="assets/math/formula-mc0b1bd59fa5ce1dcc307-light.svg" width="513" alt="L_T-\widehat L_T =\nu^{-1}\int_0^TA_\alpha(T-t)e&#x27;(t)\,dt =\nu^{-1}(q_\alpha*e)(T). \tag{C.14}">
 </picture>
 </p>
 
@@ -1834,9 +1830,9 @@ The first Fubini integral is bounded by $`\|\xi\|_\infty T^{1-\alpha}\|e'\|_1/\G
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m1ae8980e78160a8cb21d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m1ae8980e78160a8cb21d-light.svg">
-  <img src="assets/math/revision-m1ae8980e78160a8cb21d-light.svg" width="317" alt="0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m1ae8980e78160a8cb21d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m1ae8980e78160a8cb21d-light.svg">
+  <img src="assets/math/formula-m1ae8980e78160a8cb21d-light.svg" width="317" alt="0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.15}">
 </picture>
 </p>
 
@@ -1857,9 +1853,9 @@ For a real curve $`\xi\in AC[0,T]`$ with $`\xi(0)=V_0\ge0`$, the precise suffici
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m000dadd9e5f2a6413da2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m000dadd9e5f2a6413da2-light.svg">
-  <img src="assets/math/revision-m000dadd9e5f2a6413da2-light.svg" width="532" alt="q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;\ge0 \quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta). \tag{C.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m000dadd9e5f2a6413da2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m000dadd9e5f2a6413da2-light.svg">
+  <img src="assets/math/formula-m000dadd9e5f2a6413da2-light.svg" width="532" alt="q_\alpha=V_0g_{1-\alpha}+g_{1-\alpha}*\xi&#x27;\ge0 \quad\text{a.e.},\qquad g_\beta(t)=t^{\beta-1}/\Gamma(\beta). \tag{C.16}">
 </picture>
 </p>
 
@@ -1871,9 +1867,9 @@ No sign is imposed on $`\xi'`$. Indeed, $`A_\alpha=I^{1-\alpha}\xi=V_0g_{2-\alph
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m47662bf3dc5b2456c4d8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m47662bf3dc5b2456c4d8-light.svg">
-  <img src="assets/math/revision-m47662bf3dc5b2456c4d8-light.svg" width="457" alt="\|q_\alpha\|_1\le \frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi&#x27;\|_1), \qquad g_\alpha*q_\alpha=\xi. \tag{C.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m47662bf3dc5b2456c4d8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m47662bf3dc5b2456c4d8-light.svg">
+  <img src="assets/math/formula-m47662bf3dc5b2456c4d8-light.svg" width="457" alt="\|q_\alpha\|_1\le \frac{T^{1-\alpha}}{\Gamma(2-\alpha)}(V_0+\|\xi&#x27;\|_1), \qquad g_\alpha*q_\alpha=\xi. \tag{C.17}">
 </picture>
 </p>
 
@@ -1885,9 +1881,9 @@ Absolute Fubini proves the second identity even for signed $`\xi'`$, using $`g_\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m41b697f647dc9d741f8e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m41b697f647dc9d741f8e-light.svg">
-  <img src="assets/math/revision-m41b697f647dc9d741f8e-light.svg" width="317" alt="0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m41b697f647dc9d741f8e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m41b697f647dc9d741f8e-light.svg">
+  <img src="assets/math/formula-m41b697f647dc9d741f8e-light.svg" width="317" alt="0\le q_\alpha*k_\lambda =\xi-\lambda\xi*k_\lambda\le\xi. \tag{C.18}">
 </picture>
 </p>
 
@@ -1903,9 +1899,9 @@ This is a strict relaxation of a sufficient curve condition, not a necessary con
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb231c4494686011dc9e2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb231c4494686011dc9e2-light.svg">
-  <img src="assets/math/revision-mb231c4494686011dc9e2-light.svg" width="337" alt="q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb231c4494686011dc9e2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb231c4494686011dc9e2-light.svg">
+  <img src="assets/math/formula-mb231c4494686011dc9e2-light.svg" width="337" alt="q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} \left(1-\frac{ct}{1-\alpha}\right). \tag{C.19}">
 </picture>
 </p>
 
@@ -1923,9 +1919,9 @@ The example illustrates the analytical propagation condition. Realizing it as a 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mbfaa41faa41cc2703c78-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mbfaa41faa41cc2703c78-light.svg">
-  <img src="assets/math/revision-mbfaa41faa41cc2703c78-light.svg" width="656" alt="q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad |L_T-\widehat L_T|\le \frac{V_0}{\nu}\int_0^T E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds. \tag{C.20}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mbfaa41faa41cc2703c78-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mbfaa41faa41cc2703c78-light.svg">
+  <img src="assets/math/formula-mbfaa41faa41cc2703c78-light.svg" width="656" alt="q_\alpha*k_\lambda=V_0E_\alpha(-\lambda t^\alpha),\qquad |L_T-\widehat L_T|\le \frac{V_0}{\nu}\int_0^T E_\alpha(-\lambda(T-s)^\alpha)R(s)\,ds. \tag{C.20}">
 </picture>
 </p>
 
@@ -1937,9 +1933,9 @@ If $`R\le\nu\delta_F`$, a closed-form upper bound is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m299c90d217fa138ac77c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m299c90d217fa138ac77c-light.svg">
-  <img src="assets/math/revision-m299c90d217fa138ac77c-light.svg" width="537" alt="\eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m299c90d217fa138ac77c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m299c90d217fa138ac77c-light.svg">
+  <img src="assets/math/formula-m299c90d217fa138ac77c-light.svg" width="537" alt="\eta_{\rm ML}=V_0\delta_F T E_{\alpha,2}(-\nu\sigma T^\alpha) \le\min\left\{ V_0\delta_F T, \frac{V_0\delta_F T^{1-\alpha}}{\nu\sigma\Gamma(2-\alpha)} \right\}. \tag{C.21}">
 </picture>
 </p>
 
@@ -1954,9 +1950,9 @@ The explicit bound retains finite history and physical scaling. It may be inters
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m6cd9e52471857010251b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m6cd9e52471857010251b-light.svg">
-  <img src="assets/math/revision-m6cd9e52471857010251b-light.svg" width="496" alt="|Z-\widehat Z|\le E_\delta =s_0-\sqrt{s_0^2-2\delta_F} =\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}. \tag{C.22}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m6cd9e52471857010251b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m6cd9e52471857010251b-light.svg">
+  <img src="assets/math/formula-m6cd9e52471857010251b-light.svg" width="496" alt="|Z-\widehat Z|\le E_\delta =s_0-\sqrt{s_0^2-2\delta_F} =\frac{2\delta_F}{s_0+\sqrt{s_0^2-2\delta_F}}. \tag{C.22}">
 </picture>
 </p>
 
@@ -1972,9 +1968,9 @@ For (2.4), $`\xi_*\in AC`$, $`\xi_*'\ge0`$, and $`V_0\le\xi_*\le\theta`$. Positi
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m333b7de783d758bd257c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m333b7de783d758bd257c-light.svg">
-  <img src="assets/math/revision-m333b7de783d758bd257c-light.svg" width="604" alt="A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha&#x27;(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*&#x27;(t)\ge0. \tag{C.23}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m333b7de783d758bd257c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m333b7de783d758bd257c-light.svg">
+  <img src="assets/math/formula-m333b7de783d758bd257c-light.svg" width="604" alt="A_\alpha(t)=(I^{1-\alpha}\xi_*)(t),\quad q_\alpha(t)=A_\alpha&#x27;(t) =\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)}+I^{1-\alpha}\xi_*&#x27;(t)\ge0. \tag{C.23}">
 </picture>
 </p>
 
@@ -1984,9 +1980,9 @@ Both initial exponents $`-\alpha,\alpha_0-\alpha`$ exceed $`-1`$, so $`q_\alpha\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mff3b533dfb16d7c3fae8-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mff3b533dfb16d7c3fae8-light.svg">
-  <img src="assets/math/revision-mff3b533dfb16d7c3fae8-light.svg" width="519" alt="q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mff3b533dfb16d7c3fae8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mff3b533dfb16d7c3fae8-light.svg">
+  <img src="assets/math/formula-mff3b533dfb16d7c3fae8-light.svg" width="519" alt="q_\alpha(t)=\frac{V_0t^{-\alpha}}{\Gamma(1-\alpha)} +(\theta-V_0)\lambda_\xi t^{\alpha_0-\alpha} E_{\alpha_0,1+\alpha_0-\alpha}(-\lambda_\xi t^{\alpha_0}), \tag{C.24}">
 </picture>
 </p>
 
@@ -1995,9 +1991,9 @@ Both initial exponents $`-\alpha,\alpha_0-\alpha`$ exceed $`-1`$, so $`q_\alpha\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9aa8a0f94a1381758a86-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9aa8a0f94a1381758a86-light.svg">
-  <img src="assets/math/revision-m9aa8a0f94a1381758a86-light.svg" width="581" alt="A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9aa8a0f94a1381758a86-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9aa8a0f94a1381758a86-light.svg">
+  <img src="assets/math/formula-m9aa8a0f94a1381758a86-light.svg" width="581" alt="A_\alpha(t)=\frac{\theta t^{1-\alpha}}{\Gamma(2-\alpha)} +(V_0-\theta)t^{1-\alpha} E_{\alpha_0,2-\alpha}(-\lambda_\xi t^{\alpha_0}),\quad A_\alpha(0)=0. \tag{C.25}">
 </picture>
 </p>
 
@@ -2009,9 +2005,9 @@ where $`E_{a,b}(z)=\sum_{n=0}^\infty z^n/\Gamma(an+b)`$.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m653a2a0f5f991ab3f32a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m653a2a0f5f991ab3f32a-light.svg">
-  <img src="assets/math/revision-m653a2a0f5f991ab3f32a-light.svg" width="546" alt="L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m653a2a0f5f991ab3f32a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m653a2a0f5f991ab3f32a-light.svg">
+  <img src="assets/math/formula-m653a2a0f5f991ab3f32a-light.svg" width="546" alt="L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha Z(t)\,dt,\quad \bar L_T=\nu^{-1}\int_0^T\xi_*(T-t)D_t^\alpha\widehat Z(t)\,dt,">
 </picture>
 </p>
 
@@ -2021,9 +2017,9 @@ Then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mfc28dcd45827d7df4279-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mfc28dcd45827d7df4279-light.svg">
-  <img src="assets/math/revision-mfc28dcd45827d7df4279-light.svg" width="420" alt="L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt. \tag{C.26}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mfc28dcd45827d7df4279-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mfc28dcd45827d7df4279-light.svg">
+  <img src="assets/math/formula-mfc28dcd45827d7df4279-light.svg" width="420" alt="L_T-\bar L_T=\nu^{-1}\int_0^Tq_\alpha(T-t)(Z-\widehat Z)(t)\,dt. \tag{C.26}">
 </picture>
 </p>
 
@@ -2033,9 +2029,9 @@ In particular, if $`\sup|Z-\widehat Z|\le E`$, then
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-md58cdb414ed30cf67add-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-md58cdb414ed30cf67add-light.svg">
-  <img src="assets/math/revision-md58cdb414ed30cf67add-light.svg" width="417" alt="|L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu \le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}. \tag{C.27}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md58cdb414ed30cf67add-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md58cdb414ed30cf67add-light.svg">
+  <img src="assets/math/formula-md58cdb414ed30cf67add-light.svg" width="417" alt="|L_T-\bar L_T|\le\eta=E A_\alpha(T)/\nu \le\frac{E\theta T^{1-\alpha}}{\nu\Gamma(2-\alpha)}. \tag{C.27}">
 </picture>
 </p>
 
@@ -2052,9 +2048,9 @@ Using $`\operatorname{Re}L_T\le0`$ and the integral identity for the exponential
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5877bb2d3e684e942373-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5877bb2d3e684e942373-light.svg">
-  <img src="assets/math/revision-m5877bb2d3e684e942373-light.svg" width="369" alt="|e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\operatorname{Re}\bar L_T}\}(e^\eta-1). \tag{C.28}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5877bb2d3e684e942373-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5877bb2d3e684e942373-light.svg">
+  <img src="assets/math/formula-m5877bb2d3e684e942373-light.svg" width="369" alt="|e^{L_T}-e^{\bar L_T}| \le\min\{1,e^{\operatorname{Re}\bar L_T}\}(e^\eta-1). \tag{C.28}">
 </picture>
 </p>
 
@@ -2066,9 +2062,9 @@ If a model-transform envelope $`B(u)`$ and an approximate-modulus bound $`\wideh
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m4508e1802855dbd4ce41-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m4508e1802855dbd4ce41-light.svg">
-  <img src="assets/math/revision-m4508e1802855dbd4ce41-light.svg" width="400" alt="|e^{L_T}-e^{\bar L_T}| \le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}. \tag{C.29}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m4508e1802855dbd4ce41-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m4508e1802855dbd4ce41-light.svg">
+  <img src="assets/math/formula-m4508e1802855dbd4ce41-light.svg" width="400" alt="|e^{L_T}-e^{\bar L_T}| \le\min\{B+\widehat B,\ \eta(B+\widehat B)/2\}. \tag{C.29}">
 </picture>
 </p>
 
@@ -2090,9 +2086,9 @@ $`\xi(t)=\theta+(V_0-\theta)E_{A_0}(-\lambda_\xi t^{A_0})`$, with $`\lambda_\xi\
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9cca676bf9e9392918d2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9cca676bf9e9392918d2-light.svg">
-  <img src="assets/math/revision-m9cca676bf9e9392918d2-light.svg" width="627" alt="\left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9cca676bf9e9392918d2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9cca676bf9e9392918d2-light.svg">
+  <img src="assets/math/formula-m9cca676bf9e9392918d2-light.svg" width="627" alt="\left|W_\lambda(t)-\sum_{n=0}^{M-1}(-\lambda)^nW_n(t)\right| \le \frac{\theta t(\lambda t^\alpha)^M}{1-\lambda t^\alpha}, \quad W_n(t)=\int_0^t(\xi*g_{n\alpha})(s)\,ds. \tag{C.30}">
 </picture>
 </p>
 
@@ -2108,9 +2104,9 @@ $`(- \lambda)^n(\xi*g_{n\alpha})`$. Since $`0\le\xi\le\theta`$,
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-me4f037a0444fb2f4aab7-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-me4f037a0444fb2f4aab7-light.svg">
-  <img src="assets/math/revision-me4f037a0444fb2f4aab7-light.svg" width="360" alt="0\le W_n(t)\le \frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)} \le\theta t(t^\alpha)^n. \tag{C.31}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me4f037a0444fb2f4aab7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me4f037a0444fb2f4aab7-light.svg">
+  <img src="assets/math/formula-me4f037a0444fb2f4aab7-light.svg" width="360" alt="0\le W_n(t)\le \frac{\theta t^{1+n\alpha}}{\Gamma(2+n\alpha)} \le\theta t(t^\alpha)^n. \tag{C.31}">
 </picture>
 </p>
 
@@ -2126,9 +2122,9 @@ Expanding the curve Mittag–Leffler function, and using the beta convolution id
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb6daf9390a8d71e0fb15-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb6daf9390a8d71e0fb15-light.svg">
-  <img src="assets/math/revision-mb6daf9390a8d71e0fb15-light.svg" width="577" alt="W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb6daf9390a8d71e0fb15-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb6daf9390a8d71e0fb15-light.svg">
+  <img src="assets/math/formula-mb6daf9390a8d71e0fb15-light.svg" width="577" alt="W_n(t)=t^{1+n\alpha} \left[ \frac{\theta}{\Gamma(2+n\alpha)} +(V_0-\theta)\sum_{m=0}^{\infty} \frac{(-\lambda_\xi t^{A_0})^m} {\Gamma(2+n\alpha+mA_0)} \right]. \tag{C.32}">
 </picture>
 </p>
 
@@ -2140,9 +2136,9 @@ When $`w=\lambda_\xi t^{A_0}\lt 1`$, every inner denominator also has argument a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m43558d199c7ad78930a0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m43558d199c7ad78930a0-light.svg">
-  <img src="assets/math/revision-m43558d199c7ad78930a0-light.svg" width="358" alt="\left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m43558d199c7ad78930a0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m43558d199c7ad78930a0-light.svg">
+  <img src="assets/math/formula-m43558d199c7ad78930a0-light.svg" width="358" alt="\left|\sum_{m=L}^{\infty} \frac{(-w)^m}{\Gamma(2+n\alpha+mA_0)}\right| \le \frac{w^L}{1-w}. \tag{C.33}">
 </picture>
 </p>
 
@@ -2156,9 +2152,9 @@ For a residual envelope $`R\le R_j`$ on the complete cell $`[a_j,b_j]`$, evaluat
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3a485e5e485cf0d48b79-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3a485e5e485cf0d48b79-light.svg">
-  <img src="assets/math/revision-m3a485e5e485cf0d48b79-light.svg" width="544" alt="\left[ W^-(T-a_j)-W^+(T-b_j),\ W^+(T-a_j)-W^-(T-b_j) \right]. \tag{C.34}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3a485e5e485cf0d48b79-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3a485e5e485cf0d48b79-light.svg">
+  <img src="assets/math/formula-m3a485e5e485cf0d48b79-light.svg" width="544" alt="\left[ W^-(T-a_j)-W^+(T-b_j),\ W^+(T-a_j)-W^-(T-b_j) \right]. \tag{C.34}">
 </picture>
 </p>
 
@@ -2170,9 +2166,9 @@ Intersecting with nonnegativity and the independently proved upper curve weight 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m842314507e1688db5bf3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m842314507e1688db5bf3-light.svg">
-  <img src="assets/math/revision-m842314507e1688db5bf3-light.svg" width="245" alt="\eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+. \tag{C.35}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m842314507e1688db5bf3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m842314507e1688db5bf3-light.svg">
+  <img src="assets/math/formula-m842314507e1688db5bf3-light.svg" width="245" alt="\eta_{\rm res}\le\nu^{-1}\sum_jR_j\omega_j^+. \tag{C.35}">
 </picture>
 </p>
 
@@ -2192,9 +2188,9 @@ For each candidate $`\alpha=\beta\in\{.52,.6,.9\}`$ and each $`u=n/8,\ n=0,\ldot
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mfa02c914b82bd730d5e3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mfa02c914b82bd730d5e3-light.svg">
-  <img src="assets/math/revision-mfa02c914b82bd730d5e3-light.svg" width="711" alt="\bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2. \tag{D.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mfa02c914b82bd730d5e3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mfa02c914b82bd730d5e3-light.svg">
+  <img src="assets/math/formula-mfa02c914b82bd730d5e3-light.svg" width="711" alt="\bar G(t)=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L(t),\quad c_0=-(u^2+1/4)/2,\quad \widehat Z=I^\alpha\bar G,\quad T=1/2. \tag{D.1}">
 </picture>
 </p>
 
@@ -2204,9 +2200,9 @@ Here $`\bar L`$ is the continuous piecewise-linear interpolation in physical tim
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mee7d6236b87c4bf637f0-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mee7d6236b87c4bf637f0-light.svg">
-  <img src="assets/math/revision-mee7d6236b87c4bf637f0-light.svg" width="375" alt="r_t=\bar G-\nu F(\widehat Z),\quad \delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|. \tag{D.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mee7d6236b87c4bf637f0-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mee7d6236b87c4bf637f0-light.svg">
+  <img src="assets/math/formula-mee7d6236b87c4bf637f0-light.svg" width="375" alt="r_t=\bar G-\nu F(\widehat Z),\quad \delta_F=\nu^{-1}\sup_{0\le t\le T}|r_t|. \tag{D.2}">
 </picture>
 </p>
 
@@ -2218,9 +2214,9 @@ Write
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m6e285b379d2996a0a848-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m6e285b379d2996a0a848-light.svg">
-  <img src="assets/math/revision-m6e285b379d2996a0a848-light.svg" width="462" alt="\widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m6e285b379d2996a0a848-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m6e285b379d2996a0a848-light.svg">
+  <img src="assets/math/formula-m6e285b379d2996a0a848-light.svg" width="462" alt="\widehat Z=H_0+J,\quad J=I^\alpha\bar L,\quad H_0=B_1t^\alpha+B_2t^{\alpha+\beta}+B_3t^{\alpha+2\beta},">
 </picture>
 </p>
 
@@ -2229,9 +2225,9 @@ Write
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-ma464ca556576e9b410ba-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-ma464ca556576e9b410ba-light.svg">
-  <img src="assets/math/revision-ma464ca556576e9b410ba-light.svg" width="572" alt="B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-ma464ca556576e9b410ba-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-ma464ca556576e9b410ba-light.svg">
+  <img src="assets/math/formula-ma464ca556576e9b410ba-light.svg" width="572" alt="B_1=\frac{\nu c_0}{\Gamma(1+\alpha)},\quad B_2=\frac{A_1\Gamma(1+\beta)}{\Gamma(1+\alpha+\beta)},\quad B_3=\frac{A_2\Gamma(1+2\beta)}{\Gamma(1+\alpha+2\beta)}. \tag{D.3}">
 </picture>
 </p>
 
@@ -2243,9 +2239,9 @@ On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7877ddc5e4e5e53bab99-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7877ddc5e4e5e53bab99-light.svg">
-  <img src="assets/math/revision-m7877ddc5e4e5e53bab99-light.svg" width="480" alt="I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7877ddc5e4e5e53bab99-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7877ddc5e4e5e53bab99-light.svg">
+  <img src="assets/math/formula-m7877ddc5e4e5e53bab99-light.svg" width="480" alt="I_0=\{\tau^\alpha-(\tau-h)^\alpha\}/\alpha,\quad I_1=\{\tau^{\alpha+1}-(\tau-h)^{\alpha+1}\}/(\alpha+1),">
 </picture>
 </p>
 
@@ -2254,9 +2250,9 @@ On a source interval $`[a,b]\subset[0,q]`$, set $`\tau=q-a,h=b-a`$. The integral
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m51d06987f70433cf41a2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m51d06987f70433cf41a2-light.svg">
-  <img src="assets/math/revision-m51d06987f70433cf41a2-light.svg" width="459" alt="w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad w_L=I_0/\Gamma(\alpha)-w_R. \tag{D.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m51d06987f70433cf41a2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m51d06987f70433cf41a2-light.svg">
+  <img src="assets/math/formula-m51d06987f70433cf41a2-light.svg" width="459" alt="w_R=(\tau I_0-I_1)/(h\Gamma(\alpha)),\quad w_L=I_0/\Gamma(\alpha)-w_R. \tag{D.4}">
 </picture>
 </p>
 
@@ -2268,9 +2264,9 @@ For $`h/\tau\lt .01`$, retain eight positive-series terms, using respectively
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mebd5a57c2c96e90f0680-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mebd5a57c2c96e90f0680-light.svg">
-  <img src="assets/math/revision-mebd5a57c2c96e90f0680-light.svg" width="632" alt="w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mebd5a57c2c96e90f0680-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mebd5a57c2c96e90f0680-light.svg">
+  <img src="assets/math/formula-mebd5a57c2c96e90f0680-light.svg" width="632" alt="w_R=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+2)},\quad w_L=\frac{h\tau^{\alpha-1}}{\Gamma(\alpha)} \sum_{k\ge0}\frac{(1-\alpha)_k(h/\tau)^k}{k!(k+1)(k+2)}. \tag{D.5}">
 </picture>
 </p>
 
@@ -2282,9 +2278,9 @@ Partition each nonstartup source interval into closed subintervals $`[a,b]`$: H/
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9be0785d6ecbe28567ca-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9be0785d6ecbe28567ca-light.svg">
-  <img src="assets/math/revision-m9be0785d6ecbe28567ca-light.svg" width="443" alt="\sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t&#x27;|. \tag{D.6}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9be0785d6ecbe28567ca-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9be0785d6ecbe28567ca-light.svg">
+  <img src="assets/math/formula-m9be0785d6ecbe28567ca-light.svg" width="443" alt="\sup_{[a,b]}|r_t|\le|r_t(m)|+\max(m-a,b-m)\sup_{[a,b]}|r_t&#x27;|. \tag{D.6}">
 </picture>
 </p>
 
@@ -2294,9 +2290,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m258623a95c2e0f40158b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m258623a95c2e0f40158b-light.svg">
-  <img src="assets/math/revision-m258623a95c2e0f40158b-light.svg" width="172" alt="r_t&#x27;=\bar G&#x27;-\nu(d+\widehat Z)\widehat Z&#x27;,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m258623a95c2e0f40158b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m258623a95c2e0f40158b-light.svg">
+  <img src="assets/math/formula-m258623a95c2e0f40158b-light.svg" width="172" alt="r_t&#x27;=\bar G&#x27;-\nu(d+\widehat Z)\widehat Z&#x27;,">
 </picture>
 </p>
 
@@ -2305,9 +2301,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m2cfdf8ca572c9c4412c1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m2cfdf8ca572c9c4412c1-light.svg">
-  <img src="assets/math/revision-m2cfdf8ca572c9c4412c1-light.svg" width="577" alt="P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m2cfdf8ca572c9c4412c1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m2cfdf8ca572c9c4412c1-light.svg">
+  <img src="assets/math/formula-m2cfdf8ca572c9c4412c1-light.svg" width="577" alt="P_r=\nu c_0+A_1t^\beta+A_2t^{2\beta}-\nu F(H_0),\quad r_t=P_r+\bar L-\nu(d+H_0)J-\nu J^2/2,">
 </picture>
 </p>
 
@@ -2316,9 +2312,9 @@ The ordinary residual derivative may be discontinuous at original nodes. The der
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc50e95ec60171b1804e1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc50e95ec60171b1804e1-light.svg">
-  <img src="assets/math/revision-mc50e95ec60171b1804e1-light.svg" width="595" alt="r_t&#x27;=P_r&#x27;+\bar L&#x27;-\nu[(d+H_0+J)J&#x27;+H_0&#x27;J], \quad \widehat Z&#x27;=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G&#x27;. \tag{D.7}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc50e95ec60171b1804e1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc50e95ec60171b1804e1-light.svg">
+  <img src="assets/math/formula-mc50e95ec60171b1804e1-light.svg" width="595" alt="r_t&#x27;=P_r&#x27;+\bar L&#x27;-\nu[(d+H_0+J)J&#x27;+H_0&#x27;J], \quad \widehat Z&#x27;=\frac{\nu c_0\,t^{\alpha-1}}{\Gamma(\alpha)}+I^\alpha\bar G&#x27;. \tag{D.7}">
 </picture>
 </p>
 
@@ -2331,9 +2327,9 @@ The singular terms from the initial source interval are handled directly by frac
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5497a0df5bc0ee01d357-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5497a0df5bc0ee01d357-light.svg">
-  <img src="assets/math/revision-m5497a0df5bc0ee01d357-light.svg" width="748" alt="\frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5497a0df5bc0ee01d357-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5497a0df5bc0ee01d357-light.svg">
+  <img src="assets/math/formula-m5497a0df5bc0ee01d357-light.svg" width="748" alt="\frac{t_1^pb^{\alpha-1}}{p\Gamma(\alpha)} \le\frac1{\Gamma(\alpha)}\int_0^{t_1}s^{p-1}(q-s)^{\alpha-1}\,ds \le\min\left\{ \frac{t_1^p(a-t_1)^{\alpha-1}}{p\Gamma(\alpha)}, \frac{\Gamma(p)}{\Gamma(\alpha+p)} \max_{q\in[a,b]}q^{\alpha+p-1}\right\}. \tag{D.8}">
 </picture>
 </p>
 
@@ -2349,23 +2345,23 @@ For matrix multiplication with rigorous weight centres $`W_c`$, radii $`W_r`$, a
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m248500d570ff051718a2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m248500d570ff051718a2-light.svg">
-  <img src="assets/math/revision-m248500d570ff051718a2-light.svg" width="553" alt="\left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m248500d570ff051718a2-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m248500d570ff051718a2-light.svg">
+  <img src="assets/math/formula-m248500d570ff051718a2-light.svg" width="553" alt="\left(\gamma_{2n}\|W_c\|_{1,\mathrm{row}}+ \|W_r\|_{1,\mathrm{row}}\right)\|X\|_{\infty,\mathrm{column}}, \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}}, \tag{D.9}">
 </picture>
 </p>
 
 
-and an additional underflow-error allowance. Induction on products of basic rounding factors gives this estimate and permits different summation association orders. Norm sums are also rounded outward. The calculation assumes round-to-nearest IEEE basic operations, correctly rounded square roots, gradual underflow, and no overflow or NaNs. The supplement identifies the implementation and arithmetic dependencies; interval inclusion uses these assumptions and the stated remainder bounds.
+and an additional underflow-error allowance. Induction on products of basic rounding factors gives this estimate and permits different summation association orders. Norm sums are also rounded outward. The calculation assumes round-to-nearest IEEE basic operations, correctly rounded square roots, gradual underflow, and no overflow or NaNs. Appendix E identifies the implementation and arithmetic dependencies; interval inclusion uses these assumptions and the stated remainder bounds.
 
 For the fixed curve, define
 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mad3868825617d3a25075-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mad3868825617d3a25075-light.svg">
-  <img src="assets/math/revision-mad3868825617d3a25075-light.svg" width="790" alt="J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mad3868825617d3a25075-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mad3868825617d3a25075-light.svg">
+  <img src="assets/math/formula-mad3868825617d3a25075-light.svg" width="790" alt="J_0(z)=\theta z+(V_0-\theta)zE_{\alpha_0,2}(-\lambda_\xi z^{\alpha_0}),\quad J_1(z)=\theta z^2/2+ (V_0-\theta)z^2(E_{\alpha_0,2}-E_{\alpha_0,3})(-\lambda_\xi z^{\alpha_0}). \tag{D.10}">
 </picture>
 </p>
 
@@ -2375,9 +2371,9 @@ These quantities are respectively $`\int_0^z\xi_*(s)ds,\int_0^zs\xi_*(s)ds`$; te
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7692447cecfdb904bf89-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7692447cecfdb904bf89-light.svg">
-  <img src="assets/math/revision-m7692447cecfdb904bf89-light.svg" width="763" alt="w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}. \tag{D.11}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7692447cecfdb904bf89-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7692447cecfdb904bf89-light.svg">
+  <img src="assets/math/formula-m7692447cecfdb904bf89-light.svg" width="763" alt="w_l=\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\quad w_r=\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}. \tag{D.11}">
 </picture>
 </p>
 
@@ -2387,9 +2383,9 @@ The curve moment for the power component $`t^\beta`$ is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3c265aa03ea50116803a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3c265aa03ea50116803a-light.svg">
-  <img src="assets/math/revision-m3c265aa03ea50116803a-light.svg" width="625" alt="\int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3c265aa03ea50116803a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3c265aa03ea50116803a-light.svg">
+  <img src="assets/math/formula-m3c265aa03ea50116803a-light.svg" width="625" alt="\int_0^T\xi_*(T-t)t^\beta dt =\frac{\theta T^{\beta+1}}{\beta+1} +(V_0-\theta)\Gamma(\beta+1)T^{\beta+1} E_{\alpha_0,\beta+2}(-\lambda_\xi T^{\alpha_0}). \tag{D.12}">
 </picture>
 </p>
 
@@ -2405,9 +2401,9 @@ On compact substrips, $`x^q|\log x|^j\le C(1+x)`$, so the transform is analytic.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m17fbdf4bc1fd3e99081e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m17fbdf4bc1fd3e99081e-light.svg">
-  <img src="assets/math/revision-m17fbdf4bc1fd3e99081e-light.svg" width="535" alt="|z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad \int_{\mathbb R}|g(r\pm ia_*)|\,dr \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m17fbdf4bc1fd3e99081e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m17fbdf4bc1fd3e99081e-light.svg">
+  <img src="assets/math/formula-m17fbdf4bc1fd3e99081e-light.svg" width="535" alt="|z^2+1/4|\ge r^2+(1/2-a_*)^2,\quad \int_{\mathbb R}|g(r\pm ia_*)|\,dr \le M_*=\frac{\pi e^{a_*|k|}}{1/2-a_*}.">
 </picture>
 </p>
 
@@ -2426,9 +2422,9 @@ Fix $`\kappa=0,-1\lt \rho\lt 0`$. Set $`X=-\operatorname{Re}H\ge0`$. Equation (C
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m53b8245321f8b8cc6658-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m53b8245321f8b8cc6658-light.svg">
-  <img src="assets/math/revision-m53b8245321f8b8cc6658-light.svg" width="509" alt="D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad \beta_u=(1-\rho^2)u^2/2+1/8. \tag{D.13}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m53b8245321f8b8cc6658-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m53b8245321f8b8cc6658-light.svg">
+  <img src="assets/math/formula-m53b8245321f8b8cc6658-light.svg" width="509" alt="D_x^\alpha X\ge\beta_u-s_0X-X^2/2,\quad \beta_u=(1-\rho^2)u^2/2+1/8. \tag{D.13}">
 </picture>
 </p>
 
@@ -2438,9 +2434,9 @@ Let $`w`$ be the scalar zero-initial-value solution satisfying equality. Compari
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m7e112db1217e3d71e848-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m7e112db1217e3d71e848-light.svg">
-  <img src="assets/math/revision-m7e112db1217e3d71e848-light.svg" width="593" alt="X\ge w,\quad 0\le w\le R_u,\quad R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m7e112db1217e3d71e848-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m7e112db1217e3d71e848-light.svg">
+  <img src="assets/math/formula-m7e112db1217e3d71e848-light.svg" width="593" alt="X\ge w,\quad 0\le w\le R_u,\quad R_u=\sqrt{s_0^2+2\beta_u}-s_0,\quad \ell_u=(s_0+\sqrt{s_0^2+2\beta_u})/2.">
 </picture>
 </p>
 
@@ -2451,9 +2447,9 @@ $`E_\alpha(-z)\le(1+z/\Gamma(1+\alpha))^{-1}`$, give
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m9ed1db1b984acbc69b8b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m9ed1db1b984acbc69b8b-light.svg">
-  <img src="assets/math/revision-m9ed1db1b984acbc69b8b-light.svg" width="371" alt="-\operatorname{Re}Z(t,u)\ge R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}. \tag{D.14}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m9ed1db1b984acbc69b8b-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m9ed1db1b984acbc69b8b-light.svg">
+  <img src="assets/math/formula-m9ed1db1b984acbc69b8b-light.svg" width="371" alt="-\operatorname{Re}Z(t,u)\ge R_u\frac{\ell_u\nu t^\alpha}{\Gamma(1+\alpha)+\ell_u\nu t^\alpha}. \tag{D.14}">
 </picture>
 </p>
 
@@ -2465,9 +2461,9 @@ Take $`V\gt s_0/\sqrt{1-\rho^2}`$ and define
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m503bad42005b5caced27-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m503bad42005b5caced27-light.svg">
-  <img src="assets/math/revision-m503bad42005b5caced27-light.svg" width="515" alt="a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V&gt;0,\quad f_\alpha(z)=z/(\Gamma(1+\alpha)+z).">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m503bad42005b5caced27-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m503bad42005b5caced27-light.svg">
+  <img src="assets/math/formula-m503bad42005b5caced27-light.svg" width="515" alt="a_\rho=\sqrt{1-\rho^2},\quad b_V=a_\rho-s_0/V&gt;0,\quad f_\alpha(z)=z/(\Gamma(1+\alpha)+z).">
 </picture>
 </p>
 
@@ -2477,9 +2473,9 @@ For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m808104676f7deb0bc89e-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m808104676f7deb0bc89e-light.svg">
-  <img src="assets/math/revision-m808104676f7deb0bc89e-light.svg" width="466" alt="c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1} f_\alpha(a_\rho\nu Vt_j^\alpha/2) [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]&gt;0,">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m808104676f7deb0bc89e-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m808104676f7deb0bc89e-light.svg">
+  <img src="assets/math/formula-m808104676f7deb0bc89e-light.svg" width="466" alt="c_V=\frac{b_V}{\nu}\sum_{j=0}^{J-1} f_\alpha(a_\rho\nu Vt_j^\alpha/2) [A_\alpha(T-t_j)-A_\alpha(T-t_{j+1})]&gt;0,">
 </picture>
 </p>
 
@@ -2488,9 +2484,9 @@ For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mc2d8665208e78fa7bd6c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mc2d8665208e78fa7bd6c-light.svg">
-  <img src="assets/math/revision-mc2d8665208e78fa7bd6c-light.svg" width="339" alt="|\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V). \tag{D.15}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mc2d8665208e78fa7bd6c-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mc2d8665208e78fa7bd6c-light.svg">
+  <img src="assets/math/formula-mc2d8665208e78fa7bd6c-light.svg" width="339" alt="|\phi_T(u-i/2)|\le e^{-c_Vu}\quad(u\ge V). \tag{D.15}">
 </picture>
 </p>
 
@@ -2504,9 +2500,9 @@ Using the right-endpoint sum of a positive decreasing function, for $`V=N_uh_*`$
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mdd3d7b109602247b4589-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mdd3d7b109602247b4589-light.svg">
-  <img src="assets/math/revision-mdd3d7b109602247b4589-light.svg" width="234" alt="\epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mdd3d7b109602247b4589-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mdd3d7b109602247b4589-light.svg">
+  <img src="assets/math/formula-mdd3d7b109602247b4589-light.svg" width="234" alt="\epsilon_{\rm tail} \le\frac{\sqrt m}{\pi}\frac{e^{-c_VV}}{c_VV^2}. \tag{D.16}">
 </picture>
 </p>
 
@@ -2522,9 +2518,9 @@ The recorded exponent is derivative-based: $`\bar L_T=\nu^{-1}\int\xi_*(T-t)\bar
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3131a33dc71a138d95c4-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3131a33dc71a138d95c4-light.svg">
-  <img src="assets/math/revision-m3131a33dc71a138d95c4-light.svg" width="556" alt="|L_T-\bar L_T| \le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu \le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)]. \tag{D.17}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3131a33dc71a138d95c4-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3131a33dc71a138d95c4-light.svg">
+  <img src="assets/math/formula-m3131a33dc71a138d95c4-light.svg" width="556" alt="|L_T-\bar L_T| \le E_{\rm state}(I^{1-\alpha}\xi_*)(T)/\nu \le E_{\rm state}\theta T^{1-\alpha}/[\nu\Gamma(2-\alpha)]. \tag{D.17}">
 </picture>
 </p>
 
@@ -2543,9 +2539,9 @@ Here $`E_{\rm state}`$ is a certified state radius: $`E_\delta`$ in Proposition 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m3823f28bae53fd560c83-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m3823f28bae53fd560c83-light.svg">
-  <img src="assets/math/revision-m3823f28bae53fd560c83-light.svg" width="501" alt="B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0. \tag{D.18}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m3823f28bae53fd560c83-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m3823f28bae53fd560c83-light.svg">
+  <img src="assets/math/formula-m3823f28bae53fd560c83-light.svg" width="501" alt="B_0\ge R_w+\sum_nU_n\varepsilon_n^0,\quad g=B_0-R_w-\sum_nU_n\varepsilon_n^0\ge0. \tag{D.18}">
 </picture>
 </p>
 
@@ -2569,9 +2565,9 @@ $`\sup_{\Theta_{\rm finite}}|\widetilde J-J|\le\delta_J`$, and its selected cand
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m8ced6d54ee3748bfcb06-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m8ced6d54ee3748bfcb06-light.svg">
-  <img src="assets/math/revision-m8ced6d54ee3748bfcb06-light.svg" width="268" alt="J(\widehat\alpha)-J_* \le2\delta_J+\varepsilon_{\rm alg}. \tag{D.19}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m8ced6d54ee3748bfcb06-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m8ced6d54ee3748bfcb06-light.svg">
+  <img src="assets/math/formula-m8ced6d54ee3748bfcb06-light.svg" width="268" alt="J(\widehat\alpha)-J_* \le2\delta_J+\varepsilon_{\rm alg}. \tag{D.19}">
 </picture>
 </p>
 
@@ -2599,9 +2595,9 @@ Fix $`\rho=-.7445,\nu=.2897,\lambda_R=\kappa=0`$ and the entire forward variance
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m6c7df98107c71b7cd077-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m6c7df98107c71b7cd077-light.svg">
-  <img src="assets/math/revision-m6c7df98107c71b7cd077-light.svg" width="473" alt="\xi_*(t)=.0721+(.0262-.0721) E_{.5286}(-.5037t^{.5286}). \tag{E.1}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m6c7df98107c71b7cd077-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m6c7df98107c71b7cd077-light.svg">
+  <img src="assets/math/formula-m6c7df98107c71b7cd077-light.svg" width="473" alt="\xi_*(t)=.0721+(.0262-.0721) E_{.5286}(-.5037t^{.5286}). \tag{E.1}">
 </picture>
 </p>
 
@@ -2613,9 +2609,9 @@ The candidate set is
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mfd0fccf50e5ade102478-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mfd0fccf50e5ade102478-light.svg">
-  <img src="assets/math/revision-mfd0fccf50e5ade102478-light.svg" width="532" alt="\Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad H=\alpha-\tfrac12\in\{.02,.1,.4\}. \tag{E.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mfd0fccf50e5ade102478-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mfd0fccf50e5ade102478-light.svg">
+  <img src="assets/math/formula-mfd0fccf50e5ade102478-light.svg" width="532" alt="\Theta_{\rm finite}=\{13/25,3/5,9/10\},\qquad H=\alpha-\tfrac12\in\{.02,.1,.4\}. \tag{E.2}">
 </picture>
 </p>
 
@@ -2627,9 +2623,9 @@ The model prices $`c_i(\alpha)=C_i(\alpha)/(DF)`$ arise from the admissible nonn
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-mb5661525f2907607eaa6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-mb5661525f2907607eaa6-light.svg">
-  <img src="assets/math/revision-mb5661525f2907607eaa6-light.svg" width="646" alt="J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \operatorname{dist}(c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-mb5661525f2907607eaa6-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-mb5661525f2907607eaa6-light.svg">
+  <img src="assets/math/formula-mb5661525f2907607eaa6-light.svg" width="646" alt="J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \operatorname{dist}(c_i(\alpha),[B_i,A_i])^2. \tag{E.3}">
 </picture>
 </p>
 
@@ -2720,9 +2716,9 @@ The Padé procedure uses the six-condition GR [3/3] approximation, a 256-point J
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/revision-m5b1bea635df3c87ff5a9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/revision-m5b1bea635df3c87ff5a9-light.svg">
-  <img src="assets/math/revision-m5b1bea635df3c87ff5a9-light.svg" width="364" alt="|c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}. \tag{E.4}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-m5b1bea635df3c87ff5a9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-m5b1bea635df3c87ff5a9-light.svg">
+  <img src="assets/math/formula-m5b1bea635df3c87ff5a9-light.svg" width="364" alt="|c^P-c|\le\max\{|c^P-c^-|,|c^P-c^+|\}. \tag{E.4}">
 </picture>
 </p>
 
@@ -2807,7 +2803,7 @@ The separate returned-reference ratio also pays binary64 return rounding and is 
 
 `portfolio-pass-counts.svg` and `portfolio-pass-counts.pdf` plot exact-endpoint pass counts for the three candidates and the alpha=.52 nearby controls. Coordinates are converted to decimals after exact counting. The shown range is 0–2 index points; the CSV/JSON retains every threshold. Within-bank comparisons use matched radii, while cross-bank curves describe different configurations.
 
-The complete driver also runs the dissipative-kernel reader, exact experimental-ledger reader and classical extension readers. These supplement the bank reconstruction and reuse the upstream continuous derivative bounds.
+The complete driver also runs the dissipative-kernel reader and exact experimental-ledger reader. These complement the bank reconstruction and reuse the upstream continuous derivative bounds.
 
 **Table E.10. Supplementary readers: recomputed obligations and shared inputs.**
 
@@ -2815,7 +2811,6 @@ The complete driver also runs the dissipative-kernel reader, exact experimental-
 |---|---|---|---|
 | Dissipative weights and complete prices | `generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | `independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | 14-layer direct series versus 12-layer moments; all 128 bins, 1025 nodes, 12 prices and 8 controls; strict primitives and upstream residual proof shared |
 | Exact experiment ledgers and thresholds | `produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | `read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | Exact saved-bank accounts, pair gaps, 504 thresholds and 9 controls; inherited derivative validity |
-| Classical terminal and trial-field evidence | Terminal inputs and saved interval banks | `verify_extensions.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#g1)) | Original-law moment and terminal readers; saved-field aggregation checks the supplied intervals |
 
 
 ### E.3. Budget sensitivity of every fixed direction

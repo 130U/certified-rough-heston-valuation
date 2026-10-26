@@ -29,7 +29,7 @@
     {
       "path": "independent-audit.json",
       "bytes": 2727,
-      "sha256": "a8089c92f85a42cbe70281d61817fad98ab338dcc7616ac3fef9d08d2134dec4"
+      "sha256": "d371aa47de17a94f91da95dcd01130c022af5871f9e3079e53144a5ed5554bb5"
     },
     {
       "path": "nearby-pair-resolution.json",
@@ -63,8 +63,8 @@
     },
     {
       "path": "proof-obligation-matrix.json",
-      "bytes": 13845,
-      "sha256": "d28913347b1b223a7153aebb57b4b7e034b5cade731d853387e0f838a62bad47"
+      "bytes": 14076,
+      "sha256": "13ca59066f192477ad4a773b1cdf219441ca56dad2bf41503805351ad7368146"
     },
     {
       "path": "proof_matrix.py",
@@ -84,7 +84,7 @@
     {
       "path": "source-identities.json",
       "bytes": 10138,
-      "sha256": "4dde9c6f44577a37f645f1801d8dc93578404a2038a3acc47fefd505ba2a6d72"
+      "sha256": "fa11fa9250e353cf65c5472d0eee89aefa9e77a498bf1c814e774a9a82d1fc31"
     }
   ]
 }

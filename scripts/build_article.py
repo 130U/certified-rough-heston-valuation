@@ -56,7 +56,7 @@ def main():
         raw=re.sub(r'height="[^"]*"',f'height="{height}px"',raw,count=1)
         names={}
         for theme,color in [('light','#1f2328'),('dark','#f0f6fc')]:
-            name='revision-'+row['id']+'-'+theme+'.svg'
+            name='formula-'+row['id']+'-'+theme+'.svg'
             (assets/name).write_text(raw.replace('#000000',color),encoding='utf-8')
             names[theme]='assets/math/'+name
         alt=html.escape(re.sub(r'\s+',' ',row['tex']).strip(),quote=True)
@@ -68,7 +68,7 @@ def main():
         ledger.append({**row,'paths':names,'width_px':width,'height_px':height})
     rendered.append(source[cursor:])
     used={Path(q).name for r in ledger for q in r['paths'].values()}
-    for stale in assets.glob('revision-*.svg'):
+    for stale in assets.glob('formula-*.svg'):
         if stale.name not in used:
             assert stale.resolve().parent==assets.resolve()
             stale.unlink()
@@ -78,12 +78,12 @@ def main():
         return re.sub(r'[^a-z0-9 _-]','',s.lower()).replace(' ','-')
     contents='\n'.join('- ['+h+'](#'+anchor(h)+')' for h in headings if h!='Abstract')
     title,rest=article.split('\n',1)
-    article=title+'\n\n**Theodore Ouyang**\n\nRevision: 26 October 2026.\n\n[English PDF](paper/paper.pdf) · [Chinese PDF](paper/paper-zh.pdf) · [Evidence](EVIDENCE.md) · [Revision record](REVISION.md)\n\n## Contents\n\n'+contents+'\n'+rest
+    article=title+'\n\n**Theodore Ouyang**\n\n[English PDF](paper/paper.pdf) · [Chinese PDF](paper/paper-zh.pdf) · [Evidence](EVIDENCE.md) · [Verification](COMMANDS.md)\n\n## Contents\n\n'+contents+'\n'+rest
     assert len(re.findall(r'<picture>',article))==len(ledger)
     (ROOT/'ARTICLE.md').write_text(article,encoding='utf-8')
-    qa=ROOT/'qa';qa.mkdir(exist_ok=True)
+    qa=ROOT/'validation';qa.mkdir(exist_ok=True)
     receipt={'status':'PASS','source':'manuscript/merged-heston-en.md','source_sha256':digest(path),'article_sha256':digest(ROOT/'ARTICLE.md'),'formula_count':len(spans),'inline_count':len(spans)-len(ledger),'display_count':len(ledger),'equation_tags':[t for r in ledger for t in r['tags']],'mathjax':render['mathjax'],'mathjax_errors':render['errors'],'displays':ledger}
-    (qa/'article-build.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (qa/'article-check.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({k:receipt[k] for k in ['status','formula_count','inline_count','display_count','mathjax_errors']}))
 
 if __name__=='__main__':main()

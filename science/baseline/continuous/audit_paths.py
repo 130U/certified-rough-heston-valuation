@@ -1,7 +1,7 @@
-"""Locate unchanged upstream evidence for local and published audit layouts."""
+"""Locate upstream evidence in the current publication and isolated work trees."""
 from pathlib import Path
 def release_root(script_directory):
-    """Local sibling, repo/code/merged, or repo/revision-YYYYMMDD/code.
+    """Find code/frozen and code/src in the current or nested staging tree.
 
     This only discovers paths; it does not alter any source or frozen input.
     """
@@ -13,11 +13,8 @@ def release_root(script_directory):
     raise FileNotFoundError('Cannot locate upstream release code/frozen and code/src from '+str(here))
 
 def evidence_directory(script_directory):
-    """Published revision scripts write beside code/, under evidence/."""
-    here=Path(script_directory).resolve()
-    if here.name=='code' and here.parent.name.startswith('revision-'):
-        out=here.parent/'evidence';out.mkdir(parents=True,exist_ok=True);return out
-    return here
+    """Current scientific scripts write beside their identified inputs."""
+    return Path(script_directory).resolve()
 
 
 def paper_source(script_directory):

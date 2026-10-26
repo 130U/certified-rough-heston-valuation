@@ -114,19 +114,12 @@ def main():
             _,_,tags=canonical(tex,display)
             # Line breaks at existing clause separators preserve every symbol
             # while keeping long displays readable in the reference's narrow column.
-            if display and tags in [['2.5'],['F.20'],['F.25'],['G.13']]:
+            if display and tags==['2.5']:
                 from math_inputs import strip_tags
                 clean,_=strip_tags(tex)
                 clean=clean.replace(r'\qquad',r'\\')
                 if tags==['2.5']:clean=clean.replace('\\quad\nK_', '\\\\\nK_')
                 tex=r'\begin{gathered}'+clean+r'\end{gathered}\tag{'+tags[0]+'}'
-            # Print the long exact interval as its two equivalent inequalities.
-            # The editable source retains the original interval expression.
-            if display and tags==['H7']:
-                fractions=re.findall(r'\\frac\{([^{}]+)\}\s*\{([^{}]+)\}',tex)
-                assert len(fractions)==2
-                lo,hi=[r'\frac{'+a+'}{'+b+'}' for a,b in fractions]
-                tex=r'\begin{gathered}'+lo+r"\le\mathcal B'(0),\\ \mathcal B'(0)\le"+hi+r'.\end{gathered}\tag{H7}'
             ident,_,tags=canonical(tex,display)
             key=f'MX{len(maths):06d}Z';row=dict(id=ident,tex=tex,display=display,tags=tags)
             maths[key]=row;inputs.append(row);spans.append(m.group())
@@ -146,9 +139,9 @@ def main():
     reports=[]
     for name,(path,src,protected,spans,source_identity) in documents.items():
         assert digest(path)==source_identity,'The source changed during formula preparation.'
-        log={'document':name,'source_sha256':digest(path),'math_occurrences':[], 'displays':[], 'headings':[], 'contents':[], 'tables':[], 'paragraphs':[], 'math_rendering':{'status':summary['status'],'mathjax':summary['mathjax'],'errors':[]},'presentation_equivalences':{'H7':'The exact interval is printed as the same lower and upper inequalities on two lines.'} if name=='report' else {}}
+        log={'document':name,'source_sha256':digest(path),'math_occurrences':[], 'displays':[], 'headings':[], 'contents':[], 'tables':[], 'paragraphs':[], 'math_rendering':{'status':summary['status'],'mathjax':summary['mathjax'],'errors':[]},'presentation_equivalences':{}}
         log['typography']={'paper':'A4','page_pt':[PAGE_W,PAGE_H],'column_width_pt':WIDTH,'side_margin_pt':MARGIN,'top_margin_pt':TOP,'bottom_margin_pt':BOTTOM,'body_font':'SFRM1095','body_font_pt':FONT,'body_leading_pt':LEADING,'paragraph_indent_pt':16.937,'math_style':'MathJax TeX / Computer Modern style, native vector outlines','substitution':False,'explicit_page_breaks':False}
-        log['presentation_equivalences'].update({t:'Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.' for t in ['2.5','F.20','F.25','G.13']})
+        log['presentation_equivalences'].update({'2.5':'Line breaks at existing clause separators; unchanged mathematical expressions in the canonical source.'})
         def supported(font_name,cp):
             f=pdfmetrics.getFont(font_name)
             if hasattr(f.face,'charToGlyph'):return bool(f.face.charToGlyph.get(cp,0))
@@ -228,8 +221,6 @@ def main():
                     self.notify('TOCEntry',(level,f.getPlainText(),self.page,f.heading_key))
                     log['contents'].append({'text':f.getPlainText(),'page':self.page,'key':f.heading_key})
         story=[Spacer(1,37.35),Paragraph(esc(meta['titles'][name]),styles['title']),Paragraph(esc(meta['subtitles'][name]),styles['subtitle']),Paragraph(esc(meta['author']),styles['author'])]
-        if meta.get('revision'):
-            story.append(Paragraph(esc(meta['revision']),styles['meta']))
         emails=' &nbsp; '.join('<link href="mailto:'+html.escape(email,quote=True)+'" color="black">'+esc(email)+'</link>' for email in meta.get('emails',[]))
         if emails:story.append(Paragraph(emails,styles['meta']))
         story += [Spacer(1,27.83),Paragraph(esc('摘要') if name=='report' else '<b>Abstract</b>',sty('abstract-title',fontName='SmallB',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=6.22,keepWithNext=True))]
@@ -382,8 +373,8 @@ def main():
                     caption=story.pop();caption.keepWithNext=False
                     caption_height=caption.wrap(WIDTH,100000)[1]
                     tab.wrap(WIDTH,100000)
-                    first_rows=sum(tab._rowHeights[:2])
-                    required=caption_height+caption.getSpaceBefore()+caption.getSpaceAfter()+tab.spaceBefore+first_rows+2
+                    table_height=sum(tab._rowHeights if not tab.splitByRow else tab._rowHeights[:2])
+                    required=caption_height+caption.getSpaceBefore()+caption.getSpaceAfter()+tab.spaceBefore+table_height+2
                     story.extend([CondPageBreak(required),caption])
                 story += [tab,Spacer(1,8)];log['tables'].append({'rows':len(rows),'columns':n,'cells':rows});continue
             if line.startswith('```'):
@@ -401,11 +392,9 @@ def main():
             paragraph=[line];i+=1
             while i<len(lines) and lines[i].strip() and not re.match(r'^(?:#|\||- |```)',lines[i].strip()):paragraph.append(lines[i].strip());i+=1
             add_prose(' '.join(paragraph),'abstract' if in_abstract else 'reference' if in_refs else 'body')
-        out=args.output_dir/('Theodore-Ouyang-Certified-Joint-Heston-ZH.pdf' if name=='report' else 'Theodore-Ouyang-Certified-Joint-Heston-EN.pdf')
+        out=args.output_dir/('paper-zh.pdf' if name=='report' else 'paper.pdf')
         doc=Manuscript(str(out),pagesize=A4,title=meta['titles'][name],author=meta['author'],subject=meta['subtitles'][name],pageCompression=1,initialFontName='TimesR',initialFontSize=FONT)
         doc.multiBuild(story,canvasmaker=MathCanvas,maxPasses=5)
-        stable=args.output_dir/('paper-zh.pdf' if name=='report' else 'paper.pdf')
-        stable.write_bytes(out.read_bytes())
         assert digest(path)==source_identity,'The source changed during typesetting.'
         assert len(log['math_occurrences'])==len(spans),(name,len(log['math_occurrences']),len(spans))
         log.update(pdf=out.relative_to(ROOT).as_posix() if out.is_relative_to(ROOT) else out.name,pdf_sha256=digest(out),math_source_occurrences=len(spans),vector_formulas=True)

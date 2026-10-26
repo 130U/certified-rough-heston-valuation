@@ -54,7 +54,7 @@ Abi Jaber and El Euch [AbiJaberElEuch2018] provide the Volterra model and affine
 
 Bayer and Breneis [BBWeak2023, BBSimulation2023] study Markovian kernel approximations and simulation methods. Boyarchenko, de Innocentis and Levendorskii [BL2025] study reliable rough Heston pricing and calibration; their modified Adams method is one of our numerical controls. Ben Hammouda et al. [BenHammouda2026] allocate time-discretization and Fourier-quadrature errors in single- and multilevel methods. Hager and Kreher [HK2026] study expansions in the Hurst parameter. Our question concerns a posteriori enclosure of a specified output, including its complete remainder. This scope differs from a complexity bound, an observed convergence rate, or a comparison between nominal solvers.
 
-Section 2 defines the exact problem. Sections 3 and 4 pass from the continuous residual to certified transform values. Section 5 derives the portfolio error set and its financial consequences. Section 6 records the rational output used in the experiments, and Section 7 presents the matched comparisons. Appendices A--E contain the model justification, detailed proofs and reproducibility record. Classical Heston extensions are retained separately as supplementary material.
+Section 2 defines the exact problem. Sections 3 and 4 pass from the continuous residual to certified transform values. Section 5 derives the portfolio error set and its financial consequences. Section 6 records the rational output used in the experiments, and Section 7 presents the matched comparisons. Appendices A--E contain the model justification, detailed proofs and reproducibility record.
 
 ## 2. The exact pricing problem
 
@@ -825,9 +825,7 @@ The construction follows the valuation map. The Riccati equation determines the 
 
 The matched spread shows that retaining shared Fourier errors can change a complete tolerance decision without changing the stored prices. It does not show that every portfolio improves, that the upper bound is the actual error, or that a numerically certified model fits market quotes. The finite-candidate comparison is confined to its declared set, and the rational structural theorem is confined to its stated parameter domain. When output replacement is allowed, a certified reference is itself a valid pricing alternative.
 
-The [online article](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md), scientific source and verification commands accompany this version. All 27 numerical banks are identified by size and SHA-256 in `SCIENTIFIC-MANIFEST.json`. `verify_source.py` checks the publication identities. `reproduce.py` reads the saved banks and reconstructs downstream prices, objectives and decisions; `--full` additionally recomputes the original structural-sign cover. These modes do not regenerate every continuous residual derivative bound. Appendix E and `COMMANDS.md` distinguish the generators, readers and shared arithmetic dependencies.
-
-The classical Heston extensions from the earlier version are preserved in a separate supplement. They are not assumptions or evidence for the rough Heston price certificate. Their incomplete annual monetary calculation and thirteen-function diagnostic retain their original limitations. The source and verification map keep these supplementary results accessible without making them part of the present argument.
+The [online article](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md), scientific source and verification commands accompany the paper. All 27 numerical banks are identified by size and SHA-256 in `SCIENTIFIC-MANIFEST.json`. `verify_source.py` checks the publication identities. `reproduce.py` reads the saved banks and reconstructs downstream prices, objectives and decisions; `--full` additionally recomputes the original structural-sign cover. These modes do not regenerate every continuous residual derivative bound. Appendix E and `COMMANDS.md` distinguish the generators, readers and shared arithmetic dependencies.
 
 ## Appendix A. Probability model and strip transform
 
@@ -1053,7 +1051,7 @@ The stronger rational margins in the complete certificate imply the following bo
 | \(-\bar D_4,-\bar D_5,-\bar D_6\) | \(1/8000,\ 1/15000000,\ 1/100000\) |
 | \(|\bar\Delta|^2\) | \(1/14400\) |
 
-The proof consists of rigorous interval inclusion and a complete finite covering. The supplementary material provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.
+The proof consists of rigorous interval inclusion and a complete finite covering. The scientific source provides the interval implementation, all leaf rectangles, and the tree-structure check for independent verification.
 
 ### B.2. Continuous correlation persistence
 
@@ -1599,7 +1597,7 @@ For matrix multiplication with rigorous weight centres \(W_c\), radii \(W_r\), a
 \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}},
 \tag{D.9}
 \]
-and an additional underflow-error allowance. Induction on products of basic rounding factors gives this estimate and permits different summation association orders. Norm sums are also rounded outward. The calculation assumes round-to-nearest IEEE basic operations, correctly rounded square roots, gradual underflow, and no overflow or NaNs. The supplement identifies the implementation and arithmetic dependencies; interval inclusion uses these assumptions and the stated remainder bounds.
+and an additional underflow-error allowance. Induction on products of basic rounding factors gives this estimate and permits different summation association orders. Norm sums are also rounded outward. The calculation assumes round-to-nearest IEEE basic operations, correctly rounded square roots, gradual underflow, and no overflow or NaNs. Appendix E identifies the implementation and arithmetic dependencies; interval inclusion uses these assumptions and the stated remainder bounds.
 
 For the fixed curve, define
 \[
@@ -1947,7 +1945,7 @@ The separate returned-reference ratio also pays binary64 return rounding and is 
 
 `portfolio-pass-counts.svg` and `portfolio-pass-counts.pdf` plot exact-endpoint pass counts for the three candidates and the alpha=.52 nearby controls. Coordinates are converted to decimals after exact counting. The shown range is 0–2 index points; the CSV/JSON retains every threshold. Within-bank comparisons use matched radii, while cross-bank curves describe different configurations.
 
-The complete driver also runs the dissipative-kernel reader, exact experimental-ledger reader and classical extension readers. These supplement the bank reconstruction and reuse the upstream continuous derivative bounds.
+The complete driver also runs the dissipative-kernel reader and exact experimental-ledger reader. These complement the bank reconstruction and reuse the upstream continuous derivative bounds.
 
 **Table E.10. Supplementary readers: recomputed obligations and shared inputs.**
 
@@ -1955,7 +1953,6 @@ The complete driver also runs the dissipative-kernel reader, exact experimental-
 |---|---|---|---|
 | Dissipative weights and complete prices | `generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | `independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | 14-layer direct series versus 12-layer moments; all 128 bins, 1025 nodes, 12 prices and 8 controls; strict primitives and upstream residual proof shared |
 | Exact experiment ledgers and thresholds | `produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | `read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | Exact saved-bank accounts, pair gaps, 504 thresholds and 9 controls; inherited derivative validity |
-| Classical terminal and trial-field evidence | Terminal inputs and saved interval banks | `verify_extensions.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#g1)) | Original-law moment and terminal readers; saved-field aggregation checks the supplied intervals |
 
 
 ### E.3. Budget sensitivity of every fixed direction

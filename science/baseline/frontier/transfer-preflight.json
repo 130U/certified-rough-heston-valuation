@@ -1,7 +1,7 @@
 {
-  "status": "PASS_TRANSFER_PREFLIGHT_BEFORE_NEW_VALUES",
-  "python": "3.12.14",
+  "status": "PASS_CURRENT_TRANSFER_INPUT_BINDING",
   "contract_sha256": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3",
+  "executed_checker_sha256": "23bb86293bce1dc24c1ce435129c6ffb1c6204cdceff1fd3ff18e9c50b6d354a",
   "records": [
     {
       "alpha": "13/25",
@@ -58,7 +58,20 @@
     "reference/code/src/direct-tail-certificate.py": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
     "reference/code/src/price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
     "reference/code/src/solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
-    "merged-heston-en.md": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
+    "merged-heston-en.md": "17d0575688ac4a5b4caaeaa3a171390cdd392958357c1aee887bcfc620f8e1f7"
   },
-  "limitations": "No quarter-maturity output, exponent or tail has yet been computed. Residual and halfplane restriction are valid for the identical full-history field; new exponent and complete Fourier budget remain mandatory."
+  "saved_input_sha256": {
+    "reference/code/frozen/fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
+    "reference/code/frozen/fixed-field-betap52-u128.json": "43413f272b89e32385c1674b0c6b0d4f89c2f54a83115b726823c83ddbc2090b",
+    "reference/code/frozen/residual-node-certificate-point052-u64.json": "82f97fbc77bea669f4547ac6465aae0aa8baba006c106c0ba71a611d4d920f9b",
+    "reference/code/frozen/fixed-field-betap6-u128.npz": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
+    "reference/code/frozen/fixed-field-betap6-u128.json": "a372e85d2234ad59170e288e5d022dd21143e16d8da1d125783df489c13445ed",
+    "reference/code/frozen/residual-node-certificate-point06-u64.json": "5b498420752d7f532bb41649a43d357b790ca6cb81bf82b7b737589ad0e28f64",
+    "reference/code/frozen/fixed-field-betap9-u80.npz": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
+    "reference/code/frozen/fixed-field-betap9-u80.json": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029",
+    "reference/code/frozen/residual-node-certificate-betap9-u64-.json": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5"
+  },
+  "scope": "Current input identity, complete saved-field shape and dyadic terminal interpolation checks for the existing quarter contract. The current manuscript is an identified proof dependency, not machine-verified by this check.",
+  "continuous_derivatives_regenerated": false,
+  "limitations": "Saved continuous residual validity and strict arithmetic theory remain inherited. Quarter output, exponent, tail and complete error accounts must be reconstructed and read independently; this is not a new prospective registration."
 }

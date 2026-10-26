@@ -1,11 +1,17 @@
-# Revision verification
+# Verification
 
-The current paper is in `manuscript/` and `paper/`. This directory records the scope of verification and retains the exact historical proof source required by the saved scientific receipts.
+The publication supplies separate records for file identity, scientific reconstruction and presentation. The [evidence map](../EVIDENCE.md) connects the mathematical claims to their proofs and data; [COMMANDS.md](../COMMANDS.md) gives the executable checks.
 
-`receipt-bound-proof-source.md` is an archival input with SHA-256 `972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3`. It is not the current manuscript. Earlier transfer and classical-model receipts bind those bytes under the name `manuscript/merged-heston-en.md`. Later public prose revisions changed that path without changing the receipts. The revision resolves this mismatch by supplying the archival bytes only inside a disposable replay tree, while retaining the current manuscript there as `manuscript/current-publication-en.md`.
+| Record | Scope |
+| --- | --- |
+| [Source manifest](../SOURCE-MANIFEST.json) | Byte sizes and SHA-256 identities of the publication files. |
+| [Scientific manifest](../SCIENTIFIC-MANIFEST.json) | Identities of the current manuscript, scientific source and numerical inputs used by the reconstruction driver. |
+| [Scientific replay](../SCIENTIFIC-REPLAY.json) | Input and driver identities, stage results, return codes, and the scope of the recorded scientific execution. |
+| [Article check](article-check.json) | Identities of the English source, generated article and vector displays, with formula counts and rendering diagnostics. |
+| [PDF check](pdf-check.json) | PDF identities, page counts and the stated scope of layout, font, link and text-geometry checks. |
 
-The numerical banks, scientific generators, readers and original receipt hashes are preserved. `reproduce.py` records both manuscript identities and the explicit mapping in its new replay receipt. `python reproduce.py --stage-only` prepares the same isolated layout for individual commands; run the commands in `COMMANDS.md` from that printed directory. Directly invoking a historical reader against the current manuscript path can correctly fail its historical identity check.
+The six-stage scientific driver verifies its inputs, copies them to an isolated working directory and binds its execution to the current manuscript. `python reproduce.py --stage-only`, run from the project root, prepares that directory for the individual commands. Readers and generators can write local results, so use a fresh staged tree for a separate experiment.
 
-`SCIENTIFIC-CHECK.json` at the repository root retains the earlier author-side execution record. It is distinct from `revision-check.json`, which records the bounded checks performed for this revision. Identity checks and reconstruction from saved banks do not regenerate the continuous residual derivative bounds.
+The default driver reconstructs downstream certificates from saved banks. `--full` also recomputes the complete original structural-sign cover. Fresh continuous-residual generation has separate commands and dependencies. The replay record states which operations were executed; the proof-obligation matrix in Appendix E identifies the retained arithmetic and derivative-bound dependencies.
 
-`article-check.json` identifies the current English source, generated article and vector display assets, including formula counts and rendering diagnostics. `pdf-check.json` records the final PDF identities and the scope of page-layout inspection. These presentation checks do not certify the mathematical proofs.
+Article and PDF checks establish the reported presentation and identity properties. All-page contact-sheet inspection is distinct from line-by-line proofreading, and neither is a certification of mathematical proofs. Scientific execution records describe the author's verification scope; external independent reproduction is a separate undertaking.

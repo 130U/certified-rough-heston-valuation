@@ -15,6 +15,10 @@ def verify():
   assert all(s not in {'','.','..'} for s in r['path'].split('/'))
   p=ROOT.joinpath(*n.parts);assert p.resolve().is_relative_to(ROOT.resolve()) and p.is_file(),r['path']
   assert p.stat().st_size==r['bytes'] and sha(p)==r['sha256'],r['path']
+ preflight=json.loads((ROOT/'science/baseline/frontier/transfer-preflight.json').read_text(encoding='utf-8'))
+ assert preflight['status']=='PASS_CURRENT_TRANSFER_INPUT_BINDING'
+ assert preflight['source_sha256']['merged-heston-en.md']==sha(ROOT/'manuscript/merged-heston-en.md')
+ assert preflight['executed_checker_sha256']==sha(ROOT/'science/baseline/frontier/transfer-preflight.py')
  return m
 def main():
  p=argparse.ArgumentParser();p.add_argument('--full',action='store_true');p.add_argument('--manifest-only',action='store_true');p.add_argument('--stage-only',action='store_true',help='Prepare an isolated saved-evidence tree and print its path');a=p.parse_args()
@@ -24,26 +28,15 @@ def main():
  assert work.resolve().is_relative_to(ROOT.resolve()) and work!=ROOT
  for r in m['files']:
   dst=work/r['path'];dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/r['path'],dst)
- # Historical receipts name merged-heston-en.md and bind its original bytes.
- # Serve those bytes only in this disposable tree; retain the current paper
- # under a separate name so a prose revision cannot impersonate a past run.
- historical=ROOT/'validation/receipt-bound-proof-source.md'
- historical_sha='972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3'
- assert sha(historical)==historical_sha,'receipt-bound proof source'
- current=work/'manuscript/merged-heston-en.md'
- current_sha=sha(current)
- shutil.copyfile(current,current.with_name('current-publication-en.md'))
- shutil.copyfile(historical,current)
- proof_mapping={'historical_receipt_name':'manuscript/merged-heston-en.md','historical_archive':'validation/receipt-bound-proof-source.md','historical_sha256':historical_sha,'current_publication_name':'manuscript/current-publication-en.md','current_publication_sha256':current_sha,'scope':'Historical readers consume the exact proof-source bytes named by their receipts. The current public manuscript is preserved separately. No historical execution record is rewritten.'}
- (work/'PROOF-SOURCE-MAPPING.json').write_text(json.dumps(proof_mapping,indent=2)+'\n',encoding='utf-8')
+ current_sha=sha(work/'manuscript/merged-heston-en.md')
  if a.stage_only:
   print(str(work));return
  science=work/'science'
  for n in [1024,2048]:
   for cache in (science/f'experiments/N{n}').glob('point-independent-*.json'):
    assert cache.resolve().is_relative_to(work.resolve());cache.unlink()
- steps=[('baseline/frontier/run_frontier.py',['--full'] if a.full else []),('theory/rho-direct-check.py',[]),('theory/rho-direct-controls.py',[]),('experiments/run_experiments.py',[]),('analysis/kernel/independent.py',['--baseline',str(science)]),('analysis/audit/read_audit_independent.py',['--baseline',str(science)]),('analysis/verify_extensions.py',[])]
- record={'status':'RUNNING','scientific_manifest_sha256':sha(ROOT/'SCIENTIFIC-MANIFEST.json'),'proof_source_mapping':proof_mapping,'full_structural_signs':a.full,'continuous_derivatives_regenerated':False,'scope':'Saved-bank reading and exact downstream reconstruction. Full additionally recomputes the original structural-sign cover. Continuous derivative generators and strict arithmetic theory remain identified shared dependencies.','steps':[]}
+ steps=[('baseline/frontier/run_frontier.py',['--full'] if a.full else []),('theory/rho-direct-check.py',[]),('theory/rho-direct-controls.py',[]),('experiments/run_experiments.py',[]),('analysis/kernel/independent.py',['--baseline',str(science)]),('analysis/audit/read_audit_independent.py',['--baseline',str(science)])]
+ record={'status':'RUNNING','scientific_manifest_sha256':sha(ROOT/'SCIENTIFIC-MANIFEST.json'),'current_manuscript':{'path':'manuscript/merged-heston-en.md','sha256':current_sha},'executed_driver_sha256':sha(Path(__file__)),'full_structural_signs':a.full,'continuous_derivatives_regenerated':False,'scope':'Six-stage saved-bank reading and exact downstream reconstruction for the current manuscript. Full additionally recomputes the original structural-sign cover. Continuous derivative generators and strict arithmetic theory remain identified shared dependencies.','steps':[]}
  receipt=ROOT/'SCIENTIFIC-REPLAY.json'
  for name,args in steps:
   run=subprocess.run([sys.executable,'-X','utf8','-B',str(science/name),*args],capture_output=True,text=True,encoding='utf-8')

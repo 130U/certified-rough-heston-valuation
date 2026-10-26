@@ -3,7 +3,7 @@
   "obligations": [
     {
       "id": "S1",
-      "proof_obligation": "Padé coefficient signs on the original parameter rectangle",
+      "proof_obligation": "Pad\u00e9 coefficient signs on the original parameter rectangle",
       "generation_command": "full_structure_verify.py assembles every delivered leaf",
       "verification_command": "python continuous/full_structure_verify.py",
       "recomputed_scope": "211241 structural sign leaves and rectangle cover",
@@ -103,7 +103,7 @@
       "inherited_scope": "larger-horizon continuous residuals and halfplane certificate",
       "shared_dependencies": "strict moment/trig/dyadic/true-tail libraries; original fast implementation used only for output replay",
       "source": "baseline/frontier/independent-transfer.py",
-      "source_sha256": "af62f3d106ec8b24db38be07c4605f9efd9399209cbc6d3868e4769da10ce007",
+      "source_sha256": "72cdb86d0784161906aaae79900b67062af7549a63f2e17d0278148463f6d259",
       "source_anchors": [
         "if args.full:",
         "fast_replayed+=1",
@@ -218,7 +218,7 @@
     },
     {
       "source": "baseline/finite-history/run_evidence.py",
-      "sha256": "e0e45a24aba191a6b55f91f997d7c72e76193bffc3bb771ce17b1ea75aa62888"
+      "sha256": "2cce4e5e9068b742776a83a2b3fab2e26bcb7168b38675ed6850c97fa27b6656"
     }
   ],
   "entrypoint_scope": "Root scientific driver and publication CI have separate identities. Identified bank readers and baseline switches retain the responsibilities in this matrix.",

@@ -54,7 +54,7 @@ Abi Jaber–El Euch [AbiJaberElEuch2018] 给出第2节所用的 Volterra 模型�
 
 Bayer–Breneis [BBWeak2023, BBSimulation2023] 研究 Markovian 核近似与模拟方法。Boyarchenko–de Innocentis–Levendorskii [BL2025] 研究可靠的 Rough Heston 定价与校准，其修正 Adams 方法是本文的一项数值对照。Ben Hammouda 等 [BenHammouda2026] 在单层和多层方法中分配时间离散与 Fourier 求积误差。Hager–Kreher [HK2026] 研究 Hurst 参数展开。本文的问题是对指定输出给出包含完整余项的后验包围，其范围不同于复杂度界、观察到的收敛率，或名义求解器之间的比较。
 
-第2节定义精确问题。第3–4节从连续残差得到认证变换值。第5节推导组合误差集合及其金融含义。第6节说明实验采用的有理输出，第7节给出同条件比较。附录A–E包含模型依据、详细证明与复现记录。经典 Heston 扩展另存为补充材料。
+第2节定义精确问题。第3–4节从连续残差得到认证变换值。第5节推导组合误差集合及其金融含义。第6节说明实验采用的有理输出，第7节给出同条件比较。附录A–E包含模型依据、详细证明与复现记录。
 
 ## 2. 精确定价问题
 
@@ -816,8 +816,6 @@ H2扩至H3同时改变中心绝对值支出与付清后的参考半径；H3至H4
 
 本版附有[在线文章](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md)、科学源文件与验证命令。全部27个数值库的文件大小和 SHA-256 记录于 `SCIENTIFIC-MANIFEST.json`。`verify_source.py` 检查公开文件的身份。`reproduce.py` 读取保存的数值库，重建下游价格、目标函数与判定；`--full` 还重新计算原始结构符号覆盖。这些模式不会重新生成全部连续残差导数界。附录E与 `COMMANDS.md` 区分生成器、读取器及共享算术依赖。
 
-旧版的经典 Heston 扩展保留在单独的补充材料中。它们不作为 Rough Heston 价格证书的假设或证据，尚未完成的年度金额计算与十三函数诊断也保留原有局限。源文件与验证映射使这些补充结果仍可查阅，同时明确其不属于本文的论证主线。
-
 ## 附录 A. 概率模型及条带变换的文献应用核验
 
 本文使用Abi Jaber–El Euch的arXiv:1803.00477预印本，首次公开于2018-03-01，PDF首页日期为March 2, 2018；正式论文发表于2019年Statistics & Probability Letters 149, 63–72。以下定位均对应13页预印本：p.4定理2.1及例2.2，p.5定理2.3，pp.9–10的H2与表1。
@@ -1043,7 +1041,7 @@ Binet 正积分中 arctan 的十项几何余项为正且不超过首遗漏幂，
 | \(-\bar D_4,-\bar D_5,-\bar D_6\) | \(1/8000,\ 1/15000000,\ 1/100000\) |
 | \(|\bar\Delta|^2\) | \(1/14400\) |
 
-证明由严格区间包含与完整有限覆盖组成。补充材料给出区间算术实现、全部叶矩形及树结构检查，供逐项复核。
+证明由严格区间包含与完整有限覆盖组成。科学源文件给出区间算术实现、全部叶矩形及树结构检查，供逐项复核。
 
 ### B.2. 连续相关系数持续性
 
@@ -1584,7 +1582,7 @@ r_t'=P_r'+\bar L'-\nu[(d+H_0+J)J'+H_0'J],
 \quad \gamma_{2n}=\frac{2n\,2^{-53}}{1-2n\,2^{-53}},
 \tag{D.9}
 \]
-再加入下溢误差预算。基本舍入因子乘积的归纳估计给出该界，允许不同加法结合顺序；范数求和也向外扩张。计算要求IEEE基本运算最近舍入、平方根正确舍入、渐进下溢，且没有溢出或NaN。补充材料记录实现及算术依赖；区间包含依据这些假设和所列余项界。
+再加入下溢误差预算。基本舍入因子乘积的归纳估计给出该界，允许不同加法结合顺序；范数求和也向外扩张。计算要求IEEE基本运算最近舍入、平方根正确舍入、渐进下溢，且没有溢出或NaN。附录E记录实现及算术依赖；区间包含依据这些假设和所列余项界。
 
 对固定曲线定义
 \[
@@ -1933,7 +1931,7 @@ BL-core完整界中的共同理想严格参考底座（底座与比例为近似�
 
 `portfolio-pass-counts.svg`和`portfolio-pass-counts.pdf`给出三候选及alpha=.52邻近对照的精确端点通过数。先以有理数计数，再转换绘图坐标。展示范围为0–2指数点，CSV/JSON保留全部阈值。同库比较使用匹配半径，跨库曲线描述不同配置。
 
-完整驱动器还运行耗散核读取器、精确实验账本读取器及经典扩展读取器。这些义务补充数值库重建，并复用上游连续导数界。
+完整驱动器还运行耗散核读取器和精确实验账本读取器。这些义务补充数值库重建，并复用上游连续导数界。
 
 **表 E.10. 补充读取器：重新计算的义务及共享输入。**
 
@@ -1941,7 +1939,6 @@ BL-core完整界中的共同理想严格参考底座（底座与比例为近似�
 |---|---|---|---|
 | 耗散权重与完整价格 | `generate.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | `independent.py` ([K1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#k1)) | 14层直接级数对12层矩公式；128区间、1025节点、12价格和8负控；共用严格原语并继承上游残差证明 |
 | 精确实验账本与阈值 | `produce_audit.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | `read_audit_independent.py` ([A1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#a1)) | 保存的数值库精确分账、候选间隙、504阈值及9负控；继承导数界有效性 |
-| 经典终端和试探函数证据 | 终端输入及保存的区间库 | `verify_extensions.py` ([G1](https://github.com/130U/certified-rough-heston-valuation/blob/paper/COMMANDS.md#g1)) | 原概率律矩界及终端读取器；保存函数聚合核查所供区间 |
 
 
 ### E.3. 所有固定方向的预算敏感性

@@ -3,7 +3,7 @@
   "T": "1/4",
   "source_horizon": "1/2",
   "contract_sha256": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3",
-  "script_sha256": "7f829919cdcc6b680480473f4833b0df22d67e9156ba8869476f609bba4963f2",
+  "script_sha256": "0b32b38742785c3c0a00317f4134c98629564066c7894dcae3b0cb6ce82813da",
   "python_version": "3.12.14",
   "numpy_version": "2.3.5",
   "bits": 100,
@@ -11,32 +11,32 @@
   "proof_scope": "Original admissible model and martingale/affine law hold at every finite T. Full-history residual/halfplane restriction is valid. New T-dependent reference integral, true envelope, omitted frequencies and infinite tail are all recomputed.",
   "input_sha256": {
     "transfer-contract.json": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3",
-    "transfer-preflight.json": "35c4caebd081c4624f4daad4883874f6ff4b75436668912229957864e28d1104",
+    "transfer-preflight.json": "9b72424a4e1a233a5f88ef1765590199f0cc61d4fd535e975bb4c2d8ef33ae67",
     "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
     "exponent-field-certificate.py": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
     "direct-tail-certificate.py": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
     "price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
     "solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
+    "merged-heston-en.md": "17d0575688ac4a5b4caaeaa3a171390cdd392958357c1aee887bcfc620f8e1f7",
     "fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",
     "residual-node-certificate-point052-u64.json": "82f97fbc77bea669f4547ac6465aae0aa8baba006c106c0ba71a611d4d920f9b",
     "fixed-field-betap6-u128.npz": "14b8904a5eb87915b1489ffcc5a09eb7182576e2b19c63eb811591a579879467",
     "residual-node-certificate-point06-u64.json": "5b498420752d7f532bb41649a43d357b790ca6cb81bf82b7b737589ad0e28f64",
     "fixed-field-betap9-u80.npz": "d08346e71b284f22f97c941cec683266ff0b6755d785a1aeda7e13d2dc8951e8",
-    "residual-node-certificate-betap9-u64-.json": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5",
-    "merged-heston-en.md": "972c67c876ab0f858b7827f3048aa5ef7bcaa1b0c71d03ba1578e53025cc26f3"
+    "residual-node-certificate-betap9-u64-.json": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5"
   },
   "component_sha256": {
-    "transfer-fast-output.json": "38574e54728d6b7dd4755ec7ffb926fea2b83f4a4cb991992fe8ecc6c8b036cb",
-    "transfer-coefficients.json": "3c20b65a1503725b5bc43e125071ce1ee02b638b95cb221a5190d136b3b04fb2",
-    "transfer-tail-alpha-13_25.json": "ba988891c2d45d6eadbca71586caf002cbfa6d3d9f946430f284a1ade39e472a",
-    "transfer-exponents-alpha-13_25.json": "9ab2c61105fafa280a0b1f5d8fbd5793b5a49bcd834fca36aae27f8dc49db701",
-    "transfer-node-ledger-alpha-13_25.json": "e307d854962ace5900ff3557723e9fbfdf51916e6f69941bc652a15a161f945a",
-    "transfer-tail-alpha-3_5.json": "2501c654c0157281813abda88de29373bfbe8530917674e428f30aa2ba9b7d78",
-    "transfer-exponents-alpha-3_5.json": "ffde03ddfa7e7c57ef5a279c4b3ca763ddeef4127af08ce4c71ae374dae0450f",
-    "transfer-node-ledger-alpha-3_5.json": "ad8e7097c651019f56420ec8befd4bf1d210df8d51bb93ac632b85bdd31cd36c",
-    "transfer-tail-alpha-9_10.json": "0ea033ff015082c92e7f425742df70df4ea7b34b29bfaac0f2a459d1c024bf95",
-    "transfer-exponents-alpha-9_10.json": "443b4ac1d009734b13ee70689ae4daab81feb593dc55ce6af431b93839ec05fc",
-    "transfer-node-ledger-alpha-9_10.json": "f61153bb458f62acacafc18b57d1bc3b3103fa27a066425e45e0d18496c960c9"
+    "transfer-fast-output.json": "14342ce7529a9328a03a06cf7501a9a82b4807423b48b3af5e17426b447b8c93",
+    "transfer-coefficients.json": "8b7471f6b540f3577f88ca966aa40042089c680c93a53964d5cee56e5ed668fc",
+    "transfer-tail-alpha-13_25.json": "01db02f184bd9ebb640acc6068c4b3b6df90311b885fcb57935ce4bfd4d90ff4",
+    "transfer-exponents-alpha-13_25.json": "66604923b370819366f7a237567c4230b9f06b83d5682cd2d4fc37da81f085f0",
+    "transfer-node-ledger-alpha-13_25.json": "1ab082f366ec28aa324de91b26d377f9f3b1cda5b13f2e86613f282c354d494b",
+    "transfer-tail-alpha-3_5.json": "23520d31b67c41a0efe1a24c75a5d5b3a207ae99d4e6161c8ca65215d6bcd8f9",
+    "transfer-exponents-alpha-3_5.json": "18f82f7a4d335c40a6067c918bb24b7d47827300abbfc138076db75a5cb92d9b",
+    "transfer-node-ledger-alpha-3_5.json": "1a8578d6493babc3f50ff74ab6b7ab98104183bc65f7f3af3eda072355768b1f",
+    "transfer-tail-alpha-9_10.json": "c29490da712b350fc79be8b0e067a7f3c627119dfb22bd2c07ccf205cd5df4e6",
+    "transfer-exponents-alpha-9_10.json": "472167f847aa4606027d770e517442c3aa06ee42698aeef69e2990eb1638d400",
+    "transfer-node-ledger-alpha-9_10.json": "9acaaf39dc8238a36608c715dda9ca6ec6223b9fa66cc96d82d53d8b56cf45fa"
   },
   "rows": [
     {
@@ -250,5 +250,5 @@
       ]
     }
   ],
-  "cost_scope": "Saved bank reuse and typed scientific work counts; generation and reading cover separate obligations."
+  "cost_scope": "Saved bank reuse and typed work counts; generation and reading cover separate obligations."
 }

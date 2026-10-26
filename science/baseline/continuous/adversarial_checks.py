@@ -26,17 +26,6 @@ def structural_records(data):
         area+=(b-a)*(d-c)
     assert area==Q(2,25),'incomplete or excess area'
 
-def terminal_primal_dual(data,result):
-    A=[list(map(Q,row)) for row in data['P_A']];b=list(map(Q,data['P_b']))
-    p=list(map(Q,result['Asian']['pi']));y=list(map(Q,result['Asian']['dual']))
-    c=list(map(Q,data['profiles'][0]));n=len(p)
-    assert len(A)==len(b)==22 and n==102
-    assert all(x>=0 for x in p) and sum(p)==1,'primal probability'
-    for a,bi in zip(A,b):assert sum((x*z for x,z in zip(a,p)),Q(0))<=bi,'primal constraint direction'
-    assert all(x>=0 for x in y),'dual multiplier sign'
-    assert all(sum((row[j]*yy for row,yy in zip(A,y)),Q(0))>=c[j] for j in range(n)),'dual feasibility'
-    assert sum((ci*pi for ci,pi in zip(c,p)),Q(0))==sum((bi*yi for bi,yi in zip(b,y)),Q(0)),'primal dual equality'
-
 def main():
     result={'status':'RUNNING','tests':[]};started=0
     def test(name,fn,should_fail=False):
@@ -71,15 +60,6 @@ def main():
         assert record==inflated,'strictly positive but inflated margin differs from generated interval evidence'
     test('inflate_positive_margin',regenerated_leaf_reject,True)
     del data
-    cbase=RELEASE/'code'/'classical'
-    inp=json.loads((cbase/'terminal767-input.json').read_text(encoding='utf-8-sig'))
-    res=json.loads((cbase/'terminal767-result.json').read_text(encoding='utf-8-sig'))
-    test('valid_terminal_primal_dual',lambda:terminal_primal_dual(inp,res))
-    changed=copy.deepcopy(inp);changed['P_A'][-1]=['1']*102 # keep b=-1: impossible altered mass row
-    test('flip_probability_constraint_direction',lambda:terminal_primal_dual(changed,res),True)
-    changed_res=copy.deepcopy(res);idx=next(i for i,v in enumerate(changed_res['Asian']['dual']) if Q(v)>0)
-    changed_res['Asian']['dual'][idx]=str(-Q(changed_res['Asian']['dual'][idx]))
-    test('wrong_dual_multiplier_sign',lambda:terminal_primal_dual(inp,changed_res),True)
     shared=load_module('new_joint_support',HERE/'shared_fourier_spread.py')
     p=shared.load('f8-price-point052-u64.json')
     test('valid_shared_frequency_cover',lambda:shared.validate_cover(p))

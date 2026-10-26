@@ -5,9 +5,10 @@
     "rough-heston": "Certified Joint Pricing Errors in Rough Heston"
   },
   "subtitles": {
-    "report": "有限历史、实际输出与金融任务",
-    "rough-heston": "Finite History, Actual Outputs, and Financial Decisions"
+    "report": "残差传播与共享 Fourier 误差",
+    "rough-heston": "Residual Propagation and Shared Fourier Errors"
   },
+  "revision": "26 October 2026",
   "emails": [
     "theodore.oy2025@gmail.com",
     "10@alumni.duke.edu"

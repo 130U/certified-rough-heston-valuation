@@ -12,7 +12,7 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Flowable, Table, TableStyle, Preformatted, KeepTogether
+from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Flowable, Table, TableStyle, Preformatted, KeepTogether, CondPageBreak
 from reportlab.platypus import Image as PlotImage
 from reportlab.platypus.tableofcontents import TableOfContents
 # ReportLab's CJK breaker calls ord() on empty inline-image fragments.
@@ -45,6 +45,14 @@ def main():
     parser.add_argument('--cjk-font',type=Path,help='A locally supplied CJK font for the Chinese manuscript')
     parser.add_argument('--output-dir',type=Path,default=ROOT/'paper')
     args=parser.parse_args()
+    if args.document=='all':
+        # Keep each language's fonts, line breaking and formula cache isolated.
+        for document in ['report','rough-heston']:
+            command=[sys.executable,str(Path(__file__).resolve()),'--document',document,'--node',args.node,'--output-dir',str(args.output_dir)]
+            if args.font_dir is not None:command.extend(['--font-dir',str(args.font_dir)])
+            if args.cjk_font is not None:command.extend(['--cjk-font',str(args.cjk_font)])
+            subprocess.run(command,check=True)
+        return
     if args.font_dir is None:
         import matplotlib
         args.font_dir=Path(matplotlib.get_data_path())/'fonts/ttf'
@@ -72,7 +80,10 @@ def main():
         base=dict(fontName='TimesR',fontSize=FONT,leading=LEADING,wordWrap=('CJK' if args.document=='report' else None),textColor=colors.black,firstLineIndent=16.937,alignment=TA_JUSTIFY,allowWidows=0,allowOrphans=0,autoLeading='max',spaceAfter=0)
         base.update(kw);return ParagraphStyle(name,**base)
     styles={
-      'body':sty('body'),
+      # Mixed vector formulas can leave the final text baseline below the
+      # paragraph's nominal height. Reserve enough separation for the next
+      # paragraph without changing any equation or table geometry.
+      'body':sty('body',spaceAfter=4.6),
       'h1':sty('h1',fontName='SectionB',fontSize=14.346,leading=17.2,firstLineIndent=0,spaceBefore=18.4,spaceAfter=12,alignment=TA_LEFT,keepWithNext=True),
       'h2':sty('h2',fontName='SubsectionB',fontSize=11.955,leading=14.34,firstLineIndent=0,spaceBefore=16.5,spaceAfter=8.3,alignment=TA_LEFT,keepWithNext=True),
       'h3':sty('h3',fontName='TimesB',fontSize=FONT,leading=LEADING,firstLineIndent=0,spaceBefore=14,spaceAfter=7,alignment=TA_LEFT,keepWithNext=True),
@@ -217,6 +228,8 @@ def main():
                     self.notify('TOCEntry',(level,f.getPlainText(),self.page,f.heading_key))
                     log['contents'].append({'text':f.getPlainText(),'page':self.page,'key':f.heading_key})
         story=[Spacer(1,37.35),Paragraph(esc(meta['titles'][name]),styles['title']),Paragraph(esc(meta['subtitles'][name]),styles['subtitle']),Paragraph(esc(meta['author']),styles['author'])]
+        if meta.get('revision'):
+            story.append(Paragraph(esc(meta['revision']),styles['meta']))
         emails=' &nbsp; '.join('<link href="mailto:'+html.escape(email,quote=True)+'" color="black">'+esc(email)+'</link>' for email in meta.get('emails',[]))
         if emails:story.append(Paragraph(emails,styles['meta']))
         story += [Spacer(1,27.83),Paragraph(esc('摘要') if name=='report' else '<b>Abstract</b>',sty('abstract-title',fontName='SmallB',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=6.22,keepWithNext=True))]
@@ -261,7 +274,9 @@ def main():
             if not line:i+=1;continue
             fig=re.fullmatch(r'!\[([^\]]+)\]\(([^)]+)\)',line)
             if fig:
-                figure_path=(ROOT/fig[2]).resolve()
+                figure_path=(path.parent/fig[2]).resolve()
+                if not figure_path.is_file():
+                    figure_path=(ROOT/fig[2]).resolve()
                 assert figure_path.is_relative_to(ROOT.resolve()) and figure_path.is_file()
                 with Image.open(figure_path) as pic:w,h=pic.size
                 scale=WIDTH/w
@@ -360,7 +375,17 @@ def main():
                     data.append(rendered)
                 tab=Table(data,colWidths=widths,repeatRows=1,hAlign='LEFT',splitByRow=(0 if len(rows)<=5 else 1))
                 tab.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,0),.5,colors.black),('LINEBELOW',(0,-1),(-1,-1),.4,colors.black),('LEFTPADDING',(0,0),(-1,-1),4),('RIGHTPADDING',(0,0),(-1,-1),4),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]))
-                story += [Spacer(1,5),tab,Spacer(1,8)];log['tables'].append({'rows':len(rows),'columns':n,'cells':rows});continue
+                tab.spaceBefore=5
+                # Keep the caption with the header and first data row while
+                # allowing long tables to use the remaining page space.
+                if story and isinstance(story[-1],Paragraph) and story[-1].style.name=='caption':
+                    caption=story.pop();caption.keepWithNext=False
+                    caption_height=caption.wrap(WIDTH,100000)[1]
+                    tab.wrap(WIDTH,100000)
+                    first_rows=sum(tab._rowHeights[:2])
+                    required=caption_height+caption.getSpaceBefore()+caption.getSpaceAfter()+tab.spaceBefore+first_rows+2
+                    story.extend([CondPageBreak(required),caption])
+                story += [tab,Spacer(1,8)];log['tables'].append({'rows':len(rows),'columns':n,'cells':rows});continue
             if line.startswith('```'):
                 block=[];i+=1
                 while i<len(lines) and not lines[i].strip().startswith('```'):block.append(lines[i]);i+=1
@@ -379,6 +404,8 @@ def main():
         out=args.output_dir/('Theodore-Ouyang-Certified-Joint-Heston-ZH.pdf' if name=='report' else 'Theodore-Ouyang-Certified-Joint-Heston-EN.pdf')
         doc=Manuscript(str(out),pagesize=A4,title=meta['titles'][name],author=meta['author'],subject=meta['subtitles'][name],pageCompression=1,initialFontName='TimesR',initialFontSize=FONT)
         doc.multiBuild(story,canvasmaker=MathCanvas,maxPasses=5)
+        stable=args.output_dir/('paper-zh.pdf' if name=='report' else 'paper.pdf')
+        stable.write_bytes(out.read_bytes())
         assert digest(path)==source_identity,'The source changed during typesetting.'
         assert len(log['math_occurrences'])==len(spans),(name,len(log['math_occurrences']),len(spans))
         log.update(pdf=out.relative_to(ROOT).as_posix() if out.is_relative_to(ROOT) else out.name,pdf_sha256=digest(out),math_source_occurrences=len(spans),vector_formulas=True)

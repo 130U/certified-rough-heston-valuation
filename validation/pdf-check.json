@@ -1,0 +1,50 @@
+{
+  "status": "PASS_PRESENTATION_CHECKS",
+  "revision": "2026-10-26",
+  "scope": "PDF identities, all-page rendered contact sheets, selected individual pages, fonts, link targets and text geometry. This is a layout and identity check, not a line-by-line proofreading or mathematical proof certification.",
+  "documents": [
+    {
+      "language": "en",
+      "path": "paper/paper.pdf",
+      "sha256": "d4895ef751674ebfaef963cdb8f9f8411121fc6841fea36ea1c15f3fca3f70b8",
+      "bytes": 6518960,
+      "pages": 53,
+      "source_sha256": "2d8b369334594ccf1e4b9da71c1a360f5a0ab3ea688f6ac2e779e7ea69961998",
+      "tables": 24,
+      "outline_entries": 48,
+      "valid_internal_links": 96,
+      "external_link_annotations": 43,
+      "used_text_fonts_embedded": true,
+      "outside_page_characters": 0,
+      "replacement_characters": 0,
+      "text_overlap_candidates": 0,
+      "all_pages_rendered": true,
+      "all_page_contact_sheets_visually_inspected": true,
+      "individual_pages_visually_inspected": [
+        14,
+        48
+      ]
+    },
+    {
+      "language": "zh",
+      "path": "paper/paper-zh.pdf",
+      "sha256": "863521ccc81a5232a6df9e1db5c0f2592e6513695b640f078132a0a351227c49",
+      "bytes": 6651962,
+      "pages": 42,
+      "source_sha256": "e0b273bee73f2cad28070d55d3d431d1dbb1791aaa9d46f8a440f47f465b3b72",
+      "tables": 24,
+      "outline_entries": 48,
+      "valid_internal_links": 96,
+      "external_link_annotations": 43,
+      "used_text_fonts_embedded": true,
+      "outside_page_characters": 0,
+      "replacement_characters": 0,
+      "text_overlap_candidates": 0,
+      "all_pages_rendered": true,
+      "all_page_contact_sheets_visually_inspected": true,
+      "individual_pages_visually_inspected": [
+        7
+      ]
+    }
+  ]
+}

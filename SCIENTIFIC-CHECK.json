@@ -58,6 +58,8 @@
       "source_sha256": "91d0cef0fa4c9e07a9545a76355635098d694c7bd11ad31ee6f3db79fefc1814"
     }
   ],
-  "public_manifest_note": "The scientific_manifest_sha256 above identifies the evidence copy used for the recorded author-side checks. All 27 numerical banks are now included in the public checkout with their recorded identities. The current public manifest identifies the English manuscript delivery and timeline prose, and neutral descriptions of the propagation reader in its source and saved record. Numerical inputs, algorithms, results and original execution hashes are unchanged. This publication does not claim a new numerical run.",
-  "public_scientific_manifest_sha256": "a775679c219ed06e5d0e3a9904666139498c7103e4cdd2311fdf8a9dddc3ead2"
+  "public_manifest_note": "The scientific_manifest_sha256 above identifies the evidence copy used for the earlier author-side execution record. Its execution statuses and original hashes are retained. The current publication manifest includes the revised manuscript and a byte-identical archival proof source needed by historical readers. The 26 October 2026 checks are recorded separately in validation/revision-check.json and SCIENTIFIC-REPLAY.json. Scientific generators, readers, numerical banks and stored numerical results are unchanged.",
+  "public_scientific_manifest_sha256": "b32c87e34ca5c6e2c4d4e5796d7a2369f22c3b88d3a511df86922063a5555fa1",
+  "previous_public_scientific_manifest_sha256": "a775679c219ed06e5d0e3a9904666139498c7103e4cdd2311fdf8a9dddc3ead2",
+  "record_role": "Historical author-side execution record; see the separately dated revision and replay receipts."
 }

@@ -82,7 +82,7 @@ class MathCanvas(Canvas):
         super().__init__(*args,**kwargs)
         # Use the actual edition day, without a host clock or invented research
         # date, instead of ReportLab's invariant-mode year-2000 sentinel.
-        self.setDateFormatter(lambda *unused: 'D:20261007')
+        self.setDateFormatter(lambda *unused: 'D:20261026')
     def _form(self,ident):
         name='math_'+ident
         if not self.hasForm(name):

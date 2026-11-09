@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "source": "manuscript/merged-heston-en.md",
-  "source_sha256": "17d0575688ac4a5b4caaeaa3a171390cdd392958357c1aee887bcfc620f8e1f7",
-  "article_sha256": "ba9bb4389a4207196976bf6cf3b425b70da1ff766f03fa0cbb4982864b292e35",
+  "source_sha256": "7ead82af34b8f4ebbc014a79963770f5736b7e210f4fd80c3a6a7e7c046c5cce",
+  "article_sha256": "f0d0142606a2c043b07bb593ab8968aab15c2f6c51588cd10bbfbe75fd401fe0",
   "formula_count": 905,
   "inline_count": 754,
   "display_count": 151,
@@ -965,8 +965,8 @@
       "height_px": 21
     },
     {
-      "start": 70287,
-      "end": 70512,
+      "start": 70117,
+      "end": 70342,
       "tex": "\\int_0^hK_\\alpha^2dt=\n\\frac{h^{2\\alpha-1}}{(2\\alpha-1)\\Gamma(\\alpha)^2},\\quad\n\\int_0^T(K_\\alpha(t+h)-K_\\alpha(t))^2dt\n\\le\\frac{h^{2\\alpha-1}}{\\Gamma(\\alpha)^2}\n\\int_0^\\infty[(r+1)^{\\alpha-1}-r^{\\alpha-1}]^2dr.\n\\tag{A.1}",
       "display": true,
       "id": "m9204e10f29df56c957e1",
@@ -981,8 +981,8 @@
       "height_px": 46
     },
     {
-      "start": 70671,
-      "end": 70774,
+      "start": 70501,
+      "end": 70604,
       "tex": "\\mathcal L_\\alpha(dt)=t^{-\\alpha}dt/\\Gamma(1-\\alpha),\\quad\nK_\\alpha*\\mathcal L_\\alpha=1\n\\tag{A.2}",
       "display": true,
       "id": "mf8fbfecb14d5bfec72fa",
@@ -997,8 +997,8 @@
       "height_px": 20
     },
     {
-      "start": 70887,
-      "end": 70965,
+      "start": 70717,
+      "end": 70795,
       "tex": "\\mu_\\alpha(dx)=x^{-\\alpha}dx/\n[\\Gamma(\\alpha)\\Gamma(1-\\alpha)]\n\\tag{A.3}",
       "display": true,
       "id": "m40d60e0b6350ce988e4e",
@@ -1013,8 +1013,8 @@
       "height_px": 20
     },
     {
-      "start": 71737,
-      "end": 71930,
+      "start": 71567,
+      "end": 71760,
       "tex": "b_\\alpha(t)=D_C^\\alpha\\xi_*(t)=I^{1-\\alpha}\\xi_*'(t)\\ge0,\\quad\nb_\\alpha(t)=\n\\frac{(\\theta-V_0)\\lambda_\\xi}{\\Gamma(1+\\alpha_0-\\alpha)}\nt^{\\alpha_0-\\alpha}+O(t^{2\\alpha_0-\\alpha})\n\\tag{A.4}",
       "display": true,
       "id": "m9ecbc4fa78b32b9cafa1",
@@ -1029,8 +1029,8 @@
       "height_px": 45
     },
     {
-      "start": 73094,
-      "end": 73257,
+      "start": 72924,
+      "end": 73087,
       "tex": "b_1=-\\frac b{\\Gamma(1+\\alpha)},\\quad\nb_2=\\frac{Sb}{\\Gamma(1+2\\alpha)},\\quad\nb_3=\\frac{\\Gamma(1+2\\alpha)}{\\Gamma(1+3\\alpha)}\n       (d b_2+b_1^2/2),\n\\tag{B.1}",
       "display": true,
       "id": "m58b64dfb88a961863e8b",
@@ -1045,8 +1045,8 @@
       "height_px": 44
     },
     {
-      "start": 73258,
-      "end": 73402,
+      "start": 73088,
+      "end": 73232,
       "tex": "g_0=-R,\\quad g_1=\\frac R{A\\Gamma(1-\\alpha)},\\quad\ng_2=-\\frac R{A^2\\Gamma(1-2\\alpha)}\n       +\\frac{R^2}{2A^3\\Gamma(1-\\alpha)^2}.\n\\tag{B.2}",
       "display": true,
       "id": "m08dfe2c26d56b41c6ba1",
@@ -1061,8 +1061,8 @@
       "height_px": 45
     },
     {
-      "start": 73550,
-      "end": 73609,
+      "start": 73380,
+      "end": 73439,
       "tex": "\\widehat H(y)=P(y)/Q(y),\\quad\nQ=1+q_1y+q_2y^2+q_3y^3,",
       "display": true,
       "id": "m88669317cbca3d2ff13d",
@@ -1075,8 +1075,8 @@
       "height_px": 24
     },
     {
-      "start": 73610,
-      "end": 73714,
+      "start": 73440,
+      "end": 73544,
       "tex": "\\widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\\quad\n\\widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}).\n\\tag{B.3}",
       "display": true,
       "id": "m21ff468558e2e41d8549",
@@ -1091,8 +1091,8 @@
       "height_px": 24
     },
     {
-      "start": 73759,
-      "end": 73985,
+      "start": 73589,
+      "end": 73815,
       "tex": "\\begin{pmatrix}g_0&g_1&g_2\\\\b_1&-g_0&-g_1\\\\\nb_2&b_1&-g_0\\end{pmatrix}\n\\begin{pmatrix}q_1\\\\q_2\\\\q_3\\end{pmatrix}\n=\\begin{pmatrix}b_1\\\\-b_2\\\\-b_3\\end{pmatrix},\n\\quad p_1=b_1,\\quad p_2=b_2+b_1q_1,\\quad p_3=g_0q_3.\n\\tag{B.4}",
       "display": true,
       "id": "m4daabc90e549e2acb501",
@@ -1107,8 +1107,8 @@
       "height_px": 69
     },
     {
-      "start": 74295,
-      "end": 74521,
+      "start": 74125,
+      "end": 74351,
       "tex": "f=\\Gamma(1+\\alpha)^{-1},\\quad p=\\frac{\\sin\\pi\\alpha}{\\pi\\alpha},\n\\quad v=-\\cos\\pi\\alpha,\\quad\nm_\\alpha=\\frac{\\Gamma(1+2\\alpha)}{\\Gamma(1+\\alpha)^2},\\quad\n\\zeta=\\frac{\\Gamma(1+2\\alpha)\\Gamma(1+\\alpha)}{\\Gamma(1+3\\alpha)},",
       "display": true,
       "id": "m8fa4bb61b46bd5de010e",
@@ -1121,8 +1121,8 @@
       "height_px": 44
     },
     {
-      "start": 74522,
-      "end": 74659,
+      "start": 74352,
+      "end": 74489,
       "tex": "\\mathsf M_2=Sb/m_\\alpha,\\quad\n\\mathsf c=\\zeta(b^2/2-S^2b/m_\\alpha),\\quad\nV=pR/A,\\quad W=m_\\alpha p v R/A^2+p^2R^2/(2A^3).\n\\tag{B.5}",
       "display": true,
       "id": "m039ca3c8e70b1a735f34",
@@ -1137,8 +1137,8 @@
       "height_px": 21
     },
     {
-      "start": 74941,
-      "end": 75267,
+      "start": 74771,
+      "end": 75097,
       "tex": "\\begin{aligned}\n\\Delta={}&b^2W+2bRV-\\mathsf M_2RW-\\mathsf M_2V^2-R^3,\\\\\nF_1={}&b^2V+b\\mathsf M_2W-bR^2+\\mathsf M_2RV+\\mathsf cRW+\\mathsf cV^2,\\\\\nF_2={}&-b^2R+b\\mathsf M_2V+b\\mathsf cW+\\mathsf M_2^2W+\\mathsf M_2R^2+\\mathsf cRV,\\\\\nF_3={}&-b^3+2b\\mathsf M_2R-b\\mathsf cV-\\mathsf M_2^2V+\\mathsf cR^2.\n\\end{aligned}\n\\tag{B.6}",
       "display": true,
       "id": "mc2b21b81d3d63050b285",
@@ -1153,8 +1153,8 @@
       "height_px": 98
     },
     {
-      "start": 75457,
-      "end": 75584,
+      "start": 75287,
+      "end": 75414,
       "tex": "\\Delta P=-fb\\Delta y+f^2(\\mathsf M_2\\Delta-bF_1)y^2-f^3RF_3y^3,\\quad\n\\Delta Q=\\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3.\n\\tag{B.7}",
       "display": true,
       "id": "m31cd36e3ce007e1ff8db",
@@ -1169,8 +1169,8 @@
       "height_px": 21
     },
     {
-      "start": 75760,
-      "end": 75864,
+      "start": 75590,
+      "end": 75694,
       "tex": "\\omega=\\sqrt{u^2+1/4},\\quad \\eta=u/(1+u),\\quad\nj(\\eta)=\\sqrt{\\eta^2+(1-\\eta)^2/4},\\quad s=-\\rho/2,",
       "display": true,
       "id": "m239e8cd3cf4cb48b9df0",
@@ -1183,8 +1183,8 @@
       "height_px": 34
     },
     {
-      "start": 75865,
-      "end": 75978,
+      "start": 75695,
+      "end": 75808,
       "tex": "\\bar S=s(1-\\eta+2i\\eta)/j(\\eta),\\quad\n\\bar A=\\sqrt{1+\\bar S^2},\\quad \\bar R=(\\bar A+\\bar S)^{-1}.\n\\tag{B.8}",
       "display": true,
       "id": "me6020d90675aa3dfe784",
@@ -1199,8 +1199,8 @@
       "height_px": 34
     },
     {
-      "start": 76101,
-      "end": 76185,
+      "start": 75931,
+      "end": 76015,
       "tex": "\\operatorname{Re}\\bar A^2\n=1-\\rho^2+2(\\operatorname{Re}\\bar S)^2\\ge1-\\rho^2>0.",
       "display": true,
       "id": "ma4be53581ff8eff48d34",
@@ -1213,8 +1213,8 @@
       "height_px": 22
     },
     {
-      "start": 76391,
-      "end": 76514,
+      "start": 76221,
+      "end": 76344,
       "tex": "|\\bar A+\\bar S|^2\\ge|\\bar A|^2+|\\bar S|^2\n\\ge|\\bar A^2-\\bar S^2|=1,\\quad\n|\\bar R|\\le1,\\quad\\operatorname{Re}\\bar R>0.",
       "display": true,
       "id": "md24793bf1da5ee52d9c5",
@@ -1227,8 +1227,8 @@
       "height_px": 22
     },
     {
-      "start": 76758,
-      "end": 76832,
+      "start": 76588,
+      "end": 76662,
       "tex": "\\Delta=\\omega^3\\bar\\Delta,\\qquad F_j=\\omega^{3+j}\\bar F_j.\n\\tag{B.9}",
       "display": true,
       "id": "mbbd686ef0a289b95c036",
@@ -1243,8 +1243,8 @@
       "height_px": 23
     },
     {
-      "start": 76861,
-      "end": 76936,
+      "start": 76691,
+      "end": 76766,
       "tex": "\\bar B_j=\\operatorname{Re}(\\bar F_j\\overline{\\bar\\Delta}).\n\\tag{B.10}",
       "display": true,
       "id": "m3e16f06028e526e788e5",
@@ -1259,8 +1259,8 @@
       "height_px": 27
     },
     {
-      "start": 77074,
-      "end": 77191,
+      "start": 76904,
+      "end": 77021,
       "tex": "|\\bar\\Delta|^2\\ge\n\\frac{88110801209184778874628745}{1267650600228229401496703205376}\n>\\frac1{14400}.\n\\tag{B.11}",
       "display": true,
       "id": "me6499f7e6169c88c8540",
@@ -1275,8 +1275,8 @@
       "height_px": 38
     },
     {
-      "start": 77394,
-      "end": 77477,
+      "start": 77224,
+      "end": 77307,
       "tex": "|\\Delta|^2\\operatorname{Re}(P\\overline Q)\n=\\sum_{n=1}^6 f^nD_ny^n,\n\\tag{B.12}",
       "display": true,
       "id": "m4cca14904f489e1bd23c",
@@ -1291,8 +1291,8 @@
       "height_px": 54
     },
     {
-      "start": 77478,
-      "end": 77986,
+      "start": 77308,
+      "end": 77816,
       "tex": "\\begin{aligned}\nD_1={}&-b|\\Delta|^2,\\\\\nD_2={}&\\operatorname{Re}(\\mathsf M_2)|\\Delta|^2-2b\\operatorname{Re}(F_1\\overline\\Delta),\\\\\nD_3={}&\\operatorname{Re}\\{-RF_3\\overline\\Delta+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_1-b\\Delta\\overline F_2\\},\\\\\nD_4={}&\\operatorname{Re}\\{-RF_3\\overline F_1+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_2-b\\Delta\\overline F_3\\},\\\\\nD_5={}&\\operatorname{Re}\\{-RF_3\\overline F_2+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_3\\},\\\\\nD_6={}&-\\operatorname{Re}R\\,|F_3|^2.\n\\end{aligned}\n\\tag{B.13}",
       "display": true,
       "id": "m6d6bbace82d7f9215077",
@@ -1307,8 +1307,8 @@
       "height_px": 159
     },
     {
-      "start": 79884,
-      "end": 79965,
+      "start": 79714,
+      "end": 79795,
       "tex": "p'<0,\\quad v'>0,\\quad\n(\\log m_\\alpha)'=2[\\psi(1+2\\alpha)-\\psi(1+\\alpha)]>0,",
       "display": true,
       "id": "m57d1c2be2f9b254dedf3",
@@ -1321,8 +1321,8 @@
       "height_px": 20
     },
     {
-      "start": 79966,
-      "end": 80068,
+      "start": 79796,
+      "end": 79898,
       "tex": "(\\log\\zeta)'=2[\\psi(1+2\\alpha)-\\psi(1+3\\alpha)]\n +[\\psi(1+\\alpha)-\\psi(1+3\\alpha)]<0.\n\\tag{B.14}",
       "display": true,
       "id": "mcda9a9727e1d6ecf7967",
@@ -1337,8 +1337,8 @@
       "height_px": 20
     },
     {
-      "start": 80853,
-      "end": 80907,
+      "start": 80683,
+      "end": 80737,
       "tex": "0<R_{10}(z)<B_{22}/(22\\cdot21z^{21}).\n\\tag{B.15}",
       "display": true,
       "id": "m27f8d15cf4861b181148",
@@ -1353,8 +1353,8 @@
       "height_px": 21
     },
     {
-      "start": 83549,
-      "end": 83658,
+      "start": 83379,
+      "end": 83488,
       "tex": "|A|^{-1}\\le8/5,\\quad |A'|\\le6/5,\\quad\n|(A^{-1})'|\\le384/125,\\quad |R|\\le1,\\quad |R'|\\le11/5,\n\\tag{B.16}",
       "display": true,
       "id": "m836dadeedefbb5814399",
@@ -1369,8 +1369,8 @@
       "height_px": 21
     },
     {
-      "start": 84043,
-      "end": 84126,
+      "start": 83873,
+      "end": 83956,
       "tex": "0<p\\le2/3,\\quad0\\le v\\le1/3,\\quad\n1\\le m\\le3/2,\\quad0<\\zeta\\le2/3.\n\\tag{B.17}",
       "display": true,
       "id": "mf4a0c2967f917be22491",
@@ -1385,8 +1385,8 @@
       "height_px": 18
     },
     {
-      "start": 84545,
-      "end": 84631,
+      "start": 84375,
+      "end": 84461,
       "tex": "|\\partial_\\rho B_j|\\le L_{B,j},\\qquad\n|\\partial_\\rho D_j|\\le L_{D,j}.\n\\tag{B.18}",
       "display": true,
       "id": "mc2405a212920affde3bb",
@@ -1401,8 +1401,8 @@
       "height_px": 19
     },
     {
-      "start": 85127,
-      "end": 85206,
+      "start": 84957,
+      "end": 85036,
       "tex": "m_{B,j}(C)-10^{-6}L_{B,j}>0,\\qquad\nm_{D,j}(C)-10^{-6}L_{D,j}>0\n\\tag{B.19}",
       "display": true,
       "id": "m48eca81c5b2870db1eb2",
@@ -1417,8 +1417,8 @@
       "height_px": 22
     },
     {
-      "start": 87660,
-      "end": 87796,
+      "start": 87490,
+      "end": 87626,
       "tex": "H'(x)=\\frac{q(x)x^{\\alpha-1}}{\\Gamma(\\alpha)}\n +\\frac{\\alpha-1}{\\Gamma(\\alpha)}\n\\int_0^x(x-t)^{\\alpha-2}[q(t)-q(x)]\\,dt.\n\\tag{C.1}",
       "display": true,
       "id": "mb38011ca3e5b26b5dbe6",
@@ -1433,8 +1433,8 @@
       "height_px": 46
     },
     {
-      "start": 87809,
-      "end": 87956,
+      "start": 87639,
+      "end": 87786,
       "tex": "|H'(x)|\\le\\frac{\\|q\\|_\\infty x^{\\alpha-1}}{\\Gamma(\\alpha)}+\\frac{(1-\\alpha)[q]_{C^\\alpha}x^{2\\alpha-1}}{\\Gamma(\\alpha)(2\\alpha-1)}.\n\\tag{C.2}",
       "display": true,
       "id": "m128959226a2e4a151bae",
@@ -1449,8 +1449,8 @@
       "height_px": 46
     },
     {
-      "start": 88427,
-      "end": 88581,
+      "start": 88257,
+      "end": 88411,
       "tex": "D_C^\\alpha v(x)=\\frac1{\\Gamma(1-\\alpha)}\n\\left\\{\\frac{v(x)-v(0)}{x^\\alpha}\n +\\alpha\\int_0^x\\frac{v(x)-v(t)}{(x-t)^{1+\\alpha}}\\,dt\\right\\}.\n\\tag{C.3}",
       "display": true,
       "id": "m210f69d59c8d43db5898",
@@ -1465,8 +1465,8 @@
       "height_px": 44
     },
     {
-      "start": 88927,
-      "end": 88995,
+      "start": 88757,
+      "end": 88825,
       "tex": "D_C^\\alpha\\Phi(v)\\le\\nabla\\Phi(v)\\cdot D_C^\\alpha v.\n\\tag{C.4}",
       "display": true,
       "id": "m8a7e872c10331a590ccf",
@@ -1481,8 +1481,8 @@
       "height_px": 19
     },
     {
-      "start": 89383,
-      "end": 89491,
+      "start": 89213,
+      "end": 89321,
       "tex": "|H(x)|\\le\\frac b{s_0}[1-E_\\alpha(-s_0x^\\alpha)]\n\\le\\min\\{b/s_0,bx^\\alpha/\\Gamma(1+\\alpha)\\}.\n\\tag{C.5}",
       "display": true,
       "id": "mca0074153349ee0c0dec",
@@ -1497,8 +1497,8 @@
       "height_px": 40
     },
     {
-      "start": 89613,
-      "end": 89720,
+      "start": 89443,
+      "end": 89550,
       "tex": "\\operatorname{Re}F(H)\n=-\\frac18-\\frac{1-\\rho^2}{2}u^2\n-\\frac12(Y+\\rho u)^2-s_0X+\\frac12X^2.\n\\tag{C.6}",
       "display": true,
       "id": "mb19fec2ba1907af1706d",
@@ -1513,8 +1513,8 @@
       "height_px": 40
     },
     {
-      "start": 90065,
-      "end": 90199,
+      "start": 89895,
+      "end": 90029,
       "tex": "\\operatorname{Re}(\\overline H F(H))\n=-bX-s_0|H|^2+\\tfrac12X|H|^2,\\quad\n\\frac{|H|^2}{\\sqrt{|H|^2+\\epsilon^2}}\\ge\\psi_\\epsilon(H),",
       "display": true,
       "id": "m399cf3699ac91031e000",
@@ -1527,8 +1527,8 @@
       "height_px": 50
     },
     {
-      "start": 91023,
-      "end": 91128,
+      "start": 90853,
+      "end": 90958,
       "tex": "\\operatorname{Re}\\widehat H\\le\\epsilon_R<2s_0,\\qquad\n|D_C^\\alpha\\widehat H-F(\\widehat H)|\\le\\delta,",
       "display": true,
       "id": "md0300564bd679bbdc53d",
@@ -1541,8 +1541,8 @@
       "height_px": 25
     },
     {
-      "start": 91169,
-      "end": 91268,
+      "start": 90999,
+      "end": 91098,
       "tex": "|H-\\widehat H|\n\\le\\frac\\delta\\sigma[1-E_\\alpha(-\\sigma x^\\alpha)]\n\\le\\delta/\\sigma.\n\\tag{C.7}",
       "display": true,
       "id": "m2d01afa0ea860e1d58c8",
@@ -1557,8 +1557,8 @@
       "height_px": 38
     },
     {
-      "start": 91478,
-      "end": 91622,
+      "start": 91308,
+      "end": 91452,
       "tex": "D_C^\\alpha e=\\left(d+\\frac{H+\\widehat H}{2}\\right)e-r,\\quad e(0)=0,\\quad\n\\operatorname{Re}\\left(d+\\frac{H+\\widehat H}{2}\\right)\\le-\\sigma.",
       "display": true,
       "id": "m406ee5b99ebe57f89d12",
@@ -1571,8 +1571,8 @@
       "height_px": 55
     },
     {
-      "start": 92112,
-      "end": 92218,
+      "start": 91942,
+      "end": 92048,
       "tex": "\\sup_{t\\le T}|Z-\\widehat Z|\\le\\delta_F/s_0\n\\quad\\text{if }\\operatorname{Re}\\widehat Z\\le0.\n\\tag{C.8}",
       "display": true,
       "id": "medcdb2e6b197513ea682",
@@ -1587,8 +1587,8 @@
       "height_px": 39
     },
     {
-      "start": 93146,
-      "end": 93241,
+      "start": 92976,
+      "end": 93071,
       "tex": "D_C^\\alpha\\Phi(v)\\le \\nabla\\Phi(v)\\cdot D_C^\\alpha v\n\\quad\\text{a.e. on }(0,T).\n\\tag{C.9}",
       "display": true,
       "id": "mfb718000fa8bc184a407",
@@ -1603,8 +1603,8 @@
       "height_px": 19
     },
     {
-      "start": 93397,
-      "end": 93526,
+      "start": 93227,
+      "end": 93356,
       "tex": "u(t)\\le(k_\\lambda*R)(t),\\qquad 0\\le t\\le T,\n\\quad k_\\lambda(t)=t^{\\alpha-1}E_{\\alpha,\\alpha}(-\\lambda t^\\alpha).\n\\tag{C.10}",
       "display": true,
       "id": "m618afda29f8a501d8002",
@@ -1619,8 +1619,8 @@
       "height_px": 22
     },
     {
-      "start": 93806,
-      "end": 93973,
+      "start": 93636,
+      "end": 93803,
       "tex": "\\frac{1}{\\Gamma(1-\\alpha)}\\left[\n\\frac{B_\\Phi(v_n(0),v_n(t))}{t^\\alpha}\n+\\alpha\\int_0^t\\frac{B_\\Phi(v_n(s),v_n(t))}{(t-s)^{1+\\alpha}}\\,ds\n\\right]\\ge0,\n\\tag{C.11}",
       "display": true,
       "id": "m0701e89a47b29a34aa1f",
@@ -1635,8 +1635,8 @@
       "height_px": 46
     },
     {
-      "start": 94565,
-      "end": 94704,
+      "start": 94395,
+      "end": 94534,
       "tex": "\\|\\Phi(v_n)' - \\Phi(v)'\\|_1\\to0,\n\\qquad\n\\|D_C^\\alpha(v_n-v)\\|_1\n\\le\\frac{T^{1-\\alpha}}{\\Gamma(2-\\alpha)}\\|v_n'-v'\\|_1\\to0.\n\\tag{C.12}",
       "display": true,
       "id": "m7fa3a549663bb4be6d06",
@@ -1651,8 +1651,8 @@
       "height_px": 45
     },
     {
-      "start": 96271,
-      "end": 96355,
+      "start": 96101,
+      "end": 96185,
       "tex": "D_C^\\alpha v_\\varepsilon+\\lambda v_\\varepsilon\\le R\\quad\\text{a.e.}\n\\tag{C.13}",
       "display": true,
       "id": "mb2f584fc3c1fcf0ee307",
@@ -1667,8 +1667,8 @@
       "height_px": 19
     },
     {
-      "start": 96763,
-      "end": 96862,
+      "start": 96593,
+      "end": 96692,
       "tex": "L_T-\\widehat L_T\n=\\nu^{-1}\\int_0^TA_\\alpha(T-t)e'(t)\\,dt\n=\\nu^{-1}(q_\\alpha*e)(T).\n\\tag{C.14}",
       "display": true,
       "id": "mc0b1bd59fa5ce1dcc307",
@@ -1683,8 +1683,8 @@
       "height_px": 45
     },
     {
-      "start": 97143,
-      "end": 97216,
+      "start": 96973,
+      "end": 97046,
       "tex": "0\\le q_\\alpha*k_\\lambda\n=\\xi-\\lambda\\xi*k_\\lambda\\le\\xi.\n\\tag{C.15}",
       "display": true,
       "id": "m1ae8980e78160a8cb21d",
@@ -1699,8 +1699,8 @@
       "height_px": 18
     },
     {
-      "start": 98358,
-      "end": 98483,
+      "start": 98188,
+      "end": 98313,
       "tex": "q_\\alpha=V_0g_{1-\\alpha}+g_{1-\\alpha}*\\xi'\\ge0\n\\quad\\text{a.e.},\\qquad g_\\beta(t)=t^{\\beta-1}/\\Gamma(\\beta).\n\\tag{C.16}",
       "display": true,
       "id": "m000dadd9e5f2a6413da2",
@@ -1715,8 +1715,8 @@
       "height_px": 22
     },
     {
-      "start": 98638,
-      "end": 98757,
+      "start": 98468,
+      "end": 98587,
       "tex": "\\|q_\\alpha\\|_1\\le\n\\frac{T^{1-\\alpha}}{\\Gamma(2-\\alpha)}(V_0+\\|\\xi'\\|_1),\n\\qquad g_\\alpha*q_\\alpha=\\xi.\n\\tag{C.17}",
       "display": true,
       "id": "m47662bf3dc5b2456c4d8",
@@ -1731,8 +1731,8 @@
       "height_px": 45
     },
     {
-      "start": 99132,
-      "end": 99205,
+      "start": 98962,
+      "end": 99035,
       "tex": "0\\le q_\\alpha*k_\\lambda\n=\\xi-\\lambda\\xi*k_\\lambda\\le\\xi.\n\\tag{C.18}",
       "display": true,
       "id": "m41b697f647dc9d741f8e",
@@ -1747,8 +1747,8 @@
       "height_px": 18
     },
     {
-      "start": 100293,
-      "end": 100397,
+      "start": 100123,
+      "end": 100227,
       "tex": "q_\\alpha(t)=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}\n\\left(1-\\frac{ct}{1-\\alpha}\\right).\n\\tag{C.19}",
       "display": true,
       "id": "mb231c4494686011dc9e2",
@@ -1763,8 +1763,8 @@
       "height_px": 44
     },
     {
-      "start": 101276,
-      "end": 101435,
+      "start": 101106,
+      "end": 101265,
       "tex": "q_\\alpha*k_\\lambda=V_0E_\\alpha(-\\lambda t^\\alpha),\\qquad\n|L_T-\\widehat L_T|\\le\n\\frac{V_0}{\\nu}\\int_0^T\nE_\\alpha(-\\lambda(T-s)^\\alpha)R(s)\\,ds.\n\\tag{C.20}",
       "display": true,
       "id": "mbfaa41faa41cc2703c78",
@@ -1779,8 +1779,8 @@
       "height_px": 45
     },
     {
-      "start": 101491,
-      "end": 101668,
+      "start": 101321,
+      "end": 101498,
       "tex": "\\eta_{\\rm ML}=V_0\\delta_F T E_{\\alpha,2}(-\\nu\\sigma T^\\alpha)\n\\le\\min\\left\\{\nV_0\\delta_F T,\n\\frac{V_0\\delta_F T^{1-\\alpha}}{\\nu\\sigma\\Gamma(2-\\alpha)}\n\\right\\}.\n\\tag{C.21}",
       "display": true,
       "id": "m299c90d217fa138ac77c",
@@ -1795,8 +1795,8 @@
       "height_px": 45
     },
     {
-      "start": 102983,
-      "end": 103101,
+      "start": 102813,
+      "end": 102931,
       "tex": "|Z-\\widehat Z|\\le E_\\delta\n=s_0-\\sqrt{s_0^2-2\\delta_F}\n=\\frac{2\\delta_F}{s_0+\\sqrt{s_0^2-2\\delta_F}}.\n\\tag{C.22}",
       "display": true,
       "id": "m6cd9e52471857010251b",
@@ -1811,8 +1811,8 @@
       "height_px": 58
     },
     {
-      "start": 104078,
-      "end": 104228,
+      "start": 103908,
+      "end": 104058,
       "tex": "A_\\alpha(t)=(I^{1-\\alpha}\\xi_*)(t),\\quad\nq_\\alpha(t)=A_\\alpha'(t)\n=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}+I^{1-\\alpha}\\xi_*'(t)\\ge0.\n\\tag{C.23}",
       "display": true,
       "id": "m333b7de783d758bd257c",
@@ -1827,8 +1827,8 @@
       "height_px": 44
     },
     {
-      "start": 104336,
-      "end": 104510,
+      "start": 104166,
+      "end": 104340,
       "tex": "q_\\alpha(t)=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}\n +(\\theta-V_0)\\lambda_\\xi t^{\\alpha_0-\\alpha}\n E_{\\alpha_0,1+\\alpha_0-\\alpha}(-\\lambda_\\xi t^{\\alpha_0}),\n\\tag{C.24}",
       "display": true,
       "id": "mff3b533dfb16d7c3fae8",
@@ -1843,8 +1843,8 @@
       "height_px": 44
     },
     {
-      "start": 104511,
-      "end": 104682,
+      "start": 104341,
+      "end": 104512,
       "tex": "A_\\alpha(t)=\\frac{\\theta t^{1-\\alpha}}{\\Gamma(2-\\alpha)}\n +(V_0-\\theta)t^{1-\\alpha}\n E_{\\alpha_0,2-\\alpha}(-\\lambda_\\xi t^{\\alpha_0}),\\quad A_\\alpha(0)=0.\n\\tag{C.25}",
       "display": true,
       "id": "m9aa8a0f94a1381758a86",
@@ -1859,8 +1859,8 @@
       "height_px": 45
     },
     {
-      "start": 104849,
-      "end": 104974,
+      "start": 104679,
+      "end": 104804,
       "tex": "L_T=\\nu^{-1}\\int_0^T\\xi_*(T-t)D_t^\\alpha Z(t)\\,dt,\\quad\n\\bar L_T=\\nu^{-1}\\int_0^T\\xi_*(T-t)D_t^\\alpha\\widehat Z(t)\\,dt,",
       "display": true,
       "id": "m653a2a0f5f991ab3f32a",
@@ -1873,8 +1873,8 @@
       "height_px": 45
     },
     {
-      "start": 104980,
-      "end": 105061,
+      "start": 104810,
+      "end": 104891,
       "tex": "L_T-\\bar L_T=\\nu^{-1}\\int_0^Tq_\\alpha(T-t)(Z-\\widehat Z)(t)\\,dt.\n\\tag{C.26}",
       "display": true,
       "id": "mfc28dcd45827d7df4279",
@@ -1889,8 +1889,8 @@
       "height_px": 45
     },
     {
-      "start": 105114,
-      "end": 105223,
+      "start": 104944,
+      "end": 105053,
       "tex": "|L_T-\\bar L_T|\\le\\eta=E A_\\alpha(T)/\\nu\n\\le\\frac{E\\theta T^{1-\\alpha}}{\\nu\\Gamma(2-\\alpha)}.\n\\tag{C.27}",
       "display": true,
       "id": "md58cdb414ed30cf67add",
@@ -1905,8 +1905,8 @@
       "height_px": 45
     },
     {
-      "start": 106100,
-      "end": 106193,
+      "start": 105930,
+      "end": 106023,
       "tex": "|e^{L_T}-e^{\\bar L_T}|\n\\le\\min\\{1,e^{\\operatorname{Re}\\bar L_T}\\}(e^\\eta-1).\n\\tag{C.28}",
       "display": true,
       "id": "m5877bb2d3e684e942373",
@@ -1921,8 +1921,8 @@
       "height_px": 24
     },
     {
-      "start": 106595,
-      "end": 106682,
+      "start": 106425,
+      "end": 106512,
       "tex": "|e^{L_T}-e^{\\bar L_T}|\n\\le\\min\\{B+\\widehat B,\\ \\eta(B+\\widehat B)/2\\}.\n\\tag{C.29}",
       "display": true,
       "id": "m4508e1802855dbd4ce41",
@@ -1937,8 +1937,8 @@
       "height_px": 24
     },
     {
-      "start": 108296,
-      "end": 108481,
+      "start": 108126,
+      "end": 108311,
       "tex": "\\left|W_\\lambda(t)-\\sum_{n=0}^{M-1}(-\\lambda)^nW_n(t)\\right|\n\\le\n\\frac{\\theta t(\\lambda t^\\alpha)^M}{1-\\lambda t^\\alpha},\n\\quad\nW_n(t)=\\int_0^t(\\xi*g_{n\\alpha})(s)\\,ds.\n\\tag{C.30}",
       "display": true,
       "id": "m9cca676bf9e9392918d2",
@@ -1953,8 +1953,8 @@
       "height_px": 54
     },
     {
-      "start": 108839,
-      "end": 108942,
+      "start": 108669,
+      "end": 108772,
       "tex": "0\\le W_n(t)\\le\n\\frac{\\theta t^{1+n\\alpha}}{\\Gamma(2+n\\alpha)}\n\\le\\theta t(t^\\alpha)^n.\n\\tag{C.31}",
       "display": true,
       "id": "me4f037a0444fb2f4aab7",
@@ -1969,8 +1969,8 @@
       "height_px": 45
     },
     {
-      "start": 110031,
-      "end": 110207,
+      "start": 109861,
+      "end": 110037,
       "tex": "W_n(t)=t^{1+n\\alpha}\n\\left[\n\\frac{\\theta}{\\Gamma(2+n\\alpha)}\n+(V_0-\\theta)\\sum_{m=0}^{\\infty}\n\\frac{(-\\lambda_\\xi t^{A_0})^m}\n{\\Gamma(2+n\\alpha+mA_0)}\n\\right].\n\\tag{C.32}",
       "display": true,
       "id": "mb6daf9390a8d71e0fb15",
@@ -1985,8 +1985,8 @@
       "height_px": 54
     },
     {
-      "start": 110346,
-      "end": 110454,
+      "start": 110176,
+      "end": 110284,
       "tex": "\\left|\\sum_{m=L}^{\\infty}\n\\frac{(-w)^m}{\\Gamma(2+n\\alpha+mA_0)}\\right|\n\\le \\frac{w^L}{1-w}.\n\\tag{C.33}",
       "display": true,
       "id": "m43558d199c7ad78930a0",
@@ -2001,8 +2001,8 @@
       "height_px": 55
     },
     {
-      "start": 110996,
-      "end": 111074,
+      "start": 110826,
+      "end": 110904,
       "tex": "\\left[\nW^-(T-a_j)-W^+(T-b_j),\\\nW^+(T-a_j)-W^-(T-b_j)\n\\right].\n\\tag{C.34}",
       "display": true,
       "id": "m3a485e5e485cf0d48b79",
@@ -2017,8 +2017,8 @@
       "height_px": 22
     },
     {
-      "start": 111250,
-      "end": 111312,
+      "start": 111080,
+      "end": 111142,
       "tex": "\\eta_{\\rm res}\\le\\nu^{-1}\\sum_jR_j\\omega_j^+.\n\\tag{C.35}",
       "display": true,
       "id": "m842314507e1688db5bf3",
@@ -2033,8 +2033,8 @@
       "height_px": 42
     },
     {
-      "start": 112308,
-      "end": 112444,
+      "start": 112138,
+      "end": 112274,
       "tex": "\\bar G(t)=\\nu c_0+A_1t^\\beta+A_2t^{2\\beta}+\\bar L(t),\\quad\nc_0=-(u^2+1/4)/2,\\quad \\widehat Z=I^\\alpha\\bar G,\\quad T=1/2.\n\\tag{D.1}",
       "display": true,
       "id": "mfa02c914b82bd730d5e3",
@@ -2049,8 +2049,8 @@
       "height_px": 24
     },
     {
-      "start": 112782,
-      "end": 112874,
+      "start": 112612,
+      "end": 112704,
       "tex": "r_t=\\bar G-\\nu F(\\widehat Z),\\quad\n\\delta_F=\\nu^{-1}\\sup_{0\\le t\\le T}|r_t|.\n\\tag{D.2}",
       "display": true,
       "id": "mee7d6236b87c4bf637f0",
@@ -2065,8 +2065,8 @@
       "height_px": 39
     },
     {
-      "start": 113101,
-      "end": 113210,
+      "start": 112931,
+      "end": 113040,
       "tex": "\\widehat Z=H_0+J,\\quad J=I^\\alpha\\bar L,\\quad\nH_0=B_1t^\\alpha+B_2t^{\\alpha+\\beta}+B_3t^{\\alpha+2\\beta},",
       "display": true,
       "id": "m6e285b379d2996a0a848",
@@ -2079,8 +2079,8 @@
       "height_px": 23
     },
     {
-      "start": 113211,
-      "end": 113386,
+      "start": 113041,
+      "end": 113216,
       "tex": "B_1=\\frac{\\nu c_0}{\\Gamma(1+\\alpha)},\\quad\nB_2=\\frac{A_1\\Gamma(1+\\beta)}{\\Gamma(1+\\alpha+\\beta)},\\quad\nB_3=\\frac{A_2\\Gamma(1+2\\beta)}{\\Gamma(1+\\alpha+2\\beta)}.\n\\tag{D.3}",
       "display": true,
       "id": "ma464ca556576e9b410ba",
@@ -2095,8 +2095,8 @@
       "height_px": 44
     },
     {
-      "start": 113858,
-      "end": 113968,
+      "start": 113688,
+      "end": 113798,
       "tex": "I_0=\\{\\tau^\\alpha-(\\tau-h)^\\alpha\\}/\\alpha,\\quad\nI_1=\\{\\tau^{\\alpha+1}-(\\tau-h)^{\\alpha+1}\\}/(\\alpha+1),",
       "display": true,
       "id": "m7877ddc5e4e5e53bab99",
@@ -2109,8 +2109,8 @@
       "height_px": 21
     },
     {
-      "start": 113969,
-      "end": 114055,
+      "start": 113799,
+      "end": 113885,
       "tex": "w_R=(\\tau I_0-I_1)/(h\\Gamma(\\alpha)),\\quad\nw_L=I_0/\\Gamma(\\alpha)-w_R.\n\\tag{D.4}",
       "display": true,
       "id": "m51d06987f70433cf41a2",
@@ -2125,8 +2125,8 @@
       "height_px": 18
     },
     {
-      "start": 114393,
-      "end": 114610,
+      "start": 114223,
+      "end": 114440,
       "tex": "w_R=\\frac{h\\tau^{\\alpha-1}}{\\Gamma(\\alpha)}\n\\sum_{k\\ge0}\\frac{(1-\\alpha)_k(h/\\tau)^k}{k!(k+2)},\\quad\nw_L=\\frac{h\\tau^{\\alpha-1}}{\\Gamma(\\alpha)}\n\\sum_{k\\ge0}\\frac{(1-\\alpha)_k(h/\\tau)^k}{k!(k+1)(k+2)}.\n\\tag{D.5}",
       "display": true,
       "id": "mebd5a57c2c96e90f0680",
@@ -2141,8 +2141,8 @@
       "height_px": 52
     },
     {
-      "start": 115087,
-      "end": 115164,
+      "start": 114917,
+      "end": 114994,
       "tex": "\\sup_{[a,b]}|r_t|\\le|r_t(m)|+\\max(m-a,b-m)\\sup_{[a,b]}|r_t'|.\n\\tag{D.6}",
       "display": true,
       "id": "m9be0785d6ecbe28567ca",
@@ -2157,8 +2157,8 @@
       "height_px": 36
     },
     {
-      "start": 115480,
-      "end": 115528,
+      "start": 115310,
+      "end": 115358,
       "tex": "r_t'=\\bar G'-\\nu(d+\\widehat Z)\\widehat Z',",
       "display": true,
       "id": "m258623a95c2e0f40158b",
@@ -2171,8 +2171,8 @@
       "height_px": 25
     },
     {
-      "start": 115529,
-      "end": 115626,
+      "start": 115359,
+      "end": 115456,
       "tex": "P_r=\\nu c_0+A_1t^\\beta+A_2t^{2\\beta}-\\nu F(H_0),\\quad\nr_t=P_r+\\bar L-\\nu(d+H_0)J-\\nu J^2/2,",
       "display": true,
       "id": "m2cfdf8ca572c9c4412c1",
@@ -2185,8 +2185,8 @@
       "height_px": 22
     },
     {
-      "start": 115627,
-      "end": 115764,
+      "start": 115457,
+      "end": 115594,
       "tex": "r_t'=P_r'+\\bar L'-\\nu[(d+H_0+J)J'+H_0'J],\n\\quad\n\\widehat Z'=\\frac{\\nu c_0\\,t^{\\alpha-1}}{\\Gamma(\\alpha)}+I^\\alpha\\bar G'.\n\\tag{D.7}",
       "display": true,
       "id": "mc50e95ec60171b1804e1",
@@ -2201,8 +2201,8 @@
       "height_px": 45
     },
     {
-      "start": 116406,
-      "end": 116668,
+      "start": 116236,
+      "end": 116498,
       "tex": "\\frac{t_1^pb^{\\alpha-1}}{p\\Gamma(\\alpha)}\n\\le\\frac1{\\Gamma(\\alpha)}\\int_0^{t_1}s^{p-1}(q-s)^{\\alpha-1}\\,ds\n\\le\\min\\left\\{\n\\frac{t_1^p(a-t_1)^{\\alpha-1}}{p\\Gamma(\\alpha)},\n\\frac{\\Gamma(p)}{\\Gamma(\\alpha+p)}\n \\max_{q\\in[a,b]}q^{\\alpha+p-1}\\right\\}.\n\\tag{D.8}",
       "display": true,
       "id": "m5497a0df5bc0ee01d357",
@@ -2217,8 +2217,8 @@
       "height_px": 54
     },
     {
-      "start": 118237,
-      "end": 118411,
+      "start": 118067,
+      "end": 118241,
       "tex": "\\left(\\gamma_{2n}\\|W_c\\|_{1,\\mathrm{row}}+\n\\|W_r\\|_{1,\\mathrm{row}}\\right)\\|X\\|_{\\infty,\\mathrm{column}},\n\\quad \\gamma_{2n}=\\frac{2n\\,2^{-53}}{1-2n\\,2^{-53}},\n\\tag{D.9}",
       "display": true,
       "id": "m248500d570ff051718a2",
@@ -2233,8 +2233,8 @@
       "height_px": 42
     },
     {
-      "start": 118927,
-      "end": 119116,
+      "start": 118757,
+      "end": 118946,
       "tex": "J_0(z)=\\theta z+(V_0-\\theta)zE_{\\alpha_0,2}(-\\lambda_\\xi z^{\\alpha_0}),\\quad\nJ_1(z)=\\theta z^2/2+\n(V_0-\\theta)z^2(E_{\\alpha_0,2}-E_{\\alpha_0,3})(-\\lambda_\\xi z^{\\alpha_0}).\n\\tag{D.10}",
       "display": true,
       "id": "mad3868825617d3a25075",
@@ -2249,8 +2249,8 @@
       "height_px": 22
     },
     {
-      "start": 119358,
-      "end": 119475,
+      "start": 119188,
+      "end": 119305,
       "tex": "w_l=\\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\\quad\nw_r=\\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}.\n\\tag{D.11}",
       "display": true,
       "id": "m7692447cecfdb904bf89",
@@ -2265,8 +2265,8 @@
       "height_px": 41
     },
     {
-      "start": 119532,
-      "end": 119704,
+      "start": 119362,
+      "end": 119534,
       "tex": "\\int_0^T\\xi_*(T-t)t^\\beta dt\n=\\frac{\\theta T^{\\beta+1}}{\\beta+1}\n +(V_0-\\theta)\\Gamma(\\beta+1)T^{\\beta+1}\n E_{\\alpha_0,\\beta+2}(-\\lambda_\\xi T^{\\alpha_0}).\n\\tag{D.12}",
       "display": true,
       "id": "m3c265aa03ea50116803a",
@@ -2281,8 +2281,8 @@
       "height_px": 45
     },
     {
-      "start": 120594,
-      "end": 120709,
+      "start": 120424,
+      "end": 120539,
       "tex": "|z^2+1/4|\\ge r^2+(1/2-a_*)^2,\\quad\n\\int_{\\mathbb R}|g(r\\pm ia_*)|\\,dr\n\\le M_*=\\frac{\\pi e^{a_*|k|}}{1/2-a_*}.",
       "display": true,
       "id": "m17fbdf4bc1fd3e99081e",
@@ -2295,8 +2295,8 @@
       "height_px": 46
     },
     {
-      "start": 121611,
-      "end": 121696,
+      "start": 121441,
+      "end": 121526,
       "tex": "D_x^\\alpha X\\ge\\beta_u-s_0X-X^2/2,\\quad\n\\beta_u=(1-\\rho^2)u^2/2+1/8.\n\\tag{D.13}",
       "display": true,
       "id": "m53b8245321f8b8cc6658",
@@ -2311,8 +2311,8 @@
       "height_px": 21
     },
     {
-      "start": 121787,
-      "end": 121899,
+      "start": 121617,
+      "end": 121729,
       "tex": "X\\ge w,\\quad 0\\le w\\le R_u,\\quad\nR_u=\\sqrt{s_0^2+2\\beta_u}-s_0,\\quad\n\\ell_u=(s_0+\\sqrt{s_0^2+2\\beta_u})/2.",
       "display": true,
       "id": "m7e112db1217e3d71e848",
@@ -2325,8 +2325,8 @@
       "height_px": 34
     },
     {
-      "start": 122089,
-      "end": 122200,
+      "start": 121919,
+      "end": 122030,
       "tex": "-\\operatorname{Re}Z(t,u)\\ge\nR_u\\frac{\\ell_u\\nu t^\\alpha}{\\Gamma(1+\\alpha)+\\ell_u\\nu t^\\alpha}.\n\\tag{D.14}",
       "display": true,
       "id": "m9ed1db1b984acbc69b8b",
@@ -2341,8 +2341,8 @@
       "height_px": 43
     },
     {
-      "start": 122315,
-      "end": 122410,
+      "start": 122145,
+      "end": 122240,
       "tex": "a_\\rho=\\sqrt{1-\\rho^2},\\quad b_V=a_\\rho-s_0/V>0,\\quad\nf_\\alpha(z)=z/(\\Gamma(1+\\alpha)+z).",
       "display": true,
       "id": "m503bad42005b5caced27",
@@ -2355,8 +2355,8 @@
       "height_px": 34
     },
     {
-      "start": 122610,
-      "end": 122728,
+      "start": 122440,
+      "end": 122558,
       "tex": "c_V=\\frac{b_V}{\\nu}\\sum_{j=0}^{J-1}\n f_\\alpha(a_\\rho\\nu Vt_j^\\alpha/2)\n [A_\\alpha(T-t_j)-A_\\alpha(T-t_{j+1})]>0,",
       "display": true,
       "id": "m808104676f7deb0bc89e",
@@ -2369,8 +2369,8 @@
       "height_px": 56
     },
     {
-      "start": 122729,
-      "end": 122788,
+      "start": 122559,
+      "end": 122618,
       "tex": "|\\phi_T(u-i/2)|\\le e^{-c_Vu}\\quad(u\\ge V).\n\\tag{D.15}",
       "display": true,
       "id": "mc2d8665208e78fa7bd6c",
@@ -2385,8 +2385,8 @@
       "height_px": 20
     },
     {
-      "start": 123412,
-      "end": 123496,
+      "start": 123242,
+      "end": 123326,
       "tex": "\\epsilon_{\\rm tail}\n\\le\\frac{\\sqrt m}{\\pi}\\frac{e^{-c_VV}}{c_VV^2}.\n\\tag{D.16}",
       "display": true,
       "id": "mdd3d7b109602247b4589",
@@ -2401,8 +2401,8 @@
       "height_px": 44
     },
     {
-      "start": 124643,
-      "end": 124778,
+      "start": 124473,
+      "end": 124608,
       "tex": "|L_T-\\bar L_T|\n\\le E_{\\rm state}(I^{1-\\alpha}\\xi_*)(T)/\\nu\n\\le E_{\\rm state}\\theta T^{1-\\alpha}/[\\nu\\Gamma(2-\\alpha)].\n\\tag{D.17}",
       "display": true,
       "id": "m3131a33dc71a138d95c4",
@@ -2417,8 +2417,8 @@
       "height_px": 22
     },
     {
-      "start": 126998,
-      "end": 127096,
+      "start": 126828,
+      "end": 126926,
       "tex": "B_0\\ge R_w+\\sum_nU_n\\varepsilon_n^0,\\quad\ng=B_0-R_w-\\sum_nU_n\\varepsilon_n^0\\ge0.\n\\tag{D.18}",
       "display": true,
       "id": "m3823f28bae53fd560c83",
@@ -2433,8 +2433,8 @@
       "height_px": 38
     },
     {
-      "start": 130246,
-      "end": 130320,
+      "start": 130076,
+      "end": 130150,
       "tex": "J(\\widehat\\alpha)-J_*\n\\le2\\delta_J+\\varepsilon_{\\rm alg}.\n\\tag{D.19}",
       "display": true,
       "id": "m8ced6d54ee3748bfcb06",
@@ -2449,8 +2449,8 @@
       "height_px": 21
     },
     {
-      "start": 132830,
-      "end": 132902,
+      "start": 132660,
+      "end": 132732,
       "tex": "\\xi_*(t)=.0721+(.0262-.0721)\nE_{.5286}(-.5037t^{.5286}).\n\\tag{E.1}",
       "display": true,
       "id": "m6c7df98107c71b7cd077",
@@ -2465,8 +2465,8 @@
       "height_px": 21
     },
     {
-      "start": 133216,
-      "end": 133312,
+      "start": 133046,
+      "end": 133142,
       "tex": "\\Theta_{\\rm finite}=\\{13/25,3/5,9/10\\},\\qquad\nH=\\alpha-\\tfrac12\\in\\{.02,.1,.4\\}.\n\\tag{E.2}",
       "display": true,
       "id": "mfd0fccf50e5ade102478",
@@ -2481,8 +2481,8 @@
       "height_px": 22
     },
     {
-      "start": 134034,
-      "end": 134207,
+      "start": 133864,
+      "end": 134037,
       "tex": "J(\\alpha)=\\frac1{24}\\sum_{i=1}^{12}\n [c_i(\\alpha)-M_i]^2,\\qquad\nJ_{\\rm band}(\\alpha)=\\frac1{24}\\sum_{i=1}^{12}\n \\operatorname{dist}(c_i(\\alpha),[B_i,A_i])^2.\n\\tag{E.3}",
       "display": true,
       "id": "mb5661525f2907607eaa6",
@@ -2497,8 +2497,8 @@
       "height_px": 54
     },
     {
-      "start": 140865,
-      "end": 140919,
+      "start": 140695,
+      "end": 140749,
       "tex": "|c^P-c|\\le\\max\\{|c^P-c^-|,|c^P-c^+|\\}.\n\\tag{E.4}",
       "display": true,
       "id": "m5b1bea635df3c87ff5a9",

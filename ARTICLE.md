@@ -910,20 +910,18 @@ Table 3 compares the complete $`K=4400`$ minus $`K=4500`$ task bound. Each row r
 
 | Maturity and stage | Complete joint bound, points | Matched signed marginal bound, points | Interpretation |
 |---|---:|---:|---|
-| H0: Six months: global state propagation | 1.397612096 | — | Original failed one-point task |
+| H0: Six months: global state propagation | 1.397612096 | — | One-point budget not met |
 | H1: Six months: finite history, same global residual | 0.378598956 | — | Principal propagation improvement; unchanged output and centre |
 | H2: Six months: local envelope, original used nodes | 0.367258782 | — | About 3% further bound reduction |
 | H3: Six months: all finite high nodes, global envelope | 0.132245064 | 0.158585551 | High-frequency certification and centre change are included |
 | H4: Six months: all finite high nodes, local envelope | 0.115215934 | 0.137896018 | Both methods certify 0.25 points |
-| Q0: Three months: through 64, global envelope | 1.207557898 | 1.545191542 | Failed 0.25-point task |
-| Q1: Three months: through 128, global envelope | 0.351318692 | 0.408293698 | Failed 0.25-point task |
+| Q0: Three months: through 64, global envelope | 1.207557898 | 1.545191542 | 0.25-point budget not met |
+| Q1: Three months: through 128, global envelope | 0.351318692 | 0.408293698 | 0.25-point budget not met |
 | Q2: Three months: through 128, local envelope | 0.233318843 | 0.252393939 | Only the joint method certifies 0.25 points |
 
 Finite-history propagation reduces the H0 complete bound by about 72.91%. This measures a guaranteed upper bound. The six-month high-frequency refinement also changes the centre from approximately $`-0.166762218`$ to $`-0.081698202`$ points, so its reduction combines centre and uncertainty changes. In Q2, the output, centre, node radii and remainders are matched; retaining the shared errors changes the decision. The time-local quarter-year refinement was specified after the global budget failed and is an exploratory transfer experiment.
 
 ### 7.2. Twenty-eight portfolio directions
-
-The following matched pass-count table uses H1 at each stated alpha.
 
 Let $`e_i`$ select strike $`K_i`$. We keep the exact holdings below, without rescaling them to make a budget pass. Gross weight means $`\sum_i|w_i|`$. Every threshold is an absolute error in index points for the specified holding vector.
 
@@ -936,11 +934,9 @@ Let $`e_i`$ select strike $`K_i`$. We keep the exact holdings below, without res
 | Wide spreads | $`e_0-e_3,e_3-e_6,e_6-e_9,e_0-e_{11}`$ | 4 | 2 |
 | Positive baskets | $`\frac1{12}\sum_{i=0}^{11}e_i,\ \frac16\sum_{i=0}^5e_i,\ \frac16\sum_{i=6}^{11}e_i`$ | 3 | 1 |
 
-All methods in each matched comparison use identical upstream radii. At a 0.5-point budget and $`\alpha=.52`$, finite-history joint bounds certify 28/28 portfolios, compared with 13/28 signed marginal bounds. At a 0.25-point budget, the counts are 10/28 against 1/28 for $`\alpha=.60`$, and 20/28 against 13/28 for $`\alpha=.90`$. At the one-point budget for $`.52`$, both finite-history methods certify 28/28. That threshold does not distinguish the shared structure. A valid payoff intersection gives no further tightening in this setting. Failure to certify leaves the budget unresolved.
+The pass counts use configuration H1 at each stated alpha, and all methods in each matched comparison use identical upstream radii. At a 0.5-point budget and $`\alpha=.52`$, finite-history joint bounds certify 28/28 portfolios, compared with 13/28 signed marginal bounds. At a 0.25-point budget, the counts are 10/28 against 1/28 for $`\alpha=.60`$, and 20/28 against 13/28 for $`\alpha=.90`$. At the one-point budget for $`.52`$, both finite-history methods certify 28/28. That threshold does not distinguish the shared structure. A valid payoff intersection gives no further tightening in this setting. Failure to certify leaves the budget unresolved.
 
-### 7.3. Prespecified nearby candidates under the original quotes
-
-The two objective columns refer to N1 and N2 respectively.
+### 7.3. Prespecified nearby candidates under fixed quotes
 
 The original twelve half-year quotes, forward F=4221.86, discount D=1,
 and all other model parameters are fixed. Before computing new results we
@@ -962,7 +958,7 @@ quadratic remainder. Its same-radius marginal comparison uses the identical
 upstream certificate. Errors across different alpha candidates are not
 assumed jointly correlated.
 
-**Table 5. N1 and N2 five-candidate objective enclosures under the original quotes; displayed values are normalized J multiplied by 10^8.**
+**Table 5. N1 and N2 five-candidate objective enclosures under the fixed quotes; displayed values are normalized J multiplied by 10^8.**
 
 | alpha | N_t=1024 joint J ×10^8 | N_t=2048 joint J ×10^8 |
 |---:|---:|---:|
@@ -990,8 +986,6 @@ The two layers generate every closed-cell residual entry: 15,754,230 entries, 5,
 
 ### 7.4. Why certify a frozen fast output?
 
-The detailed matched output table uses N2L; the preceding failed levels are N1 and N2.
-
 A stored-output certificate applies to pricing-library audits, historical calculations and production outputs fixed by the task. If replacement is allowed and the reference is available, returning its certified centre gives a direct control. Correcting the fast output by that centre also requires the rounding of the stored correction and final addition. The experiments compare these choices. The reference construction and verification must be included when assessing an online workload.
 
 A separately frozen descriptive control reuses the complete $`N_t=2048,\alpha=.52`$ residual bank with 128 history bins. Every intersected closed source cell contributes to each bin maximum, and all weights are outwardly enclosed. All five methods below use the same model, six-month $`4400-4500`$ spread, 0.25-point tolerance, reference centre, node radii, strip and true-tail budget. This control does not change the prespecified nearby-grid experiment.
@@ -1000,11 +994,11 @@ A separately frozen descriptive control reuses the complete $`N_t=2048,\alpha=.5
 
 | Output | Complete joint, points | Matched marginal, points | Joint 0.25-point decision |
 |---|---:|---:|---|
-| Frozen Padé | 0.394999331 | 0.514096070 | UNRESOLVED |
-| Direct reference (binary64) | 0.228237113 | 0.347333852 | PASS |
-| Fast + stored correction | 0.228237113 | 0.347333852 | PASS |
-| BL core, 512 steps | 0.229082759 | 0.348179497 | PASS |
-| BL core, 1024 steps | 0.228534686 | 0.347631424 | PASS |
+| Frozen Padé | 0.394999331 | 0.514096070 | Unresolved |
+| Direct reference (binary64) | 0.228237113 | 0.347333852 | Pass |
+| Fast + stored correction | 0.228237113 | 0.347333852 | Pass |
+| BL core, 512 steps | 0.229082759 | 0.348179497 | Pass |
+| BL core, 1024 steps | 0.228534686 | 0.347631424 | Pass |
 
 All five matched marginal bounds remain above 0.25 points. Direct reference and corrected fast values happen to have the same complete bound in this instance; their actual stored values are checked separately. Exact dyadic arithmetic charges the reference return, stored correction and final addition. For these freely replaceable outputs, the reference is simpler than delivering the unchanged fast result. The joint structure still changes the decision for the reference and BL outputs. The BL 512-to-1024 difference is a diagnostic, not its certified error.
 
@@ -1014,7 +1008,7 @@ Certificate generation encloses 2,100,735 continuous frequency-by-cell residual 
 
 | Additional output construction | Deterministic mathematical work |
 |---|---|
-| Original Padé output | 352 Fourier values; 256 Jacobi samples per frequency |
+| Stored Padé output | 352 Fourier values; 256 Jacobi samples per frequency |
 | Direct returned reference | Return the already generated, fully charged centre with binary64 rounding |
 | Corrected fast output | Store one correction and perform one binary64 addition per price |
 | BL core, 512 steps | 67,371,264 history scalar-vector products; 2,626,560 transformed Riccati evaluations |
@@ -1103,7 +1097,7 @@ Every portfolio curve uses the 28 originally fixed and fully specified direction
 
 The two nearby levels retain all ten unordered pairs, including unresolved ones:
 
-**Table 12. Complete unresolved-pair lists for N1 and N2 under the original quotes, alongside strict separation counts.**
+**Table 12. Complete unresolved-pair lists for N1 and N2 under the fixed quotes, alongside strict separation counts.**
 
 | N_t | Method | Separated pairs | Complete unresolved list |
 | --- | --- | --- | --- |

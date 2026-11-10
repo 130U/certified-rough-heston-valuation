@@ -14,8 +14,8 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 215905,
-      "sha256": "787b4e63b82722f2d8d9975e026ab8ea201bac7eeec05813d9bcda4cdd2059c0"
+      "bytes": 215860,
+      "sha256": "35875f59de26ad361dd9915657b4282691a7211e99b65344c66fceed6a7d14c3"
     },
     {
       "path": "COMMANDS.md",
@@ -40,12 +40,12 @@
     {
       "path": "SCIENTIFIC-MANIFEST.json",
       "bytes": 63308,
-      "sha256": "2981578260000320d3404e3437fe7a70ab6b02e3b187a66ab79d057de16b98ed"
+      "sha256": "de413c3e9766d39ebec0eefdc169f3b102b00a89bc2d103b78536ded2509c808"
     },
     {
       "path": "SCIENTIFIC-REPLAY.json",
-      "bytes": 7776,
-      "sha256": "feff0e620aaf95a8aab215a8bc92b3b79d2e75de4f25e55b6f8d27d384d2b31f"
+      "bytes": 7801,
+      "sha256": "1422194d30416778e6cbc441fb5d73bba59aaf072b864c421d278beff76e1162"
     },
     {
       "path": "assets/math/formula-m000dadd9e5f2a6413da2-dark.svg",
@@ -1724,13 +1724,13 @@
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 160891,
-      "sha256": "7ead82af34b8f4ebbc014a79963770f5736b7e210f4fd80c3a6a7e7c046c5cce"
+      "bytes": 160846,
+      "sha256": "a3013d8cf5124dd5a5bf3e5bbd327e7b322e2e01e9dd21e867cbde482637a317"
     },
     {
       "path": "paper/paper.pdf",
-      "bytes": 6517941,
-      "sha256": "bc3627ae99be6896e31d603f38b27b1698c50f9cc5c71817c662ebdd2c321c3f"
+      "bytes": 6517833,
+      "sha256": "e5661c05d00e07a4f507b8328a2427cd2b6580c5f94bf5107a3c66627411431c"
     },
     {
       "path": "reproduce.py",
@@ -1745,7 +1745,7 @@
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
       "bytes": 2851,
-      "sha256": "aae4d3aa24720bedfdfa0d9398aa062c9cd09050d69b3f6b0a47a9623e380517"
+      "sha256": "afc80b18be7d00222f7f1f7acb4cf097d6df6ebf5e8898610cc8c23ed5f76836"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -1775,7 +1775,7 @@
     {
       "path": "science/analysis/audit/independent-audit.json",
       "bytes": 2727,
-      "sha256": "d51d00611433c590a7b20ca29f1857912d67961ecb9d15e1a0d8488e1b029a29"
+      "sha256": "50fde59b4e40a0312c9b889e7d3016838189ee2d20faf9a267b86fb569bc1f30"
     },
     {
       "path": "science/analysis/audit/nearby-pair-resolution.json",
@@ -1830,7 +1830,7 @@
     {
       "path": "science/analysis/audit/source-identities.json",
       "bytes": 10138,
-      "sha256": "07bea9e4427d760c61ded77ec1ec57763dbfe165d5055c4d2e8783488a50aeb6"
+      "sha256": "6a0d5f218e04f0438cd4a6a03f45e092714eb17db7d1a2132ddb1d28c4ac7358"
     },
     {
       "path": "science/analysis/kernel/common.py",
@@ -1900,7 +1900,7 @@
     {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
       "bytes": 30962,
-      "sha256": "d31443afc09c09f0cdca77f0c8d3a817a3e5b825ffb0f0bab5b5b0005a2a3f05"
+      "sha256": "23ee058fe65d40e8dfe70c36acd2743fb00fab545ddd1e57e0924f881391b29a"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
@@ -2215,7 +2215,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.json",
       "bytes": 7138,
-      "sha256": "76e3f758fe2f3b9aaf7aba59bcd5f872905893c7852d2d545a00b081908f1dda"
+      "sha256": "3ff4427e90da555099e4c520c4c24ac5eb0b32bb5517dbcdf4c4fd787fc8d63e"
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.py",
@@ -2225,7 +2225,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer.json",
       "bytes": 7876,
-      "sha256": "ef8d98c9561c259ef38267aa191a38946da0e903124fb778ec8505f755fb29a0"
+      "sha256": "29a20a6759100b0d623b0a098c04e5ff18b7860cf9f6fd82e06e940725ace141"
     },
     {
       "path": "science/baseline/frontier/independent-transfer.py",
@@ -2370,7 +2370,7 @@
     {
       "path": "science/baseline/frontier/transfer-preflight.json",
       "bytes": 4668,
-      "sha256": "40b2eaad1a71b0ebd94e2af82494cd0072bc48ad5635dcf8ec04ee42c466b041"
+      "sha256": "e3910d81772db267f6dcd1e91ab5bfec2916f69eda85955829eeb1a37631c0e5"
     },
     {
       "path": "science/baseline/frontier/transfer-preflight.py",
@@ -2395,7 +2395,7 @@
     {
       "path": "science/baseline/frontier/transfer-results.json",
       "bytes": 16039,
-      "sha256": "69fd8a9d36d4b34dc3c463d219d996c53c8f1173c878ef64a656caf8e93f676f"
+      "sha256": "6d1d9ef6e6a29e3250f7ccb6d30db99f4d54d6e27851ec75521d34ce6cc27f7c"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-contract.json",
@@ -2415,7 +2415,7 @@
     {
       "path": "science/baseline/frontier/transfer-supplement-results.json",
       "bytes": 5701,
-      "sha256": "f89fb3267c15e70950b31a80fb202fcdfadc2adf350503f0f6d38ce3911dc60a"
+      "sha256": "0cd857c96c6033d3173c8bbfdff1f92961743e075161bb8bdfbe1423a9e7b546"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-13_25.json",
@@ -2445,7 +2445,7 @@
     {
       "path": "science/baseline/frontier/transfer-time-local-results.json",
       "bytes": 4180,
-      "sha256": "440d74bc1bc03a5039ed9ae34a65ef8393dfb26f408ed9e14dedcec9b9af1837"
+      "sha256": "d8e9d1c5566a177b1dd06b47ab4a8b75ad122b06e393fec10bcea1525c877ac2"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-weights.json",
@@ -3395,12 +3395,12 @@
     {
       "path": "validation/article-check.json",
       "bytes": 81210,
-      "sha256": "7a4adb1b1391315c8dd1514e2521633b5481a40a70577a903443aba3ddfd9f4f"
+      "sha256": "de2adfca0d88b8477ab52ae8d38f9569aabba839836913cb6043a0767f2b4af9"
     },
     {
       "path": "validation/pdf-check.json",
-      "bytes": 1104,
-      "sha256": "18427e8d4ebf3f712fd60693e77aa04defec3f10cfec2974976b876137506719"
+      "bytes": 1156,
+      "sha256": "3feed638d1743643b99db6da95cd69967229a4c19822a05505c15a5d012258f6"
     },
     {
       "path": "verify_source.py",

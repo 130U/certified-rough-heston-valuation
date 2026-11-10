@@ -58,7 +58,7 @@
     "reference/code/src/direct-tail-certificate.py": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
     "reference/code/src/price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
     "reference/code/src/solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
-    "merged-heston-en.md": "7ead82af34b8f4ebbc014a79963770f5736b7e210f4fd80c3a6a7e7c046c5cce"
+    "merged-heston-en.md": "a3013d8cf5124dd5a5bf3e5bbd327e7b322e2e01e9dd21e867cbde482637a317"
   },
   "saved_input_sha256": {
     "reference/code/frozen/fixed-field-betap52-u128.npz": "15071c79c866c859f53d4d158b0b1819ba3123c79787227e6b24a5189b68f1a1",

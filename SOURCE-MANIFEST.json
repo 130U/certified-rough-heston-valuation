@@ -19,8 +19,8 @@
     },
     {
       "path": "COMMANDS.md",
-      "bytes": 5768,
-      "sha256": "a16e31ac138655dd190fef4ed2440acdd5f27db9ca73e6fd9a9d068bc752049c"
+      "bytes": 5980,
+      "sha256": "714cdbe3d191b2a783d1635cf22db40f9317da89ef3996a3a23950572cbb4f0b"
     },
     {
       "path": "EVIDENCE.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2054,
-      "sha256": "e7989ea69931e269a7a9e22f1dd588e1b712596e18e328279228d05f576f9227"
+      "bytes": 2252,
+      "sha256": "aa650ca160a1b7e2f8d9bee344b42ad4ece0c90e9ff73fce21620c2a441c6a21"
     },
     {
       "path": "RENDERING.md",

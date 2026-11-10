@@ -4,6 +4,8 @@
 
 [Paper](ARTICLE.md) · [PDF](paper/paper.pdf) · [Evidence](EVIDENCE.md) · [Verification](COMMANDS.md)
 
+The fixed publication is [V_202611](https://github.com/130U/certified-rough-heston-valuation/releases/tag/V_202611). Its source archive, paper and verification inputs belong to the same version.
+
 This paper develops deterministic error certificates for rough Heston valuations. Starting from the exact fractional Riccati equation, it derives a residual error identity and a finite-history pricing kernel determined by the forward variance curve and the positive fractional resolvent. The resulting propagation bound retains the complete history, the curve's initial value and the physical scaling.
 
 Options with the same maturity and model parameters share one characteristic function. The paper preserves that structure in a joint outer set of price errors and derives its **exact support function**. Combining portfolio coefficients before taking absolute values captures cancellation across strikes. The complete certificate also includes the displacement between the reference and the stored output, finite omitted frequencies, quadrature, the infinite tail and arithmetic.

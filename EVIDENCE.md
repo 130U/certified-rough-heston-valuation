@@ -1,6 +1,6 @@
 # Evidence and reproduction
 
-The [online paper](ARTICLE.md), [English PDF](paper/paper.pdf) and [Chinese PDF](paper/paper-zh.pdf) present the mathematical argument. The evidence below follows its dependencies, from the exact Riccati trajectory to the complete portfolio error bound.
+The [online paper](ARTICLE.md) and its [PDF](paper/paper.pdf) present the mathematical argument. The evidence below follows its dependencies, from the exact Riccati trajectory to the complete portfolio error bound.
 
 | Claim or calculation | Proof, data and verification |
 | --- | --- |

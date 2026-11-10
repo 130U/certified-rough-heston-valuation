@@ -1,4 +1,4 @@
-"""Typeset the English and Chinese manuscripts in the supplied academic style.
+"""Typeset the English manuscript in the supplied academic style.
 
 Formulas are rendered by MathJax as SVG glyph outlines and embedded as native
 PDF paths. No formula is rasterized. Markdown remains the editable source.
@@ -15,16 +15,6 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Flowable, Table, TableStyle, Preformatted, KeepTogether, CondPageBreak
 from reportlab.platypus import Image as PlotImage
 from reportlab.platypus.tableofcontents import TableOfContents
-# ReportLab's CJK breaker calls ord() on empty inline-image fragments.
-# An object-replacement character preserves the image callback and its width.
-_BaseParagraph = Paragraph
-class Paragraph(_BaseParagraph):
-    def breakLinesCJK(self, *args, **kwargs):
-        for f in self.frags:
-            if getattr(f, 'text', None) == '' and hasattr(f, 'cbDefn'):
-                f.text = '\ufffc'
-        return super().breakLinesCJK(*args, **kwargs)
-
 from vector_math import MathCanvas
 from math_inputs import canonical
 
@@ -39,20 +29,11 @@ def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--document',choices=['report','rough-heston','all'],default='rough-heston')
+    parser.add_argument('--document',choices=['rough-heston'],default='rough-heston')
     parser.add_argument('--font-dir',type=Path)
     parser.add_argument('--node',default='node')
-    parser.add_argument('--cjk-font',type=Path,help='A locally supplied CJK font for the Chinese manuscript')
     parser.add_argument('--output-dir',type=Path,default=ROOT/'paper')
     args=parser.parse_args()
-    if args.document=='all':
-        # Keep each language's fonts, line breaking and formula cache isolated.
-        for document in ['report','rough-heston']:
-            command=[sys.executable,str(Path(__file__).resolve()),'--document',document,'--node',args.node,'--output-dir',str(args.output_dir)]
-            if args.font_dir is not None:command.extend(['--font-dir',str(args.font_dir)])
-            if args.cjk_font is not None:command.extend(['--cjk-font',str(args.cjk_font)])
-            subprocess.run(command,check=True)
-        return
     if args.font_dir is None:
         import matplotlib
         args.font_dir=Path(matplotlib.get_data_path())/'fonts/ttf'
@@ -68,16 +49,14 @@ def main():
         pdfmetrics.registerFont(pdfmetrics.Font(alias,face.name,'WinAnsiEncoding'))
         pdfmetrics.registerFontFamily(alias,normal=alias,bold=alias,italic=alias,boldItalic=alias)
     # Accented names and Greek letters in prose use a font with Unicode coverage.
-    if args.document!='rough-heston' and args.cjk_font is None:
-        raise ValueError('Supply --cjk-font for the Chinese manuscript')
-    pdfmetrics.registerFont(TTFont('Accent',str(args.cjk_font)) if args.document!='rough-heston' else TTFont('Accent',str(fonts/'DejaVuSerif.ttf')))
+    pdfmetrics.registerFont(TTFont('Accent',str(fonts/'DejaVuSerif.ttf')))
     pdfmetrics.registerFont(TTFont('UnicodeFallback',str(fonts/'DejaVuSans.ttf')))
     pdfmetrics.registerFontFamily('TimesR',normal='TimesR',bold='TimesB',italic='TimesI',boldItalic='TimesBI')
     pdfmetrics.registerFontFamily('TimesI',normal='TimesI',bold='TimesB',italic='TimesI',boldItalic='TimesBI')
     pdfmetrics.registerFontFamily('SmallR',normal='SmallR',bold='SmallB',italic='TimesI',boldItalic='TimesBI')
     pdfmetrics.registerFontFamily('Mono',normal='Mono',bold='Mono',italic='Mono',boldItalic='Mono')
     def sty(name,**kw):
-        base=dict(fontName='TimesR',fontSize=FONT,leading=LEADING,wordWrap=('CJK' if args.document=='report' else None),textColor=colors.black,firstLineIndent=16.937,alignment=TA_JUSTIFY,allowWidows=0,allowOrphans=0,autoLeading='max',spaceAfter=0)
+        base=dict(fontName='TimesR',fontSize=FONT,leading=LEADING,wordWrap=None,textColor=colors.black,firstLineIndent=16.937,alignment=TA_JUSTIFY,allowWidows=0,allowOrphans=0,autoLeading='max',spaceAfter=0)
         base.update(kw);return ParagraphStyle(name,**base)
     styles={
       # Mixed vector formulas can leave the final text baseline below the
@@ -100,11 +79,11 @@ def main():
       'code':sty('code',fontName='Mono',fontSize=8.4,leading=11,firstLineIndent=0,alignment=TA_LEFT,spaceAfter=5),
       'list':sty('list',leftIndent=14,rightIndent=18,firstLineIndent=-14,spaceAfter=5),
     }
-    names=['report','rough-heston'] if args.document=='all' else [args.document]
+    names=[args.document]
     meta=json.loads((ROOT/'manuscript/author.json').read_text(encoding='utf-8'))
     inputs=[]; documents={};maths={}
     for name in names:
-        path=ROOT/'manuscript'/('merged-heston-zh.md' if name=='report' else 'merged-heston-en.md')
+        path=ROOT/'manuscript'/'merged-heston-en.md'
         source_identity=digest(path)
         src=path.read_text(encoding='utf-8')
         spans=[]
@@ -223,15 +202,15 @@ def main():
         story=[Spacer(1,37.35),Paragraph(esc(meta['titles'][name]),styles['title']),Paragraph(esc(meta['subtitles'][name]),styles['subtitle']),Paragraph(esc(meta['author']),styles['author'])]
         emails=' &nbsp; '.join('<link href="mailto:'+html.escape(email,quote=True)+'" color="black">'+esc(email)+'</link>' for email in meta.get('emails',[]))
         if emails:story.append(Paragraph(emails,styles['meta']))
-        story += [Spacer(1,27.83),Paragraph(esc('摘要') if name=='report' else '<b>Abstract</b>',sty('abstract-title',fontName='SmallB',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=6.22,keepWithNext=True))]
+        story += [Spacer(1,27.83),Paragraph('<b>Abstract</b>',sty('abstract-title',fontName='SmallB',fontSize=9.963,leading=11.955,firstLineIndent=0,alignment=TA_CENTER,spaceAfter=6.22,keepWithNext=True))]
         lines=protected.splitlines();i=0;in_abstract=False;cover=True;in_refs=False
         toc=TableOfContents()
-        toc.levelStyles=[sty('contents-main',fontName=('Accent' if name=='report' else 'TimesB'),fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=0,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=10.9,spaceAfter=0),sty('contents-sub',fontName=('Accent' if name=='report' else 'TimesR'),fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=16.937,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=0,spaceAfter=0)]
+        toc.levelStyles=[sty('contents-main',fontName='TimesB',fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=0,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=10.9,spaceAfter=0),sty('contents-sub',fontName='TimesR',fontSize=FONT,leading=LEADING,firstLineIndent=0,leftIndent=16.937,rightIndent=0,alignment=TA_LEFT,textColor=colors.blue,spaceBefore=0,spaceAfter=0)]
         toc.dotsMinLevel=1
         contents_added=False;after_heading=True
         def add_contents():
             nonlocal contents_added
-            story.append(Paragraph(esc('目录' if name=='report' else 'Contents'),ParagraphStyle('contents-heading',parent=styles['h1'],keepWithNext=False)))
+            story.append(Paragraph(esc('Contents'),ParagraphStyle('contents-heading',parent=styles['h1'],keepWithNext=False)))
             story.append(toc)
             contents_added=True
         # ReportLab's mixed text/inline-image justification can overrun the
@@ -392,7 +371,7 @@ def main():
             paragraph=[line];i+=1
             while i<len(lines) and lines[i].strip() and not re.match(r'^(?:#|\||- |```)',lines[i].strip()):paragraph.append(lines[i].strip());i+=1
             add_prose(' '.join(paragraph),'abstract' if in_abstract else 'reference' if in_refs else 'body')
-        out=args.output_dir/('paper-zh.pdf' if name=='report' else 'paper.pdf')
+        out=args.output_dir/'paper.pdf'
         doc=Manuscript(str(out),pagesize=A4,title=meta['titles'][name],author=meta['author'],subject=meta['subtitles'][name],pageCompression=1,initialFontName='TimesR',initialFontSize=FONT)
         doc.multiBuild(story,canvasmaker=MathCanvas,maxPasses=5)
         assert digest(path)==source_identity,'The source changed during typesetting.'

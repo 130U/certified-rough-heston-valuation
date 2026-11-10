@@ -1,6 +1,6 @@
 {
   "status": "PASS_PRESENTATION_CHECKS",
-  "scope": "PDF identities, all-page rendered contact sheets, selected individual pages, fonts, link targets and text geometry. This is a layout and identity check, not a line-by-line proofreading or mathematical proof certification.",
+  "scope": "PDF identity, all-page rendered contact sheets, selected individual pages, fonts, link targets and text geometry. This is a layout and identity check, not a line-by-line proofreading or mathematical proof certification.",
   "documents": [
     {
       "language": "en",
@@ -26,31 +26,6 @@
         19,
         20,
         23
-      ]
-    },
-    {
-      "language": "zh",
-      "path": "paper/paper-zh.pdf",
-      "sha256": "d560150c26d2137fb066266d579d9bcebf499aa53427288aaaa2980e135a0f6e",
-      "bytes": 6650225,
-      "pages": 42,
-      "source_sha256": "e6327dcf3b2c0f5bc422f723527b8167db9a643b342d3cb52b8b4bfa32d4892b",
-      "tables": 24,
-      "outline_entries": 48,
-      "valid_internal_links": 96,
-      "external_link_annotations": 42,
-      "used_text_fonts_embedded": true,
-      "outside_page_characters": 0,
-      "replacement_characters": 0,
-      "text_overlap_candidates": 0,
-      "all_pages_rendered": true,
-      "all_page_contact_sheets_visually_inspected": true,
-      "individual_pages_visually_inspected": [
-        1,
-        10,
-        13,
-        15,
-        42
       ]
     }
   ]

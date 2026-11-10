@@ -1,11 +1,9 @@
 {
   "author": "Theodore Ouyang",
   "titles": {
-    "report": "Rough Heston 模型的可验证联合定价误差",
     "rough-heston": "Certified Joint Pricing Errors in Rough Heston"
   },
   "subtitles": {
-    "report": "残差传播与共享 Fourier 误差",
     "rough-heston": "Residual Propagation and Shared Fourier Errors"
   },
   "emails": [

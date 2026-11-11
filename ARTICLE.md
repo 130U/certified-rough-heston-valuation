@@ -2,7 +2,7 @@
 
 **Theodore Ouyang**
 
-[PDF](paper/paper.pdf) · [Evidence](EVIDENCE.md) · [Verification](COMMANDS.md)
+[PDF](paper/paper.pdf) · [Evidence](docs/EVIDENCE.md) · [Verification](COMMANDS.md)
 
 ## Contents
 

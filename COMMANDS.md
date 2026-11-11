@@ -1,13 +1,13 @@
 # Verification commands
 
-These commands verify the scientific inputs and reconstruct the reported certificates. All 27 numerical banks are included in the public checkout. Start from the project root; the individual obligations below run inside a staged working directory. The [evidence map](EVIDENCE.md) connects each operation to the paper, and [RENDERING.md](RENDERING.md) gives the article and PDF build commands.
+These commands verify the scientific inputs and reconstruct the reported certificates. All 27 numerical banks are included in the public checkout. Start from the project root; the individual obligations below run inside a staged working directory. The [evidence map](docs/EVIDENCE.md) connects each operation to the paper, and [RENDERING.md](docs/RENDERING.md) gives the article and PDF build commands.
 
 Use the fixed publication for the paper and all verification inputs:
 
 ```text
 git clone https://github.com/130U/certified-rough-heston-valuation.git
 cd certified-rough-heston-valuation
-git checkout V_202611
+git checkout V_20261101
 ```
 
 ## Source identities

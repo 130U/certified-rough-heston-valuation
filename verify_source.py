@@ -15,7 +15,7 @@ def check_name(s):
  return ROOT.joinpath(*p.parts)
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--strict',action='store_true',help='Also reject unlisted publication files');args=parser.parse_args()
- data=json.loads((ROOT/'SOURCE-MANIFEST.json').read_text(encoding='utf-8'))
+ data=json.loads((ROOT/'validation/SOURCE-MANIFEST.json').read_text(encoding='utf-8'))
  rows=data.get('files',data.get('source_files'))
  assert isinstance(rows,list) and len({r['path'] for r in rows})==len(rows)
  for r in rows:
@@ -27,7 +27,7 @@ def main():
   for parent,dirs,files in os.walk(ROOT):
    dirs[:]=[name for name in dirs if name not in ignored and not name.startswith('scientific-check-')]
    actual.update((Path(parent)/name).relative_to(ROOT).as_posix() for name in files)
-  expected={r['path'] for r in rows}|{'SOURCE-MANIFEST.json'}
+  expected={r['path'] for r in rows}|{'validation/SOURCE-MANIFEST.json'}
   assert actual==expected,{'unlisted':sorted(actual-expected),'missing':sorted(expected-actual)}
   print('PASS_EXACT_PUBLICATION_INVENTORY',len(actual))
  print('PASS_PUBLICATION_SOURCE_IDENTITIES',len(rows))

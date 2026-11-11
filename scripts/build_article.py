@@ -78,7 +78,7 @@ def main():
         return re.sub(r'[^a-z0-9 _-]','',s.lower()).replace(' ','-')
     contents='\n'.join('- ['+h+'](#'+anchor(h)+')' for h in headings if h!='Abstract')
     title,rest=article.split('\n',1)
-    article=title+'\n\n**Theodore Ouyang**\n\n[PDF](paper/paper.pdf) · [Evidence](EVIDENCE.md) · [Verification](COMMANDS.md)\n\n## Contents\n\n'+contents+'\n'+rest
+    article=title+'\n\n**Theodore Ouyang**\n\n[PDF](paper/paper.pdf) · [Evidence](docs/EVIDENCE.md) · [Verification](COMMANDS.md)\n\n## Contents\n\n'+contents+'\n'+rest
     assert len(re.findall(r'<picture>',article))==len(ledger)
     (ROOT/'ARTICLE.md').write_text(article,encoding='utf-8')
     qa=ROOT/'validation';qa.mkdir(exist_ok=True)

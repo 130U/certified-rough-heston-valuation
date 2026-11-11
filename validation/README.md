@@ -1,10 +1,10 @@
 # Verification
 
-The publication supplies separate records for file identity, scientific reconstruction and presentation. The [evidence map](../EVIDENCE.md) connects the mathematical claims to their proofs and data; [COMMANDS.md](../COMMANDS.md) gives the executable checks.
+The publication supplies separate records for file identity, scientific reconstruction and presentation. The [evidence map](../docs/EVIDENCE.md) connects the mathematical claims to their proofs and data; [COMMANDS.md](../COMMANDS.md) gives the executable checks.
 
 | Record | Scope |
 | --- | --- |
-| [Source manifest](../SOURCE-MANIFEST.json) | Byte sizes and SHA-256 identities of the publication files. |
+| [Source manifest](SOURCE-MANIFEST.json) | Byte sizes and SHA-256 identities of the publication files. |
 | [Scientific manifest](../SCIENTIFIC-MANIFEST.json) | Identities of the current manuscript, scientific source and numerical inputs used by the reconstruction driver. |
 | [Scientific replay](../SCIENTIFIC-REPLAY.json) | Input and driver identities, stage results, return codes, and the scope of the recorded scientific execution. |
 | [Article check](article-check.json) | Identities of the English source, generated article and vector displays, with formula counts and rendering diagnostics. |

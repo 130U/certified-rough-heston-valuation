@@ -14,28 +14,18 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 215860,
-      "sha256": "35875f59de26ad361dd9915657b4282691a7211e99b65344c66fceed6a7d14c3"
+      "bytes": 215865,
+      "sha256": "d7ee2bea9729eb937445f08d7a529aeff5a84acd0747764a23484f4e8aa785a2"
     },
     {
       "path": "COMMANDS.md",
-      "bytes": 5980,
-      "sha256": "714cdbe3d191b2a783d1635cf22db40f9317da89ef3996a3a23950572cbb4f0b"
-    },
-    {
-      "path": "EVIDENCE.md",
-      "bytes": 5659,
-      "sha256": "fcc91b80a8e2cc877cf7ce7b9d547d3054fe796faa7dc913aaaf96653c81b882"
+      "bytes": 5992,
+      "sha256": "254dd4f0fc3e256917c8ee816f2defb0df947725f1a2ff6bd04eaf95e35c28ca"
     },
     {
       "path": "README.md",
-      "bytes": 2252,
-      "sha256": "aa650ca160a1b7e2f8d9bee344b42ad4ece0c90e9ff73fce21620c2a441c6a21"
-    },
-    {
-      "path": "RENDERING.md",
-      "bytes": 1974,
-      "sha256": "a8d461dda0733928730b20481992d69f6cb9d3658d63f2e50bfaa7ac7a05901f"
+      "bytes": 2069,
+      "sha256": "e60e29325f01ddc0757c259348cc2435e7bc34dc05acae8b068d66c6721eddb7"
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",
@@ -1581,6 +1571,16 @@
       "path": "audit-experiments/portfolio-pass-counts.svg",
       "bytes": 36976,
       "sha256": "2c6af880039475cbaa002bbaa7408d86f75ff977bf6a53231280a97883252ca8"
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "bytes": 5801,
+      "sha256": "294609414310c8b4daaa18d04cce462c523dcfbb8123bd20fc88a7aff8cb4afc"
+    },
+    {
+      "path": "docs/RENDERING.md",
+      "bytes": 1995,
+      "sha256": "e9c8d4d52bd2be94e8cabce629de14cd99c23b028091f8941092ec81ea49a21d"
     },
     {
       "path": "local-fonts/DejaVu-LICENSE.txt",
@@ -3364,8 +3364,8 @@
     },
     {
       "path": "scripts/build_article.py",
-      "bytes": 5271,
-      "sha256": "1addef1d92aad66777a4c1e14a24a83eed167f9c48201f2b9749a68d8093c6a3"
+      "bytes": 5276,
+      "sha256": "3a9174444e616a14819b8bead0a0ec30e46abfd2518ba4a08b6bad2c938a49b3"
     },
     {
       "path": "scripts/build_pdf.py",
@@ -3389,13 +3389,13 @@
     },
     {
       "path": "validation/README.md",
-      "bytes": 2165,
-      "sha256": "b3ed04cd3cc693db82d60bb4ded5974effac6cad43e6f1c78b17a5e89c93b516"
+      "bytes": 2167,
+      "sha256": "a3df0d6cb0e8f84f5a507fdd16eee7aff5e4f9c378bbc33d27a90067ec1df805"
     },
     {
       "path": "validation/article-check.json",
       "bytes": 81210,
-      "sha256": "de2adfca0d88b8477ab52ae8d38f9569aabba839836913cb6043a0767f2b4af9"
+      "sha256": "b605885df2c65e752bb197016e8c82850afdbf32b6a7f6886508521aebf1588f"
     },
     {
       "path": "validation/pdf-check.json",
@@ -3404,8 +3404,8 @@
     },
     {
       "path": "verify_source.py",
-      "bytes": 1734,
-      "sha256": "63e146515c26013cd935b97f5c391776de9a252012c2a469ca52ae0c9106a4ba"
+      "bytes": 1756,
+      "sha256": "3f2e75e95afa50a02928987528b91409e8fb8ba0f2140bfee671702568e38266"
     }
   ]
 }

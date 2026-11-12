@@ -3,6 +3,16 @@
   "hash": "sha256",
   "files": [
     {
+      "path": ".github/readme/banner.png",
+      "bytes": 433374,
+      "sha256": "fd01ce74bfbe4ce5aad0e4f27f333bfd74cae29f8c42bd25f312c90021eeebb0"
+    },
+    {
+      "path": ".github/readme/certificates.png",
+      "bytes": 70426,
+      "sha256": "2d7bd4d1546a351c16de27bfecdf9bee98dfa95cd213788a3320ef4ad7f802c3"
+    },
+    {
       "path": ".github/workflows/verify-source.yml",
       "bytes": 415,
       "sha256": "0d764d97546fc72a0b9ff94750106f8825aabb87a7c52350f324f36684be1467"
@@ -24,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2202,
-      "sha256": "4f558af497b3c5b6d7fe9d6a514ea3f7546e76dea75b1f4ecd72363f92c55f7a"
+      "bytes": 5203,
+      "sha256": "33dbfcd9e58fe870d068bec05fcd0759fcfa085a3f7282003557007a07ee7c78"
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",

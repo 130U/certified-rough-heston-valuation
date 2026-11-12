@@ -27,14 +27,14 @@
     "residual-node-certificate-betap9-u64-.json": "3363c897b14fd59fcf627e45c57193a2c2e01bff3489417e267ef5fdf778e0c5",
     "fixed-field-betap9-u80.json": "f3cc6a39340afcb6856ebbf08768a122457c9a92ae55cffa7e47a1002faba029",
     "transfer-contract.json": "23d24b916c27090ad771d23b6cec574f97c4bedec7c73278d0326c56d5447ce3",
-    "transfer-preflight.json": "833ba0b75f7cec90d90b0c2694120b825e4470ca4c9a316465d4fa7c6da29d38",
+    "transfer-preflight.json": "d0e93f579d19288d60c54fa16b6d47d57265f8fcb3c092e07a2f42f67974ded4",
     "exact-forward-moments.py": "42f9da9eace9bd06bb97fe04fabab706d3be0f182088b544af9da66dbe6f99a1",
     "exponent-field-certificate.py": "4a8da0eb31ff5d089e9de51cdc1072548a7b04e3a0edad26f2821587d63ce7a6",
     "direct-tail-certificate.py": "b2342f09d1a6cde8674196f94ac94f30a19fd8a192ed40b964f003cad915b5d5",
     "price-profile-diagnostic.py": "d0ed8e673749a7e61da3f69de3c7b438bdcf13827181d164c9689ac79c910f3b",
     "solver-diagnostic.py": "9914b95a6e6f37960d262d6c783172e0bac9a402efa1e1d4611e6a6623a6e1cb",
-    "merged-heston-en.md": "09cdbef4db2bfd947310d4ff2bba162af71e82abfb86795459a87d6145689ac4",
-    "transfer-results.json": "ea97defa70fc9df7023c9866b55012848323dfb34f20723759a3bf14c69fd6f2"
+    "merged-heston-en.md": "bc18078a28cec6e6cf69b78b9b477423966e1686dbd9c0707ad7655aba9c9070",
+    "transfer-results.json": "10318633aa59095f1743dec20be8cb2951cc3654fab516986ee0964b81319372"
   },
   "full_exact_field_nodes_replayed": 1539,
   "actual_fast_candidates_replayed": 3,

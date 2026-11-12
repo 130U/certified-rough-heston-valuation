@@ -9,13 +9,13 @@
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 161037,
-      "sha256": "09cdbef4db2bfd947310d4ff2bba162af71e82abfb86795459a87d6145689ac4"
+      "bytes": 161289,
+      "sha256": "bc18078a28cec6e6cf69b78b9b477423966e1686dbd9c0707ad7655aba9c9070"
     },
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
       "bytes": 2851,
-      "sha256": "7af405c602096d0976299a68724994ab16d5c420c6c391d3d8bef0dd960ff3e8"
+      "sha256": "5a1701498e43b7fc4c0e7ff5cfbc2665d5ad6663d8b82475d394a69ae62531f2"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -45,7 +45,7 @@
     {
       "path": "science/analysis/audit/independent-audit.json",
       "bytes": 2727,
-      "sha256": "4c180466d21cea1702863190c512f07561bb6665c62ab85f4de40098ae1bf8ea"
+      "sha256": "e99435e7669b5e6c2703801512cee5d093cccece4605e0b13d63006bf4d94e20"
     },
     {
       "path": "science/analysis/audit/nearby-pair-resolution.json",
@@ -100,7 +100,7 @@
     {
       "path": "science/analysis/audit/source-identities.json",
       "bytes": 10138,
-      "sha256": "9afb9e5be71f494938e864c4d36a64c68908ecabac6463630263776c350f3981"
+      "sha256": "bda737740c829e470287ef396e171be92f65a30311e9494b6c3b2cf40244a97d"
     },
     {
       "path": "science/analysis/kernel/common.py",
@@ -170,7 +170,7 @@
     {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
       "bytes": 30962,
-      "sha256": "ad52a282fd24776f12354982f57d51761b65e2429ae3461864ec351b3484a1ef"
+      "sha256": "b7146f0371437f03944915aff27bbeec0616e8c3397a95f81cd4e03653181c0f"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
@@ -485,7 +485,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.json",
       "bytes": 7138,
-      "sha256": "33c1039018da99429ec227252a7d57ad590ee472f936c0540b5a4a277db7438e"
+      "sha256": "03901048bc5c5142d7182b339ab7fdfb80d7cd26a53530bdee7dbd7d38137b3c"
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.py",
@@ -495,7 +495,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer.json",
       "bytes": 7876,
-      "sha256": "1e6d82e3ee0887a93a4fedac58454694297d9b57da989ab42a00db9e939a04b9"
+      "sha256": "c4d4202335309cb00d3294a0824b6a900f2050d7bde1df6f9edddc31aef5e561"
     },
     {
       "path": "science/baseline/frontier/independent-transfer.py",
@@ -640,7 +640,7 @@
     {
       "path": "science/baseline/frontier/transfer-preflight.json",
       "bytes": 4668,
-      "sha256": "833ba0b75f7cec90d90b0c2694120b825e4470ca4c9a316465d4fa7c6da29d38"
+      "sha256": "d0e93f579d19288d60c54fa16b6d47d57265f8fcb3c092e07a2f42f67974ded4"
     },
     {
       "path": "science/baseline/frontier/transfer-preflight.py",
@@ -665,7 +665,7 @@
     {
       "path": "science/baseline/frontier/transfer-results.json",
       "bytes": 16039,
-      "sha256": "ea97defa70fc9df7023c9866b55012848323dfb34f20723759a3bf14c69fd6f2"
+      "sha256": "10318633aa59095f1743dec20be8cb2951cc3654fab516986ee0964b81319372"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-contract.json",
@@ -685,7 +685,7 @@
     {
       "path": "science/baseline/frontier/transfer-supplement-results.json",
       "bytes": 5701,
-      "sha256": "f348afbd20dabfb33d82667295a038a3948cb2ef85aeeb40b158dc6cb5a5094b"
+      "sha256": "eb7564d1fccf486a28214e594ea698f3d5edf9e56a78f499492ceec52872d8ee"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-13_25.json",
@@ -715,7 +715,7 @@
     {
       "path": "science/baseline/frontier/transfer-time-local-results.json",
       "bytes": 4180,
-      "sha256": "c4d7e31292ffc97cd9a0540869f113d0f361dea68230bcaff95dc5ee50120b68"
+      "sha256": "747371db1f1e5b67566b73ceba1143f54901ea9dd68875409c85edddd119e9e4"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-weights.json",

@@ -314,7 +314,7 @@
     {
       "path": "frontier/independent-transfer-supplement.json",
       "bytes": 7138,
-      "sha256": "330f73473b6957612f3552367328910261e944364e1c22ea6bc0cd2db9247751"
+      "sha256": "33c1039018da99429ec227252a7d57ad590ee472f936c0540b5a4a277db7438e"
     },
     {
       "path": "frontier/independent-transfer-supplement.py",
@@ -324,7 +324,7 @@
     {
       "path": "frontier/independent-transfer.json",
       "bytes": 7876,
-      "sha256": "5f2e4c811df9d493923b7b818f7c754f5aac9a78598f7460247899ff45afc6c8"
+      "sha256": "1e6d82e3ee0887a93a4fedac58454694297d9b57da989ab42a00db9e939a04b9"
     },
     {
       "path": "frontier/independent-transfer.py",
@@ -469,7 +469,7 @@
     {
       "path": "frontier/transfer-preflight.json",
       "bytes": 4668,
-      "sha256": "52bae95adf5d5b5287d31980e8b7ccb306e8c6e9e3057574173982b9c5bbbc69"
+      "sha256": "833ba0b75f7cec90d90b0c2694120b825e4470ca4c9a316465d4fa7c6da29d38"
     },
     {
       "path": "frontier/transfer-preflight.py",
@@ -494,7 +494,7 @@
     {
       "path": "frontier/transfer-results.json",
       "bytes": 16039,
-      "sha256": "06d4b60ea5c2607f4f5cbce6e68cd5d26e5e3ea63b3ae3887c74ed279849d91d"
+      "sha256": "ea97defa70fc9df7023c9866b55012848323dfb34f20723759a3bf14c69fd6f2"
     },
     {
       "path": "frontier/transfer-supplement-contract.json",
@@ -514,7 +514,7 @@
     {
       "path": "frontier/transfer-supplement-results.json",
       "bytes": 5701,
-      "sha256": "e8e2fcaec6f2276745a758a5ac2f11fa7c04c75ee8cbf44e9e8b2ab1b990118c"
+      "sha256": "f348afbd20dabfb33d82667295a038a3948cb2ef85aeeb40b158dc6cb5a5094b"
     },
     {
       "path": "frontier/transfer-tail-alpha-13_25.json",
@@ -544,7 +544,7 @@
     {
       "path": "frontier/transfer-time-local-results.json",
       "bytes": 4180,
-      "sha256": "8b7c64c82c4aa0d20b8199cc19124c065a33b550ecb48e4a65ba2ae35770e484"
+      "sha256": "c4d7e31292ffc97cd9a0540869f113d0f361dea68230bcaff95dc5ee50120b68"
     },
     {
       "path": "frontier/transfer-time-local-weights.json",

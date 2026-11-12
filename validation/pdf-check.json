@@ -5,10 +5,10 @@
     {
       "language": "en",
       "path": "paper/paper.pdf",
-      "sha256": "3cc53d7a51570fe723459b3fa65f5d72d1aca8f18d26b93c639e17be29afdf12",
-      "bytes": 6517557,
+      "sha256": "f058fe773cedfb2f49e9b3b59aa4004e3545ad76bf3e46ce96f3eb910924f032",
+      "bytes": 6517702,
       "pages": 53,
-      "source_sha256": "4ce2a411495cc24246ca649778a2d170ebc48a8b33ef71be337b0f1f33f17262",
+      "source_sha256": "09cdbef4db2bfd947310d4ff2bba162af71e82abfb86795459a87d6145689ac4",
       "tables": 24,
       "outline_entries": 48,
       "valid_internal_links": 96,
@@ -20,7 +20,8 @@
       "all_pages_rendered": true,
       "all_page_contact_sheets_visually_inspected": true,
       "individual_pages_visually_inspected": [
-        15
+        1,
+        24
       ]
     }
   ]

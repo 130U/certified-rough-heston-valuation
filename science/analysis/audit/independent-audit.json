@@ -1,7 +1,7 @@
 {
   "status": "PASS_INDEPENDENT_SECONDARY_SAVED_EVIDENCE_AUDIT",
   "reader_sha256": "657ea556119ae7c81e75ddee95f5e78c6151205ca5ff0f8ce278eb53e50e30e7",
-  "source_identity_manifest_sha256": "6a0d5f218e04f0438cd4a6a03f45e092714eb17db7d1a2132ddb1d28c4ac7358",
+  "source_identity_manifest_sha256": "7b05b8d775b1eacb5881a0d727a1e2d27ff5e42e61fbbca47e872a6cedd68096",
   "derived_objects": [
     {
       "path": "quarter-exact-ledger.json",

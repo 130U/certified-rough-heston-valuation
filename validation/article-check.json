@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "source": "manuscript/merged-heston-en.md",
-  "source_sha256": "27e1ed0f64ff23003d1a846996abcd185e547b16ade501c9c2bbf925ccb70139",
-  "article_sha256": "c58dde7ac81ff053e55c2702b16295dac89b503e0d227ad9262220d416e026f0",
+  "source_sha256": "587fd2af9b78d51953151859e994af01045e23e3b7179de87a5a56d5a87ca982",
+  "article_sha256": "fc8ff3ae1114d24a3f0cba5e1e3b47b482dc1932fc3138815c25597c30fd7cb1",
   "formula_count": 1087,
   "inline_count": 935,
   "display_count": 152,

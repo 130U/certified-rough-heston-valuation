@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/readme/certificates.png",
-      "bytes": 70426,
-      "sha256": "2d7bd4d1546a351c16de27bfecdf9bee98dfa95cd213788a3320ef4ad7f802c3"
+      "bytes": 68597,
+      "sha256": "392b3c866cac26c961827dc722e661bf99abaca8988a88f5cc202259493903f8"
     },
     {
       "path": ".github/workflows/verify-source.yml",
@@ -24,28 +24,28 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 216308,
-      "sha256": "b15189867ea0287367fd1ae08a3c362c790fde39b2b0ef56bed918bfe26a44ae"
+      "bytes": 219303,
+      "sha256": "53d576003865037fa4435ba890c35fecbfc5efb43a2a15830226b5652272b17e"
     },
     {
       "path": "COMMANDS.md",
-      "bytes": 5992,
-      "sha256": "254dd4f0fc3e256917c8ee816f2defb0df947725f1a2ff6bd04eaf95e35c28ca"
+      "bytes": 6307,
+      "sha256": "47ef9722bfb0ee6ebf0a51b653136abe60a9998c41d70e490c8d0d713908bc10"
     },
     {
       "path": "README.md",
-      "bytes": 5203,
-      "sha256": "33dbfcd9e58fe870d068bec05fcd0759fcfa085a3f7282003557007a07ee7c78"
+      "bytes": 6369,
+      "sha256": "6bbeec3a560e9f16c3db64feaa1d176b879e73c5d9e5d602d572961f98da472e"
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",
       "bytes": 63308,
-      "sha256": "c315bb20f0d4d4bde85004e60544f28683df8954e5c7832bea8f94b184e314dc"
+      "sha256": "c9e5c5a8ec2eb88225f50300898d94809fb144007a82ee61ad805bd227fa22a0"
     },
     {
       "path": "SCIENTIFIC-REPLAY.json",
-      "bytes": 7751,
-      "sha256": "2283cad95f9fda71acca705a714840d0a4b0170fc6ddfd6c44b6fe1c26f7737f"
+      "bytes": 7801,
+      "sha256": "ce2450325c15492dc87be85b26a4376e82c641ed218053a8cbb3de146a6b6c81"
     },
     {
       "path": "assets/math/formula-m000dadd9e5f2a6413da2-dark.svg",
@@ -58,6 +58,16 @@
       "sha256": "f8b484b3fb4234dbad8ca99510a0b48f683535ab019e9d516b3e3bcea17b5eb9"
     },
     {
+      "path": "assets/math/formula-m0094eb7eee44d70aa70d-dark.svg",
+      "bytes": 19901,
+      "sha256": "7793f99a856fc84c28880979d76d7355781bbac037444d0962fce0bebc48c4d5"
+    },
+    {
+      "path": "assets/math/formula-m0094eb7eee44d70aa70d-light.svg",
+      "bytes": 19901,
+      "sha256": "f04f1be834faa8e94df334fbb0dacaa00c9c49bc139c86b46bac46c65b3902cc"
+    },
+    {
       "path": "assets/math/formula-m039ca3c8e70b1a735f34-dark.svg",
       "bytes": 32494,
       "sha256": "33f1a30cedf32cbc2caf44d7557d4a2e10de71ac9c5123e4305e24c13391fb87"
@@ -66,6 +76,16 @@
       "path": "assets/math/formula-m039ca3c8e70b1a735f34-light.svg",
       "bytes": 32494,
       "sha256": "d9a75b9764ee4dee5dbde248cc8d5655d10a36cac80b18e93db9562275a94cb3"
+    },
+    {
+      "path": "assets/math/formula-m06feb7d9d1e196d73e90-dark.svg",
+      "bytes": 33780,
+      "sha256": "adcd7200e28dba6577be70b48168ef32a4d11b158f7d4647e8325434ae5b4f17"
+    },
+    {
+      "path": "assets/math/formula-m06feb7d9d1e196d73e90-light.svg",
+      "bytes": 33780,
+      "sha256": "3465a080e21567897f425c497c3ef57dcd2b45e51ae62762f81b72fac6863b26"
     },
     {
       "path": "assets/math/formula-m0701e89a47b29a34aa1f-dark.svg",
@@ -78,6 +98,16 @@
       "sha256": "694d3289359f9e4fa4ce3c080fcb86b0934d38558f1ebbdfd2a84c5ded11c9f9"
     },
     {
+      "path": "assets/math/formula-m084cf37b6464862ecd81-dark.svg",
+      "bytes": 23490,
+      "sha256": "0d830924a2c53e0446bdb97bf4b988884ff997d726a4a5de4e7cd27bf9d1ddea"
+    },
+    {
+      "path": "assets/math/formula-m084cf37b6464862ecd81-light.svg",
+      "bytes": 23490,
+      "sha256": "cae656cb71fdee2f8a3ed07e30b5949243560f1906ec4e54d67bd11aa1cb25ec"
+    },
+    {
       "path": "assets/math/formula-m08dfe2c26d56b41c6ba1-dark.svg",
       "bytes": 24036,
       "sha256": "0ced5debd538b87dbfe66854bc9f10c55aa3bf8a1cc8834a237d6936daf49bc3"
@@ -88,44 +118,14 @@
       "sha256": "d4a568161a885fba29a363dbc25ef1189d5a76072de710be6344397ef300f8ed"
     },
     {
-      "path": "assets/math/formula-m08ff02db6eefbcb83ddf-dark.svg",
-      "bytes": 7145,
-      "sha256": "4b2c3f78ed9f82a42ba621aede6b2df35cf19d2d3413b473877fe28fbe35f5aa"
+      "path": "assets/math/formula-m10a2fb200aade7c914f8-dark.svg",
+      "bytes": 12523,
+      "sha256": "e8959df9089845ed7250633ceacb4edabd1528b270f16411d651e245ecea057e"
     },
     {
-      "path": "assets/math/formula-m08ff02db6eefbcb83ddf-light.svg",
-      "bytes": 7145,
-      "sha256": "24b6ed594e2c95cebf24e20be9ad848fc0c62968146b61e6ffc1024003ed0564"
-    },
-    {
-      "path": "assets/math/formula-m11a418314f6e4997e2e0-dark.svg",
-      "bytes": 19795,
-      "sha256": "a6d0096c8e967cf8b9b9857e2d6de514680f9ca018bdd906c24289378238e53d"
-    },
-    {
-      "path": "assets/math/formula-m11a418314f6e4997e2e0-light.svg",
-      "bytes": 19795,
-      "sha256": "46b4cad702c3e0c60ae239c23416a86e6d0c2e7008b1fc72b6c42f594640e0b1"
-    },
-    {
-      "path": "assets/math/formula-m11b0bf4f17035fc54d60-dark.svg",
-      "bytes": 21301,
-      "sha256": "c7ecc7d3d4543b8d85c67e390b5ba3550f73c5532e7eb64c13cb4784fc7ffd15"
-    },
-    {
-      "path": "assets/math/formula-m11b0bf4f17035fc54d60-light.svg",
-      "bytes": 21301,
-      "sha256": "058769089e4015cca7439754724dbf58e50dde50c61112e5a6cc31f5da3d7c5a"
-    },
-    {
-      "path": "assets/math/formula-m11d0f7b2a53a3012122c-dark.svg",
-      "bytes": 17643,
-      "sha256": "4404ae3781f07808b8874589287234a6b110d9a71c3356d2b83437a867e5476c"
-    },
-    {
-      "path": "assets/math/formula-m11d0f7b2a53a3012122c-light.svg",
-      "bytes": 17643,
-      "sha256": "1ef36b76c8c5fef3c68d836e2a91f125c8ee3607fbf405d9b875f8f207be6d0f"
+      "path": "assets/math/formula-m10a2fb200aade7c914f8-light.svg",
+      "bytes": 12523,
+      "sha256": "78d42390afc111b5c50b4208a58343e8b987b044910b30daac859436cdae616d"
     },
     {
       "path": "assets/math/formula-m128959226a2e4a151bae-dark.svg",
@@ -138,14 +138,34 @@
       "sha256": "37e8366a95f20e674b9ef1ef396e403b9963e0a942fca1ed88ca361c0300734c"
     },
     {
-      "path": "assets/math/formula-m17169fffdca79eb56e1d-dark.svg",
-      "bytes": 39391,
-      "sha256": "2cb151bff31754ab7ed4f58f97763a5a00f889a6b707d34dfbcf35fdd552143e"
+      "path": "assets/math/formula-m133905671f8a82bfc541-dark.svg",
+      "bytes": 20529,
+      "sha256": "aec74bb595efe0b2e76380917967528cfb10bd35444ef9060c81efb05777e13e"
     },
     {
-      "path": "assets/math/formula-m17169fffdca79eb56e1d-light.svg",
-      "bytes": 39391,
-      "sha256": "c4da6cca7c3aaeb9ebe1b5317da7ec3bd06473246dcdc4dccf34ea9ef4e4933b"
+      "path": "assets/math/formula-m133905671f8a82bfc541-light.svg",
+      "bytes": 20529,
+      "sha256": "6e0d64030134ffbcff3865b1930c5448d31096ce5caef2ce8b69d1d31dfddbcd"
+    },
+    {
+      "path": "assets/math/formula-m14197d38117bb2fed828-dark.svg",
+      "bytes": 18150,
+      "sha256": "c9e261a8e00bcefd073e68a557de11fb0abc87bdedb8d37520285d5c6935eb1e"
+    },
+    {
+      "path": "assets/math/formula-m14197d38117bb2fed828-light.svg",
+      "bytes": 18150,
+      "sha256": "bb58b42ba2f694ea4e4f3617cf103f70347c1a757e65082576a87d544861d9bd"
+    },
+    {
+      "path": "assets/math/formula-m175d41a04e6c7233382d-dark.svg",
+      "bytes": 15767,
+      "sha256": "beccf89a7eeaf44b9cf7e867bfb251ba66ce3ac7535465dbde471d5397ac47f3"
+    },
+    {
+      "path": "assets/math/formula-m175d41a04e6c7233382d-light.svg",
+      "bytes": 15767,
+      "sha256": "e0250df4257ba38f7947f9aa5c5772819b44e5102799ad0abe79fe3e42625f6e"
     },
     {
       "path": "assets/math/formula-m17fbdf4bc1fd3e99081e-dark.svg",
@@ -158,6 +178,16 @@
       "sha256": "2d17e68f7e8a37813cebcfd52860afc83efcb18c80c0b7d127199f31f2fc0f06"
     },
     {
+      "path": "assets/math/formula-m189dfa44cf659455d104-dark.svg",
+      "bytes": 20060,
+      "sha256": "198cca078021718827732da8dbdd82f339b64870201ce2782642f2ed8796b09e"
+    },
+    {
+      "path": "assets/math/formula-m189dfa44cf659455d104-light.svg",
+      "bytes": 20060,
+      "sha256": "99d3c7937e57d0b0e15574ce08d8d76755962ea302553a78705c579b54d2f0a8"
+    },
+    {
       "path": "assets/math/formula-m1ae8980e78160a8cb21d-dark.svg",
       "bytes": 12802,
       "sha256": "b063a07f4e9a260225b1c2970999613ae7ef6fa3da0bcc8adcb26330d5e2b6d7"
@@ -168,24 +198,34 @@
       "sha256": "840c9339e3c2d21c58d6b828ab01ea19951fcf2c1aa5ac83adb6b5e3c16ac53f"
     },
     {
-      "path": "assets/math/formula-m1c98122f571437e0f959-dark.svg",
-      "bytes": 26428,
-      "sha256": "a475298ded369466b9cdccfdff00a410c930abc7959bb8bac4fb6b4f627b2e3a"
+      "path": "assets/math/formula-m1c03534287932e77c8a6-dark.svg",
+      "bytes": 32165,
+      "sha256": "606841de558ed70dd630437f3c80549a0dfdc3b3c7d3ad46142b7450e3d6208b"
     },
     {
-      "path": "assets/math/formula-m1c98122f571437e0f959-light.svg",
-      "bytes": 26428,
-      "sha256": "e593914295e60a037b8b9e106c622e3e5b4a95965d697161e4a68573361ebc80"
+      "path": "assets/math/formula-m1c03534287932e77c8a6-light.svg",
+      "bytes": 32165,
+      "sha256": "3e0e4bbfabde8a823be5fd3acdb4758e38e413de9458e7015632cd2c256c89ed"
     },
     {
-      "path": "assets/math/formula-m1fabc8cfb44d57abbbad-dark.svg",
-      "bytes": 18250,
-      "sha256": "45cf6c52af5761f633d04496d06ff4ce0c6530b6d6d00ae2c42f4621b69c37a3"
+      "path": "assets/math/formula-m1c6aed69aec3c6b2893c-dark.svg",
+      "bytes": 21669,
+      "sha256": "ea09111b7ae415031f3870ded11dd64b6881ab7be3cb04f04439c362f0bf7ac6"
     },
     {
-      "path": "assets/math/formula-m1fabc8cfb44d57abbbad-light.svg",
-      "bytes": 18250,
-      "sha256": "495502694ab78f727ea6fc8dcf4d8e1c3bdb6fc27d02ce77e1892624be877c45"
+      "path": "assets/math/formula-m1c6aed69aec3c6b2893c-light.svg",
+      "bytes": 21669,
+      "sha256": "054d868fb972e8dca73010267bfc4f350377e16393fbc0b2ac83d6f8c1728ca6"
+    },
+    {
+      "path": "assets/math/formula-m1c7ef131bccde23706d6-dark.svg",
+      "bytes": 19417,
+      "sha256": "f9ed93c3fc1120da4f8793abea4ac8bcab0ac6e2bc43222cc8eef7aefbafe9a9"
+    },
+    {
+      "path": "assets/math/formula-m1c7ef131bccde23706d6-light.svg",
+      "bytes": 19417,
+      "sha256": "1d399984e13bdcfeeb0d334b598d1198002ee20e7ab81e5f76d478a4053b34f5"
     },
     {
       "path": "assets/math/formula-m210f69d59c8d43db5898-dark.svg",
@@ -238,14 +278,14 @@
       "sha256": "b9663bd161846cab3b646172765177025c95385c79ea6e84b0631e7918efd146"
     },
     {
-      "path": "assets/math/formula-m27d091677b936515e736-dark.svg",
-      "bytes": 33496,
-      "sha256": "c1a96502ebff2cb62b371fc1bfd5013caf27f734a7d3164312c2ebfa24c0761e"
+      "path": "assets/math/formula-m271c016614fc6ab5dd32-dark.svg",
+      "bytes": 16308,
+      "sha256": "4f5cf17ae9d0a9b71d617fd611ec5dfe53e51cc601d36725908d945e63a8576b"
     },
     {
-      "path": "assets/math/formula-m27d091677b936515e736-light.svg",
-      "bytes": 33496,
-      "sha256": "1d542589cb4e261e61fe9373d432576ddab42604be54e7420de7f7d20aaeab56"
+      "path": "assets/math/formula-m271c016614fc6ab5dd32-light.svg",
+      "bytes": 16308,
+      "sha256": "39ce4709b86b451d6748ad91c4473bd86f30e054bbb62caa2acf6ccf36639a15"
     },
     {
       "path": "assets/math/formula-m27f8d15cf4861b181148-dark.svg",
@@ -268,6 +308,26 @@
       "sha256": "fbb9caf52915accc991c1f2a6d7a0550f09d797a2abeb2ab1ed608fda24abafa"
     },
     {
+      "path": "assets/math/formula-m2a7d84bafef19ac27fe9-dark.svg",
+      "bytes": 28428,
+      "sha256": "428cea43e3ffa61c154b2fb73f5a1afa9f0ca5181251d90c941f209e039367b4"
+    },
+    {
+      "path": "assets/math/formula-m2a7d84bafef19ac27fe9-light.svg",
+      "bytes": 28428,
+      "sha256": "eef83d2a010282699db9c326b7cce6cb43a7ab01fd4211373407ef428861afb5"
+    },
+    {
+      "path": "assets/math/formula-m2cebaa630646635bccd8-dark.svg",
+      "bytes": 17700,
+      "sha256": "327bb2ddd9b904972afb50ac4adc0f13900374b2c9923ae3d5d23c464e9287ff"
+    },
+    {
+      "path": "assets/math/formula-m2cebaa630646635bccd8-light.svg",
+      "bytes": 17700,
+      "sha256": "ebc63b71f06bf62a213ec411cb311dc0f5e481ecdbc1f03f36266ef0a62918eb"
+    },
+    {
       "path": "assets/math/formula-m2cfdf8ca572c9c4412c1-dark.svg",
       "bytes": 24194,
       "sha256": "279646f567998e540726fb990e3f2775297f92ce79bd636aad2dc83d20626860"
@@ -286,16 +346,6 @@
       "path": "assets/math/formula-m2d01afa0ea860e1d58c8-light.svg",
       "bytes": 13823,
       "sha256": "570647d3f801c4a778df2797eb4d04c8210b4173100511d90ea14575e66ac0c5"
-    },
-    {
-      "path": "assets/math/formula-m2f2497a9d2318bda5830-dark.svg",
-      "bytes": 18807,
-      "sha256": "758fb575be8f671e05a037d0fb0861b9e9e7abdfa9e5a08e9e640393d5f29ca3"
-    },
-    {
-      "path": "assets/math/formula-m2f2497a9d2318bda5830-light.svg",
-      "bytes": 18807,
-      "sha256": "b0993a799c211d0ac4575903c8d2e95d97034dc649d2ec648f2229449fe8eff1"
     },
     {
       "path": "assets/math/formula-m3131a33dc71a138d95c4-dark.svg",
@@ -318,14 +368,24 @@
       "sha256": "43ed1d75210ee04a0e8a5d9fd467a3bce1134586dd7000807757e36927df9810"
     },
     {
-      "path": "assets/math/formula-m3335a3bf696783ece74c-dark.svg",
-      "bytes": 19283,
-      "sha256": "45ae436feffdddf4c35b38a0c62d6aea1c8609e72cf394dfc91a02cfefe87d86"
+      "path": "assets/math/formula-m31ecb857ddd6872f67c4-dark.svg",
+      "bytes": 11479,
+      "sha256": "f158c358d779470f514efe48a2df6fbdd54add11d4e6daf6d7af0e3185d9f447"
     },
     {
-      "path": "assets/math/formula-m3335a3bf696783ece74c-light.svg",
-      "bytes": 19283,
-      "sha256": "0e9e85068c39cddbbae0777aa65ebcc474c1e2dfa662aacf14392edfcbd30888"
+      "path": "assets/math/formula-m31ecb857ddd6872f67c4-light.svg",
+      "bytes": 11479,
+      "sha256": "39bd301499290da177af30a69f8ab8a93d84b7470a300374490d4f9f7edb5a4c"
+    },
+    {
+      "path": "assets/math/formula-m31fc8057785adf8db024-dark.svg",
+      "bytes": 26911,
+      "sha256": "9eef3a0b983f3d862582ec98220af6a58dbc5201e94c3681cd2efeb8b39c40fd"
+    },
+    {
+      "path": "assets/math/formula-m31fc8057785adf8db024-light.svg",
+      "bytes": 26911,
+      "sha256": "0d5c8c4cc81e5345cc5b56d12885a4132ece62b8c5198a963ca6abc19eb7bc0d"
     },
     {
       "path": "assets/math/formula-m333b7de783d758bd257c-dark.svg",
@@ -336,26 +396,6 @@
       "path": "assets/math/formula-m333b7de783d758bd257c-light.svg",
       "bytes": 28068,
       "sha256": "65c8aa7bd8ba5b0d31ee7c1c422115b1aeac3ce38af6975053ae632c23ec865d"
-    },
-    {
-      "path": "assets/math/formula-m3823f28bae53fd560c83-dark.svg",
-      "bytes": 20683,
-      "sha256": "1afd2874f5ab312165e997de7842e3b023cdd91e94253840390d0b33aa41c80e"
-    },
-    {
-      "path": "assets/math/formula-m3823f28bae53fd560c83-light.svg",
-      "bytes": 20683,
-      "sha256": "300201daa1f3673fe5352c8698d55bbc6c97da99e5299c086be451a913900b7e"
-    },
-    {
-      "path": "assets/math/formula-m386e3d157e0003519668-dark.svg",
-      "bytes": 21365,
-      "sha256": "37b6c87c0995395d8ac84081bfc7f882fb78562e63ebc24c4e6fedfeca66c2fd"
-    },
-    {
-      "path": "assets/math/formula-m386e3d157e0003519668-light.svg",
-      "bytes": 21365,
-      "sha256": "b56458936e3940a3b18456b47668f5640dc3669e519e71f8a28a41a4daac2609"
     },
     {
       "path": "assets/math/formula-m399cf3699ac91031e000-dark.svg",
@@ -378,14 +418,14 @@
       "sha256": "93396d12b8dce6c9fda7243c8486c933ea35f4109ed1f8136b1f3f15e1528df8"
     },
     {
-      "path": "assets/math/formula-m3acd87b6c6e0645aed71-dark.svg",
-      "bytes": 20125,
-      "sha256": "ceb3bf3f15b52468093ef59e66ad4d438b3a396b064e4f4d950d7fbdaebc0a69"
+      "path": "assets/math/formula-m3a559758c720f20a0fb9-dark.svg",
+      "bytes": 19278,
+      "sha256": "ed355bb241a4ab750b93f90a2da2348786751c032786ae7a63f320b6fc5fb3c0"
     },
     {
-      "path": "assets/math/formula-m3acd87b6c6e0645aed71-light.svg",
-      "bytes": 20125,
-      "sha256": "713413bf37aa808bf1c2a6f5a8586f09e2872ec36f0df9bc82e5d316d647e207"
+      "path": "assets/math/formula-m3a559758c720f20a0fb9-light.svg",
+      "bytes": 19278,
+      "sha256": "0f909ffac17346e14d49ae236a5b8808f904f7ac1b5593d3910365e082c57703"
     },
     {
       "path": "assets/math/formula-m3c265aa03ea50116803a-dark.svg",
@@ -408,6 +448,16 @@
       "sha256": "0160adc1a1071cdb0f2aa2d0d36bd4303bc7fd26a1b7bc792714fc3f0acfd268"
     },
     {
+      "path": "assets/math/formula-m3ee88165c80f002de604-dark.svg",
+      "bytes": 16242,
+      "sha256": "1ca14724a76656d5aa852b0236c4a47706eb92f1361d028107d9ad984933bff8"
+    },
+    {
+      "path": "assets/math/formula-m3ee88165c80f002de604-light.svg",
+      "bytes": 16242,
+      "sha256": "2573ccecab899c8dc27c4f4c4944fd7e6eec190d98ccf22031657e50a0bb6479"
+    },
+    {
       "path": "assets/math/formula-m406ee5b99ebe57f89d12-dark.svg",
       "bytes": 20474,
       "sha256": "8aff5d239193c443d19ff832a880e5963c608cce4bc71b6004bfe5cbe32b84ec"
@@ -418,34 +468,24 @@
       "sha256": "95fab271f9969128bd1867a75b4782cdcda849798f8c55a2325696f4677e98cc"
     },
     {
-      "path": "assets/math/formula-m40d60e0b6350ce988e4e-dark.svg",
-      "bytes": 13511,
-      "sha256": "27d4496796698bd9d826707f0db211819e4c05fabb0ace1524f0dd932220862b"
+      "path": "assets/math/formula-m4320f4076ff8f6ad7e8b-dark.svg",
+      "bytes": 22158,
+      "sha256": "079a5d2484084d74939dd25a6d73a27cda641426b3439cf05ae665cab9406437"
     },
     {
-      "path": "assets/math/formula-m40d60e0b6350ce988e4e-light.svg",
-      "bytes": 13511,
-      "sha256": "11fa8db231a77d6ba0a6ea74da1da33ce9ac47ed958c66ed845f6697a1a4ee94"
+      "path": "assets/math/formula-m4320f4076ff8f6ad7e8b-light.svg",
+      "bytes": 22158,
+      "sha256": "5249ecb07b79808bf0802d85d25ed0548cbc7f2ea3675ea3d6392cd5d5c5d3b4"
     },
     {
-      "path": "assets/math/formula-m41b697f647dc9d741f8e-dark.svg",
-      "bytes": 12938,
-      "sha256": "c2b77ed504150bdf5510085d73103bd8276cd1bdf83b60e116c365b6a4d72dbf"
+      "path": "assets/math/formula-m433567dd96319009973d-dark.svg",
+      "bytes": 40393,
+      "sha256": "fd3c8081a1fe3457f46df74e6e35d778538ea424c7f4f663d6dde569e47d0a94"
     },
     {
-      "path": "assets/math/formula-m41b697f647dc9d741f8e-light.svg",
-      "bytes": 12938,
-      "sha256": "205d67497154f5c1a1a52a31dab6302a1b1d889363b05323cb5a2e77c03dcd49"
-    },
-    {
-      "path": "assets/math/formula-m4333ec4cc6a31c1a3963-dark.svg",
-      "bytes": 34237,
-      "sha256": "76e012427af613837f532df9ff220e5e16539d08931a817320c021bf2da97122"
-    },
-    {
-      "path": "assets/math/formula-m4333ec4cc6a31c1a3963-light.svg",
-      "bytes": 34237,
-      "sha256": "abb8fe52c451460e0dda07944573061ca9b64da4c707c0870473f76e6d0a92fc"
+      "path": "assets/math/formula-m433567dd96319009973d-light.svg",
+      "bytes": 40393,
+      "sha256": "c734a06692342b548555e8ac7ec42428ca927b0dc57824ec2a0424fbbd447aa5"
     },
     {
       "path": "assets/math/formula-m43558d199c7ad78930a0-dark.svg",
@@ -458,16 +498,6 @@
       "sha256": "87ac7367f8248e7c92b8618e04e7daa9b8919f6a9d265a1d0ff91045c454d580"
     },
     {
-      "path": "assets/math/formula-m449bed1346d6e237aadc-dark.svg",
-      "bytes": 28259,
-      "sha256": "1d1ae9accd148ee7d920495ae060d61c79938a175d18f1013f96d5eb1fb5f7ec"
-    },
-    {
-      "path": "assets/math/formula-m449bed1346d6e237aadc-light.svg",
-      "bytes": 28259,
-      "sha256": "b21e999135fd0648d392df6a48f1b41f000468ad1f925ce985835f2572bb9766"
-    },
-    {
       "path": "assets/math/formula-m4508e1802855dbd4ce41-dark.svg",
       "bytes": 18332,
       "sha256": "a3b6fb3d84566749cf92bf4ba4c575b3bb1be843e8572eff8ccfa9ae6107cc08"
@@ -476,16 +506,6 @@
       "path": "assets/math/formula-m4508e1802855dbd4ce41-light.svg",
       "bytes": 18332,
       "sha256": "b7f3770a01ea0a23d46b7ecfd50245b18504c3f0e51ae6dba7cdcbbebba1ad49"
-    },
-    {
-      "path": "assets/math/formula-m474f06f8f66469431d1d-dark.svg",
-      "bytes": 15941,
-      "sha256": "ee4f22cc64ec443a1a73d7fafa9532e668f8cc65a2d6fd10849ed501c4a2d33d"
-    },
-    {
-      "path": "assets/math/formula-m474f06f8f66469431d1d-light.svg",
-      "bytes": 15941,
-      "sha256": "befe719a90f809492bbc5198cedc9b53de85b5f149671105977f1f40b1a78867"
     },
     {
       "path": "assets/math/formula-m47662bf3dc5b2456c4d8-dark.svg",
@@ -498,24 +518,14 @@
       "sha256": "8d4adcdcd3f7d5188e823d0c9816ff0daedb79246e32e4f68a93c3fb02e8a14f"
     },
     {
-      "path": "assets/math/formula-m47dc635010ff0b48de7e-dark.svg",
-      "bytes": 19391,
-      "sha256": "41e555c78ef84109d28c5d5d48540c7886b01cab9523518919e5a56250fdba43"
+      "path": "assets/math/formula-m479455f30eafb50276b6-dark.svg",
+      "bytes": 23883,
+      "sha256": "d4dc51d32b14c65bfd683d983cac22a365073fe6da42384fd8de7978f423c06a"
     },
     {
-      "path": "assets/math/formula-m47dc635010ff0b48de7e-light.svg",
-      "bytes": 19391,
-      "sha256": "5f4b64647ebfcc50637e5649ee575057d61846ee845fd70a96100115019432fd"
-    },
-    {
-      "path": "assets/math/formula-m485ccbb6e2ae92543d21-dark.svg",
-      "bytes": 27132,
-      "sha256": "cc33e8df076b0f27318a75ac7612cff4b0c0b9529820d225029d0d6eea412d68"
-    },
-    {
-      "path": "assets/math/formula-m485ccbb6e2ae92543d21-light.svg",
-      "bytes": 27132,
-      "sha256": "7acb17c040ad36cff0fa011a63aec77e45acfb83db9a36b599455f19d130ac10"
+      "path": "assets/math/formula-m479455f30eafb50276b6-light.svg",
+      "bytes": 23883,
+      "sha256": "176ed2ea3cbacac63b5590f4eba725cdf0754d949ef69c8ced7d3aea7e4a4d29"
     },
     {
       "path": "assets/math/formula-m48eca81c5b2870db1eb2-dark.svg",
@@ -526,6 +536,16 @@
       "path": "assets/math/formula-m48eca81c5b2870db1eb2-light.svg",
       "bytes": 20554,
       "sha256": "56c5c9efee7eef800bcd03ab38a4fd2205040674597b21e71345dc77e099e46c"
+    },
+    {
+      "path": "assets/math/formula-m4ca067fea9fb4ef4fe9d-dark.svg",
+      "bytes": 12403,
+      "sha256": "91989470523bbc58f06d10ff147048fcb76c598181c9fc956ac58791195cf0ec"
+    },
+    {
+      "path": "assets/math/formula-m4ca067fea9fb4ef4fe9d-light.svg",
+      "bytes": 12403,
+      "sha256": "ed2bcb987c4ecb272a90fd887b665c044379bbf1c81945867acb12e4bb0b93e1"
     },
     {
       "path": "assets/math/formula-m4cca14904f489e1bd23c-dark.svg",
@@ -548,14 +568,14 @@
       "sha256": "f13b3d75542ffeb1735c454c1f10463dfab05d30dc99820f11cfa808bf525ce7"
     },
     {
-      "path": "assets/math/formula-m4e476aa8102dfa62ce52-dark.svg",
-      "bytes": 14356,
-      "sha256": "c7c08d9cdd8638c96197f11e30403ab23b8124062f22fe5664d92304bb8b7920"
+      "path": "assets/math/formula-m4eb664a3cbbac7252c9c-dark.svg",
+      "bytes": 24689,
+      "sha256": "ff4f3cf96b147b3de151111ed25788974f7d426f8d27912d59f3d495e4a721b5"
     },
     {
-      "path": "assets/math/formula-m4e476aa8102dfa62ce52-light.svg",
-      "bytes": 14356,
-      "sha256": "29f78d913102964f6b04bc15847a7c86dde6fe7c383a0e67ce1c2c0d54967f8e"
+      "path": "assets/math/formula-m4eb664a3cbbac7252c9c-light.svg",
+      "bytes": 24689,
+      "sha256": "e3cebd8bf276a02398f4119dbf0dac658f0af85f74fcc3f781a169d64a827d25"
     },
     {
       "path": "assets/math/formula-m503bad42005b5caced27-dark.svg",
@@ -566,16 +586,6 @@
       "path": "assets/math/formula-m503bad42005b5caced27-light.svg",
       "bytes": 18033,
       "sha256": "fd74b43ad2c1a0f8efd9ba0ddbb60b4175122e9ef9cef1da2bdc08aceae50c3c"
-    },
-    {
-      "path": "assets/math/formula-m50a733feb125260a0500-dark.svg",
-      "bytes": 9743,
-      "sha256": "699980391baf552b7a5869a10d64389f656c72f0b76f415b9bd0d3699d3a7429"
-    },
-    {
-      "path": "assets/math/formula-m50a733feb125260a0500-light.svg",
-      "bytes": 9743,
-      "sha256": "73d6bad1870c6ff0810c3618584b9db7e82abf69b15a940c72d83d452b19b778"
     },
     {
       "path": "assets/math/formula-m51d06987f70433cf41a2-dark.svg",
@@ -608,6 +618,16 @@
       "sha256": "66c24e1ea538af1396634460fc612ee128dbb4e0d6c25be0524a6dd38d6a909a"
     },
     {
+      "path": "assets/math/formula-m54b2f6b5764537ed21b1-dark.svg",
+      "bytes": 26139,
+      "sha256": "b8a7fb94d289daca757020742f97ed174ce39ade6208dd10fb78fc854e2b3da1"
+    },
+    {
+      "path": "assets/math/formula-m54b2f6b5764537ed21b1-light.svg",
+      "bytes": 26139,
+      "sha256": "a3e23968011144770c3ea9c1b21567a3e51569420c86d9d5a1f771099c0162bc"
+    },
+    {
       "path": "assets/math/formula-m57d1c2be2f9b254dedf3-dark.svg",
       "bytes": 16687,
       "sha256": "038fe3e8d42fd25e58025cce57e020f6e7cec91ca14d4801620f267b82175f90"
@@ -638,26 +658,6 @@
       "sha256": "e38f8a6edfdb9ad325c1c1690467311ac36f55a90b81d575ab405dea6053fcc5"
     },
     {
-      "path": "assets/math/formula-m5b1bea635df3c87ff5a9-dark.svg",
-      "bytes": 14394,
-      "sha256": "2b3435e7670bc40b4ca1707e9c01de9c7792a976e94b9ae0948984c66d78390b"
-    },
-    {
-      "path": "assets/math/formula-m5b1bea635df3c87ff5a9-light.svg",
-      "bytes": 14394,
-      "sha256": "112faf2379d6215e472299180769c5208512a2f82a5baf8cab53ffdbd586eea6"
-    },
-    {
-      "path": "assets/math/formula-m5b8b8db55dfdad90beea-dark.svg",
-      "bytes": 23636,
-      "sha256": "e0d78d08db99b0797d4c2ec1963c9ab9430b9b546a3a93f5a3fb108b4ae39f1c"
-    },
-    {
-      "path": "assets/math/formula-m5b8b8db55dfdad90beea-light.svg",
-      "bytes": 23636,
-      "sha256": "d7b9b069063332fcfe885319c037d62152298f0c51aae1a3306250f627e9ec50"
-    },
-    {
       "path": "assets/math/formula-m5e138acf3da7b691fd4b-dark.svg",
       "bytes": 29423,
       "sha256": "1f959f111d37bc9de5e8c9cc3ead9739cee04569fe0cc0f0cd229c77de0055cc"
@@ -668,14 +668,14 @@
       "sha256": "a727cef39eab484b1ce2077433c7472b1c3381bd223fdfd1ec34a1133d8f678a"
     },
     {
-      "path": "assets/math/formula-m5e9f47c3c15bf72dcc07-dark.svg",
-      "bytes": 26553,
-      "sha256": "e7b5df2582cb848128245442e22df94b0f831a52441be806d897ede185b3fba8"
+      "path": "assets/math/formula-m5f650a54f634df54fb60-dark.svg",
+      "bytes": 24771,
+      "sha256": "81762b3e20451e225a8991f441fe9860ecc8cc4c4b02afa4de92a5184bc7e56c"
     },
     {
-      "path": "assets/math/formula-m5e9f47c3c15bf72dcc07-light.svg",
-      "bytes": 26553,
-      "sha256": "ab74834c9225e79397c06ded98e64e0b8a622d0faae606bc3946ede934c4196a"
+      "path": "assets/math/formula-m5f650a54f634df54fb60-light.svg",
+      "bytes": 24771,
+      "sha256": "5788c5ae46b2be2753220cc20c490ea88a8e78a18d389330a3629eb798bee418"
     },
     {
       "path": "assets/math/formula-m618afda29f8a501d8002-dark.svg",
@@ -688,16 +688,6 @@
       "sha256": "adcc58c90d847e1e879d1cc93dc89770375811876243a6ba8b8934436a6cfcc5"
     },
     {
-      "path": "assets/math/formula-m652af7b362d9deccf3ac-dark.svg",
-      "bytes": 12950,
-      "sha256": "50eac9edad639cbcdd75a96828f62178c8140cbb8cc22cde8c48a0b2bcf878ee"
-    },
-    {
-      "path": "assets/math/formula-m652af7b362d9deccf3ac-light.svg",
-      "bytes": 12950,
-      "sha256": "d9415188faf32a05dedf6a65487ee823f3457f348d26e443ed18e98701b2561f"
-    },
-    {
       "path": "assets/math/formula-m653a2a0f5f991ab3f32a-dark.svg",
       "bytes": 27785,
       "sha256": "1a5e95056942cf094476a34653e0dfafc8d048b08c59ce5c4cb64c8f94b1a882"
@@ -708,34 +698,24 @@
       "sha256": "8e14200b0e7fc56e13141ecdc0ce662c98edf5d904ed1401e99a4bbe2bab4942"
     },
     {
-      "path": "assets/math/formula-m68641a145d09dc819c92-dark.svg",
-      "bytes": 26016,
-      "sha256": "d21b60c900b14d26022a7375b8e02f197e0bf6d8655b3ede9275d726a53ee1b9"
+      "path": "assets/math/formula-m677236895207b980f6ab-dark.svg",
+      "bytes": 22072,
+      "sha256": "d8e1a77d08cd6f06bb4cde8fcea9e7917f4509a2a851451b51cb207149cfe51d"
     },
     {
-      "path": "assets/math/formula-m68641a145d09dc819c92-light.svg",
-      "bytes": 26016,
-      "sha256": "7ba59b366e8cb3df80fff56e5edee94b71e365098e59066ea2c12b8b94bd482e"
+      "path": "assets/math/formula-m677236895207b980f6ab-light.svg",
+      "bytes": 22072,
+      "sha256": "ee3f96f8364d8da46ce4d0e0b7c3c01f6abaf74e7908dbcd05addb85fc2473bd"
     },
     {
-      "path": "assets/math/formula-m6c4a5a1ebe1c657fb70f-dark.svg",
-      "bytes": 31979,
-      "sha256": "02402493e8af0cc425934b00ee468272117f79b560354ab4dfeb03b2de39c40b"
+      "path": "assets/math/formula-m6a3cda1e7344ebcbe4a1-dark.svg",
+      "bytes": 14003,
+      "sha256": "3e8ba46398f0e06d5066099afad612ce21f1e49c181f62ef082d9b5816a57c83"
     },
     {
-      "path": "assets/math/formula-m6c4a5a1ebe1c657fb70f-light.svg",
-      "bytes": 31979,
-      "sha256": "b3f9d24a5ff677ac082e68e7ee9cd1dc32b7eda1aa53d0c653932e3bd2d084c4"
-    },
-    {
-      "path": "assets/math/formula-m6c7df98107c71b7cd077-dark.svg",
-      "bytes": 21995,
-      "sha256": "6035326015d96fb6902b7f47c1cc5018d123968e3d0c9ea4f1a029b1e5e6d64a"
-    },
-    {
-      "path": "assets/math/formula-m6c7df98107c71b7cd077-light.svg",
-      "bytes": 21995,
-      "sha256": "ed47edc0e46d59c6df312bb3b01ccc326d1d1cee62a355a1b708469a85c70694"
+      "path": "assets/math/formula-m6a3cda1e7344ebcbe4a1-light.svg",
+      "bytes": 14003,
+      "sha256": "3066cffeffba07f59f34dd439bcc8973e2daeb8d92c3b1e8a9792f9026272786"
     },
     {
       "path": "assets/math/formula-m6cd9e52471857010251b-dark.svg",
@@ -758,6 +738,16 @@
       "sha256": "642aa95718db49f3ddfa87b81fb72b1c536254e447f6d8e0e728c32fdcf4caac"
     },
     {
+      "path": "assets/math/formula-m6e1449557034a25a6532-dark.svg",
+      "bytes": 29667,
+      "sha256": "863822ee87cb83d370700cc6e6d404289a34402ff615ab39521e82f91a8413ac"
+    },
+    {
+      "path": "assets/math/formula-m6e1449557034a25a6532-light.svg",
+      "bytes": 29667,
+      "sha256": "827e2e6cce0009a3ac855edfc1c6fb7cb3ea2a92916ad01f9b454b1908c2aa4b"
+    },
+    {
       "path": "assets/math/formula-m6e285b379d2996a0a848-dark.svg",
       "bytes": 20307,
       "sha256": "4686c621cfefbf5b5d8713ea0c386a0b7fa7db9b72edf7183d385a651c559db6"
@@ -768,34 +758,34 @@
       "sha256": "1216f8f7e7b3f0e47c788c69330a2daba4f9000fa93e94d6e43d776354db6855"
     },
     {
-      "path": "assets/math/formula-m75d77794c6f31eb1f374-dark.svg",
-      "bytes": 29543,
-      "sha256": "3a0d1662698db5499a2312b4600b51efd69e74d186497bca75d01da1374e9282"
+      "path": "assets/math/formula-m6f5e4f67d5540da16d06-dark.svg",
+      "bytes": 20579,
+      "sha256": "8a9a2981a5a0b7daa3a8affb5d0cc27c1ac379428826be3b7783acb1839537e0"
     },
     {
-      "path": "assets/math/formula-m75d77794c6f31eb1f374-light.svg",
-      "bytes": 29543,
-      "sha256": "5b6c681c0c903d2d578b86948bd4be49630656aee22ba55ce1f7031657f1af65"
+      "path": "assets/math/formula-m6f5e4f67d5540da16d06-light.svg",
+      "bytes": 20579,
+      "sha256": "8f3466bdaa5521224286a33dff4387993cf05169491a2a69a351cc4e6d4181a0"
     },
     {
-      "path": "assets/math/formula-m76092ce1cd566e6bcd1f-dark.svg",
-      "bytes": 28958,
-      "sha256": "d3e812c59dc2d0b227a7b952e2f902dbb34be2fdf5f41062ad3543f4fc2627d7"
+      "path": "assets/math/formula-m71ceb9d9645f16a74b0c-dark.svg",
+      "bytes": 14076,
+      "sha256": "1a77b96e81f9f595677cd2461160d6802e107d94656956e401a4ba8d9d9e1534"
     },
     {
-      "path": "assets/math/formula-m76092ce1cd566e6bcd1f-light.svg",
-      "bytes": 28958,
-      "sha256": "e1149ae0e00094fd231d0d45e714fe1229da6f30f0d3e852cb78e96d6678bc49"
+      "path": "assets/math/formula-m71ceb9d9645f16a74b0c-light.svg",
+      "bytes": 14076,
+      "sha256": "f8ceb6965ec7286f2271a3138577a2ac36e0543572f56cc6c6e7a1d654b62155"
     },
     {
-      "path": "assets/math/formula-m76298174044506b3f08e-dark.svg",
-      "bytes": 25038,
-      "sha256": "e0ec79c35b1b8995b9371db11e0bec6547ac9c66a78f7a56cdf68cbefaa51da0"
+      "path": "assets/math/formula-m7680e7c584096f60e611-dark.svg",
+      "bytes": 24185,
+      "sha256": "a9f9d379453ee3623c42d7eb9ff2052c0b68575fbb670c70f40084c93f13780d"
     },
     {
-      "path": "assets/math/formula-m76298174044506b3f08e-light.svg",
-      "bytes": 25038,
-      "sha256": "f85f2b2c2219c3c2d72f386c78d660bae8fad6b9b75ed583caf1bfdb614a33f2"
+      "path": "assets/math/formula-m7680e7c584096f60e611-light.svg",
+      "bytes": 24185,
+      "sha256": "9515051547ec9211f9da772550781c56b328a2990b71a5228b3d1268cff18525"
     },
     {
       "path": "assets/math/formula-m7692447cecfdb904bf89-dark.svg",
@@ -808,6 +798,16 @@
       "sha256": "5557e8bc9e702e042c1f9eb9a1d1cdc5df9d7c30efb6fd26a4aad46a8c85d260"
     },
     {
+      "path": "assets/math/formula-m76b6686938dc3c448e4d-dark.svg",
+      "bytes": 29475,
+      "sha256": "0fe8daaac4d60b1c517434052329398658f248f4580e6e0b066d87fb9043d699"
+    },
+    {
+      "path": "assets/math/formula-m76b6686938dc3c448e4d-light.svg",
+      "bytes": 29475,
+      "sha256": "729460fbb53cdfd057bbfc1249e990a490cf2b732ec095eb7fb54efe34337a6e"
+    },
+    {
       "path": "assets/math/formula-m7877ddc5e4e5e53bab99-dark.svg",
       "bytes": 17941,
       "sha256": "b46fa972f770e248968422febdd565133c729040343e55eb76cd0bef59df5fbd"
@@ -818,24 +818,14 @@
       "sha256": "20524b3c5485617af999a15460fbe17b83b4465f28448385b43b1352deebefe9"
     },
     {
-      "path": "assets/math/formula-m7aaacc69d58af6fcfbed-dark.svg",
-      "bytes": 18095,
-      "sha256": "29eb27ece8b05d9a4dda15ff7b47268849b3bc0b8119f2d0e17efb80a9f5a4e1"
+      "path": "assets/math/formula-m795761d48bd05c136d88-dark.svg",
+      "bytes": 24825,
+      "sha256": "e38d1e911e5b741d8067546345ec32a50807cc19c7895bfa5d4d39f353100271"
     },
     {
-      "path": "assets/math/formula-m7aaacc69d58af6fcfbed-light.svg",
-      "bytes": 18095,
-      "sha256": "14ccaa184b837b22f3d79f4a47c9b47a787be59b3512118b75eae5a4324091f8"
-    },
-    {
-      "path": "assets/math/formula-m7c7e4751e9102470d3e9-dark.svg",
-      "bytes": 20686,
-      "sha256": "7fa291fe39088b0414b9f1b27ec76a860725fede1e765ddef62b40311dee3375"
-    },
-    {
-      "path": "assets/math/formula-m7c7e4751e9102470d3e9-light.svg",
-      "bytes": 20686,
-      "sha256": "a456edd52e5c1547ca0f90e27af922c16bf0bddfaf6a9d0eb2320517d9d9571c"
+      "path": "assets/math/formula-m795761d48bd05c136d88-light.svg",
+      "bytes": 24825,
+      "sha256": "5e6c41d40a2444dfcb99066a6db7ea00bc38009f91eb704fd2aac6d7b9cc5233"
     },
     {
       "path": "assets/math/formula-m7e112db1217e3d71e848-dark.svg",
@@ -846,26 +836,6 @@
       "path": "assets/math/formula-m7e112db1217e3d71e848-light.svg",
       "bytes": 23876,
       "sha256": "8ce91527cc63a9ab4ca67ae9b4c6542c5e500f2fa3eed8566799244e02550307"
-    },
-    {
-      "path": "assets/math/formula-m7e9f527d48145b592234-dark.svg",
-      "bytes": 18397,
-      "sha256": "f1b1a907884f4980a401ec159cbb5e9f5e020d10598096bb7f71b7a31ad9da8a"
-    },
-    {
-      "path": "assets/math/formula-m7e9f527d48145b592234-light.svg",
-      "bytes": 18397,
-      "sha256": "4852d245d8878bd696a0f83b89415ef3aef4709efeac1faf0328acd1c971292d"
-    },
-    {
-      "path": "assets/math/formula-m7f564591d6b1b4381e1b-dark.svg",
-      "bytes": 12932,
-      "sha256": "0bddae4de378456548c27d18e77ce821769aa7eb5d719eb6bbad944972b2cf09"
-    },
-    {
-      "path": "assets/math/formula-m7f564591d6b1b4381e1b-light.svg",
-      "bytes": 12932,
-      "sha256": "76022bc205617fe8db5ff0712dd49095bab9025fa09f9b39cfc7a915ba60b0f2"
     },
     {
       "path": "assets/math/formula-m7fa3a549663bb4be6d06-dark.svg",
@@ -888,14 +858,14 @@
       "sha256": "5b96a80ca6542a9d64b1134371d28fc5b77218e2ff0a9a3a8a6ce39eeacd8d74"
     },
     {
-      "path": "assets/math/formula-m80e0c2b9f0aec88d12de-dark.svg",
-      "bytes": 16333,
-      "sha256": "1cff9084a926afa8958d350668059d8f891c668e21d9f064ba37775045c14f24"
+      "path": "assets/math/formula-m820ee734a02d90c6c0e0-dark.svg",
+      "bytes": 27025,
+      "sha256": "b075e854deb0d7d9a865c45aedcf16a4755b64ebdc5b5fc83be569189ae5061d"
     },
     {
-      "path": "assets/math/formula-m80e0c2b9f0aec88d12de-light.svg",
-      "bytes": 16333,
-      "sha256": "2986e5a02897431b2b97727efddea1d5461ecbefc97930d2074574692f8c25eb"
+      "path": "assets/math/formula-m820ee734a02d90c6c0e0-light.svg",
+      "bytes": 27025,
+      "sha256": "4fbd60b2b53d77c32fd35310a1f9de56f575acdc068d12e4b5376e630955c75c"
     },
     {
       "path": "assets/math/formula-m836dadeedefbb5814399-dark.svg",
@@ -918,14 +888,24 @@
       "sha256": "39ba04394d584644485160761690c72afdac52cb130189fd7a557d72175aefc6"
     },
     {
-      "path": "assets/math/formula-m846e126ff1e1f0568ac7-dark.svg",
-      "bytes": 20841,
-      "sha256": "1e5bf716a3db96697debd27e91f254e62aaa3c118e955faa31702064d60fea78"
+      "path": "assets/math/formula-m86832183cc79d65c93bc-dark.svg",
+      "bytes": 21162,
+      "sha256": "6b34f4ca18361ba65dc9bb4369858c861ebbba1bad6cb9023b3a34c90640d7b4"
     },
     {
-      "path": "assets/math/formula-m846e126ff1e1f0568ac7-light.svg",
-      "bytes": 20841,
-      "sha256": "d8e30e6cdcfcfe409005ec97049bf6783a1b8293228aeef2d95854ef341daa73"
+      "path": "assets/math/formula-m86832183cc79d65c93bc-light.svg",
+      "bytes": 21162,
+      "sha256": "ca63791d9fa76338801d48aa17faaa115925995ce4a02d0e100a6661161d6d10"
+    },
+    {
+      "path": "assets/math/formula-m8730d66f200b61a4579f-dark.svg",
+      "bytes": 20434,
+      "sha256": "545bd27661e83e7aaa037893426d34a88ce0e4d4a75b5bf6d7a1946fa2be4fba"
+    },
+    {
+      "path": "assets/math/formula-m8730d66f200b61a4579f-light.svg",
+      "bytes": 20434,
+      "sha256": "8a8d04d83411fd777183e0e12baaaa47cce3a6d16410d3ab5835c5ab757e493b"
     },
     {
       "path": "assets/math/formula-m88669317cbca3d2ff13d-dark.svg",
@@ -938,24 +918,24 @@
       "sha256": "e1f57adff932e9915d694403e775d572e9516fbe0ad074e633c4102900ea4e7a"
     },
     {
-      "path": "assets/math/formula-m88a92ec169a415c2cce6-dark.svg",
-      "bytes": 20758,
-      "sha256": "cd17e64c3915f20de000961590cc1a5b0fe81fa5a9004c1a62973209f6be35c8"
+      "path": "assets/math/formula-m8942f8c8a556bf973119-dark.svg",
+      "bytes": 19956,
+      "sha256": "83276407e80e81403cf196727cabdd9ecdcedcf785fd38b763027837725d58ed"
     },
     {
-      "path": "assets/math/formula-m88a92ec169a415c2cce6-light.svg",
-      "bytes": 20758,
-      "sha256": "3aefa44be7f9ebda138f7e9f6d5270238077332c54fc3b9effda7151af1e10cf"
+      "path": "assets/math/formula-m8942f8c8a556bf973119-light.svg",
+      "bytes": 19956,
+      "sha256": "2bb75a9d945a402bf7e200917801c441ae09d83dac3d445da0ca74e5646f1a94"
     },
     {
-      "path": "assets/math/formula-m89ad26d186c202f1cc4c-dark.svg",
-      "bytes": 20483,
-      "sha256": "eedb846cdab7a8f5fb8676433d8d4a73c49f92c9380c879737bd379f4a7de812"
+      "path": "assets/math/formula-m8961b6cc0f2f5e809155-dark.svg",
+      "bytes": 23643,
+      "sha256": "b2db7a360fecc8b84744e284500a9985ab0aa86f5d825c10ec646cda404702c3"
     },
     {
-      "path": "assets/math/formula-m89ad26d186c202f1cc4c-light.svg",
-      "bytes": 20483,
-      "sha256": "3552dc9333983eef22fb2dd1defead5a9261c7cc6e5535d5515b7a31a86a2cd0"
+      "path": "assets/math/formula-m8961b6cc0f2f5e809155-light.svg",
+      "bytes": 23643,
+      "sha256": "08fb7e1b06a1969630d43eee2419c221e23bcf811f457bb0f51f90a2190ef681"
     },
     {
       "path": "assets/math/formula-m8a7e872c10331a590ccf-dark.svg",
@@ -968,24 +948,14 @@
       "sha256": "45e53ccea6c03517a0120eb758c08e46aff6f6d82e5fffe787941ac86e830efd"
     },
     {
-      "path": "assets/math/formula-m8ced6d54ee3748bfcb06-dark.svg",
-      "bytes": 11152,
-      "sha256": "b500999a746ecc7ac1c96756bc154c9ceb08526675784c6cadba51ad403cde22"
+      "path": "assets/math/formula-m8eb31054998032e91b3f-dark.svg",
+      "bytes": 11358,
+      "sha256": "c5deef89ec82de141ffb27b319ab59afb5c3966e8e7de62af80291f8d12acdca"
     },
     {
-      "path": "assets/math/formula-m8ced6d54ee3748bfcb06-light.svg",
-      "bytes": 11152,
-      "sha256": "1f6d19427b885bbf199e4d03a630235f2da9ec4c636c0b05ca08a0807f63519d"
-    },
-    {
-      "path": "assets/math/formula-m8f36a4d3d8a83c7b51b9-dark.svg",
-      "bytes": 25041,
-      "sha256": "a04596fcd5e84d6c79a6682adcc7cacc84a213637e0b04d119506af7345ae442"
-    },
-    {
-      "path": "assets/math/formula-m8f36a4d3d8a83c7b51b9-light.svg",
-      "bytes": 25041,
-      "sha256": "147b89a82104ae1171dc6c03132075079dfd43382daca2f1a8126581698e4977"
+      "path": "assets/math/formula-m8eb31054998032e91b3f-light.svg",
+      "bytes": 11358,
+      "sha256": "60ad73be4aa4edd3f6573d1e0773f0062382dc3db794fa7a363def6432690dbd"
     },
     {
       "path": "assets/math/formula-m8fa4bb61b46bd5de010e-dark.svg",
@@ -998,14 +968,24 @@
       "sha256": "979043cbb92a5c6db981acdbadfcefdd1d4cc0f80e732503b49c064853f5778b"
     },
     {
-      "path": "assets/math/formula-m9204e10f29df56c957e1-dark.svg",
-      "bytes": 40393,
-      "sha256": "268efe43994d20d30b7113b9b996b7988095e20e42fe30c196f13de07a693be0"
+      "path": "assets/math/formula-m90504ff28eee7137c3ca-dark.svg",
+      "bytes": 15519,
+      "sha256": "d5ef054603dccdca93702191b429db4ec5b19f8431e8f5b854f893433aa9d3bb"
     },
     {
-      "path": "assets/math/formula-m9204e10f29df56c957e1-light.svg",
-      "bytes": 40393,
-      "sha256": "f11dc535cb71f132dd27b3f5033eb9cccaafccab60271d6d9eb01ddcabd7c684"
+      "path": "assets/math/formula-m90504ff28eee7137c3ca-light.svg",
+      "bytes": 15519,
+      "sha256": "7f6b06c17861dd104743d5ffa1add96573c042bb3b0002b245cf901ecf16173e"
+    },
+    {
+      "path": "assets/math/formula-m9495a1d6fb37b9d9ce71-dark.svg",
+      "bytes": 30811,
+      "sha256": "ca182a6cb4434a43009726e8a36a928b09f5d734ccf807a81991082adb65ba15"
+    },
+    {
+      "path": "assets/math/formula-m9495a1d6fb37b9d9ce71-light.svg",
+      "bytes": 30811,
+      "sha256": "ee3eb8d8ea671e3dd5e00b36af695808f58452664d0b296f7ffd216a0b6d99aa"
     },
     {
       "path": "assets/math/formula-m9aa8a0f94a1381758a86-dark.svg",
@@ -1038,24 +1018,14 @@
       "sha256": "94de689035d491bec64fc87f9a4f4b683eb78f580f9a2a8a745ec8b0b6955103"
     },
     {
-      "path": "assets/math/formula-m9e744ee7a70a6b212400-dark.svg",
-      "bytes": 16367,
-      "sha256": "3d9cb65965246c0584130f417ae9e671d5fb478445aa4199c7575c56b78c66ac"
+      "path": "assets/math/formula-m9d63ece754b5b45cb482-dark.svg",
+      "bytes": 16284,
+      "sha256": "34ecf74781d5041282c85ce3ace9cfcee3270392edf80d7153dfd8390018cc8c"
     },
     {
-      "path": "assets/math/formula-m9e744ee7a70a6b212400-light.svg",
-      "bytes": 16367,
-      "sha256": "86cf1227f2284dbe87076e6f9ba9e43df0f7489b6b8052d4b9e508275c2eaa8c"
-    },
-    {
-      "path": "assets/math/formula-m9ecbc4fa78b32b9cafa1-dark.svg",
-      "bytes": 32672,
-      "sha256": "e0b2716147b08c24c84932b50bf4ec4d74e2058f299cdac06428c31fdac3c52c"
-    },
-    {
-      "path": "assets/math/formula-m9ecbc4fa78b32b9cafa1-light.svg",
-      "bytes": 32672,
-      "sha256": "733f3506cd8eae9ae04f0c8a399d1084b8e08747f612dd5b96dcf3db2414f385"
+      "path": "assets/math/formula-m9d63ece754b5b45cb482-light.svg",
+      "bytes": 16284,
+      "sha256": "789cd1695cac8ed1b2cbfe469cb9184cf213baa6d3a0c9b200edff45d59b9b49"
     },
     {
       "path": "assets/math/formula-m9ed1db1b984acbc69b8b-dark.svg",
@@ -1068,14 +1038,14 @@
       "sha256": "2963e241f57199289e34d66649f64d3842d188fec1a64d1c1e8e9371e7e48f1e"
     },
     {
-      "path": "assets/math/formula-m9f06ced3624074b40e2b-dark.svg",
-      "bytes": 20630,
-      "sha256": "2b7cd744914d077b9147b2667b70a44c48b95859ebafddaaa49620488d5ed045"
+      "path": "assets/math/formula-ma2748cc2847fa3d89fa9-dark.svg",
+      "bytes": 13383,
+      "sha256": "8af76c9e1bc4afb36fc129862ff1a71a2a2580fdfa2dabad54fbf7747ade625a"
     },
     {
-      "path": "assets/math/formula-m9f06ced3624074b40e2b-light.svg",
-      "bytes": 20630,
-      "sha256": "e5c6810f4ed4228a8eaec9f080ebefae9d3621ddc05822ba396d7f340f7f1ece"
+      "path": "assets/math/formula-ma2748cc2847fa3d89fa9-light.svg",
+      "bytes": 13383,
+      "sha256": "2ac0401ab8e898e3bfda027b780a5e2a094bea0ce1e0695033b9bf40bfd63e36"
     },
     {
       "path": "assets/math/formula-ma464ca556576e9b410ba-dark.svg",
@@ -1098,14 +1068,34 @@
       "sha256": "44a91ad6d13b355dae2f90285dd529b98ad030c89427abff8afc7ff362934c07"
     },
     {
-      "path": "assets/math/formula-ma943b08339e173d79cc9-dark.svg",
-      "bytes": 15573,
-      "sha256": "682e2e83ad382fd3eba87f1fcd3c6890337f5403b896d2280e1923b6efc91831"
+      "path": "assets/math/formula-ma5acb8e47e40ca125e3c-dark.svg",
+      "bytes": 11059,
+      "sha256": "fd482a3b6c890cb2a842629188c743ed7ed0d27b78cab378e643b41541e0c249"
     },
     {
-      "path": "assets/math/formula-ma943b08339e173d79cc9-light.svg",
-      "bytes": 15573,
-      "sha256": "9aefa208af943f249e822f75c885fca59cf6e6d3b43263633ae1a1c6960d72cc"
+      "path": "assets/math/formula-ma5acb8e47e40ca125e3c-light.svg",
+      "bytes": 11059,
+      "sha256": "ac13376cafbae09adee53efcb81d1de3e6c2d31c13bb78b388a4785176564543"
+    },
+    {
+      "path": "assets/math/formula-ma8b2c06b8ee7f28d8169-dark.svg",
+      "bytes": 27660,
+      "sha256": "21e15c313b23939798aabf3f0a4bd28c415a9f757261d7071ea308f1761da600"
+    },
+    {
+      "path": "assets/math/formula-ma8b2c06b8ee7f28d8169-light.svg",
+      "bytes": 27660,
+      "sha256": "db509e832891785c8ff78ba1b85cdaab89ee31947b372508304e64e1365b1055"
+    },
+    {
+      "path": "assets/math/formula-mab34fe5f5bd6259f787f-dark.svg",
+      "bytes": 14608,
+      "sha256": "40c679b4eebfc7fdefe9b5d7ee5391f8c953bde6bebd38f54ba5c19048bb69cd"
+    },
+    {
+      "path": "assets/math/formula-mab34fe5f5bd6259f787f-light.svg",
+      "bytes": 14608,
+      "sha256": "9f7e946347b85ca65a2fdc3a70dc1e980457c1c8e840159df471e5df16fed0da"
     },
     {
       "path": "assets/math/formula-mad3868825617d3a25075-dark.svg",
@@ -1138,16 +1128,6 @@
       "sha256": "4175f9449bcd9d6583bc2d6f4550d44bb17a4784ea4f081c441f7621fd2bf04b"
     },
     {
-      "path": "assets/math/formula-mb2f584fc3c1fcf0ee307-dark.svg",
-      "bytes": 10358,
-      "sha256": "6ce3bc5c61c4edfad59b8b93aa8989d4f4ed5899b2dcc99133811097e0edbbda"
-    },
-    {
-      "path": "assets/math/formula-mb2f584fc3c1fcf0ee307-light.svg",
-      "bytes": 10358,
-      "sha256": "6dbf4c509d70ca39db52a0d479b3a1e7c3fb07f263aaac4ffe6f7e6fa6418353"
-    },
-    {
       "path": "assets/math/formula-mb38011ca3e5b26b5dbe6-dark.svg",
       "bytes": 25503,
       "sha256": "0ed7d3797a07814b081fdda711007d1871c24a125c22fb3a5b02536f5b4618bf"
@@ -1158,14 +1138,14 @@
       "sha256": "5ab005205ccc690917a967a5f450655bf57bc8b47258988ff7b4db9a502ee7cb"
     },
     {
-      "path": "assets/math/formula-mb5661525f2907607eaa6-dark.svg",
-      "bytes": 32007,
-      "sha256": "f0c3a59d6e7eed2f5e751f4bf06674d83b5c2a3df3b9aa613361b1d3b5ed5a67"
+      "path": "assets/math/formula-mb6c1df6b1736b7b7f5db-dark.svg",
+      "bytes": 31681,
+      "sha256": "46a965759cd950f12e51d3a678bb68f1f345f80ef1699d7ea8f3d57d20287df9"
     },
     {
-      "path": "assets/math/formula-mb5661525f2907607eaa6-light.svg",
-      "bytes": 32007,
-      "sha256": "803229afb6b7d150e0a5c9b93fd818b03d9f632c8008d1a8ae46835a8ed949b0"
+      "path": "assets/math/formula-mb6c1df6b1736b7b7f5db-light.svg",
+      "bytes": 31681,
+      "sha256": "e7b824fe6d20d429415cf42596aa09a7e705e9cb3117676a8864dc4e4c309cfd"
     },
     {
       "path": "assets/math/formula-mb6daf9390a8d71e0fb15-dark.svg",
@@ -1178,6 +1158,36 @@
       "sha256": "2a411b4af87a0c3b385f6152664736a86e00717816ec83718865f070925fe1b2"
     },
     {
+      "path": "assets/math/formula-mba9fb591874b63c0f2f7-dark.svg",
+      "bytes": 30224,
+      "sha256": "0007e64ce215052e2ecd9ebcf4ac808cd0c17f2ded33155efddcf4d206092318"
+    },
+    {
+      "path": "assets/math/formula-mba9fb591874b63c0f2f7-light.svg",
+      "bytes": 30224,
+      "sha256": "07463666f30297e40a2709a31b3164a29c76fbe9f4ecd284300361abf42fc573"
+    },
+    {
+      "path": "assets/math/formula-mbb1be1f226b06a5290d4-dark.svg",
+      "bytes": 14681,
+      "sha256": "194c6cb06316c196410541f77a51b1f01be0cb1657d3b9266fb372bbd3a2a8c8"
+    },
+    {
+      "path": "assets/math/formula-mbb1be1f226b06a5290d4-light.svg",
+      "bytes": 14681,
+      "sha256": "468cd25ff13b1eff481d1dcbde4b1d60c93c73d825769ac0e3f1a48f1e9ff019"
+    },
+    {
+      "path": "assets/math/formula-mbb2417ccff000d90d92a-dark.svg",
+      "bytes": 20091,
+      "sha256": "16cbb28348a9f2c4d688ddf2460d0105dc82964bd7113eb628d081f53fc14a58"
+    },
+    {
+      "path": "assets/math/formula-mbb2417ccff000d90d92a-light.svg",
+      "bytes": 20091,
+      "sha256": "ab747bd0b8b9c844b62252a4e1bf2251ebcd14e56d944c5a66fd7a592a523c20"
+    },
+    {
       "path": "assets/math/formula-mbbd686ef0a289b95c036-dark.svg",
       "bytes": 11002,
       "sha256": "4f4e959c7b06eaddc5a3679b6ea4627ce7cde632ea3173b2a41c6739e39aadad"
@@ -1186,26 +1196,6 @@
       "path": "assets/math/formula-mbbd686ef0a289b95c036-light.svg",
       "bytes": 11002,
       "sha256": "c23df9699872a82f7d8b2346d2ff1dd0ccf9d9dbc56df87efe1f9268f11dec9d"
-    },
-    {
-      "path": "assets/math/formula-mbd87d8ca5e224289f9f6-dark.svg",
-      "bytes": 27420,
-      "sha256": "6f0872f835ebca93e827de984fd9c2224de3db710bbf1a1e01afd9e49e8b8704"
-    },
-    {
-      "path": "assets/math/formula-mbd87d8ca5e224289f9f6-light.svg",
-      "bytes": 27420,
-      "sha256": "0abf9781847d7cbb2c1e54b4aa3afee5f8c74fb436ff7259d8c6573e17a25fca"
-    },
-    {
-      "path": "assets/math/formula-mbf880b7df623162daed1-dark.svg",
-      "bytes": 31055,
-      "sha256": "d5d024da4d5a8e886052d1cc8ff03bce04bdf01bbd592dde00a9fe43420c27df"
-    },
-    {
-      "path": "assets/math/formula-mbf880b7df623162daed1-light.svg",
-      "bytes": 31055,
-      "sha256": "b02795069c8b973afc1b203df8655e062b9e10a87a9cfe8cbec641ccc984b68a"
     },
     {
       "path": "assets/math/formula-mbfaa41faa41cc2703c78-dark.svg",
@@ -1268,24 +1258,24 @@
       "sha256": "bff48fe4511d34e729d5a31365a8ff8d5eaa7914e0887a682524eafa70062d3e"
     },
     {
-      "path": "assets/math/formula-mc72b2030a1749c18973c-dark.svg",
-      "bytes": 13638,
-      "sha256": "ffd01e68259fefea18a08e538702ad16ac3d1ffb5153b3a992da5a8a10a18c1b"
+      "path": "assets/math/formula-mc740d2be86b4a4a5bb0b-dark.svg",
+      "bytes": 25434,
+      "sha256": "2f0540a5b4236b3e537864e7bc7dfc4e3d99184cffd347e3e14273f54d3b963b"
     },
     {
-      "path": "assets/math/formula-mc72b2030a1749c18973c-light.svg",
-      "bytes": 13638,
-      "sha256": "9c6f19d80282636812421fdbbaf4faa3b11f75797a441c49ba949d53d3a79c26"
+      "path": "assets/math/formula-mc740d2be86b4a4a5bb0b-light.svg",
+      "bytes": 25434,
+      "sha256": "d3d3a340f0a495024a09bff6eb09e816f7a4d9d0d629992f85476861681c21a5"
     },
     {
-      "path": "assets/math/formula-mc7af6f1933a394c1974b-dark.svg",
-      "bytes": 33721,
-      "sha256": "6e48a9f7a942385e44339749e01c1ca95cbdcef8060ef893aa3238cd8832a2f3"
+      "path": "assets/math/formula-mc8539a4586b6a0c53fa7-dark.svg",
+      "bytes": 10927,
+      "sha256": "cf51b0a5f738dfde27242a37ca059540e1da6e8a4fb191ec1d88ecbfadfe6134"
     },
     {
-      "path": "assets/math/formula-mc7af6f1933a394c1974b-light.svg",
-      "bytes": 33721,
-      "sha256": "7353b9273ec17870a75475f30ef73c953038fca5949ca0ec63e7981a5471afd5"
+      "path": "assets/math/formula-mc8539a4586b6a0c53fa7-light.svg",
+      "bytes": 10927,
+      "sha256": "a4e90d070f1efdd572ee92a6f2e5a2b916d41843aa11970c925143ed78eb0013"
     },
     {
       "path": "assets/math/formula-mca0074153349ee0c0dec-dark.svg",
@@ -1318,16 +1308,6 @@
       "sha256": "1cd0bf392fa9ce0e62f06e99347cad4feb4d8a4ae070098438e1efd60891d59a"
     },
     {
-      "path": "assets/math/formula-md130dde47c3f06958df5-dark.svg",
-      "bytes": 32195,
-      "sha256": "f20415ce3c78a5d3bcf964ce3764d8460d8657e77b442b13a5bbcb15624a879e"
-    },
-    {
-      "path": "assets/math/formula-md130dde47c3f06958df5-light.svg",
-      "bytes": 32195,
-      "sha256": "5361929162db49daa53a46d717b542f9409fbd99c10e066345fab24c0a34f6ee"
-    },
-    {
       "path": "assets/math/formula-md24793bf1da5ee52d9c5-dark.svg",
       "bytes": 19318,
       "sha256": "c72aceac3901b6b840f35a01674624867f4da857cb954df92a7763af8f6a98ad"
@@ -1338,14 +1318,34 @@
       "sha256": "0a5dd31264d514200380f73c24dba50633ca31e1c391c37915d1cf9769141c97"
     },
     {
-      "path": "assets/math/formula-md501981bae002ecf5459-dark.svg",
-      "bytes": 9772,
-      "sha256": "85263100f914a1c664e64a8b731ec64d617090be830f518c3fc783e1ce62598b"
+      "path": "assets/math/formula-md2c97bdec3eff9983d65-dark.svg",
+      "bytes": 21711,
+      "sha256": "b335c535669be7e2bcfae1a866ead25c881d11faff80f425fdb8ba1c4812ce51"
     },
     {
-      "path": "assets/math/formula-md501981bae002ecf5459-light.svg",
-      "bytes": 9772,
-      "sha256": "832391d936f323ca26be755c6a572a89e308a04446a1aaf7c3174dca1cff85da"
+      "path": "assets/math/formula-md2c97bdec3eff9983d65-light.svg",
+      "bytes": 21711,
+      "sha256": "8b56fbd934d4dcba8318448fc8c1cef944c18d3b07e7ea352b26d0c1714c63a7"
+    },
+    {
+      "path": "assets/math/formula-md3f37c6d3fbf32ac0098-dark.svg",
+      "bytes": 32775,
+      "sha256": "d4fea39f7ff3e4153985d92e09e8d3ea8b21bea9cc97c7101158a3d844995bd2"
+    },
+    {
+      "path": "assets/math/formula-md3f37c6d3fbf32ac0098-light.svg",
+      "bytes": 32775,
+      "sha256": "ef580a01c7130a250e47bdc0ef1f45ed9500b0722853b52274b4dd9f2f2832f2"
+    },
+    {
+      "path": "assets/math/formula-md427bec7306d8358e8cc-dark.svg",
+      "bytes": 20118,
+      "sha256": "f80cbe2872c4dd1c40c09791554a6e1b18406b0bd063f50b556379253d9a17ea"
+    },
+    {
+      "path": "assets/math/formula-md427bec7306d8358e8cc-light.svg",
+      "bytes": 20118,
+      "sha256": "199a837ad7a3d4e321bb894933a3272aaee485c7fc617c07fdacb425b6ec4b0c"
     },
     {
       "path": "assets/math/formula-md58cdb414ed30cf67add-dark.svg",
@@ -1358,34 +1358,14 @@
       "sha256": "28a04cf098c7b611ffe9376664b7238e4f972804e896d3509a1a750ae9320377"
     },
     {
-      "path": "assets/math/formula-md9555e2a7dfafa3650f3-dark.svg",
-      "bytes": 21135,
-      "sha256": "cd3d4046af52515276e5bd57f0867adf842de176279ca3468bdca9839eba8ea7"
+      "path": "assets/math/formula-md7e1311c24070dcc37b8-dark.svg",
+      "bytes": 32899,
+      "sha256": "091ddab70d0b1ba886b2f64c2186704807e5b1ed93778051e74fa27c157e1d64"
     },
     {
-      "path": "assets/math/formula-md9555e2a7dfafa3650f3-light.svg",
-      "bytes": 21135,
-      "sha256": "1c0f13d27cf057804e2c6476c23e8ad12b6a95f7c573b3d636ea8077a1fbe0ce"
-    },
-    {
-      "path": "assets/math/formula-md9ef3c34222709d52c26-dark.svg",
-      "bytes": 24256,
-      "sha256": "0ccf2332e67d8f610a9167fe200c468fec2efe43e8147f73783292e9c13480ac"
-    },
-    {
-      "path": "assets/math/formula-md9ef3c34222709d52c26-light.svg",
-      "bytes": 24256,
-      "sha256": "6e3a78d955e84ab59d3202bb7e686a3629ab655ae536c339649d1c309396914a"
-    },
-    {
-      "path": "assets/math/formula-mdbe295dc4d7e9f536eb5-dark.svg",
-      "bytes": 16879,
-      "sha256": "c9de074af3961ecc666f9c08d6a0dd96e9ac462aeb49609f38f3df81872c1cc2"
-    },
-    {
-      "path": "assets/math/formula-mdbe295dc4d7e9f536eb5-light.svg",
-      "bytes": 16879,
-      "sha256": "76ddc753c969c7ee7d31fd94ae65de140a0db5e9508557d73d61e439943ba44b"
+      "path": "assets/math/formula-md7e1311c24070dcc37b8-light.svg",
+      "bytes": 32899,
+      "sha256": "5e8d447c4188a4ebe91fdf18e4cac0fbdefe0a5522270bb6702b3c6a746eebc5"
     },
     {
       "path": "assets/math/formula-mdd3d7b109602247b4589-dark.svg",
@@ -1396,26 +1376,6 @@
       "path": "assets/math/formula-mdd3d7b109602247b4589-light.svg",
       "bytes": 12681,
       "sha256": "10c0bd5ce033d6a7362030d47be776f04ef222bb0dd7f6267b2ef80b86d7eed3"
-    },
-    {
-      "path": "assets/math/formula-mddbf67a53b9f45aad43f-dark.svg",
-      "bytes": 11648,
-      "sha256": "0d1ca930d0c06198699c6e10814a97bc4cb719328446de855cb7e9808f2db0fc"
-    },
-    {
-      "path": "assets/math/formula-mddbf67a53b9f45aad43f-light.svg",
-      "bytes": 11648,
-      "sha256": "9124fd2d01ee582353c4822069a125c10f2a6cd66cfc13f62339c97bc5098cbd"
-    },
-    {
-      "path": "assets/math/formula-me10ca71d807356654c7f-dark.svg",
-      "bytes": 24488,
-      "sha256": "f1fd7cdb42b3dd019596b55afabbe790ce712228132113c0bc5dd110552c39af"
-    },
-    {
-      "path": "assets/math/formula-me10ca71d807356654c7f-light.svg",
-      "bytes": 24488,
-      "sha256": "fc8c56bccca9d4bde69cc3aa5b03b671f72593f83ae8f975fb6d0f0e0149cd56"
     },
     {
       "path": "assets/math/formula-me4f037a0444fb2f4aab7-dark.svg",
@@ -1438,16 +1398,6 @@
       "sha256": "78c4a4fa8fef1bfc19ef6e1db4943e48e252fe0c0894f0048f9d89b04578b807"
     },
     {
-      "path": "assets/math/formula-me63134276a2187f30c50-dark.svg",
-      "bytes": 19346,
-      "sha256": "aa1e5e5dfc1e308148e8b4aaaa4764924802d17b4073f9ffa55d3929a27540a9"
-    },
-    {
-      "path": "assets/math/formula-me63134276a2187f30c50-light.svg",
-      "bytes": 19346,
-      "sha256": "1750a81dfde20b42b8d23683ab9a467aea57d691a1c45e18b6d1eae851c7444f"
-    },
-    {
       "path": "assets/math/formula-me6499f7e6169c88c8540-dark.svg",
       "bytes": 35116,
       "sha256": "5d39b612a15dd8c4340be992216c440c71e526ef17bec6bc5fad29a909a18bcd"
@@ -1456,6 +1406,16 @@
       "path": "assets/math/formula-me6499f7e6169c88c8540-light.svg",
       "bytes": 35116,
       "sha256": "3203cbd62647fbc9f58c633bf3c53ed9fff8cbe9bfa9bc939fdafd6bfe2c15b1"
+    },
+    {
+      "path": "assets/math/formula-me750fbc4dbc981eeba69-dark.svg",
+      "bytes": 31819,
+      "sha256": "d3f7f4724e22a8f0b2da6642c036698f2a163a278be6a22ff9892bddbf51930c"
+    },
+    {
+      "path": "assets/math/formula-me750fbc4dbc981eeba69-light.svg",
+      "bytes": 31819,
+      "sha256": "da54e5c4ecb849c46edf69a0ad3390a859ca8f068af34a76696b2e8b70968601"
     },
     {
       "path": "assets/math/formula-mebd5a57c2c96e90f0680-dark.svg",
@@ -1488,6 +1448,56 @@
       "sha256": "670813fe4dff880b2a59b230c40da8eb48e4ef1d037f117c3c307a21b1ad1be2"
     },
     {
+      "path": "assets/math/formula-meeaeae5eb5ec8369176f-dark.svg",
+      "bytes": 28304,
+      "sha256": "88272cd8351c1c25139a45d2d770fca6445040561db67cfa72b3b8bd1896f7fd"
+    },
+    {
+      "path": "assets/math/formula-meeaeae5eb5ec8369176f-light.svg",
+      "bytes": 28304,
+      "sha256": "2847ed681364617d85db1aa9b9e816a58349667f2858f1f8e279a97907ebf2a8"
+    },
+    {
+      "path": "assets/math/formula-mf0540b36e121afd607ae-dark.svg",
+      "bytes": 26250,
+      "sha256": "06d4c8ca72a238fda45e5b6a4bba01da42cafcf8535a064d75d839db79f5c60f"
+    },
+    {
+      "path": "assets/math/formula-mf0540b36e121afd607ae-light.svg",
+      "bytes": 26250,
+      "sha256": "0f4bf115bc76360d03033c76883531e06f1eab9d8e305bbbb258645986493f7b"
+    },
+    {
+      "path": "assets/math/formula-mf149e559877925f13716-dark.svg",
+      "bytes": 13286,
+      "sha256": "36bcfcd6433eb008d8df71d30292494d55ecb0580ffb710b2737feee01e0b9c3"
+    },
+    {
+      "path": "assets/math/formula-mf149e559877925f13716-light.svg",
+      "bytes": 13286,
+      "sha256": "76a101852ae4233540f8e672012e7a1f3a9dfbc792b4d0f05aebc979531a8cb5"
+    },
+    {
+      "path": "assets/math/formula-mf17f65db44b4a9b7f0aa-dark.svg",
+      "bytes": 11597,
+      "sha256": "b1a4815905a6c05a93567ab68094270005c4c49b08e20bebeffbcb2e54e97d85"
+    },
+    {
+      "path": "assets/math/formula-mf17f65db44b4a9b7f0aa-light.svg",
+      "bytes": 11597,
+      "sha256": "d301dfa1729f98901c3b801750a221cd41f27248fbeca8898cc7c68af392a7a5"
+    },
+    {
+      "path": "assets/math/formula-mf1d6885ea2228d4a5f64-dark.svg",
+      "bytes": 9636,
+      "sha256": "a333d7e39afd70b20238575c3e90983634523fed5e1d8f40c30512c391960a32"
+    },
+    {
+      "path": "assets/math/formula-mf1d6885ea2228d4a5f64-light.svg",
+      "bytes": 9636,
+      "sha256": "9fe3aae540cea8d00f6c51305e38cd9addc30bd6e395578fb82a67c5f5da6477"
+    },
+    {
       "path": "assets/math/formula-mf4a0c2967f917be22491-dark.svg",
       "bytes": 17368,
       "sha256": "1ba86da85c5043c332e53ac2e84c17a65e38350cf41656e42aa0abf46c150e58"
@@ -1496,16 +1506,6 @@
       "path": "assets/math/formula-mf4a0c2967f917be22491-light.svg",
       "bytes": 17368,
       "sha256": "cd4f15b541a6897f141d41b048fca12708095842da372d6356a256a0b61b5346"
-    },
-    {
-      "path": "assets/math/formula-mf8fbfecb14d5bfec72fa-dark.svg",
-      "bytes": 15473,
-      "sha256": "c8a4118175fdcae8d4086e51d55c053d22fce29aecba5d7e59a85fa8a14d68ed"
-    },
-    {
-      "path": "assets/math/formula-mf8fbfecb14d5bfec72fa-light.svg",
-      "bytes": 15473,
-      "sha256": "2c8d9c39d44f0ea0ed34f70206fe3b813722e0c8894834f59418fa90958a2f14"
     },
     {
       "path": "assets/math/formula-mfa02c914b82bd730d5e3-dark.svg",
@@ -1528,6 +1528,16 @@
       "sha256": "04d7db60e34e98b74531c4a343ef941d78ef29b3ecbf998a012b27e54bcc801c"
     },
     {
+      "path": "assets/math/formula-mfb7b7d0b2ca0dd137707-dark.svg",
+      "bytes": 8575,
+      "sha256": "b478c4f0d61b50638b2de3fa9d803b55446fcac599315fbf5c77de424378212c"
+    },
+    {
+      "path": "assets/math/formula-mfb7b7d0b2ca0dd137707-light.svg",
+      "bytes": 8575,
+      "sha256": "eb0dddf21f9ff91a49bd50d306a51e0100cd402b68e0a355b868b4ab89bd7d17"
+    },
+    {
       "path": "assets/math/formula-mfc28dcd45827d7df4279-dark.svg",
       "bytes": 17414,
       "sha256": "453a7534c5f1740991af44ccff7094f9ef9313929a72b22a1f74a081acbc5f3d"
@@ -1538,14 +1548,14 @@
       "sha256": "670ff89daa9719bb7e3014f08bac6d8ab303e603e48f82359907821de8a9ffd6"
     },
     {
-      "path": "assets/math/formula-mfd0fccf50e5ade102478-dark.svg",
-      "bytes": 21871,
-      "sha256": "f01739bc8bbfeda69bfc8e92ae94b12c4b637975645ba7e2bd111f4db4e96b67"
+      "path": "assets/math/formula-mfe129ab094641947ad17-dark.svg",
+      "bytes": 29677,
+      "sha256": "75b16fe36c6cbb34841e185913f81d524e452673e46147efc2ba845e5a117039"
     },
     {
-      "path": "assets/math/formula-mfd0fccf50e5ade102478-light.svg",
-      "bytes": 21871,
-      "sha256": "c31db117486c4778ab997944cb3bbc81e09d7ac542e7e8f5bffe37fb3eeb8a1a"
+      "path": "assets/math/formula-mfe129ab094641947ad17-light.svg",
+      "bytes": 29677,
+      "sha256": "929cf867475ce8d0ae90c74e6be16789616fe56bbb9218017915109376aa7f51"
     },
     {
       "path": "assets/math/formula-mff3b533dfb16d7c3fae8-dark.svg",
@@ -1584,163 +1594,73 @@
     },
     {
       "path": "docs/EVIDENCE.md",
-      "bytes": 5801,
-      "sha256": "294609414310c8b4daaa18d04cce462c523dcfbb8123bd20fc88a7aff8cb4afc"
+      "bytes": 6761,
+      "sha256": "333e2fc4986b722b78a1dc7d20b70556edc6b61796beebddf2a0dbb1a4e51f07"
     },
     {
       "path": "docs/RENDERING.md",
-      "bytes": 1995,
-      "sha256": "e9c8d4d52bd2be94e8cabce629de14cd99c23b028091f8941092ec81ea49a21d"
+      "bytes": 2096,
+      "sha256": "52bf9f82dba357616ad5fcfcddebf0503d1feabd32195eb7101fb3c6b7e6b6a2"
     },
     {
-      "path": "local-fonts/DejaVu-LICENSE.txt",
-      "bytes": 8817,
-      "sha256": "b2be899f9dd286da6715a2ac74c36011d8a76511e75ef71aa8920ac7bc8457fc"
+      "path": "figures/joint-error-set.pdf",
+      "bytes": 27483,
+      "sha256": "663b96b77815a44791b257decd3de408a68dcd89d30e3633d32719601fe60d62"
     },
     {
-      "path": "local-fonts/DejaVuSans.ttf",
-      "bytes": 756072,
-      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      "path": "figures/joint-error-set.png",
+      "bytes": 76393,
+      "sha256": "bcf71afc13c45eb7224db0842763e4a0199b1f31ccc578b1a056ecf1780b3512"
     },
     {
-      "path": "local-fonts/DejaVuSerif.ttf",
-      "bytes": 379740,
-      "sha256": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa"
+      "path": "figures/netting-ratio.pdf",
+      "bytes": 17402,
+      "sha256": "e6d29e4275674bb63f5d51949410f7b0f11f265b5c8eb39c95fba42cc4a77bbf"
     },
     {
-      "path": "local-fonts/cm-super/COPYING",
-      "bytes": 17992,
-      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+      "path": "figures/netting-ratio.png",
+      "bytes": 106726,
+      "sha256": "f1f570a9983b40e02a63e01939a18be7918114dc9c256718011e1eb1996ac2ef"
     },
     {
-      "path": "local-fonts/cm-super/README",
-      "bytes": 9630,
-      "sha256": "8d5eaaae218d4330992b506cd080ddac5a91382103b697eb3d1456957c8a68fe"
+      "path": "figures/pass-counts.pdf",
+      "bytes": 18076,
+      "sha256": "1dbf767a65ac2c30d8c416fb919966a36deb5d396102162d419dccb0631876d0"
     },
     {
-      "path": "local-fonts/cm-super/sfbi1095.afm",
-      "bytes": 156041,
-      "sha256": "165cc68ef932f95c076bda956e5a5c98bef130343caa85b1e13eaf576baf857c"
+      "path": "figures/pass-counts.png",
+      "bytes": 101611,
+      "sha256": "1092364c330b8bb2b14649e48cf201cb8aa80ecf94a12143cd5ce6a401230908"
     },
     {
-      "path": "local-fonts/cm-super/sfbi1095.pfb",
-      "bytes": 204454,
-      "sha256": "3e4255ba4069871b32ccd9a389a4aca33bd247b44a948a22b4f1ecc6769ba880"
+      "path": "figures/residual-kernel.pdf",
+      "bytes": 20333,
+      "sha256": "39790d4fd84fc249e4cff2511efbe947d447b87211b7e81e15eea2243cbf128c"
     },
     {
-      "path": "local-fonts/cm-super/sfbx1000.afm",
-      "bytes": 139363,
-      "sha256": "137fc6bb3c50ca4da80e293492e900f45d0cd3ce5e831eb98e8a88247edc085c"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1000.pfb",
-      "bytes": 145408,
-      "sha256": "b6ef43f479c1e94d1414ecd09246af4ee082444deed96a82cd4b6b8cd8fb4566"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1095.afm",
-      "bytes": 139423,
-      "sha256": "172070cb3866329ae1d48c3a7aa8bd59707faefcbbb3cfb16734b848086f77bb"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1095.pfb",
-      "bytes": 154600,
-      "sha256": "25d355eb0a18758f27081728b8d212b0485843228bbd7440b906216dd3b8b79c"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1200.afm",
-      "bytes": 140540,
-      "sha256": "5a3fa3ec12f8bffc9f625ee38205e58a600ad52636c2183c72b567ff66424951"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1200.pfb",
-      "bytes": 140176,
-      "sha256": "32cc57b495db307cc6a35d181c3612f4be8c84ca772f32c79e3a77e209f681e6"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1440.afm",
-      "bytes": 140424,
-      "sha256": "25bc793487a964b92e6d7738d31ebedb6e8ce572b32fe4a464d7c5aea37cad00"
-    },
-    {
-      "path": "local-fonts/cm-super/sfbx1440.pfb",
-      "bytes": 135942,
-      "sha256": "2c26adf023e2c900c659e02d637595e916a53d8495fcaa3fb9a97eade8c5f0c7"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1000.afm",
-      "bytes": 140483,
-      "sha256": "9e4baa3e8d0395dd91fc660295a0aeb85a4b638c0d9f902fa1ef3b341bf936f9"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1000.pfb",
-      "bytes": 138258,
-      "sha256": "650a5428cc0729742dcf1935dba1f504e27bbb5ec5936aeaf5f4955909a0f540"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1095.afm",
-      "bytes": 140527,
-      "sha256": "0548d2fdd5d39dec51fd1a341af77f6fba365c28a68bf662867a9e01292d4eb8"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1095.pfb",
-      "bytes": 145929,
-      "sha256": "3f353abccd39dc18dd1e9356092a70548ddcdc3bd9496e597a4792eeef4dda5e"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1200.afm",
-      "bytes": 140521,
-      "sha256": "6cfd496f22a51810686307f23ede83ba2d845617cb18665b49afb38281f8d9e4"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1200.pfb",
-      "bytes": 136101,
-      "sha256": "a87c2c41c1653691676348edcbc5c70157a4eec2c5b7a6810c3f5e0a830d82ca"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1728.afm",
-      "bytes": 140379,
-      "sha256": "7fef1a0e23bf3d95f8bdbea7f52b537411571f3141642ef2b6eab4a658ec760a"
-    },
-    {
-      "path": "local-fonts/cm-super/sfrm1728.pfb",
-      "bytes": 131438,
-      "sha256": "e2801427f264f0c7f47753deb79dc4b1af4582b3e04b0501d207b8fa4cadea8b"
-    },
-    {
-      "path": "local-fonts/cm-super/sfti1095.afm",
-      "bytes": 157151,
-      "sha256": "8cf1998e11b3be7f1160f6fa8101b3bfde4ba9a23787a4e8f8cf81db8ecac8b3"
-    },
-    {
-      "path": "local-fonts/cm-super/sfti1095.pfb",
-      "bytes": 196446,
-      "sha256": "f8af586f176a1b5d3be55719ca625945c71affffd6c24a571b4d8ee1dd45941c"
-    },
-    {
-      "path": "local-fonts/cm-super/sftt1095.afm",
-      "bytes": 30898,
-      "sha256": "ff4c2ac4f54a699b43c3b0eed399cd7ae2ac2837d87649db34f2e5c94ba56694"
-    },
-    {
-      "path": "local-fonts/cm-super/sftt1095.pfb",
-      "bytes": 169670,
-      "sha256": "4cb1a499fede8a234ad9a0b377a2f45530bbca1ada3dd7a0ac827336a866c6a1"
+      "path": "figures/residual-kernel.png",
+      "bytes": 78848,
+      "sha256": "93de4f97c76dceee801d4c680a06b62296116159eb7355a63ce2ba124f8204ed"
     },
     {
       "path": "manuscript/author.json",
-      "bytes": 303,
-      "sha256": "e81f2a5a7a4a9d2c304c95cef9178dcf011c8f735c7883cc3215e43ba4d247c2"
+      "bytes": 223,
+      "sha256": "818221a45f72449f37441373d5e79282418c4dc5a6a6d7186f161f23274ba31a"
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 161289,
-      "sha256": "bc18078a28cec6e6cf69b78b9b477423966e1686dbd9c0707ad7655aba9c9070"
+      "bytes": 164385,
+      "sha256": "1287960aa241c3b5faa77cbe0f7b15e5ce9b93cf0c892291cabffc122256ab24"
     },
     {
       "path": "paper/paper.pdf",
-      "bytes": 6517881,
-      "sha256": "7c2bf51c7e65664b76729f61d9910133f0e44330d94775a93f0dbbfb451b655e"
+      "bytes": 423571,
+      "sha256": "d40bccfe0f2388b411a53c61fb618a9cac8114b761435abde0203ce6feecfc6b"
+    },
+    {
+      "path": "paper/paper.tex",
+      "bytes": 184818,
+      "sha256": "476e588cd401094569907fb2578bc8172430cdcd3fb7884fc19e83a99a2802c3"
     },
     {
       "path": "reproduce.py",
@@ -1755,7 +1675,7 @@
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
       "bytes": 2851,
-      "sha256": "5a1701498e43b7fc4c0e7ff5cfbc2665d5ad6663d8b82475d394a69ae62531f2"
+      "sha256": "6f498a7da1883fcba35aff9077a3d0e6fa27843565d9fea51ef4b1c750369502"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -1785,7 +1705,7 @@
     {
       "path": "science/analysis/audit/independent-audit.json",
       "bytes": 2727,
-      "sha256": "e99435e7669b5e6c2703801512cee5d093cccece4605e0b13d63006bf4d94e20"
+      "sha256": "49fc61945aa9273b27a2b35e9219b5e28c1d98efc49402e76d6fdb25d74d941b"
     },
     {
       "path": "science/analysis/audit/nearby-pair-resolution.json",
@@ -1840,7 +1760,7 @@
     {
       "path": "science/analysis/audit/source-identities.json",
       "bytes": 10138,
-      "sha256": "bda737740c829e470287ef396e171be92f65a30311e9494b6c3b2cf40244a97d"
+      "sha256": "ea144f918fc3cca8be3b3180c5751e48bf4df1ad7b5c4948e7b5f05101a0aa0e"
     },
     {
       "path": "science/analysis/kernel/common.py",
@@ -1908,9 +1828,19 @@
       "sha256": "10b0c3165bc34484396647e28c03a93fffdc8153d2b46992f484455392a31cc7"
     },
     {
+      "path": "science/analysis/market/market-scale.json",
+      "bytes": 24491,
+      "sha256": "d74554dbf8df3758b99b05f2e589173fcd14d4b65cfb10993cbc11e0d6c23e3c"
+    },
+    {
+      "path": "science/analysis/market/market_scale.py",
+      "bytes": 12443,
+      "sha256": "76448418230c53bf2cdef110d308527f2e0b99374b7771b2eceff163cfb6c95f"
+    },
+    {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
       "bytes": 30962,
-      "sha256": "b7146f0371437f03944915aff27bbeec0616e8c3397a95f81cd4e03653181c0f"
+      "sha256": "d4f73b1331d722f4c2227fda5de32fe3ec6efa10f45a6d5821ca631371b72b83"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
@@ -2225,7 +2155,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.json",
       "bytes": 7138,
-      "sha256": "03901048bc5c5142d7182b339ab7fdfb80d7cd26a53530bdee7dbd7d38137b3c"
+      "sha256": "e81b701d6c67f3fcd7413ce0e5626c1af326c11e1cfbdb0e049483bd1c0594d2"
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.py",
@@ -2235,7 +2165,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer.json",
       "bytes": 7876,
-      "sha256": "c4d4202335309cb00d3294a0824b6a900f2050d7bde1df6f9edddc31aef5e561"
+      "sha256": "c037a780efe1046fb289dedeb5d875cb9e36b2462d6fbf07042e77f70418b739"
     },
     {
       "path": "science/baseline/frontier/independent-transfer.py",
@@ -2380,7 +2310,7 @@
     {
       "path": "science/baseline/frontier/transfer-preflight.json",
       "bytes": 4668,
-      "sha256": "d0e93f579d19288d60c54fa16b6d47d57265f8fcb3c092e07a2f42f67974ded4"
+      "sha256": "31244bf41f8d83793f0799d9380158bb884766c16d30bb819db04dfd02833278"
     },
     {
       "path": "science/baseline/frontier/transfer-preflight.py",
@@ -2405,7 +2335,7 @@
     {
       "path": "science/baseline/frontier/transfer-results.json",
       "bytes": 16039,
-      "sha256": "10318633aa59095f1743dec20be8cb2951cc3654fab516986ee0964b81319372"
+      "sha256": "e0124ffc821546e5db8bdea0d3e39f28340c41e3ed9cb34231807e4f53b0ecad"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-contract.json",
@@ -2425,7 +2355,7 @@
     {
       "path": "science/baseline/frontier/transfer-supplement-results.json",
       "bytes": 5701,
-      "sha256": "eb7564d1fccf486a28214e594ea698f3d5edf9e56a78f499492ceec52872d8ee"
+      "sha256": "e3ddcd14f7d4c6c12bc329c4856af98c20fcc8a81fe05b9f4a835d48d0bff288"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-13_25.json",
@@ -2455,7 +2385,7 @@
     {
       "path": "science/baseline/frontier/transfer-time-local-results.json",
       "bytes": 4180,
-      "sha256": "747371db1f1e5b67566b73ceba1143f54901ea9dd68875409c85edddd119e9e4"
+      "sha256": "90bad69edcc53c54b2f61b51564d87a985dd3f586a7216741d791dd1e25d8af5"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-weights.json",
@@ -3378,9 +3308,14 @@
       "sha256": "3a9174444e616a14819b8bead0a0ec30e46abfd2518ba4a08b6bad2c938a49b3"
     },
     {
+      "path": "scripts/build_figures.py",
+      "bytes": 9909,
+      "sha256": "ee9e5c01839049598c6698366a976d0b0b7e9fd5b191e527fae1c48b2758a2e4"
+    },
+    {
       "path": "scripts/build_pdf.py",
-      "bytes": 28661,
-      "sha256": "5bd75b782ccdf1f7838d747c2c5e18acf9a5618595c6aaa1b635ed4afe863d2a"
+      "bytes": 14156,
+      "sha256": "56f5e4bf3084a122571589064b472fe9ea34e98adf372cfb1795bd95288f1bbd"
     },
     {
       "path": "scripts/math_inputs.py",
@@ -3393,24 +3328,19 @@
       "sha256": "59c0b99c9d9101c06ac260aff010d8b2da0095739d83c42a2cfd9e5622f484ed"
     },
     {
-      "path": "scripts/vector_math.py",
-      "bytes": 5626,
-      "sha256": "01efe4d6a21601b929f179313c4a12d729aea741ac90f11916fe93be5dabb2c9"
-    },
-    {
       "path": "validation/README.md",
       "bytes": 2167,
       "sha256": "a3df0d6cb0e8f84f5a507fdd16eee7aff5e4f9c378bbc33d27a90067ec1df805"
     },
     {
       "path": "validation/article-check.json",
-      "bytes": 81210,
-      "sha256": "bbcb38ecc1ef0b5d54e2eec8630a487ee786e50626ac3b09767b71686341cd19"
+      "bytes": 82022,
+      "sha256": "08b8c7126e68ba5bfcaac7666ff380c493bc5dfc05d4ddbc5c4a3487f0d00330"
     },
     {
       "path": "validation/pdf-check.json",
-      "bytes": 1078,
-      "sha256": "ac506499a560e25190c680931d519b2df864caeab1f9bf7ec37527064a1989cb"
+      "bytes": 1321,
+      "sha256": "de3a24130a7df4253ef3bddc1bff404f4b13737ba97faf2c45c05b052aefb06f"
     },
     {
       "path": "verify_source.py",

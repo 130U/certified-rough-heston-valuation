@@ -16,7 +16,7 @@ git checkout V_20261101
 python -B verify_source.py --strict
 ```
 
-This checks the published file identities, including the numerical banks, and rejects files outside the publication manifest. Explicitly excluded local build and working directories are ignored. It does not execute the scientific calculations.
+This checks the published file identities, including the numerical banks, and rejects files outside the publication manifest. Local build and working directories are ignored.
 
 ## Saved-bank reconstruction and structural checks
 
@@ -168,4 +168,4 @@ python -B science/experiments/nearby_generate.py --N 1024
 python -B science/experiments/nearby_generate.py --N 2048
 ```
 
-The low-frequency command regenerates the alpha=.52 continuous bank. The high-frequency command uses a separate reconstruction clone and preserves the fixed transfer inputs. The nearby generator creates missing components and otherwise retains identity-matched stored components; it does not force replacement of every retained field. Source identities, cache behaviour and shared dependencies are specified in the proof-obligation matrix in Appendix E.
+The low-frequency command regenerates the alpha=.52 continuous bank. The high-frequency command uses a separate reconstruction clone and preserves the fixed transfer inputs. The nearby generator creates missing components and keeps identity-matched stored components. Source identities, cache behaviour and shared dependencies are specified in the proof-obligation matrix in Appendix E.

@@ -2,8 +2,7 @@
 
 The quote table, the certified distance between model and quotes, and the stored node supports are exact
 rational readings of saved records. Netting ratios, band shares and the width scan evaluate the support
-formula of Theorem 5.1 in binary64 from the stored node radii; they describe the certificates and are not
-themselves certificates.
+formula of Theorem 5.1 in binary64 from the stored node radii.
 """
 from fractions import Fraction as Q
 from pathlib import Path

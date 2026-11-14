@@ -29,7 +29,7 @@
     {
       "path": "independent-audit.json",
       "bytes": 2727,
-      "sha256": "49fc61945aa9273b27a2b35e9219b5e28c1d98efc49402e76d6fdb25d74d941b"
+      "sha256": "1f7fb9c0b934fab742b502aea7e59536fc9cca3b064120c10e892a139ba18766"
     },
     {
       "path": "nearby-pair-resolution.json",
@@ -84,7 +84,7 @@
     {
       "path": "source-identities.json",
       "bytes": 10138,
-      "sha256": "ea144f918fc3cca8be3b3180c5751e48bf4df1ad7b5c4948e7b5f05101a0aa0e"
+      "sha256": "30fe3a33c6cc7c205ec2c39b985bbe4c83a9f6a9fdf20439d80f6c0b4c71ae09"
     }
   ]
 }

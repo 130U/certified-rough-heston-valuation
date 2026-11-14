@@ -62,16 +62,14 @@ def escape(text):
 
 def inline(text):
     """Convert one run of manuscript text, keeping mathematics verbatim."""
-    out, cursor = [], 0
-    for match in MATH.finditer(text):
-        out.append(plain(text[cursor:match.start()]))
-        if match.group(1) is not None:
-            out.append('\\(' + match.group(1).strip() + '\\)')
-        else:
-            out.append(display(match.group(2)))
-        cursor = match.end()
-    out.append(plain(text[cursor:]))
-    return re.sub(r'\n\s*\n', '\n', ''.join(out)).strip('\n')
+    store = []
+
+    def stash(match):
+        store.append('\\(' + match.group(1).strip() + '\\)' if match.group(1) is not None else display(match.group(2)))
+        return '%d' % (len(store) - 1)
+
+    out = re.sub('(\\d+)', lambda m: store[int(m.group(1))], plain(MATH.sub(stash, text)))
+    return re.sub(r'\n\s*\n', '\n', out).strip('\n')
 
 
 def display(body):

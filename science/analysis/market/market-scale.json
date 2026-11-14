@@ -17,7 +17,7 @@
     "baseline/finite-history/portfolio-results-finite-history.json": "c53ffee0504a6c3f971bee1582d1d5be7d726c7936414640c441c7320676b206",
     "analysis/audit/portfolio-exact-thresholds.csv": "0b5ca7910a1c52a0f4985b8dac06d80acdcdee860b4fafb1c7b3f2c25ceadbcc"
   },
-  "executed_script_sha256": "76448418230c53bf2cdef110d308527f2e0b99374b7771b2eceff163cfb6c95f",
+  "executed_script_sha256": "c6ae4ee1cfdab2c15161d431952b54fb4202fd80af7f6e6b57a514dc7776f849",
   "quotes": [
     {
       "strike": 3700,

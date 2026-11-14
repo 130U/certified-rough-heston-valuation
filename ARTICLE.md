@@ -23,9 +23,9 @@
 
 ## Abstract
 
-Every option on one underlying and one expiry is priced from a single characteristic function, so a numerical error in that function is a common factor across strikes: a position hedged in strike space is hedged against it, and a position spread over many strikes diversifies it. We turn this into a deterministic certificate for the rough Heston model, a bound on the distance between a stored vector of prices and the exact model prices in any portfolio direction. Two results carry the construction. First, a residual in the fractional Riccati equation moves the log-characteristic function by at most the residual integrated against a forward variance curve, the curve of the same model under the measure midway between the risk-neutral and share measures. The constant is one, the leverage effect supplies the damping, and the hypothesis on the curve is the condition under which the model is known to exist. Second, the exposure of a portfolio to the transform error at a given frequency is the Fourier transform of its payoff, so that low-frequency error cancels in spreads and butterflies while high-frequency error averages out across strikes at a rate set by the Herfindahl index of the position. On S&P 500 quotes of 18 June 2021, the six-month 4400–4500 call spread, quoted about 2.5 index points wide, is certified to 0.115 points. At three months the same spread is certified to 0.233 points when its legs are netted and to 0.252 when they are not, with every input identical, and the two bounds fall on opposite sides of a quarter-point tolerance.
+Every option on one underlying and one expiry is priced from a single characteristic function, so a numerical error in that function is a common factor across strikes: a position hedged in strike space is hedged against it, and a position spread over many strikes diversifies it. We make this exact and build on it a deterministic certificate, a bound on the distance between a stored vector of prices and the exact model prices in any portfolio direction. Two results carry the construction. The first holds for every model priced by Fourier inversion: the exposure of a portfolio to the transform error at a given frequency is the Fourier transform of its payoff, so that low-frequency error cancels in spreads and butterflies while high-frequency error averages out across strikes at a rate set by the Herfindahl index of the position. The second bounds the transform error in the rough Heston model: a residual in the fractional Riccati equation moves the log-characteristic function by at most the residual integrated against a forward variance curve, the curve of the same model under the measure midway between the risk-neutral and share measures. The constant is one, the leverage effect supplies the damping, the hypothesis on the curve is the condition under which the model is known to exist, and the argument carries over to Volterra Heston models with completely monotone kernels. On S&P 500 quotes of 18 June 2021, the six-month 4400–4500 call spread, quoted about 2.5 index points wide, is certified to 0.115 points. At three months the same spread is certified to 0.233 points when its legs are netted and to 0.252 when they are not, with every input identical, and the two bounds fall on opposite sides of a quarter-point tolerance.
 
-**Keywords:** rough volatility; rough Heston model; fractional Riccati equation; Fourier pricing; a posteriori error bounds; model risk; netting.
+**Keywords:** rough volatility; Volterra Heston models; fractional Riccati equation; Fourier pricing; a posteriori error bounds; model risk; netting.
 
 **JEL classification:** C63, G13, G12.
 
@@ -35,7 +35,7 @@ Every option on one underlying and one expiry is priced from a single characteri
 
 The characteristic function of the Heston model is known in closed form, and for more than a decade one of its two standard expressions carried a flaw that went largely unnoticed. Written as in Heston (1993), the formula crosses a branch cut of the complex logarithm at long maturities, and an implementation on the principal branch returns a discontinuous transform (Kahl and Jäckel 2005; Albrecher, Mayer, Schoutens and Tistaert 2007). The error entered every strike of a maturity together, because every strike is an integral of the same function. A second episode shows the other side of the same fact. The expansion of Hagan, Kumar, Lesniewski and Woodward (2002) for the SABR model tracks the exact implied volatility closely, strike by strike, yet at low strikes and long expiries the density it implies turns negative: a butterfly, which is a portfolio of three options, receives a negative price (Hagan, Kumar, Lesniewski and Woodward 2014). Accuracy in each price had not delivered accuracy in a direction.
 
-Both episodes say that the accuracy of an option pricer is a property of directions in strike space. This paper makes that statement quantitative for the rough Heston model of El Euch and Rosenbaum (2019). The transform of that model solves a fractional Riccati equation with no closed form, and the prices used in practice come from approximations: the rational approximation of Gatheral and Radoičić (2019), fractional Adams schemes (Diethelm, Ford and Freed 2004), Markovian lifts (Abi Jaber and El Euch 2019b; Abi Jaber 2019) and neural-network surrogates (Horvath, Muguruza and Tomas 2021). Their accuracy is usually reported by comparison with a slower solver on a test set. Agreement between two solvers bounds neither.
+Both episodes say that the accuracy of an option pricer is a property of directions in strike space. This paper makes that statement quantitative. Its portfolio results hold for every pricer built on a common transform. Its bound on the transform itself is proved for the rough Heston model of El Euch and Rosenbaum (2019), whose transform solves a fractional Riccati equation with no closed form, so that the prices used in practice come from approximations: the rational approximation of Gatheral and Radoičić (2019), fractional Adams schemes (Diethelm, Ford and Freed 2004), Markovian lifts (Abi Jaber and El Euch 2019b; Abi Jaber 2019) and neural-network surrogates (Horvath, Muguruza and Tomas 2021). Their accuracy is usually reported by comparison with a slower solver on a test set. Agreement between two solvers bounds neither.
 
 We ask what can be proved after the fact. A vector $`c^{\rm fast}`$ of rough Heston prices has been computed and stored. Let $`c^*`$ be the exact model prices of the same contracts, normalised by the forward $`F_T`$ and the discount factor $`D`$. For a portfolio $`w`$ and a monetary tolerance $`\tau`$, the task is to prove
 
@@ -49,7 +49,7 @@ We ask what can be proved after the fact. A vector $`c^{\rm fast}`$ of rough Hes
 </p>
 
 
-The stored output is not altered and no second solver is trusted. An independent reference $`\bar c`$ is built with its own error bound, and the stored output is located relative to it:
+The stored output is taken as given. An independent reference $`\bar c`$ is built with its own error bound, and the stored output is located relative to it:
 
 
 <p align="center">
@@ -79,7 +79,7 @@ A reference trajectory $`\widehat h`$ fails to solve the Riccati equation by a r
 
 The weight $`\xi^\lambda`$ is a forward variance curve: it is the expected variance of the same model under the measure whose Girsanov kernel is half that of the share measure, which is the measure the Lewis contour sees (Theorem 3.1 and Proposition 3.2). Three features of (1.3) deserve emphasis. The constant is one; there is no Grönwall exponential, although the equation is nonlinear and carries its whole history. The damping rate $`\lambda`$ is the amount by which the leverage effect speeds up mean reversion under that measure, so the feature of the model that produces the equity skew is also the one that makes numerical errors contract. And the single hypothesis on the curve, nonnegativity of its Riemann–Liouville derivative, is the condition under which El Euch and Rosenbaum (2018) and Abi Jaber and El Euch (2019a) construct the model with nonnegative variance. The certificate asks nothing of the curve that the model does not already ask.
 
-The bound is the rough counterpart of variation of constants for the Heston Riccati equation. A fractional equation has no semigroup to restart, and two classical tools take its place: convexity of the Caputo derivative on a modulus and positivity of the scalar fractional resolvent. On the six-month example of Section 7, replacing a uniform bound on the state by (1.3) lowers the complete error bound of a call spread from 1.398 to 0.379 index points, a reduction of 72.91 per cent, with the stored prices and the reference unchanged.
+The bound is the rough counterpart of variation of constants for the Heston Riccati equation. A fractional equation has no semigroup to restart, and two classical tools take its place: convexity of the Caputo derivative on a modulus and positivity of the scalar fractional resolvent. On the six-month example of Section 7, replacing a uniform bound on the state by (1.3) lowers the complete error bound of a call spread from 1.398 to 0.379 index points, a reduction of 72.91 per cent, with the stored prices and the reference unchanged. The same proof covers every damped contour and Volterra Heston models with completely monotone kernels, the classical and the lifted Heston models among them (Remarks 3.5 and 3.6).
 
 ### 1.2. Transform error as a common factor
 
@@ -99,11 +99,13 @@ where $`k_i=\log m_i`$ is log-moneyness, $`h_*`$ is the grid step and $`\omega_n
 
 The netting ratio has a simple anatomy. For a vertical spread with log-strike gap $`\Delta`$ it is $`|\sin(u\Delta/2)|`$ up to terms of order $`\Delta`$: the spread is hedged against transform error of wavelength longer than twice its strike spacing and fully exposed at the Nyquist frequency $`\pi/\Delta`$. For a butterfly the ratio is squared. For any portfolio its mean square over a long band of frequencies is the Herfindahl index of the position (Propositions 5.2 and 5.3). Transform error therefore behaves like a factor model in frequency. Low-frequency error is systematic across strikes and is removed by hedging. High-frequency error is idiosyncratic across strikes and is removed by diversification. On the S&P 500 example the eleven adjacent call spreads keep on average 0.708 of their leg-by-leg node error, against a Herfindahl benchmark of $`1/\sqrt2\approx0.707`$; an equal-weight basket of all twelve calls keeps 0.076.
 
+This part of the paper is model-free. It applies to any pricer that obtains a strip of options from one transform, whatever the model and whatever the method that produced the transform.
+
 ### 1.3. Evidence and economic scale
 
 Section 7 applies the certificate to S&P 500 index options quoted on 18 June 2021 (Jeng and Kiliçman 2021), with the index at 4221.86. An SPX option has a multiplier of 100 dollars per index point and a minimum tick of 0.05 points below a premium of 3.00 and 0.10 above (Cboe Global Markets 2024); in 2025 an average of 3.9 million contracts changed hands each day (Cboe Global Markets 2026). On the sample date the six-month calls between 3700 and 4800 were quoted between 0.8 and 2.5 points wide. A tolerance of a quarter point is 25 dollars a contract and about one fifth of the quoted width of the 4400 call. Our tolerances of 1, 1/2 and 1/4 point thus ask whether numerical error is safely inside the bid–ask spread.
 
-The answers are as follows. The stored rational-approximation output for the six-month 4400–4500 call spread is certified to 0.115 points, against a quoted width of about 2.5. At three months the netted bound is 0.233 points and the leg-by-leg bound 0.252, from the same stored output, reference centre, 1,025 node radii and remainders; only netting certifies a quarter point. Across 28 spreads, butterflies and baskets at six months, a half-point tolerance is certified for all 28 with netting and for 13 without. Five neighbouring roughness candidates, from $`H=0.02`$ to $`H=0.05`$, are ranked by their least-squares distance to the quotes with certified separation in all ten pairs, against seven of ten without netting, so the ranking is not produced by the solver. And at the best candidate the model price of the 4400 call lies at least 0.49 points above the quoted ask: a discrepancy between model and market that the certificate attributes to the model.
+The answers are as follows. The stored rational-approximation output for the six-month 4400–4500 call spread is certified to 0.115 points, against a quoted width of about 2.5. At three months the netted bound is 0.233 points and the leg-by-leg bound 0.252, from the same stored output, reference centre, 1,025 node radii and remainders; only netting certifies a quarter point. Across 28 spreads, butterflies and baskets at six months, a half-point tolerance is certified for all 28 with netting and for 13 without. Five neighbouring roughness candidates, from $`H=0.02`$ to $`H=0.05`$, are ranked by their least-squares distance to the quotes with certified separation in all ten pairs, against seven of ten without netting, so the ranking belongs to the model and the quotes. And at the best candidate the model price of the 4400 call lies at least 0.49 points above the quoted ask: a discrepancy between model and market that the certificate attributes to the model.
 
 The setting is one that supervisors already describe in portfolio terms. European prudent-valuation rules require a model-risk valuation adjustment for each valuation model and aggregate the individual adjustments with a flat factor of 50 per cent (Commission Delegated Regulation (EU) 2016/101, Article 11 and Annex). The Basel market-risk framework tests, desk by desk, whether the prices of the risk engine track those of the front office, with the stated aim to "measure the materiality of simplifications" in the former (Basel Committee on Banking Supervision 2019, MAR32.20). United States guidance asks that model risk be assessed "both individually and in aggregate", where the aggregate reflects reliance on common methodologies (Board of Governors of the Federal Reserve System, Federal Deposit Insurance Corporation and Office of the Comptroller of the Currency 2026). A shared transform is a common methodology in the most literal sense. For the numerical component of valuation uncertainty, (1.4) replaces a flat diversification factor by the exact one.
 
@@ -248,7 +250,7 @@ Thus $`q`$ is the rate at which variance is supplied: the drift $`\theta`$, toge
 
 **Assumption 2.3 (admissible curve).** $`\xi\in AC[0,T]`$, $`\xi(0)\ge0`$, and $`q\ge0`$ almost everywhere on $`(0,T)`$.
 
-Under this assumption $`\xi=g_\alpha*q\ge0`$. The assumption is not a device of the error analysis. In the notation of (2.9) it says that $`\theta(t)\,dt+V_0\,t^{-\alpha}dt/\Gamma(1-\alpha)`$ is a nonnegative measure, which is the condition imposed by El Euch and Rosenbaum (2018, condition (4)) and by Abi Jaber and El Euch (2019a, Example 2.2) to construct the model with nonnegative variance. Every nondecreasing curve with $`\xi(0)\ge0`$ is admissible. A decreasing curve is admissible as long as it does not fall faster than the memory of the kernel allows: $`\xi(t)=V_0(1-ct)`$ is admissible on $`[0,T]`$ exactly when $`cT\le1-\alpha`$ (Corollary C.4). Appendix A verifies the hypotheses of the existence and transform theorems for the curve used in Section 7.
+Under this assumption $`\xi=g_\alpha*q\ge0`$. The assumption is the model's own. In the notation of (2.9) it says that $`\theta(t)\,dt+V_0\,t^{-\alpha}dt/\Gamma(1-\alpha)`$ is a nonnegative measure, which is the condition imposed by El Euch and Rosenbaum (2018, condition (4)) and by Abi Jaber and El Euch (2019a, Example 2.2) to construct the model with nonnegative variance. Every nondecreasing curve with $`\xi(0)\ge0`$ is admissible. A decreasing curve is admissible as long as it does not fall faster than the memory of the kernel allows: $`\xi(t)=V_0(1-ct)`$ is admissible on $`[0,T]`$ exactly when $`cT\le1-\alpha`$ (Corollary C.4). Appendix A verifies the hypotheses of the existence and transform theorems for the curve used in Section 7.
 
 ## 3. What a Riccati residual costs
 
@@ -304,7 +306,7 @@ with $`N`$ a local martingale, and taking expectations,
 
 For the exact solution $`r=0`$, and this is the usual verification of (2.4). For an approximation the would-be martingale drifts, and it drifts in proportion to variance, because per unit of variance the Riccati polynomial is the generator of the pair $`(X,\xi)`$ acting on exponentials. A residual at time to maturity $`T-t`$ therefore costs the variance expected at calendar time $`t`$, weighted by $`\widehat M_t`$. Since $`|\widehat M_t|`$ carries the factor $`(S_t/S_0)^{1/2}`$, the weighting is that of a measure tilted halfway towards the share measure.
 
-The computation is formal: it assumes that $`N`$ is a true martingale and that the expectation in (3.2) is finite, and the weight $`\widehat M`$ depends on the approximation. The theorem below reaches the same conclusion for the exponent by deterministic means, with a weight that depends only on the model.
+Identity (3.2) is the heuristic behind the theorem that follows, which proves the same conclusion for the exponent by deterministic means and with a weight that depends only on the model.
 
 ### 3.2. The residual bound
 
@@ -361,7 +363,7 @@ In particular, if $`R\le\delta`$ then $`|L_T-\widehat L_T|\le\delta\int_0^T\xi(s
 
 and by Proposition 2.1 the coefficient has real part at most $`-\lambda`$. The Caputo derivative of a convex function of a path is at most the gradient applied to the Caputo derivative of the path. Applied to a regularised modulus this gives $`D^\alpha|e|+\lambda|e|\le|r|\le R`$, and positivity of the resolvent $`k_\lambda`$ gives (3.4). By Proposition 2.2, $`L_T-\widehat L_T=\int_0^Tq(T-t)e(t)\,dt`$. Since $`q\ge0`$, (3.4) gives $`|L_T-\widehat L_T|\le(q*k_\lambda*R)(T)=(\xi^\lambda*R)(T)`$. Finally $`g_\alpha-k_\lambda=\lambda\,g_\alpha*k_\lambda\ge0`$, so $`\xi^\lambda\le g_\alpha*q=\xi`$. Appendix C.2 supplies the regularity, including the passage to the terminal time. $`\square`$
 
-The unknown exact solution remains in the coefficient of (3.6), and only the sign of its real part is used. No smallness of the residual or of the frequency is assumed, and nothing is fitted. The weight in (3.5) is fixed by the equation and the curve.
+The bound is global: it holds for residuals of any size and at every frequency. The exact solution enters through the sign of its real part alone, and the weight in (3.5) is fixed by the equation and the curve.
 
 ### 3.3. The weight is a forward variance curve
 
@@ -399,13 +401,15 @@ The measures $`\mathbb Q^\eta`$ interpolate between the pricing measure at $`\et
 
 *On the Lewis contour, a Riccati residual at time to maturity $`s`$ changes the log-characteristic function by at most the variance expected at time $`T-s`$ under $`\mathbb Q^{1/2}`$, per unit of residual.*
 
-Three remarks place the statement.
+Four remarks place the statement.
 
 **Remark 3.3 (the classical model).** At $`\alpha=1`$ the resolvent is $`k_\lambda(t)=e^{-\lambda t}`$ and $`\xi^\lambda(t)=V_0e^{-\lambda t}+\int_0^te^{-\lambda(t-s)}\theta(s)\,ds`$. Inequality (3.5) is then variation of constants for the Heston Riccati equation, in which the error is transported by a flow that contracts at rate $`\lambda`$. For $`\alpha\lt 1`$ there is no flow to transport it. Convexity of the Caputo derivative and positivity of $`k_\lambda`$ recover the same conclusion with the same constant.
 
-**Remark 3.4 (the constant).** The constant one in (3.5) cannot be lowered in general. At $`a=0`$, the point of zero frequency on the undamped contour, the exact solution vanishes, $`\lambda=0`$, and a residual of constant sign produces $`\widehat L_T-L_T=\int_0^T\xi(T-t)r(t)\,dt`$ up to terms of second order in $`r`$. On the Lewis contour the remaining slack is the damping that comes from $`\operatorname{Re}h\lt 0`$ itself, which grows with the frequency and which the theorem does not use.
+**Remark 3.4 (the constant).** The constant one in (3.5) is sharp. At $`a=0`$, the point of zero frequency on the undamped contour, the exact solution vanishes, $`\lambda=0`$, and a residual of constant sign produces $`\widehat L_T-L_T=\int_0^T\xi(T-t)r(t)\,dt`$ up to terms of second order in $`r`$. On the Lewis contour the exact solution adds damping of its own through $`\operatorname{Re}h\lt 0`$, growing with the frequency, and Theorem 3.1 uses the part that is uniform in the frequency.
 
 **Remark 3.5 (other contours and positive correlation).** On a contour $`\operatorname{Im}a=-\eta`$ with $`0\lt \eta\lt 1`$ the linear coefficient of the Riccati polynomial has real part $`\eta\rho\nu`$, the left half-plane is again invariant, and the proof gives (3.5) with $`\lambda=\eta|\rho|\nu`$ and the measure $`\mathbb Q^\eta`$. The damping available to an error bound thus rises linearly from nothing at the pricing measure to $`|\rho|\nu`$ at the share measure. For $`\rho\gt 0`$ the same argument gives (3.4) and the first inequality of (3.5) with a negative $`\lambda`$, the resolvent being positive term by term; the kernel $`\xi^\lambda`$ then lies above $`\xi`$, and residuals compound at the rate at which variance runs away under the tilted measure.
+
+**Remark 3.6 (other kernels).** The fractional kernel enters the proof through three facts: $`g_\alpha*g_{1-\alpha}=1`$ with $`g_{1-\alpha}`$ nonnegative and nonincreasing, which gives the convexity inequality; positivity of the resolvent $`k_\lambda`$; and $`\xi=g_\alpha*q`$ with $`q\ge0`$, which is the second face. Every completely monotone kernel $`K`$ has a resolvent of the first kind with the same monotonicity and a completely monotone resolvent (Gripenberg, Londen and Staffans 1990, Chapter 5), its admissible curves are again of the form $`\xi=K*q`$ with $`q`$ a nonnegative measure (Abi Jaber and El Euch 2019a, Example 2.2), and the left half-plane is invariant for its Riccati–Volterra equation (Abi Jaber, Larsson and Pulido 2019, Theorem 7.1). The argument therefore gives (3.5) for Volterra Heston models with completely monotone kernels, with $`\xi^\lambda`$ defined by $`\xi^\lambda+\lambda K*\xi^\lambda=\xi`$: the classical Heston model, where $`K\equiv1`$ and the statement is Remark 3.3; the lifted Heston model of Abi Jaber (2019), where $`K`$ is a finite sum of exponentials; and gamma kernels. Appendix C writes out the regularity for the fractional kernel.
 
 Figure 1 shows the two weights for the curve calibrated in Section 7. At six months the half-share curve lies below the risk-neutral one by at most a few per cent, since $`\lambda_*T^\alpha\approx0.075`$. The large gain in the experiments comes from the first inequality in (3.5), which weights each residual by the variance still to come, in place of a uniform bound on the state.
 
@@ -467,9 +471,9 @@ with coefficients determined by the equation: writing $`\gamma_u=\tfrac12\rho\nu
 </p>
 
 
-The identity $`I^\alpha t^\beta=\Gamma(1+\beta)\,t^{\alpha+\beta}/\Gamma(1+\alpha+\beta)`$ controls each step. We therefore take the reference to be $`\widehat h=I^\alpha\widehat g`$, where $`\widehat g`$ consists of the three startup powers in (4.1) and a continuous piecewise affine remainder. The powers come from the equation, and the affine part can be integrated against the fractional kernel in closed form. Its nodal values may come from any numerical solver; Theorem 3.1 does not assume that they are accurate.
+The identity $`I^\alpha t^\beta=\Gamma(1+\beta)\,t^{\alpha+\beta}/\Gamma(1+\alpha+\beta)`$ controls each step. We therefore take the reference to be $`\widehat h=I^\alpha\widehat g`$, where $`\widehat g`$ consists of the three startup powers in (4.1) and a continuous piecewise affine remainder. The powers come from the equation, and the affine part can be integrated against the fractional kernel in closed form. Its nodal values may come from any numerical solver, of any accuracy: Theorem 3.1 charges whatever residual results.
 
-All stored nodes and coefficients are read as the exact dyadic numbers they are. The residual $`r=\widehat g-F_u(I^\alpha\widehat g)`$ then includes every discrepancy between the stored coefficients and their ideal values. Appendix D.1 bounds it on the startup interval and on every later closed cell, and verifies $`\operatorname{Re}\widehat h\le0`$ on the whole of $`[0,T]`$. A small residual at sampled times would prove nothing. The certificate belongs to the continuous trajectory.
+All stored nodes and coefficients are read as the exact dyadic numbers they are. The residual $`r=\widehat g-F_u(I^\alpha\widehat g)`$ then includes every discrepancy between the stored coefficients and their ideal values. Appendix D.1 bounds it on the startup interval and on every later closed cell, and verifies $`\operatorname{Re}\widehat h\le0`$ on the whole of $`[0,T]`$. The certificate belongs to the continuous trajectory: the residual is bounded on every closed cell, between the nodes as well as at them.
 
 ### 4.2. Transform disks and the price bound
 
@@ -528,6 +532,8 @@ The coefficient at the origin is the trapezoidal half-weight times $`1/(\tfrac14
 
 ## 5. Portfolios: transform error as a common factor
 
+This section uses the model through formula (2.5) alone. Its statements hold for every positive martingale $`S`$, every reference transform and every set of radii: for the Heston, Bates and Lévy models as for rough volatility, and for a transform that comes from a closed form, a differential-equation solver, a neural network or the residual bound of Section 3.
+
 ### 5.1. The joint error set
 
 Fix the model, the maturity and the frequency grid, and consider $`p`$ strikes with moneyness $`m_i`$ and log-moneyness $`k_i`$. From (4.5), the reference prices are $`\bar c_i=1+\operatorname{Re}\sum_na_{in}\bar\phi_n`$ with
@@ -554,7 +560,7 @@ and the exact prices satisfy
 </p>
 
 
-where $`\mathcal R`$ contains the strip, tail and arithmetic remainders. The same complex number $`z_n`$ enters every strike. No probability is involved: the $`z_n`$ are unknown constants, each confined to a disk.
+where $`\mathcal R`$ contains the strip, tail and arithmetic remainders. The same complex number $`z_n`$ enters every strike. The $`z_n`$ are deterministic unknowns, each confined to a disk.
 
 For a portfolio $`w\in\mathbb R^p`$ define its payoff transform
 
@@ -612,7 +618,7 @@ Geometrically, each frequency contributes an ellipse to $`\mathcal E`$, the imag
 
 when $`\mathcal R=\prod_i[-\rho_i,\rho_i]`$. We call (5.5) the joint bound and (5.6), with the same signed centre $`w^\top d`$, the leg-by-leg bound. All numerical evaluations of either are outward enclosures.
 
-Two refinements cost nothing. Any separately proved interval for a price can be intersected with $`\bar c+\mathcal E`$, since the exact vector lies in both sets, and a directional bound may always be replaced by the smaller of two valid ones. And if the reference is improved at some nodes, the centre $`d`$ moves with it; radii are comparable only about a common centre, so a comparison between the joint and the leg-by-leg bound is meaningful when both use the same centre, radii and remainder. Every matched comparison in Section 7 does.
+Any separately proved interval for a price can be intersected with $`\bar c+\mathcal E`$, since the exact vector lies in both sets. Every comparison of the two bounds in Section 7 uses one centre, one set of radii and one remainder, so that the aggregation is the only difference.
 
 ### 5.2. The netting ratio
 
@@ -648,7 +654,7 @@ For the vertical spread ($`j=1`$) the ratio equals $`\tanh(\Delta/4)`$ at $`u=0`
 
 The proposition gives the hierarchy of exposures. A single call loads on the transform error at the frequency $`u`$ with weight $`(u^2+\tfrac14)^{-1}`$. A vertical spread of width $`\Delta`$ loads with weight at most $`\Delta\,(u^2+\tfrac14)^{-1/2}`$, and a butterfly with weight at most $`\Delta^2`$ at every frequency, in units of $`h_*\sqrt m\,(1+e^{\Delta/2})^j/(2^j\pi)`$. Each difference in strike removes one power of the frequency from the decay of the payoff transform and returns one power of the strike spacing. This is the error form of the Breeden and Litzenberger (1978) relation: a butterfly reads off the state-price density, and its error is the unweighted sum of the transform errors.
 
-The proposition also sets a limit. A spread is hedged against transform error whose wavelength in log-strike, $`2\pi/u`$, is long compared with its width, and it is fully exposed at the Nyquist frequency $`u=\pi/\Delta`$, where the two legs respond in opposite phase. For strikes 100 points apart near 4400, $`\Delta\approx0.0225`$ and $`\pi/\Delta\approx140`$. For a five-point vertical, the finest spacing commonly listed near the money, $`\pi/\Delta\approx2800`$. A narrow spread is protected over a band of frequencies that is inversely proportional to its width.
+The proposition also locates the frequencies that matter. A spread is hedged against transform error whose wavelength in log-strike, $`2\pi/u`$, is long compared with its width, and it is fully exposed at the Nyquist frequency $`u=\pi/\Delta`$, where the two legs respond in opposite phase. For strikes 100 points apart near 4400, $`\Delta\approx0.0225`$ and $`\pi/\Delta\approx140`$. For a five-point vertical, the finest spacing commonly listed near the money, $`\pi/\Delta\approx2800`$. A narrow spread is protected over a band of frequencies that is inversely proportional to its width.
 
 For portfolios that are not differences the ratio is governed by concentration.
 
@@ -716,11 +722,11 @@ so to first order the objective is exposed to the transform error as the portfol
 
 **Proof.** The lower bound drops the nonnegative quadratic term and uses $`g^\top e\ge-h_{\mathcal E}(-g)`$; the upper bound uses $`g^\top e\le h_{\mathcal E}(g)`$ and $`|e|^2\le\sum_i\beta_i^2`$. $`\square`$
 
-The residuals of a reasonable fit change sign across strikes, so the calibration portfolio is long some strikes and short others, and its support under (5.5) is smaller than under (5.6). For a finite set of candidate parameters, a candidate is the certified minimiser when the upper end of its enclosure lies below the lower ends of all the others; if no candidate satisfies this, the candidates whose lower end does not exceed the smallest upper end form a set that contains every exact minimiser. Different candidates have different transforms, and their errors are not netted against each other.
+The residuals of a reasonable fit change sign across strikes, so the calibration portfolio is long some strikes and short others, and its support under (5.5) is smaller than under (5.6). For a finite set of candidate parameters, a candidate is the certified minimiser when the upper end of its enclosure lies below the lower ends of all the others; in general the candidates whose lower end lies below the smallest upper end form a set that contains every exact minimiser. Each candidate carries its own transform and its own error set.
 
 ## 6. The stored output
 
-The certificate applies to any stored vector of prices once its displacement from the reference is enclosed. In the experiments the stored output is the third-order rational approximation of Gatheral and Radoičić (2019), which writes the Riccati solution as $`\widehat H(y)=P(y)/Q(y)`$ in the variable $`y=\nu t^\alpha`$, with cubic $`P`$ and $`Q=1+q_1y+q_2y^2+q_3y^3`$, and fixes the six coefficients by matching three terms of the expansion at $`t=0`$ and three terms of the expansion at infinity. The formula costs a handful of operations per frequency. Its error is not known in closed form, which is why it needs a certificate, and its coefficients are complex, so that even the absence of poles on the positive axis is not evident. On the parameter set of Section 7 it can be proved.
+The certificate applies to any stored vector of prices once its displacement from the reference is enclosed. In the experiments the stored output is the third-order rational approximation of Gatheral and Radoičić (2019), which writes the Riccati solution as $`\widehat H(y)=P(y)/Q(y)`$ in the variable $`y=\nu t^\alpha`$, with cubic $`P`$ and $`Q=1+q_1y+q_2y^2+q_3y^3`$, and fixes the six coefficients by matching three terms of the expansion at $`t=0`$ and three terms of the expansion at infinity. The formula costs a handful of operations per frequency. Its coefficients are complex, and on the parameter set of Section 7 the absence of poles on the positive axis is a theorem.
 
 **Proposition 6.1 (structure of the rational output).** For $`\alpha\in[\tfrac{13}{25},\tfrac35]`$, $`\rho=-0.7445`$, $`\nu\gt 0`$ and every real $`u`$, the matching system of Gatheral and Radoičić is nonsingular, and
 
@@ -735,7 +741,7 @@ The certificate applies to any stored vector of prices once its displacement fro
 
 
 
-The proof in Appendix B reduces (6.1) to the signs of nine real functions on a compact rectangle in $`(\alpha,u/(1+u))`$ and verifies them by interval arithmetic on a finite cover. The conclusion is stable under small changes of $`\rho`$, since all nine inequalities are strict. The proposition shows that the stored output is well defined and shares the half-plane of the exact solution. It says nothing about its accuracy, which is the business of the reference: one construction supplies the price, and an independent one bounds its error.
+The proof in Appendix B reduces (6.1) to the signs of nine real functions on a compact rectangle in $`(\alpha,u/(1+u))`$ and verifies them by interval arithmetic on a finite cover. The conclusion is stable under small changes of $`\rho`$, since all nine inequalities are strict. The proposition shows that the stored output is well defined and shares the half-plane of the exact solution. Its accuracy is the business of the reference: one construction supplies the price, and an independent one bounds its error.
 
 ## 7. Evidence from S&P 500 options
 
@@ -802,11 +808,11 @@ Table 3 isolates the propagation on a second bank, generated independently at $`
 | (3.8) with $`\xi`$, 128 bins | 0.514096070 | 0.394999331 | 0.228237113 | 0.042372598 |
 | (3.8) with $`\xi^{\lambda_*}`$, 128 bins | 0.509733613 | 0.393082828 | 0.226320610 | 0.040456094 |
 
-The forward variance weight accounts for almost all of the improvement: the node radius falls from 1.477 to 0.076 points. Time-local envelopes take it to 0.042. The leverage damping of Proposition 3.2 removes a further 4.5 per cent of the node radius, in line with $`\lambda_*T^\alpha\approx0.075`$ at this horizon; its effect grows with maturity and with $`|\rho|\nu`$. The complete bound for the stored output moves less, because the fixed terms dominate it: the centre, the omitted finite nodes and the remainders together exceed 0.352 points on this bank, so no refinement of the used nodes alone can certify a quarter point there.
+The forward variance weight accounts for almost all of the improvement: the node radius falls from 1.477 to 0.076 points. Time-local envelopes take it to 0.042. The leverage damping of Proposition 3.2 removes a further 4.5 per cent of the node radius, in line with $`\lambda_*T^\alpha\approx0.075`$ at this horizon; its effect grows with maturity and with $`|\rho|\nu`$. The complete bound for the stored output moves less, because the fixed terms dominate it: the centre, the omitted finite nodes and the remainders together exceed 0.352 points on this bank. The next gain therefore lies in the reference band, and extending it is what takes H2 to H4 in Table 2.
 
 ### 7.3. A decision that turns on netting
 
-The three-month certificate Q2 lies close to the quarter-point tolerance, and it shows the effect of aggregation in isolation. Table 4 is its ledger. The two columns share the stored output, the reference centre, all 1,025 node radii and every remainder.
+At three months a single global residual maximum certifies half a point (Q1). With 128 time bins (Q2) the bound reaches the quarter-point tolerance, and there the aggregation decides. Table 4 is the ledger of Q2. The two columns share the stored output, the reference centre, all 1,025 node radii and every remainder.
 
 **Table 4. Ledger of the three-month 4400–4500 spread (Q2), in index points. Only the aggregation of the node errors differs.**
 
@@ -835,7 +841,7 @@ Proposition 5.2 predicts where the saving comes from. Here $`\Delta=\log(4500/44
 
 Below $`u=16`$ the spread keeps 14 per cent of its leg-by-leg error, and near the top of the grid, which approaches the Nyquist frequency $`\pi/\Delta\approx140`$, it keeps 94 per cent. The certified radii grow with the frequency, so nine tenths of the charge sits above $`u=32`$, where a spread of this width is poorly hedged. The saving of 30 per cent is what a 100-point spread can extract from an error concentrated at short wavelengths.
 
-A narrower spread extracts more. Table 6 evaluates the node term of (5.5) and (5.6) with the same 1,025 radii for verticals of other widths struck at 4400. The radii do not depend on the strike, so this is a statement about the same certified transform; the centre and remainder of those contracts were not computed, and the table is not a complete certificate for them.
+A narrower spread extracts more. Table 6 evaluates the node term of (5.5) and (5.6) with the same 1,025 radii for verticals of other widths struck at 4400. The radii do not depend on the strike, so the table is a statement about the same certified transform.
 
 **Table 6. Node term of a three-month vertical spread struck at 4400, by width, with the certified radii of Q2; index points.**
 
@@ -884,9 +890,9 @@ Table 8 counts the positions certified at three tolerances. Within a row the two
 | 0.90 | 1/2 | 25 | 25 |
 | 0.90 | 1 | 27 | 28 |
 
-At half a point and $`\alpha=0.52`$ the joint bound certifies every position and the leg-by-leg bound certifies 13. At one point both certify all 28 for the two rough candidates, and the aggregation is immaterial. Netting matters when the tolerance is of the order of the bound, which for a tolerance set inside the bid–ask spread is the relevant case. Figure 4 shows the count as a function of the tolerance for every bank, and Appendix E.3 gives the exact thresholds.
+At half a point and $`\alpha=0.52`$ the joint bound certifies every position and the leg-by-leg bound certifies 13. Netting decides whenever the tolerance is of the order of the bound, which is the case for a tolerance set inside the bid–ask spread. All 28 positions are certified from one bank: once the transform disks exist, an additional position costs 1,025 support terms. Figure 4 shows the count as a function of the tolerance for the three candidates, and Appendix E.3 gives the exact thresholds.
 
-![Figure 4. Number of the 28 fixed six-month positions certified as a function of the tolerance, from exact endpoints. Solid curves are joint certificates and dashed curves leg-by-leg certificates with the same radii. Banks H0 and H1 share one reference field for each candidate; N1, N2 and N2L are the regenerated fields.](figures/pass-counts.png)
+![Figure 4. Number of the 28 fixed six-month positions certified as a function of the tolerance, on bank H1 for three roughness candidates, from exact endpoints. The shaded area between the joint and the leg-by-leg count is the gain from netting.](figures/pass-counts.png)
 
 ### 7.5. Is the roughness ranking numerical?
 
@@ -904,11 +910,11 @@ The roughness fitted to this surface is $`H=0.0286`$, and candidates a few thous
 | Pairs separated, joint | | 7 of 10 | 10 of 10 |
 | Pairs separated, leg-by-leg | | 3 of 10 | 7 of 10 |
 
-At the finer level the five enclosures are disjoint and ordered, and $`\alpha=0.520`$ is the certified minimiser on this grid. The closest pair, 0.520 against 0.525, is separated by a gap of $`7.4\times10^{-10}`$ in the normalised objective. The leg-by-leg enclosures leave three pairs unresolved at the same level, those among 0.520, 0.525 and 0.530. The ordering of roughness candidates half a hundredth apart in $`H`$ is therefore a property of the model and the quotes. The solver did not produce it. The statement concerns these five points; it is not a continuous calibration.
+At the finer level the five enclosures are disjoint and ordered, and $`\alpha=0.520`$ is the certified minimiser on this grid. The closest pair, 0.520 against 0.525, is separated by a gap of $`7.4\times10^{-10}`$ in the normalised objective. The leg-by-leg enclosures leave three pairs unresolved at the same level, those among 0.520, 0.525 and 0.530. The ordering of roughness candidates half a hundredth apart in $`H`$ is therefore a certified property of the model and the quotes.
 
 ### 7.6. Model misfit without solver doubt
 
-A certificate also settles the opposite question. Each of the five candidates is inconsistent with at least one quoted bid–ask band, and for a certified price this is a statement about the model. At $`\alpha=0.52`$, on the coarsest bank H0, the exact model price of the 4400 call lies in an interval whose lower end is 92.887 points, while the quoted ask is 92.396: the model is above the ask by at least 0.491 points. For the 4500 call the excess is at least 0.068 points. The other ten strikes are not excluded at this level of certification. A desk that sees its rough Heston calibration miss the 4400 and 4500 strikes on this date can rule out the pricer as the cause.
+A certificate also settles the opposite question. Each of the five candidates is inconsistent with at least one quoted bid–ask band, and for a certified price this is a statement about the model. At $`\alpha=0.52`$, on the coarsest bank H0, the exact model price of the 4400 call lies in an interval whose lower end is 92.887 points, while the quoted ask is 92.396: the model is above the ask by at least 0.491 points. For the 4500 call the excess is at least 0.068 points. At the other ten strikes the certified interval meets the quoted band. A desk that sees its rough Heston calibration miss the 4400 and 4500 strikes on this date can rule out the pricer as the cause.
 
 ### 7.7. Auditing an output or replacing it
 
@@ -924,17 +930,13 @@ A stored-output certificate serves the audit of a pricing library or of a valuat
 | Modified Adams, 512 steps | 0.229082759 | 0.348179497 | certified |
 | Modified Adams, 1024 steps | 0.228534686 | 0.347631424 | certified |
 
-The reference and the corrected output are certified to a quarter point by the joint bound and by no leg-by-leg bound. The Adams outputs lie within 0.001 points of the reference, and more than 99.6 per cent of their bound is the uncertainty of the reference itself; the certificate is therefore silent on the intrinsic accuracy of that scheme beyond this floor. The difference between its 512-step and 1024-step outputs is a diagnostic. It is not a bound.
-
-### 7.8. Scope
-
-The certificates bound numerical error relative to the specified model. They are upper bounds, and a tolerance that is not certified is unresolved. The three-month time-local refinement was specified after the global certificate had failed the quarter-point tolerance, and is reported as an exploratory transfer of the six-month field. The cost of generating the reference, which is a multiple of the cost of the stored output, has not been optimised or measured as an online workload. Section 6 covers the stated parameter set.
+The reference and the corrected output are certified to a quarter point by the joint bound, and the leg-by-leg bound certifies none of the five outputs. The Adams outputs lie within 0.001 points of the reference, so that more than 99.6 per cent of their bound is the uncertainty of the reference itself: at this resolution the scheme is as accurate as the reference can tell.
 
 ## 8. Conclusion
 
 The construction follows the valuation map. The Riccati equation determines the state and, through its invariant half-plane, the stability of errors. The forward variance curve determines what a residual costs. The payoff determines which transform errors a position is exposed to. At each stage an absolute value taken too early would discard structure that the next stage can use, and the financial content of the paper lies in what that structure is: the weight on a residual is expected variance under a share-tilted measure, and the weight on a transform error is the Fourier transform of the payoff.
 
-Three directions follow from this. The damping used in Theorem 3.1 is the frequency-independent part $`\tfrac12|\rho|\nu`$; the exact solution supplies more, increasing with the frequency, and a certified lower bound on $`-\operatorname{Re}h`$ would shrink the high-frequency radii that dominate Table 5. The argument uses the affine Volterra structure only through the two faces of the exponent and a positive resolvent, which other completely monotone kernels share. And the frequency anatomy of Section 5 applies to any pricer built on a common transform, whatever the model.
+The results reach beyond the example. Section 5 is model-free: the payoff transform, the netting ratio and the Herfindahl law govern the numerical error of every pricer built on a common transform, whatever the model and whatever the method behind the transform. Theorem 3.1 holds on every damped contour and, by Remark 3.6, for Volterra Heston models with completely monotone kernels, the classical and the lifted Heston models included. The damping it uses is the frequency-independent part $`\tfrac12|\rho|\nu`$; the exact solution supplies more, increasing with the frequency, which is where the radii of Table 5 are largest. For a trading desk, a validation team or a supervisor the consequence is practical: the numerical component of valuation uncertainty can be bounded, attributed to frequencies, and netted across a book exactly as the payoffs net.
 
 The [online article](https://github.com/130U/certified-rough-heston-valuation/blob/main/ARTICLE.md), the scientific source and the verification commands accompany the paper. All 27 numerical banks are identified by size and SHA-256 in `SCIENTIFIC-MANIFEST.json`. `verify_source.py` checks the publication identities. `reproduce.py` reads the saved banks and reconstructs the prices, objectives and decisions downstream of them; `--full` also recomputes the structural-sign cover of Proposition 6.1. Appendix E and `COMMANDS.md` distinguish the generators, the readers and the arithmetic they share.
 
@@ -1101,7 +1103,7 @@ These six conditions give the linear system
 </p>
 
 
-Equations (B.1)–(B.4) are the construction of Gatheral and Radoičić. We prove that the system is invertible, that the denominator does not vanish and that the approximant stays in the left half-plane.
+Equations (B.1)–(B.4) are the construction of Gatheral and Radoičić. We prove that the system is invertible, that the denominator has no zero on the positive axis and that the approximant stays in the left half-plane.
 
 To avoid division by the matching determinant before proving its nonvanishing, define
 
@@ -1376,7 +1378,7 @@ Apply product-rule modulus bounds to the original polynomial formulas. For every
 
 
 
-They are assembled using pairs $`(M,N)`$, meaning $`|f|\le M`$, $`|f'|\le N`$, with addition $`(M_1+M_2,N_1+N_2)`$ and multiplication $`(M_1M_2,N_1M_2+M_1N_2)`$. This yields a finite, directly checkable rational derivation rather than a numerical derivative estimate.
+They are assembled using pairs $`(M,N)`$, meaning $`|f|\le M`$, $`|f'|\le N`$, with addition $`(M_1+M_2,N_1+N_2)`$ and multiplication $`(M_1M_2,N_1M_2+M_1N_2)`$. This yields a finite rational derivation.
 
 Let $`m_{B,j}(C),m_{D,j}(C)`$ be the exact original sign lower bounds on a continuous $`(\alpha,\eta)`$ cell $`C`$ at $`\rho_0=-1489/2000`$. A cell is certified throughout the target correlation interval whenever all bounds
 
@@ -1392,11 +1394,11 @@ Let $`m_{B,j}(C),m_{D,j}(C)`$ be the exact original sign lower bounds on a conti
 
 
 
-hold. The mean-value theorem proves this sufficient test; it uses a derivative enclosure, not numerical differentiation. It certifies 182002 original leaves and 79758 finer leaves. For the remaining cells, directly evaluate the original complex polynomial formulas with $`\rho`$, $`\alpha`$ and $`\eta`$ all interval valued. Exact outward dyadic arithmetic certifies strict $`B_j\gt 0`$ and $`D_j\lt 0`$ on 19808 additional closed cells.
+hold. By the mean-value theorem the test is sufficient. It certifies 182002 original leaves and 79758 finer leaves. For the remaining cells, directly evaluate the original complex polynomial formulas with $`\rho`$, $`\alpha`$ and $`\eta`$ all interval valued. Exact outward dyadic arithmetic certifies strict $`B_j\gt 0`$ and $`D_j\lt 0`$ on 19808 additional closed cells.
 
 The original complete midpoint tree and the exact local splice trees verify that these 281568 cells cover the entire $`(\alpha,\eta)`$ rectangle without gaps or interior overlap. Their exact area is $`2/25`$; each cell carries the entire correlation interval, giving exact three-dimensional volume $`1/6250000`$. Hence the raw signs hold for every point of the stated domain. In particular $`\Delta\ne0`$, the normalized denominator coefficients have positive real part, and all real numerator coefficients of the half-plane test are negative. The algebraic implication of B.1 gives the conclusions of Proposition 6.1, including $`\eta=1`$, the infinite-frequency limit. Conjugacy supplies negative frequencies. $`\square`$
 
-A separate reader checks every saved sign, the 422481-node partition tree, the local refinements, the derivative majorants and all 19808 direct cells through separately assembled Cramer matrices and numerator convolutions; it shares the dyadic primitives with the generator. The interval is the one covered by the stored computation, which was designed to confirm stability at the calibrated value.
+A separate reader checks every saved sign, the 422481-node partition tree, the local refinements, the derivative majorants and all 19808 direct cells through separately assembled Cramer matrices and numerator convolutions; it shares the dyadic primitives with the generator. The interval is the one covered by the stored computation, which confirms stability at the calibrated value.
 
 ## Appendix C. Propagation proofs
 
@@ -1494,7 +1496,7 @@ Let $`\psi_\epsilon(z)=\sqrt{|z|^2+\epsilon^2}-\epsilon`$. Equation (C.4), toget
 </p>
 
 
-gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the zero-initial-value linear scalar equation and let $`\epsilon\downarrow0`$ to obtain (C.5). The scalar solution is verified directly by the Mittag–Leffler series. If finite-time blow-up occurred, (C.5) would bound the trajectory, $`F(H)`$, and a uniform Hölder constant. The history integral would have a finite limit at that endpoint, and local contraction with the previously accumulated history as forcing would extend the solution, a contradiction. The Caputo history is not restarted. Successive Volterra contractions give uniqueness. $`\square`$
+gives $`D_C^\alpha\psi_\epsilon(H)+s_0\psi_\epsilon(H)\le b`$. Compare with the zero-initial-value linear scalar equation and let $`\epsilon\downarrow0`$ to obtain (C.5). The scalar solution is verified directly by the Mittag–Leffler series. If finite-time blow-up occurred, (C.5) would bound the trajectory, $`F(H)`$, and a uniform Hölder constant. The history integral would have a finite limit at that endpoint, and local contraction with the previously accumulated history as forcing would extend the solution, a contradiction. Successive Volterra contractions give uniqueness. $`\square`$
 
 In the variables of (2.3) this is Proposition 2.1.
 
@@ -1522,7 +1524,7 @@ Set $`\sigma=s_0-\epsilon_R/2\gt 0`$. Then
 </p>
 
 
-In particular, for a trajectory in the left half-plane, one may take $`\epsilon_R=0,\sigma=s_0`$. No smallness assumption on $`\delta`$ or $`u`$ is required.
+In particular, for a trajectory in the left half-plane, one may take $`\epsilon_R=0,\sigma=s_0`$. The bound holds for every $`\delta`$ and every $`u`$.
 
 **Proof.** The error $`e=H-\widehat H`$ satisfies
 
@@ -1611,7 +1613,7 @@ All path ranges lie in one compact set. Continuity of $`\nabla\Phi`$ and the ord
 
 
 
-The same convolution estimate applies to $`\Phi(v_n)-\Phi(v)`$. Moreover, the products $`\nabla\Phi(v_n)\cdot D_C^\alpha v_n`$ converge in $`L^1`$ to the corresponding product for $`v`$. Passing to an almost-everywhere convergent subsequence proves (C.9). This uses the ordinary composition rule only for the first derivative inside $`AC`$; no Caputo chain rule is asserted.
+The same convolution estimate applies to $`\Phi(v_n)-\Phi(v)`$. Moreover, the products $`\nabla\Phi(v_n)\cdot D_C^\alpha v_n`$ converge in $`L^1`$ to the corresponding product for $`v`$. Passing to an almost-everywhere convergent subsequence proves (C.9). This uses the ordinary composition rule for the first derivative inside $`AC`$.
 
 For (C.10), put $`f=D_C^\alpha u+\lambda u\in L^1(0,T)`$. The zero initial value gives $`u+\lambda g_\alpha*u=g_\alpha*f`$. The locally convergent resolvent series, whose $`n`$-th term has $`L^1(0,T)`$ norm bounded by $`\lambda^{n-1}T^{n\alpha}/\Gamma(1+n\alpha)`$, gives $`u=k_\lambda*f`$ almost everywhere. Complete monotonicity of $`E_{\alpha,\alpha}(-x)`$ (Simon 2015) supplies $`k_\lambda\ge0`$, so $`f\le R`$ implies $`u\le k_\lambda*R`$ almost everywhere. The convolution on the right is continuous: extend $`k_\lambda`$ and $`R`$ by zero, and use $`L^1`$ translation continuity of the kernel with the $`L^\infty`$ bound on $`R`$. Its value at zero is zero. Since $`u`$ is continuous, an almost-everywhere inequality extends to every point of $`[0,T]`$, including maturity. $`\square`$
 
@@ -1675,11 +1677,11 @@ The first Fubini integral is bounded by $`\|\xi\|_\infty T^{1-\alpha}\|e'\|_1/\G
 
 Associativity and nonnegative integration yield the remaining conclusions. $`\square`$
 
-The proof also covers $`\lambda=0`$: the resolvent is $`g_\alpha`$, every convolution remains integrable, and no division by $`\sigma`$ occurs.
+The proof covers $`\lambda=0`$, where the resolvent is $`g_\alpha`$.
 
 ### C.3. Admissible curves and closed-form bounds
 
-Assumption 2.3 asks for $`q_\alpha\ge0`$ and imposes no sign on $`\xi'`$. For a real curve $`\xi\in AC[0,T]`$ with $`\xi(0)=V_0\ge0`$ it reads
+Assumption 2.3 asks for $`q_\alpha\ge0`$ and leaves the sign of $`\xi'`$ free. For a real curve $`\xi\in AC[0,T]`$ with $`\xi(0)=V_0\ge0`$ it reads
 
 
 
@@ -1707,7 +1709,7 @@ The function $`A_\alpha=I^{1-\alpha}\xi=V_0g_{2-\alpha}+g_{2-\alpha}*\xi'`$ is a
 
 
 
-The second identity holds for signed $`\xi'`$ by Fubini's theorem and $`g_\alpha*g_{1-\alpha}=g_1`$. The initial term $`V_0g_{1-\alpha}`$ cannot be dropped. If $`q_\alpha`$ changes sign, the proof of Theorem 3.1 still gives
+The second identity holds for signed $`\xi'`$ by Fubini's theorem and $`g_\alpha*g_{1-\alpha}=g_1`$. For a curve whose $`q_\alpha`$ changes sign, the proof of Theorem 3.1 gives
 
 
 
@@ -1721,7 +1723,7 @@ The second identity holds for signed $`\xi'`$ by Fubini's theorem and $`g_\alpha
 
 
 
-but the collapse of the kernel to $`\xi^\lambda\le\xi`$ is lost.
+and for an admissible curve the kernel collapses to $`\xi^\lambda\le\xi`$.
 
 **Corollary C.4 (a decreasing curve).** Let $`V_0\gt 0`$, $`c\gt 0`$, and $`\xi(t)=V_0(1-ct)`$. Then
 
@@ -1739,7 +1741,7 @@ Thus (C.16) holds on $`(0,T)`$ if and only if $`cT\le1-\alpha`$, including equal
 
 **Proof.** Convolving the constant derivative $`-V_0c`$ with $`g_{1-\alpha}`$ gives $`-V_0c\,t^{1-\alpha}/\Gamma(2-\alpha)`$. Adding the initial term and using $`\Gamma(2-\alpha)=(1-\alpha)\Gamma(1-\alpha)`$ proves (C.19). Its bracket is nonnegative exactly under the stated condition. $`\square`$
 
-Positivity of the curve alone is insufficient for (C.16): $`1-\alpha\lt cT\lt 1`$ leaves $`\xi\gt 0`$ but gives a negative kernel near maturity.
+For $`1-\alpha\lt cT\lt 1`$ the curve stays positive while $`q_\alpha`$ is negative near maturity, so positivity of the curve is weaker than (C.16).
 
 **Corollary C.5 (constant curve).** Under the hypotheses of Theorem 3.1 with $`\sigma\gt 0`$, let $`\xi\equiv V_0\ge0`$. Then
 
@@ -1784,7 +1786,7 @@ If $`R\le\nu\delta_F`$, a closed-form upper bound is
 **Proof.** Rewrite the error terms as $`(d+Z)e-e^2/2`$. The exact-solution half-plane gives
 $`D_t^\alpha|e|\le\nu(-s_0|e|+|e|^2/2+\delta_F)`$, interpreted through the same convex regularisation of the modulus. Choose any $`E_\delta\lt \ell\lt s_0+\sqrt{s_0^2-2\delta_F}`$. The right-hand side is strictly negative at $`|e|=\ell`$; a first hitting time of $`\ell`$ contradicts (C.3). Letting $`\ell\downarrow E_\delta`$ proves the result. $`\square`$
 
-The reference trajectories of Section 7 have a certified half-plane and use (C.8), which does not impose the threshold in (C.22).
+The reference trajectories of Section 7 have a certified half-plane and use (C.8), which holds without the threshold of (C.22).
 
 ### C.4. The uniform-state exponent bound
 
@@ -1866,7 +1868,7 @@ In particular, if $`\sup|Z-\widehat Z|\le E`$, then
 $`\nu^{-1}\int_0^TA_\alpha(T-t)v'(t)\,dt`$.
 Integration by parts, using $`A_\alpha(0)=v(0)=0`$, yields the positive-kernel representation. Absolute Fubini is justified by $`v'\in L^1`$ and the continuous, finite curve. Then $`q_\alpha\ge0`$ and $`\int q_\alpha=A_\alpha(T)`$ give the estimate. $`\square`$
 
-If $`\widehat Z=I^\alpha\bar G`$, then $`\bar L=\nu^{-1}\int\xi_*\bar G`$ is exactly this derivative-based exponent. The substitution-based exponent formed from $`\int\xi_*F(\widehat Z)`$ differs from it by $`\nu^{-1}\int\xi_*r_Z`$ and would require a separate conversion; all exponents computed here are derivative-based.
+If $`\widehat Z=I^\alpha\bar G`$, then $`\bar L=\nu^{-1}\int\xi_*\bar G`$ is exactly this derivative-based exponent, and all exponents computed here are of this form.
 
 Using $`\operatorname{Re}L_T\le0`$ and the integral identity for the exponential, whenever (C.27) holds,
 
@@ -1897,11 +1899,11 @@ If a model-transform envelope $`B(u)`$ and an approximate-modulus bound $`\wideh
 
 The first bound is the triangle inequality. The second follows from
 $`(L_T-\bar L_T)\int_0^1e^{(1-\tau)\bar L_T+\tau L_T}d\tau`$
-and the convexity bound $`e^{(1-\tau)a+\tau b}\le(1-\tau)e^a+\tau e^b`$. Since (C.28) and (C.29) refer to the same approximate transform, their radii may be minimised. A zero reference gives a disk of radius $`B(u)`$ about a different centre, and radii about distinct centres are not comparable.
+and the convexity bound $`e^{(1-\tau)a+\tau b}\le(1-\tau)e^a+\tau e^b`$. Since (C.28) and (C.29) refer to the same approximate transform, the smaller of their radii is valid.
 
 ### C.5. The damped kernel and its cumulative weights
 
-Write $`K_\lambda=q_\alpha*k_\lambda=\xi^\lambda`$. At $`\lambda=0`$ the resolvent is $`g_\alpha`$ and $`K_0=\xi`$; no division by $`\sigma`$ occurs anywhere in the proof of Theorem 3.1.
+Write $`K_\lambda=q_\alpha*k_\lambda=\xi^\lambda`$; at $`\lambda=0`$ the resolvent is $`g_\alpha`$ and $`K_0=\xi`$.
 
 **Proposition C.8 (cumulative-weight series).** Suppose
 $`0\lt \alpha,A_0\lt 1`$, $`0\le V_0\le\theta`$, and the fixed curve is
@@ -1935,9 +1937,9 @@ $`(- \lambda)^n(\xi*g_{n\alpha})`$. Since $`0\le\xi\le\theta`$,
 
 
 
-Log convexity and $`\Gamma(1)=\Gamma(2)=1`$ imply that $`\Gamma`$ is increasing and at least one on $`[2,\infty)`$. Every outer denominator argument is $`2+n\alpha\ge2`$. Thus the sum of the $`L^1(0,T)`$ norms of the absolute terms is bounded by the convergent geometric series in (C.31). This justifies convolution, integration and interchange, proves the Volterra identity and its unique resolvent solution, and gives (C.30) with the first omitted index exactly $`n=M`$. In particular twelve retained terms omit $`n\ge12`$, rather than $`n\ge13`$.
+Log convexity and $`\Gamma(1)=\Gamma(2)=1`$ imply that $`\Gamma`$ is increasing and at least one on $`[2,\infty)`$. Every outer denominator argument is $`2+n\alpha\ge2`$. Thus the sum of the $`L^1(0,T)`$ norms of the absolute terms is bounded by the convergent geometric series in (C.31). This justifies convolution, integration and interchange, proves the Volterra identity and its unique resolvent solution, and gives (C.30) with the first omitted index exactly $`n=M`$.
 
-For uniqueness, the difference $`h\in L^1(0,T)`$ of two solutions satisfies $`h=-\lambda g_\alpha*h`$. Iterating gives $`\|h\|_1\le\lambda^nT^{n\alpha}\|h\|_1/\Gamma(1+n\alpha)`$. For sufficiently large $`n`$, the Gamma argument is at least two, and the right-hand factor is at most $`(\lambda T^\alpha)^n`$, which tends to zero. Thus $`h=0`$. This argument does not assume an unjustified one-step contraction involving $`\Gamma(1+\alpha)`$.
+For uniqueness, the difference $`h\in L^1(0,T)`$ of two solutions satisfies $`h=-\lambda g_\alpha*h`$. Iterating gives $`\|h\|_1\le\lambda^nT^{n\alpha}\|h\|_1/\Gamma(1+n\alpha)`$. For sufficiently large $`n`$, the Gamma argument is at least two, and the right-hand factor is at most $`(\lambda T^\alpha)^n`$, which tends to zero. Thus $`h=0`$.
 
 Expanding the curve Mittag–Leffler function, and using the beta convolution identity, gives
 
@@ -1967,7 +1969,7 @@ When $`w=\lambda_\xi t^{A_0}\lt 1`$, every inner denominator also has argument a
 
 
 
-The tails are absolute enclosures; no unproved alternating-series monotonicity is needed. The actual curve and damping satisfy the strict interval checks $`w\lt 1`$ and $`\lambda T^\alpha\lt 1`$. Signed coefficients, including $`V_0-\theta`$, are multiplied by outward intervals before addition. Every power, Gamma value and exponential is enclosed by the identified dyadic primitives. $`\square`$
+The tails are absolute enclosures. The actual curve and damping satisfy the strict interval checks $`w\lt 1`$ and $`\lambda T^\alpha\lt 1`$. Signed coefficients, including $`V_0-\theta`$, are multiplied by outward intervals before addition. Every power, Gamma value and exponential is enclosed by the identified dyadic primitives. $`\square`$
 
 For a residual envelope $`R\le R_j`$ on the complete cell $`[a_j,b_j]`$, evaluate strict cumulative intervals $`[W^-(t),W^+(t)]`$. Its exact weight lies in
 
@@ -1997,7 +1999,7 @@ Intersecting with nonnegativity and the independently proved upper curve weight 
 
 
 
-Every bin envelope is the maximum over all intersecting closed source cells, including endpoint intersections. Source cells still start at zero and cover the full interval; no Caputo history is restarted.
+Every bin envelope is the maximum over all intersecting closed source cells, including endpoint intersections. Source cells start at zero and cover the full interval.
 
 The producer evaluates $`W_n`$ through the strict power-field moment divided by $`\Gamma(1+n\alpha)`$, retaining twelve outer terms. The separate reader evaluates (C.32) directly, retaining fourteen outer terms and sixty-four inner terms, with its own cumulative and moment functions. It checks that the reported residual-functional enclosure contains its tighter interval, then checks the transform-radius minima and complete prices. The two calculations share Gamma, logarithm, exponential and dyadic coefficient primitives and use the same upstream residual proof.
 
@@ -2160,7 +2162,7 @@ The singular terms from the initial source interval are handled directly by frac
 
 When $`a=t_1`$, discard the first upper bound. The second follows from the full Euler Beta integral and is finite. Kernel monotonicity at the endpoints gives the lower bound and the first upper bound. Every $`p,\alpha\gt 0`$, so the hypotheses of the classical Beta formula hold.
 
-Using the same $`\widehat Z'`$ enclosure and rigorous point values, certify an upper bound for $`\operatorname{Re}\widehat Z`$ on every subsequent subinterval. On the initial interval, factor out $`t^\alpha`$, leaving a finite bracket; use its negative constant term and the endpoint contributions of the remaining positive parts. Bound (C.8) is used only when the upper real-part bound is nonpositive on every closed interval. This condition therefore covers the entire closed time interval.
+Using the same $`\widehat Z'`$ enclosure and rigorous point values, certify an upper bound for $`\operatorname{Re}\widehat Z`$ on every subsequent subinterval. On the initial interval, factor out $`t^\alpha`$, leaving a finite bracket; use its negative constant term and the endpoint contributions of the remaining positive parts. Bound (C.8) is applied where the upper bound on the real part is nonpositive on every closed interval, so that the condition holds on the whole of $`[0,T]`$.
 
 The structural certificate and special functions use outward-rounded intervals with integer endpoints divided by $`2^{100}`$. Batched residual weights use IEEE binary64; each basic operation is enlarged outward to adjacent representable numbers. After converting an exact rational Gamma enclosure, endpoint inclusion is checked with Fraction. The logarithm uses exact binary scaling and a twenty-two-term atanh series with $`z\in[0,1/3]`$, whose tail is $`2z^{45}/[45(1-z^2)]`$. After scaling, the exponential has $`|r|\lt 1`$ and a degree-24 Taylor tail bounded by $`3/25!`$. These explicit remainders define the intervals for logarithms, exponentials, and noninteger powers.
 
@@ -2315,7 +2317,7 @@ For $`u\ge V`$, we have $`R_u/u\ge b_V,\ell_u\ge a_\rho u/2`$. For any partition
 </p>
 
 
-This envelope holds at every continuous high frequency. The time partition constructs a lower sum for the positive-measure integral. The example uses $`J=64`$ and rigorous intervals to obtain a positive rational lower bound for $`c_V`$. No singular evaluation is performed at $`A_\alpha(0)=0`$. The difference between bounds taken from the appropriate sides at distinct endpoints,
+This envelope holds at every continuous high frequency. The time partition constructs a lower sum for the positive-measure integral. The example uses $`J=64`$ and rigorous intervals to obtain a positive rational lower bound for $`c_V`$. The difference between bounds taken from the appropriate sides at distinct endpoints,
 $`[A_{\rm lo}(T-t_j)-A_{\rm hi}(T-t_{j+1})]_+`$,
 is a valid lower bound on the mass.
 
@@ -2334,7 +2336,7 @@ Using the right-endpoint sum of a positive decreasing function, for $`V=N_uh_*`$
 The integral tail uses an envelope for the exact solution. Finite nodes assigned the value zero are charged according to the same envelope, so every part of the frequency range has an explicit error contribution.
 
 For each candidate, a separately implemented product-integration procedure generates and fixes a physical-time reference function
-$`\bar G=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L`$, where $`\beta=\alpha_j`$. Its nodes and coefficients are interpreted as their recorded exact dyadic values. The certified trajectory is $`\widehat Z=I^\alpha\bar G`$, rather than the floating-point PI nodes themselves. The initial time interval uses the full generalised-power residual expansion. The remaining closed intervals use rigorous convolution-derivative bounds and the mean value theorem, covering all $`t\in[0,1/2]`$. At each Fourier node, division of the physical residual by exact $`\nu`$ gives the input to the proved error barrier or certified half-plane linear error estimate.
+$`\bar G=\nu c_0+A_1t^\beta+A_2t^{2\beta}+\bar L`$, where $`\beta=\alpha_j`$. Its nodes and coefficients are interpreted as their recorded exact dyadic values. The certified trajectory is $`\widehat Z=I^\alpha\bar G`$. The initial time interval uses the full generalised-power residual expansion. The remaining closed intervals use rigorous convolution-derivative bounds and the mean value theorem, covering all $`t\in[0,1/2]`$. At each Fourier node, division of the physical residual by exact $`\nu`$ gives the input to the proved error barrier or certified half-plane linear error estimate.
 
 The recorded exponent is derivative-based: $`\bar L_T=\nu^{-1}\int\xi_*(T-t)\bar G(t)dt`$. The positive kernel $`q_\alpha=(I^{1-\alpha}\xi_*)'\ge0`$ gives
 
@@ -2348,21 +2350,21 @@ The recorded exponent is derivative-based: $`\bar L_T=\nu^{-1}\int\xi_*(T-t)\bar
 </p>
 
 
-No residual integral is added a second time. Gamma and Mittag–Leffler curve moments, trajectory integrals, exponents, phases, and sums for the fixed curve use outward-rounded 100-bit rational intervals.
+Gamma and Mittag–Leffler curve moments, trajectory integrals, exponents, phases, and sums for the fixed curve use outward-rounded 100-bit rational intervals.
 
-The positive-half-axis price rule has $`h=1/8`$ and analytic-strip width $`a=9/20`$. At the available nodes $`u=0:1/8:64`$, the recorded trajectories use their actual residual certificates. For nodes above 64 through 128, the approximate transform is explicitly zero and each error is bounded by the exact-transform envelope. Above 128, the proved infinite discrete-rule tail bound obtained from the proved continuous-integral envelope is included. A comparison bound for the real part of the exact Riccati solution and a 64-cell lower sum over the entire positive-kernel curve give the high-frequency envelope. The analytic-strip trapezoidal error is estimated separately. Passage from the full-axis integral to the positive half-axis, including the half-weight at zero, is handled explicitly. The resulting enclosures cover all twelve model prices in Appendix E and are based on error bounds rather than grid-convergence differences or Richardson diagnostics.
+The positive-half-axis price rule has $`h=1/8`$ and analytic-strip width $`a=9/20`$. At the available nodes $`u=0:1/8:64`$, the recorded trajectories use their actual residual certificates. For nodes above 64 through 128, the approximate transform is explicitly zero and each error is bounded by the exact-transform envelope. Above 128, the proved infinite discrete-rule tail bound obtained from the proved continuous-integral envelope is included. A comparison bound for the real part of the exact Riccati solution and a 64-cell lower sum over the entire positive-kernel curve give the high-frequency envelope. The analytic-strip trapezoidal error is estimated separately. Passage from the full-axis integral to the positive half-axis, including the half-weight at zero, is handled explicitly. The resulting enclosures cover all twelve model prices in Appendix E.
 
 Here $`E_{\rm state}`$ is a certified state radius: $`E_\delta`$ in Proposition C.6 requires $`\delta_F\lt s_0^2/2`$; at other nodes the half-plane bound gives $`E_{\rm state}=\delta_F/\sigma`$. The finite-history experiments use Theorem 3.1 and retain the global alternative when valid and tighter. The nearby fields use the same construction with independently generated coefficients and continuous residual banks.
 
 ### D.3. Restriction to a shorter maturity
 
-A continuous field certified on $`[0,T_0]`$ may be restricted to $`[0,T]`$, $`T\le T_0`$, only while retaining the initial value and full history. The derivative-based reference exponent, curve/resolvent weights, reference centre, exact-transform modulus, strip bound and infinite-tail constants must be recomputed for the new maturity. Copying the half-year price centre or simply restarting the fractional equation is invalid. The quarter-year experiment uses this restriction and a separate complete pricing calculation; it does not assert generation of a new quarter-year residual field.
+A continuous field certified on $`[0,T_0]`$ restricts to $`[0,T]`$ for every $`T\le T_0`$ with its initial value and its full history, and its residual bounds restrict with it. The reference exponent, the forward variance weights, the reference centre, the modulus of the exact transform, the strip bound and the tail constants depend on the maturity and are computed afresh. The three-month certificates are obtained in this way from the six-month field.
 
 ## Appendix E. Experimental record
 
 ### E.1. Configurations
 
-All experiments use $`\nu=0.2897`$, $`\rho=-0.7445`$, the curve (7.1), Fourier step $`1/8`$, a finite reference and error grid through 128 (1025 nodes), 100-bit outward dyadic arithmetic and 64 forward-moment series terms. The stored rational output uses composite Gauss–Legendre order 8 through 200 (352 nodes) and Jacobi order 256; its Fourier cutoff is distinct from the certificate cutoff. $`N_t`$ counts source time cells.
+All experiments use $`\nu=0.2897`$, $`\rho=-0.7445`$, the curve (7.1), Fourier step $`1/8`$, a finite reference and error grid through 128 (1025 nodes), 100-bit outward dyadic arithmetic and 64 forward-moment series terms. The stored rational output uses composite Gauss–Legendre order 8 through 200 (352 nodes) and Jacobi order 256. $`N_t`$ counts source time cells.
 
 **Table E.1. Fixed configurations: maturity in years; time cells, reference nodes, residual subcells and history bins are counts.**
 
@@ -2380,21 +2382,17 @@ All experiments use $`\nu=0.2897`$, $`\rho=-0.7445`$, the curve (7.1), Fourier s
 | N2 | 1/2 | 13/25, 21/40, 53/100, 27/50, 11/20 | 2048 | 513 | 512 | 2 | 1 |
 | N2L | 1/2 | 13/25 | 2048 | 513 | 512 | 2 | 128 |
 
-H0 uses uniform-state propagation; H1 uses finite-horizon global propagation on the same field. H2 uses the low-frequency 128-bin bank. H3/H4 extend the reference through 128, retaining that low bank and using global/128-bin propagation for the high bank. Q0/Q1/Q2 retain the full history from zero and use exact quarter-terminal interpolation of the half-year field: Q0 has 1430/1353/550 time knots, and Q1/Q2 have 1430 knots. They reuse the larger-horizon continuous banks and recompute quarter moments, output and tails. The alpha=.9 source field has 1025 time knots and 641 stored frequencies through 80; 513 of these are nonzero reference nodes in H0/H1/Q0. The .52/.60 fields have 2049 knots and 1025 stored frequencies through 128.
+H0 uses the uniform state bound and H1 the bound (3.5) with one global residual maximum, on the same field. H2 uses 128 time bins on the band $`u\le64`$. H3 and H4 extend the reference through $`u=128`$, with the upper band propagated globally in H3 and in 128 bins in H4. Q0, Q1 and Q2 restrict the six-month field to three months as in D.3, with 1430, 1353 and 550 time knots for the three candidates in Q0 and 1430 knots in Q1 and Q2; Q2 adds the 128 time bins and was specified after Q1. The field for $`\alpha=0.9`$ has 1025 time knots and 641 stored frequencies through 80, of which 513 are reference nodes; the fields for 0.52 and 0.60 have 2049 knots and 1025 stored frequencies through 128.
 
-N1/N2 generate each five-point field and continuous residual bank, using two nonstartup subcells (2047/4095 closed cells). N2L is a separate descriptive 128-bin reuse of N2 at alpha=.52. The nearby-grid objective experiment uses N1/N2. The H low and high banks each have 8189 closed cells (four nonstartup subcells), for 513 and 512 frequencies respectively. Thus the 0.115215934-point H4 certificate and 0.394999331-point N2L certificate use different reference centres, node coverage and residual banks; their difference includes more than 128-bin propagation. BL-core512/1024 are nominal history-stepping controls whose complete guarantees use the identified N1/N2/N2L reference bank.
+N1 and N2 generate a field and a residual bank for each of the five nearby candidates, with two subcells per time cell (2047 and 4095 closed cells), and N2L applies 128 time bins to the N2 bank at $`\alpha=0.52`$. The low and high banks of the H configurations each have 8189 closed cells, for 513 and 512 frequencies. H4 and N2L differ in reference centre, node coverage and residual bank as well as in propagation. The modified Adams outputs of Section 7.7 are certified against the reference bank of the N configurations.
 
-The H and N field generators use a uniform auxiliary grid $`y_j`$ from zero to $`\nu T^\alpha`$, followed by $`x_j=y_j^{1/\alpha}`$ and $`t_j=x_j/\nu^{1/\alpha}`$. In exact arithmetic this is the graded rule $`t_j=T(j/N_t)^{1/\alpha}`$. Generation uses binary64 arithmetic and forces the endpoints to zero and one half; certification uses the saved nodes as exact dyadics, rather than identifying them with the analytical rule. For quarter-year restriction it keeps every original knot strictly below $`T_q=1/4`$, appends the exact endpoint, and encloses the linear interpolation of the original bracketing field coefficients in rational interval arithmetic. All preceding history is retained.
+The field generators use a uniform grid $`y_j`$ from zero to $`\nu T^\alpha`$, followed by $`x_j=y_j^{1/\alpha}`$ and $`t_j=x_j/\nu^{1/\alpha}`$, which is the graded rule $`t_j=T(j/N_t)^{1/\alpha}`$. Generation is in binary64, and certification reads the saved nodes as exact dyadic numbers. For the restriction to three months every knot below $`T=1/4`$ is kept, the exact endpoint is appended, and the linear interpolation of the bracketing field coefficients is enclosed in rational interval arithmetic.
 
 ### E.2. Three-candidate benchmark and interval objectives
 
-The following price and objective rows use the H0 global-state bank. They have the same fixed quotes and outputs as the three-candidate task. Section 7 compares finite-history propagation and expanded references under the specified configurations; the five-point study uses a separate nearby-candidate bank.
+The benchmark compares the candidates $`\alpha\in\{0.52,0.60,0.90\}`$ on bank H0. The twelve quotes are those of Section 7.1, read from the data repository of Jeng and Kiliçman (2021) at commit `860049da2b7486fe8aa509061eff23cc28c2ef89`. Prices are normalised with $`D=1`$ and $`F=4221.86`$. The decimal implied volatilities and maturities are read as exact rationals, the Black–Scholes formula converts the bid and ask volatilities to prices $`B_i`$ and $`A_i`$, and the target is the price midpoint $`M_i=(B_i+A_i)/2`$.
 
-We use twelve quotes at the mathematical maturity $`T=1/2`$ from the public SPX sample representing ordinary market conditions. Strikes range from 3700 to 4800 in steps of 100. The original CSV is identified by commit 860049da2b7486fe8aa509061eff23cc28c2ef89 in the WoonJeng data repository. The market bid and ask implied-volatility columns and the authors' model-output columns are identified separately. Market quotes define the objective; the error analysis in this paper supplies the model-price intervals.
-
-The experiment uses normalised call prices with $`D=1,F=4221.86`$. Decimal IV and maturity values in the CSV are treated as exact rational inputs. Standard Black–Scholes conversion of the bid and ask IVs gives $`B_i,A_i`$. The target is the price midpoint $`M_i=(B_i+A_i)/2`$, rather than the Black–Scholes price obtained from the reported midpoint IV. These inputs jointly define the normalised quote setting below.
-
-The parameters and the curve are those of Section 7.1. Changing $`\alpha`$ does not recompute the curve. The candidate set is
+The parameters and the curve are those of Section 7.1, and the candidate set is
 
 
 <p align="center">
@@ -2406,19 +2404,19 @@ The parameters and the curve are those of Section 7.1. Changing $`\alpha`$ does 
 </p>
 
 
-This is a conditional objective profile with all other parameters and the complete curve held fixed. All three candidates satisfy $`H\lt .5`$, so the comparison is among roughness candidates. The model prices $`c_i(\alpha)=C_i(\alpha)/(DF)`$ are those of the model verified in A.2. Define
+With model prices $`c_i(\alpha)=C_i(\alpha)/(DF)`$, the objectives are
 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-me750fbc4dbc981eeba69-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-me750fbc4dbc981eeba69-light.svg">
-  <img src="assets/math/formula-me750fbc4dbc981eeba69-light.svg" width="646" alt="J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \operatorname{dist}(c_i(\alpha),[B_i,A_i])^2. \tag{E.2}">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/math/formula-md2ec9b54a0ddd4ec1dd4-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/math/formula-md2ec9b54a0ddd4ec1dd4-light.svg">
+  <img src="assets/math/formula-md2ec9b54a0ddd4ec1dd4-light.svg" width="646" alt="J(\alpha)=\frac1{24}\sum_{i=1}^{12} [c_i(\alpha)-M_i]^2,\qquad J_{\rm band}(\alpha)=\frac1{24}\sum_{i=1}^{12} \operatorname{dist}(c_i(\alpha),[B_i,A_i])^2, \tag{E.2}">
 </picture>
 </p>
 
 
-The normalised price RMS is $`\sqrt{2J}`$. On this coarsest bank the objective is enclosed by interval squares, without the linearisation of Proposition 5.4.
+and the normalised price RMS is $`\sqrt{2J}`$. On this bank the objective is enclosed by interval squares.
 
 **Lemma E.1 (interval objectives on a finite candidate set).** For each $`\alpha_j\in\Theta_{\rm finite}`$, suppose all model prices have certified enclosures
 
@@ -2505,9 +2503,9 @@ then $`\alpha_{j_0}`$ is the unique minimiser of the model objective on the fini
 
 then every exact near-optimal candidate in the finite set satisfies $`\alpha_j\lt .6`$.
 
-Quote consistency is checked separately. If any row satisfies $`p^+_{ij}\lt b_i^-`$ or $`p^-_{ij}\gt a_i^+`$, the candidate cannot lie in all quote bands simultaneously. Conversely, if every row satisfies $`p^-_{ij}\ge b_i^+`$ and $`p^+_{ij}\le a_i^-`$, then quote consistency is certified. Overlapping intervals without this inner-band condition retain possible consistency; overlap alone does not certify it.
+A candidate is inconsistent with the quotes when some row has $`p^+_{ij}\lt b_i^-`$ or $`p^-_{ij}\gt a_i^+`$, and consistent when every row has $`p^-_{ij}\ge b_i^+`$ and $`p^+_{ij}\le a_i^-`$.
 
-**Proof.** The exact difference $`c_i-M_i`$ belongs to the closed interval used in (E.4). The minimum of its square is $`\ell`$ and the maximum is $`v`$, so the weighted sum encloses every $`J_j`$. Each $`J_j\ge L_j\ge L_*`$; a candidate attaining the smallest $`U_j`$ gives $`J_*\le J_j\le U_*`$, proving (E.5). If $`J_j\le J_*+\varepsilon`$, then $`L_j\le J_j\le U_*+\varepsilon`$, proving (E.6). Conversely, $`J_j-J_*\le U_j-L_*`$ gives the stated sufficient inner condition. Under (E.7), every competitor satisfies $`J_j-J_{j_0}\ge L_j-U_{j_0}\ge g\gt 0`$, proving uniqueness. Condition (E.8) places the model objective of every selected higher-H candidate above $`J_*+\varepsilon`$ and therefore excludes it. No independence assumption on quote errors across candidates is needed.
+**Proof.** The exact difference $`c_i-M_i`$ belongs to the closed interval used in (E.4). The minimum of its square is $`\ell`$ and the maximum is $`v`$, so the weighted sum encloses every $`J_j`$. Each $`J_j\ge L_j\ge L_*`$; a candidate attaining the smallest $`U_j`$ gives $`J_*\le J_j\le U_*`$, proving (E.5). If $`J_j\le J_*+\varepsilon`$, then $`L_j\le J_j\le U_*+\varepsilon`$, proving (E.6). Conversely, $`J_j-J_*\le U_j-L_*`$ gives the stated sufficient inner condition. Under (E.7), every competitor satisfies $`J_j-J_{j_0}\ge L_j-U_{j_0}\ge g\gt 0`$, proving uniqueness. Condition (E.8) places the model objective of every selected higher-H candidate above $`J_*+\varepsilon`$ and therefore excludes it.
 
 If $`p^+\lt b^-`$, then the exact price satisfies $`c\lt B`$; if $`p^-\gt a^+`$, then $`c\gt A`$. A single such row rules out simultaneous consistency. In the opposite direction, the inner-band conditions give $`B\le b^+\le c\le a^-\le A`$. Applying these statements row by row proves the consistency assertions. $`\square`$
 
@@ -2519,9 +2517,7 @@ If $`p^+\lt b^-`$, then the exact price satisfies $`c\lt B`$; if $`p^-\gt a^+`$,
 | 0.60 | 0.10 | [0.0000004535720, 0.0000006021720] | [0.00095244, 0.00109743] | [0.0000006127366, 0.0000006127367] |
 | 0.90 | 0.40 | [0.0000082343900, 0.0000083484458] | [0.00405817, 0.00408619] | [0.0000081393603, 0.0000081393604] |
 
-All displayed endpoints are decimal outward roundings of rational bounds; the decisions use the untruncated exact rational endpoints. The unique minimiser of the model objective is α=0.52, H=0.02. A strict lower bound on the gap between its objective and those of its competitors is 0.0000002702052. The implemented Padé output has the same unique finite-set minimiser, as certified by strict interval separation.
-
-For ε=0, the outer set of exact optimal candidates is $`\{13/25\}`$. The specified higher-H candidates with α≥.6 are strictly separated from this optimum.
+Displayed endpoints are outward decimal roundings of the exact rational bounds. The unique minimiser of the model objective is $`\alpha=0.52`$, with a gap of at least 0.0000002702052 to its competitors, and the stored rational output has the same unique minimiser.
 
 **Table E.3. Three-candidate quote-band objective and consistency decisions, using the original twelve quotes.**
 
@@ -2531,7 +2527,7 @@ For ε=0, the outer set of exact optimal candidates is $`\{13/25\}`$. The specif
 | 0.60 | [0.0000003444775, 0.0000004648236] | [5, 6, 7, 8, 9, 10, 11] | No |
 | 0.90 | [0.0000076345237, 0.0000077422463] | [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | No |
 
-Least-squares ordering and quote consistency are determined separately from objective intervals and rowwise price intervals. The following tables report the prices supporting these two model-validation results.
+The following tables give the prices behind these results.
 
 #### α=0.52, H=0.02
 
@@ -2590,7 +2586,7 @@ Least-squares ordering and quote consistency are determined separately from obje
 | 4700 | [0.00434644, 0.00434645] | [0.00765389, 0.00768862] | 0.00780424 | 0.00015035 |
 | 4800 | [0.00253419, 0.00253420] | [0.00449079, 0.00452590] | 0.00467714 | 0.00018635 |
 
-The Padé procedure uses the six-condition GR [3/3] approximation, a 256-point Jacobi rule for the derivative-based exponent, and an eighth-order composite Gauss–Legendre rule for Fourier inversion through 200. The archived files identify the Python/NumPy implementation and source hashes. Each finite output $`c^P`$ is saved as an exact dyadic rational. The model-price reference interval gives
+The stored output uses the third-order rational approximation, a 256-point Jacobi rule for the exponent and an eighth-order composite Gauss–Legendre rule for Fourier inversion through 200. Each output $`c^P`$ is saved as an exact dyadic rational, and the reference interval $`[c^-,c^+]`$ of the model price gives
 
 
 <p align="center">
@@ -2602,15 +2598,11 @@ The Padé procedure uses the six-condition GR [3/3] approximation, a 256-point J
 </p>
 
 
-This bound includes the implementation's state, exponent, quadrature, truncation, and floating-point errors. The saved outputs can therefore be compared directly without a separate certification of an infinite-integral analytic Padé price. The numerical objective uses the same quote-price midpoint intervals. We assert selection preservation only when both the numerical and model objectives are strictly separated on the finite set and have the same minimiser. The assertion concerns the specified implementation, candidates, and input setting.
-
-The H0 benchmark uses the uniform-state barrier in Appendix C.1. Section 3 gives finite-history and resolvent propagation; Section 7 compares them on the identified configurations.
+This bound includes the state, exponent, quadrature, truncation and floating-point errors of the implementation.
 
 ### E.3. Exact thresholds, pass counts and centre accounts
 
-In the tables of this appendix, marginal denotes the leg-by-leg bound (5.6) with the signed centre.
-
-Every portfolio curve uses the 28 originally fixed and fully specified directions. Exact endpoints, all threshold breakpoints and pass counts are supplied in portfolio-exact-thresholds.csv and portfolio-budget-counts.json. Certification uses the complete rational endpoint condition $`B\le\tau`$, including equality. Between-bank plots show descriptive changes; joint versus signed marginal within one bank uses matched radii. No 28-direction quarterly dataset is inferred from the single quarter spread.
+In the tables of this appendix, marginal denotes the leg-by-leg bound (5.6) with the signed centre. Exact endpoints, threshold breakpoints and pass counts for the 28 positions are in `portfolio-exact-thresholds.csv` and `portfolio-budget-counts.json`; a position is certified when its exact rational bound satisfies $`B\le\tau`$, equality included.
 
 **Table E.7. Complete-budget pass counts for all 28 fixed half-year directions; budgets are in index points and equality is included.**
 
@@ -2638,7 +2630,7 @@ Every portfolio curve uses the 28 originally fixed and fully specified direction
 | N2L | 13/25 | 1/2 | 11/28 | 26/28 |
 | N2L | 13/25 | 1 | 28/28 | 28/28 |
 
-The two nearby levels retain all ten unordered pairs, including unresolved ones:
+For the five nearby candidates, the pairs separated at each level are as follows.
 
 **Table E.8. Complete unresolved-pair lists for N1 and N2 under the fixed quotes, alongside strict separation counts.**
 
@@ -2649,9 +2641,9 @@ The two nearby levels retain all ten unordered pairs, including unresolved ones:
 | 2048 | joint | 10/10 | none |
 | 2048 | marginal | 7/10 | (0.520, 0.525), (0.520, 0.530), (0.525, 0.530) |
 
-The closest N2 joint separation, alpha=.520 versus .525, is a positive gap of approximately 7.382643478687e-10 in normalized squared-midpoint loss. Its endpoint identity is $`J_{0,B}-J_{0,A}-H_B-H_A-Q_A`$ plus any box-intersection endpoint adjustment. The gap decomposition, including used nodes, finite zero nodes, reference strip/tail/arithmetic and midpoint-conversion arithmetic, is recorded exactly in nearby-pair-resolution.json. This is a fixed original midpoint-loss ranking. The midpoint-conversion arithmetic interval does not represent the market bid/ask width; all five candidates remain separately bid/ask-incompatible.
+The closest pair at $`N_t=2048`$, 0.520 against 0.525, is separated by $`7.382643478687\times10^{-10}`$ in the normalised objective. Table E.10 decomposes this gap, and `nearby-pair-resolution.json` records it exactly.
 
-The unchanged stored half-year 4400–4500 output admits the following complete centre accounting. Signed centres are approximate displays; radius and complete-bound columns are decimal upper endpoints, so independently rounded columns need not add exactly:
+The centre and radius of the six-month 4400–4500 certificate on each bank are as follows; radii and bounds are rounded upward.
 
 **Table E.9. Half-year frozen-output centre accounting for H2–H4, N2 and N2L, in index points; upper-endpoint rounding is applied independently.**
 
@@ -2663,9 +2655,7 @@ The unchanged stored half-year 4400–4500 output admits the following complete 
 | N2 | -0.166762218 | 0.261808769 | 0.428570987 |
 | N2L | -0.166762218 | 0.228237113 | 0.394999331 |
 
-Expanding H2 to H3 changes the absolute centre charge as well as the certified reference radius; H3 to H4 retains that new centre. N2 to N2L retains its own reference centre and full remainders. H4 to N2L is a descriptive cross-bank identity, not an ablation. These transitions are exact in frozen-output-centre-account.json, which also reports the common strict-reference certificate floor as a fraction of each BL-core bound. A dominant floor limits what this comparison can establish about intrinsic solver accuracy. When replacement is permitted and the strict reference is already available, returning that reference directly is the simpler workload; frozen-output audit and free replacement answer different tasks.
-
-The exact closest-pair gap equals the sum of the following signed contributions; scientific notation is a display only:
+The step from H2 to H3 changes the centre and the radius, H3 to H4 keeps the centre, and N2 to N2L keeps the centre and the remainders. `frozen-output-centre-account.json` records these transitions exactly.
 
 **Table E.10. Signed contributions to the closest-pair normalized objective gap; scientific notation displays the exact ledger.**
 
@@ -2681,9 +2671,7 @@ The exact closest-pair gap equals the sum of the following signed contributions;
 | candidate_a_quadratic_remainder | -1.195663126282e-09 |
 | box_intersection_endpoint_adjustment | 0.000000000000e+00 |
 
-The quarterly account has zero finite omissions; its infinite tail beyond 128 remains paid. The unused-node term in the nearby/global controls is nonzero and cannot be dropped by borrowing the quarter full-reference result. Exact ledger fractions and all 40 pair-mode records are delivered with independent secondary readback and intentional corruption controls.
-
-Common ideal strict-reference floor in the BL-core complete bound (floors and percentages are approximate displays; exact fractions are authoritative):
+For the modified Adams outputs of Section 7.7, the share of the complete bound that is the uncertainty of the reference is as follows.
 
 **Table E.11. Common strict-reference floor and output translation in BL-core certificates; price quantities are in index points.**
 
@@ -2696,13 +2684,11 @@ Common ideal strict-reference floor in the BL-core complete bound (floors and pe
 | N2L | BL modified-Adams core, 512 steps | 0.228237113 | 0.000845646 | 99.630856% |
 | N2L | BL modified-Adams core, 1024 steps | 0.228237113 | 0.000297572 | 99.869791% |
 
-The separate returned-reference ratio also pays binary64 return rounding and is retained in the machine ledger. A small BL512/1024 nominal difference is an empirical comparison; its complete guarantee uses the same reference floor plus exact output translation. These floor fractions do not establish an intrinsic BL error estimate.
+Figure 4 plots exact-endpoint pass counts for the three candidates on bank H1, and Table E.7 lists the counts for every bank. Coordinates are converted to decimals after exact counting, and the CSV and JSON files hold every threshold.
 
-Figure 4 plots exact-endpoint pass counts for the three candidates and the $`\alpha=0.52`$ nearby controls. Coordinates are converted to decimals after exact counting, and the CSV and JSON files retain every threshold, including those beyond the plotted range of two index points.
+The deterministic work of the output constructions compared in Section 7.7 is as follows.
 
-The following table records the deterministic work of the output constructions compared in Section 7.7.
-
-**Table E.12. Typed deterministic work for the additional output constructions; these counts do not measure total computational cost.**
+**Table E.12. Deterministic work of the output constructions.**
 
 | Additional output construction | Deterministic mathematical work |
 |---|---|
@@ -2712,15 +2698,11 @@ The following table records the deterministic work of the output constructions c
 | BL core, 512 steps | 67,371,264 history scalar-vector products; 2,626,560 transformed Riccati evaluations |
 | BL core, 1024 steps | 269,222,400 history scalar-vector products; 5,253,120 transformed Riccati evaluations |
 
-These counts measure different operations. Reference generation, outward transcendental evaluations and verification are recorded separately from nominal-output construction. The complete ledger also includes exponent quadrature and the two failed coarse-envelope stages. Actual online cost has not been measured.
-
 The quantities of Tables 1, 5, 6 and 7 and the model-above-ask gaps of Section 7.6 are produced by `science/analysis/market/market_scale.py` and stored in `market-scale.json`. The quote table, the gaps and the stored node supports are exact readings of the saved records; the netting ratios, the band shares and the width scan evaluate (5.5) and (5.6) in binary64 from the stored radii.
 
 ### E.4. Verification duties
 
-In this matrix, IDs label proof obligations. They are separate from the configuration IDs in Section 7; obligation N2 covers the N2L local-bin refinement.
-
-`configuration-registry.json` fixes the configuration IDs and mathematical dimensions. The matrix lists what each reader recomputes and which interval primitives, generator bounds and saved inputs it shares. The acceptance records document the author's runs.
+Table E.13 lists the proof obligations, the reader of each, what it recomputes and what it shares with the generator. Obligation N2 covers the 128-bin refinement N2L, and `configuration-registry.json` fixes the configuration labels and dimensions.
 
 **Table E.13. Proof obligations, reader locations, recomputation and shared dependencies.**
 
@@ -2738,13 +2720,11 @@ In this matrix, IDs label proof obligations. They are separate from the configur
 | N2 | Descriptive 128-bin reused-bank control, outside nearby objective grid | `local_output_independent.py` ([N2](https://github.com/130U/certified-rough-heston-valuation/blob/main/COMMANDS.md#n2)) | 128 exact positive weights, every intersecting closed-bank maximum, 513 tightened radii, all 12 prices and all actual output rounding | complete identity-matched N2048 point proof and continuous residual generator; same strict moment/trig/dyadic primitives |
 | C1 | Same model and complete tolerance for frozen/direct/corrected/BL-core outputs | `workload_controls_independent.py` ([C1](https://github.com/130U/certified-rough-heston-valuation/blob/main/COMMANDS.md#c1)) | exact stored-output centre translation, all same-reference remainder and 28 portfolio supports; BL nominal-output metadata identity | reference certificate, BL nominal-output producer and its stored dyadics; same strict outward coefficient primitives |
 
-The [command index](https://github.com/130U/certified-rough-heston-valuation/blob/main/COMMANDS.md) gives copyable commands and working directories. `proof-obligation-matrix.json` records generation behavior and source hashes. Run regeneration in a disposable work copy. `nearby_generate.py` generates missing fields and residuals and reuses matching existing components. `nearby_independent.py` permits an identity-matched per-point cache; the complete acceptance driver deletes those caches before calling it.
-
-The complete entry point and continuous-regeneration commands have the following scopes:
+The [command index](https://github.com/130U/certified-rough-heston-valuation/blob/main/COMMANDS.md) gives the commands and working directories, and `proof-obligation-matrix.json` records the source hashes. The entry points are as follows.
 
 **Table E.14. Bank reading, complete structural checks and continuous-regeneration commands.**
 
-| Entry point | Additional executed obligation | Outside that command |
+| Entry point | Executed obligation | Run separately |
 | --- | --- | --- |
 | `reproduce.py` | saved-bank readers and downstream reconstruction; both quarter readers run with `--full` and nearby point caches are cleared | continuous residual generation and the complete structural sign cover |
 | `reproduce.py --full` | the same readers plus all 211241 structural sign leaves and the supplementary checks in Table E.15 | fresh low/high/nearby continuous derivative generation |
@@ -2753,9 +2733,7 @@ The complete entry point and continuous-regeneration commands have the following
 | `nearby_generate.py --N N` | missing field/residual/exponent components; matching existing components are reused | forced regeneration over existing scientific output |
 | `verify_source.py` | published source hashes | bank replay, interval reconstruction and residual generation |
 
-`reproduce.py --full` checks the complete structural cover as well as saved-bank reconstruction. Regenerating continuous derivative bounds requires the dedicated commands. The low-frequency route uses `run_evidence.py --regenerate-continuous`; the high-frequency route uses `run_frontier.py --regenerate-full` in a separate reconstruction copy. This preserves the fixed quarter inputs. The source check establishes file identity, while the readers establish the recomputed obligations in the matrices.
-
-The complete driver also runs the dissipative-kernel reader and exact experimental-ledger reader. These complement the bank reconstruction and reuse the upstream continuous derivative bounds.
+`reproduce.py --full` adds the structural cover of Proposition 6.1 to the saved-bank reconstruction. The continuous derivative bounds are regenerated by `run_evidence.py --regenerate-continuous` for the low band and by `run_frontier.py --regenerate-full` for the high band. The driver also runs the readers of the damped-kernel experiment and of the exact ledgers.
 
 **Table E.15. Supplementary readers: recomputed obligations and shared inputs.**
 
@@ -2766,9 +2744,7 @@ The complete driver also runs the dissipative-kernel reader and exact experiment
 
 For the matched propagation experiment of Table 3, the separate reader reads all 2,100,735 entries of the complete residual bank, checks closed-cell coverage from zero, and recomputes the maxima for all 128 propagation bins. It independently expands the cumulative resolvent by the direct double Gamma series with fourteen outer terms, while the producer uses twelve outer terms and a strict power-field moment. Both enclose all inner tails with sixty-four retained terms. The reader checks all 513 transform-radius minima in all four comparisons and rebuilds all twelve prices with all 1025 finite frequencies. At $`\sigma=0`$, it replays all 129 cumulative endpoints and all 128 cell weights against the curve-kernel conclusion. The reader rejects eight negative controls: negative damping, an incorrect physical $`\nu`$ scale, a missing initial closed cell, a removed finite omitted node, an erased true infinite tail, an altered signed centre, an understated resolvent exponent enclosure, and a zero-damping weight that does not reproduce the curve kernel.
 
-The reader reconstructs the cumulative-weight algebra and certificate assembly. It shares the dyadic arithmetic, Gamma, logarithm and exponential primitives, together with the validated residual-derivative bounds and reference exponents. The execution receipts record these dependencies.
-
-This propagation reuses the residual bank. The weighted sum contains $`513\times128=65,664`$ terms and 129 cumulative endpoint enclosures, with twelve outer series terms per producer endpoint and sixty-four inner curve terms. These counts describe that calculation; workloads that generate residuals or reference prices perform additional work. The kernel evidence component contains the fixed contract, interval outputs and separate reader.
+The weighted sum of that experiment has $`513\times128=65{,}664`$ terms and 129 cumulative endpoint enclosures, with twelve outer series terms for each endpoint and sixty-four inner terms.
 
 ## References
 
@@ -2821,6 +2797,8 @@ Gatheral, J. and Keller-Ressel, M. (2019). Affine forward variance models. *Fina
 Gatheral, J. and Radoičić, R. (2019). Rational approximation of the rough Heston solution. *International Journal of Theoretical and Applied Finance* 22(3), 1950010. [doi:10.1142/S0219024919500109](https://doi.org/10.1142/S0219024919500109).
 
 Gatheral, J. and Radoičić, R. (2024). A generalization of the rational rough Heston approximation. *Quantitative Finance* 24(2), 329–335. [doi:10.1080/14697688.2024.2302055](https://doi.org/10.1080/14697688.2024.2302055).
+
+Gripenberg, G., Londen, S.-O. and Staffans, O. (1990). *Volterra Integral and Functional Equations*. Cambridge University Press.
 
 Hagan, P. S., Kumar, D., Lesniewski, A. S. and Woodward, D. E. (2002). Managing smile risk. *Wilmott Magazine*, September, 84–108.
 

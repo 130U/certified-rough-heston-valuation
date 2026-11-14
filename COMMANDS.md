@@ -148,6 +148,15 @@ python -B science/analysis/audit/produce_audit.py --baseline science
 python -B science/analysis/audit/read_audit_independent.py --baseline science
 ```
 
+<a id="m1"></a>
+### M1 — Market scale and netting accounts
+
+Run this reader from the project root. It reads the quote bands, the certified prices and the stored node supports of the saved banks and compares its result with the saved record:
+
+```text
+python -B science/analysis/market/market_scale.py --check
+```
+
 ## Separate continuous generation
 
 Run the following commands in a fresh staged scientific tree. They are separate operations from `reproduce.py --full`:

@@ -1,13 +1,9 @@
 {
   "author": "Theodore Ouyang",
-  "titles": {
-    "rough-heston": "Certified Joint Pricing Errors in Rough Heston"
-  },
-  "subtitles": {
-    "rough-heston": "Residual Propagation and Shared Fourier Errors"
-  },
+  "date": "November 2026",
   "emails": [
     "theodore.oy2025@gmail.com",
     "10@alumni.duke.edu"
-  ]
+  ],
+  "repository": "https://github.com/130U/certified-rough-heston-valuation"
 }

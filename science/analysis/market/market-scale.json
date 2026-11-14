@@ -1,0 +1,739 @@
+{
+  "status": "PASS_MARKET_SCALE_AND_NETTING_ACCOUNTS",
+  "scope": "Exact readings of saved quote, price and node records; binary64 evaluation of the Theorem 5.1 support formula from stored radii for ratios, band shares and the width scan.",
+  "contract": {
+    "sample_date": "2021-06-18",
+    "maturity_years": "1/2",
+    "index_level": "4221.86",
+    "discount": "1",
+    "contract_multiplier_usd_per_point": 100
+  },
+  "input_sha256": {
+    "experiments/sdk/normalized-quote-bands.json": "2936539fa6e5a4d586a9f17f6f0b654ac2680b8b643dafa5630a32f6d0ad2249",
+    "baseline/reference/code/frozen/finance-usecase-calculations.json": "2044a29f7dd6c8b4001dc2716c39bc66eeb886426f4f2fbb6e9cd9280079b1e9",
+    "baseline/frontier/transfer-time-local-nodes.json": "60e0cc82268facc9af3523847a707e1fda5ed7142060f4bf02a648db18e839f8",
+    "baseline/frontier/transfer-coefficients.json": "8b7471f6b540f3577f88ca966aa40042089c680c93a53964d5cee56e5ed668fc",
+    "baseline/finite-history/finite-history-nodes-alpha-13_25.json": "a0b2df22264e111b177541383eecf01bba63f47aac6296c3428f832a0c5ceca7",
+    "baseline/finite-history/portfolio-results-finite-history.json": "c53ffee0504a6c3f971bee1582d1d5be7d726c7936414640c441c7320676b206",
+    "analysis/audit/portfolio-exact-thresholds.csv": "0b5ca7910a1c52a0f4985b8dac06d80acdcdee860b4fafb1c7b3f2c25ceadbcc"
+  },
+  "executed_script_sha256": "76448418230c53bf2cdef110d308527f2e0b99374b7771b2eceff163cfb6c95f",
+  "quotes": [
+    {
+      "strike": 3700,
+      "bid_iv": "0.21588",
+      "ask_iv": "0.21887",
+      "bid_points": "586.40",
+      "ask_points": "588.70",
+      "mid_points": "587.55",
+      "width_points": "2.30",
+      "bid_points_exact": "35445751315469214210585583819/60446290980731458735308800",
+      "ask_points_exact": "7116948922147918897072913503/12089258196146291747061760"
+    },
+    {
+      "strike": 3800,
+      "bid_iv": "0.20618",
+      "ask_iv": "0.20894",
+      "bid_points": "502.10",
+      "ask_points": "504.50",
+      "mid_points": "503.30",
+      "width_points": "2.40",
+      "bid_points_exact": "30349802224029714118570279163/60446290980731458735308800",
+      "ask_points_exact": "15247577001678708340035212573/30223145490365729367654400"
+    },
+    {
+      "strike": 3900,
+      "bid_iv": "0.19522",
+      "ask_iv": "0.19769",
+      "bid_points": "420.20",
+      "ask_points": "422.60",
+      "mid_points": "421.40",
+      "width_points": "2.40",
+      "bid_points_exact": "5079903583856078031878171621/12089258196146291747061760",
+      "ask_points_exact": "5108874646984082993033324853/12089258196146291747061760"
+    },
+    {
+      "strike": 4000,
+      "bid_iv": "0.18351",
+      "ask_iv": "0.18586",
+      "bid_points": "341.70",
+      "ask_points": "344.20",
+      "mid_points": "342.95",
+      "width_points": "2.50",
+      "bid_points_exact": "20654628467817802877552384259/60446290980731458735308800",
+      "ask_points_exact": "20805491966620365402766738789/60446290980731458735308800"
+    },
+    {
+      "strike": 4100,
+      "bid_iv": "0.17137",
+      "ask_iv": "0.17348",
+      "bid_points": "267.79",
+      "ask_points": "270.19",
+      "mid_points": "268.99",
+      "width_points": "2.40",
+      "bid_points_exact": "4046774225903008043906679101/15111572745182864683827200",
+      "ask_points_exact": "1020766172593339286597731343/3777893186295716170956800"
+    },
+    {
+      "strike": 4200,
+      "bid_iv": "0.15882",
+      "ask_iv": "0.16094",
+      "bid_points": "199.69",
+      "ask_points": "202.20",
+      "mid_points": "200.95",
+      "width_points": "2.51",
+      "bid_points_exact": "12070607203188412915689480701/60446290980731458735308800",
+      "ask_points_exact": "6111212977373805743537312363/30223145490365729367654400"
+    },
+    {
+      "strike": 4300,
+      "bid_iv": "0.14676",
+      "ask_iv": "0.14803",
+      "bid_points": "140.00",
+      "ask_points": "141.50",
+      "mid_points": "140.75",
+      "width_points": "1.50",
+      "bid_points_exact": "8462359771311520140785100579/60446290980731458735308800",
+      "ask_points_exact": "8553087801704012336311735597/60446290980731458735308800"
+    },
+    {
+      "strike": 4400,
+      "bid_iv": "0.13584",
+      "ask_iv": "0.13701",
+      "bid_points": "91.10",
+      "ask_points": "92.40",
+      "mid_points": "91.75",
+      "width_points": "1.30",
+      "bid_points_exact": "550665187617420171213112877/6044629098073145873530880",
+      "ask_points_exact": "5585006800296165736447380357/60446290980731458735308800"
+    },
+    {
+      "strike": 4500,
+      "bid_iv": "0.12709",
+      "ask_iv": "0.12835",
+      "bid_points": "55.00",
+      "ask_points": "56.20",
+      "mid_points": "55.60",
+      "width_points": "1.21",
+      "bid_points_exact": "664864657386353787091685117/12089258196146291747061760",
+      "ask_points_exact": "3397214185858197578380651941/60446290980731458735308800"
+    },
+    {
+      "strike": 4600,
+      "bid_iv": "0.12148",
+      "ask_iv": "0.12279",
+      "bid_points": "31.60",
+      "ask_points": "32.60",
+      "mid_points": "32.10",
+      "width_points": "0.99",
+      "bid_points_exact": "1910316949118538216412139473/60446290980731458735308800",
+      "ask_points_exact": "1970368923880652521521475097/60446290980731458735308800"
+    },
+    {
+      "strike": 4700,
+      "bid_iv": "0.11885",
+      "ask_iv": "0.12046",
+      "bid_points": "17.90",
+      "ask_points": "18.80",
+      "mid_points": "18.35",
+      "width_points": "0.90",
+      "bid_points_exact": "21637051809238686478675041/1208925819614629174706176",
+      "ask_points_exact": "568267236655443100525897927/30223145490365729367654400"
+    },
+    {
+      "strike": 4800,
+      "bid_iv": "0.11856",
+      "ask_iv": "0.12056",
+      "bid_points": "10.30",
+      "ask_points": "11.10",
+      "mid_points": "10.70",
+      "width_points": "0.80",
+      "bid_points_exact": "622486670681154152528098131/60446290980731458735308800",
+      "ask_points_exact": "83867838293168366273267579/7555786372591432341913600"
+    }
+  ],
+  "call_spread_4400_4500": {
+    "legs": [
+      4400,
+      4500
+    ],
+    "mid_points": "36.149",
+    "width_from_legs_points": "2.502"
+  },
+  "certified_model_above_ask": [
+    {
+      "strike": "4400",
+      "model_price_lower_points": "92.887",
+      "ask_points": "92.396",
+      "model_above_ask_points_lower": "0.491",
+      "model_above_ask_points_exact": "7773210900149974896860992189863/15845632502852867518708790067200"
+    },
+    {
+      "strike": "4500",
+      "model_price_lower_points": "56.270",
+      "ask_points": "56.202",
+      "model_above_ask_points_lower": "0.068",
+      "model_above_ask_points_exact": "1073466463193213716749547060897/15845632502852867518708790067200"
+    }
+  ],
+  "quarter_year_spread": {
+    "log_strike_gap": "0.022472856",
+    "nyquist_frequency": "139.79",
+    "formula_max_deviation_from_stored_ratio": "6.661e-16",
+    "joint_node_points": "0.045462",
+    "leg_by_leg_node_points": "0.064537",
+    "ratio": "0.704",
+    "bands": [
+      {
+        "u_from": 0,
+        "u_below": 16,
+        "nodes": 128,
+        "joint_points": "0.000074",
+        "leg_by_leg_points": "0.000529",
+        "ratio": "0.139",
+        "share_of_leg_by_leg": "0.008"
+      },
+      {
+        "u_from": 16,
+        "u_below": 32,
+        "nodes": 128,
+        "joint_points": "0.001158",
+        "leg_by_leg_points": "0.004100",
+        "ratio": "0.282",
+        "share_of_leg_by_leg": "0.064"
+      },
+      {
+        "u_from": 32,
+        "u_below": 64,
+        "nodes": 256,
+        "joint_points": "0.010559",
+        "leg_by_leg_points": "0.020137",
+        "ratio": "0.524",
+        "share_of_leg_by_leg": "0.312"
+      },
+      {
+        "u_from": 64,
+        "u_below": 96,
+        "nodes": 256,
+        "joint_points": "0.017651",
+        "leg_by_leg_points": "0.022785",
+        "ratio": "0.775",
+        "share_of_leg_by_leg": "0.353"
+      },
+      {
+        "u_from": 96,
+        "u_below": 129,
+        "nodes": 257,
+        "joint_points": "0.016020",
+        "leg_by_leg_points": "0.016986",
+        "ratio": "0.943",
+        "share_of_leg_by_leg": "0.263"
+      }
+    ],
+    "width_scan": [
+      {
+        "width_points": 5,
+        "nyquist_frequency": "2766.2",
+        "joint_node_points": "0.002711",
+        "leg_by_leg_node_points": "0.064193",
+        "ratio": "0.042"
+      },
+      {
+        "width_points": 10,
+        "nyquist_frequency": "1383.9",
+        "joint_node_points": "0.005414",
+        "leg_by_leg_node_points": "0.064211",
+        "ratio": "0.084"
+      },
+      {
+        "width_points": 25,
+        "nyquist_frequency": "554.5",
+        "joint_node_points": "0.013403",
+        "leg_by_leg_node_points": "0.064265",
+        "ratio": "0.209"
+      },
+      {
+        "width_points": 50,
+        "nyquist_frequency": "278.0",
+        "joint_node_points": "0.025925",
+        "leg_by_leg_node_points": "0.064356",
+        "ratio": "0.403"
+      },
+      {
+        "width_points": 100,
+        "nyquist_frequency": "139.8",
+        "joint_node_points": "0.045462",
+        "leg_by_leg_node_points": "0.064537",
+        "ratio": "0.704"
+      },
+      {
+        "width_points": 200,
+        "nyquist_frequency": "70.7",
+        "joint_node_points": "0.052476",
+        "leg_by_leg_node_points": "0.064895",
+        "ratio": "0.809"
+      },
+      {
+        "width_points": 400,
+        "nyquist_frequency": "36.1",
+        "joint_node_points": "0.044482",
+        "leg_by_leg_node_points": "0.065601",
+        "ratio": "0.678"
+      }
+    ]
+  },
+  "six_month_spread_4400_4500_bounds": [
+    {
+      "configuration_id": "H0",
+      "method": "marginal",
+      "bound_points_upper_9dp": "2.679930311"
+    },
+    {
+      "configuration_id": "H0",
+      "method": "joint",
+      "bound_points_upper_9dp": "1.397612096"
+    },
+    {
+      "configuration_id": "H1",
+      "method": "marginal",
+      "bound_points_upper_9dp": "0.476401716"
+    },
+    {
+      "configuration_id": "H1",
+      "method": "joint",
+      "bound_points_upper_9dp": "0.378598956"
+    },
+    {
+      "configuration_id": "N1",
+      "method": "joint",
+      "bound_points_upper_9dp": "0.590239296"
+    },
+    {
+      "configuration_id": "N1",
+      "method": "marginal",
+      "bound_points_upper_9dp": "0.944744947"
+    },
+    {
+      "configuration_id": "N2",
+      "method": "joint",
+      "bound_points_upper_9dp": "0.428570987"
+    },
+    {
+      "configuration_id": "N2",
+      "method": "marginal",
+      "bound_points_upper_9dp": "0.589267065"
+    },
+    {
+      "configuration_id": "N2L",
+      "method": "joint",
+      "bound_points_upper_9dp": "0.394999331"
+    },
+    {
+      "configuration_id": "N2L",
+      "method": "marginal",
+      "bound_points_upper_9dp": "0.514096070"
+    }
+  ],
+  "six_month_strike_centres": [
+    {
+      "strike": 3700,
+      "reference_minus_stored_points": "-0.037"
+    },
+    {
+      "strike": 3800,
+      "reference_minus_stored_points": "-0.106"
+    },
+    {
+      "strike": 3900,
+      "reference_minus_stored_points": "-0.251"
+    },
+    {
+      "strike": 4000,
+      "reference_minus_stored_points": "-0.376"
+    },
+    {
+      "strike": 4100,
+      "reference_minus_stored_points": "-0.432"
+    },
+    {
+      "strike": 4200,
+      "reference_minus_stored_points": "-0.522"
+    },
+    {
+      "strike": 4300,
+      "reference_minus_stored_points": "-0.646"
+    },
+    {
+      "strike": 4400,
+      "reference_minus_stored_points": "-0.623"
+    },
+    {
+      "strike": 4500,
+      "reference_minus_stored_points": "-0.457"
+    },
+    {
+      "strike": 4600,
+      "reference_minus_stored_points": "-0.349"
+    },
+    {
+      "strike": 4700,
+      "reference_minus_stored_points": "-0.262"
+    },
+    {
+      "strike": 4800,
+      "reference_minus_stored_points": "-0.070"
+    }
+  ],
+  "six_month_directions": [
+    {
+      "direction_id": "adjacent-spread-3700-3800",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.218062",
+      "leg_by_leg_node_points": "0.282932",
+      "node_netting_ratio": "0.771",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.069199",
+      "complete_joint_points": "0.288572",
+      "complete_leg_by_leg_points": "0.353442"
+    },
+    {
+      "direction_id": "adjacent-spread-3800-3900",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.217130",
+      "leg_by_leg_node_points": "0.286680",
+      "node_netting_ratio": "0.757",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.144392",
+      "complete_joint_points": "0.362850",
+      "complete_leg_by_leg_points": "0.432401"
+    },
+    {
+      "direction_id": "adjacent-spread-3900-4000",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.216126",
+      "leg_by_leg_node_points": "0.290380",
+      "node_netting_ratio": "0.744",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.125014",
+      "complete_joint_points": "0.342486",
+      "complete_leg_by_leg_points": "0.416739"
+    },
+    {
+      "direction_id": "adjacent-spread-4000-4100",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.215063",
+      "leg_by_leg_node_points": "0.294033",
+      "node_netting_ratio": "0.731",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.056380",
+      "complete_joint_points": "0.272805",
+      "complete_leg_by_leg_points": "0.351774"
+    },
+    {
+      "direction_id": "adjacent-spread-4100-4200",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.213952",
+      "leg_by_leg_node_points": "0.297641",
+      "node_netting_ratio": "0.719",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.090332",
+      "complete_joint_points": "0.305661",
+      "complete_leg_by_leg_points": "0.389351"
+    },
+    {
+      "direction_id": "adjacent-spread-4200-4300",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.212800",
+      "leg_by_leg_node_points": "0.301206",
+      "node_netting_ratio": "0.706",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.123641",
+      "complete_joint_points": "0.337835",
+      "complete_leg_by_leg_points": "0.426241"
+    },
+    {
+      "direction_id": "adjacent-spread-4300-4400",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.211617",
+      "leg_by_leg_node_points": "0.304729",
+      "node_netting_ratio": "0.694",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.022563",
+      "complete_joint_points": "0.235591",
+      "complete_leg_by_leg_points": "0.328703"
+    },
+    {
+      "direction_id": "adjacent-spread-4400-4500",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.210409",
+      "leg_by_leg_node_points": "0.308212",
+      "node_netting_ratio": "0.683",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.166762",
+      "complete_joint_points": "0.378599",
+      "complete_leg_by_leg_points": "0.476402"
+    },
+    {
+      "direction_id": "adjacent-spread-4500-4600",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.209182",
+      "leg_by_leg_node_points": "0.311656",
+      "node_netting_ratio": "0.671",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.107540",
+      "complete_joint_points": "0.318166",
+      "complete_leg_by_leg_points": "0.420640"
+    },
+    {
+      "direction_id": "adjacent-spread-4600-4700",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.207941",
+      "leg_by_leg_node_points": "0.315062",
+      "node_netting_ratio": "0.660",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.086790",
+      "complete_joint_points": "0.296191",
+      "complete_leg_by_leg_points": "0.403312"
+    },
+    {
+      "direction_id": "adjacent-spread-4700-4800",
+      "kind": "adjacent_spread",
+      "joint_node_points": "0.206690",
+      "leg_by_leg_node_points": "0.318432",
+      "node_netting_ratio": "0.649",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.191781",
+      "complete_joint_points": "0.399946",
+      "complete_leg_by_leg_points": "0.511689"
+    },
+    {
+      "direction_id": "adjacent-butterfly-3700-3900",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.346097",
+      "leg_by_leg_node_points": "0.569612",
+      "node_netting_ratio": "0.608",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.075193",
+      "complete_joint_points": "0.423929",
+      "complete_leg_by_leg_points": "0.647445"
+    },
+    {
+      "direction_id": "adjacent-butterfly-3800-4000",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.338933",
+      "leg_by_leg_node_points": "0.577060",
+      "node_netting_ratio": "0.587",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.019378",
+      "complete_joint_points": "0.360985",
+      "complete_leg_by_leg_points": "0.599111"
+    },
+    {
+      "direction_id": "adjacent-butterfly-3900-4100",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.331794",
+      "leg_by_leg_node_points": "0.584413",
+      "node_netting_ratio": "0.568",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.068634",
+      "complete_joint_points": "0.403135",
+      "complete_leg_by_leg_points": "0.655753"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4000-4200",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.324712",
+      "leg_by_leg_node_points": "0.591674",
+      "node_netting_ratio": "0.549",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.033952",
+      "complete_joint_points": "0.361404",
+      "complete_leg_by_leg_points": "0.628365"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4100-4300",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.317713",
+      "leg_by_leg_node_points": "0.598847",
+      "node_netting_ratio": "0.531",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.033309",
+      "complete_joint_points": "0.353794",
+      "complete_leg_by_leg_points": "0.634928"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4200-4400",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.310816",
+      "leg_by_leg_node_points": "0.605935",
+      "node_netting_ratio": "0.513",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.146203",
+      "complete_joint_points": "0.459825",
+      "complete_leg_by_leg_points": "0.754944"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4300-4500",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.304039",
+      "leg_by_leg_node_points": "0.612941",
+      "node_netting_ratio": "0.496",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.144200",
+      "complete_joint_points": "0.451077",
+      "complete_leg_by_leg_points": "0.759979"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4400-4600",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.297392",
+      "leg_by_leg_node_points": "0.619868",
+      "node_netting_ratio": "0.480",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.059222",
+      "complete_joint_points": "0.359486",
+      "complete_leg_by_leg_points": "0.681962"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4500-4700",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.290886",
+      "leg_by_leg_node_points": "0.626719",
+      "node_netting_ratio": "0.464",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.020750",
+      "complete_joint_points": "0.314539",
+      "complete_leg_by_leg_points": "0.650372"
+    },
+    {
+      "direction_id": "adjacent-butterfly-4600-4800",
+      "kind": "adjacent_butterfly",
+      "joint_node_points": "0.284527",
+      "leg_by_leg_node_points": "0.633495",
+      "node_netting_ratio": "0.449",
+      "herfindahl_root": "0.612",
+      "absolute_centre_points": "0.104990",
+      "complete_joint_points": "0.392452",
+      "complete_leg_by_leg_points": "0.741421"
+    },
+    {
+      "direction_id": "wide-spread-3700-4000",
+      "kind": "wide_spread",
+      "joint_node_points": "0.135963",
+      "leg_by_leg_node_points": "0.286632",
+      "node_netting_ratio": "0.474",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.338605",
+      "complete_joint_points": "0.475896",
+      "complete_leg_by_leg_points": "0.626565"
+    },
+    {
+      "direction_id": "wide-spread-4000-4300",
+      "kind": "wide_spread",
+      "joint_node_points": "0.167798",
+      "leg_by_leg_node_points": "0.297598",
+      "node_netting_ratio": "0.564",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.270352",
+      "complete_joint_points": "0.439529",
+      "complete_leg_by_leg_points": "0.569328"
+    },
+    {
+      "direction_id": "wide-spread-4300-4600",
+      "kind": "wide_spread",
+      "joint_node_points": "0.200537",
+      "leg_by_leg_node_points": "0.308173",
+      "node_netting_ratio": "0.651",
+      "herfindahl_root": "0.707",
+      "absolute_centre_points": "0.296865",
+      "complete_joint_points": "0.498829",
+      "complete_leg_by_leg_points": "0.606465"
+    },
+    {
+      "direction_id": "wide-spread-3700-4800",
+      "kind": "wide_spread",
+      "joint_node_points": "0.177291",
+      "leg_by_leg_node_points": "0.300577",
+      "node_netting_ratio": "0.590",
+      "herfindahl_root": "0.709",
+      "absolute_centre_points": "0.033522",
+      "complete_joint_points": "0.212206",
+      "complete_leg_by_leg_points": "0.335492"
+    },
+    {
+      "direction_id": "positive-basket-all",
+      "kind": "positive_basket",
+      "joint_node_points": "0.011505",
+      "leg_by_leg_node_points": "0.150481",
+      "node_netting_ratio": "0.076",
+      "herfindahl_root": "0.289",
+      "absolute_centre_points": "0.344240",
+      "complete_joint_points": "0.356442",
+      "complete_leg_by_leg_points": "0.495417"
+    },
+    {
+      "direction_id": "positive-basket-first-half",
+      "kind": "positive_basket",
+      "joint_node_points": "0.024948",
+      "leg_by_leg_node_points": "0.145159",
+      "node_netting_ratio": "0.172",
+      "herfindahl_root": "0.408",
+      "absolute_centre_points": "0.287222",
+      "complete_joint_points": "0.312843",
+      "complete_leg_by_leg_points": "0.433054"
+    },
+    {
+      "direction_id": "positive-basket-last-half",
+      "kind": "positive_basket",
+      "joint_node_points": "0.034426",
+      "leg_by_leg_node_points": "0.155803",
+      "node_netting_ratio": "0.221",
+      "herfindahl_root": "0.408",
+      "absolute_centre_points": "0.401257",
+      "complete_joint_points": "0.436404",
+      "complete_leg_by_leg_points": "0.557781"
+    }
+  ],
+  "six_month_families": [
+    {
+      "kind": "adjacent_spread",
+      "count": 11,
+      "node_ratio_min": "0.649",
+      "node_ratio_mean": "0.708",
+      "node_ratio_max": "0.771",
+      "herfindahl_root_mean": "0.707",
+      "absolute_centre_mean_points": "0.108",
+      "complete_ratio_mean": "0.783"
+    },
+    {
+      "kind": "adjacent_butterfly",
+      "count": 10,
+      "node_ratio_min": "0.449",
+      "node_ratio_mean": "0.524",
+      "node_ratio_max": "0.608",
+      "herfindahl_root_mean": "0.612",
+      "absolute_centre_mean_points": "0.071",
+      "complete_ratio_mean": "0.575"
+    },
+    {
+      "kind": "wide_spread",
+      "count": 4,
+      "node_ratio_min": "0.474",
+      "node_ratio_mean": "0.570",
+      "node_ratio_max": "0.651",
+      "herfindahl_root_mean": "0.708",
+      "absolute_centre_mean_points": "0.235",
+      "complete_ratio_mean": "0.747"
+    },
+    {
+      "kind": "positive_basket",
+      "count": 3,
+      "node_ratio_min": "0.076",
+      "node_ratio_mean": "0.156",
+      "node_ratio_max": "0.221",
+      "herfindahl_root_mean": "0.368",
+      "absolute_centre_mean_points": "0.344",
+      "complete_ratio_mean": "0.741"
+    }
+  ]
+}

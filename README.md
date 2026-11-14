@@ -6,7 +6,7 @@
 
 ![Certified Joint Pricing Errors in Rough Heston: when every strike shares one transform](.github/readme/banner.png)
 
-Options with one expiry are priced from a single characteristic function, so a numerical error in that function is a common factor across strikes. A position hedged in strike space is hedged against it, and a position spread over many strikes diversifies it. The paper turns this into a deterministic certificate for the rough Heston model: a bound on the distance between a stored vector of prices and the exact model prices, in any portfolio direction. A residual in the fractional Riccati equation is priced by a forward variance curve, with constant one, and the exposure of a portfolio to the transform error is the Fourier transform of its payoff.
+Options with one expiry are priced from a single characteristic function, so a numerical error in that function is a common factor across strikes. A position hedged in strike space is hedged against it, and a position spread over many strikes diversifies it. The paper makes this exact and builds on it a deterministic certificate: a bound on the distance between a stored vector of prices and the exact model prices, in any portfolio direction. The exposure of a portfolio to the transform error is the Fourier transform of its payoff, for every pricer built on a common transform. In the rough Heston model a residual in the fractional Riccati equation is priced by a forward variance curve, with constant one, and the argument carries over to Volterra Heston models with completely monotone kernels.
 
 Research by **Theodore Ouyang**
 
@@ -28,19 +28,17 @@ On the left, both bars carry the same reference centre and the same strip and ta
 
 ## The mathematical idea
 
-The transform solves a nonlinear fractional Riccati equation that carries its whole history. An approximate solution fails the equation by a residual, and the would-be pricing martingale then drifts in proportion to variance. Theorem 3.1 makes this exact for the exponent: the residual is weighted by a forward variance curve, the expected variance of the same model after the leverage effect has sped up mean reversion by half its share-measure amount. There is no Grönwall constant, and the one hypothesis on the curve is the condition under which the model is known to exist.
+The transform solves a nonlinear fractional Riccati equation that carries its whole history. An approximate solution fails the equation by a residual, and the would-be pricing martingale then drifts in proportion to variance. Theorem 3.1 makes this exact for the exponent: the residual is weighted by a forward variance curve, the expected variance of the same model after the leverage effect has sped up mean reversion by half its share-measure amount. There is no Grönwall constant, the one hypothesis on the curve is the condition under which the model is known to exist, and the same proof covers every damped contour and every completely monotone kernel, the classical and the lifted Heston models included.
 
 ![Netting ratios of a call spread, a butterfly and a basket across frequencies](figures/netting-ratio.png)
 
-A portfolio of options with one expiry is a single payoff, and the paper prices its error as one payoff. The **netting ratio** compares the modulus of the payoff transform with the sum over the legs. For a vertical spread it is close to |sin(uΔ/2)|: the spread is hedged against transform error whose wavelength is long compared with its strike spacing and fully exposed at the Nyquist frequency. For a butterfly the ratio is squared, and for any position its mean square is the Herfindahl index. Low-frequency error is systematic across strikes and is removed by hedging; high-frequency error is idiosyncratic and is removed by diversification.
+A portfolio of options with one expiry is a single payoff, and the paper prices its error as one payoff. The **netting ratio** compares the modulus of the payoff transform with the sum over the legs. For a vertical spread it is close to |sin(uΔ/2)|: the spread is hedged against transform error whose wavelength is long compared with its strike spacing and fully exposed at the Nyquist frequency. For a butterfly the ratio is squared, and for any position its mean square is the Herfindahl index. Low-frequency error is systematic across strikes and is removed by hedging; high-frequency error is idiosyncratic and is removed by diversification. These statements are model-free.
 
 ## What the certificate decides
 
 - **Tolerances inside the bid–ask spread.** The stored rational-approximation price of the six-month 4400–4500 spread is certified to 0.115 points, against a quoted width of about 2.5.
 - **Roughness rankings.** Five candidates from H = 0.02 to H = 0.05 are ordered by their distance to the quotes with all ten pairs separated, against seven of ten without netting.
 - **Model misfit.** At the best candidate the exact model price of the 4400 call lies at least 0.49 points above the quoted ask, a discrepancy the certificate attributes to the model.
-
-The certificate bounds numerical error relative to the specified model; whether the model fits the market is a separate question, and the third result is an instance of it.
 
 ## What the repository holds
 

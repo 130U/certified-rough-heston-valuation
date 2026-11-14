@@ -1,8 +1,7 @@
 """Draw the figures of the paper from the saved banks.
 
 Each figure is written as a vector PDF for the typeset paper and as a PNG for the online article.
-The curves evaluate formulas of the paper in binary64 from stored exact radii; they illustrate the
-certificates and are not themselves certificates.
+The curves evaluate formulas of the paper in binary64 from the stored exact radii and thresholds.
 """
 from fractions import Fraction as Q
 from pathlib import Path
@@ -166,32 +165,34 @@ def pass_counts():
     rows = load('audit-experiments/portfolio-budget-counts.json')['threshold_rows']
     curves = {}
     for r in rows:
-        curves.setdefault((r['configuration_id'], r['alpha'], r['method']), []).append(float(Q(r['exact_threshold_points'])))
-    panels = [('13/25', r'$\alpha=0.52$', [('H0', GREY), ('H1', INK)]), ('3/5', r'$\alpha=0.60$', [('H0', GREY), ('H1', INK)]),
-              ('9/10', r'$\alpha=0.90$', [('H0', GREY), ('H1', INK)]), ('13/25', r'$\alpha=0.52$, regenerated fields', [('N1', GREY), ('N2', RUST), ('N2L', BLUE)])]
-    fig, axes = plt.subplots(2, 2, figsize=(6.4, 4.9), sharex=True, sharey=True)
-    budgets = np.linspace(0, 2, 801)
-    for ax, (alpha, title, banks) in zip(axes.flat, panels):
-        for bank, colour in banks:
-            for method, style in [('joint', '-'), ('marginal', (0, (3.5, 2)))]:
-                values = np.sort(np.array(curves[bank, alpha, method]))
-                assert len(values) == 28
-                ax.step(budgets, np.searchsorted(values, budgets, side='right'), where='post', color=colour, linewidth=1.15, linestyle=style,
-                        label=bank if method == 'joint' else None)
-        for level in (0.25, 0.5, 1.0):
-            ax.axvline(level, color=GREY, linewidth=0.4, alpha=0.6)
-        ax.set_title(title, fontsize=10.5, loc='left', pad=4)
-        ax.set_xlim(0, 2)
-        ax.set_ylim(0, 29)
+        if r['configuration_id'] == 'H1':
+            curves.setdefault((r['alpha'], r['method']), []).append(float(Q(r['exact_threshold_points'])))
+    panels = [('13/25', r'$\alpha=0.52$'), ('3/5', r'$\alpha=0.60$'), ('9/10', r'$\alpha=0.90$')]
+    limit = 1.25
+    fig, axes = plt.subplots(1, 3, figsize=(6.6, 2.55), sharey=True)
+    for ax, (alpha, title) in zip(axes, panels):
+        steps = {}
+        for method in ('joint', 'marginal'):
+            values = sorted(curves[alpha, method])
+            assert len(values) == 28
+            x = [0.0] + [v for v in values if v <= limit] + [limit]
+            steps[method] = (np.array(x), np.array(list(range(len(x) - 1)) + [len(x) - 2]))
+        grid = np.unique(np.concatenate([steps['joint'][0], steps['marginal'][0]]))
+        count = {m: np.searchsorted(np.array(sorted(curves[alpha, m])), grid, side='right') for m in steps}
+        ax.fill_between(grid, count['marginal'], count['joint'], step='post', color=BLUE, alpha=0.13, linewidth=0)
+        ax.step(grid, count['marginal'], where='post', color=RUST, linewidth=1.15, label='leg by leg', solid_joinstyle='miter')
+        ax.step(grid, count['joint'], where='post', color=INK, linewidth=1.35, label='joint', solid_joinstyle='miter')
+        ax.set_title(title, fontsize=10.5, loc='left', pad=5)
+        ax.set_xlim(0, limit)
+        ax.set_ylim(0, 29.2)
         ax.set_yticks([0, 7, 14, 21, 28])
-        ax.set_xticks([0, 0.25, 0.5, 1, 1.5, 2])
-        ax.set_xticklabels(['0', '', '0.5', '1', '1.5', '2'])
-        ax.legend(loc='lower right', fontsize=9, handlelength=1.8)
-    for ax in axes[1]:
+        ax.set_xticks([0, 0.25, 0.5, 0.75, 1.0, 1.25])
+        ax.set_xticklabels(['0', '', '0.5', '', '1', ''])
         ax.set_xlabel('tolerance (index points)')
-    for ax in axes[:, 0]:
-        ax.set_ylabel('positions certified')
-    fig.tight_layout(h_pad=1.2, w_pad=1.4)
+    axes[0].set_ylabel('positions certified')
+    handles, labels = axes[0].get_legend_handles_labels()
+    axes[2].legend(handles[::-1], labels[::-1], loc='lower right', fontsize=9, handlelength=1.6, borderaxespad=0.3)
+    fig.tight_layout(w_pad=1.1)
     save(fig, 'pass-counts')
 
 

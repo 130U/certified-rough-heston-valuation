@@ -3,19 +3,14 @@
   "scope": "Saved continuous banks, mathematical data, generators and readers with SHA-256 identities.",
   "files": [
     {
-      "path": "audit-experiments/portfolio-pass-counts.png",
-      "bytes": 214090,
-      "sha256": "7c9b3fcb95d899378bffc31054447a4e339d0a8fdbbd63e41cccac25ba08b7a6"
-    },
-    {
       "path": "manuscript/merged-heston-en.md",
       "bytes": 157318,
       "sha256": "27e1ed0f64ff23003d1a846996abcd185e547b16ade501c9c2bbf925ccb70139"
     },
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
-      "bytes": 2851,
-      "sha256": "677a8b36e5c2689d21ce0d4bef13e893dd77789d53dbdce7242a9bcbc6a06945"
+      "bytes": 2380,
+      "sha256": "fee3f2390b18e2e206d9dda89169abe16108113dab04924d77f4fa3b9c500e53"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -23,19 +18,9 @@
       "sha256": "25f2861cf95ccb7be566feabe9fb9ad47de0a314452ac811f2075e4d6f292997"
     },
     {
-      "path": "science/analysis/audit/check_figure.py",
-      "bytes": 914,
-      "sha256": "15f2303448eac526faeb597f62004f54c6feee2775043f054f4f3b887754e031"
-    },
-    {
       "path": "science/analysis/audit/configuration-registry.json",
       "bytes": 14132,
       "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
-    },
-    {
-      "path": "science/analysis/audit/figure-check.json",
-      "bytes": 125,
-      "sha256": "6885479f6b327e3e2506590aaafc645d090a88fd7d6f277e24b7ad1770d2d2ba"
     },
     {
       "path": "science/analysis/audit/frozen-output-centre-account.json",
@@ -51,11 +36,6 @@
       "path": "science/analysis/audit/nearby-pair-resolution.json",
       "bytes": 34473,
       "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
-    },
-    {
-      "path": "science/analysis/audit/plot_budget_counts.py",
-      "bytes": 4364,
-      "sha256": "aa2ccce51a0cb0866ee501bf785554c6dd10847f75e179019021297c87ffe85e"
     },
     {
       "path": "science/analysis/audit/portfolio-budget-counts.csv",

@@ -7,19 +7,9 @@
       "sha256": "25f2861cf95ccb7be566feabe9fb9ad47de0a314452ac811f2075e4d6f292997"
     },
     {
-      "path": "check_figure.py",
-      "bytes": 914,
-      "sha256": "15f2303448eac526faeb597f62004f54c6feee2775043f054f4f3b887754e031"
-    },
-    {
       "path": "configuration-registry.json",
       "bytes": 14132,
       "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
-    },
-    {
-      "path": "figure-check.json",
-      "bytes": 125,
-      "sha256": "6885479f6b327e3e2506590aaafc645d090a88fd7d6f277e24b7ad1770d2d2ba"
     },
     {
       "path": "frozen-output-centre-account.json",
@@ -35,11 +25,6 @@
       "path": "nearby-pair-resolution.json",
       "bytes": 34473,
       "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
-    },
-    {
-      "path": "plot_budget_counts.py",
-      "bytes": 4364,
-      "sha256": "aa2ccce51a0cb0866ee501bf785554c6dd10847f75e179019021297c87ffe85e"
     },
     {
       "path": "portfolio-budget-counts.csv",

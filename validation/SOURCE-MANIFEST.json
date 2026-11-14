@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/readme/certificates.png",
-      "bytes": 68597,
-      "sha256": "392b3c866cac26c961827dc722e661bf99abaca8988a88f5cc202259493903f8"
+      "bytes": 66460,
+      "sha256": "dac32a9d33b53f7fbd7bf5a6ce5ecd37da187bebf78d91638fcfc5e06680bebb"
     },
     {
       "path": ".github/workflows/verify-source.yml",
@@ -39,13 +39,13 @@
     },
     {
       "path": "SCIENTIFIC-MANIFEST.json",
-      "bytes": 63308,
-      "sha256": "6a0a7f8c52d6770ae990c6ee4059d7f612718133a1b5b713e7e993e44931c5fb"
+      "bytes": 62583,
+      "sha256": "32b23463156b55453ab7b5f1047bd35dca9ee29f377dfbdf21dd82b2c603f5c9"
     },
     {
       "path": "SCIENTIFIC-REPLAY.json",
-      "bytes": 7801,
-      "sha256": "10df3b7ad325dcdc67d05d3a57bb1e13f457f54ba89b71a9da12745865969186"
+      "bytes": 7776,
+      "sha256": "e3913d27efcb378c559e74c8c22bb449ada4f124ccb6d84aa2726ef03213d5ea"
     },
     {
       "path": "assets/math/formula-m000dadd9e5f2a6413da2-dark.svg",
@@ -1568,29 +1568,9 @@
       "sha256": "d98da8f419b2b1db3eafd633885458dd59950f1a11218973df6a10f145cd7aae"
     },
     {
-      "path": "audit-experiments/plot_budget_counts.py",
-      "bytes": 4451,
-      "sha256": "b446ecf8fe8058fd409c16319068faa7bfdc9c0f58aff611388e40ad5f8660b4"
-    },
-    {
       "path": "audit-experiments/portfolio-budget-counts.json",
       "bytes": 299970,
       "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
-    },
-    {
-      "path": "audit-experiments/portfolio-pass-counts.pdf",
-      "bytes": 8522,
-      "sha256": "3fca1d31312e2dfed7c707ad6c5052e93d45b9f7692201d97949f8123fbbf69b"
-    },
-    {
-      "path": "audit-experiments/portfolio-pass-counts.png",
-      "bytes": 214090,
-      "sha256": "7c9b3fcb95d899378bffc31054447a4e339d0a8fdbbd63e41cccac25ba08b7a6"
-    },
-    {
-      "path": "audit-experiments/portfolio-pass-counts.svg",
-      "bytes": 36976,
-      "sha256": "2c6af880039475cbaa002bbaa7408d86f75ff977bf6a53231280a97883252ca8"
     },
     {
       "path": "docs/EVIDENCE.md",
@@ -1674,8 +1654,8 @@
     },
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
-      "bytes": 2851,
-      "sha256": "677a8b36e5c2689d21ce0d4bef13e893dd77789d53dbdce7242a9bcbc6a06945"
+      "bytes": 2380,
+      "sha256": "fee3f2390b18e2e206d9dda89169abe16108113dab04924d77f4fa3b9c500e53"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -1683,19 +1663,9 @@
       "sha256": "25f2861cf95ccb7be566feabe9fb9ad47de0a314452ac811f2075e4d6f292997"
     },
     {
-      "path": "science/analysis/audit/check_figure.py",
-      "bytes": 914,
-      "sha256": "15f2303448eac526faeb597f62004f54c6feee2775043f054f4f3b887754e031"
-    },
-    {
       "path": "science/analysis/audit/configuration-registry.json",
       "bytes": 14132,
       "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
-    },
-    {
-      "path": "science/analysis/audit/figure-check.json",
-      "bytes": 125,
-      "sha256": "6885479f6b327e3e2506590aaafc645d090a88fd7d6f277e24b7ad1770d2d2ba"
     },
     {
       "path": "science/analysis/audit/frozen-output-centre-account.json",
@@ -1711,11 +1681,6 @@
       "path": "science/analysis/audit/nearby-pair-resolution.json",
       "bytes": 34473,
       "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
-    },
-    {
-      "path": "science/analysis/audit/plot_budget_counts.py",
-      "bytes": 4364,
-      "sha256": "aa2ccce51a0cb0866ee501bf785554c6dd10847f75e179019021297c87ffe85e"
     },
     {
       "path": "science/analysis/audit/portfolio-budget-counts.csv",

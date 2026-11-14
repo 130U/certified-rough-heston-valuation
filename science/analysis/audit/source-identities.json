@@ -106,11 +106,11 @@
       "evidence_bytes": 32076999
     },
     "baseline/frontier/transfer-supplement-results.json": {
-      "sha256": "9337efe277b21621827b43d3b5efccf3d32dfd25089c27ffd6bfc449ec52524a",
+      "sha256": "e88b28d0df133aa85c01375785261997a0e8cff15e593fa14350463f3fd065dd",
       "evidence_bytes": 5701
     },
     "baseline/frontier/transfer-time-local-results.json": {
-      "sha256": "bf4db3a14ae2021160fac511e91ca1a2117b0fe52974b703ed1b32f3ccf76a87",
+      "sha256": "73aa2ab56f7f22fb77b608e80c20fda0cb2501e998873998d8c0a057a5acacfb",
       "evidence_bytes": 4180
     },
     "baseline/frontier/transfer-time-local-nodes.json": {

@@ -181,9 +181,12 @@ def convert(source, author):
                 out.append('\\section*{References}\\addcontentsline{toc}{section}{References}\n'
                            '\\begingroup\\small\\setlength{\\parindent}{0pt}\\setlength{\\parskip}{3pt}\\raggedright')
                 continue
+            if level == 2 and text == 'Declarations':
+                out.append('\\section*{Declarations}\\addcontentsline{toc}{section}{Declarations}')
+                continue
             numbered = re.match(r'(?:Appendix ([A-E])|((?:\d+|[A-E])(?:\.\d+)?))\. (.*)', text)
             if level == 4 or not numbered:
-                out.append('\\subsubsection*{' + inline(text) + '}')
+                out.append('\\%s*{%s}' % ('subsection' if level == 3 else 'subsubsection', inline(text)))
                 continue
             letter, number, name = numbered.groups()
             if letter and not appendix:

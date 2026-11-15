@@ -5,15 +5,15 @@
     {
       "language": "en",
       "path": "paper/paper.pdf",
-      "sha256": "91d0a950078c17fa423f89dc96386d6ffdea8d97038190cc2569d1bb02d40576",
-      "bytes": 416061,
+      "sha256": "0def99bc580f28f337bc562635bb5df41bfcd13cd3fc6f5cae914b8452f0a00b",
+      "bytes": 416244,
       "pages": 52,
-      "source_sha256": "587fd2af9b78d51953151859e994af01045e23e3b7179de87a5a56d5a87ca982",
-      "tex_sha256": "bf31e47a4d5a42a04fc4aa2f29295ab8679eb10fbfdbf48318cafcbf9214ee7f",
+      "source_sha256": "70801fca9552ff8004afc283c30ac567ac86b25f47886f7c8cddbae2fd544ff2",
+      "tex_sha256": "b225186454997871dcc64749b5b3082416103eb90c71ab8117002f8505add0c4",
       "tables": 26,
       "figures": 4,
       "numbered_equations": 127,
-      "outline_entries": 53,
+      "outline_entries": 54,
       "valid_internal_links": 1,
       "external_link_annotations": 36,
       "used_text_fonts_embedded": true,
@@ -26,7 +26,8 @@
         2,
         9,
         21,
-        22
+        22,
+        50
       ]
     }
   ]

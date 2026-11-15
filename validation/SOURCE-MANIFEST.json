@@ -24,8 +24,8 @@
     },
     {
       "path": "ARTICLE.md",
-      "bytes": 212230,
-      "sha256": "fc8ff3ae1114d24a3f0cba5e1e3b47b482dc1932fc3138815c25597c30fd7cb1"
+      "bytes": 212679,
+      "sha256": "04b287efc60783eba63d70d69b2d6a6a91c81cd954be35cf81a86fbb233e1368"
     },
     {
       "path": "COMMANDS.md",
@@ -40,12 +40,12 @@
     {
       "path": "SCIENTIFIC-MANIFEST.json",
       "bytes": 62583,
-      "sha256": "31a634a4511a96b3ba3ab50656aa826b388e701619acf60707a6842069d689fa"
+      "sha256": "7cef64caccdba08ef8bcb4976aa0e27c03bf39adf06fa3f9c64578b8d75ee26f"
     },
     {
       "path": "SCIENTIFIC-REPLAY.json",
-      "bytes": 7776,
-      "sha256": "849fddf074b28ee43755aad03c80d7b97b5447ea25e83d0c16519c5d72e2dc6e"
+      "bytes": 7801,
+      "sha256": "65a656089dc05961458b956ec62145d6b4442b2b5cee547560722a192377bacb"
     },
     {
       "path": "assets/math/formula-m000dadd9e5f2a6413da2-dark.svg",
@@ -1629,18 +1629,18 @@
     },
     {
       "path": "manuscript/merged-heston-en.md",
-      "bytes": 157318,
-      "sha256": "587fd2af9b78d51953151859e994af01045e23e3b7179de87a5a56d5a87ca982"
+      "bytes": 157734,
+      "sha256": "70801fca9552ff8004afc283c30ac567ac86b25f47886f7c8cddbae2fd544ff2"
     },
     {
       "path": "paper/paper.pdf",
-      "bytes": 416061,
-      "sha256": "91d0a950078c17fa423f89dc96386d6ffdea8d97038190cc2569d1bb02d40576"
+      "bytes": 416244,
+      "sha256": "0def99bc580f28f337bc562635bb5df41bfcd13cd3fc6f5cae914b8452f0a00b"
     },
     {
       "path": "paper/paper.tex",
-      "bytes": 177852,
-      "sha256": "bf31e47a4d5a42a04fc4aa2f29295ab8679eb10fbfdbf48318cafcbf9214ee7f"
+      "bytes": 178330,
+      "sha256": "b225186454997871dcc64749b5b3082416103eb90c71ab8117002f8505add0c4"
     },
     {
       "path": "reproduce.py",
@@ -1655,7 +1655,7 @@
     {
       "path": "science/analysis/audit/AUDIT-MANIFEST.json",
       "bytes": 2380,
-      "sha256": "fb06b381ccdf79e8babbb892cb4713ed8eab674af7dd42ebb956cf2a4d3b701b"
+      "sha256": "d6f2e3aa7d65b2902c3598fd6dca1bd8ed3c212c1ed725ed47efbb3205e6dea3"
     },
     {
       "path": "science/analysis/audit/audit_layout.py",
@@ -1675,7 +1675,7 @@
     {
       "path": "science/analysis/audit/independent-audit.json",
       "bytes": 2727,
-      "sha256": "1ab5ff7c623295d2f8e613b49a7ca4deedee75165f8dbb32020a760de9680eb0"
+      "sha256": "9b37326448e24b0cd65fee1ac094f8a140dc446d06718c32024ea9739d8add48"
     },
     {
       "path": "science/analysis/audit/nearby-pair-resolution.json",
@@ -1725,7 +1725,7 @@
     {
       "path": "science/analysis/audit/source-identities.json",
       "bytes": 10138,
-      "sha256": "3626d85c2fb4f63a47d2e8fab0e313de57631459a937aa04062dc978060171b3"
+      "sha256": "30cde547638dd7c017bb74bd7e47cba1c6f5d56d97ed2fc553541e2f5b9bef3e"
     },
     {
       "path": "science/analysis/kernel/common.py",
@@ -1805,7 +1805,7 @@
     {
       "path": "science/baseline/FRONTIER-MANIFEST.json",
       "bytes": 30962,
-      "sha256": "f25bb50f82603be0b126385ed7f385711b3368dc8221432de483d3da2df6c95b"
+      "sha256": "dc94786f3c792b973605fff2396f5b3ead8b099c1513457c02aea48f61e610dc"
     },
     {
       "path": "science/baseline/continuous/adversarial-checks.json",
@@ -2120,7 +2120,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.json",
       "bytes": 7138,
-      "sha256": "32148baf67ec49749590e147e74bebf6f7befa63f354b85e76a13ee936239f2d"
+      "sha256": "99acaafec711333d6b322935078c20bcbd40f350b677c13bd15a1d107de66629"
     },
     {
       "path": "science/baseline/frontier/independent-transfer-supplement.py",
@@ -2130,7 +2130,7 @@
     {
       "path": "science/baseline/frontier/independent-transfer.json",
       "bytes": 7876,
-      "sha256": "962f93a308c8b27d8d5efcf94a0c96dbf3db67f253b28672ece1800efe97574a"
+      "sha256": "aff1c46f9cf4ce47bb716627ec56aa381a568f1723977072cbc1fb96cee05092"
     },
     {
       "path": "science/baseline/frontier/independent-transfer.py",
@@ -2275,7 +2275,7 @@
     {
       "path": "science/baseline/frontier/transfer-preflight.json",
       "bytes": 4668,
-      "sha256": "72410c1438f603a1ceea49d84d51e043aa27e1d6b7e96342d83aafdd1b95db8c"
+      "sha256": "1a181765901ed74ad59b6d4f4e9100b6d1529293396022b89a7c5f2b2d88553d"
     },
     {
       "path": "science/baseline/frontier/transfer-preflight.py",
@@ -2300,7 +2300,7 @@
     {
       "path": "science/baseline/frontier/transfer-results.json",
       "bytes": 16039,
-      "sha256": "5ffba77048f3b4d3d918557e6fadad2b6325a836e1288fad2a8d8efed7ba056d"
+      "sha256": "aea6e0b3ef77e4b9418baecb016041846c14635a786163d7ce93c7689ff74e1d"
     },
     {
       "path": "science/baseline/frontier/transfer-supplement-contract.json",
@@ -2320,7 +2320,7 @@
     {
       "path": "science/baseline/frontier/transfer-supplement-results.json",
       "bytes": 5701,
-      "sha256": "e88b28d0df133aa85c01375785261997a0e8cff15e593fa14350463f3fd065dd"
+      "sha256": "e6d55c7d91c21b156d6a6ee7894a5eaed16d3aee532ff637545c305737efa8aa"
     },
     {
       "path": "science/baseline/frontier/transfer-tail-alpha-13_25.json",
@@ -2350,7 +2350,7 @@
     {
       "path": "science/baseline/frontier/transfer-time-local-results.json",
       "bytes": 4180,
-      "sha256": "73aa2ab56f7f22fb77b608e80c20fda0cb2501e998873998d8c0a057a5acacfb"
+      "sha256": "9a7fdac43ec9e0d6a254b5cc01c205ce7b8a804855cd78dd1ee628d80bdddb0d"
     },
     {
       "path": "science/baseline/frontier/transfer-time-local-weights.json",
@@ -3279,8 +3279,8 @@
     },
     {
       "path": "scripts/build_pdf.py",
-      "bytes": 14102,
-      "sha256": "fbf309aa46122079e48350fdb2dea1dd63658f2aa08d75522eb4fce10fcab956"
+      "bytes": 14318,
+      "sha256": "396e9db332b4e3db5b66a47eb1f0ab2cbb04d0326edb542e9ad212083d3baff7"
     },
     {
       "path": "scripts/math_inputs.py",
@@ -3300,12 +3300,12 @@
     {
       "path": "validation/article-check.json",
       "bytes": 82024,
-      "sha256": "1993eef50ce4b0b3bff8e08e703c97306c0ade4fbfda25128d2f3b26b5816cc9"
+      "sha256": "89907153cd3109642d49a2f5bcf5b96419c88b81069ad8ec48cea255ee1c58f1"
     },
     {
       "path": "validation/pdf-check.json",
-      "bytes": 1113,
-      "sha256": "3911adc2b0d3131b814008bc9e74f0fda54e2bf562bc3b5452c14eed1bb05966"
+      "bytes": 1126,
+      "sha256": "d221b8bb4f5109ece13ac2c69f7fb845dd3c49ddd353e8524e92d5a03d0fa7c4"
     },
     {
       "path": "verify_source.py",

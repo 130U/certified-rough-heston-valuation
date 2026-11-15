@@ -19,6 +19,7 @@
 - [Appendix C. Propagation proofs](#appendix-c-propagation-proofs)
 - [Appendix D. The certified reference](#appendix-d-the-certified-reference)
 - [Appendix E. Experimental record](#appendix-e-experimental-record)
+- [Declarations](#declarations)
 - [References](#references)
 
 ## Abstract
@@ -2745,6 +2746,12 @@ The [command index](https://github.com/130U/certified-rough-heston-valuation/blo
 For the matched propagation experiment of Table 3, the separate reader reads all 2,100,735 entries of the complete residual bank, checks closed-cell coverage from zero, and recomputes the maxima for all 128 propagation bins. It independently expands the cumulative resolvent by the direct double Gamma series with fourteen outer terms, while the producer uses twelve outer terms and a strict power-field moment. Both enclose all inner tails with sixty-four retained terms. The reader checks all 513 transform-radius minima in all four comparisons and rebuilds all twelve prices with all 1025 finite frequencies. At $`\sigma=0`$, it replays all 129 cumulative endpoints and all 128 cell weights against the curve-kernel conclusion. The reader rejects eight negative controls: negative damping, an incorrect physical $`\nu`$ scale, a missing initial closed cell, a removed finite omitted node, an erased true infinite tail, an altered signed centre, an understated resolvent exponent enclosure, and a zero-damping weight that does not reproduce the curve kernel.
 
 The weighted sum of that experiment has $`513\times128=65{,}664`$ terms and 129 cumulative endpoint enclosures, with twelve outer series terms for each endpoint and sixty-four inner terms.
+
+## Declarations
+
+### Use of artificial intelligence
+
+In accordance with editorial policies on the use of artificial intelligence, the author reports using DeepSeek to assist with brainstorming, literature review, language editing, and adversarial stress-testing. The author independently verified all mathematical arguments, derivations, and cited references, and assumes full responsibility for all content.
 
 ## References
 

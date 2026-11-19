@@ -1,0 +1,2524 @@
+{
+  "status": "PASS",
+  "source": "manuscript/merged-heston-en.md",
+  "source_sha256": "bbb79f3b21e37fde92b02fb45a49b3a4404492e7f37819c5c1a7a4ee4db32642",
+  "article_sha256": "401fea2cc59e0097d772e20d0891e14ee905088abe52c98d4dcd2bf0871e8b80",
+  "formula_count": 1101,
+  "inline_count": 949,
+  "display_count": 152,
+  "equation_tags": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8",
+    "3.9",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10",
+    "6.1",
+    "7.1",
+    "A.1",
+    "A.2",
+    "A.3",
+    "A.4",
+    "A.5",
+    "A.6",
+    "A.7",
+    "B.1",
+    "B.2",
+    "B.3",
+    "B.4",
+    "B.5",
+    "B.6",
+    "B.7",
+    "B.8",
+    "B.9",
+    "B.10",
+    "B.11",
+    "B.12",
+    "B.13",
+    "B.14",
+    "B.15",
+    "B.16",
+    "B.17",
+    "B.18",
+    "B.19",
+    "C.1",
+    "C.2",
+    "C.3",
+    "C.4",
+    "C.5",
+    "C.6",
+    "C.7",
+    "C.8",
+    "C.9",
+    "C.10",
+    "C.11",
+    "C.12",
+    "C.13",
+    "C.14",
+    "C.15",
+    "C.16",
+    "C.17",
+    "C.18",
+    "C.19",
+    "C.20",
+    "C.21",
+    "C.22",
+    "C.23",
+    "C.24",
+    "C.25",
+    "C.26",
+    "C.27",
+    "C.28",
+    "C.29",
+    "C.30",
+    "C.31",
+    "C.32",
+    "C.33",
+    "C.34",
+    "C.35",
+    "D.1",
+    "D.2",
+    "D.3",
+    "D.4",
+    "D.5",
+    "D.6",
+    "D.7",
+    "D.8",
+    "D.9",
+    "D.10",
+    "D.11",
+    "D.12",
+    "D.13",
+    "D.14",
+    "D.15",
+    "D.16",
+    "D.17",
+    "E.1",
+    "E.2",
+    "E.3",
+    "E.4",
+    "E.5",
+    "E.6",
+    "E.7",
+    "E.8",
+    "E.9"
+  ],
+  "mathjax": "3.2.2",
+  "mathjax_errors": [],
+  "displays": [
+    {
+      "start": 4256,
+      "end": 4321,
+      "tex": "DF_T\\left|w^\\top(c^*-c^{\\rm fast})\\right|\\le\\tau.\n\\tag{1.1}",
+      "display": true,
+      "id": "m93a614e1a2fea0c9ea37",
+      "tags": [
+        "1.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m93a614e1a2fea0c9ea37-light.svg",
+        "dark": "assets/math/formula-m93a614e1a2fea0c9ea37-dark.svg"
+      },
+      "width_px": 273,
+      "height_px": 24
+    },
+    {
+      "start": 4479,
+      "end": 4567,
+      "tex": "c^*-c^{\\rm fast}=d+\\operatorname{Re}(Az)+r,\\qquad d=\\bar c-c^{\\rm fast}.\n\\tag{1.2}",
+      "display": true,
+      "id": "m3fab337b4af8f52a857e",
+      "tags": [
+        "1.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3fab337b4af8f52a857e-light.svg",
+        "dark": "assets/math/formula-m3fab337b4af8f52a857e-dark.svg"
+      },
+      "width_px": 430,
+      "height_px": 21
+    },
+    {
+      "start": 5306,
+      "end": 5459,
+      "tex": "\\left|L_T-\\widehat L_T\\right|\\le\\int_0^T\\xi^{\\lambda}(T-t)\\,|r(t)|\\,dt\\le\\int_0^T\\xi(T-t)\\,|r(t)|\\,dt,\n\\qquad \\lambda=\\tfrac12|\\rho|\\nu .\n\\tag{1.3}",
+      "display": true,
+      "id": "m779b5f91e0a00a461791",
+      "tags": [
+        "1.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m779b5f91e0a00a461791-light.svg",
+        "dark": "assets/math/formula-m779b5f91e0a00a461791-dark.svg"
+      },
+      "width_px": 650,
+      "height_px": 45
+    },
+    {
+      "start": 7415,
+      "end": 7600,
+      "tex": "\\sup\\,w^\\top\\operatorname{Re}(Az)=\\frac{h_*}\\pi\\sum_n\\omega_n\\,\\epsilon_n\\,\\frac{|\\widehat w(u_n)|}{u_n^2+\\frac14},\n\\qquad\n\\widehat w(u)=\\sum_iw_i\\sqrt{m_i}\\,e^{-iuk_i},\n\\tag{1.4}",
+      "display": true,
+      "id": "m9d678886c7d130ed19c0",
+      "tags": [
+        "1.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9d678886c7d130ed19c0-light.svg",
+        "dark": "assets/math/formula-m9d678886c7d130ed19c0-dark.svg"
+      },
+      "width_px": 623,
+      "height_px": 50
+    },
+    {
+      "start": 14794,
+      "end": 14932,
+      "tex": "dS_t=S_t\\sqrt{V_t}\\,dB_t,\\qquad\nV_t=\\xi(t)+\\nu\\int_0^tg_\\alpha(t-s)\\sqrt{V_s}\\,dW_s,\\qquad\nd\\langle B,W\\rangle_t=\\rho\\,dt,\n\\tag{2.1}",
+      "display": true,
+      "id": "mdf4529b7a66e833d1e6c",
+      "tags": [
+        "2.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mdf4529b7a66e833d1e6c-light.svg",
+        "dark": "assets/math/formula-mdf4529b7a66e833d1e6c-dark.svg"
+      },
+      "width_px": 700,
+      "height_px": 44
+    },
+    {
+      "start": 15491,
+      "end": 15577,
+      "tex": "I^\\alpha f=g_\\alpha*f,\\qquad D^\\alpha v=g_{1-\\alpha}*v'\\quad(v\\in AC),\n\\tag{2.2}",
+      "display": true,
+      "id": "me47efc2fbccc71d0bdde",
+      "tags": [
+        "2.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me47efc2fbccc71d0bdde-light.svg",
+        "dark": "assets/math/formula-me47efc2fbccc71d0bdde-dark.svg"
+      },
+      "width_px": 437,
+      "height_px": 20
+    },
+    {
+      "start": 15844,
+      "end": 15998,
+      "tex": "D^\\alpha h=F_u(h),\\quad h(0)=0,\\qquad\nF_u(h)=-\\tfrac12\\left(u^2+\\tfrac14\\right)+\\left(\\tfrac12\\rho\\nu+i\\rho\\nu u\\right)h+\\tfrac12\\nu^2h^2,\n\\tag{2.3}",
+      "display": true,
+      "id": "mbc9b606719e719bebd1c",
+      "tags": [
+        "2.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mbc9b606719e719bebd1c-light.svg",
+        "dark": "assets/math/formula-mbc9b606719e719bebd1c-dark.svg"
+      },
+      "width_px": 702,
+      "height_px": 23
+    },
+    {
+      "start": 15999,
+      "end": 16099,
+      "tex": "\\phi_T(u-\\tfrac i2)=e^{L_T(u)},\\qquad\nL_T(u)=\\int_0^T\\xi(T-t)\\,D^\\alpha h(t,u)\\,dt .\n\\tag{2.4}",
+      "display": true,
+      "id": "m3337eb4b077dc335baa7",
+      "tags": [
+        "2.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3337eb4b077dc335baa7-light.svg",
+        "dark": "assets/math/formula-m3337eb4b077dc335baa7-dark.svg"
+      },
+      "width_px": 536,
+      "height_px": 45
+    },
+    {
+      "start": 16201,
+      "end": 16325,
+      "tex": "c=1-\\frac{\\sqrt m}{\\pi}\\int_0^\\infty\\operatorname{Re}\\frac{e^{-iuk}\\,\\phi_T(u-\\tfrac i2)}{u^2+\\frac14}\\,du .\n\\tag{2.5}",
+      "display": true,
+      "id": "m657b0b12a3b3c09b831d",
+      "tags": [
+        "2.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m657b0b12a3b3c09b831d-light.svg",
+        "dark": "assets/math/formula-m657b0b12a3b3c09b831d-dark.svg"
+      },
+      "width_px": 400,
+      "height_px": 52
+    },
+    {
+      "start": 16725,
+      "end": 16858,
+      "tex": "|h(t)|\\le\\frac{b_u}{\\lambda_*}\\left\\{1-E_\\alpha(-\\lambda_*t^\\alpha)\\right\\}\\le\\frac{b_u\\,t^\\alpha}{\\Gamma(1+\\alpha)},\n\\tag{2.6}",
+      "display": true,
+      "id": "m23424e9b26fa21ab7b5f",
+      "tags": [
+        "2.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m23424e9b26fa21ab7b5f-light.svg",
+        "dark": "assets/math/formula-m23424e9b26fa21ab7b5f-dark.svg"
+      },
+      "width_px": 407,
+      "height_px": 42
+    },
+    {
+      "start": 17865,
+      "end": 17965,
+      "tex": "q=\\frac{d}{dt}\\left(g_{1-\\alpha}*\\xi\\right)=\\xi(0)\\,g_{1-\\alpha}+g_{1-\\alpha}*\\xi' .\n\\tag{2.7}",
+      "display": true,
+      "id": "m60495bc600061a17aec6",
+      "tags": [
+        "2.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m60495bc600061a17aec6-light.svg",
+        "dark": "assets/math/formula-m60495bc600061a17aec6-dark.svg"
+      },
+      "width_px": 390,
+      "height_px": 38
+    },
+    {
+      "start": 18058,
+      "end": 18136,
+      "tex": "\\int_0^T\\xi(T-t)\\,D^\\alpha v(t)\\,dt=\\int_0^Tq(T-t)\\,v(t)\\,dt .\n\\tag{2.8}",
+      "display": true,
+      "id": "mce55843321c30498e5a1",
+      "tags": [
+        "2.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mce55843321c30498e5a1-light.svg",
+        "dark": "assets/math/formula-mce55843321c30498e5a1-dark.svg"
+      },
+      "width_px": 422,
+      "height_px": 45
+    },
+    {
+      "start": 18785,
+      "end": 18858,
+      "tex": "q(t)=\\frac{V_0\\,t^{-\\alpha}}{\\Gamma(1-\\alpha)}+\\theta(t).\n\\tag{2.9}",
+      "display": true,
+      "id": "m0e9f004c34f0d2d3e6bf",
+      "tags": [
+        "2.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m0e9f004c34f0d2d3e6bf-light.svg",
+        "dark": "assets/math/formula-m0e9f004c34f0d2d3e6bf-dark.svg"
+      },
+      "width_px": 261,
+      "height_px": 44
+    },
+    {
+      "start": 20477,
+      "end": 20529,
+      "tex": "r=D^\\alpha\\widehat h-F_u(\\widehat h)\n\\tag{3.1}",
+      "display": true,
+      "id": "m0bc4fac1aaded2553736",
+      "tags": [
+        "3.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m0bc4fac1aaded2553736-light.svg",
+        "dark": "assets/math/formula-m0bc4fac1aaded2553736-dark.svg"
+      },
+      "width_px": 207,
+      "height_px": 25
+    },
+    {
+      "start": 20796,
+      "end": 20908,
+      "tex": "\\widehat M_t=\\exp\\left\\{\\left(\\tfrac12+iu\\right)X_t+\\int_t^TD^\\alpha\\widehat h(T-s)\\,\\xi_t(s)\\,ds\\right\\}.",
+      "display": true,
+      "id": "m677236895207b980f6ab",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m677236895207b980f6ab-light.svg",
+        "dark": "assets/math/formula-m677236895207b980f6ab-dark.svg"
+      },
+      "width_px": 407,
+      "height_px": 46
+    },
+    {
+      "start": 21167,
+      "end": 21224,
+      "tex": "d\\widehat M_t=-\\,r(T-t)\\,V_t\\,\\widehat M_t\\,dt+dN_t",
+      "display": true,
+      "id": "mf149e559877925f13716",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-mf149e559877925f13716-light.svg",
+        "dark": "assets/math/formula-mf149e559877925f13716-dark.svg"
+      },
+      "width_px": 255,
+      "height_px": 25
+    },
+    {
+      "start": 21281,
+      "end": 21392,
+      "tex": "\\phi_T(u-\\tfrac i2)-e^{\\widehat L_T}=-\\int_0^Tr(T-t)\\,\\mathbb E\\left[V_t\\widehat M_t\\right]dt .\n\\tag{3.2}",
+      "display": true,
+      "id": "me213c24af7d7cc38aabd",
+      "tags": [
+        "3.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me213c24af7d7cc38aabd-light.svg",
+        "dark": "assets/math/formula-me213c24af7d7cc38aabd-dark.svg"
+      },
+      "width_px": 438,
+      "height_px": 45
+    },
+    {
+      "start": 22444,
+      "end": 22562,
+      "tex": "\\xi^\\lambda=k_\\lambda*q,\\qquad\\text{equivalently}\\qquad\\xi^\\lambda+\\lambda\\,g_\\alpha*\\xi^\\lambda=\\xi .\n\\tag{3.3}",
+      "display": true,
+      "id": "m79d6f2bafebeb8127216",
+      "tags": [
+        "3.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m79d6f2bafebeb8127216-light.svg",
+        "dark": "assets/math/formula-m79d6f2bafebeb8127216-dark.svg"
+      },
+      "width_px": 478,
+      "height_px": 21
+    },
+    {
+      "start": 23087,
+      "end": 23143,
+      "tex": "|h(t)-\\widehat h(t)|\\le(k_\\lambda*R)(t),\n\\tag{3.4}",
+      "display": true,
+      "id": "m727051c3204fa01ff3b9",
+      "tags": [
+        "3.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m727051c3204fa01ff3b9-light.svg",
+        "dark": "assets/math/formula-m727051c3204fa01ff3b9-dark.svg"
+      },
+      "width_px": 283,
+      "height_px": 25
+    },
+    {
+      "start": 23275,
+      "end": 23388,
+      "tex": "\\left|L_T-\\widehat L_T\\right|\\le\\int_0^T\\xi^\\lambda(T-t)\\,R(t)\\,dt\\le\\int_0^T\\xi(T-t)\\,R(t)\\,dt .\n\\tag{3.5}",
+      "display": true,
+      "id": "m9a9a608ee037859d57c7",
+      "tags": [
+        "3.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9a9a608ee037859d57c7-light.svg",
+        "dark": "assets/math/formula-m9a9a608ee037859d57c7-dark.svg"
+      },
+      "width_px": 519,
+      "height_px": 45
+    },
+    {
+      "start": 23588,
+      "end": 23702,
+      "tex": "D^\\alpha e=\\left\\{\\tfrac12\\rho\\nu+i\\rho\\nu u+\\tfrac12\\nu^2(h+\\widehat h)\\right\\}e-r,\\qquad e(0)=0,\n\\tag{3.6}",
+      "display": true,
+      "id": "md17d56bd6de971f25353",
+      "tags": [
+        "3.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-md17d56bd6de971f25353-light.svg",
+        "dark": "assets/math/formula-md17d56bd6de971f25353-dark.svg"
+      },
+      "width_px": 511,
+      "height_px": 33
+    },
+    {
+      "start": 25158,
+      "end": 25248,
+      "tex": "\\mathbb E^{\\mathbb Q^\\eta}[V_t]=\\xi^{\\eta|\\rho|\\nu}(t),\\qquad0\\le t\\le T .\n\\tag{3.7}",
+      "display": true,
+      "id": "m25dd0de9b7696fba9a88",
+      "tags": [
+        "3.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m25dd0de9b7696fba9a88-light.svg",
+        "dark": "assets/math/formula-m25dd0de9b7696fba9a88-dark.svg"
+      },
+      "width_px": 338,
+      "height_px": 22
+    },
+    {
+      "start": 25687,
+      "end": 25793,
+      "tex": "V_t=\\xi(t)-\\eta|\\rho|\\nu\\int_0^tg_\\alpha(t-s)V_s\\,ds+\\nu\\int_0^tg_\\alpha(t-s)\\sqrt{V_s}\\,dW^\\eta_s .",
+      "display": true,
+      "id": "m795761d48bd05c136d88",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m795761d48bd05c136d88-light.svg",
+        "dark": "assets/math/formula-m795761d48bd05c136d88-dark.svg"
+      },
+      "width_px": 480,
+      "height_px": 44
+    },
+    {
+      "start": 30808,
+      "end": 30943,
+      "tex": "\\left|L_T-\\widehat L_T\\right|\\le\\sum_jR_j\\int_{a_j}^{b_j}\\xi^\\lambda(T-s)\\,ds\\le\\sum_jR_j\\int_{a_j}^{b_j}\\xi(T-s)\\,ds .\n\\tag{3.8}",
+      "display": true,
+      "id": "mb8ee667ee4e5da68ea3e",
+      "tags": [
+        "3.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mb8ee667ee4e5da68ea3e-light.svg",
+        "dark": "assets/math/formula-mb8ee667ee4e5da68ea3e-dark.svg"
+      },
+      "width_px": 560,
+      "height_px": 53
+    },
+    {
+      "start": 31226,
+      "end": 31423,
+      "tex": "W_\\lambda(t)=\\sum_{n=0}^\\infty(-\\lambda)^n\\,t^{1+n\\alpha}\n\\left[\\frac{\\theta}{\\Gamma(2+n\\alpha)}+(V_0-\\theta)\\,E_{\\alpha_0,\\,2+n\\alpha}\\left(-\\lambda_\\xi t^{\\alpha_0}\\right)\\right],\n\\tag{3.9}",
+      "display": true,
+      "id": "m8bf056c127e60cce9d50",
+      "tags": [
+        "3.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m8bf056c127e60cce9d50-light.svg",
+        "dark": "assets/math/formula-m8bf056c127e60cce9d50-dark.svg"
+      },
+      "width_px": 602,
+      "height_px": 51
+    },
+    {
+      "start": 32106,
+      "end": 32219,
+      "tex": "g(t)=g_0+a_1t^\\alpha+a_2t^{2\\alpha}+O(t^{3\\alpha}),\\qquad g_0=-\\tfrac12\\left(u^2+\\tfrac14\\right),\n\\tag{4.1}",
+      "display": true,
+      "id": "m48536e4d489e867bb18b",
+      "tags": [
+        "4.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m48536e4d489e867bb18b-light.svg",
+        "dark": "assets/math/formula-m48536e4d489e867bb18b-dark.svg"
+      },
+      "width_px": 524,
+      "height_px": 23
+    },
+    {
+      "start": 32315,
+      "end": 32485,
+      "tex": "b_1=\\frac{g_0}{\\Gamma(1+\\alpha)},\\quad a_1=\\gamma_ub_1,\\qquad\nb_2=\\frac{a_1\\Gamma(1+\\alpha)}{\\Gamma(1+2\\alpha)},\\quad a_2=\\gamma_ub_2+\\tfrac12\\nu^2b_1^2 .\n\\tag{4.2}",
+      "display": true,
+      "id": "mae4cc49359434e77eed0",
+      "tags": [
+        "4.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mae4cc49359434e77eed0-light.svg",
+        "dark": "assets/math/formula-mae4cc49359434e77eed0-dark.svg"
+      },
+      "width_px": 646,
+      "height_px": 44
+    },
+    {
+      "start": 33802,
+      "end": 33935,
+      "tex": "\\left|\\phi_T(u_n-\\tfrac i2)-\\widehat\\phi_n\\right|\\le\\min\\{1,|\\widehat\\phi_n|\\}\\left(e^{\\eta_n}-1\\right)=:\\epsilon_n .\n\\tag{4.3}",
+      "display": true,
+      "id": "m270e210f4188bb2c68b0",
+      "tags": [
+        "4.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m270e210f4188bb2c68b0-light.svg",
+        "dark": "assets/math/formula-m270e210f4188bb2c68b0-dark.svg"
+      },
+      "width_px": 461,
+      "height_px": 31
+    },
+    {
+      "start": 34368,
+      "end": 34479,
+      "tex": "\\epsilon_{\\rm grid}=\\frac{\\sqrt m\\,e^{a_*|k|}}{(\\tfrac12-a_*)\\left(e^{2\\pi a_*/h_*}-1\\right)} .\n\\tag{4.4}",
+      "display": true,
+      "id": "m67acf7d2be9384d736da",
+      "tags": [
+        "4.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m67acf7d2be9384d736da-light.svg",
+        "dark": "assets/math/formula-m67acf7d2be9384d736da-dark.svg"
+      },
+      "width_px": 317,
+      "height_px": 50
+    },
+    {
+      "start": 34899,
+      "end": 35092,
+      "tex": "\\widehat c_N=1-\\frac{h_*\\sqrt m}{\\pi}\\left(2\\operatorname{Re}\\widehat\\phi_0+\\sum_{n=1}^N\\frac{\\operatorname{Re}(e^{-iu_nk}\\widehat\\phi_n)}{u_n^2+\\frac14}\\right),\\qquad u_n=nh_*,\n\\tag{4.5}",
+      "display": true,
+      "id": "m1832b1c8839ea3a5e4b1",
+      "tags": [
+        "4.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m1832b1c8839ea3a5e4b1-light.svg",
+        "dark": "assets/math/formula-m1832b1c8839ea3a5e4b1-dark.svg"
+      },
+      "width_px": 573,
+      "height_px": 55
+    },
+    {
+      "start": 35136,
+      "end": 35330,
+      "tex": "|c-\\widehat c_N|\\le\\frac{h_*\\sqrt m}{\\pi}\\left(2\\epsilon_0+\\sum_{n=1}^N\\frac{\\epsilon_n}{u_n^2+\\frac14}\\right)+\\epsilon_{\\rm grid}+\\epsilon_{\\rm tail}+\\epsilon_{\\rm arithmetic} .\n\\tag{4.6}",
+      "display": true,
+      "id": "m45864c88fcee3be21a9b",
+      "tags": [
+        "4.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m45864c88fcee3be21a9b-light.svg",
+        "dark": "assets/math/formula-m45864c88fcee3be21a9b-dark.svg"
+      },
+      "width_px": 581,
+      "height_px": 54
+    },
+    {
+      "start": 36297,
+      "end": 36440,
+      "tex": "a_{in}=-\\frac{h_*\\omega_n\\sqrt{m_i}}{\\pi}\\,\\frac{e^{-iu_nk_i}}{u_n^2+\\frac14},\\qquad\\omega_0=\\tfrac12,\\quad\\omega_n=1\\ (n\\ge1),\n\\tag{5.1}",
+      "display": true,
+      "id": "m6cf9193bcf24a55dde88",
+      "tags": [
+        "5.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m6cf9193bcf24a55dde88-light.svg",
+        "dark": "assets/math/formula-m6cf9193bcf24a55dde88-dark.svg"
+      },
+      "width_px": 536,
+      "height_px": 49
+    },
+    {
+      "start": 36470,
+      "end": 36608,
+      "tex": "c^*-\\bar c=\\operatorname{Re}\\sum_{n=0}^Na_{\\cdot n}z_n+r,\\qquad z_n=\\phi_T(u_n-\\tfrac i2)-\\bar\\phi_n,\\quad r\\in\\mathcal R,\n\\tag{5.2}",
+      "display": true,
+      "id": "m1c20396ff39e4daf68d8",
+      "tags": [
+        "5.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m1c20396ff39e4daf68d8-light.svg",
+        "dark": "assets/math/formula-m1c20396ff39e4daf68d8-dark.svg"
+      },
+      "width_px": 564,
+      "height_px": 54
+    },
+    {
+      "start": 36865,
+      "end": 37041,
+      "tex": "\\widehat w(u)=\\sum_{i=1}^pw_i\\sqrt{m_i}\\,e^{-iuk_i},\\qquad\\text{so that}\\qquad\n\\sum_iw_ia_{in}=-\\frac{h_*\\omega_n}{\\pi}\\,\\frac{\\widehat w(u_n)}{u_n^2+\\frac14} .\n\\tag{5.3}",
+      "display": true,
+      "id": "mcd5c6fffee15555920d8",
+      "tags": [
+        "5.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mcd5c6fffee15555920d8-light.svg",
+        "dark": "assets/math/formula-mcd5c6fffee15555920d8-dark.svg"
+      },
+      "width_px": 631,
+      "height_px": 52
+    },
+    {
+      "start": 37437,
+      "end": 37578,
+      "tex": "\\mathcal E=\\left\\{\\operatorname{Re}\\sum_na_{\\cdot n}z_n:\\ |z_n|\\le\\epsilon_n\\right\\}+\\mathcal R,\\qquad d=\\bar c-c^{\\rm fast}.\n\\tag{5.4}",
+      "display": true,
+      "id": "mf0d4d82ae56caae4fb7b",
+      "tags": [
+        "5.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mf0d4d82ae56caae4fb7b-light.svg",
+        "dark": "assets/math/formula-mf0d4d82ae56caae4fb7b-dark.svg"
+      },
+      "width_px": 500,
+      "height_px": 54
+    },
+    {
+      "start": 37692,
+      "end": 37842,
+      "tex": "h_{d+\\mathcal E}(w)=w^\\top d+\\frac{h_*}\\pi\\sum_{n=0}^N\\omega_n\\,\\epsilon_n\\,\\frac{|\\widehat w(u_n)|}{u_n^2+\\frac14}+h_{\\mathcal R}(w).\n\\tag{5.5}",
+      "display": true,
+      "id": "ma9e739eb6e53ec2dd6cf",
+      "tags": [
+        "5.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma9e739eb6e53ec2dd6cf-light.svg",
+        "dark": "assets/math/formula-ma9e739eb6e53ec2dd6cf-dark.svg"
+      },
+      "width_px": 460,
+      "height_px": 54
+    },
+    {
+      "start": 38648,
+      "end": 38787,
+      "tex": "h_{\\rm box}(w)=\\frac{h_*}\\pi\\sum_{n=0}^N\\omega_n\\,\\epsilon_n\\,\\frac{\\sum_i|w_i|\\sqrt{m_i}}{u_n^2+\\frac14}+\\sum_i|w_i|\\rho_i\n\\tag{5.6}",
+      "display": true,
+      "id": "m1bbdf545c857402ee6f0",
+      "tags": [
+        "5.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m1bbdf545c857402ee6f0-light.svg",
+        "dark": "assets/math/formula-m1bbdf545c857402ee6f0-dark.svg"
+      },
+      "width_px": 454,
+      "height_px": 54
+    },
+    {
+      "start": 39448,
+      "end": 39528,
+      "tex": "\\chi_w(u)=\\frac{|\\widehat w(u)|}{\\sum_i|w_i|\\sqrt{m_i}}\\in[0,1].\n\\tag{5.7}",
+      "display": true,
+      "id": "m3e5d899928a88c28bbc9",
+      "tags": [
+        "5.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3e5d899928a88c28bbc9-light.svg",
+        "dark": "assets/math/formula-m3e5d899928a88c28bbc9-dark.svg"
+      },
+      "width_px": 311,
+      "height_px": 47
+    },
+    {
+      "start": 40125,
+      "end": 40301,
+      "tex": "\\chi_w(u)=\\left(\\tanh^2\\tfrac\\Delta4+\\operatorname{sech}^2\\tfrac\\Delta4\\,\\sin^2\\tfrac{u\\Delta}2\\right)^{j/2}\\le\\left(\\tfrac\\Delta2\\sqrt{u^2+\\tfrac14}\\right)^j .\n\\tag{5.8}",
+      "display": true,
+      "id": "ma3cfb0954e3a10ab0ded",
+      "tags": [
+        "5.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma3cfb0954e3a10ab0ded-light.svg",
+        "dark": "assets/math/formula-ma3cfb0954e3a10ab0ded-dark.svg"
+      },
+      "width_px": 548,
+      "height_px": 47
+    },
+    {
+      "start": 42408,
+      "end": 42526,
+      "tex": "\\lim_{U\\to\\infty}\\frac1U\\int_0^U\\chi_w(u)^2\\,du=\\frac{\\sum_i\\ell_i^2}{\\left(\\sum_i|\\ell_i|\\right)^2} .\n\\tag{5.9}",
+      "display": true,
+      "id": "me4793b09895c49140e57",
+      "tags": [
+        "5.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me4793b09895c49140e57-light.svg",
+        "dark": "assets/math/formula-me4793b09895c49140e57-dark.svg"
+      },
+      "width_px": 359,
+      "height_px": 51
+    },
+    {
+      "start": 44337,
+      "end": 44383,
+      "tex": "J(c)=\\frac1{2p}\\sum_{i=1}^p(c_i-M_i)^2 .",
+      "display": true,
+      "id": "ma5acb8e47e40ca125e3c",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-ma5acb8e47e40ca125e3c-light.svg",
+        "dark": "assets/math/formula-ma5acb8e47e40ca125e3c-dark.svg"
+      },
+      "width_px": 199,
+      "height_px": 52
+    },
+    {
+      "start": 44489,
+      "end": 44566,
+      "tex": "J(c^*)-J(\\bar c)=g^\\top e+\\frac{|e|^2}{2p},\\qquad g=\\frac{\\bar c-M}{p},",
+      "display": true,
+      "id": "m6a3cda1e7344ebcbe4a1",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m6a3cda1e7344ebcbe4a1-light.svg",
+        "dark": "assets/math/formula-m6a3cda1e7344ebcbe4a1-dark.svg"
+      },
+      "width_px": 344,
+      "height_px": 44
+    },
+    {
+      "start": 44802,
+      "end": 44922,
+      "tex": "J(\\bar c)-h_{\\mathcal E}(-g)\\ \\le\\ J(c^*)\\ \\le\\ J(\\bar c)+h_{\\mathcal E}(g)+\\frac1{2p}\\sum_i\\beta_i^2 .\n\\tag{5.10}",
+      "display": true,
+      "id": "m217710d8c8ac9d656ae8",
+      "tags": [
+        "5.10"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m217710d8c8ac9d656ae8-light.svg",
+        "dark": "assets/math/formula-m217710d8c8ac9d656ae8-dark.svg"
+      },
+      "width_px": 503,
+      "height_px": 46
+    },
+    {
+      "start": 46594,
+      "end": 46737,
+      "tex": "\\operatorname{Re}q_j>0\\ (j=1,2,3),\\qquad\\operatorname{Re}Q(y)\\ge1\\quad(y\\ge0),\\qquad\\operatorname{Re}\\widehat H(y)<0\\quad(y>0).\n\\tag{6.1}",
+      "display": true,
+      "id": "m5d29a9c7c5fbaed5c7d9",
+      "tags": [
+        "6.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m5d29a9c7c5fbaed5c7d9-light.svg",
+        "dark": "assets/math/formula-m5d29a9c7c5fbaed5c7d9-dark.svg"
+      },
+      "width_px": 672,
+      "height_px": 25
+    },
+    {
+      "start": 48920,
+      "end": 49091,
+      "tex": "\\xi(t)=\\theta+(V_0-\\theta)\\,E_{\\alpha_0}\\left(-\\lambda_\\xi t^{\\alpha_0}\\right),\\qquad(\\alpha_0,V_0,\\theta,\\lambda_\\xi)=(0.5286,\\,0.0262,\\,0.0721,\\,0.5037).\n\\tag{7.1}",
+      "display": true,
+      "id": "m96b9f2c8dd26e007dce0",
+      "tags": [
+        "7.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m96b9f2c8dd26e007dce0-light.svg",
+        "dark": "assets/math/formula-m96b9f2c8dd26e007dce0-dark.svg"
+      },
+      "width_px": 746,
+      "height_px": 19
+    },
+    {
+      "start": 66986,
+      "end": 67093,
+      "tex": "x=\\nu^{1/\\alpha}t,\\qquad y=x^\\alpha=\\nu t^\\alpha,\\qquad H(x)=\\nu h(t),\\qquad Z(t)=\\nu h(t),\n\\tag{A.1}",
+      "display": true,
+      "id": "m856a1b7242989cc99edf",
+      "tags": [
+        "A.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m856a1b7242989cc99edf-light.svg",
+        "dark": "assets/math/formula-m856a1b7242989cc99edf-dark.svg"
+      },
+      "width_px": 597,
+      "height_px": 22
+    },
+    {
+      "start": 67094,
+      "end": 67229,
+      "tex": "b=\\tfrac12\\left(u^2+\\tfrac14\\right),\\qquad s_0=\\kappa-\\tfrac\\rho2,\\qquad d=-s_0+i\\rho u,\\qquad F(z)=-b+dz+\\tfrac12z^2 .\n\\tag{A.2}",
+      "display": true,
+      "id": "ma3965e3d44583a81b783",
+      "tags": [
+        "A.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma3965e3d44583a81b783-light.svg",
+        "dark": "assets/math/formula-ma3965e3d44583a81b783-dark.svg"
+      },
+      "width_px": 707,
+      "height_px": 23
+    },
+    {
+      "start": 67500,
+      "end": 67580,
+      "tex": "H(x)=\\frac1{\\Gamma(\\alpha)}\\int_0^x(x-s)^{\\alpha-1}F(H(s))\\,ds .\n\\tag{A.3}",
+      "display": true,
+      "id": "m7c31e32e9f388378da9c",
+      "tags": [
+        "A.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m7c31e32e9f388378da9c-light.svg",
+        "dark": "assets/math/formula-m7c31e32e9f388378da9c-dark.svg"
+      },
+      "width_px": 392,
+      "height_px": 43
+    },
+    {
+      "start": 68489,
+      "end": 68714,
+      "tex": "\\int_0^hK_\\alpha^2dt=\n\\frac{h^{2\\alpha-1}}{(2\\alpha-1)\\Gamma(\\alpha)^2},\\quad\n\\int_0^T(K_\\alpha(t+h)-K_\\alpha(t))^2dt\n\\le\\frac{h^{2\\alpha-1}}{\\Gamma(\\alpha)^2}\n\\int_0^\\infty[(r+1)^{\\alpha-1}-r^{\\alpha-1}]^2dr.\n\\tag{A.4}",
+      "display": true,
+      "id": "me5d9496f0ba769ead7ee",
+      "tags": [
+        "A.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me5d9496f0ba769ead7ee-light.svg",
+        "dark": "assets/math/formula-me5d9496f0ba769ead7ee-dark.svg"
+      },
+      "width_px": 819,
+      "height_px": 46
+    },
+    {
+      "start": 68873,
+      "end": 68976,
+      "tex": "\\mathcal L_\\alpha(dt)=t^{-\\alpha}dt/\\Gamma(1-\\alpha),\\quad\nK_\\alpha*\\mathcal L_\\alpha=1\n\\tag{A.5}",
+      "display": true,
+      "id": "ma8d347a646d839ecdce7",
+      "tags": [
+        "A.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma8d347a646d839ecdce7-light.svg",
+        "dark": "assets/math/formula-ma8d347a646d839ecdce7-dark.svg"
+      },
+      "width_px": 396,
+      "height_px": 20
+    },
+    {
+      "start": 69089,
+      "end": 69167,
+      "tex": "\\mu_\\alpha(dx)=x^{-\\alpha}dx/\n[\\Gamma(\\alpha)\\Gamma(1-\\alpha)]\n\\tag{A.6}",
+      "display": true,
+      "id": "m7d69d7e3c312dc17cfb2",
+      "tags": [
+        "A.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m7d69d7e3c312dc17cfb2-light.svg",
+        "dark": "assets/math/formula-m7d69d7e3c312dc17cfb2-dark.svg"
+      },
+      "width_px": 329,
+      "height_px": 20
+    },
+    {
+      "start": 69929,
+      "end": 70123,
+      "tex": "b_\\alpha(t)=D_C^\\alpha\\xi_*(t)=I^{1-\\alpha}\\xi_*'(t)\\ge0,\\quad\nb_\\alpha(t)=\n\\frac{(\\theta-V_0)\\lambda_\\xi}{\\Gamma(1+\\alpha_0-\\alpha)}\nt^{\\alpha_0-\\alpha}+O(t^{2\\alpha_0-\\alpha}).\n\\tag{A.7}",
+      "display": true,
+      "id": "m806b634eda7338f72c3f",
+      "tags": [
+        "A.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m806b634eda7338f72c3f-light.svg",
+        "dark": "assets/math/formula-m806b634eda7338f72c3f-dark.svg"
+      },
+      "width_px": 680,
+      "height_px": 45
+    },
+    {
+      "start": 71169,
+      "end": 71332,
+      "tex": "b_1=-\\frac b{\\Gamma(1+\\alpha)},\\quad\nb_2=\\frac{Sb}{\\Gamma(1+2\\alpha)},\\quad\nb_3=\\frac{\\Gamma(1+2\\alpha)}{\\Gamma(1+3\\alpha)}\n       (d b_2+b_1^2/2),\n\\tag{B.1}",
+      "display": true,
+      "id": "m9029a0b29d864ffe3fca",
+      "tags": [
+        "B.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9029a0b29d864ffe3fca-light.svg",
+        "dark": "assets/math/formula-m9029a0b29d864ffe3fca-dark.svg"
+      },
+      "width_px": 610,
+      "height_px": 44
+    },
+    {
+      "start": 71333,
+      "end": 71477,
+      "tex": "g_0=-R,\\quad g_1=\\frac R{A\\Gamma(1-\\alpha)},\\quad\ng_2=-\\frac R{A^2\\Gamma(1-2\\alpha)}\n       +\\frac{R^2}{2A^3\\Gamma(1-\\alpha)^2}.\n\\tag{B.2}",
+      "display": true,
+      "id": "me339672eb065fd06711e",
+      "tags": [
+        "B.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me339672eb065fd06711e-light.svg",
+        "dark": "assets/math/formula-me339672eb065fd06711e-dark.svg"
+      },
+      "width_px": 631,
+      "height_px": 45
+    },
+    {
+      "start": 71617,
+      "end": 71676,
+      "tex": "\\widehat H(y)=P(y)/Q(y),\\quad\nQ=1+q_1y+q_2y^2+q_3y^3,",
+      "display": true,
+      "id": "m88669317cbca3d2ff13d",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m88669317cbca3d2ff13d-light.svg",
+        "dark": "assets/math/formula-m88669317cbca3d2ff13d-dark.svg"
+      },
+      "width_px": 380,
+      "height_px": 24
+    },
+    {
+      "start": 71677,
+      "end": 71781,
+      "tex": "\\widehat H=b_1y+b_2y^2+b_3y^3+O(y^4),\\quad\n\\widehat H=g_0+g_1y^{-1}+g_2y^{-2}+O(y^{-3}).\n\\tag{B.3}",
+      "display": true,
+      "id": "m4027854f8600c3019096",
+      "tags": [
+        "B.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m4027854f8600c3019096-light.svg",
+        "dark": "assets/math/formula-m4027854f8600c3019096-dark.svg"
+      },
+      "width_px": 613,
+      "height_px": 24
+    },
+    {
+      "start": 71826,
+      "end": 72052,
+      "tex": "\\begin{pmatrix}g_0&g_1&g_2\\\\b_1&-g_0&-g_1\\\\\nb_2&b_1&-g_0\\end{pmatrix}\n\\begin{pmatrix}q_1\\\\q_2\\\\q_3\\end{pmatrix}\n=\\begin{pmatrix}b_1\\\\-b_2\\\\-b_3\\end{pmatrix},\n\\quad p_1=b_1,\\quad p_2=b_2+b_1q_1,\\quad p_3=g_0q_3.\n\\tag{B.4}",
+      "display": true,
+      "id": "me0fd6cb268a2825d7299",
+      "tags": [
+        "B.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me0fd6cb268a2825d7299-light.svg",
+        "dark": "assets/math/formula-me0fd6cb268a2825d7299-dark.svg"
+      },
+      "width_px": 683,
+      "height_px": 69
+    },
+    {
+      "start": 72358,
+      "end": 72584,
+      "tex": "f=\\Gamma(1+\\alpha)^{-1},\\quad p=\\frac{\\sin\\pi\\alpha}{\\pi\\alpha},\n\\quad v=-\\cos\\pi\\alpha,\\quad\nm_\\alpha=\\frac{\\Gamma(1+2\\alpha)}{\\Gamma(1+\\alpha)^2},\\quad\n\\zeta=\\frac{\\Gamma(1+2\\alpha)\\Gamma(1+\\alpha)}{\\Gamma(1+3\\alpha)},",
+      "display": true,
+      "id": "m8fa4bb61b46bd5de010e",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m8fa4bb61b46bd5de010e-light.svg",
+        "dark": "assets/math/formula-m8fa4bb61b46bd5de010e-dark.svg"
+      },
+      "width_px": 735,
+      "height_px": 44
+    },
+    {
+      "start": 72585,
+      "end": 72722,
+      "tex": "\\mathsf M_2=Sb/m_\\alpha,\\quad\n\\mathsf c=\\zeta(b^2/2-S^2b/m_\\alpha),\\quad\nV=pR/A,\\quad W=m_\\alpha p v R/A^2+p^2R^2/(2A^3).\n\\tag{B.5}",
+      "display": true,
+      "id": "ma949a16a335c32df9a36",
+      "tags": [
+        "B.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma949a16a335c32df9a36-light.svg",
+        "dark": "assets/math/formula-ma949a16a335c32df9a36-dark.svg"
+      },
+      "width_px": 764,
+      "height_px": 21
+    },
+    {
+      "start": 73004,
+      "end": 73330,
+      "tex": "\\begin{aligned}\n\\Delta={}&b^2W+2bRV-\\mathsf M_2RW-\\mathsf M_2V^2-R^3,\\\\\nF_1={}&b^2V+b\\mathsf M_2W-bR^2+\\mathsf M_2RV+\\mathsf cRW+\\mathsf cV^2,\\\\\nF_2={}&-b^2R+b\\mathsf M_2V+b\\mathsf cW+\\mathsf M_2^2W+\\mathsf M_2R^2+\\mathsf cRV,\\\\\nF_3={}&-b^3+2b\\mathsf M_2R-b\\mathsf cV-\\mathsf M_2^2V+\\mathsf cR^2.\n\\end{aligned}\n\\tag{B.6}",
+      "display": true,
+      "id": "mabf6e2d9e541bbe6445b",
+      "tags": [
+        "B.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mabf6e2d9e541bbe6445b-light.svg",
+        "dark": "assets/math/formula-mabf6e2d9e541bbe6445b-dark.svg"
+      },
+      "width_px": 490,
+      "height_px": 98
+    },
+    {
+      "start": 73520,
+      "end": 73647,
+      "tex": "\\Delta P=-fb\\Delta y+f^2(\\mathsf M_2\\Delta-bF_1)y^2-f^3RF_3y^3,\\quad\n\\Delta Q=\\Delta+fF_1y+f^2F_2y^2+f^3F_3y^3.\n\\tag{B.7}",
+      "display": true,
+      "id": "mc69045027c8aefd1f3ab",
+      "tags": [
+        "B.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mc69045027c8aefd1f3ab-light.svg",
+        "dark": "assets/math/formula-mc69045027c8aefd1f3ab-dark.svg"
+      },
+      "width_px": 751,
+      "height_px": 21
+    },
+    {
+      "start": 73840,
+      "end": 73944,
+      "tex": "\\omega=\\sqrt{u^2+1/4},\\quad \\eta=u/(1+u),\\quad\nj(\\eta)=\\sqrt{\\eta^2+(1-\\eta)^2/4},\\quad s=-\\rho/2,",
+      "display": true,
+      "id": "m239e8cd3cf4cb48b9df0",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m239e8cd3cf4cb48b9df0-light.svg",
+        "dark": "assets/math/formula-m239e8cd3cf4cb48b9df0-dark.svg"
+      },
+      "width_px": 577,
+      "height_px": 34
+    },
+    {
+      "start": 73945,
+      "end": 74058,
+      "tex": "\\bar S=s(1-\\eta+2i\\eta)/j(\\eta),\\quad\n\\bar A=\\sqrt{1+\\bar S^2},\\quad \\bar R=(\\bar A+\\bar S)^{-1}.\n\\tag{B.8}",
+      "display": true,
+      "id": "md4ee766fd5b2d10c35e3",
+      "tags": [
+        "B.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-md4ee766fd5b2d10c35e3-light.svg",
+        "dark": "assets/math/formula-md4ee766fd5b2d10c35e3-dark.svg"
+      },
+      "width_px": 545,
+      "height_px": 34
+    },
+    {
+      "start": 74181,
+      "end": 74265,
+      "tex": "\\operatorname{Re}\\bar A^2\n=1-\\rho^2+2(\\operatorname{Re}\\bar S)^2\\ge1-\\rho^2>0.",
+      "display": true,
+      "id": "ma4be53581ff8eff48d34",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-ma4be53581ff8eff48d34-light.svg",
+        "dark": "assets/math/formula-ma4be53581ff8eff48d34-dark.svg"
+      },
+      "width_px": 317,
+      "height_px": 22
+    },
+    {
+      "start": 74471,
+      "end": 74594,
+      "tex": "|\\bar A+\\bar S|^2\\ge|\\bar A|^2+|\\bar S|^2\n\\ge|\\bar A^2-\\bar S^2|=1,\\quad\n|\\bar R|\\le1,\\quad\\operatorname{Re}\\bar R>0.",
+      "display": true,
+      "id": "md24793bf1da5ee52d9c5",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-md24793bf1da5ee52d9c5-light.svg",
+        "dark": "assets/math/formula-md24793bf1da5ee52d9c5-dark.svg"
+      },
+      "width_px": 488,
+      "height_px": 22
+    },
+    {
+      "start": 74838,
+      "end": 74912,
+      "tex": "\\Delta=\\omega^3\\bar\\Delta,\\qquad F_j=\\omega^{3+j}\\bar F_j.\n\\tag{B.9}",
+      "display": true,
+      "id": "m2ef5995943335ba53cd0",
+      "tags": [
+        "B.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m2ef5995943335ba53cd0-light.svg",
+        "dark": "assets/math/formula-m2ef5995943335ba53cd0-dark.svg"
+      },
+      "width_px": 297,
+      "height_px": 23
+    },
+    {
+      "start": 74941,
+      "end": 75016,
+      "tex": "\\bar B_j=\\operatorname{Re}(\\bar F_j\\overline{\\bar\\Delta}).\n\\tag{B.10}",
+      "display": true,
+      "id": "m9fdab72db292a5a129dd",
+      "tags": [
+        "B.10"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9fdab72db292a5a129dd-light.svg",
+        "dark": "assets/math/formula-m9fdab72db292a5a129dd-dark.svg"
+      },
+      "width_px": 207,
+      "height_px": 27
+    },
+    {
+      "start": 75135,
+      "end": 75252,
+      "tex": "|\\bar\\Delta|^2\\ge\n\\frac{88110801209184778874628745}{1267650600228229401496703205376}\n>\\frac1{14400}.\n\\tag{B.11}",
+      "display": true,
+      "id": "m37f56ae40fa1ccb1644a",
+      "tags": [
+        "B.11"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m37f56ae40fa1ccb1644a-light.svg",
+        "dark": "assets/math/formula-m37f56ae40fa1ccb1644a-dark.svg"
+      },
+      "width_px": 515,
+      "height_px": 38
+    },
+    {
+      "start": 75591,
+      "end": 75674,
+      "tex": "|\\Delta|^2\\operatorname{Re}(P\\overline Q)\n=\\sum_{n=1}^6 f^nD_ny^n,\n\\tag{B.12}",
+      "display": true,
+      "id": "m98da724a170d24c77c06",
+      "tags": [
+        "B.12"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m98da724a170d24c77c06-light.svg",
+        "dark": "assets/math/formula-m98da724a170d24c77c06-dark.svg"
+      },
+      "width_px": 308,
+      "height_px": 54
+    },
+    {
+      "start": 75675,
+      "end": 76183,
+      "tex": "\\begin{aligned}\nD_1={}&-b|\\Delta|^2,\\\\\nD_2={}&\\operatorname{Re}(\\mathsf M_2)|\\Delta|^2-2b\\operatorname{Re}(F_1\\overline\\Delta),\\\\\nD_3={}&\\operatorname{Re}\\{-RF_3\\overline\\Delta+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_1-b\\Delta\\overline F_2\\},\\\\\nD_4={}&\\operatorname{Re}\\{-RF_3\\overline F_1+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_2-b\\Delta\\overline F_3\\},\\\\\nD_5={}&\\operatorname{Re}\\{-RF_3\\overline F_2+\n(\\mathsf M_2\\Delta-bF_1)\\overline F_3\\},\\\\\nD_6={}&-\\operatorname{Re}R\\,|F_3|^2.\n\\end{aligned}\n\\tag{B.13}",
+      "display": true,
+      "id": "mc5e77ef916f8645ce91d",
+      "tags": [
+        "B.13"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mc5e77ef916f8645ce91d-light.svg",
+        "dark": "assets/math/formula-mc5e77ef916f8645ce91d-dark.svg"
+      },
+      "width_px": 457,
+      "height_px": 159
+    },
+    {
+      "start": 77488,
+      "end": 77569,
+      "tex": "p'<0,\\quad v'>0,\\quad\n(\\log m_\\alpha)'=2[\\psi(1+2\\alpha)-\\psi(1+\\alpha)]>0,",
+      "display": true,
+      "id": "m57d1c2be2f9b254dedf3",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m57d1c2be2f9b254dedf3-light.svg",
+        "dark": "assets/math/formula-m57d1c2be2f9b254dedf3-dark.svg"
+      },
+      "width_px": 465,
+      "height_px": 20
+    },
+    {
+      "start": 77570,
+      "end": 77672,
+      "tex": "(\\log\\zeta)'=2[\\psi(1+2\\alpha)-\\psi(1+3\\alpha)]\n +[\\psi(1+\\alpha)-\\psi(1+3\\alpha)]<0.\n\\tag{B.14}",
+      "display": true,
+      "id": "mbeeb1d03c31ac567b3a5",
+      "tags": [
+        "B.14"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mbeeb1d03c31ac567b3a5-light.svg",
+        "dark": "assets/math/formula-mbeeb1d03c31ac567b3a5-dark.svg"
+      },
+      "width_px": 597,
+      "height_px": 20
+    },
+    {
+      "start": 78457,
+      "end": 78511,
+      "tex": "0<R_{10}(z)<B_{22}/(22\\cdot21z^{21}).\n\\tag{B.15}",
+      "display": true,
+      "id": "mfd13062ff32d313498af",
+      "tags": [
+        "B.15"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mfd13062ff32d313498af-light.svg",
+        "dark": "assets/math/formula-mfd13062ff32d313498af-dark.svg"
+      },
+      "width_px": 324,
+      "height_px": 21
+    },
+    {
+      "start": 81095,
+      "end": 81204,
+      "tex": "|A|^{-1}\\le8/5,\\quad |A'|\\le6/5,\\quad\n|(A^{-1})'|\\le384/125,\\quad |R|\\le1,\\quad |R'|\\le11/5,\n\\tag{B.16}",
+      "display": true,
+      "id": "mb8e4502410ad6966d386",
+      "tags": [
+        "B.16"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mb8e4502410ad6966d386-light.svg",
+        "dark": "assets/math/formula-mb8e4502410ad6966d386-dark.svg"
+      },
+      "width_px": 663,
+      "height_px": 21
+    },
+    {
+      "start": 81688,
+      "end": 81771,
+      "tex": "0<p\\le2/3,\\quad0\\le v\\le1/3,\\quad\n1\\le m\\le3/2,\\quad0<\\zeta\\le2/3.\n\\tag{B.17}",
+      "display": true,
+      "id": "m7d50f7043f8433059fa0",
+      "tags": [
+        "B.17"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m7d50f7043f8433059fa0-light.svg",
+        "dark": "assets/math/formula-m7d50f7043f8433059fa0-dark.svg"
+      },
+      "width_px": 547,
+      "height_px": 18
+    },
+    {
+      "start": 82190,
+      "end": 82276,
+      "tex": "|\\partial_\\rho B_j|\\le L_{B,j},\\qquad\n|\\partial_\\rho D_j|\\le L_{D,j}.\n\\tag{B.18}",
+      "display": true,
+      "id": "m587019185b136a7b7110",
+      "tags": [
+        "B.18"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m587019185b136a7b7110-light.svg",
+        "dark": "assets/math/formula-m587019185b136a7b7110-dark.svg"
+      },
+      "width_px": 349,
+      "height_px": 19
+    },
+    {
+      "start": 82708,
+      "end": 82787,
+      "tex": "m_{B,j}(C)-10^{-6}L_{B,j}>0,\\qquad\nm_{D,j}(C)-10^{-6}L_{D,j}>0\n\\tag{B.19}",
+      "display": true,
+      "id": "m92e5040b1935291cc31d",
+      "tags": [
+        "B.19"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m92e5040b1935291cc31d-light.svg",
+        "dark": "assets/math/formula-m92e5040b1935291cc31d-dark.svg"
+      },
+      "width_px": 505,
+      "height_px": 22
+    },
+    {
+      "start": 84564,
+      "end": 84700,
+      "tex": "H'(x)=\\frac{q(x)x^{\\alpha-1}}{\\Gamma(\\alpha)}\n +\\frac{\\alpha-1}{\\Gamma(\\alpha)}\n\\int_0^x(x-t)^{\\alpha-2}[q(t)-q(x)]\\,dt.\n\\tag{C.1}",
+      "display": true,
+      "id": "m4579988c70d9ac2e2c79",
+      "tags": [
+        "C.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m4579988c70d9ac2e2c79-light.svg",
+        "dark": "assets/math/formula-m4579988c70d9ac2e2c79-dark.svg"
+      },
+      "width_px": 526,
+      "height_px": 46
+    },
+    {
+      "start": 84713,
+      "end": 84859,
+      "tex": "|H'(x)|\\le\\frac{\\|q\\|_\\infty x^{\\alpha-1}}{\\Gamma(\\alpha)}+\\frac{(1-\\alpha)[q]_{C^\\alpha}x^{2\\alpha-1}}{\\Gamma(\\alpha)(2\\alpha-1)}\n\\tag{C.2}",
+      "display": true,
+      "id": "m4a68bec40a56a4442a0d",
+      "tags": [
+        "C.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m4a68bec40a56a4442a0d-light.svg",
+        "dark": "assets/math/formula-m4a68bec40a56a4442a0d-dark.svg"
+      },
+      "width_px": 408,
+      "height_px": 46
+    },
+    {
+      "start": 85330,
+      "end": 85484,
+      "tex": "D_C^\\alpha v(x)=\\frac1{\\Gamma(1-\\alpha)}\n\\left\\{\\frac{v(x)-v(0)}{x^\\alpha}\n +\\alpha\\int_0^x\\frac{v(x)-v(t)}{(x-t)^{1+\\alpha}}\\,dt\\right\\}.\n\\tag{C.3}",
+      "display": true,
+      "id": "md48d491935a41d9afbfd",
+      "tags": [
+        "C.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-md48d491935a41d9afbfd-light.svg",
+        "dark": "assets/math/formula-md48d491935a41d9afbfd-dark.svg"
+      },
+      "width_px": 544,
+      "height_px": 44
+    },
+    {
+      "start": 85830,
+      "end": 85898,
+      "tex": "D_C^\\alpha\\Phi(v)\\le\\nabla\\Phi(v)\\cdot D_C^\\alpha v.\n\\tag{C.4}",
+      "display": true,
+      "id": "m3563107cab3e6646556b",
+      "tags": [
+        "C.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3563107cab3e6646556b-light.svg",
+        "dark": "assets/math/formula-m3563107cab3e6646556b-dark.svg"
+      },
+      "width_px": 270,
+      "height_px": 19
+    },
+    {
+      "start": 86300,
+      "end": 86408,
+      "tex": "|H(x)|\\le\\frac b{s_0}[1-E_\\alpha(-s_0x^\\alpha)]\n\\le\\min\\{b/s_0,bx^\\alpha/\\Gamma(1+\\alpha)\\}.\n\\tag{C.5}",
+      "display": true,
+      "id": "mecb4563139ade7e6333d",
+      "tags": [
+        "C.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mecb4563139ade7e6333d-light.svg",
+        "dark": "assets/math/formula-mecb4563139ade7e6333d-dark.svg"
+      },
+      "width_px": 530,
+      "height_px": 40
+    },
+    {
+      "start": 86530,
+      "end": 86637,
+      "tex": "\\operatorname{Re}F(H)\n=-\\frac18-\\frac{1-\\rho^2}{2}u^2\n-\\frac12(Y+\\rho u)^2-s_0X+\\frac12X^2.\n\\tag{C.6}",
+      "display": true,
+      "id": "m5bfa41e4d3f90ad79a88",
+      "tags": [
+        "C.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m5bfa41e4d3f90ad79a88-light.svg",
+        "dark": "assets/math/formula-m5bfa41e4d3f90ad79a88-dark.svg"
+      },
+      "width_px": 537,
+      "height_px": 40
+    },
+    {
+      "start": 86982,
+      "end": 87116,
+      "tex": "\\operatorname{Re}(\\overline H F(H))\n=-bX-s_0|H|^2+\\tfrac12X|H|^2,\\quad\n\\frac{|H|^2}{\\sqrt{|H|^2+\\epsilon^2}}\\ge\\psi_\\epsilon(H),",
+      "display": true,
+      "id": "m399cf3699ac91031e000",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m399cf3699ac91031e000-light.svg",
+        "dark": "assets/math/formula-m399cf3699ac91031e000-dark.svg"
+      },
+      "width_px": 515,
+      "height_px": 50
+    },
+    {
+      "start": 87965,
+      "end": 88070,
+      "tex": "\\operatorname{Re}\\widehat H\\le\\epsilon_R<2s_0,\\qquad\n|D_C^\\alpha\\widehat H-F(\\widehat H)|\\le\\delta.",
+      "display": true,
+      "id": "m6931320d7e4bec370409",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m6931320d7e4bec370409-light.svg",
+        "dark": "assets/math/formula-m6931320d7e4bec370409-dark.svg"
+      },
+      "width_px": 331,
+      "height_px": 25
+    },
+    {
+      "start": 88111,
+      "end": 88210,
+      "tex": "|H-\\widehat H|\n\\le\\frac\\delta\\sigma[1-E_\\alpha(-\\sigma x^\\alpha)]\n\\le\\delta/\\sigma.\n\\tag{C.7}",
+      "display": true,
+      "id": "mde4c98452c1f01359d1d",
+      "tags": [
+        "C.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mde4c98452c1f01359d1d-light.svg",
+        "dark": "assets/math/formula-mde4c98452c1f01359d1d-dark.svg"
+      },
+      "width_px": 365,
+      "height_px": 38
+    },
+    {
+      "start": 88414,
+      "end": 88558,
+      "tex": "D_C^\\alpha e=\\left(d+\\frac{H+\\widehat H}{2}\\right)e-r,\\quad e(0)=0,\\quad\n\\operatorname{Re}\\left(d+\\frac{H+\\widehat H}{2}\\right)\\le-\\sigma.",
+      "display": true,
+      "id": "m406ee5b99ebe57f89d12",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m406ee5b99ebe57f89d12-light.svg",
+        "dark": "assets/math/formula-m406ee5b99ebe57f89d12-dark.svg"
+      },
+      "width_px": 535,
+      "height_px": 55
+    },
+    {
+      "start": 89058,
+      "end": 89164,
+      "tex": "\\sup_{t\\le T}|Z-\\widehat Z|\\le\\delta_F/s_0\n\\quad\\text{if }\\operatorname{Re}\\widehat Z\\le0.\n\\tag{C.8}",
+      "display": true,
+      "id": "mff77828ef37743462458",
+      "tags": [
+        "C.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mff77828ef37743462458-light.svg",
+        "dark": "assets/math/formula-mff77828ef37743462458-dark.svg"
+      },
+      "width_px": 345,
+      "height_px": 39
+    },
+    {
+      "start": 89895,
+      "end": 89990,
+      "tex": "D_C^\\alpha\\Phi(v)\\le \\nabla\\Phi(v)\\cdot D_C^\\alpha v\n\\quad\\text{a.e. on }(0,T).\n\\tag{C.9}",
+      "display": true,
+      "id": "m5ff1d0f3c5021c1dce56",
+      "tags": [
+        "C.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m5ff1d0f3c5021c1dce56-light.svg",
+        "dark": "assets/math/formula-m5ff1d0f3c5021c1dce56-dark.svg"
+      },
+      "width_px": 387,
+      "height_px": 19
+    },
+    {
+      "start": 90144,
+      "end": 90273,
+      "tex": "u(t)\\le(k_\\lambda*R)(t),\\qquad 0\\le t\\le T,\n\\quad k_\\lambda(t)=t^{\\alpha-1}E_{\\alpha,\\alpha}(-\\lambda t^\\alpha).\n\\tag{C.10}",
+      "display": true,
+      "id": "m08a75efc6d1d8351a51d",
+      "tags": [
+        "C.10"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m08a75efc6d1d8351a51d-light.svg",
+        "dark": "assets/math/formula-m08a75efc6d1d8351a51d-dark.svg"
+      },
+      "width_px": 563,
+      "height_px": 22
+    },
+    {
+      "start": 90553,
+      "end": 90720,
+      "tex": "\\frac{1}{\\Gamma(1-\\alpha)}\\left[\n\\frac{B_\\Phi(v_n(0),v_n(t))}{t^\\alpha}\n+\\alpha\\int_0^t\\frac{B_\\Phi(v_n(s),v_n(t))}{(t-s)^{1+\\alpha}}\\,ds\n\\right]\\ge0,\n\\tag{C.11}",
+      "display": true,
+      "id": "ma75e9312fb823397c8b4",
+      "tags": [
+        "C.11"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma75e9312fb823397c8b4-light.svg",
+        "dark": "assets/math/formula-ma75e9312fb823397c8b4-dark.svg"
+      },
+      "width_px": 573,
+      "height_px": 46
+    },
+    {
+      "start": 91312,
+      "end": 91451,
+      "tex": "\\|\\Phi(v_n)' - \\Phi(v)'\\|_1\\to0,\n\\qquad\n\\|D_C^\\alpha(v_n-v)\\|_1\n\\le\\frac{T^{1-\\alpha}}{\\Gamma(2-\\alpha)}\\|v_n'-v'\\|_1\\to0.\n\\tag{C.12}",
+      "display": true,
+      "id": "m9c6801b05e0a6a1c2607",
+      "tags": [
+        "C.12"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9c6801b05e0a6a1c2607-light.svg",
+        "dark": "assets/math/formula-m9c6801b05e0a6a1c2607-dark.svg"
+      },
+      "width_px": 642,
+      "height_px": 45
+    },
+    {
+      "start": 92947,
+      "end": 93072,
+      "tex": "|Z-\\widehat Z|\\le k_\\lambda*R_Z,\\qquad\n|L_T-\\widehat L_T|\\le\\nu^{-1}(q_\\alpha*k_\\lambda*R_Z)(T)\\le\\nu^{-1}(\\xi*R_Z)(T),",
+      "display": true,
+      "id": "m54b2f6b5764537ed21b1",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m54b2f6b5764537ed21b1-light.svg",
+        "dark": "assets/math/formula-m54b2f6b5764537ed21b1-dark.svg"
+      },
+      "width_px": 598,
+      "height_px": 24
+    },
+    {
+      "start": 93567,
+      "end": 93653,
+      "tex": "D_C^\\alpha v_\\varepsilon+\\lambda v_\\varepsilon\\le R_Z\\quad\\text{a.e.}\n\\tag{C.13}",
+      "display": true,
+      "id": "m7701113618af3bc657eb",
+      "tags": [
+        "C.13"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m7701113618af3bc657eb-light.svg",
+        "dark": "assets/math/formula-m7701113618af3bc657eb-dark.svg"
+      },
+      "width_px": 271,
+      "height_px": 19
+    },
+    {
+      "start": 94061,
+      "end": 94160,
+      "tex": "L_T-\\widehat L_T\n=\\nu^{-1}\\int_0^TA_\\alpha(T-t)e'(t)\\,dt\n=\\nu^{-1}(q_\\alpha*e)(T).\n\\tag{C.14}",
+      "display": true,
+      "id": "ma52befa0fd38ffb88bfb",
+      "tags": [
+        "C.14"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma52befa0fd38ffb88bfb-light.svg",
+        "dark": "assets/math/formula-ma52befa0fd38ffb88bfb-dark.svg"
+      },
+      "width_px": 516,
+      "height_px": 45
+    },
+    {
+      "start": 94441,
+      "end": 94514,
+      "tex": "0\\le q_\\alpha*k_\\lambda\n=\\xi-\\lambda\\xi*k_\\lambda\\le\\xi.\n\\tag{C.15}",
+      "display": true,
+      "id": "m48b98443d1604904fd04",
+      "tags": [
+        "C.15"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m48b98443d1604904fd04-light.svg",
+        "dark": "assets/math/formula-m48b98443d1604904fd04-dark.svg"
+      },
+      "width_px": 320,
+      "height_px": 18
+    },
+    {
+      "start": 94874,
+      "end": 94999,
+      "tex": "q_\\alpha=V_0g_{1-\\alpha}+g_{1-\\alpha}*\\xi'\\ge0\n\\quad\\text{a.e.},\\qquad g_\\beta(t)=t^{\\beta-1}/\\Gamma(\\beta).\n\\tag{C.16}",
+      "display": true,
+      "id": "m820b5b7dc2be3b0a4ae2",
+      "tags": [
+        "C.16"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m820b5b7dc2be3b0a4ae2-light.svg",
+        "dark": "assets/math/formula-m820b5b7dc2be3b0a4ae2-dark.svg"
+      },
+      "width_px": 535,
+      "height_px": 22
+    },
+    {
+      "start": 95131,
+      "end": 95250,
+      "tex": "\\|q_\\alpha\\|_1\\le\n\\frac{T^{1-\\alpha}}{\\Gamma(2-\\alpha)}(V_0+\\|\\xi'\\|_1),\n\\qquad g_\\alpha*q_\\alpha=\\xi.\n\\tag{C.17}",
+      "display": true,
+      "id": "m133a4e08040cfc84ac9b",
+      "tags": [
+        "C.17"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m133a4e08040cfc84ac9b-light.svg",
+        "dark": "assets/math/formula-m133a4e08040cfc84ac9b-dark.svg"
+      },
+      "width_px": 460,
+      "height_px": 45
+    },
+    {
+      "start": 95430,
+      "end": 95517,
+      "tex": "|L_T-\\widehat L_T|\\le\\nu^{-1}\\left(|q_\\alpha|*k_\\lambda*R_Z\\right)(T),\n\\tag{C.18}",
+      "display": true,
+      "id": "me5961643faeb67ee3ae8",
+      "tags": [
+        "C.18"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me5961643faeb67ee3ae8-light.svg",
+        "dark": "assets/math/formula-me5961643faeb67ee3ae8-dark.svg"
+      },
+      "width_px": 372,
+      "height_px": 24
+    },
+    {
+      "start": 95690,
+      "end": 95794,
+      "tex": "q_\\alpha(t)=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}\n\\left(1-\\frac{ct}{1-\\alpha}\\right).\n\\tag{C.19}",
+      "display": true,
+      "id": "mec3f43410187435e4559",
+      "tags": [
+        "C.19"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mec3f43410187435e4559-light.svg",
+        "dark": "assets/math/formula-mec3f43410187435e4559-dark.svg"
+      },
+      "width_px": 340,
+      "height_px": 44
+    },
+    {
+      "start": 96506,
+      "end": 96665,
+      "tex": "q_\\alpha*k_\\lambda=V_0E_\\alpha(-\\lambda t^\\alpha),\\qquad\n|L_T-\\widehat L_T|\\le\n\\frac{V_0}{\\nu}\\int_0^T\nE_\\alpha(-\\lambda(T-s)^\\alpha)R(s)\\,ds.\n\\tag{C.20}",
+      "display": true,
+      "id": "mdbb830ae5d0e19d38092",
+      "tags": [
+        "C.20"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mdbb830ae5d0e19d38092-light.svg",
+        "dark": "assets/math/formula-mdbb830ae5d0e19d38092-dark.svg"
+      },
+      "width_px": 659,
+      "height_px": 45
+    },
+    {
+      "start": 96719,
+      "end": 96896,
+      "tex": "\\eta_{\\rm ML}=V_0\\delta_F T E_{\\alpha,2}(-\\nu\\sigma T^\\alpha)\n\\le\\min\\left\\{\nV_0\\delta_F T,\n\\frac{V_0\\delta_F T^{1-\\alpha}}{\\nu\\sigma\\Gamma(2-\\alpha)}\n\\right\\}.\n\\tag{C.21}",
+      "display": true,
+      "id": "mbc2245b19a0d0d66373c",
+      "tags": [
+        "C.21"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mbc2245b19a0d0d66373c-light.svg",
+        "dark": "assets/math/formula-mbc2245b19a0d0d66373c-dark.svg"
+      },
+      "width_px": 540,
+      "height_px": 45
+    },
+    {
+      "start": 97835,
+      "end": 97953,
+      "tex": "|Z-\\widehat Z|\\le E_\\delta\n=s_0-\\sqrt{s_0^2-2\\delta_F}\n=\\frac{2\\delta_F}{s_0+\\sqrt{s_0^2-2\\delta_F}}.\n\\tag{C.22}",
+      "display": true,
+      "id": "mb8082fcac0c4e95925ec",
+      "tags": [
+        "C.22"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mb8082fcac0c4e95925ec-light.svg",
+        "dark": "assets/math/formula-mb8082fcac0c4e95925ec-dark.svg"
+      },
+      "width_px": 499,
+      "height_px": 58
+    },
+    {
+      "start": 98816,
+      "end": 98966,
+      "tex": "A_\\alpha(t)=(I^{1-\\alpha}\\xi_*)(t),\\quad\nq_\\alpha(t)=A_\\alpha'(t)\n=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}+I^{1-\\alpha}\\xi_*'(t)\\ge0.\n\\tag{C.23}",
+      "display": true,
+      "id": "mde32f4cef248458ffb9c",
+      "tags": [
+        "C.23"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mde32f4cef248458ffb9c-light.svg",
+        "dark": "assets/math/formula-mde32f4cef248458ffb9c-dark.svg"
+      },
+      "width_px": 604,
+      "height_px": 44
+    },
+    {
+      "start": 99074,
+      "end": 99248,
+      "tex": "q_\\alpha(t)=\\frac{V_0t^{-\\alpha}}{\\Gamma(1-\\alpha)}\n +(\\theta-V_0)\\lambda_\\xi t^{\\alpha_0-\\alpha}\n E_{\\alpha_0,1+\\alpha_0-\\alpha}(-\\lambda_\\xi t^{\\alpha_0}),\n\\tag{C.24}",
+      "display": true,
+      "id": "m703038d9c503e0eaebdb",
+      "tags": [
+        "C.24"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m703038d9c503e0eaebdb-light.svg",
+        "dark": "assets/math/formula-m703038d9c503e0eaebdb-dark.svg"
+      },
+      "width_px": 522,
+      "height_px": 44
+    },
+    {
+      "start": 99249,
+      "end": 99420,
+      "tex": "A_\\alpha(t)=\\frac{\\theta t^{1-\\alpha}}{\\Gamma(2-\\alpha)}\n +(V_0-\\theta)t^{1-\\alpha}\n E_{\\alpha_0,2-\\alpha}(-\\lambda_\\xi t^{\\alpha_0}),\\quad A_\\alpha(0)=0,\n\\tag{C.25}",
+      "display": true,
+      "id": "mb35d69bdabcd76d96bc4",
+      "tags": [
+        "C.25"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mb35d69bdabcd76d96bc4-light.svg",
+        "dark": "assets/math/formula-mb35d69bdabcd76d96bc4-dark.svg"
+      },
+      "width_px": 584,
+      "height_px": 45
+    },
+    {
+      "start": 99618,
+      "end": 99743,
+      "tex": "L_T=\\nu^{-1}\\int_0^T\\xi_*(T-t)D_t^\\alpha Z(t)\\,dt,\\quad\n\\bar L_T=\\nu^{-1}\\int_0^T\\xi_*(T-t)D_t^\\alpha\\widehat Z(t)\\,dt.",
+      "display": true,
+      "id": "m2ce37e2b3e64d873ae07",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m2ce37e2b3e64d873ae07-light.svg",
+        "dark": "assets/math/formula-m2ce37e2b3e64d873ae07-dark.svg"
+      },
+      "width_px": 546,
+      "height_px": 45
+    },
+    {
+      "start": 99749,
+      "end": 99830,
+      "tex": "L_T-\\bar L_T=\\nu^{-1}\\int_0^Tq_\\alpha(T-t)(Z-\\widehat Z)(t)\\,dt.\n\\tag{C.26}",
+      "display": true,
+      "id": "me8c384778dd781cf4021",
+      "tags": [
+        "C.26"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me8c384778dd781cf4021-light.svg",
+        "dark": "assets/math/formula-me8c384778dd781cf4021-dark.svg"
+      },
+      "width_px": 423,
+      "height_px": 45
+    },
+    {
+      "start": 99883,
+      "end": 99992,
+      "tex": "|L_T-\\bar L_T|\\le\\eta=E A_\\alpha(T)/\\nu\n\\le\\frac{E\\theta T^{1-\\alpha}}{\\nu\\Gamma(2-\\alpha)}.\n\\tag{C.27}",
+      "display": true,
+      "id": "mdebecaec945c83ef1765",
+      "tags": [
+        "C.27"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mdebecaec945c83ef1765-light.svg",
+        "dark": "assets/math/formula-mdebecaec945c83ef1765-dark.svg"
+      },
+      "width_px": 420,
+      "height_px": 45
+    },
+    {
+      "start": 100675,
+      "end": 100768,
+      "tex": "|e^{L_T}-e^{\\bar L_T}|\n\\le\\min\\{1,e^{\\operatorname{Re}\\bar L_T}\\}(e^\\eta-1).\n\\tag{C.28}",
+      "display": true,
+      "id": "m257707c6569f639c5ad5",
+      "tags": [
+        "C.28"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m257707c6569f639c5ad5-light.svg",
+        "dark": "assets/math/formula-m257707c6569f639c5ad5-dark.svg"
+      },
+      "width_px": 372,
+      "height_px": 24
+    },
+    {
+      "start": 101170,
+      "end": 101257,
+      "tex": "|e^{L_T}-e^{\\bar L_T}|\n\\le\\min\\{B+\\widehat B,\\ \\eta(B+\\widehat B)/2\\}.\n\\tag{C.29}",
+      "display": true,
+      "id": "m4d1e1b13e8c4a1bb131b",
+      "tags": [
+        "C.29"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m4d1e1b13e8c4a1bb131b-light.svg",
+        "dark": "assets/math/formula-m4d1e1b13e8c4a1bb131b-dark.svg"
+      },
+      "width_px": 403,
+      "height_px": 24
+    },
+    {
+      "start": 102140,
+      "end": 102325,
+      "tex": "\\left|W_\\lambda(t)-\\sum_{n=0}^{M-1}(-\\lambda)^nW_n(t)\\right|\n\\le\n\\frac{\\theta t(\\lambda t^\\alpha)^M}{1-\\lambda t^\\alpha},\n\\quad\nW_n(t)=\\int_0^t(\\xi*g_{n\\alpha})(s)\\,ds.\n\\tag{C.30}",
+      "display": true,
+      "id": "mce6dce8030e40f2368a8",
+      "tags": [
+        "C.30"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mce6dce8030e40f2368a8-light.svg",
+        "dark": "assets/math/formula-mce6dce8030e40f2368a8-dark.svg"
+      },
+      "width_px": 630,
+      "height_px": 54
+    },
+    {
+      "start": 102673,
+      "end": 102776,
+      "tex": "0\\le W_n(t)\\le\n\\frac{\\theta t^{1+n\\alpha}}{\\Gamma(2+n\\alpha)}\n\\le\\theta t(t^\\alpha)^n.\n\\tag{C.31}",
+      "display": true,
+      "id": "mb1dc1c843a06845af27f",
+      "tags": [
+        "C.31"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mb1dc1c843a06845af27f-light.svg",
+        "dark": "assets/math/formula-mb1dc1c843a06845af27f-dark.svg"
+      },
+      "width_px": 363,
+      "height_px": 45
+    },
+    {
+      "start": 103690,
+      "end": 103876,
+      "tex": "W_n(t)=t^{1+n\\alpha}\n\\left[\n\\frac{\\theta}{\\Gamma(2+n\\alpha)}\n+(V_0-\\theta)\\sum_{m=0}^{\\infty}\n\\frac{(-\\lambda_\\xi t^{\\alpha_0})^m}\n{\\Gamma(2+n\\alpha+m\\alpha_0)}\n\\right].\n\\tag{C.32}",
+      "display": true,
+      "id": "m3cb3d8c51c63f8870376",
+      "tags": [
+        "C.32"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3cb3d8c51c63f8870376-light.svg",
+        "dark": "assets/math/formula-m3cb3d8c51c63f8870376-dark.svg"
+      },
+      "width_px": 578,
+      "height_px": 54
+    },
+    {
+      "start": 104020,
+      "end": 104133,
+      "tex": "\\left|\\sum_{m=L}^{\\infty}\n\\frac{(-w)^m}{\\Gamma(2+n\\alpha+m\\alpha_0)}\\right|\n\\le \\frac{w^L}{1-w}.\n\\tag{C.33}",
+      "display": true,
+      "id": "m80c5f9c8c516ecb99381",
+      "tags": [
+        "C.33"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m80c5f9c8c516ecb99381-light.svg",
+        "dark": "assets/math/formula-m80c5f9c8c516ecb99381-dark.svg"
+      },
+      "width_px": 359,
+      "height_px": 55
+    },
+    {
+      "start": 104630,
+      "end": 104708,
+      "tex": "\\left[\nW^-(T-a_j)-W^+(T-b_j),\\\nW^+(T-a_j)-W^-(T-b_j)\n\\right].\n\\tag{C.34}",
+      "display": true,
+      "id": "ma63b752959c56e931be4",
+      "tags": [
+        "C.34"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma63b752959c56e931be4-light.svg",
+        "dark": "assets/math/formula-ma63b752959c56e931be4-dark.svg"
+      },
+      "width_px": 547,
+      "height_px": 22
+    },
+    {
+      "start": 104884,
+      "end": 104946,
+      "tex": "\\eta_{\\rm res}\\le\\nu^{-1}\\sum_jR_j\\omega_j^+.\n\\tag{C.35}",
+      "display": true,
+      "id": "mae70631cb4258dce60c3",
+      "tags": [
+        "C.35"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mae70631cb4258dce60c3-light.svg",
+        "dark": "assets/math/formula-mae70631cb4258dce60c3-dark.svg"
+      },
+      "width_px": 248,
+      "height_px": 42
+    },
+    {
+      "start": 106050,
+      "end": 106186,
+      "tex": "\\bar G(t)=\\nu c_0+A_1t^\\beta+A_2t^{2\\beta}+\\bar L(t),\\quad\nc_0=-(u^2+1/4)/2,\\quad \\widehat Z=I^\\alpha\\bar G,\\quad T=1/2.\n\\tag{D.1}",
+      "display": true,
+      "id": "m7d95130e58a103e6aecb",
+      "tags": [
+        "D.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m7d95130e58a103e6aecb-light.svg",
+        "dark": "assets/math/formula-m7d95130e58a103e6aecb-dark.svg"
+      },
+      "width_px": 711,
+      "height_px": 24
+    },
+    {
+      "start": 106766,
+      "end": 106858,
+      "tex": "r_t=\\bar G-\\nu F(\\widehat Z),\\quad\n\\delta_F=\\nu^{-1}\\sup_{0\\le t\\le T}|r_t|.\n\\tag{D.2}",
+      "display": true,
+      "id": "mbc55f0796d5607d106c5",
+      "tags": [
+        "D.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mbc55f0796d5607d106c5-light.svg",
+        "dark": "assets/math/formula-mbc55f0796d5607d106c5-dark.svg"
+      },
+      "width_px": 378,
+      "height_px": 39
+    },
+    {
+      "start": 107085,
+      "end": 107194,
+      "tex": "\\widehat Z=H_0+J,\\quad J=I^\\alpha\\bar L,\\quad\nH_0=B_1t^\\alpha+B_2t^{\\alpha+\\beta}+B_3t^{\\alpha+2\\beta},",
+      "display": true,
+      "id": "m6e285b379d2996a0a848",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m6e285b379d2996a0a848-light.svg",
+        "dark": "assets/math/formula-m6e285b379d2996a0a848-dark.svg"
+      },
+      "width_px": 462,
+      "height_px": 23
+    },
+    {
+      "start": 107195,
+      "end": 107370,
+      "tex": "B_1=\\frac{\\nu c_0}{\\Gamma(1+\\alpha)},\\quad\nB_2=\\frac{A_1\\Gamma(1+\\beta)}{\\Gamma(1+\\alpha+\\beta)},\\quad\nB_3=\\frac{A_2\\Gamma(1+2\\beta)}{\\Gamma(1+\\alpha+2\\beta)}.\n\\tag{D.3}",
+      "display": true,
+      "id": "m9049927e2a0ac1731208",
+      "tags": [
+        "D.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9049927e2a0ac1731208-light.svg",
+        "dark": "assets/math/formula-m9049927e2a0ac1731208-dark.svg"
+      },
+      "width_px": 575,
+      "height_px": 44
+    },
+    {
+      "start": 107842,
+      "end": 107952,
+      "tex": "I_0=\\{\\tau^\\alpha-(\\tau-h)^\\alpha\\}/\\alpha,\\quad\nI_1=\\{\\tau^{\\alpha+1}-(\\tau-h)^{\\alpha+1}\\}/(\\alpha+1),",
+      "display": true,
+      "id": "m7877ddc5e4e5e53bab99",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m7877ddc5e4e5e53bab99-light.svg",
+        "dark": "assets/math/formula-m7877ddc5e4e5e53bab99-dark.svg"
+      },
+      "width_px": 480,
+      "height_px": 21
+    },
+    {
+      "start": 107953,
+      "end": 108039,
+      "tex": "w_R=(\\tau I_0-I_1)/(h\\Gamma(\\alpha)),\\quad\nw_L=I_0/\\Gamma(\\alpha)-w_R.\n\\tag{D.4}",
+      "display": true,
+      "id": "maa813b3bda4946a14b2f",
+      "tags": [
+        "D.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-maa813b3bda4946a14b2f-light.svg",
+        "dark": "assets/math/formula-maa813b3bda4946a14b2f-dark.svg"
+      },
+      "width_px": 462,
+      "height_px": 18
+    },
+    {
+      "start": 108377,
+      "end": 108594,
+      "tex": "w_R=\\frac{h\\tau^{\\alpha-1}}{\\Gamma(\\alpha)}\n\\sum_{k\\ge0}\\frac{(1-\\alpha)_k(h/\\tau)^k}{k!(k+2)},\\quad\nw_L=\\frac{h\\tau^{\\alpha-1}}{\\Gamma(\\alpha)}\n\\sum_{k\\ge0}\\frac{(1-\\alpha)_k(h/\\tau)^k}{k!(k+1)(k+2)}.\n\\tag{D.5}",
+      "display": true,
+      "id": "ma3b22813f88041ce9d4d",
+      "tags": [
+        "D.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-ma3b22813f88041ce9d4d-light.svg",
+        "dark": "assets/math/formula-ma3b22813f88041ce9d4d-dark.svg"
+      },
+      "width_px": 635,
+      "height_px": 52
+    },
+    {
+      "start": 109071,
+      "end": 109148,
+      "tex": "\\sup_{[a,b]}|r_t|\\le|r_t(m)|+\\max(m-a,b-m)\\sup_{[a,b]}|r_t'|.\n\\tag{D.6}",
+      "display": true,
+      "id": "mcb548da7e716699ac216",
+      "tags": [
+        "D.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mcb548da7e716699ac216-light.svg",
+        "dark": "assets/math/formula-mcb548da7e716699ac216-dark.svg"
+      },
+      "width_px": 446,
+      "height_px": 36
+    },
+    {
+      "start": 109464,
+      "end": 109512,
+      "tex": "r_t'=\\bar G'-\\nu(d+\\widehat Z)\\widehat Z',",
+      "display": true,
+      "id": "m258623a95c2e0f40158b",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m258623a95c2e0f40158b-light.svg",
+        "dark": "assets/math/formula-m258623a95c2e0f40158b-dark.svg"
+      },
+      "width_px": 172,
+      "height_px": 25
+    },
+    {
+      "start": 109513,
+      "end": 109610,
+      "tex": "P_r=\\nu c_0+A_1t^\\beta+A_2t^{2\\beta}-\\nu F(H_0),\\quad\nr_t=P_r+\\bar L-\\nu(d+H_0)J-\\nu J^2/2,",
+      "display": true,
+      "id": "m2cfdf8ca572c9c4412c1",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m2cfdf8ca572c9c4412c1-light.svg",
+        "dark": "assets/math/formula-m2cfdf8ca572c9c4412c1-dark.svg"
+      },
+      "width_px": 577,
+      "height_px": 22
+    },
+    {
+      "start": 109611,
+      "end": 109748,
+      "tex": "r_t'=P_r'+\\bar L'-\\nu[(d+H_0+J)J'+H_0'J],\n\\quad\n\\widehat Z'=\\frac{\\nu c_0\\,t^{\\alpha-1}}{\\Gamma(\\alpha)}+I^\\alpha\\bar G'.\n\\tag{D.7}",
+      "display": true,
+      "id": "m3595337d4f76e6c88846",
+      "tags": [
+        "D.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3595337d4f76e6c88846-light.svg",
+        "dark": "assets/math/formula-m3595337d4f76e6c88846-dark.svg"
+      },
+      "width_px": 598,
+      "height_px": 45
+    },
+    {
+      "start": 110390,
+      "end": 110652,
+      "tex": "\\frac{t_1^pb^{\\alpha-1}}{p\\Gamma(\\alpha)}\n\\le\\frac1{\\Gamma(\\alpha)}\\int_0^{t_1}s^{p-1}(q-s)^{\\alpha-1}\\,ds\n\\le\\min\\left\\{\n\\frac{t_1^p(a-t_1)^{\\alpha-1}}{p\\Gamma(\\alpha)},\n\\frac{\\Gamma(p)}{\\Gamma(\\alpha+p)}\n \\max_{q\\in[a,b]}q^{\\alpha+p-1}\\right\\}.\n\\tag{D.8}",
+      "display": true,
+      "id": "me66a3a72691706286bca",
+      "tags": [
+        "D.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-me66a3a72691706286bca-light.svg",
+        "dark": "assets/math/formula-me66a3a72691706286bca-dark.svg"
+      },
+      "width_px": 751,
+      "height_px": 54
+    },
+    {
+      "start": 112217,
+      "end": 112391,
+      "tex": "\\left(\\gamma_{2n}\\|W_c\\|_{1,\\mathrm{row}}+\n\\|W_r\\|_{1,\\mathrm{row}}\\right)\\|X\\|_{\\infty,\\mathrm{column}},\n\\quad \\gamma_{2n}=\\frac{2n\\,2^{-53}}{1-2n\\,2^{-53}},\n\\tag{D.9}",
+      "display": true,
+      "id": "m3e96aab29b7fd9922d94",
+      "tags": [
+        "D.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m3e96aab29b7fd9922d94-light.svg",
+        "dark": "assets/math/formula-m3e96aab29b7fd9922d94-dark.svg"
+      },
+      "width_px": 556,
+      "height_px": 42
+    },
+    {
+      "start": 112907,
+      "end": 113096,
+      "tex": "J_0(z)=\\theta z+(V_0-\\theta)zE_{\\alpha_0,2}(-\\lambda_\\xi z^{\\alpha_0}),\\quad\nJ_1(z)=\\theta z^2/2+\n(V_0-\\theta)z^2(E_{\\alpha_0,2}-E_{\\alpha_0,3})(-\\lambda_\\xi z^{\\alpha_0}).\n\\tag{D.10}",
+      "display": true,
+      "id": "mf962a557f745bb56cef9",
+      "tags": [
+        "D.10"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mf962a557f745bb56cef9-light.svg",
+        "dark": "assets/math/formula-mf962a557f745bb56cef9-dark.svg"
+      },
+      "width_px": 793,
+      "height_px": 22
+    },
+    {
+      "start": 113338,
+      "end": 113455,
+      "tex": "w_l=\\frac{J_1(B)-J_1(A)-A[J_0(B)-J_0(A)]}{b-a},\\quad\nw_r=\\frac{B[J_0(B)-J_0(A)]-J_1(B)+J_1(A)}{b-a}.\n\\tag{D.11}",
+      "display": true,
+      "id": "mf5d99d23a39169f5cc97",
+      "tags": [
+        "D.11"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mf5d99d23a39169f5cc97-light.svg",
+        "dark": "assets/math/formula-mf5d99d23a39169f5cc97-dark.svg"
+      },
+      "width_px": 766,
+      "height_px": 41
+    },
+    {
+      "start": 113512,
+      "end": 113684,
+      "tex": "\\int_0^T\\xi_*(T-t)t^\\beta dt\n=\\frac{\\theta T^{\\beta+1}}{\\beta+1}\n +(V_0-\\theta)\\Gamma(\\beta+1)T^{\\beta+1}\n E_{\\alpha_0,\\beta+2}(-\\lambda_\\xi T^{\\alpha_0}).\n\\tag{D.12}",
+      "display": true,
+      "id": "m044992a4876e8e5af3d3",
+      "tags": [
+        "D.12"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m044992a4876e8e5af3d3-light.svg",
+        "dark": "assets/math/formula-m044992a4876e8e5af3d3-dark.svg"
+      },
+      "width_px": 628,
+      "height_px": 45
+    },
+    {
+      "start": 114589,
+      "end": 114704,
+      "tex": "|z^2+1/4|\\ge r^2+(1/2-a_*)^2,\\quad\n\\int_{\\mathbb R}|g(r\\pm ia_*)|\\,dr\n\\le M_*=\\frac{\\pi e^{a_*|k|}}{1/2-a_*}.",
+      "display": true,
+      "id": "m17fbdf4bc1fd3e99081e",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m17fbdf4bc1fd3e99081e-light.svg",
+        "dark": "assets/math/formula-m17fbdf4bc1fd3e99081e-dark.svg"
+      },
+      "width_px": 535,
+      "height_px": 46
+    },
+    {
+      "start": 115583,
+      "end": 115668,
+      "tex": "D_x^\\alpha X\\ge\\beta_u-s_0X-X^2/2,\\quad\n\\beta_u=(1-\\rho^2)u^2/2+1/8.\n\\tag{D.13}",
+      "display": true,
+      "id": "mc981e8e0dfa55fc349e6",
+      "tags": [
+        "D.13"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mc981e8e0dfa55fc349e6-light.svg",
+        "dark": "assets/math/formula-mc981e8e0dfa55fc349e6-dark.svg"
+      },
+      "width_px": 509,
+      "height_px": 21
+    },
+    {
+      "start": 115759,
+      "end": 115871,
+      "tex": "X\\ge w,\\quad 0\\le w\\le R_u,\\quad\nR_u=\\sqrt{s_0^2+2\\beta_u}-s_0,\\quad\n\\ell_u=(s_0+\\sqrt{s_0^2+2\\beta_u})/2.",
+      "display": true,
+      "id": "m7e112db1217e3d71e848",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m7e112db1217e3d71e848-light.svg",
+        "dark": "assets/math/formula-m7e112db1217e3d71e848-dark.svg"
+      },
+      "width_px": 593,
+      "height_px": 34
+    },
+    {
+      "start": 116056,
+      "end": 116167,
+      "tex": "-\\operatorname{Re}Z(t,u)\\ge\nR_u\\frac{\\ell_u\\nu t^\\alpha}{\\Gamma(1+\\alpha)+\\ell_u\\nu t^\\alpha}.\n\\tag{D.14}",
+      "display": true,
+      "id": "mf153e02f211812561b89",
+      "tags": [
+        "D.14"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mf153e02f211812561b89-light.svg",
+        "dark": "assets/math/formula-mf153e02f211812561b89-dark.svg"
+      },
+      "width_px": 374,
+      "height_px": 43
+    },
+    {
+      "start": 116282,
+      "end": 116377,
+      "tex": "a_\\rho=\\sqrt{1-\\rho^2},\\quad b_V=a_\\rho-s_0/V>0,\\quad\nf_\\alpha(z)=z/(\\Gamma(1+\\alpha)+z).",
+      "display": true,
+      "id": "m503bad42005b5caced27",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m503bad42005b5caced27-light.svg",
+        "dark": "assets/math/formula-m503bad42005b5caced27-dark.svg"
+      },
+      "width_px": 515,
+      "height_px": 34
+    },
+    {
+      "start": 116577,
+      "end": 116695,
+      "tex": "c_V=\\frac{b_V}{\\nu}\\sum_{j=0}^{J-1}\n f_\\alpha(a_\\rho\\nu Vt_j^\\alpha/2)\n [A_\\alpha(T-t_j)-A_\\alpha(T-t_{j+1})]>0,",
+      "display": true,
+      "id": "m808104676f7deb0bc89e",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m808104676f7deb0bc89e-light.svg",
+        "dark": "assets/math/formula-m808104676f7deb0bc89e-dark.svg"
+      },
+      "width_px": 466,
+      "height_px": 56
+    },
+    {
+      "start": 116696,
+      "end": 116755,
+      "tex": "|\\phi_T(u-i/2)|\\le e^{-c_Vu}\\quad(u\\ge V).\n\\tag{D.15}",
+      "display": true,
+      "id": "m8a35bef99c05eb4da26d",
+      "tags": [
+        "D.15"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m8a35bef99c05eb4da26d-light.svg",
+        "dark": "assets/math/formula-m8a35bef99c05eb4da26d-dark.svg"
+      },
+      "width_px": 342,
+      "height_px": 20
+    },
+    {
+      "start": 117321,
+      "end": 117405,
+      "tex": "\\epsilon_{\\rm tail}\n\\le\\frac{\\sqrt m}{\\pi}\\frac{e^{-c_VV}}{c_VV^2}.\n\\tag{D.16}",
+      "display": true,
+      "id": "mde56c40d29719d8b903f",
+      "tags": [
+        "D.16"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mde56c40d29719d8b903f-light.svg",
+        "dark": "assets/math/formula-mde56c40d29719d8b903f-dark.svg"
+      },
+      "width_px": 237,
+      "height_px": 44
+    },
+    {
+      "start": 118499,
+      "end": 118634,
+      "tex": "|L_T-\\bar L_T|\n\\le E_{\\rm state}(I^{1-\\alpha}\\xi_*)(T)/\\nu\n\\le E_{\\rm state}\\theta T^{1-\\alpha}/[\\nu\\Gamma(2-\\alpha)].\n\\tag{D.17}",
+      "display": true,
+      "id": "mc1cb160a8a8d0692562d",
+      "tags": [
+        "D.17"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mc1cb160a8a8d0692562d-light.svg",
+        "dark": "assets/math/formula-mc1cb160a8a8d0692562d-dark.svg"
+      },
+      "width_px": 559,
+      "height_px": 22
+    },
+    {
+      "start": 124546,
+      "end": 124642,
+      "tex": "\\Theta_{\\rm finite}=\\{13/25,3/5,9/10\\},\\qquad\nH=\\alpha-\\tfrac12\\in\\{.02,.1,.4\\}.\n\\tag{E.1}",
+      "display": true,
+      "id": "m9b465739ad09bcb7929b",
+      "tags": [
+        "E.1"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m9b465739ad09bcb7929b-light.svg",
+        "dark": "assets/math/formula-m9b465739ad09bcb7929b-dark.svg"
+      },
+      "width_px": 535,
+      "height_px": 22
+    },
+    {
+      "start": 124714,
+      "end": 124887,
+      "tex": "J(\\alpha)=\\frac1{24}\\sum_{i=1}^{12}\n [c_i(\\alpha)-M_i]^2,\\qquad\nJ_{\\rm band}(\\alpha)=\\frac1{24}\\sum_{i=1}^{12}\n \\operatorname{dist}(c_i(\\alpha),[B_i,A_i])^2,\n\\tag{E.2}",
+      "display": true,
+      "id": "m2262747c4c7b7f9db51e",
+      "tags": [
+        "E.2"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m2262747c4c7b7f9db51e-light.svg",
+        "dark": "assets/math/formula-m2262747c4c7b7f9db51e-dark.svg"
+      },
+      "width_px": 649,
+      "height_px": 54
+    },
+    {
+      "start": 125155,
+      "end": 125285,
+      "tex": "c_i(\\alpha_j)\\in[p^-_{ij},p^+_{ij}],\\quad\nB_i\\in[b_i^-,b_i^+],\\quad\nA_i\\in[a_i^-,a_i^+],\\quad\nM_i\\in[m_i^-,m_i^+].\n\\tag{E.3}",
+      "display": true,
+      "id": "m6359339137eb4e7ed0b7",
+      "tags": [
+        "E.3"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m6359339137eb4e7ed0b7-light.svg",
+        "dark": "assets/math/formula-m6359339137eb4e7ed0b7-dark.svg"
+      },
+      "width_px": 606,
+      "height_px": 23
+    },
+    {
+      "start": 125338,
+      "end": 125456,
+      "tex": "\\ell(x,y)=\n\\begin{cases}0,&x\\le0\\le y,\\\\\n\\min(x^2,y^2),&\\text{otherwise},\\end{cases}\n\\quad v(x,y)=\\max(x^2,y^2).",
+      "display": true,
+      "id": "m5e138acf3da7b691fd4b",
+      "tags": [],
+      "paths": {
+        "light": "assets/math/formula-m5e138acf3da7b691fd4b-light.svg",
+        "dark": "assets/math/formula-m5e138acf3da7b691fd4b-dark.svg"
+      },
+      "width_px": 465,
+      "height_px": 44
+    },
+    {
+      "start": 125457,
+      "end": 125591,
+      "tex": "L_j=\\frac1{24}\\sum_i\n\\ell(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-),\\qquad\nU_j=\\frac1{24}\\sum_i\nv(p^-_{ij}-m_i^+,p^+_{ij}-m_i^-).\n\\tag{E.4}",
+      "display": true,
+      "id": "mffe3fe34aad7fd2eccb2",
+      "tags": [
+        "E.4"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mffe3fe34aad7fd2eccb2-light.svg",
+        "dark": "assets/math/formula-mffe3fe34aad7fd2eccb2-dark.svg"
+      },
+      "width_px": 670,
+      "height_px": 46
+    },
+    {
+      "start": 125706,
+      "end": 125766,
+      "tex": "J_*=\\min_{\\Theta_{\\rm finite}}J\\in[L_*,U_*].\n\\tag{E.5}",
+      "display": true,
+      "id": "m2e5ff19e0aadb10d6cef",
+      "tags": [
+        "E.5"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m2e5ff19e0aadb10d6cef-light.svg",
+        "dark": "assets/math/formula-m2e5ff19e0aadb10d6cef-dark.svg"
+      },
+      "width_px": 253,
+      "height_px": 30
+    },
+    {
+      "start": 125854,
+      "end": 125906,
+      "tex": "\\{\\alpha_j:L_j\\le U_*+\\varepsilon\\}.\n\\tag{E.6}",
+      "display": true,
+      "id": "m551d873d0184bcab46c3",
+      "tags": [
+        "E.6"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m551d873d0184bcab46c3-light.svg",
+        "dark": "assets/math/formula-m551d873d0184bcab46c3-dark.svg"
+      },
+      "width_px": 230,
+      "height_px": 19
+    },
+    {
+      "start": 126027,
+      "end": 126075,
+      "tex": "g:=\\min_{j\\ne j_0}L_j-U_{j_0}>0,\n\\tag{E.7}",
+      "display": true,
+      "id": "m997e751935f814e28b4f",
+      "tags": [
+        "E.7"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m997e751935f814e28b4f-light.svg",
+        "dark": "assets/math/formula-m997e751935f814e28b4f-dark.svg"
+      },
+      "width_px": 254,
+      "height_px": 31
+    },
+    {
+      "start": 126167,
+      "end": 126223,
+      "tex": "\\min_{\\alpha_j\\ge.6}L_j>U_*+\\varepsilon,\n\\tag{E.8}",
+      "display": true,
+      "id": "mdeb28cd545b922f78649",
+      "tags": [
+        "E.8"
+      ],
+      "paths": {
+        "light": "assets/math/formula-mdeb28cd545b922f78649-light.svg",
+        "dark": "assets/math/formula-mdeb28cd545b922f78649-dark.svg"
+      },
+      "width_px": 214,
+      "height_px": 31
+    },
+    {
+      "start": 133491,
+      "end": 133545,
+      "tex": "|c^P-c|\\le\\max\\{|c^P-c^-|,|c^P-c^+|\\}.\n\\tag{E.9}",
+      "display": true,
+      "id": "m92743342a95e26a27d38",
+      "tags": [
+        "E.9"
+      ],
+      "paths": {
+        "light": "assets/math/formula-m92743342a95e26a27d38-light.svg",
+        "dark": "assets/math/formula-m92743342a95e26a27d38-dark.svg"
+      },
+      "width_px": 367,
+      "height_px": 21
+    }
+  ]
+}

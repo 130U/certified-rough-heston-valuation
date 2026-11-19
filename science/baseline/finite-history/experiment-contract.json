@@ -1,0 +1,45 @@
+{
+  "version": "20261007-finite-history-reference",
+  "status": "frozen_before_new_propagation_results",
+  "question": "Can a finite-history residual-to-exponent bound certify the original alpha=0.52 actual-output spread within one index point, with complete remainders and unchanged output/reference?",
+  "target_alpha": "13/25",
+  "maturity": "1/2",
+  "strikes": [
+    "4400",
+    "4500"
+  ],
+  "weights": [
+    "1",
+    "-1"
+  ],
+  "discounted_forward_scale": "211093/50",
+  "primary_absolute_error_budget_index_points": "1",
+  "secondary_absolute_error_budget_index_points": [
+    "1/4",
+    "1/2",
+    "2"
+  ],
+  "unchanged_objects": [
+    "actual Pade price vector",
+    "fixed approximate continuous field",
+    "Fourier nodes",
+    "signed reference-minus-actual centre",
+    "strip",
+    "omitted finite nodes",
+    "true infinite tail"
+  ],
+  "upgrade": "At a used frequency with a certified nonpositive approximate real part, replace the exponent upper bound by the minimum of the old bound and delta_F * integral_0^T xi(s) ds; intersect resulting CF radius with the old certified radius.",
+  "adaptive_policy": "Refine the used frequency with largest current direction-weighted certified contribution. Each node is processed once. Stop only when the complete signed interval lies inside the specified absolute-error budget, or all eligible nodes have been processed. Return NOT_CERTIFIED on exhaustion.",
+  "audit_requirements": [
+    "input identities",
+    "exact dyadic/Fraction comparisons",
+    "complete finite node coverage",
+    "same centre",
+    "full remainder",
+    "monotone valid interval update",
+    "failed budgets reported",
+    "wall time includes setup and all work actually performed"
+  ],
+  "known_prior_results": "The previous 1.397612095 index-point bound and radius breakdown were inspected before this contract. No new finite-history propagation result has yet been computed. This is prospective for this new computation, not an original-study preregistration.",
+  "scope_limit": "One fixed financial direction and one maturity, with supplementary all-three original candidate calculations; no continuous parameter-domain or new-maturity claim."
+}

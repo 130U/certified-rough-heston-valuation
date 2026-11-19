@@ -1,0 +1,54 @@
+{
+  "status": "PASS_FRESH_CONTINUOUS_RESIDUAL_TWO_NODE_SPOTCHECK",
+  "records": [
+    {
+      "alpha": "13/25",
+      "frequency_nodes": [
+        0.0,
+        0.125
+      ],
+      "closed_time_intervals": 8189,
+      "all_endpoint_arrays_exactly_match": {
+        "delta_physical_upper_exact_dyadics": true,
+        "first_cell_physical_upper_exact_dyadics": true,
+        "first_cell_Re_H_div_talpha_upper_exact_dyadics": true,
+        "later_cells_Re_H_upper_exact_dyadics": true
+      },
+      "fresh_enclosures_within_frozen": true,
+      "result_file": "fresh-residual-alpha-13_25-u0125.json"
+    },
+    {
+      "alpha": "3/5",
+      "frequency_nodes": [
+        0.0,
+        0.125
+      ],
+      "closed_time_intervals": 8189,
+      "all_endpoint_arrays_exactly_match": {
+        "delta_physical_upper_exact_dyadics": true,
+        "first_cell_physical_upper_exact_dyadics": true,
+        "first_cell_Re_H_div_talpha_upper_exact_dyadics": true,
+        "later_cells_Re_H_upper_exact_dyadics": true
+      },
+      "fresh_enclosures_within_frozen": true,
+      "result_file": "fresh-residual-alpha-3_5-u0125.json"
+    },
+    {
+      "alpha": "9/10",
+      "frequency_nodes": [
+        0.0,
+        0.125
+      ],
+      "closed_time_intervals": 4093,
+      "all_endpoint_arrays_exactly_match": {
+        "delta_physical_upper_exact_dyadics": true,
+        "first_cell_physical_upper_exact_dyadics": true,
+        "first_cell_Re_H_div_talpha_upper_exact_dyadics": true,
+        "later_cells_Re_H_upper_exact_dyadics": true
+      },
+      "fresh_enclosures_within_frozen": true,
+      "result_file": "fresh-residual-alpha-9_10-u0125.json"
+    }
+  ],
+  "scope": "Entire [0,1/2] closed-time cover for u=0,1/8 only in each of three fixed fields. Same continuous generator, no solver-update diagnostics. Not a full 513-node replay."
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "identified_component_inputs",
+  "files": [
+    {
+      "path": "audit_layout.py",
+      "bytes": 1555,
+      "sha256": "25f2861cf95ccb7be566feabe9fb9ad47de0a314452ac811f2075e4d6f292997"
+    },
+    {
+      "path": "configuration-registry.json",
+      "bytes": 14132,
+      "sha256": "60a3ce37e8de5449978d3807b55bd47fae3e2193bf5e3f2b81dc7046e23019d3"
+    },
+    {
+      "path": "frozen-output-centre-account.json",
+      "bytes": 13167,
+      "sha256": "89c6bbd113ba707bf0acd3429374d69df135ec82d96a39c19efea092090b5ad0"
+    },
+    {
+      "path": "independent-audit.json",
+      "bytes": 2727,
+      "sha256": "1b728ad060c33b9d1bacd786b0a1e455405d121cd549ded9c9c6aad57e4b2e8c"
+    },
+    {
+      "path": "nearby-pair-resolution.json",
+      "bytes": 34473,
+      "sha256": "a0bcd2028962aeeb560fe6c41a9e918409d940abef5562ea7a5c7f531ff54831"
+    },
+    {
+      "path": "portfolio-budget-counts.csv",
+      "bytes": 56889,
+      "sha256": "8857255755cda4e5914ef31f0f2fb1f3c520f9ba66b0e5cb42778798989c20a7"
+    },
+    {
+      "path": "portfolio-budget-counts.json",
+      "bytes": 299970,
+      "sha256": "8655215cef79ab6995f4472bd64fcd2e21b6daf5824d30d4b27c819520cfaf20"
+    },
+    {
+      "path": "portfolio-exact-thresholds.csv",
+      "bytes": 67028,
+      "sha256": "0b5ca7910a1c52a0f4985b8dac06d80acdcdee860b4fafb1c7b3f2c25ceadbcc"
+    },
+    {
+      "path": "produce_audit.py",
+      "bytes": 18397,
+      "sha256": "4a268f6b48d471b1fa2f1ec52dcb2fb510f8a94cc534bd494bd53c2d3c42bcad"
+    },
+    {
+      "path": "proof-obligation-matrix.json",
+      "bytes": 14050,
+      "sha256": "9404a1d2eeb4645c8da10a8029c38d6c61c0f88a46e59f51318ff126ab68fc2d"
+    },
+    {
+      "path": "proof_matrix.py",
+      "bytes": 10880,
+      "sha256": "15c0982ccd4d763f73d802c933c4deaa3ba5d94b7644c36991bb134f6ebe4ae5"
+    },
+    {
+      "path": "quarter-exact-ledger.json",
+      "bytes": 5097,
+      "sha256": "b8de29065db875f59a78e44c3c339f0f2ff886f3338c12701a017269eb36e35e"
+    },
+    {
+      "path": "read_audit_independent.py",
+      "bytes": 16721,
+      "sha256": "4d504da98b365cb615324206f1bbdcc25bd41e093da2af4a5c7cc60f2e0c0a27"
+    },
+    {
+      "path": "source-identities.json",
+      "bytes": 10138,
+      "sha256": "40c07175f2f65b6559eb3fef2744c9ab81618e9e74e2f2e0808b2ce1eff05c63"
+    }
+  ]
+}

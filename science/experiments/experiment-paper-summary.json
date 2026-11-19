@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE_READER_ACCEPTED_PAPER_TABLES",
+  "pair_separation_counts_joint_marginal": [
+    [
+      7,
+      3
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "finite_grid_unique_best": "13/25",
+  "all_final_quote_incompatibility_rows": {
+    "13/25": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      12
+    ],
+    "21/40": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "53/100": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "27/50": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "11/20": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "all_returned_rounding_paid": true,
+  "descriptive_time_local_kept_separate": true
+}

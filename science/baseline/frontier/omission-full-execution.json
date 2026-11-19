@@ -1,0 +1,6 @@
+{
+  "return_code": 0,
+  "source_sha256": "d619cbb8c3a5772a9779e87a97ce4dbc30f6b249c5529686b46b511b3ff9002d",
+  "scope": "Recorded author-side execution at creation of the saved continuous bank; retained provenance, not a new generator execution.",
+  "mode": "full"
+}

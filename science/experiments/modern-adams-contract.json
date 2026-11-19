@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_MODERN_OUTPUTS",
+  "alpha": "13/25",
+  "T": "1/2",
+  "steps": [
+    512,
+    1024
+  ],
+  "Picard_corrections": 8,
+  "u_step": "1/8",
+  "u_upper": "64",
+  "exponent_time_Gauss_order": 16,
+  "target_spread": [
+    "4400",
+    "4500"
+  ],
+  "index_point_tolerance": "1/4",
+  "source": "https://arxiv.org/html/2508.15080v1#S3.SS2",
+  "method_scope": "BL-modified Adams Riccati core adapted to same forward-curve model; flat Fourier inversion, not SINH-CB",
+  "proof_scope": "Nominal refinement difference is empirical. Deterministic guarantees, if evaluated, use the complete independent strict reference certificate and pay centre translation.",
+  "nearby_contract_sha256": "fc2ea9536d219d71fd6437e89ac8f822d3227868e4e2fc549a06e8b4c217c37d"
+}

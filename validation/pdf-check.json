@@ -1,0 +1,36 @@
+{
+  "status": "PASS_PRESENTATION_CHECKS",
+  "scope": "PDF identity, all-page rendered contact sheets, selected individual pages, fonts, link targets and text geometry.",
+  "documents": [
+    {
+      "language": "en",
+      "path": "paper/paper.pdf",
+      "sha256": "59701331c6864a9edeb4d3ab99f1802671893588ad84092ff4f43eec7cc2ffb5",
+      "bytes": 417366,
+      "pages": 52,
+      "source_sha256": "bbb79f3b21e37fde92b02fb45a49b3a4404492e7f37819c5c1a7a4ee4db32642",
+      "tex_sha256": "3c6d1328ec09e76bbcc4b6d254865bada5bc9b8ca30ba3f3684c0cfaae11da02",
+      "tables": 26,
+      "figures": 4,
+      "numbered_equations": 127,
+      "outline_entries": 54,
+      "valid_internal_links": 1,
+      "external_link_annotations": 36,
+      "used_text_fonts_embedded": true,
+      "outside_page_characters": 0,
+      "replacement_characters": 0,
+      "text_overlap_candidates": 0,
+      "all_pages_rendered": true,
+      "all_page_contact_sheets_visually_inspected": true,
+      "individual_pages_visually_inspected": [
+        1,
+        9,
+        16,
+        22,
+        36,
+        40,
+        48
+      ]
+    }
+  ]
+}

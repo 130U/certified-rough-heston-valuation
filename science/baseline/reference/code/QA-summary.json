@@ -1,0 +1,62 @@
+{
+  "status": "PASS_BOUNDED_RELEASE_VERIFICATION_AND_AGGREGATION_REPLAY",
+  "checks": {
+    "structure": {
+      "closed_leaf_cells": 211241,
+      "exact_area": "2/25",
+      "reconstruction_nodes": 422481,
+      "maximum_depth": 19,
+      "raw_determinant_norm_squared_lower": "88110801209184778874628745/1267650600228229401496703205376",
+      "interval_signs_recomputed": 16,
+      "record_checks": "all saved signs, exact uniform minima, and disjoint complete midpoint-tree geometry"
+    },
+    "fields_and_residuals": {
+      "fields_checked": 4,
+      "continuous_residual_record_candidates": 3,
+      "frequency_nodes_per_residual": 513,
+      "checks": "field bytes/shapes/guards, source identity, exact adapter values, complete time-cell counts, saved half-plane bounds"
+    },
+    "financial_decisions": {
+      "true_finite_winner_alpha": "13/25",
+      "winner_H": "1/50",
+      "actual_Pade_choice_matches": true,
+      "true_objective_gap_exact": "868406092010757506491925813459521460640448866765833657/3213876088517980551083924184682325205044405987565585670602752",
+      "spread_error_upper_exact": "804672648292268312339387519/1267650600228229401496703205376",
+      "spread_error_below_declared_0_0007_budget": true,
+      "quote_rows_4400_4500_separated": true,
+      "prices_reaggregated": 36,
+      "exact_arithmetic": "fractions.Fraction"
+    }
+  },
+  "runtime": {
+    "Python": "3.12.14"
+  },
+  "aggregation_replay": {
+    "status": "PASS_REPLAY_NUMERICAL_VALUES_IDENTICAL",
+    "price_certificates_compared": 3,
+    "price_rows": 36,
+    "compared_price_fields": [
+      "rows",
+      "node_error_cover",
+      "aggregation_price_vector",
+      "D_type_exponent_error_mass_upper_enclosure",
+      "true_tail_whole_curve_coefficient_lower"
+    ],
+    "finite_objective_fields": [
+      "global_finite_minimum_objective_enclosure",
+      "strict_unique_finite_minimizer",
+      "strict_winner_objective_gap_lower",
+      "objective_uniform_perturbation_strict_robustness_radius"
+    ],
+    "actual_Pade_candidate_objective_and_error_vectors_identical": true,
+    "application_winner_alpha": "13/25",
+    "spread_error_upper_exact": "804672648292268312339387519/1267650600228229401496703205376",
+    "scope": "Saved residual/exponent/tail inputs replayed through price and objective aggregation; metadata identities differ under documented public relocation."
+  },
+  "full_continuous_residual_generator_rerun_during_release": false,
+  "wrapper_source_sha256": "24119a1e37af3df9109e521903ac6e4f25916f9317596e3fedd45a1c9ed77a60",
+  "replay_semantic_checker_sha256": "2065efcb30448043ae0e870045ef144b318fec6d39c7140f9c0ab74a15101bdb",
+  "executed_sign_generator_sha256": "e05432cacf2d75a263a27112050c43b0068661e68691c206ac69e252a47ea3c0",
+  "replay_full_English_proof_snapshot_sha256": "3f0ae3f7a154b22c47a4922bf54bf5ed3c4e7522515d56e3d4a6f975f981f1fe",
+  "scope": "All saved signs/closed cover, 16 regenerated interval leaves, field/residual identities, 36 exact price/objective rows, and aggregate replay equality. Source algorithms and frozen mathematical values preserved."
+}

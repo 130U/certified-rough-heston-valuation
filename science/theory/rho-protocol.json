@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CONTINUOUS_RHO_CALCULATION",
+  "question": "Can the strict original raw-polynomial sign cover certify a nonzero continuous correlation interval by exact perturbation bounds?",
+  "alpha": [
+    "13/25",
+    "3/5"
+  ],
+  "rho_centre": "-1489/2000",
+  "rho_half_width": "1/1000000",
+  "kappa": "0",
+  "eta": [
+    "0",
+    "1"
+  ],
+  "frequency_quantifier": "all real Fourier frequencies, including the compactified infinite limit; negative frequencies by conjugacy",
+  "method": "Retain a saved continuous alpha-eta leaf whenever its exact sign margins dominate independently derived uniform rho Lipschitz constants; refine only failing leaves at the original rho and repeat the same exact test.",
+  "maximum_refined_evaluations": 150000,
+  "maximum_additional_leaf_depth": 18,
+  "failure_rule": "Any positive-volume unresolved leaf prevents a full-domain claim for the requested 1/1000000 half-width; report its exact volume and cause.",
+  "fallback_frozen_before_primary_result": "If the primary width is unresolved, set h=min(1/1000000, min_j(m_j/(2*L_j))) using only the original certified global sign minima m_j and the already derived uniform derivative bounds L_j. This deterministic rational rule certifies a possibly very narrow nonzero interval; retain the failed primary attempt and do not call the narrow fallback a practical calibration domain.",
+  "comparison_scope": "This is a structural theorem for the established Padé construction. It does not recertify prices at altered rho or assert a broad empirical calibration domain.",
+  "independence_limit": "The new perturbation proof and cover reader share the original outward dyadic arithmetic primitives. The original two-dimensional cover remains a declared upstream premise.",
+  "privacy_policy": "Publish only mathematical work counts, exact fractions, relative artifact identifiers and hashes; omit execution duration, hardware, operating system and personal paths."
+}

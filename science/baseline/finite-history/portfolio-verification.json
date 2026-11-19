@@ -1,0 +1,28 @@
+{
+  "status": "PASS_PORTFOLIO_IDENTITY_AND_LATEST_RECEIPT_AUDIT",
+  "all_84_supplementary_receipts_match_current_node_files": true,
+  "baseline_historical_implementation_and_coefficient_cache_preserved": true,
+  "primary_stopping_steps_correct": true,
+  "support_and_proof_boundary": "Arithmetic portfolio certificates conditional on upstream and finite-history analytic assumptions. Identity/read-back checks do not substitute for analytic proofs.",
+  "artifact_sha256": {
+    "portfolio-contract.json": "f1157204815543bf3000a7f0dd693640632c0892c4b20e7aaac71f36db8d654c",
+    "portfolio-results.json": "a86e06c1392fa451a1b7652518e83f3778be971f1dd3e69bbc19177c22c38599",
+    "portfolio-results-finite-history.json": "c53ffee0504a6c3f971bee1582d1d5be7d726c7936414640c441c7320676b206",
+    "portfolio-comparison.json": "f10f6c11babc54132442015730e3d88fc8a9323fc506566ea95a6d40a750e10c",
+    "portfolio-research.md": "1a5f52864114a86e79c9fec2fcf9e52afd5bce0057eefcc03694ae217dc54be6",
+    "portfolio-replay-receipt.json": "b5e2e048e0e85692e211743792eaec62cdbb4be0325798fe9977ddc2ff028ceb",
+    "finite-history-independent-verification.json": "381a20d89fe3416f89b2a6b5975e9a5641318a443ea9dd9fb33ecf36b2166bc4",
+    "optimal-upgrade-menu.json": "3b5bfb4338599a1c6c0961e2d11e9fcc612fece3246e9cda7236ddf6fd1afe28",
+    "make_portfolio_contract.py": "8c98b1f7c6b745b35a90754b9e7ae1d1c7f04bb44ca3cd6a64e3967a9c88c5a0",
+    "portfolio-experiments-baseline.py": "d396da579e3ae8c0e2b8b394429576014896b04fd09fedc8710df2d9dda3e057",
+    "portfolio-experiments.py": "4a276ef6e4388138c46139fe3aed5f608a0120790cc4d3fcca29621ea2a4f913",
+    "portfolio-report.py": "90dcaf4a2a04f7375e607e6dc1d689a3adf3e8f78847bac1f7adcb22882e2f14",
+    "verify-finite-history-independent.py": "b16f8624c670fabec6a7010e82150e27659bae66c051b1f9a066ba0c33ae7453",
+    "verify-portfolio-identities.py": "b59de60efe8418e532f9dd26f415e3ea677ef9b0817621823b813b7b119863b3"
+  },
+  "new_replay_return_codes": [
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Certified Joint Pricing Errors in Rough Heston"
+version: "V_202611"
+date-released: 2026-11-19
+abstract: "When every strike is priced from one approximate transform, how much numerical error is left in the portfolio? The paper, its PDF, the proofs and the 27 numerical banks behind every certificate."
+authors:
+  - family-names: Ouyang
+    given-names: "Letao (Theodore)"
+repository-code: "https://github.com/130U/RESEARCH-Certified-Joint-Pricing-Errors-in-Rough-Heston"
+url: "https://www.theodoreoy.com/certified-joint-pricing-errors-in-rough-heston/"
+keywords:
+  - "mathematical finance"
+  - "quantitative finance"
+  - "rough Heston"
+  - "validated numerics"
+  - "interval arithmetic"
+  - "pricing error"
+preferred-citation:
+  type: unpublished
+  title: "Certified Joint Pricing Errors in Rough Heston"
+  authors:
+    - family-names: Ouyang
+      given-names: "Letao (Theodore)"
+  year: 2026
+  url: "https://www.theodoreoy.com/certified-joint-pricing-errors-in-rough-heston/"

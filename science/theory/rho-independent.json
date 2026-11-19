@@ -1,0 +1,31 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_CONTINUOUS_RHO_PERSISTENCE",
+  "original_closed_leaf_count": 211241,
+  "partition_tree_nodes": 422481,
+  "exact_area": "2/25",
+  "rho_half_width": "188572527669732959615625/286689047147847105058509826117599232",
+  "rho_interval": [
+    "-26679999450220092780466287313021031653/35836130893480888132313728264699904000",
+    "-26679999450172949648548854073117125403/35836130893480888132313728264699904000"
+  ],
+  "readable_dyadic_half_width": "1/2199023255552",
+  "readable_dyadic_exponent": 41,
+  "independent_derivative_majorants": true,
+  "all_original_sign_records_checked": true,
+  "primary_unresolved_retained": true,
+  "negative_controls": {
+    "larger_half_width": "REJECTED",
+    "zero_width": "REJECTED",
+    "partial_primary_as_full_domain": "REJECTED",
+    "wrong_damping_parameter": "REJECTED",
+    "missing_initial_low_frequency_boundary": "REJECTED"
+  },
+  "independence_limit": "Checks every saved upstream sign and full continuous cover, and independently assembles all derivative majorants and perturbation bounds. Does not regenerate every original raw interval-polynomial evaluation.",
+  "input_sha256": {
+    "legacy-compact-cover.json.gz": "0f54f7c75e487288540d1b82b323fcbf861c70b9340bf17e2fba67491d6529d7",
+    "rho-fallback.json": "06ac04aef3ac79d4d3b290cfb17b767e33ebe83c826757a19204a34866f03218",
+    "rho-cover.json.gz": "8913a9c27d447e8b217ebd31d8b108004cde71e1ee292a2c4c7bd5b71e615241",
+    "rho-protocol.json": "05b37a769bf27058c464800f56c7ac3e1cf2c9b15989e4f0dafc518d1d8ac4b8"
+  },
+  "checker_sha256": "d993cf5ab4bb56b5bb046ed7f9d5a7856215731b77bcd7fdae59c11215f2eccd"
+}

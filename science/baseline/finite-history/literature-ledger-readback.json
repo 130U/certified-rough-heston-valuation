@@ -1,0 +1,51 @@
+{
+  "status": "PASS_INDEPENDENT_RATIONAL_LEDGER_AND_UNIT_MENU_READBACK",
+  "command": "python finite-history/literature-ledger-readback.py",
+  "python_version": "3.12.14",
+  "script_sha256": "1780bf335b1261efc592b3993c8ce3add3eb9855363184b6c5a7c5721268e9cc",
+  "input_sha256": {
+    "finite-history-results.json": "17ab19b8620296ff3f73ba5807ec58bb1139efa66f09fffb2b0ce995c01376ae",
+    "optimal-upgrade-menu.json": "3b5bfb4338599a1c6c0961e2d11e9fcc612fece3246e9cda7236ddf6fd1afe28"
+  },
+  "records": [
+    {
+      "alpha": "13/25",
+      "all_finite_nodes_accounted": 1025,
+      "upgraded_nodes": 513,
+      "primary_stopping_count": 82,
+      "full_bound_index_points": 0.3785989555890648,
+      "same_centre_same_remainder": true,
+      "rounding_gap_retained": true,
+      "exact_prefix_and_final_interval_match": true,
+      "fixed_menu_unit_count_optimum": 82,
+      "top81_exact_failure_top82_exact_pass": true
+    },
+    {
+      "alpha": "3/5",
+      "all_finite_nodes_accounted": 1025,
+      "upgraded_nodes": 513,
+      "primary_stopping_count": 0,
+      "full_bound_index_points": 0.23589208521733526,
+      "same_centre_same_remainder": true,
+      "rounding_gap_retained": true,
+      "exact_prefix_and_final_interval_match": true
+    },
+    {
+      "alpha": "9/10",
+      "all_finite_nodes_accounted": 1025,
+      "upgraded_nodes": 513,
+      "primary_stopping_count": 0,
+      "full_bound_index_points": 0.3852721947526225,
+      "same_centre_same_remainder": true,
+      "rounding_gap_retained": true,
+      "exact_prefix_and_final_interval_match": true
+    }
+  ],
+  "limits": [
+    "No import of finite-history.py or its supporting interval primitives.",
+    "Saved moment and CF-radius certificates are inputs, not independently established here.",
+    "The 82 optimum counts supplied unit upgrades after all 513 new radii are known.",
+    "All-radius generation and original continuous-residual costs remain in total work.",
+    "This audit does not accept or regenerate newly retained time-envelope files."
+  ]
+}
